@@ -2,22 +2,26 @@ using UnityEngine;
 
 namespace DungeonKnight.Level
 {
+    [RequireComponent(typeof(SpriteRenderer))]
     public class SkeletonEnemyVisual3D : MonoBehaviour
     {
-        [SerializeField] private float walkFrameRate = 7f;
-        [SerializeField] private float attackFrameDuration = 0.14f;
+        [SerializeField] private float attackFrameRate = 12f;
+        [SerializeField] private float walkFrameRate = 8f;
+        [SerializeField] private float moveBob = 0.08f;
+        [SerializeField] private float moveSway = 4.5f;
 
         private SpriteRenderer spriteRenderer;
+        private Transform cameraTransform;
         private Sprite idleSprite;
         private Sprite[] attackSprites;
         private Sprite[] walkFrontSprites;
         private Sprite[] walkLeftSprites;
         private Sprite[] walkRightSprites;
-        private float frameTimer;
+        private Vector3 baseLocalPosition;
+        private Vector3 movementDirection = Vector3.forward;
         private float attackUntil;
-        private int frameIndex;
+        private float attackStartedAt;
         private bool moving;
-        private Vector3 movementDirection;
 
         public void Configure(Sprite idle, Sprite[] attacks, Sprite[] walkFront, Sprite[] walkLeft, Sprite[] walkRight)
         {
@@ -27,7 +31,8 @@ namespace DungeonKnight.Level
             walkFrontSprites = walkFront;
             walkLeftSprites = walkLeft;
             walkRightSprites = walkRight;
-            if (spriteRenderer) spriteRenderer.sprite = idleSprite;
+            baseLocalPosition = transform.localPosition;
+            if (idleSprite) spriteRenderer.sprite = idleSprite;
         }
 
         public void SetMovement(bool value, Vector3 direction)
@@ -41,92 +46,85 @@ namespace DungeonKnight.Level
 
         public void PlayAttack(Vector3 directionToPlayer)
         {
-            Sprite attackSprite = PickAttackSprite(directionToPlayer);
-            if (spriteRenderer && attackSprite)
-            {
-                spriteRenderer.sprite = attackSprite;
-            }
+            if (attackSprites == null || attackSprites.Length == 0) return;
 
-            attackUntil = Time.time + attackFrameDuration;
+            attackStartedAt = Time.time;
+            attackUntil = Time.time + 0.55f;
+            spriteRenderer.sprite = ChooseAttackSprite(directionToPlayer);
+            transform.localPosition = baseLocalPosition + Vector3.up * 0.05f;
         }
 
-        private void Awake()
+        private void LateUpdate()
         {
-            spriteRenderer = GetComponent<SpriteRenderer>();
-        }
+            if (!spriteRenderer) spriteRenderer = GetComponent<SpriteRenderer>();
 
-        private void Update()
-        {
-            if (!spriteRenderer) return;
-            FaceCamera();
+            UpdateBillboard();
 
-            if (Time.time < attackUntil) return;
-
-            if (!moving)
+            if (Time.time < attackUntil)
             {
-                spriteRenderer.sprite = idleSprite;
+                float elapsed = Time.time - attackStartedAt;
+                int frame = Mathf.FloorToInt(elapsed * attackFrameRate);
+                if (attackSprites != null && attackSprites.Length > 0)
+                {
+                    spriteRenderer.sprite = attackSprites[Mathf.Clamp(frame, 0, attackSprites.Length - 1)];
+                }
+
                 return;
             }
 
-            Sprite[] frames = PickWalkFrames(movementDirection);
-            if (frames == null || frames.Length == 0)
+            if (moving)
+            {
+                Sprite[] walkSprites = ChooseWalkSprites(movementDirection);
+                if (walkSprites != null && walkSprites.Length > 0)
+                {
+                    int frame = Mathf.FloorToInt(Time.time * walkFrameRate) % walkSprites.Length;
+                    spriteRenderer.sprite = walkSprites[frame];
+                }
+            }
+            else if (idleSprite && spriteRenderer.sprite != idleSprite)
             {
                 spriteRenderer.sprite = idleSprite;
-                return;
             }
 
-            frameTimer += Time.deltaTime;
-            if (frameTimer >= 1f / Mathf.Max(1f, walkFrameRate))
-            {
-                frameTimer = 0f;
-                frameIndex = (frameIndex + 1) % frames.Length;
-            }
-
-            if (frames[frameIndex])
-            {
-                spriteRenderer.sprite = frames[frameIndex];
-            }
+            float bob = moving ? Mathf.Sin(Time.time * moveSway) * moveBob : 0f;
+            transform.localPosition = baseLocalPosition + Vector3.up * bob;
         }
 
-        private void FaceCamera()
-        {
-            Camera camera = Camera.main;
-            if (!camera) return;
-
-            Vector3 direction = transform.position - camera.transform.position;
-            direction.y = 0f;
-            if (direction.sqrMagnitude > 0.001f)
-            {
-                transform.rotation = Quaternion.LookRotation(direction);
-            }
-        }
-
-        private Sprite[] PickWalkFrames(Vector3 direction)
-        {
-            if (Mathf.Abs(direction.x) > Mathf.Abs(direction.z))
-            {
-                return direction.x < 0f ? walkLeftSprites : walkRightSprites;
-            }
-
-            return walkFrontSprites;
-        }
-
-        private Sprite PickAttackSprite(Vector3 direction)
+        private Sprite ChooseAttackSprite(Vector3 directionToPlayer)
         {
             if (attackSprites == null || attackSprites.Length == 0) return idleSprite;
 
-            int index = 0;
-            if (Mathf.Abs(direction.x) > Mathf.Abs(direction.z))
+            Vector3 localDirection = transform.parent ? transform.parent.InverseTransformDirection(directionToPlayer.normalized) : directionToPlayer.normalized;
+            if (localDirection.z < -0.45f && attackSprites.Length > 1) return attackSprites[1];
+            if (localDirection.x > 0.45f && attackSprites.Length > 2) return attackSprites[2];
+            if (localDirection.x < -0.45f && attackSprites.Length > 3) return attackSprites[3];
+            if (localDirection.x < -0.15f && attackSprites.Length > 4) return attackSprites[4];
+            if (localDirection.x > 0.15f && attackSprites.Length > 5) return attackSprites[5];
+            return attackSprites[0];
+        }
+
+        private Sprite[] ChooseWalkSprites(Vector3 direction)
+        {
+            Vector3 localDirection = transform.parent ? transform.parent.InverseTransformDirection(direction.normalized) : direction.normalized;
+            if (localDirection.x < -0.35f && walkLeftSprites != null && walkLeftSprites.Length > 0) return walkLeftSprites;
+            if (localDirection.x > 0.35f && walkRightSprites != null && walkRightSprites.Length > 0) return walkRightSprites;
+            return walkFrontSprites;
+        }
+
+        private void UpdateBillboard()
+        {
+            if (!cameraTransform && Camera.main)
             {
-                index = direction.x < 0f ? 3 : 2;
-            }
-            else if (direction.z > 0f)
-            {
-                index = 1;
+                cameraTransform = Camera.main.transform;
             }
 
-            index = Mathf.Clamp(index, 0, attackSprites.Length - 1);
-            return attackSprites[index] ? attackSprites[index] : idleSprite;
+            if (!cameraTransform) return;
+
+            Vector3 toCamera = transform.position - cameraTransform.position;
+            toCamera.y = 0f;
+            if (toCamera.sqrMagnitude < 0.001f) return;
+
+            transform.rotation = Quaternion.LookRotation(toCamera.normalized, Vector3.up);
         }
     }
 }

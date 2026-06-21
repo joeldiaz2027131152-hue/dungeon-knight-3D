@@ -21,27 +21,37 @@ namespace DungeonKnight.UI
 
             titleStyle ??= new GUIStyle(GUI.skin.label)
             {
-                fontSize = 18,
+                fontSize = 16,
                 fontStyle = FontStyle.Bold,
                 normal = { textColor = new Color(0.93f, 0.88f, 0.76f) }
             };
             smallStyle ??= new GUIStyle(GUI.skin.label)
             {
-                fontSize = 13,
+                fontSize = 12,
+                wordWrap = true,
                 normal = { textColor = new Color(0.8f, 0.83f, 0.88f) }
             };
             messageStyle ??= new GUIStyle(titleStyle)
             {
-                fontSize = 17,
+                fontSize = 15,
                 alignment = TextAnchor.MiddleCenter,
                 wordWrap = true,
                 normal = { textColor = new Color(1f, 0.87f, 0.46f) }
             };
 
-            GUI.Label(new Rect(22, 18, 240, 28), "Dungeon Knight 3D", titleStyle);
-            DrawBar(new Rect(22, 50, 230, 18), player.Health / (float)player.MaxHealth, new Color(0.38f, 0.04f, 0.06f), new Color(0.9f, 0.12f, 0.12f), $"HP {player.Health}/{player.MaxHealth}");
-            DrawBar(new Rect(22, 76, 230, 18), player.Stamina / player.MaxStamina, new Color(0.07f, 0.3f, 0.17f), new Color(0.28f, 0.9f, 0.42f), $"ST {Mathf.RoundToInt(player.Stamina)}/{Mathf.RoundToInt(player.MaxStamina)}");
-            GUI.Label(new Rect(22, 102, 260, 24), $"Monedas: {player.Coins}   Pociones: {player.Potions}   Llave: {(player.HasGateKey ? "si" : "no")}", smallStyle);
+            GUI.Label(new Rect(22, 18, 220, 24), "Dungeon Knight 3D", titleStyle);
+            DrawBar(new Rect(22, 47, 220, 15), player.Health / (float)player.MaxHealth, new Color(0.38f, 0.04f, 0.06f), new Color(0.9f, 0.12f, 0.12f), $"HP {player.Health}/{player.MaxHealth}");
+            DrawBar(new Rect(22, 68, 220, 15), player.Stamina / player.MaxStamina, new Color(0.07f, 0.3f, 0.17f), new Color(0.28f, 0.9f, 0.42f), $"ST {Mathf.RoundToInt(player.Stamina)}/{Mathf.RoundToInt(player.MaxStamina)}");
+            GUI.Label(new Rect(22, 91, 460, 22), $"Almas: {player.Coins}   Pociones: {player.Potions}   Porton: {(player.HasGateKey ? "si" : "no")}   Torre: {(player.HasTowerKey ? "si" : "no")}   Lock-on: {(player.HasLockOn ? "si" : "no")}", smallStyle);
+
+            if (player.LockOnTarget)
+            {
+                Rect targetBox = new Rect(Screen.width * 0.5f - 150f, 22f, 300f, 56f);
+                DrawBox(targetBox, new Color(0.025f, 0.02f, 0.025f, 0.82f), new Color(0.7f, 0.48f, 0.22f, 0.75f));
+                GUI.Label(new Rect(targetBox.x + 12f, targetBox.y + 5f, targetBox.width - 24f, 18f), "Objetivo fijado", smallStyle);
+                DrawBar(new Rect(targetBox.x + 12f, targetBox.y + 25f, targetBox.width - 24f, 10f), player.LockOnTarget.HealthFraction, new Color(0.24f, 0.03f, 0.04f), new Color(0.84f, 0.1f, 0.1f), "");
+                DrawBar(new Rect(targetBox.x + 12f, targetBox.y + 39f, targetBox.width - 24f, 9f), player.LockOnTarget.PostureFraction, new Color(0.22f, 0.18f, 0.07f), new Color(0.95f, 0.68f, 0.18f), "");
+            }
 
             string status = player.StatusMessage;
             if (!string.IsNullOrEmpty(status))
@@ -51,12 +61,11 @@ namespace DungeonKnight.UI
                 GUI.Label(new Rect(box.x + 14f, box.y + 7f, box.width - 28f, box.height - 14f), status, messageStyle);
             }
 
-            Rect help = new Rect(18, Screen.height - 38, 760, 26);
-            DrawBox(help, new Color(0.035f, 0.04f, 0.055f, 0.78f), new Color(0.52f, 0.42f, 0.24f, 0.72f));
-            GUI.Label(
-                new Rect(help.x + 12, help.y + 4, help.width - 24, help.height),
-                "WASD: moverte   Space: saltar   Tab: fijar enemigo   J: atacar/cargar   K: escudo   L: rodar   E: usar   Q: pocion",
-                smallStyle);
+            float helpWidth = Mathf.Min(720f, Screen.width - 36f);
+            float helpHeight = Screen.width < 760f ? 42f : 24f;
+            Rect help = new Rect(18, Screen.height - helpHeight - 12f, helpWidth, helpHeight);
+            DrawBox(help, new Color(0.035f, 0.04f, 0.055f, 0.62f), new Color(0.52f, 0.42f, 0.24f, 0.58f));
+            GUI.Label(new Rect(help.x + 12, help.y + 4, help.width - 24, help.height), "WASD: moverte   Tab: fijar enemigo   Space: saltar   J: atacar/cargar   K: escudo/parry   L: rodar   E: usar   Q: pocion", smallStyle);
         }
 
         private static void DrawBar(Rect rect, float fill, Color back, Color front, string label)

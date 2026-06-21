@@ -18,7 +18,6 @@ El script `WorldOneOneBootstrap` redirige el arranque hacia `DungeonKnight3DBoot
 
 - `WASD` o flechas: moverse
 - `Space`: saltar
-- `Tab`: fijar/liberar al enemigo mas cercano
 - `J`: atacar; mantener para golpe cargado
 - `K`: escudo
 - `L`: rodar
@@ -32,7 +31,8 @@ El script `WorldOneOneBootstrap` redirige el arranque hacia `DungeonKnight3DBoot
 - World 1-1 generado con piso, muros, columnas, antorchas, plataformas y porton.
 - World 1-2 con patio exterior, pasarelas, escaleras, plataforma movil, trampas de fuego, cuchilla y cofres.
 - Torre 1-3 con pisos verticales, hoguera, plataforma movil, guardian final y salida.
-- Enemigos 3D que persiguen y hacen dano al jugador.
+- Puertas conectadas de ida y vuelta entre 1-1, 1-2 y 1-3 usando `E`.
+- Enemigos 3D que persiguen y hacen dano al jugador, usando el sprite del soldado esqueletico con casco y espada como visual.
 - Guardian que suelta la llave del porton.
 - Cofres, monedas, pociones, hogueras/checkpoints, tablillas de ayuda y salida.
 

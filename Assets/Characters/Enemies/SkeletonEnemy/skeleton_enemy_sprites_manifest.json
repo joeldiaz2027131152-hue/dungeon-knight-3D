@@ -1,0 +1,83 @@
+{
+  "source_reference": "/home/jowy/Pictures/Screenshots/enemigos/2026-06-06_12-59-01.png",
+  "generated_source": "/home/jowy/.codex/generated_images/019ed153-086d-7fc0-a706-7598c95b40d4/ig_081306f8d10610ef016a317e1a27988196b2b46a48b84fbbec.png",
+  "assets": {
+    "reference_cutout": "skeleton_enemy_reference_cutout.png",
+    "transparent_sheet": "skeleton_enemy_attack_directions_sheet.png",
+    "frames": [
+      {
+        "name": "attack_front_slash",
+        "file": "skeleton_enemy_attack_front_slash.png",
+        "size": [
+          430,
+          453
+        ],
+        "grid_cell": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "attack_back_slash",
+        "file": "skeleton_enemy_attack_back_slash.png",
+        "size": [
+          421,
+          452
+        ],
+        "grid_cell": [
+          1,
+          0
+        ]
+      },
+      {
+        "name": "attack_right_slash",
+        "file": "skeleton_enemy_attack_right_slash.png",
+        "size": [
+          510,
+          423
+        ],
+        "grid_cell": [
+          2,
+          0
+        ]
+      },
+      {
+        "name": "attack_left_slash",
+        "file": "skeleton_enemy_attack_left_slash.png",
+        "size": [
+          505,
+          433
+        ],
+        "grid_cell": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "attack_front_left_slash",
+        "file": "skeleton_enemy_attack_front_left_slash.png",
+        "size": [
+          390,
+          429
+        ],
+        "grid_cell": [
+          1,
+          1
+        ]
+      },
+      {
+        "name": "attack_front_right_slash",
+        "file": "skeleton_enemy_attack_front_right_slash.png",
+        "size": [
+          452,
+          430
+        ],
+        "grid_cell": [
+          2,
+          1
+        ]
+      }
+    ]
+  },
+  "unity_import_hint": "Set Texture Type to Sprite (2D and UI), Sprite Mode to Multiple for the sheet or Single for individual frame PNGs, Filter Mode Point for pixel art."
+}

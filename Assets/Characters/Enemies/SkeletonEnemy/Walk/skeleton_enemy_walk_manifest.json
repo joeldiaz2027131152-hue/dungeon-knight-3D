@@ -1,0 +1,205 @@
+{
+  "source_chroma": "skeleton_enemy_walk_source_chroma.png",
+  "transparent_sheet": "skeleton_enemy_walk_sheet.png",
+  "layout": "4 columns x 3 rows",
+  "rows": [
+    "front walk frames 1-4",
+    "left walk frames 1-4",
+    "right walk frames 1-4"
+  ],
+  "frames": [
+    {
+      "direction": "front",
+      "frame": 1,
+      "name": "front_01",
+      "file": "skeleton_enemy_walk_front_01.png",
+      "size": [
+        296,
+        373
+      ],
+      "bbox_in_sheet": [
+        63,
+        0,
+        359,
+        373
+      ]
+    },
+    {
+      "direction": "front",
+      "frame": 2,
+      "name": "front_02",
+      "file": "skeleton_enemy_walk_front_02.png",
+      "size": [
+        293,
+        373
+      ],
+      "bbox_in_sheet": [
+        392,
+        0,
+        685,
+        373
+      ]
+    },
+    {
+      "direction": "front",
+      "frame": 3,
+      "name": "front_03",
+      "file": "skeleton_enemy_walk_front_03.png",
+      "size": [
+        295,
+        373
+      ],
+      "bbox_in_sheet": [
+        718,
+        0,
+        1013,
+        373
+      ]
+    },
+    {
+      "direction": "front",
+      "frame": 4,
+      "name": "front_04",
+      "file": "skeleton_enemy_walk_front_04.png",
+      "size": [
+        289,
+        373
+      ],
+      "bbox_in_sheet": [
+        1046,
+        0,
+        1335,
+        373
+      ]
+    },
+    {
+      "direction": "left",
+      "frame": 1,
+      "name": "left_01",
+      "file": "skeleton_enemy_walk_left_01.png",
+      "size": [
+        290,
+        344
+      ],
+      "bbox_in_sheet": [
+        59,
+        359,
+        349,
+        703
+      ]
+    },
+    {
+      "direction": "left",
+      "frame": 2,
+      "name": "left_02",
+      "file": "skeleton_enemy_walk_left_02.png",
+      "size": [
+        305,
+        344
+      ],
+      "bbox_in_sheet": [
+        369,
+        359,
+        674,
+        703
+      ]
+    },
+    {
+      "direction": "left",
+      "frame": 3,
+      "name": "left_03",
+      "file": "skeleton_enemy_walk_left_03.png",
+      "size": [
+        301,
+        344
+      ],
+      "bbox_in_sheet": [
+        698,
+        359,
+        999,
+        703
+      ]
+    },
+    {
+      "direction": "left",
+      "frame": 4,
+      "name": "left_04",
+      "file": "skeleton_enemy_walk_left_04.png",
+      "size": [
+        285,
+        344
+      ],
+      "bbox_in_sheet": [
+        1024,
+        359,
+        1309,
+        703
+      ]
+    },
+    {
+      "direction": "right",
+      "frame": 1,
+      "name": "right_01",
+      "file": "skeleton_enemy_walk_right_01.png",
+      "size": [
+        287,
+        347
+      ],
+      "bbox_in_sheet": [
+        89,
+        689,
+        376,
+        1036
+      ]
+    },
+    {
+      "direction": "right",
+      "frame": 2,
+      "name": "right_02",
+      "file": "skeleton_enemy_walk_right_02.png",
+      "size": [
+        295,
+        347
+      ],
+      "bbox_in_sheet": [
+        401,
+        689,
+        696,
+        1036
+      ]
+    },
+    {
+      "direction": "right",
+      "frame": 3,
+      "name": "right_03",
+      "file": "skeleton_enemy_walk_right_03.png",
+      "size": [
+        290,
+        347
+      ],
+      "bbox_in_sheet": [
+        729,
+        689,
+        1019,
+        1036
+      ]
+    },
+    {
+      "direction": "right",
+      "frame": 4,
+      "name": "right_04",
+      "file": "skeleton_enemy_walk_right_04.png",
+      "size": [
+        304,
+        347
+      ],
+      "bbox_in_sheet": [
+        1050,
+        689,
+        1354,
+        1036
+      ]
+    }
+  ],
+  "unity_import_hint": "Use skeleton_enemy_walk_sheet.png as Sprite Mode Multiple, or individual frame PNGs as Single. For pixel art, set Filter Mode to Point and Compression to None or Low Quality."
+}

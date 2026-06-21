@@ -5,11 +5,11 @@ namespace DungeonKnight.Player
 {
     internal sealed class PlayerInteractionScanner3D
     {
-        private readonly Collider[] interactHits = new Collider[8];
+        private readonly Collider[] interactHits = new Collider[24];
 
         public DungeonInteractable3D FindClosest(Vector3 origin, Vector3 playerPosition, float radius)
         {
-            int count = Physics.OverlapSphereNonAlloc(origin, radius, interactHits);
+            int count = Physics.OverlapSphereNonAlloc(origin, radius, interactHits, ~0, QueryTriggerInteraction.Collide);
             DungeonInteractable3D closest = null;
             float closestDistance = float.MaxValue;
 

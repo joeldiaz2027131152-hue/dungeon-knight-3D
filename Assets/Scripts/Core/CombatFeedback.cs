@@ -1,4 +1,5 @@
 using System.Collections;
+using DungeonKnight.Level;
 using UnityEngine;
 
 namespace DungeonKnight
@@ -16,7 +17,11 @@ namespace DungeonKnight
 
         public static void Shake(float seconds, float strength)
         {
-            // Camera shake is implemented by camera-specific controllers.
+            CameraFollow2D cameraFollow = Camera.main ? Camera.main.GetComponent<CameraFollow2D>() : null;
+            if (cameraFollow)
+            {
+                cameraFollow.Shake(seconds, strength);
+            }
         }
 
         private static CombatFeedback Instance()

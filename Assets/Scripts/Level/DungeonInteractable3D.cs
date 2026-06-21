@@ -11,8 +11,11 @@ namespace DungeonKnight.Level
             Bonfire,
             Chest,
             Gate,
+            TowerGate,
             Door,
-            Exit
+            Exit,
+            Elevator,
+            Npc
         }
 
         [SerializeField] private InteractionKind kind;
@@ -20,8 +23,11 @@ namespace DungeonKnight.Level
         [SerializeField] private int coinReward;
         [SerializeField] private bool used;
         [SerializeField] private Transform linkedObject;
-        private Vector3 doorDestination;
-        private Vector3 doorFacing = Vector3.forward;
+        [SerializeField] private DungeonShortcutElevator3D linkedElevator;
+        [SerializeField] private DungeonChestVisual3D chestVisual;
+        [SerializeField] private Vector3 destination;
+        [SerializeField] private Vector3 destinationFacing = Vector3.forward;
+        [SerializeField] private bool upperElevatorSwitch;
 
         public void ConfigureLore(string lore)
         {
@@ -37,8 +43,14 @@ namespace DungeonKnight.Level
 
         public void ConfigureChest(int coins)
         {
+            ConfigureChest(coins, null);
+        }
+
+        public void ConfigureChest(int coins, DungeonChestVisual3D visual)
+        {
             kind = InteractionKind.Chest;
             coinReward = coins;
+            chestVisual = visual;
             text = "Cofre abierto";
         }
 
@@ -49,11 +61,18 @@ namespace DungeonKnight.Level
             text = "El porton exige la llave del guardian.";
         }
 
-        public void ConfigureDoor(Vector3 destination, Vector3 facing, string travelText)
+        public void ConfigureTowerGate(Transform gate)
+        {
+            kind = InteractionKind.TowerGate;
+            linkedObject = gate;
+            text = "La puerta de la torre exige la llave del guardian de la niebla.";
+        }
+
+        public void ConfigureDoor(Vector3 newDestination, Vector3 newFacing, string travelText)
         {
             kind = InteractionKind.Door;
-            doorDestination = destination;
-            doorFacing = facing.sqrMagnitude > 0.001f ? facing.normalized : Vector3.forward;
+            destination = newDestination;
+            destinationFacing = newFacing;
             text = travelText;
         }
 
@@ -61,6 +80,20 @@ namespace DungeonKnight.Level
         {
             kind = InteractionKind.Exit;
             text = "Demo 3D completada. La salida queda lista para el siguiente nivel.";
+        }
+
+        public void ConfigureElevator(DungeonShortcutElevator3D elevator, bool fromUpperSwitch)
+        {
+            kind = InteractionKind.Elevator;
+            linkedElevator = elevator;
+            upperElevatorSwitch = fromUpperSwitch;
+            text = fromUpperSwitch ? "Activar elevador de atajo." : "Usar elevador.";
+        }
+
+        public void ConfigureNpc(string dialogue)
+        {
+            kind = InteractionKind.Npc;
+            text = dialogue;
         }
 
         public void Interact(PlayerController3D player)
@@ -82,7 +115,9 @@ namespace DungeonKnight.Level
 
                     used = true;
                     player.AddCoins(coinReward);
-                    transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 0.55f, transform.localScale.z);
+                    if (chestVisual) chestVisual.Open();
+                    else transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 0.55f, transform.localScale.z);
+                    CameraFollow3D.Shake(0.08f, 0.12f);
                     player.ShowMessage(text, 1.8f);
                     break;
                 case InteractionKind.Gate:
@@ -99,13 +134,33 @@ namespace DungeonKnight.Level
 
                     player.ShowMessage("La llave gira. El porton se abre.", 2f);
                     break;
+                case InteractionKind.TowerGate:
+                    if (!player.HasTowerKey)
+                    {
+                        player.ShowMessage(text, 2.3f);
+                        return;
+                    }
+
+                    if (linkedObject)
+                    {
+                        linkedObject.gameObject.SetActive(false);
+                    }
+
+                    player.ShowMessage("La llave de la torre abre el camino.", 2.2f);
+                    CameraFollow3D.Shake(0.16f, 0.25f);
+                    break;
                 case InteractionKind.Door:
-                    player.transform.position = doorDestination;
-                    player.transform.rotation = Quaternion.LookRotation(doorFacing, Vector3.up);
-                    player.ShowMessage(text, 2f);
+                    player.TeleportTo(destination, destinationFacing, text);
                     break;
                 case InteractionKind.Exit:
                     player.ShowMessage(text, 3.2f);
+                    break;
+                case InteractionKind.Elevator:
+                    if (linkedElevator) linkedElevator.TryUse(player, upperElevatorSwitch);
+                    else player.ShowMessage("El mecanismo esta roto.", 1.6f);
+                    break;
+                case InteractionKind.Npc:
+                    player.ShowMessage(text, 5f);
                     break;
             }
         }

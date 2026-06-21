@@ -1,0 +1,42 @@
+newmtl dark_steel
+Ka 0.18 0.19 0.21
+Kd 0.65 0.66 0.64
+Ks 0.25 0.25 0.25
+Ns 40
+illum 2
+
+newmtl bright_steel
+Ka 0.48 0.50 0.52
+Kd 0.9 0.92 0.9
+Ks 0.25 0.25 0.25
+Ns 40
+illum 2
+
+newmtl gold
+Ka 0.86 0.62 0.22
+Kd 1.0 0.8 0.32
+Ks 0.25 0.25 0.25
+Ns 40
+illum 2
+
+newmtl blue_cloth
+Ka 0.05 0.12 0.22
+Kd 0.08 0.18 0.34
+Ks 0.25 0.25 0.25
+Ns 40
+illum 2
+
+newmtl black
+Ka 0.03 0.03 0.04
+Kd 0.08 0.08 0.09
+Ks 0.25 0.25 0.25
+Ns 40
+illum 2
+
+newmtl red_gem
+Ka 0.55 0.02 0.04
+Kd 0.95 0.08 0.1
+Ks 0.25 0.25 0.25
+Ns 40
+illum 2
+

@@ -47,7 +47,7 @@ namespace DungeonKnight.Level
                 cameraObject.tag = "MainCamera";
             }
 
-            camera.transform.position = DungeonKnight3DBootstrap.PlayerSpawn + CameraFollow3D.DefaultOffset;
+            camera.transform.position = DungeonKnight3DBootstrap.PlayerSpawn + new Vector3(0f, 7.8f, -8.9f);
             camera.transform.rotation = Quaternion.Euler(48f, 0f, 0f);
             camera.fieldOfView = 58f;
             camera.nearClipPlane = 0.08f;

@@ -1,0 +1,374 @@
+{
+  "purpose": "Frames normalized so walk and attack animations keep the same visual scale in Unity.",
+  "canvas_per_frame": [
+    640,
+    640
+  ],
+  "target_visible_height_px": 400,
+  "baseline_y_px": 570,
+  "resampling": "nearest",
+  "attack_sheet": "skeleton_enemy_attack_normalized_sheet.png",
+  "walk_sheet": "skeleton_enemy_walk_normalized_sheet.png",
+  "attack_frames": [
+    {
+      "name": "attack_front_slash",
+      "source": "skeleton_enemy_attack_front_slash.png",
+      "file": "skeleton_enemy_attack_front_slash_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 0.9685,
+      "normalized_visible_size": [
+        378,
+        400
+      ],
+      "sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "attack_back_slash",
+      "source": "skeleton_enemy_attack_back_slash.png",
+      "file": "skeleton_enemy_attack_back_slash_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 0.9709,
+      "normalized_visible_size": [
+        370,
+        400
+      ],
+      "sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "attack_right_slash",
+      "source": "skeleton_enemy_attack_right_slash.png",
+      "file": "skeleton_enemy_attack_right_slash_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.0444,
+      "normalized_visible_size": [
+        507,
+        400
+      ],
+      "sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "attack_left_slash",
+      "source": "skeleton_enemy_attack_left_slash.png",
+      "file": "skeleton_enemy_attack_left_slash_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.0178,
+      "normalized_visible_size": [
+        485,
+        400
+      ],
+      "sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "attack_front_left_slash",
+      "source": "skeleton_enemy_attack_front_left_slash.png",
+      "file": "skeleton_enemy_attack_front_left_slash_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.0283,
+      "normalized_visible_size": [
+        360,
+        400
+      ],
+      "sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "attack_front_right_slash",
+      "source": "skeleton_enemy_attack_front_right_slash.png",
+      "file": "skeleton_enemy_attack_front_right_slash_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.0256,
+      "normalized_visible_size": [
+        438,
+        400
+      ],
+      "sheet_cell": [
+        2,
+        1
+      ]
+    }
+  ],
+  "walk_frames": [
+    {
+      "name": "walk_front_01",
+      "source": "Walk/skeleton_enemy_walk_front_01.png",
+      "file": "skeleton_enemy_walk_front_01_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.1869,
+      "normalized_visible_size": [
+        309,
+        400
+      ],
+      "sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "walk_front_02",
+      "source": "Walk/skeleton_enemy_walk_front_02.png",
+      "file": "skeleton_enemy_walk_front_02_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.1834,
+      "normalized_visible_size": [
+        304,
+        400
+      ],
+      "sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "walk_front_03",
+      "source": "Walk/skeleton_enemy_walk_front_03.png",
+      "file": "skeleton_enemy_walk_front_03_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.1869,
+      "normalized_visible_size": [
+        307,
+        400
+      ],
+      "sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "walk_front_04",
+      "source": "Walk/skeleton_enemy_walk_front_04.png",
+      "file": "skeleton_enemy_walk_front_04_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.1834,
+      "normalized_visible_size": [
+        299,
+        400
+      ],
+      "sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "walk_left_01",
+      "source": "Walk/skeleton_enemy_walk_left_01.png",
+      "file": "skeleton_enemy_walk_left_01_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.3115,
+      "normalized_visible_size": [
+        333,
+        400
+      ],
+      "sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "walk_left_02",
+      "source": "Walk/skeleton_enemy_walk_left_02.png",
+      "file": "skeleton_enemy_walk_left_02_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.2987,
+      "normalized_visible_size": [
+        349,
+        400
+      ],
+      "sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "walk_left_03",
+      "source": "Walk/skeleton_enemy_walk_left_03.png",
+      "file": "skeleton_enemy_walk_left_03_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.3115,
+      "normalized_visible_size": [
+        348,
+        400
+      ],
+      "sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "walk_left_04",
+      "source": "Walk/skeleton_enemy_walk_left_04.png",
+      "file": "skeleton_enemy_walk_left_04_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.3029,
+      "normalized_visible_size": [
+        324,
+        400
+      ],
+      "sheet_cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "walk_right_01",
+      "source": "Walk/skeleton_enemy_walk_right_01.png",
+      "file": "skeleton_enemy_walk_right_01_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.2987,
+      "normalized_visible_size": [
+        326,
+        400
+      ],
+      "sheet_cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "walk_right_02",
+      "source": "Walk/skeleton_enemy_walk_right_02.png",
+      "file": "skeleton_enemy_walk_right_02_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.2862,
+      "normalized_visible_size": [
+        333,
+        400
+      ],
+      "sheet_cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "walk_right_03",
+      "source": "Walk/skeleton_enemy_walk_right_03.png",
+      "file": "skeleton_enemy_walk_right_03_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.2987,
+      "normalized_visible_size": [
+        330,
+        400
+      ],
+      "sheet_cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "walk_right_04",
+      "source": "Walk/skeleton_enemy_walk_right_04.png",
+      "file": "skeleton_enemy_walk_right_04_normalized.png",
+      "canvas": [
+        640,
+        640
+      ],
+      "target_visible_height": 400,
+      "scale_factor": 1.2987,
+      "normalized_visible_size": [
+        348,
+        400
+      ],
+      "sheet_cell": [
+        3,
+        2
+      ]
+    }
+  ],
+  "unity_import_hint": "Use these Normalized PNGs for animation clips. Import as Sprite, keep Pixels Per Unit the same for all files, Filter Mode Point, Compression None or Low. The originals remain unchanged.",
+  "idle_frame": {
+    "name": "idle",
+    "source": "skeleton_enemy_reference_cutout.png",
+    "file": "skeleton_enemy_idle_normalized.png",
+    "canvas": [
+      640,
+      640
+    ],
+    "target_visible_height": 400,
+    "scale_factor": 0.7968,
+    "normalized_visible_size": [
+      358,
+      400
+    ]
+  }
+}

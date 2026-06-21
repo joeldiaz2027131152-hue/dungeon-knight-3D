@@ -6,11 +6,9 @@ namespace DungeonKnight.Player
     [RequireComponent(typeof(CharacterController))]
     public class PlayerController3D : MonoBehaviour
     {
-        public const float SharedFocusDistance = 24f;
-
         [Header("Movement")]
-        [SerializeField] private float moveSpeed = 6.2f;
-        [SerializeField] private float dashSpeed = 11f;
+        [SerializeField] private float moveSpeed = 4.2f;
+        [SerializeField] private float dashSpeed = 5.9f;
         [SerializeField] private float jumpSpeed = 7.4f;
         [SerializeField] private float gravity = -22f;
         [SerializeField] private float turnSpeed = 14f;
@@ -20,48 +18,87 @@ namespace DungeonKnight.Player
         [SerializeField] private int chargedAttackDamage = 44;
         [SerializeField] private float attackReach = 1.55f;
         [SerializeField] private float attackRadius = 0.95f;
-        [SerializeField] private float attackCooldown = 0.36f;
-        [SerializeField] private float chargedAttackThreshold = 0.58f;
+        [SerializeField] private float attackCooldown = 0.68f;
+        [SerializeField] private float chargedAttackThreshold = 0.68f;
+        [SerializeField] private float chargedAttackDurationMultiplier = 2.35f;
+        [SerializeField] private float lightAttackDamageWindow = 0.44f;
+        [SerializeField] private float chargedAttackDamageWindow = 0.58f;
         [SerializeField] private float blockMoveMultiplier = 0.42f;
-        [SerializeField] private float lockOnRange = SharedFocusDistance;
+        [SerializeField] private float blockStaminaRecoveryThreshold = 18f;
+        [SerializeField] private float parryWindow = 0.16f;
+        [SerializeField] private float parryStaminaReward = 24f;
+        [SerializeField] private float rollInvulnerableDuration = 0.38f;
+        [SerializeField] private float lockOnRange = 11f;
+        [SerializeField] private float lightAttackStaminaCost = 16f;
+        [SerializeField] private float chargedAttackStaminaCost = 38f;
+        [SerializeField] private float rollStaminaCost = 31f;
+        [SerializeField] private float blockStaminaDrainPerSecond = 13f;
+        [SerializeField] private float staminaRecoveryPerSecond = 19f;
 
-        private readonly PlayerAttackResolver3D attackResolver = new PlayerAttackResolver3D();
-        private readonly PlayerInteractionScanner3D interactionScanner = new PlayerInteractionScanner3D();
-        private readonly PlayerStatusMessenger3D statusMessenger = new PlayerStatusMessenger3D();
-        private readonly PlayerState3D state = new PlayerState3D();
-        private PlayerMovementMotor3D movementMotor;
+        private readonly Collider[] attackHits = new Collider[12];
+        private readonly Collider[] interactHits = new Collider[24];
+        private readonly Collider[] lockOnHits = new Collider[32];
         private CharacterController controller;
         private Transform cameraPivot;
-        private Transform lockOnTarget;
+        private Vector3 velocity;
+        private Vector3 lastMoveDirection = Vector3.forward;
         private float stamina = 100f;
         private float attackTimer;
+        private float attackDuration;
         private float chargeTimer;
+        private float dashTimer;
+        private float hurtTimer;
+        private float invulnerableTimer;
+        private float parryTimer;
+        private float messageUntil;
+        private string message = string.Empty;
+        private Vector3 respawnPoint = DungeonKnight3DBootstrap.PlayerSpawn;
+        private bool blockExhausted;
+        private bool attackCharged;
+        private bool attackHitResolved;
+        private bool deathHandled;
+        private int pendingAttackDamage;
+        private int attackSequence;
+        private DungeonEnemy3D lockOnTarget;
 
-        public int MaxHealth => state.MaxHealth;
-        public int Health => state.Health;
-        public int Coins => state.Coins;
-        public int Potions => state.Potions;
-        public bool HasGateKey => state.HasGateKey;
+        public int MaxHealth { get; private set; } = 120;
+        public int Health { get; private set; } = 120;
+        public int Coins { get; private set; }
+        public int Potions { get; private set; } = 2;
+        public bool HasGateKey { get; private set; }
+        public bool HasTowerKey { get; private set; }
         public float Stamina => stamina;
         public float MaxStamina => 100f;
-        public bool IsBlocking => movementMotor != null && movementMotor.IsBlocking;
-        public bool IsDashing => movementMotor != null && movementMotor.IsDashing;
+        public bool IsBlocking { get; private set; }
+        public bool IsDashing => dashTimer > 0f;
         public bool IsCharging => chargeTimer > 0f;
-        public string StatusMessage => statusMessenger.Current;
-        public Transform LockOnTarget => IsValidLockOnTarget(lockOnTarget) ? lockOnTarget : null;
+        public bool IsAttacking => attackTimer > 0f;
+        public bool IsChargedAttack => attackTimer > 0f && attackCharged;
+        public bool IsInvulnerable => invulnerableTimer > 0f;
+        public int AttackSequence => attackSequence;
+        public float CurrentAttackDuration => attackDuration;
+        public float AttackProgress => attackDuration > 0.001f ? 1f - Mathf.Clamp01(attackTimer / attackDuration) : 1f;
+        public bool IsGrounded => controller && controller.isGrounded;
+        public bool IsMoving { get; private set; }
+        public Vector3 MoveDirection { get; private set; } = Vector3.zero;
+        public Vector3 FacingDirection => lastMoveDirection;
+        public Vector3 PlanarVelocity { get; private set; }
+        public float PlanarSpeed => PlanarVelocity.magnitude;
+        public DungeonEnemy3D LockOnTarget => lockOnTarget && lockOnTarget.IsAlive ? lockOnTarget : null;
+        public bool HasLockOn => LockOnTarget;
+        public string StatusMessage => Time.time < messageUntil ? message : string.Empty;
 
         private void Awake()
         {
             controller = GetComponent<CharacterController>();
             cameraPivot = Camera.main ? Camera.main.transform : null;
-            movementMotor = new PlayerMovementMotor3D(moveSpeed, dashSpeed, jumpSpeed, gravity, turnSpeed, blockMoveMultiplier);
         }
 
         private void Update()
         {
             if (!cameraPivot && Camera.main) cameraPivot = Camera.main.transform;
 
-            if (state.IsDead)
+            if (Health <= 0)
             {
                 ShowMessage("Has caido. Pulsa R para volver a la hoguera.", 0.2f);
                 if (Input.GetKeyDown(KeyCode.R)) Respawn();
@@ -69,60 +106,241 @@ namespace DungeonKnight.Player
             }
 
             attackTimer = Mathf.Max(0f, attackTimer - Time.deltaTime);
+            if (attackTimer <= 0f)
+            {
+                attackCharged = false;
+                attackHitResolved = true;
+            }
 
-            UpdateLockOn();
+            hurtTimer = Mathf.Max(0f, hurtTimer - Time.deltaTime);
+            invulnerableTimer = Mathf.Max(0f, invulnerableTimer - Time.deltaTime);
+            parryTimer = Mathf.Max(0f, parryTimer - Time.deltaTime);
+
             UpdateMovement();
             UpdateCombat();
             UpdateInteraction();
 
-            if (!IsBlocking && stamina < MaxStamina)
+            if (!IsBlocking && !IsAttacking && stamina < MaxStamina)
             {
-                stamina = Mathf.Min(MaxStamina, stamina + 24f * Time.deltaTime);
+                stamina = Mathf.Min(MaxStamina, stamina + staminaRecoveryPerSecond * Time.deltaTime);
             }
         }
 
         public void AddCoins(int amount)
         {
-            int awarded = state.AddCoins(amount);
-            ShowMessage($"+{awarded} monedas antiguas", 1.8f);
+            Coins += Mathf.Max(0, amount);
+            ShowMessage($"+{amount} almas", 1.8f);
+        }
+
+        public void RecoverSouls(int amount)
+        {
+            Coins += Mathf.Max(0, amount);
+            ShowMessage($"Recuperaste {amount} almas", 2f);
         }
 
         public void AddPotion()
         {
-            state.AddPotion();
+            Potions = Mathf.Min(5, Potions + 1);
             ShowMessage("Pocion recuperada", 1.8f);
         }
 
         public void RestAtBonfire(Vector3 bonfirePosition)
         {
-            state.RestAtBonfire(bonfirePosition);
+            respawnPoint = bonfirePosition + Vector3.back * 1.35f + Vector3.up * 0.6f;
+            Health = MaxHealth;
             stamina = MaxStamina;
-            ShowMessage("Hoguera encendida. Punto de regreso actualizado.", 2.4f);
+            Potions = Mathf.Max(Potions, 2);
+            foreach (DungeonEnemy3D enemy in Object.FindObjectsOfType<DungeonEnemy3D>())
+            {
+                enemy.RestoreAtBonfire();
+            }
+
+            ShowMessage("Hoguera encendida. Vida, stamina y enemigos activos restaurados.", 2.4f);
         }
 
         public void GiveGateKey()
         {
-            state.GiveGateKey();
+            HasGateKey = true;
             ShowMessage("Llave del guardian obtenida", 2.4f);
+        }
+
+        public void GiveTowerKey()
+        {
+            HasTowerKey = true;
+            ShowMessage("Llave de la torre obtenida", 2.4f);
         }
 
         public void TakeDamage(int amount)
         {
-            if (state.IsDead || IsDashing) return;
+            TakeEnemyHit(amount, null, transform.position);
+        }
 
-            int finalAmount = state.TakeDamage(amount, IsBlocking);
+        public bool TakeEnemyHit(int amount, DungeonEnemy3D source, Vector3 sourcePosition)
+        {
+            if (Health <= 0) return false;
+
+            if (IsInvulnerable)
+            {
+                ShowMessage("Esquiva limpia", 0.55f);
+                CombatFeedback3D.Spawn(transform.position + Vector3.up * 0.85f, new Color(0.46f, 0.72f, 1f), 9);
+                return false;
+            }
+
+            if (IsBlocking && source && parryTimer > 0f)
+            {
+                stamina = Mathf.Min(MaxStamina, stamina + parryStaminaReward);
+                source.Stagger(1.35f, transform.position, true);
+                CombatFeedback3D.Spawn(transform.position + Vector3.up * 1f + lastMoveDirection * 0.45f, new Color(0.55f, 0.9f, 1f), 18);
+                ShowMessage("Parry perfecto", 0.9f);
+                return false;
+            }
+
+            int finalAmount = IsBlocking ? Mathf.CeilToInt(amount * 0.35f) : amount;
+            if (IsBlocking)
+            {
+                stamina = Mathf.Max(0f, stamina - amount * 1.4f);
+                if (stamina <= 0.001f)
+                {
+                    blockExhausted = true;
+                    IsBlocking = false;
+                }
+            }
+
+            Health = Mathf.Max(0, Health - finalAmount);
+            hurtTimer = 0.18f;
+            CameraFollow3D.Shake(IsBlocking ? 0.08f : 0.18f, 0.16f);
+            CombatFeedback3D.Spawn(transform.position + Vector3.up * 0.9f, IsBlocking ? new Color(0.42f, 0.94f, 1f) : new Color(1f, 0.28f, 0.16f), IsBlocking ? 8 : 14);
             ShowMessage(IsBlocking ? "Bloqueo firme" : $"-{finalAmount} HP", 0.85f);
+            if (Health <= 0)
+            {
+                HandleDeath();
+            }
+
+            return true;
         }
 
         public void ShowMessage(string text, float duration)
         {
-            statusMessenger.Show(text, duration);
+            message = text;
+            messageUntil = Time.time + duration;
+        }
+
+        public void TeleportTo(Vector3 destination, Vector3 facingDirection, string statusText)
+        {
+            velocity = Vector3.zero;
+            PlanarVelocity = Vector3.zero;
+            dashTimer = 0f;
+            chargeTimer = 0f;
+            attackTimer = 0f;
+            attackCharged = false;
+            attackHitResolved = true;
+            IsBlocking = false;
+
+            Vector3 flatFacing = Vector3.ProjectOnPlane(facingDirection, Vector3.up);
+            if (flatFacing.sqrMagnitude < 0.001f) flatFacing = Vector3.forward;
+            flatFacing.Normalize();
+
+            controller.enabled = false;
+            transform.position = destination;
+            transform.rotation = Quaternion.LookRotation(flatFacing, Vector3.up);
+            controller.enabled = true;
+            lastMoveDirection = flatFacing;
+            ShowMessage(statusText, 1.8f);
         }
 
         private void UpdateMovement()
         {
-            movementMotor.Tick(controller, transform, cameraPivot, ref stamina);
-            FaceLockOnTarget();
+            float horizontal = Input.GetAxisRaw("Horizontal");
+            float vertical = Input.GetAxisRaw("Vertical");
+            Vector3 input = new Vector3(horizontal, 0f, vertical);
+            input = Vector3.ClampMagnitude(input, 1f);
+
+            if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                ToggleLockOn();
+            }
+
+            ValidateLockOnTarget();
+
+            Vector3 forward = Vector3.forward;
+            Vector3 right = Vector3.right;
+            if (cameraPivot)
+            {
+                forward = Vector3.ProjectOnPlane(cameraPivot.forward, Vector3.up).normalized;
+                right = Vector3.ProjectOnPlane(cameraPivot.right, Vector3.up).normalized;
+            }
+
+            Vector3 move = (right * input.x + forward * input.z).normalized;
+            MoveDirection = move;
+            IsMoving = move.sqrMagnitude > 0.001f;
+            Vector3 lockDirection = Vector3.zero;
+            if (LockOnTarget)
+            {
+                lockDirection = LockOnTarget.transform.position - transform.position;
+                lockDirection.y = 0f;
+            }
+
+            if (lockDirection.sqrMagnitude > 0.01f && dashTimer <= 0f)
+            {
+                lastMoveDirection = lockDirection.normalized;
+                Quaternion targetRotation = Quaternion.LookRotation(lastMoveDirection, Vector3.up);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * 1.25f * Time.deltaTime);
+            }
+            else if (move.sqrMagnitude > 0.001f)
+            {
+                lastMoveDirection = move;
+                Quaternion targetRotation = Quaternion.LookRotation(lastMoveDirection, Vector3.up);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+            }
+
+            if (controller.isGrounded && velocity.y < 0f) velocity.y = -1.5f;
+            if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded)
+            {
+                velocity.y = jumpSpeed;
+            }
+
+            if (Input.GetKeyDown(KeyCode.L) && dashTimer <= 0f && stamina >= rollStaminaCost)
+            {
+                stamina -= rollStaminaCost;
+                dashTimer = 0.78f;
+                invulnerableTimer = rollInvulnerableDuration;
+            }
+
+            bool wantsBlock = Input.GetKey(KeyCode.K) && dashTimer <= 0f;
+            if (Input.GetKeyDown(KeyCode.K) && dashTimer <= 0f && stamina > 0f)
+            {
+                parryTimer = parryWindow;
+            }
+
+            if (!wantsBlock || stamina >= blockStaminaRecoveryThreshold)
+            {
+                blockExhausted = false;
+            }
+
+            IsBlocking = wantsBlock && !blockExhausted && stamina > 0f;
+            if (IsBlocking)
+            {
+                stamina = Mathf.Max(0f, stamina - blockStaminaDrainPerSecond * Time.deltaTime);
+                if (stamina <= 0.001f)
+                {
+                    blockExhausted = true;
+                    IsBlocking = false;
+                }
+            }
+
+            float speed = IsBlocking ? moveSpeed * blockMoveMultiplier : moveSpeed;
+            if (dashTimer > 0f)
+            {
+                dashTimer -= Time.deltaTime;
+                move = lastMoveDirection;
+                MoveDirection = move;
+                IsMoving = true;
+                speed = dashSpeed;
+            }
+
+            PlanarVelocity = move * speed;
+            velocity.y += gravity * Time.deltaTime;
+            controller.Move((PlanarVelocity + velocity) * Time.deltaTime);
         }
 
         private void UpdateCombat()
@@ -136,143 +354,163 @@ namespace DungeonKnight.Player
             {
                 chargeTimer += Time.deltaTime;
             }
-
-            if (Input.GetKeyUp(KeyCode.J) && chargeTimer > 0f)
+            else if (chargeTimer > 0f && IsBlocking)
             {
-                bool charged = chargeTimer >= chargedAttackThreshold && stamina >= 30f;
-                if (charged) stamina -= 30f;
-                Attack(charged);
                 chargeTimer = 0f;
             }
 
-            if (Input.GetKeyDown(KeyCode.Q) && state.UsePotion())
+            if (Input.GetKeyUp(KeyCode.J) && chargeTimer > 0f)
             {
+                if (attackTimer <= 0f)
+                {
+                    bool charged = chargeTimer >= chargedAttackThreshold;
+                    float staminaCost = charged ? chargedAttackStaminaCost : lightAttackStaminaCost;
+                    if (stamina >= staminaCost)
+                    {
+                        stamina -= staminaCost;
+                        Attack(charged);
+                    }
+                    else
+                    {
+                        ShowMessage("Sin stamina", 0.65f);
+                    }
+                }
+
+                chargeTimer = 0f;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Q) && Potions > 0 && Health < MaxHealth)
+            {
+                Potions--;
+                Health = Mathf.Min(MaxHealth, Health + 45);
                 ShowMessage("Pocion usada", 1.4f);
             }
+
+            ResolveAttackWindow();
         }
 
         private void Attack(bool charged)
         {
             if (attackTimer > 0f) return;
 
-            attackTimer = charged ? attackCooldown * 1.4f : attackCooldown;
-            int damage = charged ? chargedAttackDamage : lightAttackDamage;
-            Vector3 attackDirection = GetAttackDirection();
-            Vector3 center = transform.position + Vector3.up * 0.9f + attackDirection * attackReach;
-            bool hitSomething = attackResolver.TryHitEnemies(center, attackRadius, damage, transform.position);
+            attackDuration = charged ? attackCooldown * chargedAttackDurationMultiplier : attackCooldown;
+            attackTimer = attackDuration;
+            attackCharged = charged;
+            attackHitResolved = false;
+            pendingAttackDamage = charged ? chargedAttackDamage : lightAttackDamage;
+            attackSequence++;
+        }
 
+        private void ResolveAttackWindow()
+        {
+            if (!IsAttacking || attackHitResolved) return;
+
+            float hitWindow = attackCharged ? chargedAttackDamageWindow : lightAttackDamageWindow;
+            if (AttackProgress < hitWindow) return;
+
+            attackHitResolved = true;
+            ApplyAttackDamage(pendingAttackDamage, attackCharged);
+        }
+
+        private void ApplyAttackDamage(int damage, bool charged)
+        {
+            Vector3 center = transform.position + Vector3.up * 0.9f + lastMoveDirection * attackReach;
+            int count = Physics.OverlapSphereNonAlloc(center, attackRadius, attackHits);
+            bool hitSomething = false;
+
+            for (int i = 0; i < count; i++)
+            {
+                DungeonEnemy3D enemy = attackHits[i].GetComponentInParent<DungeonEnemy3D>();
+                if (!enemy) continue;
+
+                bool critical = enemy.IsStaggered;
+                enemy.TakeDamage(critical ? damage * 2 : damage, transform.position, charged);
+                hitSomething = true;
+                if (critical)
+                {
+                    CombatFeedback3D.Spawn(enemy.transform.position + Vector3.up * 1.1f, new Color(0.9f, 0.82f, 1f), 14);
+                    CameraFollow3D.Shake(0.22f, 0.2f);
+                }
+            }
+
+            CombatFeedback3D.Spawn(center, hitSomething ? new Color(1f, 0.68f, 0.18f) : new Color(0.65f, 0.72f, 0.84f), hitSomething ? 16 : 7);
+            if (hitSomething) CameraFollow3D.Shake(charged ? 0.16f : 0.09f, 0.12f);
             ShowMessage(hitSomething ? (charged ? "Golpe cargado" : "Corte limpio") : "La espada corta el aire", 0.75f);
         }
 
-        private void UpdateLockOn()
+        private void ToggleLockOn()
         {
-            if (!IsValidLockOnTarget(lockOnTarget))
+            if (LockOnTarget)
             {
                 lockOnTarget = null;
-            }
-
-            if (!Input.GetKeyDown(KeyCode.Tab)) return;
-
-            if (lockOnTarget)
-            {
-                lockOnTarget = null;
-                ShowMessage("Objetivo liberado", 0.9f);
+                ShowMessage("Lock-on desactivado", 0.65f);
                 return;
             }
 
-            lockOnTarget = FindClosestLockOnTarget();
-            ShowMessage(lockOnTarget ? $"Fijado: {lockOnTarget.name}" : "No hay enemigos cerca", 1.1f);
+            lockOnTarget = FindNearestLockOnTarget();
+            ShowMessage(lockOnTarget ? "Objetivo fijado" : "No hay objetivo cerca", 0.75f);
         }
 
-        private Transform FindClosestLockOnTarget()
+        private void ValidateLockOnTarget()
         {
-            DungeonEnemy3D[] enemies = Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude);
-            Transform closest = null;
-            float closestDistance = lockOnRange;
+            if (!lockOnTarget) return;
 
-            for (int i = 0; i < enemies.Length; i++)
+            float distance = Vector3.Distance(transform.position, lockOnTarget.transform.position);
+            if (!lockOnTarget.IsAlive || distance > lockOnRange * 1.35f)
             {
-                DungeonEnemy3D enemy = enemies[i];
+                lockOnTarget = null;
+            }
+        }
+
+        private DungeonEnemy3D FindNearestLockOnTarget()
+        {
+            int count = Physics.OverlapSphereNonAlloc(transform.position + Vector3.up * 0.8f, lockOnRange, lockOnHits);
+            DungeonEnemy3D best = null;
+            float bestScore = float.MaxValue;
+            Vector3 referenceForward = cameraPivot ? Vector3.ProjectOnPlane(cameraPivot.forward, Vector3.up).normalized : transform.forward;
+
+            for (int i = 0; i < count; i++)
+            {
+                DungeonEnemy3D enemy = lockOnHits[i].GetComponentInParent<DungeonEnemy3D>();
                 if (!enemy || !enemy.IsAlive) continue;
 
-                float distance = HorizontalDistanceTo(enemy.transform);
-                if (distance >= closestDistance) continue;
+                Vector3 toEnemy = enemy.transform.position - transform.position;
+                toEnemy.y = 0f;
+                float distance = toEnemy.magnitude;
+                if (distance < 0.05f) continue;
 
-                closest = enemy.transform;
-                closestDistance = distance;
+                float angle = Vector3.Angle(referenceForward, toEnemy / distance);
+                if (angle > 78f) continue;
+
+                float score = distance + angle * 0.05f;
+                if (score >= bestScore) continue;
+
+                best = enemy;
+                bestScore = score;
             }
 
-            Collider[] nearbyHits = Physics.OverlapBox(transform.position + Vector3.up * 0.9f, new Vector3(lockOnRange, lockOnRange, lockOnRange));
-            for (int i = 0; i < nearbyHits.Length; i++)
-            {
-                Transform candidate = nearbyHits[i].attachedRigidbody ? nearbyHits[i].attachedRigidbody.transform : nearbyHits[i].transform.root;
-                if (!IsEnemyTarget(candidate)) continue;
-
-                float distance = HorizontalDistanceTo(candidate);
-                if (distance >= closestDistance) continue;
-
-                closest = candidate;
-                closestDistance = distance;
-            }
-
-            return closest;
-        }
-
-        private void FaceLockOnTarget()
-        {
-            Transform target = LockOnTarget;
-            if (!target || IsDashing) return;
-
-            Vector3 direction = target.position - transform.position;
-            direction.y = 0f;
-            if (direction.sqrMagnitude <= 0.001f) return;
-
-            Quaternion targetRotation = Quaternion.LookRotation(direction.normalized, Vector3.up);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 18f * Time.deltaTime);
-        }
-
-        private Vector3 GetAttackDirection()
-        {
-            Transform target = LockOnTarget;
-            if (!target) return movementMotor.LastMoveDirection;
-
-            Vector3 direction = target.position - transform.position;
-            direction.y = 0f;
-            return direction.sqrMagnitude > 0.001f ? direction.normalized : movementMotor.LastMoveDirection;
-        }
-
-        private bool IsValidLockOnTarget(Transform target)
-        {
-            if (!target || !IsEnemyTarget(target)) return false;
-
-            Vector3 delta = target.position - transform.position;
-            float verticalDistance = Mathf.Abs(delta.y);
-            delta.y = 0f;
-            return verticalDistance <= lockOnRange && delta.sqrMagnitude <= lockOnRange * lockOnRange;
-        }
-
-        private bool IsEnemyTarget(Transform target)
-        {
-            if (!target) return false;
-
-            DungeonEnemy3D enemy = target.GetComponentInParent<DungeonEnemy3D>();
-            if (enemy) return enemy.IsAlive;
-
-            return target.CompareTag("Enemy") || target.gameObject.layer == LayerMask.NameToLayer("Enemy");
-        }
-
-        private float HorizontalDistanceTo(Transform target)
-        {
-            Vector3 delta = target.position - transform.position;
-            delta.y = 0f;
-            return delta.magnitude;
+            return best;
         }
 
         private void UpdateInteraction()
         {
             if (!Input.GetKeyDown(KeyCode.E)) return;
 
-            DungeonInteractable3D closest = interactionScanner.FindClosest(transform.position + Vector3.up * 0.8f, transform.position, 1.8f);
+            int count = Physics.OverlapSphereNonAlloc(transform.position + Vector3.up * 0.8f, 1.8f, interactHits, ~0, QueryTriggerInteraction.Collide);
+            DungeonInteractable3D closest = null;
+            float closestDistance = float.MaxValue;
+
+            for (int i = 0; i < count; i++)
+            {
+                DungeonInteractable3D interactable = interactHits[i].GetComponentInParent<DungeonInteractable3D>();
+                if (!interactable) continue;
+
+                float distance = Vector3.Distance(transform.position, interactable.transform.position);
+                if (distance >= closestDistance) continue;
+
+                closest = interactable;
+                closestDistance = distance;
+            }
 
             if (closest) closest.Interact(this);
             else ShowMessage("No hay nada cerca para usar.", 1.1f);
@@ -280,21 +518,40 @@ namespace DungeonKnight.Player
 
         private void Respawn()
         {
-            state.RestoreVitals();
+            Health = MaxHealth;
             stamina = MaxStamina;
+            deathHandled = false;
+            velocity = Vector3.zero;
+            PlanarVelocity = Vector3.zero;
+            attackTimer = 0f;
+            attackCharged = false;
+            attackHitResolved = true;
+            invulnerableTimer = 0f;
+            parryTimer = 0f;
             lockOnTarget = null;
-            movementMotor.Reset();
             controller.enabled = false;
-            transform.position = state.RespawnPoint;
+            transform.position = respawnPoint;
             transform.rotation = Quaternion.LookRotation(Vector3.forward, Vector3.up);
             controller.enabled = true;
             ShowMessage("La hoguera te devuelve al combate.", 2f);
         }
 
+        private void HandleDeath()
+        {
+            if (deathHandled) return;
+
+            deathHandled = true;
+            if (Coins > 0)
+            {
+                DungeonSoulRemnant3D.Create(transform.position + Vector3.up * 0.2f, Coins);
+                Coins = 0;
+            }
+        }
+
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.yellow;
-            Vector3 direction = Application.isPlaying && movementMotor != null ? movementMotor.LastMoveDirection : transform.forward;
+            Vector3 direction = Application.isPlaying ? lastMoveDirection : transform.forward;
             Gizmos.DrawWireSphere(transform.position + Vector3.up * 0.9f + direction * attackReach, attackRadius);
         }
     }

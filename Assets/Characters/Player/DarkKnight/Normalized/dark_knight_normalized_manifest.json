@@ -1,0 +1,1548 @@
+{
+  "folder": "Normalized",
+  "canvas_per_frame": [
+    1400,
+    1400
+  ],
+  "target_visible_height_px": 620,
+  "baseline_y_px": 1220,
+  "frames": [
+    {
+      "animation": "idle",
+      "name": "base",
+      "source": "dark_knight_idle_cutout.png",
+      "file": "dark_knight_idle_base_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.1632,
+      "normalized_visible_size": [
+        636,
+        620
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "front_01",
+      "source": "Walk/dark_knight_walk_front_01.png",
+      "file": "dark_knight_walk_front_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1017,
+      "normalized_visible_size": [
+        588,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "front_02",
+      "source": "Walk/dark_knight_walk_front_02.png",
+      "file": "dark_knight_walk_front_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1306,
+      "normalized_visible_size": [
+        597,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "front_03",
+      "source": "Walk/dark_knight_walk_front_03.png",
+      "file": "dark_knight_walk_front_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1306,
+      "normalized_visible_size": [
+        611,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "front_04",
+      "source": "Walk/dark_knight_walk_front_04.png",
+      "file": "dark_knight_walk_front_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1306,
+      "normalized_visible_size": [
+        607,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "left_01",
+      "source": "Walk/dark_knight_walk_left_01.png",
+      "file": "dark_knight_walk_left_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2383,
+      "normalized_visible_size": [
+        721,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "left_02",
+      "source": "Walk/dark_knight_walk_left_02.png",
+      "file": "dark_knight_walk_left_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2464,
+      "normalized_visible_size": [
+        681,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "left_03",
+      "source": "Walk/dark_knight_walk_left_03.png",
+      "file": "dark_knight_walk_left_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2464,
+      "normalized_visible_size": [
+        699,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "left_04",
+      "source": "Walk/dark_knight_walk_left_04.png",
+      "file": "dark_knight_walk_left_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2464,
+      "normalized_visible_size": [
+        674,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "right_01",
+      "source": "Walk/dark_knight_walk_right_01.png",
+      "file": "dark_knight_walk_right_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1831,
+      "normalized_visible_size": [
+        646,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "right_02",
+      "source": "Walk/dark_knight_walk_right_02.png",
+      "file": "dark_knight_walk_right_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1908,
+      "normalized_visible_size": [
+        657,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "right_03",
+      "source": "Walk/dark_knight_walk_right_03.png",
+      "file": "dark_knight_walk_right_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1908,
+      "normalized_visible_size": [
+        666,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "animation": "walk",
+      "name": "right_04",
+      "source": "Walk/dark_knight_walk_right_04.png",
+      "file": "dark_knight_walk_right_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1908,
+      "normalized_visible_size": [
+        624,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "animation": "attack",
+      "name": "front_slash",
+      "source": "Attack/dark_knight_attack_front_slash.png",
+      "file": "dark_knight_attack_front_slash_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.7318,
+      "normalized_visible_size": [
+        802,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "attack",
+      "name": "back_slash",
+      "source": "Attack/dark_knight_attack_back_slash.png",
+      "file": "dark_knight_attack_back_slash_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.6188,
+      "normalized_visible_size": [
+        580,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "attack",
+      "name": "right_slash",
+      "source": "Attack/dark_knight_attack_right_slash.png",
+      "file": "dark_knight_attack_right_slash_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.7318,
+      "normalized_visible_size": [
+        959,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "attack",
+      "name": "left_slash",
+      "source": "Attack/dark_knight_attack_left_slash.png",
+      "file": "dark_knight_attack_left_slash_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.8343,
+      "normalized_visible_size": [
+        871,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "attack",
+      "name": "front_left_slash",
+      "source": "Attack/dark_knight_attack_front_left_slash.png",
+      "file": "dark_knight_attack_front_left_slash_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.623,
+      "normalized_visible_size": [
+        618,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "animation": "attack",
+      "name": "front_right_slash",
+      "source": "Attack/dark_knight_attack_front_right_slash.png",
+      "file": "dark_knight_attack_front_right_slash_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.7465,
+      "normalized_visible_size": [
+        905,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "animation": "block",
+      "name": "front_block",
+      "source": "Block/dark_knight_block_front_block.png",
+      "file": "dark_knight_block_front_block_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.422,
+      "normalized_visible_size": [
+        535,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "block",
+      "name": "back_block",
+      "source": "Block/dark_knight_block_back_block.png",
+      "file": "dark_knight_block_back_block_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.4352,
+      "normalized_visible_size": [
+        588,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "block",
+      "name": "right_block",
+      "source": "Block/dark_knight_block_right_block.png",
+      "file": "dark_knight_block_right_block_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.4253,
+      "normalized_visible_size": [
+        542,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "block",
+      "name": "left_block",
+      "source": "Block/dark_knight_block_left_block.png",
+      "file": "dark_knight_block_left_block_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.452,
+      "normalized_visible_size": [
+        533,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "block",
+      "name": "front_left_block",
+      "source": "Block/dark_knight_block_front_left_block.png",
+      "file": "dark_knight_block_front_left_block_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.4797,
+      "normalized_visible_size": [
+        580,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "animation": "block",
+      "name": "front_right_block",
+      "source": "Block/dark_knight_block_front_right_block.png",
+      "file": "dark_knight_block_front_right_block_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.4904,
+      "normalized_visible_size": [
+        587,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "front_01",
+      "source": "Roll/dark_knight_roll_front_01.png",
+      "file": "dark_knight_roll_front_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.4314,
+      "normalized_visible_size": [
+        654,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "front_02",
+      "source": "Roll/dark_knight_roll_front_02.png",
+      "file": "dark_knight_roll_front_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.1959,
+      "normalized_visible_size": [
+        904,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "front_03",
+      "source": "Roll/dark_knight_roll_front_03.png",
+      "file": "dark_knight_roll_front_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.3514,
+      "normalized_visible_size": [
+        798,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "front_04",
+      "source": "Roll/dark_knight_roll_front_04.png",
+      "file": "dark_knight_roll_front_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.1156,
+      "normalized_visible_size": [
+        872,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "left_01",
+      "source": "Roll/dark_knight_roll_left_01.png",
+      "file": "dark_knight_roll_left_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.7434,
+      "normalized_visible_size": [
+        774,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "left_02",
+      "source": "Roll/dark_knight_roll_left_02.png",
+      "file": "dark_knight_roll_left_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.2292,
+      "normalized_visible_size": [
+        985,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "left_03",
+      "source": "Roll/dark_knight_roll_left_03.png",
+      "file": "dark_knight_roll_left_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.6471,
+      "normalized_visible_size": [
+        886,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "left_04",
+      "source": "Roll/dark_knight_roll_left_04.png",
+      "file": "dark_knight_roll_left_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.0097,
+      "normalized_visible_size": [
+        945,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "right_01",
+      "source": "Roll/dark_knight_roll_right_01.png",
+      "file": "dark_knight_roll_right_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.5101,
+      "normalized_visible_size": [
+        650,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "right_02",
+      "source": "Roll/dark_knight_roll_right_02.png",
+      "file": "dark_knight_roll_right_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.9524,
+      "normalized_visible_size": [
+        880,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "right_03",
+      "source": "Roll/dark_knight_roll_right_03.png",
+      "file": "dark_knight_roll_right_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.5227,
+      "normalized_visible_size": [
+        838,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "animation": "roll",
+      "name": "right_04",
+      "source": "Roll/dark_knight_roll_right_04.png",
+      "file": "dark_knight_roll_right_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.8311,
+      "normalized_visible_size": [
+        909,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "front_01",
+      "source": "BlockWalk/dark_knight_blockwalk_front_01.png",
+      "file": "dark_knight_blockwalk_front_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.9808,
+      "normalized_visible_size": [
+        568,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "front_02",
+      "source": "BlockWalk/dark_knight_blockwalk_front_02.png",
+      "file": "dark_knight_blockwalk_front_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 1.9872,
+      "normalized_visible_size": [
+        572,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "front_03",
+      "source": "BlockWalk/dark_knight_blockwalk_front_03.png",
+      "file": "dark_knight_blockwalk_front_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0,
+      "normalized_visible_size": [
+        580,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "front_04",
+      "source": "BlockWalk/dark_knight_blockwalk_front_04.png",
+      "file": "dark_knight_blockwalk_front_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0261,
+      "normalized_visible_size": [
+        579,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "left_01",
+      "source": "BlockWalk/dark_knight_blockwalk_left_01.png",
+      "file": "dark_knight_blockwalk_left_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1908,
+      "normalized_visible_size": [
+        629,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "left_02",
+      "source": "BlockWalk/dark_knight_blockwalk_left_02.png",
+      "file": "dark_knight_blockwalk_left_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1908,
+      "normalized_visible_size": [
+        655,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "left_03",
+      "source": "BlockWalk/dark_knight_blockwalk_left_03.png",
+      "file": "dark_knight_blockwalk_left_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1754,
+      "normalized_visible_size": [
+        618,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "left_04",
+      "source": "BlockWalk/dark_knight_blockwalk_left_04.png",
+      "file": "dark_knight_blockwalk_left_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1831,
+      "normalized_visible_size": [
+        611,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "right_01",
+      "source": "BlockWalk/dark_knight_blockwalk_right_01.png",
+      "file": "dark_knight_blockwalk_right_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0805,
+      "normalized_visible_size": [
+        589,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "right_02",
+      "source": "BlockWalk/dark_knight_blockwalk_right_02.png",
+      "file": "dark_knight_blockwalk_right_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0946,
+      "normalized_visible_size": [
+        607,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "right_03",
+      "source": "BlockWalk/dark_knight_blockwalk_right_03.png",
+      "file": "dark_knight_blockwalk_right_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1017,
+      "normalized_visible_size": [
+        609,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "animation": "blockwalk",
+      "name": "right_04",
+      "source": "BlockWalk/dark_knight_blockwalk_right_04.png",
+      "file": "dark_knight_blockwalk_right_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1017,
+      "normalized_visible_size": [
+        597,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "animation": "walk_back",
+      "name": "back_01",
+      "source": "BackMove/dark_knight_walk_back_01.png",
+      "file": "dark_knight_walk_back_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1306,
+      "normalized_visible_size": [
+        594,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "walk_back",
+      "name": "back_02",
+      "source": "BackMove/dark_knight_walk_back_02.png",
+      "file": "dark_knight_walk_back_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.116,
+      "normalized_visible_size": [
+        573,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "walk_back",
+      "name": "back_03",
+      "source": "BackMove/dark_knight_walk_back_03.png",
+      "file": "dark_knight_walk_back_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1017,
+      "normalized_visible_size": [
+        542,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "walk_back",
+      "name": "back_04",
+      "source": "BackMove/dark_knight_walk_back_04.png",
+      "file": "dark_knight_walk_back_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.116,
+      "normalized_visible_size": [
+        590,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk_back",
+      "name": "back_01",
+      "source": "BackMove/dark_knight_blockwalk_back_01.png",
+      "file": "dark_knight_blockwalk_back_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0328,
+      "normalized_visible_size": [
+        502,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk_back",
+      "name": "back_02",
+      "source": "BackMove/dark_knight_blockwalk_back_02.png",
+      "file": "dark_knight_blockwalk_back_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0395,
+      "normalized_visible_size": [
+        498,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk_back",
+      "name": "back_03",
+      "source": "BackMove/dark_knight_blockwalk_back_03.png",
+      "file": "dark_knight_blockwalk_back_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0328,
+      "normalized_visible_size": [
+        482,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "blockwalk_back",
+      "name": "back_04",
+      "source": "BackMove/dark_knight_blockwalk_back_04.png",
+      "file": "dark_knight_blockwalk_back_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0328,
+      "normalized_visible_size": [
+        478,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "roll_back",
+      "name": "back_01",
+      "source": "BackMove/dark_knight_roll_back_01.png",
+      "file": "dark_knight_roll_back_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.562,
+      "normalized_visible_size": [
+        792,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "roll_back",
+      "name": "back_02",
+      "source": "BackMove/dark_knight_roll_back_02.png",
+      "file": "dark_knight_roll_back_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.5028,
+      "normalized_visible_size": [
+        932,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "roll_back",
+      "name": "back_03",
+      "source": "BackMove/dark_knight_roll_back_03.png",
+      "file": "dark_knight_roll_back_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.4066,
+      "normalized_visible_size": [
+        784,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "roll_back",
+      "name": "back_04",
+      "source": "BackMove/dark_knight_roll_back_04.png",
+      "file": "dark_knight_roll_back_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2545,
+      "normalized_visible_size": [
+        672,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "front_01",
+      "source": "AttackAnim/dark_knight_attackanim_front_01.png",
+      "file": "dark_knight_attackanim_front_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.6957,
+      "normalized_visible_size": [
+        617,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "front_02",
+      "source": "AttackAnim/dark_knight_attackanim_front_02.png",
+      "file": "dark_knight_attackanim_front_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.8311,
+      "normalized_visible_size": [
+        977,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "front_03",
+      "source": "AttackAnim/dark_knight_attackanim_front_03.png",
+      "file": "dark_knight_attackanim_front_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.844,
+      "normalized_visible_size": [
+        1175,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "front_04",
+      "source": "AttackAnim/dark_knight_attackanim_front_04.png",
+      "file": "dark_knight_attackanim_front_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.616,
+      "normalized_visible_size": [
+        806,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "back_01",
+      "source": "AttackAnim/dark_knight_attackanim_back_01.png",
+      "file": "dark_knight_attackanim_back_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2064,
+      "normalized_visible_size": [
+        485,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "back_02",
+      "source": "AttackAnim/dark_knight_attackanim_back_02.png",
+      "file": "dark_knight_attackanim_back_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.2064,
+      "normalized_visible_size": [
+        737,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "back_03",
+      "source": "AttackAnim/dark_knight_attackanim_back_03.png",
+      "file": "dark_knight_attackanim_back_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1908,
+      "normalized_visible_size": [
+        684,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "back_04",
+      "source": "AttackAnim/dark_knight_attackanim_back_04.png",
+      "file": "dark_knight_attackanim_back_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.1986,
+      "normalized_visible_size": [
+        525,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "left_01",
+      "source": "AttackAnim/dark_knight_attackanim_left_01.png",
+      "file": "dark_knight_attackanim_left_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0395,
+      "normalized_visible_size": [
+        422,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "left_02",
+      "source": "AttackAnim/dark_knight_attackanim_left_02.png",
+      "file": "dark_knight_attackanim_left_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.3938,
+      "normalized_visible_size": [
+        826,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "left_03",
+      "source": "AttackAnim/dark_knight_attackanim_left_03.png",
+      "file": "dark_knight_attackanim_left_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.3938,
+      "normalized_visible_size": [
+        802,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "left_04",
+      "source": "AttackAnim/dark_knight_attackanim_left_04.png",
+      "file": "dark_knight_attackanim_left_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.0395,
+      "normalized_visible_size": [
+        506,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "right_01",
+      "source": "AttackAnim/dark_knight_attackanim_right_01.png",
+      "file": "dark_knight_attackanim_right_01_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 2.8182,
+      "normalized_visible_size": [
+        614,
+        620
+      ],
+      "normalized_sheet_cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "right_02",
+      "source": "AttackAnim/dark_knight_attackanim_right_02.png",
+      "file": "dark_knight_attackanim_right_02_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.0244,
+      "normalized_visible_size": [
+        922,
+        620
+      ],
+      "normalized_sheet_cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "right_03",
+      "source": "AttackAnim/dark_knight_attackanim_right_03.png",
+      "file": "dark_knight_attackanim_right_03_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.0542,
+      "normalized_visible_size": [
+        1109,
+        620
+      ],
+      "normalized_sheet_cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "animation": "attackanim",
+      "name": "right_04",
+      "source": "AttackAnim/dark_knight_attackanim_right_04.png",
+      "file": "dark_knight_attackanim_right_04_normalized.png",
+      "canvas": [
+        1400,
+        1400
+      ],
+      "target_visible_height": 620,
+      "scale_factor": 3.0097,
+      "normalized_visible_size": [
+        707,
+        620
+      ],
+      "normalized_sheet_cell": [
+        3,
+        3
+      ]
+    }
+  ],
+  "unity_import_hint": "Use Normalized PNGs for clips so every animation keeps the same visual scale. Import as Sprite, same Pixels Per Unit for all files, Filter Mode Point, Compression None or Low."
+}

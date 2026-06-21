@@ -4,9 +4,9 @@ namespace DungeonKnight.Level
 {
     internal sealed class RiggedSkeletonSwordVisual3D
     {
-        private static readonly Color RustBladeColor = new Color(0.45f, 0.39f, 0.32f);
-        private static readonly Color RustPatchColor = new Color(0.62f, 0.2f, 0.08f);
-        private static readonly Color DarkGripColor = new Color(0.15f, 0.11f, 0.08f);
+        private static readonly Color RustBladeColor = new Color(0.38f, 0.35f, 0.3f);
+        private static readonly Color RustPatchColor = new Color(0.42f, 0.16f, 0.08f);
+        private static readonly Color DarkGripColor = new Color(0.14f, 0.1f, 0.07f);
 
         private readonly Transform rightHand;
         private readonly Transform rustySword;
