@@ -108,15 +108,15 @@ namespace DungeonKnight.Combat
         private IEnumerator DelayedDestroy()
         {
             if (spriteRenderer) spriteRenderer.enabled = false;
-            foreach (Collider2D collider2d in GetComponents<Collider2D>())
+            foreach (Collider collider in GetComponents<Collider>())
             {
-                collider2d.enabled = false;
+                collider.enabled = false;
             }
 
-            if (TryGetComponent(out Rigidbody2D body))
+            if (TryGetComponent(out Rigidbody body))
             {
-                body.linearVelocity = Vector2.zero;
-                body.simulated = false;
+                body.linearVelocity = Vector3.zero;
+                body.isKinematic = true;
             }
 
             yield return new WaitForSeconds(0.18f);
