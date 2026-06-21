@@ -1,7 +1,5 @@
 using System;
 using System.Collections;
-using DungeonKnight.Player;
-using DungeonKnight.UI;
 using UnityEngine;
 
 namespace DungeonKnight.Combat
@@ -48,16 +46,10 @@ namespace DungeonKnight.Combat
         public bool TakeDamage(int amount)
         {
             if (IsDead || deathStarted || amount <= 0) return false;
-            if (TryGetComponent(out PlayerController2D player) && player.IsInvulnerable) return false;
 
             CurrentHealth = Mathf.Max(0, CurrentHealth - amount);
             HealthChanged?.Invoke(CurrentHealth, maxHealth);
-            DamagePopup.Spawn(transform.position + Vector3.up * 0.75f, amount, new Color(1f, 0.78f, 0.24f));
             RetroAudio.Play("hit");
-            if (TryGetComponent(out PlayerController2D damagedPlayer))
-            {
-                damagedPlayer.PlayHurtReaction();
-            }
 
             if (spriteRenderer)
             {
@@ -68,7 +60,6 @@ namespace DungeonKnight.Combat
             if (CurrentHealth <= 0)
             {
                 deathStarted = true;
-                HitBurst.Spawn(transform.position, new Color(1f, 0.82f, 0.35f), 14);
                 Died?.Invoke(this);
                 if (destroyOnDeath) StartCoroutine(DelayedDestroy());
             }
@@ -89,7 +80,6 @@ namespace DungeonKnight.Combat
 
             CurrentHealth = Mathf.Min(maxHealth, CurrentHealth + amount);
             HealthChanged?.Invoke(CurrentHealth, maxHealth);
-            DamagePopup.Spawn(transform.position + Vector3.up * 0.85f, amount, new Color(0.32f, 1f, 0.42f));
             return true;
         }
 

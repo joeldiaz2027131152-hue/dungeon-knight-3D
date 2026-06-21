@@ -186,7 +186,7 @@ namespace DungeonKnight.Player
 
         private Transform FindClosestLockOnTarget()
         {
-            DungeonEnemy3D[] enemies = Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsSortMode.None);
+            DungeonEnemy3D[] enemies = Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude);
             Transform closest = null;
             float closestDistance = lockOnRange;
 

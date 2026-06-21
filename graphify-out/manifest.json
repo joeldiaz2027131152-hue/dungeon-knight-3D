@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "Assets/Scripts/Combat/Health.cs": {
-    "mtime": 1780776924.7875621,
-    "ast_hash": "79092289d464e5b8931ee03cea4d0941",
+    "mtime": 1782011319.9878712,
+    "ast_hash": "e840c01ab02f5182d05b9cb1673435c7",
     "semantic_hash": ""
   },
   "Assets/Scripts/Core/CharacterSpriteFactory.cs": {
@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "Assets/Scripts/Core/CombatFeedback.cs": {
-    "mtime": 1780766409.2091074,
-    "ast_hash": "3a36f08fdde1612fba1dc5ed2842501b",
+    "mtime": 1782011254.4130702,
+    "ast_hash": "39f97477788a2ca88c3209aa54f59152",
     "semantic_hash": ""
   },
   "Assets/Scripts/Core/GameConstants.cs": {
@@ -49,134 +49,9 @@
     "ast_hash": "2ba5856600351d5614a6612cc1ee1864",
     "semantic_hash": ""
   },
-  "Assets/Scripts/Enemies/ArrowProjectile.cs": {
-    "mtime": 1780793034.896204,
-    "ast_hash": "4efe05590c57018344d0117381d738db",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/ChasingBatAI.cs": {
-    "mtime": 1780846527.6411138,
-    "ast_hash": "c28cb24846b93bc82c9901e5ce7673e7",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/DeathShard.cs": {
-    "mtime": 1780768411.2288342,
-    "ast_hash": "803d4b6d91b1e3b17c4c2a69f9cfc8f6",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/KeyGuardianBoss.cs": {
-    "mtime": 1780782235.3018205,
-    "ast_hash": "7b65380b610d3a7cc01a1247d1733f7a",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/KeyGuardianVisual.cs": {
-    "mtime": 1780782260.1010904,
-    "ast_hash": "0d0efe149c8f382baac9e714e692702a",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/SkeletonArcherAI.cs": {
-    "mtime": 1780866675.8286345,
-    "ast_hash": "b98f311b52350921a7f8ebf31ac711ac",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/SkeletonDeathEffect.cs": {
-    "mtime": 1780772812.9412296,
-    "ast_hash": "90c159d0987ef0c32bf33cdddb0b8f74",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Enemies/SkeletonMinionAI.cs": {
-    "mtime": 1780793034.767285,
-    "ast_hash": "bff249f6aa3a80f081666cb1b7354e5e",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/Bonfire.cs": {
-    "mtime": 1780777045.717039,
-    "ast_hash": "c6f2222faf1ffa0a807334dcf2a8237a",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/BreakableCrate.cs": {
-    "mtime": 1780774076.2493272,
-    "ast_hash": "67eca4077f1c2c3b9a3bcd9e0866ffc4",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/ExitDoor.cs": {
-    "mtime": 1780860302.4682846,
-    "ast_hash": "f3f6fc8f4fecbdf4ae9acd84de777870",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/GateDoorVisual.cs": {
-    "mtime": 1780782307.102602,
-    "ast_hash": "ed9f432ca5996414c29a7acb0756aa49",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/GateLever.cs": {
-    "mtime": 1780799733.470801,
-    "ast_hash": "c27b82388c8613bf70bacc61bc1c746d",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/IInteractable.cs": {
-    "mtime": 1780709246.688893,
-    "ast_hash": "5de2a2e1f3f7f3acb928fdd7acea2ee8",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/LoreTablet.cs": {
-    "mtime": 1780714315.3341641,
-    "ast_hash": "102d7f0e454a631a452bbce6a8cba277",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/SimpleGate.cs": {
-    "mtime": 1780800046.0605586,
-    "ast_hash": "b4f2538a1dfe3e497049ecf196988117",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/TowerAmbushLever.cs": {
-    "mtime": 1780862183.5680156,
-    "ast_hash": "bd4efeaf869f28c2d21cf73df9b29f92",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Interactables/TreasureChest.cs": {
-    "mtime": 1780843413.0893917,
-    "ast_hash": "6a912a7c33719cc32665a39cca72883e",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/ArenaEncounter.cs": {
-    "mtime": 1780846574.462903,
-    "ast_hash": "a4fb81689e44e7b20c3fb8c71c65d9ee",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/BreakablePlatform.cs": {
-    "mtime": 1780846527.7591157,
-    "ast_hash": "ef6d63437d9e1b86d974d101f2bff561",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/CameraFollow2D.cs": {
-    "mtime": 1780860584.198348,
-    "ast_hash": "c8ecd30af460987656351918fca145a2",
-    "semantic_hash": ""
-  },
   "Assets/Scripts/Level/CameraFollow3D.cs": {
-    "mtime": 1782009696.050872,
+    "mtime": 1782009718.7661555,
     "ast_hash": "fba61f0e5852c325d1a2bc70ff3eec11",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/CeilingBladeHazard.cs": {
-    "mtime": 1780770928.5103922,
-    "ast_hash": "5980b00fa8bb68ead826d537cbb54857",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/DamageHazard.cs": {
-    "mtime": 1780716906.6005368,
-    "ast_hash": "be27a79ed2bbd18786dfc012ad16ba17",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/DriftSprite.cs": {
-    "mtime": 1780717648.9211197,
-    "ast_hash": "728ebec588e7355bcd1db13fb3a27025",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/DropThroughSurface.cs": {
-    "mtime": 1780859232.506234,
-    "ast_hash": "7f6cff901df01c5e5f8c5699f145fe16",
     "semantic_hash": ""
   },
   "Assets/Scripts/Level/DungeonEnemy3D.cs": {
@@ -209,144 +84,24 @@
     "ast_hash": "9bc9858a0280b5cb3eafb4488240b065",
     "semantic_hash": ""
   },
-  "Assets/Scripts/Level/FlickerSprite.cs": {
-    "mtime": 1780715788.9859211,
-    "ast_hash": "1ed5bf3f0fa7ba9dba8bd689e0a3f3b8",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/GameSession.cs": {
-    "mtime": 1780864123.6820195,
-    "ast_hash": "8841cf5d36db7917ab69c85bcef138d5",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Level/LightningFlash.cs": {
-    "mtime": 1780793111.8142881,
-    "ast_hash": "717029b256f9a22bd462e8d488e56711",
-    "semantic_hash": ""
-  },
   "Assets/Scripts/Level/RiggedSkeletonEnemyVisual3D.cs": {
     "mtime": 1782007107.1177924,
     "ast_hash": "a53410cce0f73a04071220586e7668c0",
     "semantic_hash": ""
   },
-  "Assets/Scripts/Level/TimedFireTrap.cs": {
-    "mtime": 1780859865.1491225,
-    "ast_hash": "0690a6d63627af58ecdb2f249282484a",
-    "semantic_hash": ""
-  },
   "Assets/Scripts/Level/WorldOneOneBootstrap.cs": {
-    "mtime": 1781623499.3511577,
-    "ast_hash": "c7db9e2a573eaf49b776e81a37b7e978",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/CoinDropper.cs": {
-    "mtime": 1780718043.1548116,
-    "ast_hash": "bc64cbdd3f331f11686731c3f7088113",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/CoinPickup.cs": {
-    "mtime": 1780718120.4754374,
-    "ast_hash": "7db2d6af59f890f27a3edfeece2fd4e3",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/KeyDropper.cs": {
-    "mtime": 1780767403.7226412,
-    "ast_hash": "a3dd80b069346e1ab6010c8d7aa23693",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/KeyPickup.cs": {
-    "mtime": 1780777024.6577847,
-    "ast_hash": "8fd48da5156b83c4633cfef7158fef5b",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/KeyVisual.cs": {
-    "mtime": 1780777024.779786,
-    "ast_hash": "9e33e170f1fca81f355fe849c358f9d5",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/LootSpawner.cs": {
-    "mtime": 1780777078.1914294,
-    "ast_hash": "e9a9df384b6fb3a62c1a97d801ca5a12",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/ShieldDropper.cs": {
-    "mtime": 1780862162.9987836,
-    "ast_hash": "b5c95a7224d385fae15b43da1e06b977",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Loot/ShieldPickup.cs": {
-    "mtime": 1780865096.6614296,
-    "ast_hash": "610cbd91fd43d4085a7e40e4d5e3b947",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Player/PlayerController2D.cs": {
-    "mtime": 1780879574.3024764,
-    "ast_hash": "9fcf4c4f309040c5a8b1c22fc99e05fb",
+    "mtime": 1782011274.8183186,
+    "ast_hash": "711348419a974064dc95e22541aa3d7f",
     "semantic_hash": ""
   },
   "Assets/Scripts/Player/PlayerController3D.cs": {
-    "mtime": 1782009696.0498722,
-    "ast_hash": "8f0d84aa2e901950c2a3805375d664a7",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Player/PlayerInteraction.cs": {
-    "mtime": 1780772654.2106595,
-    "ast_hash": "e833453b982b11894a6c13df00999e15",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Player/PlayerInventory.cs": {
-    "mtime": 1780865083.552272,
-    "ast_hash": "4cae826b2312f7d8f69e5db6d0fe41d4",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/UI/DamagePopup.cs": {
-    "mtime": 1780715738.5232527,
-    "ast_hash": "675e5cafe5dc34170db1f70de1061f2d",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/UI/EnemyHealthBar.cs": {
-    "mtime": 1780716365.3011067,
-    "ast_hash": "18af3d2d237349f7443707069951bf9a",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/UI/GameHud.cs": {
-    "mtime": 1780865123.701754,
-    "ast_hash": "3b8e78bc73538f7ddc4c8182b913221a",
+    "mtime": 1782011385.7306814,
+    "ast_hash": "f1cc11115a16d3c50d69f1b42c88818e",
     "semantic_hash": ""
   },
   "Assets/Scripts/UI/GameHud3D.cs": {
     "mtime": 1782009129.538214,
     "ast_hash": "57a5d6afefc5a0d892015e93beba2840",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/UI/HitBurst.cs": {
-    "mtime": 1780715794.0139802,
-    "ast_hash": "ad69a9db22ea814c3735581a5b1fee9b",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/UI/InteractionFeedback.cs": {
-    "mtime": 1780793556.2107823,
-    "ast_hash": "7efad0b1b038f250bd329b8527b104d4",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/UI/SlashEffect.cs": {
-    "mtime": 1780776520.1851854,
-    "ast_hash": "9150a6577f8756578f8f57f844b3dde5",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Visuals/CharacterFrameAnimator.cs": {
-    "mtime": 1780878756.801579,
-    "ast_hash": "35eb2fde13f06589e52b20dd90b8a291",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Visuals/SkeletonEnemyVisual.cs": {
-    "mtime": 1781895249.2461534,
-    "ast_hash": "be3d5a6842449fc60da5acc590895782",
-    "semantic_hash": ""
-  },
-  "Assets/Scripts/Visuals/SquashStretchAnimator.cs": {
-    "mtime": 1780717205.5063388,
-    "ast_hash": "5cb9f6264786c207a46149778ff6786a",
     "semantic_hash": ""
   },
   "Packages/manifest.json": {
@@ -730,7 +485,7 @@
     "semantic_hash": ""
   },
   "Assets/Scripts/Level/DungeonKnight3DPlayerFactory.cs": {
-    "mtime": 1782009696.0518723,
+    "mtime": 1782009718.7661555,
     "ast_hash": "630a8de65c8ed159a94ee50b5f2ee601",
     "semantic_hash": ""
   },
