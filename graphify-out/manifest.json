@@ -1,0 +1,822 @@
+{
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_sprites_manifest.json": {
+    "mtime": 1781628613.060508,
+    "ast_hash": "b0d555e62ca0420f6f8817f152b438bd",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/imagegen-jobs.json": {
+    "mtime": 1780869384.8671212,
+    "ast_hash": "e615b64c6b9dfb32e71d9d4a3adb3787",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/pet_request.json": {
+    "mtime": 1780868970.7838736,
+    "ast_hash": "d79339b4ec31aead748f63e277bc8b72",
+    "semantic_hash": ""
+  },
+  "Assets/Editor/CodexUnitySkillsBootstrap.cs": {
+    "mtime": 1780876376.37635,
+    "ast_hash": "98863c31dc0501fb39adaf83701e7ec7",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Combat/Health.cs": {
+    "mtime": 1780776924.7875621,
+    "ast_hash": "79092289d464e5b8931ee03cea4d0941",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/CharacterSpriteFactory.cs": {
+    "mtime": 1780879645.1691577,
+    "ast_hash": "7bd110939241ddfd4dfa358bd52a576a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/CombatFeedback.cs": {
+    "mtime": 1780766409.2091074,
+    "ast_hash": "3a36f08fdde1612fba1dc5ed2842501b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/GameConstants.cs": {
+    "mtime": 1780714306.225191,
+    "ast_hash": "1df6880a6976223d3787fdb01ae5c7b8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/PixelSpriteFactory.cs": {
+    "mtime": 1780859591.738549,
+    "ast_hash": "f9a5f68d402a29ac1d64f2add54b7b0f",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/RetroAudio.cs": {
+    "mtime": 1780793035.1232898,
+    "ast_hash": "2ba5856600351d5614a6612cc1ee1864",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/ArrowProjectile.cs": {
+    "mtime": 1780793034.896204,
+    "ast_hash": "4efe05590c57018344d0117381d738db",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/ChasingBatAI.cs": {
+    "mtime": 1780846527.6411138,
+    "ast_hash": "c28cb24846b93bc82c9901e5ce7673e7",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/DeathShard.cs": {
+    "mtime": 1780768411.2288342,
+    "ast_hash": "803d4b6d91b1e3b17c4c2a69f9cfc8f6",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/KeyGuardianBoss.cs": {
+    "mtime": 1780782235.3018205,
+    "ast_hash": "7b65380b610d3a7cc01a1247d1733f7a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/KeyGuardianVisual.cs": {
+    "mtime": 1780782260.1010904,
+    "ast_hash": "0d0efe149c8f382baac9e714e692702a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/SkeletonArcherAI.cs": {
+    "mtime": 1780866675.8286345,
+    "ast_hash": "b98f311b52350921a7f8ebf31ac711ac",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/SkeletonDeathEffect.cs": {
+    "mtime": 1780772812.9412296,
+    "ast_hash": "90c159d0987ef0c32bf33cdddb0b8f74",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/SkeletonMinionAI.cs": {
+    "mtime": 1780793034.767285,
+    "ast_hash": "bff249f6aa3a80f081666cb1b7354e5e",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/Bonfire.cs": {
+    "mtime": 1780777045.717039,
+    "ast_hash": "c6f2222faf1ffa0a807334dcf2a8237a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/BreakableCrate.cs": {
+    "mtime": 1780774076.2493272,
+    "ast_hash": "67eca4077f1c2c3b9a3bcd9e0866ffc4",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/ExitDoor.cs": {
+    "mtime": 1780860302.4682846,
+    "ast_hash": "f3f6fc8f4fecbdf4ae9acd84de777870",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/GateDoorVisual.cs": {
+    "mtime": 1780782307.102602,
+    "ast_hash": "ed9f432ca5996414c29a7acb0756aa49",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/GateLever.cs": {
+    "mtime": 1780799733.470801,
+    "ast_hash": "c27b82388c8613bf70bacc61bc1c746d",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/IInteractable.cs": {
+    "mtime": 1780709246.688893,
+    "ast_hash": "5de2a2e1f3f7f3acb928fdd7acea2ee8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/LoreTablet.cs": {
+    "mtime": 1780714315.3341641,
+    "ast_hash": "102d7f0e454a631a452bbce6a8cba277",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/SimpleGate.cs": {
+    "mtime": 1780800046.0605586,
+    "ast_hash": "b4f2538a1dfe3e497049ecf196988117",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/TowerAmbushLever.cs": {
+    "mtime": 1780862183.5680156,
+    "ast_hash": "bd4efeaf869f28c2d21cf73df9b29f92",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/TreasureChest.cs": {
+    "mtime": 1780843413.0893917,
+    "ast_hash": "6a912a7c33719cc32665a39cca72883e",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/ArenaEncounter.cs": {
+    "mtime": 1780846574.462903,
+    "ast_hash": "a4fb81689e44e7b20c3fb8c71c65d9ee",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/BreakablePlatform.cs": {
+    "mtime": 1780846527.7591157,
+    "ast_hash": "ef6d63437d9e1b86d974d101f2bff561",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CameraFollow2D.cs": {
+    "mtime": 1780860584.198348,
+    "ast_hash": "c8ecd30af460987656351918fca145a2",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CameraFollow3D.cs": {
+    "mtime": 1782009696.050872,
+    "ast_hash": "fba61f0e5852c325d1a2bc70ff3eec11",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CeilingBladeHazard.cs": {
+    "mtime": 1780770928.5103922,
+    "ast_hash": "5980b00fa8bb68ead826d537cbb54857",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DamageHazard.cs": {
+    "mtime": 1780716906.6005368,
+    "ast_hash": "be27a79ed2bbd18786dfc012ad16ba17",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DriftSprite.cs": {
+    "mtime": 1780717648.9211197,
+    "ast_hash": "728ebec588e7355bcd1db13fb3a27025",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DropThroughSurface.cs": {
+    "mtime": 1780859232.506234,
+    "ast_hash": "7f6cff901df01c5e5f8c5699f145fe16",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonEnemy3D.cs": {
+    "mtime": 1782009129.538214,
+    "ast_hash": "399b2bf4dace59e305d3fdae8ed575ee",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonHazard3D.cs": {
+    "mtime": 1781625527.8455338,
+    "ast_hash": "0c57a0cf4bdb1ff6940948e1e5704275",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonInteractable3D.cs": {
+    "mtime": 1782003597.8436596,
+    "ast_hash": "d395774fa0e9bc336e5883fab0d6f2ec",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DBootstrap.cs": {
+    "mtime": 1782005380.411244,
+    "ast_hash": "5bd30ecf5e1358560a76294618e8959b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonMovingPlatform3D.cs": {
+    "mtime": 1781625527.8463094,
+    "ast_hash": "6afd69cdd474ab12c20d8264e48613a6",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonPickup3D.cs": {
+    "mtime": 1781623479.9568124,
+    "ast_hash": "9bc9858a0280b5cb3eafb4488240b065",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/FlickerSprite.cs": {
+    "mtime": 1780715788.9859211,
+    "ast_hash": "1ed5bf3f0fa7ba9dba8bd689e0a3f3b8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/GameSession.cs": {
+    "mtime": 1780864123.6820195,
+    "ast_hash": "8841cf5d36db7917ab69c85bcef138d5",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/LightningFlash.cs": {
+    "mtime": 1780793111.8142881,
+    "ast_hash": "717029b256f9a22bd462e8d488e56711",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonEnemyVisual3D.cs": {
+    "mtime": 1782007107.1177924,
+    "ast_hash": "a53410cce0f73a04071220586e7668c0",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/TimedFireTrap.cs": {
+    "mtime": 1780859865.1491225,
+    "ast_hash": "0690a6d63627af58ecdb2f249282484a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/WorldOneOneBootstrap.cs": {
+    "mtime": 1781623499.3511577,
+    "ast_hash": "c7db9e2a573eaf49b776e81a37b7e978",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/CoinDropper.cs": {
+    "mtime": 1780718043.1548116,
+    "ast_hash": "bc64cbdd3f331f11686731c3f7088113",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/CoinPickup.cs": {
+    "mtime": 1780718120.4754374,
+    "ast_hash": "7db2d6af59f890f27a3edfeece2fd4e3",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/KeyDropper.cs": {
+    "mtime": 1780767403.7226412,
+    "ast_hash": "a3dd80b069346e1ab6010c8d7aa23693",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/KeyPickup.cs": {
+    "mtime": 1780777024.6577847,
+    "ast_hash": "8fd48da5156b83c4633cfef7158fef5b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/KeyVisual.cs": {
+    "mtime": 1780777024.779786,
+    "ast_hash": "9e33e170f1fca81f355fe849c358f9d5",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/LootSpawner.cs": {
+    "mtime": 1780777078.1914294,
+    "ast_hash": "e9a9df384b6fb3a62c1a97d801ca5a12",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/ShieldDropper.cs": {
+    "mtime": 1780862162.9987836,
+    "ast_hash": "b5c95a7224d385fae15b43da1e06b977",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/ShieldPickup.cs": {
+    "mtime": 1780865096.6614296,
+    "ast_hash": "610cbd91fd43d4085a7e40e4d5e3b947",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerController2D.cs": {
+    "mtime": 1780879574.3024764,
+    "ast_hash": "9fcf4c4f309040c5a8b1c22fc99e05fb",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerController3D.cs": {
+    "mtime": 1782009696.0498722,
+    "ast_hash": "8f0d84aa2e901950c2a3805375d664a7",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerInteraction.cs": {
+    "mtime": 1780772654.2106595,
+    "ast_hash": "e833453b982b11894a6c13df00999e15",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerInventory.cs": {
+    "mtime": 1780865083.552272,
+    "ast_hash": "4cae826b2312f7d8f69e5db6d0fe41d4",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/DamagePopup.cs": {
+    "mtime": 1780715738.5232527,
+    "ast_hash": "675e5cafe5dc34170db1f70de1061f2d",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/EnemyHealthBar.cs": {
+    "mtime": 1780716365.3011067,
+    "ast_hash": "18af3d2d237349f7443707069951bf9a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/GameHud.cs": {
+    "mtime": 1780865123.701754,
+    "ast_hash": "3b8e78bc73538f7ddc4c8182b913221a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/GameHud3D.cs": {
+    "mtime": 1782009129.538214,
+    "ast_hash": "57a5d6afefc5a0d892015e93beba2840",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/HitBurst.cs": {
+    "mtime": 1780715794.0139802,
+    "ast_hash": "ad69a9db22ea814c3735581a5b1fee9b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/InteractionFeedback.cs": {
+    "mtime": 1780793556.2107823,
+    "ast_hash": "7efad0b1b038f250bd329b8527b104d4",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/SlashEffect.cs": {
+    "mtime": 1780776520.1851854,
+    "ast_hash": "9150a6577f8756578f8f57f844b3dde5",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Visuals/CharacterFrameAnimator.cs": {
+    "mtime": 1780878756.801579,
+    "ast_hash": "35eb2fde13f06589e52b20dd90b8a291",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Visuals/SkeletonEnemyVisual.cs": {
+    "mtime": 1781895249.2461534,
+    "ast_hash": "be3d5a6842449fc60da5acc590895782",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Visuals/SquashStretchAnimator.cs": {
+    "mtime": 1780717205.5063388,
+    "ast_hash": "5cb9f6264786c207a46149778ff6786a",
+    "semantic_hash": ""
+  },
+  "Packages/manifest.json": {
+    "mtime": 1780876461.167271,
+    "ast_hash": "68bdd7057acbe8bbb981707eec9df90b",
+    "semantic_hash": ""
+  },
+  "Packages/packages-lock.json": {
+    "mtime": 1780875808.208179,
+    "ast_hash": "f317673cac628b9cdac95b9640487a6d",
+    "semantic_hash": ""
+  },
+  "ProjectSettings/Packages/com.unity.ai.assistant/Settings.json": {
+    "mtime": 1780748926.8052077,
+    "ast_hash": "49b041605e47ba44f2c817ebf4c6e422",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/base-pet.md": {
+    "mtime": 1780868970.7839491,
+    "ast_hash": "268819fd4a4edeec83289bf7ce3a422a",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/failed.md": {
+    "mtime": 1780868970.7844603,
+    "ast_hash": "2b65b12a8a9eec41b520f397ea64d313",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/idle.md": {
+    "mtime": 1780868970.784054,
+    "ast_hash": "b94319c5afb07b53ed08a4f549371399",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/jumping.md": {
+    "mtime": 1780868970.7843843,
+    "ast_hash": "95fc048d388ef74ad2b16f4910933f0d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/review.md": {
+    "mtime": 1780868970.7846937,
+    "ast_hash": "d13721e738452bd00903b99b2820e84a",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/running-left.md": {
+    "mtime": 1780868970.7842252,
+    "ast_hash": "f5013176af1fee4f1782746dd59c3a85",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/running-right.md": {
+    "mtime": 1780868970.7841396,
+    "ast_hash": "13e45e53db39e7208f7da5169c0ae810",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/running.md": {
+    "mtime": 1780868970.7846162,
+    "ast_hash": "7b32de7f204234703946c060da3c6d17",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/waiting.md": {
+    "mtime": 1780868970.7845387,
+    "ast_hash": "697e40f9e46ac30db4f2c87dc810eb81",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/waving.md": {
+    "mtime": 1780868970.784304,
+    "ast_hash": "3fcd6cf8a733ac81042c57813cc1b9ac",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/failed.md": {
+    "mtime": 1780868970.7844236,
+    "ast_hash": "12e4f2b1e55ba78aae551c987c49f988",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/idle.md": {
+    "mtime": 1780868970.7840085,
+    "ast_hash": "3bf35b962fd3e383c3b9e8dba70b045c",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/jumping.md": {
+    "mtime": 1780868970.7843456,
+    "ast_hash": "a1c26ea8e0fee32daece45373b350ccb",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/review.md": {
+    "mtime": 1780868970.7846556,
+    "ast_hash": "d0038f28cbee4b03c05c2b81bb6c9d71",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/running-left.md": {
+    "mtime": 1780868970.7841845,
+    "ast_hash": "3b0aec652d004eed37d53ce9b56d2a19",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/running-right.md": {
+    "mtime": 1780868970.7840993,
+    "ast_hash": "4ce67f954ca51a9a1bfe48b89a63b6da",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/running.md": {
+    "mtime": 1780868970.7845776,
+    "ast_hash": "73d480eab897e970e7c304c895b06876",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/waiting.md": {
+    "mtime": 1780868970.7844994,
+    "ast_hash": "126700cdf8f8dbc9531069f319f22d5b",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/waving.md": {
+    "mtime": 1780868970.7842653,
+    "ast_hash": "2973f2a8268d0b834bda9b7ba54d3135",
+    "semantic_hash": ""
+  },
+  "Assets/Scenes/README.md": {
+    "mtime": 1781623572.0930607,
+    "ast_hash": "25e4f3b6ca507edccc422d11e70e975b",
+    "semantic_hash": ""
+  },
+  "ProjectSettings/ProjectVersion.txt": {
+    "mtime": 1780713531.8302708,
+    "ast_hash": "21fa4be5a697d5e1ccf8b502d74af971",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1782008521.468025,
+    "ast_hash": "2ddbe0475b384f122a67bda74f608cb1",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_back_slash.png": {
+    "mtime": 1781628612.987909,
+    "ast_hash": "0e77f9cb2acfda7aa6e467f70a5b0917",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_directions_sheet.png": {
+    "mtime": 1781628612.9519086,
+    "ast_hash": "8a31f58b828825406814e27c8a9fa33d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_front_left_slash.png": {
+    "mtime": 1781628613.0409098,
+    "ast_hash": "821563fbdc78a2c1c9ec22b7372f7bdf",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_front_right_slash.png": {
+    "mtime": 1781628613.05891,
+    "ast_hash": "331414de9537735b602a85ce48e2b88d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_front_slash.png": {
+    "mtime": 1781628612.9709089,
+    "ast_hash": "70881b6cd4224a4cee6a3bc4f881f8f6",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_left_slash.png": {
+    "mtime": 1781628613.0239096,
+    "ast_hash": "a3dc3fe88f39ea3ad48f46ed5b018bfa",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_right_slash.png": {
+    "mtime": 1781628613.0069094,
+    "ast_hash": "a28d81512dbddba69b26685ed96562c2",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_reference_cutout.png": {
+    "mtime": 1781628611.51489,
+    "ast_hash": "581f8dd73f1b4a8f61a9d6ed1d4e97d7",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/cleanup_backup/idle_0_before_magenta_cleanup.png": {
+    "mtime": 1780880145.4878109,
+    "ast_hash": "fe01bd0588d06b47016c57c6fe8d4ae7",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/dungeon_knight_actions_contact.png": {
+    "mtime": 1780879487.516631,
+    "ast_hash": "ac45d84bb33ee44a656c0ca1e55245b8",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/dungeon_knight_actions_sheet.png": {
+    "mtime": 1780878603.8329058,
+    "ast_hash": "f125cf92cf92788adfd0873e88fc242b",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/decoded/base.png": {
+    "mtime": 1780869192.718105,
+    "ast_hash": "29ed5abaa1d8e28b0465edaf24105e74",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/decoded/idle.png": {
+    "mtime": 1780869373.115997,
+    "ast_hash": "9545c51b64d82c594329ff12eddea631",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/canonical-base.png": {
+    "mtime": 1780869218.7813768,
+    "ast_hash": "3ab2f4e2a6a1d8e9dd9e66037b959e99",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/failed.png": {
+    "mtime": 1780868970.774818,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/idle.png": {
+    "mtime": 1780868970.7628179,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/jumping.png": {
+    "mtime": 1780868970.771818,
+    "ast_hash": "4e372653fa408a58c5e2784f5f371f10",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/review.png": {
+    "mtime": 1780868970.781818,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/running-left.png": {
+    "mtime": 1780868970.768818,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/running-right.png": {
+    "mtime": 1780868970.7658179,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/running.png": {
+    "mtime": 1780868970.779818,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/waiting.png": {
+    "mtime": 1780868970.776818,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/waving.png": {
+    "mtime": 1780868970.7698178,
+    "ast_hash": "39bef3ffd0ad2fea93f43446899b1ffa",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/reference-01.png": {
+    "mtime": 1780868507.0253348,
+    "ast_hash": "dd93ac0708e051b606fea772d47c7a50",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_0.png": {
+    "mtime": 1780880164.154981,
+    "ast_hash": "7064b5f5fc2f12c053e0c760ff355bed",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_1.png": {
+    "mtime": 1780880164.6799858,
+    "ast_hash": "8e9ccf4b87ed7add5bae62686dbf7a61",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_2.png": {
+    "mtime": 1780880165.2509909,
+    "ast_hash": "4df25d48c5ebf1c9d40182307290d383",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_3.png": {
+    "mtime": 1780880165.827996,
+    "ast_hash": "4ef9c00ebd3a45034dc07cfc99119681",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_0.png": {
+    "mtime": 1780880166.361001,
+    "ast_hash": "68b4da065096617c13a6d6b53384cb98",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_1.png": {
+    "mtime": 1780880166.9770067,
+    "ast_hash": "2cd1f4a6cc698fee1f1462b473b6336b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_2.png": {
+    "mtime": 1780880167.4840112,
+    "ast_hash": "167d5a645d62a9a4737749284af8bc41",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_3.png": {
+    "mtime": 1780880168.2180178,
+    "ast_hash": "55cc6e16734650056bd6d9a39a45907a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_0.png": {
+    "mtime": 1780880168.7020223,
+    "ast_hash": "71c90694e9cbd182c46fb7f3ae2b3d0d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_1.png": {
+    "mtime": 1780880169.224027,
+    "ast_hash": "5c26d04083339859621b16926588f329",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_2.png": {
+    "mtime": 1780880169.778032,
+    "ast_hash": "865ab9a4ace2323733aaa23ca9aa830a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_3.png": {
+    "mtime": 1780880170.232036,
+    "ast_hash": "84a48a8314390d10c081e7c4bdc5e177",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_0.png": {
+    "mtime": 1780880170.8190415,
+    "ast_hash": "a37bdd87248462d9db708ce081e5d6eb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_1.png": {
+    "mtime": 1780880171.297046,
+    "ast_hash": "561414235d8ba19599b479406ba83c25",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_2.png": {
+    "mtime": 1780880172.0180523,
+    "ast_hash": "a0d43b3e405d346f7d42bb85ed920087",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_3.png": {
+    "mtime": 1780880172.6580582,
+    "ast_hash": "7fb892595fdf8429cbf1dab97d4d56a7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_0.png": {
+    "mtime": 1780880199.7013042,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_1.png": {
+    "mtime": 1780880200.4273107,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_2.png": {
+    "mtime": 1780880201.0473163,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_3.png": {
+    "mtime": 1780880201.7363226,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_4.png": {
+    "mtime": 1780880202.3823285,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_5.png": {
+    "mtime": 1780880203.0253344,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/dungeon_knight_hatch_base.png": {
+    "mtime": 1780880163.4989748,
+    "ast_hash": "3ab2f4e2a6a1d8e9dd9e66037b959e99",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/knight_reference_cutout.png": {
+    "mtime": 1780868507.0253348,
+    "ast_hash": "dd93ac0708e051b606fea772d47c7a50",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DAssets.cs": {
+    "mtime": 1782003412.7990322,
+    "ast_hash": "6681e6be9958c79e69069d3fea6d4e25",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DEnemySpawner.cs": {
+    "mtime": 1782005114.153275,
+    "ast_hash": "21396952f22bd77588042a3a1eea27aa",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DInteractableBuilder.cs": {
+    "mtime": 1782005676.9984577,
+    "ast_hash": "44ed173b021bdcd703d803d843e85e98",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DPlayerFactory.cs": {
+    "mtime": 1782009696.0518723,
+    "ast_hash": "630a8de65c8ed159a94ee50b5f2ee601",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DProgressionWorldBuilder.cs": {
+    "mtime": 1782005884.3495576,
+    "ast_hash": "00fa4a8701a6a7d0b9e8593530e1b4c9",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DWorldBuilder.cs": {
+    "mtime": 1782005646.9460034,
+    "ast_hash": "64368d4f7ea5c43732cb2d0100cf3b56",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/PlayerModelVisual3D.cs": {
+    "mtime": 1782003604.3957522,
+    "ast_hash": "2a6f60713a2298e07e387d9e835beb0f",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/PlayerVisual3D.cs": {
+    "mtime": 1782003631.84614,
+    "ast_hash": "184a46d56802acc150875696c631adf2",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/SkeletonEnemyVisual3D.cs": {
+    "mtime": 1782003553.565033,
+    "ast_hash": "e670cae36e0c71f81788b9023d90da36",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1781989915.6126947,
+    "ast_hash": "ca24cb1772319377d38124ffabe5a07f",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DGeometryBuilder.cs": {
+    "mtime": 1782005626.8896992,
+    "ast_hash": "14fd18f770ac4494cd9d10a60d874601",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DTraversalBuilder.cs": {
+    "mtime": 1782005884.3475575,
+    "ast_hash": "f98774627113509fdc42984986c8d649",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerAttackResolver3D.cs": {
+    "mtime": 1782006106.7333717,
+    "ast_hash": "24545fd7b8b0d7cf5432ad874ba6db27",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerInteractionScanner3D.cs": {
+    "mtime": 1782006106.7343717,
+    "ast_hash": "572ae2f59172bb22273ce098b0b349fa",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerStatusMessenger3D.cs": {
+    "mtime": 1782006185.6890907,
+    "ast_hash": "4e1aa3a0072c22ec3e647e2b627fdb28",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerMovementMotor3D.cs": {
+    "mtime": 1782006379.4412296,
+    "ast_hash": "1f93a5f0194eeeb045b84fd4c53f2faf",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonEnemyDamageFlash3D.cs": {
+    "mtime": 1782006529.443099,
+    "ast_hash": "4c991cc2ac18d1d0a9a6b3d29c9e3691",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonSwordVisual3D.cs": {
+    "mtime": 1782006768.2512572,
+    "ast_hash": "17b5fa54299442a7204ffea8c3169b30",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonModelSetup3D.cs": {
+    "mtime": 1782006928.607439,
+    "ast_hash": "5106801c265bc96a1cd383fedfe22a52",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonAnimationGraph3D.cs": {
+    "mtime": 1782007107.1177924,
+    "ast_hash": "68bfbc5211bcf90405a8c02fd288985c",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerState3D.cs": {
+    "mtime": 1782007787.5492482,
+    "ast_hash": "e53ea13851a8dd48beb5ff89bce34b88",
+    "semantic_hash": ""
+  }
+}
