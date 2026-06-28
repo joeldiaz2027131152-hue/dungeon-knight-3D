@@ -1,4 +1,5 @@
 using DungeonKnight.Player;
+using DungeonKnight.Level;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,8 +27,12 @@ namespace DungeonKnight.UI
         private Text helpText;
         private Text messageText;
         private Text messageIconText;
+        private Text targetText;
         private Image hpFill;
         private Image staminaFill;
+        private Image targetPanel;
+        private Image targetHpFill;
+        private Image targetPostureFill;
         private Image equipmentPanel;
         private Image helpPanel;
         private Image messagePanel;
@@ -137,7 +142,7 @@ namespace DungeonKnight.UI
             {
                 Rect targetBox = new Rect(Screen.width * 0.5f - 150f, 22f, 300f, 56f);
                 DrawBox(targetBox, new Color(0.025f, 0.02f, 0.025f, 0.82f), new Color(0.7f, 0.48f, 0.22f, 0.75f));
-                GUI.Label(new Rect(targetBox.x + 12f, targetBox.y + 5f, targetBox.width - 24f, 18f), "Objetivo fijado", smallStyle);
+                GUI.Label(new Rect(targetBox.x + 12f, targetBox.y + 5f, targetBox.width - 24f, 18f), player.LockOnTarget.DisplayName, smallStyle);
                 DrawBar(new Rect(targetBox.x + 12f, targetBox.y + 25f, targetBox.width - 24f, 10f), player.LockOnTarget.HealthFraction, new Color(0.24f, 0.03f, 0.04f), new Color(0.84f, 0.1f, 0.1f), "");
                 DrawBar(new Rect(targetBox.x + 12f, targetBox.y + 39f, targetBox.width - 24f, 9f), player.LockOnTarget.PostureFraction, new Color(0.22f, 0.18f, 0.07f), new Color(0.95f, 0.68f, 0.18f), "");
             }
@@ -184,7 +189,7 @@ namespace DungeonKnight.UI
 
         private void EnsureOverlayCanvas()
         {
-            if (overlayCanvas && titleText && hpFill && staminaFill && hpText && staminaText && statsText && messagePanel && messageText) return;
+            if (overlayCanvas && titleText && hpFill && staminaFill && hpText && staminaText && statsText && messagePanel && messageText && targetPanel && targetText && targetHpFill && targetPostureFill) return;
 
             if (overlayCanvas)
             {
@@ -230,6 +235,21 @@ namespace DungeonKnight.UI
             SetRect(messageText.rectTransform, new Vector2(0f, 0f), new Vector2(530f, 48f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f));
             messageIconText = CreateText("Message Icon", messagePanel.transform, font, 11, FontStyle.Bold, new Color(0.95f, 0.8f, 0.35f), TextAnchor.MiddleCenter);
             SetRect(messageIconText.rectTransform, new Vector2(34f, 0f), new Vector2(48f, 36f), new Vector2(0f, 0.5f), new Vector2(0f, 0.5f), new Vector2(0.5f, 0.5f));
+
+            targetPanel = CreatePanel("Target Panel", overlayCanvas.transform, new Color(0.018f, 0.016f, 0.018f, 0.82f));
+            SetRect(targetPanel.rectTransform, new Vector2(0f, -24f), new Vector2(360f, 64f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f));
+            targetText = CreateText("Target Text", targetPanel.transform, font, 13, FontStyle.Bold, new Color(0.95f, 0.82f, 0.5f), TextAnchor.MiddleCenter);
+            SetRect(targetText.rectTransform, new Vector2(0f, -9f), new Vector2(330f, 20f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f));
+            Image targetHpBack = CreatePanel("Target HP Back", targetPanel.transform, new Color(0.16f, 0.025f, 0.035f, 0.95f));
+            SetRect(targetHpBack.rectTransform, new Vector2(0f, -35f), new Vector2(320f, 12f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f));
+            targetHpFill = CreatePanel("Target HP Fill", targetHpBack.transform, new Color(0.78f, 0.08f, 0.11f, 1f));
+            SetRect(targetHpFill.rectTransform, new Vector2(0f, 0f), new Vector2(320f, 12f), new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f));
+            targetHpFill.rectTransform.pivot = new Vector2(0f, 1f);
+            Image targetPostureBack = CreatePanel("Target Posture Back", targetPanel.transform, new Color(0.16f, 0.12f, 0.03f, 0.95f));
+            SetRect(targetPostureBack.rectTransform, new Vector2(0f, -51f), new Vector2(320f, 8f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f));
+            targetPostureFill = CreatePanel("Target Posture Fill", targetPostureBack.transform, new Color(0.95f, 0.65f, 0.14f, 1f));
+            SetRect(targetPostureFill.rectTransform, new Vector2(0f, 0f), new Vector2(320f, 8f), new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f));
+            targetPostureFill.rectTransform.pivot = new Vector2(0f, 1f);
 
             helpPanel = CreatePanel("Help Panel", overlayCanvas.transform, new Color(0.035f, 0.04f, 0.055f, 0.68f));
             SetRect(helpPanel.rectTransform, new Vector2(18f, 12f), new Vector2(720f, 26f), new Vector2(0f, 0f), new Vector2(0f, 0f), new Vector2(0f, 0f));
@@ -445,6 +465,16 @@ namespace DungeonKnight.UI
 
             helpText.text = "  WASD: moverte   Tab: fijar enemigo   Space: saltar   J: atacar/cargar   K: escudo/parry   L: rodar   E: usar   Q: pocion   I: inventario";
             helpPanel.gameObject.SetActive(false);
+
+            DungeonEnemy3D target = player.LockOnTarget;
+            bool showTarget = target && target.IsTowerMiniBossEnemy;
+            targetPanel.gameObject.SetActive(showTarget);
+            if (showTarget)
+            {
+                targetText.text = target.DisplayName;
+                targetHpFill.rectTransform.localScale = new Vector3(target.HealthFraction, 1f, 1f);
+                targetPostureFill.rectTransform.localScale = new Vector3(target.PostureFraction, 1f, 1f);
+            }
         }
 
         private Image CreateBar(string name, Vector2 anchoredPosition, Color fillColor)

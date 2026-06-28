@@ -156,10 +156,17 @@ namespace DungeonKnight.Player
             ShowMessage($"Recuperaste {amount} almas", 2f);
         }
 
-        public void AddPotion()
+        public bool AddPotion()
         {
-            Potions = Mathf.Min(5, Potions + 1);
+            if (Potions >= 5)
+            {
+                ShowMessage("Bolsa de pociones llena", 1.1f);
+                return false;
+            }
+
+            Potions++;
             ShowMessage("Pocion recuperada", 1.8f);
+            return true;
         }
 
         public void RestAtBonfire(Vector3 bonfirePosition)
@@ -436,11 +443,9 @@ namespace DungeonKnight.Player
                 chargeTimer = 0f;
             }
 
-            if (Input.GetKeyDown(KeyCode.Q) && Potions > 0 && Health < MaxHealth)
+            if (Input.GetKeyDown(KeyCode.Q))
             {
-                Potions--;
-                Health = Mathf.Min(MaxHealth, Health + 45);
-                ShowMessage("Pocion usada", 1.4f);
+                TryUsePotion();
             }
 
             ResolveAttackWindow();
@@ -456,6 +461,27 @@ namespace DungeonKnight.Player
             attackHitResolved = false;
             pendingAttackDamage = charged ? EffectiveChargedAttackDamage : EffectiveLightAttackDamage;
             attackSequence++;
+        }
+
+        public bool TryUsePotion()
+        {
+            if (Potions <= 0)
+            {
+                ShowMessage("No tienes pociones", 0.9f);
+                return false;
+            }
+
+            if (Health >= MaxHealth)
+            {
+                ShowMessage("Vida llena", 0.8f);
+                return false;
+            }
+
+            Potions--;
+            Health = Mathf.Min(MaxHealth, Health + 45);
+            CombatFeedback3D.Spawn(transform.position + Vector3.up * 0.9f, new Color(0.95f, 0.12f, 0.22f), 12);
+            ShowMessage("Pocion usada", 1.4f);
+            return true;
         }
 
         private PlayerInventory Inventory
