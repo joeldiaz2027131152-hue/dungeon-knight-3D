@@ -8,7 +8,8 @@ namespace DungeonKnight.Level
         private enum PickupKind
         {
             Coin,
-            Potion
+            Potion,
+            TowerKey
         }
 
         [SerializeField] private PickupKind kind;
@@ -27,6 +28,13 @@ namespace DungeonKnight.Level
             amount = 1;
         }
 
+        public void ConfigureTowerKey()
+        {
+            kind = PickupKind.TowerKey;
+            amount = 1;
+            spinSpeed = 42f;
+        }
+
         private void Update()
         {
             transform.Rotate(Vector3.up, spinSpeed * Time.deltaTime, Space.World);
@@ -38,6 +46,7 @@ namespace DungeonKnight.Level
             if (!player) return;
 
             if (kind == PickupKind.Coin) player.AddCoins(amount);
+            else if (kind == PickupKind.TowerKey) player.GiveTowerKey();
             else player.AddPotion();
 
             Destroy(gameObject);

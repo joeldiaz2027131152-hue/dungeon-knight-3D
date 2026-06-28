@@ -88,7 +88,7 @@ namespace DungeonKnight.Interactables
             transform.localScale = baseScale;
             if (TryGetComponent(out SpriteRenderer renderer))
             {
-                renderer.color = new Color(0.42f, 0.25f, 0.12f);
+                renderer.color = new Color(0.62f, 0.82f, 0.9f);
             }
         }
 
@@ -101,7 +101,7 @@ namespace DungeonKnight.Interactables
 
             SpriteRenderer renderer = lid.AddComponent<SpriteRenderer>();
             renderer.sprite = WhitePixel();
-            renderer.color = new Color(1f, 0.76f, 0.22f, 0.82f);
+            renderer.color = new Color(0.82f, 0.94f, 1f, 0.76f);
             renderer.sortingOrder = 5;
             return renderer;
         }

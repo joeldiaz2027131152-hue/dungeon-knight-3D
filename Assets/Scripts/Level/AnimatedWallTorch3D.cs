@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace DungeonKnight.Level
 {
+    [ExecuteAlways]
     [RequireComponent(typeof(SpriteRenderer))]
     public class AnimatedWallTorch3D : MonoBehaviour
     {
@@ -21,11 +22,20 @@ namespace DungeonKnight.Level
         private Vector3 baseScale;
         private Vector3 glowBaseScale;
         private float seed;
+        [SerializeField] private bool hideWhenNotPlaying;
 
-        public void Configure(Light lightSource, Vector3 worldWindDirection)
+        public void Configure(Light lightSource, Vector3 worldWindDirection, bool hideInEditorPreview = false)
         {
             torchLight = lightSource;
             windDirection = worldWindDirection.sqrMagnitude > 0.001f ? worldWindDirection.normalized : Vector3.right;
+            hideWhenNotPlaying = hideInEditorPreview;
+            ApplyEditorPreviewVisibility();
+        }
+
+        public void SetEditorPreviewHidden(bool hidden)
+        {
+            hideWhenNotPlaying = hidden;
+            ApplyEditorPreviewVisibility();
         }
 
         private void Awake()
@@ -38,14 +48,16 @@ namespace DungeonKnight.Level
             flameRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
             flameRenderer.receiveShadows = false;
 
-            GameObject glow = new GameObject("Torch Flame Glow");
-            glow.transform.SetParent(transform, false);
-            glow.transform.localPosition = new Vector3(0f, 0.18f, 0.03f);
-            glow.transform.localScale = new Vector3(1.85f, 1.65f, 1f);
-            glowRenderer = glow.AddComponent<SpriteRenderer>();
+            Transform existingGlow = transform.Find("Torch Flame Glow");
+            GameObject glow = existingGlow ? existingGlow.gameObject : new GameObject("Torch Flame Glow");
+            if (!existingGlow) glow.transform.SetParent(transform, false);
+            glow.transform.localPosition = new Vector3(0f, 0.12f, 0.03f);
+            glow.transform.localScale = new Vector3(0.78f, 0.7f, 1f);
+            glowRenderer = glow.GetComponent<SpriteRenderer>();
+            if (!glowRenderer) glowRenderer = glow.AddComponent<SpriteRenderer>();
             glowRenderer.sprite = glowSprite;
             glowRenderer.sortingOrder = 5;
-            glowRenderer.color = new Color(1f, 0.42f, 0.08f, 0.42f);
+            glowRenderer.color = new Color(1f, 0.42f, 0.08f, 0.18f);
             glowRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
             glowRenderer.receiveShadows = false;
 
@@ -53,11 +65,19 @@ namespace DungeonKnight.Level
             baseScale = transform.localScale;
             glowBaseScale = glow.transform.localScale;
             seed = Random.Range(0f, 10f);
+            ApplyEditorPreviewVisibility();
+        }
+
+        private void OnEnable()
+        {
+            ApplyEditorPreviewVisibility();
         }
 
         private void Update()
         {
             if (frames == null || frames.Length == 0) return;
+            ApplyEditorPreviewVisibility();
+            if (!Application.isPlaying) return;
 
             float time = Time.time + seed;
             int frameIndex = Mathf.FloorToInt(time * 11f) % frames.Length;
@@ -71,8 +91,8 @@ namespace DungeonKnight.Level
 
             if (glowRenderer)
             {
-                glowRenderer.color = new Color(1f, 0.42f, 0.08f, 0.26f + Mathf.Abs(gust) * 0.06f);
-                glowRenderer.transform.localScale = glowBaseScale * (1f + Mathf.Abs(gust) * 0.09f);
+                glowRenderer.color = new Color(1f, 0.42f, 0.08f, 0.12f + Mathf.Abs(gust) * 0.035f);
+                glowRenderer.transform.localScale = glowBaseScale * (1f + Mathf.Abs(gust) * 0.05f);
             }
 
             if (torchLight)
@@ -80,6 +100,14 @@ namespace DungeonKnight.Level
                 torchLight.intensity = 1.35f + flicker * 0.38f + Mathf.Abs(gust) * 0.12f;
                 torchLight.range = 4.6f + flicker * 0.35f;
             }
+        }
+
+        private void ApplyEditorPreviewVisibility()
+        {
+            bool visible = Application.isPlaying || !hideWhenNotPlaying;
+            if (flameRenderer) flameRenderer.enabled = visible;
+            if (glowRenderer) glowRenderer.enabled = visible;
+            if (torchLight) torchLight.enabled = visible;
         }
 
         private static void EnsureSprites()

@@ -52,12 +52,40 @@ namespace DungeonKnight.Level
         {
             for (int i = 0; i < count; i++)
             {
-                GameObject spike = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-                spike.name = "Floor Spike";
-                spike.transform.position = origin + new Vector3((i - count * 0.5f) * 0.62f, 0.35f, 0f);
-                spike.transform.localScale = new Vector3(0.26f, 0.52f, 0.26f);
-                spike.GetComponent<Renderer>().material = assets.Brass;
+                CreateSpikeTip(origin + new Vector3((i - count * 0.5f) * 0.62f, 0.22f, 0f), 0.36f, 0.46f);
             }
+        }
+
+        private void CreateSpikeTip(Vector3 position, float baseWidth, float height)
+        {
+            GameObject spike = new GameObject("Buried Spike Tip");
+            spike.transform.position = position;
+
+            float half = baseWidth * 0.5f;
+            Mesh mesh = new Mesh
+            {
+                name = "Buried Spike Tip Mesh",
+                vertices = new[]
+                {
+                    new Vector3(-half, -height * 0.5f, -half),
+                    new Vector3(half, -height * 0.5f, -half),
+                    new Vector3(half, -height * 0.5f, half),
+                    new Vector3(-half, -height * 0.5f, half),
+                    new Vector3(0f, height * 0.5f, 0f)
+                },
+                triangles = new[]
+                {
+                    0, 4, 1,
+                    1, 4, 2,
+                    2, 4, 3,
+                    3, 4, 0,
+                    0, 1, 2,
+                    0, 2, 3
+                }
+            };
+            mesh.RecalculateNormals();
+            spike.AddComponent<MeshFilter>().sharedMesh = mesh;
+            spike.AddComponent<MeshRenderer>().sharedMaterial = assets.ChestIron;
         }
     }
 }

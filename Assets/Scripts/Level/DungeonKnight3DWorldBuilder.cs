@@ -25,9 +25,9 @@ namespace DungeonKnight.Level
             CreateBox("Main Stone Floor", new Vector3(0f, -0.25f, 0f), new Vector3(15f, 0.5f, 44f), assets.Stone);
             CreateBox("Left Wall", new Vector3(-7.75f, 2.5f, 0f), new Vector3(0.5f, 5.5f, 44f), assets.DarkStone);
             CreateBox("Right Wall", new Vector3(7.75f, 2.5f, 0f), new Vector3(0.5f, 5.5f, 44f), assets.DarkStone);
-            CreateBox("Rear Wall Left", new Vector3(-5.25f, 2.5f, 22f), new Vector3(5f, 5.5f, 0.5f), assets.DarkStone);
-            CreateBox("Rear Wall Right", new Vector3(5.25f, 2.5f, 22f), new Vector3(5f, 5.5f, 0.5f), assets.DarkStone);
-            CreateBox("Rear Gate Arch", new Vector3(0f, 4.35f, 22f), new Vector3(5.8f, 1.2f, 0.55f), assets.DarkStone);
+            CreateBox("Rear Wall Left", new Vector3(-5.15f, 2.5f, 22f), new Vector3(4.7f, 5.5f, 0.5f), assets.DarkStone);
+            CreateBox("Rear Wall Right", new Vector3(5.15f, 2.5f, 22f), new Vector3(4.7f, 5.5f, 0.5f), assets.DarkStone);
+            CreateBox("Rear Wall Above Door", new Vector3(0f, 4.2f, 22f), new Vector3(5.6f, 2.1f, 0.5f), assets.DarkStone);
             CreateBox("Start Arch", new Vector3(0f, 3.8f, -20f), new Vector3(15f, 0.8f, 0.7f), assets.DarkStone);
 
             for (int i = 0; i < 8; i++)
@@ -51,7 +51,7 @@ namespace DungeonKnight.Level
             }
 
             geometry.CreateSpikeRow(new Vector3(0f, 0.15f, -7.2f), 9);
-            geometry.CreateSpikeRow(new Vector3(0f, 0.15f, 10.8f), 7);
+            geometry.CreateSpikeRow(new Vector3(0f, 0.15f, 5.2f), 7);
         }
 
         private void CreateSetDressing()

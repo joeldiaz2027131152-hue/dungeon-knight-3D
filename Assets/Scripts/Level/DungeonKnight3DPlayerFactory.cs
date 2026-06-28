@@ -19,7 +19,9 @@ namespace DungeonKnight.Level
             player.name = "Knight 3D";
             player.transform.position = DungeonKnight3DBootstrap.PlayerSpawn;
             player.transform.localScale = new Vector3(0.82f, 1.05f, 0.82f);
-            Object.Destroy(player.GetComponent<CapsuleCollider>());
+            CapsuleCollider capsuleCollider = player.GetComponent<CapsuleCollider>();
+            if (Application.isPlaying) Object.Destroy(capsuleCollider);
+            else Object.DestroyImmediate(capsuleCollider);
             player.GetComponent<Renderer>().material = assets.PlayerBody;
 
             CharacterController controller = player.AddComponent<CharacterController>();
@@ -27,6 +29,7 @@ namespace DungeonKnight.Level
             controller.radius = 0.42f;
             controller.center = Vector3.zero;
 
+            player.AddComponent<PlayerInventory>();
             PlayerController3D playerController = player.AddComponent<PlayerController3D>();
             if (!AttachPlayerModel(player.transform, playerController) && !AttachPlayerSprite(player.transform, playerController))
             {

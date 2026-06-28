@@ -14,6 +14,7 @@ namespace DungeonKnight.Level
         private float openTimer;
         private Quaternion closedRotation;
         private Quaternion openRotation;
+        private Vector3 treasureBaseScale = Vector3.one;
 
         public void Configure(Transform lid, GameObject treasure, Light lightSource)
         {
@@ -21,7 +22,8 @@ namespace DungeonKnight.Level
             treasureRoot = treasure;
             treasureLight = lightSource;
             closedRotation = lidPivot ? lidPivot.localRotation : Quaternion.identity;
-            openRotation = closedRotation * Quaternion.Euler(-108f, 0f, 0f);
+            openRotation = closedRotation * Quaternion.Euler(82f, 0f, 0f);
+            treasureBaseScale = treasureRoot ? treasureRoot.transform.localScale : Vector3.one;
 
             if (treasureRoot) treasureRoot.SetActive(false);
             if (treasureLight) treasureLight.enabled = false;
@@ -50,12 +52,12 @@ namespace DungeonKnight.Level
             if (treasureRoot)
             {
                 float pop = Mathf.Sin(Mathf.Clamp01(t) * Mathf.PI);
-                treasureRoot.transform.localScale = Vector3.one * (0.82f + pop * 0.18f);
+                treasureRoot.transform.localScale = treasureBaseScale * (1f + pop * 0.12f);
             }
 
             if (treasureLight)
             {
-                treasureLight.intensity = 0.6f + smooth * 1.4f + Mathf.Sin(Time.time * 14f) * 0.12f;
+                treasureLight.intensity = 0.25f + smooth * 0.8f + Mathf.Sin(Time.time * 14f) * 0.06f;
             }
 
             if (t < 1f) return;

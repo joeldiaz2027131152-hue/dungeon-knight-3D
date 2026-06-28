@@ -7,6 +7,10 @@ namespace DungeonKnight.Level
         public Material Stone { get; private set; }
         public Material DarkStone { get; private set; }
         public Material Brass { get; private set; }
+        public Material ChestShell { get; private set; }
+        public Material ChestIron { get; private set; }
+        public Material ChestTrim { get; private set; }
+        public Material ChestGlow { get; private set; }
         public Material Ember { get; private set; }
         public Material Enemy { get; private set; }
         public Material PlayerBody { get; private set; }
@@ -45,6 +49,10 @@ namespace DungeonKnight.Level
             assets.Stone = NewTexturedMaterial("DK3D Moss Stone", new Color(0.72f, 0.74f, 0.72f), dungeonStoneTexture);
             assets.DarkStone = NewTexturedMaterial("DK3D Dark Moss Stone", new Color(0.42f, 0.46f, 0.46f), dungeonStoneTexture);
             assets.Brass = NewMaterial("DK3D Old Brass", new Color(0.86f, 0.62f, 0.28f));
+            assets.ChestShell = NewMaterial("DK3D Blue Iron Chest Shell", new Color(0.16f, 0.24f, 0.29f));
+            assets.ChestIron = NewMaterial("DK3D Dark Riveted Chest Iron", new Color(0.045f, 0.06f, 0.075f));
+            assets.ChestTrim = NewMaterial("DK3D Worn Chest Edge Metal", new Color(0.42f, 0.5f, 0.55f));
+            assets.ChestGlow = NewMaterial("DK3D Chest Soul Glow", new Color(0.74f, 0.94f, 1f));
             assets.Ember = NewMaterial("DK3D Ember", new Color(1f, 0.26f, 0.08f));
             assets.Enemy = NewMaterial("DK3D Bone Enemy", new Color(0.82f, 0.78f, 0.66f));
             assets.PlayerBody = NewMaterial("DK3D Knight Steel", new Color(0.52f, 0.58f, 0.68f));

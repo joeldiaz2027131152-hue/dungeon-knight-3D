@@ -15,18 +15,14 @@ namespace DungeonKnight.Level
         {
             CreateInteractableBox("Bonfire", new Vector3(-3.3f, 0.45f, -15.1f), new Vector3(1.1f, 0.9f, 1.1f), assets.Ember).ConfigureBonfire();
             CreateFirstBonfireNpc();
-            CreateInteractableBox("Lore Tablet", new Vector3(2.7f, 0.6f, -13.4f), new Vector3(1.1f, 1.2f, 0.28f), assets.Brass)
-                .ConfigureLore("J: atacar. Mantener J: golpe cargado. K bloquea, L rueda, E interactua.");
-            CreateInteractableBox("Treasure Chest", new Vector3(-4.1f, 1.95f, 7.8f), new Vector3(1.2f, 0.55f, 0.75f), assets.Brass).ConfigureChest(12);
+            CreateChest("Treasure Chest", new Vector3(-4.1f, 1.95f, 7.8f), 12);
 
-            Transform gate = CreateBox("Locked Gate", new Vector3(0f, 1.65f, 20.7f), new Vector3(5.8f, 3.2f, 0.38f), assets.Brass).transform;
-            CreateInteractableBox("Gate Lock", new Vector3(0f, 1f, 19.85f), new Vector3(1.2f, 1.4f, 0.45f), assets.Brass).ConfigureGate(gate);
+            Transform gate = CreateBox("Locked Gate", new Vector3(0f, 1.65f, 21.78f), new Vector3(5.8f, 3.2f, 0.48f), assets.Brass).transform;
+            CreateInteractableBox("Gate Lock", new Vector3(0f, 1f, 20.85f), new Vector3(1.2f, 1.4f, 0.45f), assets.Brass).ConfigureUnlockedGate(gate);
             CreateDoor("Door 1-1 To 1-2", new Vector3(0f, 1.35f, 22.65f), new Vector3(2.35f, 2.7f, 0.35f), new Vector3(0f, 1.05f, 28.2f), Vector3.forward, "Entraste al World 1-2.");
             CreateInteractableBox("World 1-2 Marker", new Vector3(2.7f, 1f, 22.8f), new Vector3(1.1f, 1.4f, 0.3f), assets.Brass)
                 .ConfigureLore("La llave abre el porton. Mas alla empieza el camino exterior del 1-2.");
 
-            CreatePickup("Coin A", new Vector3(2.4f, 0.65f, -6.2f), true);
-            CreatePickup("Coin B", new Vector3(-2.4f, 0.65f, -4.6f), true);
             CreatePickup("Potion", new Vector3(4.2f, 2.95f, 14.4f), false);
         }
 
@@ -66,6 +62,51 @@ namespace DungeonKnight.Level
             CreateBox($"{name} Frame Right", position + Vector3.right * (scale.x * 0.5f + 0.18f), new Vector3(0.28f, scale.y + 0.45f, scale.z + 0.2f), assets.Brass);
         }
 
+        public DungeonInteractable3D CreateChest(string name, Vector3 position, int coins)
+        {
+            GameObject root = new GameObject(name);
+            root.transform.position = position;
+
+            DungeonInteractable3D trigger = CreateInteractableBox($"{name} Trigger", position, new Vector3(1.7f, 1.1f, 1.28f), assets.Brass);
+            trigger.transform.SetParent(root.transform, true);
+            Renderer triggerRenderer = trigger.GetComponent<Renderer>();
+            if (triggerRenderer) triggerRenderer.enabled = false;
+
+            CreateLocalBox(root.transform, "Chest Lower Blue Iron Case", new Vector3(0f, -0.14f, 0f), new Vector3(1.38f, 0.5f, 0.88f), assets.ChestShell);
+            CreateLocalBox(root.transform, "Chest Front Iron Strap", new Vector3(0f, 0.03f, -0.47f), new Vector3(1.46f, 0.12f, 0.07f), assets.ChestIron);
+            CreateLocalBox(root.transform, "Chest Back Iron Strap", new Vector3(0f, 0.03f, 0.47f), new Vector3(1.46f, 0.12f, 0.07f), assets.ChestIron);
+            CreateLocalBox(root.transform, "Chest Left Iron Strap", new Vector3(-0.71f, 0.03f, 0f), new Vector3(0.07f, 0.12f, 0.9f), assets.ChestIron);
+            CreateLocalBox(root.transform, "Chest Right Iron Strap", new Vector3(0.71f, 0.03f, 0f), new Vector3(0.07f, 0.12f, 0.9f), assets.ChestIron);
+            CreateLocalBox(root.transform, "Chest Front Bottom Lip", new Vector3(0f, -0.41f, -0.47f), new Vector3(1.5f, 0.1f, 0.08f), assets.ChestIron);
+            CreateLocalBox(root.transform, "Chest Lock Plate", new Vector3(0f, -0.06f, -0.54f), new Vector3(0.28f, 0.34f, 0.08f), assets.ChestTrim);
+            CreateLocalBox(root.transform, "Chest Lock Keyhole", new Vector3(0f, -0.08f, -0.595f), new Vector3(0.08f, 0.18f, 0.035f), assets.ChestIron);
+
+            GameObject lidPivot = new GameObject("Chest Lid Pivot");
+            lidPivot.transform.SetParent(root.transform, false);
+            lidPivot.transform.localPosition = new Vector3(0f, 0.16f, 0.43f);
+            CreateLocalBox(lidPivot.transform, "Chest Curved Lid Core", new Vector3(0f, 0.14f, -0.42f), new Vector3(1.42f, 0.28f, 0.88f), assets.ChestShell);
+            CreateLocalBox(lidPivot.transform, "Chest Lid Front Band", new Vector3(0f, 0.26f, -0.88f), new Vector3(1.5f, 0.09f, 0.08f), assets.ChestIron);
+            CreateLocalBox(lidPivot.transform, "Chest Lid Crown Band", new Vector3(0f, 0.31f, -0.42f), new Vector3(1.5f, 0.08f, 0.12f), assets.ChestTrim);
+            CreateLocalBox(lidPivot.transform, "Chest Left Lid Hinge Band", new Vector3(-0.42f, 0.26f, -0.42f), new Vector3(0.08f, 0.18f, 0.92f), assets.ChestIron);
+            CreateLocalBox(lidPivot.transform, "Chest Right Lid Hinge Band", new Vector3(0.42f, 0.26f, -0.42f), new Vector3(0.08f, 0.18f, 0.92f), assets.ChestIron);
+
+            CreateRivetRow(root.transform, -0.53f, -0.47f, 7);
+            CreateRivetRow(root.transform, 0.11f, -0.47f, 7);
+            CreateRivetRow(lidPivot.transform, 0.34f, -0.88f, 7);
+
+            GameObject soul = CreateSoulGlow(root.transform);
+            Light light = soul.AddComponent<Light>();
+            light.type = LightType.Point;
+            light.color = new Color(0.78f, 0.95f, 1f);
+            light.range = 4.2f;
+            light.intensity = 1.4f;
+
+            DungeonChestVisual3D visual = root.AddComponent<DungeonChestVisual3D>();
+            visual.Configure(lidPivot.transform, soul, light);
+            trigger.ConfigureChest(coins, visual);
+            return trigger;
+        }
+
         public void CreatePickup(string name, Vector3 position, bool coin)
         {
             GameObject pickup = GameObject.CreatePrimitive(coin ? PrimitiveType.Cylinder : PrimitiveType.Sphere);
@@ -83,6 +124,50 @@ namespace DungeonKnight.Level
         private static GameObject CreateBox(string name, Vector3 position, Vector3 scale, Material material)
         {
             return DungeonKnight3DGeometryBuilder.CreateBox(name, position, scale, material);
+        }
+
+        private static GameObject CreateLocalBox(Transform parent, string name, Vector3 localPosition, Vector3 localScale, Material material)
+        {
+            GameObject box = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            box.name = name;
+            box.transform.SetParent(parent, false);
+            box.transform.localPosition = localPosition;
+            box.transform.localScale = localScale;
+            box.GetComponent<Renderer>().material = material;
+            Object.Destroy(box.GetComponent<Collider>());
+            return box;
+        }
+
+        private void CreateRivetRow(Transform parent, float y, float z, int count)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                float x = -0.54f + i * (1.08f / (count - 1));
+                GameObject rivet = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                rivet.name = "Chest Raised Rivet";
+                rivet.transform.SetParent(parent, false);
+                rivet.transform.localPosition = new Vector3(x, y, z);
+                rivet.transform.localScale = Vector3.one * 0.055f;
+                rivet.GetComponent<Renderer>().material = assets.ChestTrim;
+                Object.Destroy(rivet.GetComponent<Collider>());
+            }
+        }
+
+        private GameObject CreateSoulGlow(Transform parent)
+        {
+            GameObject soul = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            soul.name = "Chest Soul Glow";
+            soul.transform.SetParent(parent, false);
+            soul.transform.localPosition = new Vector3(0f, 0.28f, -0.08f);
+            soul.transform.localScale = Vector3.one * 0.28f;
+            soul.GetComponent<Renderer>().material = assets.ChestGlow;
+            Object.Destroy(soul.GetComponent<Collider>());
+
+            CreateLocalBox(soul.transform, "Chest Soul Wisp A", new Vector3(-0.16f, 0.42f, 0f), new Vector3(0.05f, 0.42f, 0.05f), assets.ChestGlow)
+                .transform.localRotation = Quaternion.Euler(0f, 0f, -22f);
+            CreateLocalBox(soul.transform, "Chest Soul Wisp B", new Vector3(0.12f, 0.6f, 0f), new Vector3(0.04f, 0.48f, 0.04f), assets.ChestGlow)
+                .transform.localRotation = Quaternion.Euler(0f, 0f, 18f);
+            return soul;
         }
 
         private void CreateFirstBonfireNpc()

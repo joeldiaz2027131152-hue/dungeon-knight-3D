@@ -59,35 +59,41 @@ namespace DungeonKnight
                 ".GG....GG."
             }, new Dictionary<char, Color>
             {
-                ['G'] = Hex("d9d3ac"),
-                ['B'] = Hex("efe9c8"),
-                ['E'] = Hex("27222f"),
-                ['S'] = Hex("b8ac7b"),
-                ['D'] = Hex("77543d")
+                ['G'] = Hex("b7aa86"),
+                ['B'] = Hex("eadfbc"),
+                ['E'] = Hex("1a1412"),
+                ['S'] = Hex("4b4038"),
+                ['D'] = Hex("8a3d1f")
             });
         }
 
         public static Sprite Chest()
         {
-            return Create("IronboundChest", new[]
+            return Create("BlueIronboundChest", new[]
             {
-                "...KKKKKKKKKK...",
-                "..KYYYYYYYYYYK..",
-                ".KYOYOYOYOYOYK.",
-                "KYYYYYYYYYYYYYK",
-                "KBBBBBBBBBBBBBK",
-                "KBDBBDBLDBBDBBK",
-                "KBBBBBBBBBBBBBK",
-                "KBOBOBOBOBOBOBK",
-                ".KKKKKKKKKKKKK."
+                "....OOOOOOOO....",
+                "...OHHHHHHHHO...",
+                "..OHHIHHIHHHHO..",
+                ".OHHHHHHHHHHHHO.",
+                "OMMMMMMMMMMMMMMO",
+                "OMRMRMRMRMRMRMMO",
+                "OSSSSSSSSSSSSSSO",
+                "OSWSSWKLKWSSWSSO",
+                "OSSSSSSSSSSSSSSO",
+                "OMRMRMRMRMRMRMMO",
+                ".OMMMMMMMMMMMMO.",
+                "..O..O....O..O.."
             }, new Dictionary<char, Color>
             {
-                ['K'] = Hex("100c0a"),
-                ['O'] = Hex("6b3f18"),
-                ['Y'] = Hex("d99b36"),
-                ['B'] = Hex("7f4b23"),
-                ['D'] = Hex("352014"),
-                ['L'] = Hex("fff0a3")
+                ['O'] = Hex("070a0f"),
+                ['M'] = Hex("202b34"),
+                ['H'] = Hex("344653"),
+                ['I'] = Hex("8193a1"),
+                ['S'] = Hex("25323c"),
+                ['W'] = Hex("111820"),
+                ['R'] = Hex("95a8b6"),
+                ['K'] = Hex("0d1218"),
+                ['L'] = Hex("d9f7ff")
             });
         }
 

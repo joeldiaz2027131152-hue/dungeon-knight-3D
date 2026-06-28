@@ -16,7 +16,7 @@ namespace DungeonKnight.Level
         {
             CreateEnemy("Skeleton Guard", new Vector3(0f, 1.05f, -2.6f), player, 45, 9, 2.35f, false);
             CreateEnemy("Skeleton Archer Stand-in", new Vector3(-3.2f, 2.68f, 8f), player, 38, 8, 2.1f, false);
-            CreateEnemy("Key Guardian 3D", new Vector3(0f, 1.05f, 16.5f), player, 110, 18, 2.6f, true).transform.localScale = new Vector3(1.35f, 1.35f, 1.35f);
+            CreateEnemy("Key Guardian 3D", new Vector3(0f, 1.05f, 16.5f), player, 110, 18, 2.6f, true);
         }
 
         public GameObject CreateEnemy(string name, Vector3 position, PlayerController3D player, int hp, int damage, float speed, bool dropsKey)
@@ -25,7 +25,9 @@ namespace DungeonKnight.Level
             enemyObject.name = name;
             enemyObject.transform.position = position;
             enemyObject.GetComponent<Renderer>().material = assets.Enemy;
-            Object.Destroy(enemyObject.GetComponent<CapsuleCollider>());
+            CapsuleCollider capsuleCollider = enemyObject.GetComponent<CapsuleCollider>();
+            if (Application.isPlaying) Object.Destroy(capsuleCollider);
+            else Object.DestroyImmediate(capsuleCollider);
 
             CharacterController controller = enemyObject.AddComponent<CharacterController>();
             controller.height = 2f;
@@ -57,7 +59,7 @@ namespace DungeonKnight.Level
             GameObject visual = new GameObject("Skeleton Sprite Visual");
             visual.transform.SetParent(enemyTransform, false);
             visual.transform.localPosition = new Vector3(0f, 0.05f, 0f);
-            visual.transform.localScale = Vector3.one * 1.68f;
+            visual.transform.localScale = Vector3.one * 1.3f;
 
             SpriteRenderer spriteRenderer = visual.AddComponent<SpriteRenderer>();
             spriteRenderer.sprite = assets.SkeletonEnemySprite;

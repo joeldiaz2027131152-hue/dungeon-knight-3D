@@ -4,11 +4,11 @@ namespace DungeonKnight.Level
 {
     internal static class RiggedSkeletonModelSetup3D
     {
-        private static readonly Color BoneColor = new Color(0.78f, 0.73f, 0.58f);
-        private static readonly Color ArmorColor = new Color(0.17f, 0.15f, 0.13f);
-        private static readonly Color ArmorTrimColor = new Color(0.45f, 0.3f, 0.16f);
-        private static readonly Color ClothColor = new Color(0.16f, 0.16f, 0.12f);
-        private static readonly Color RustColor = new Color(0.34f, 0.13f, 0.07f);
+        private static readonly Color BoneColor = new Color(0.63f, 0.57f, 0.45f);
+        private static readonly Color ArmorColor = new Color(0.105f, 0.11f, 0.115f);
+        private static readonly Color ArmorTrimColor = new Color(0.43f, 0.39f, 0.32f);
+        private static readonly Color ClothColor = new Color(0.045f, 0.043f, 0.04f);
+        private static readonly Color RustColor = new Color(0.38f, 0.16f, 0.075f);
 
         public static Renderer[] PrepareRenderers(GameObject visual)
         {

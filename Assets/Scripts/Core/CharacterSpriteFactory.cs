@@ -219,17 +219,17 @@ namespace DungeonKnight
         {
             return Create(name, tex =>
             {
-                Color outline = Hex("17131f");
-                Color bone = Hex("e7dcc0");
-                Color boneDark = Hex("a89b7e");
-                Color armor = Hex("7b746d");
-                Color armorDark = Hex("3c3637");
-                Color rust = Hex("8b4a2f");
-                Color cloth = Hex("2b272c");
-                Color leather = Hex("4b3428");
-                Color weapon = Hex("c0c5c6");
-                Color weaponDark = Hex("687071");
-                Color plume = Hex("6f665a");
+                Color outline = Hex("15100f");
+                Color bone = Hex("eadfbc");
+                Color boneDark = Hex("b7aa86");
+                Color armor = Hex("665c51");
+                Color armorDark = Hex("352c2a");
+                Color rust = Hex("8a3d1f");
+                Color cloth = Hex("1f1b1b");
+                Color leather = Hex("4a3022");
+                Color weapon = Hex("aba99b");
+                Color weaponDark = Hex("5d5a50");
+                Color plume = Hex("7b6d58");
 
                 int runFrame = frame % 4;
                 float bob = running ? (runFrame is 0 or 2 ? 1.5f : -1f) : frame == 1 ? 0.8f : 0f;

@@ -20,7 +20,10 @@ namespace DungeonKnight.Level
         [SerializeField] private Color hitColor = new Color(1f, 0.45f, 0.28f);
         [SerializeField] private Color telegraphColor = new Color(1f, 0.72f, 0.18f);
         [SerializeField] private Color staggerColor = new Color(0.44f, 0.82f, 1f);
-        [SerializeField] private int soulsReward = 8;
+        [SerializeField] private int minCoinReward = 5;
+        [SerializeField] private int maxCoinReward = 8;
+        [SerializeField] private GothicDoubleDoor3D wakeGate;
+        [SerializeField] private bool waitForWakeGate;
 
         private CharacterController controller;
         private PlayerController3D player;
@@ -34,25 +37,30 @@ namespace DungeonKnight.Level
         private float attackTimer;
         private float attackWindupTimer;
         private float activeAttackDuration;
+        private float deathFinishAt;
         private float flashTimer;
         private float staggerTimer;
         private bool attackImpactDone;
-        private bool dropsKey;
-        private bool dropsTowerKey;
+        private bool dying;
+        private bool miniBossVisualChecked;
+        private bool wakeGateResolved;
+        private bool awakened;
+        [SerializeField] private bool dropsKey;
+        [SerializeField] private bool dropsTowerKey;
         private float weaveOffset;
         private SkeletonEnemyVisual3D skeletonVisual;
         private RiggedSkeletonEnemyVisual3D riggedSkeletonVisual;
-        public bool IsAlive => health > 0;
+        public bool IsAlive => health > 0 && !dying;
         public float HealthFraction => maxHealth > 0 ? Mathf.Clamp01(health / (float)maxHealth) : 0f;
         public float PostureFraction => maxPosture > 0.001f ? Mathf.Clamp01(posture / maxPosture) : 0f;
         public bool IsStaggered => staggerTimer > 0f;
 
         public void Configure(PlayerController3D target, int hp, int damage, float speed, bool keyCarrier)
         {
-            Configure(target, hp, damage, speed, keyCarrier, false, Mathf.Max(4, hp / 6));
+            Configure(target, hp, damage, speed, keyCarrier, false, 5, 8);
         }
 
-        public void Configure(PlayerController3D target, int hp, int damage, float speed, bool keyCarrier, bool towerKeyCarrier, int reward)
+        public void Configure(PlayerController3D target, int hp, int damage, float speed, bool keyCarrier, bool towerKeyCarrier, int minReward, int maxReward)
         {
             player = target;
             maxHealth = hp;
@@ -60,23 +68,103 @@ namespace DungeonKnight.Level
             moveSpeed = speed;
             dropsKey = keyCarrier;
             dropsTowerKey = towerKeyCarrier;
-            soulsReward = Mathf.Max(0, reward);
+            minCoinReward = Mathf.Max(0, minReward);
+            maxCoinReward = Mathf.Max(minCoinReward, maxReward);
             health = maxHealth;
             posture = maxPosture;
+            waitForWakeGate = dropsTowerKey || waitForWakeGate;
+            EnsureTowerMiniBossVisual();
+        }
+
+        public void ConfigureWakeGate(GothicDoubleDoor3D gate)
+        {
+            wakeGate = gate;
+            waitForWakeGate = gate != null;
+            wakeGateResolved = gate != null;
+            awakened = gate && gate.IsOpen;
+        }
+
+        public void ConfigureTowerKeyMiniBoss(PlayerController3D target)
+        {
+            if (target) player = target;
+            maxHealth = Mathf.Max(maxHealth, 280);
+            touchDamage = Mathf.Max(touchDamage, 26);
+            moveSpeed = Mathf.Max(moveSpeed, 2.15f);
+            dropsKey = false;
+            dropsTowerKey = true;
+            minCoinReward = Mathf.Max(minCoinReward, 12);
+            maxCoinReward = Mathf.Max(maxCoinReward, 18);
+            health = maxHealth;
+            posture = maxPosture;
+            waitForWakeGate = true;
+            miniBossVisualChecked = false;
+            EnsureTowerMiniBossVisual();
+        }
+
+        public void RepairRuntimeSetup(PlayerController3D target)
+        {
+            player = target;
+            transform.localScale = Vector3.one;
+            controller = GetComponent<CharacterController>();
+            if (!controller) controller = gameObject.AddComponent<CharacterController>();
+            controller.enabled = true;
+            controller.height = 2f;
+            controller.radius = 0.42f;
+            controller.center = Vector3.zero;
+
+            foreach (CapsuleCollider capsuleCollider in GetComponents<CapsuleCollider>())
+            {
+                if (Application.isPlaying) Destroy(capsuleCollider);
+                else DestroyImmediate(capsuleCollider);
+            }
+
+            renderers = GetComponentsInChildren<Renderer>(true);
+            skeletonVisual = GetComponentInChildren<SkeletonEnemyVisual3D>(true);
+            EnsureTowerMiniBossVisual();
+            if (IsTowerMiniBoss()) ApplyTowerMiniBossControllerProfile();
+            riggedSkeletonVisual = GetComponentInChildren<RiggedSkeletonEnemyVisual3D>(true);
+            riggedSkeletonVisual?.RepairRuntimeSetup();
+            MeshRenderer rootRenderer = GetComponent<MeshRenderer>();
+            if (rootRenderer && riggedSkeletonVisual) rootRenderer.enabled = riggedSkeletonVisual.HasVisibleBodyRenderer() == false;
+
+            if (baseColors == null || baseColors.Length != renderers.Length)
+            {
+                baseColors = new Color[renderers.Length];
+                for (int i = 0; i < renderers.Length; i++)
+                {
+                    baseColors[i] = ReadRendererColor(renderers[i]);
+                }
+            }
+
+            if (health <= 0)
+            {
+                health = maxHealth;
+                posture = maxPosture;
+            }
         }
 
         private void Awake()
         {
+            transform.localScale = Vector3.one;
             controller = GetComponent<CharacterController>();
+            if (controller)
+            {
+                controller.height = 2f;
+                controller.radius = 0.42f;
+                controller.center = Vector3.zero;
+            }
+
             spawnPosition = transform.position;
             spawnRotation = transform.rotation;
             renderers = GetComponentsInChildren<Renderer>();
             skeletonVisual = GetComponentInChildren<SkeletonEnemyVisual3D>();
+            EnsureTowerMiniBossVisual();
             riggedSkeletonVisual = GetComponentInChildren<RiggedSkeletonEnemyVisual3D>();
+            riggedSkeletonVisual?.RepairRuntimeSetup();
             baseColors = new Color[renderers.Length];
             for (int i = 0; i < renderers.Length; i++)
             {
-                baseColors[i] = renderers[i].material.color;
+                baseColors[i] = ReadRendererColor(renderers[i]);
             }
 
             health = maxHealth;
@@ -84,8 +172,30 @@ namespace DungeonKnight.Level
             weaveOffset = Random.value * 100f;
         }
 
+        private void OnEnable()
+        {
+            EnsureTowerMiniBossVisual();
+        }
+
+        private void Start()
+        {
+            EnsureTowerMiniBossVisual();
+        }
+
         private void Update()
         {
+            if (dying)
+            {
+                SetVisualMovement(false, Vector3.zero);
+                UpdateFlash();
+                if (Time.time >= deathFinishAt)
+                {
+                    FinishDeath();
+                }
+
+                return;
+            }
+
             if (!player || health <= 0) return;
 
             attackTimer = Mathf.Max(0f, attackTimer - Time.deltaTime);
@@ -94,6 +204,15 @@ namespace DungeonKnight.Level
             UpdateFlash();
 
             if (staggerTimer > 0f)
+            {
+                velocity.y += Physics.gravity.y * Time.deltaTime;
+                if (controller.isGrounded && velocity.y < 0f) velocity.y = -1f;
+                SetVisualMovement(false, Vector3.zero);
+                controller.Move(velocity * Time.deltaTime);
+                return;
+            }
+
+            if (ShouldWaitForWakeGate())
             {
                 velocity.y += Physics.gravity.y * Time.deltaTime;
                 if (controller.isGrounded && velocity.y < 0f) velocity.y = -1f;
@@ -149,6 +268,109 @@ namespace DungeonKnight.Level
             }
         }
 
+        private bool IsTowerMiniBoss()
+        {
+            return dropsTowerKey || name.Contains("Tower Key Mini Boss");
+        }
+
+        private void EnsureTowerMiniBossVisual()
+        {
+            if (!IsTowerMiniBoss() || miniBossVisualChecked) return;
+
+            miniBossVisualChecked = true;
+            if (!RiggedSkeletonEnemyVisual3D.EnsureMiniBossVisual(transform))
+            {
+                Debug.LogWarning($"{name}: could not attach mini boss visual.");
+                return;
+            }
+
+            ApplyTowerMiniBossControllerProfile();
+            renderers = GetComponentsInChildren<Renderer>(true);
+            skeletonVisual = GetComponentInChildren<SkeletonEnemyVisual3D>(true);
+            riggedSkeletonVisual = GetComponentInChildren<RiggedSkeletonEnemyVisual3D>(true);
+            MeshRenderer rootRenderer = GetComponent<MeshRenderer>();
+            if (rootRenderer) rootRenderer.enabled = riggedSkeletonVisual && riggedSkeletonVisual.HasVisibleBodyRenderer() ? false : true;
+            RebuildBaseColors();
+        }
+
+        private void ApplyTowerMiniBossControllerProfile()
+        {
+            if (!controller) controller = GetComponent<CharacterController>();
+            if (!controller) return;
+
+            controller.height = 3.25f;
+            controller.radius = 0.54f;
+            controller.center = new Vector3(0f, 0.6f, 0f);
+        }
+
+        private bool ShouldWaitForWakeGate()
+        {
+            if (awakened) return false;
+            if (!waitForWakeGate && !IsTowerMiniBoss()) return false;
+
+            if (!wakeGateResolved)
+            {
+                wakeGate = FindWakeGate();
+                wakeGateResolved = true;
+            }
+
+            if (!wakeGate) return false;
+            if (!wakeGate.IsOpen && !PlayerHasCrossedWakeGate()) return true;
+
+            awakened = true;
+            return false;
+        }
+
+        private bool PlayerHasCrossedWakeGate()
+        {
+            if (!player || !wakeGate) return false;
+
+            float gateZ = wakeGate.transform.position.z;
+            return player.transform.position.z > gateZ + 1.15f;
+        }
+
+        private GothicDoubleDoor3D FindWakeGate()
+        {
+            GothicDoubleDoor3D namedGate = FindGateByName("Tower Chamber Entry Door");
+            if (namedGate) return namedGate;
+
+            GothicDoubleDoor3D bestGate = null;
+            float bestDistance = float.MaxValue;
+            foreach (GothicDoubleDoor3D gate in Object.FindObjectsByType<GothicDoubleDoor3D>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+            {
+                if (!gate || gate.transform.position.z > transform.position.z) continue;
+
+                float distance = Vector3.Distance(transform.position, gate.transform.position);
+                if (distance > 14f || distance >= bestDistance) continue;
+
+                bestGate = gate;
+                bestDistance = distance;
+            }
+
+            return bestGate;
+        }
+
+        private static GothicDoubleDoor3D FindGateByName(string gateName)
+        {
+            GameObject gateObject = GameObject.Find(gateName);
+            return gateObject ? gateObject.GetComponent<GothicDoubleDoor3D>() : null;
+        }
+
+        private void RebuildBaseColors()
+        {
+            if (renderers == null)
+            {
+                baseColors = System.Array.Empty<Color>();
+                return;
+            }
+
+            baseColors = new Color[renderers.Length];
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                baseColors[i] = ReadRendererColor(renderers[i]);
+            }
+        }
+
         private void StartAttack(Vector3 direction)
         {
             float clipDuration = riggedSkeletonVisual ? riggedSkeletonVisual.PlayAttack(direction) : 0f;
@@ -184,8 +406,9 @@ namespace DungeonKnight.Level
 
         public void TakeDamage(int amount, Vector3 sourcePosition, bool charged)
         {
-            if (health <= 0) return;
+            if (health <= 0 || dying) return;
 
+            awakened = true;
             health = Mathf.Max(0, health - amount);
             flashTimer = 0.16f;
             posture = Mathf.Max(0f, posture - (charged ? 58f : 30f));
@@ -198,7 +421,7 @@ namespace DungeonKnight.Level
 
             if (health <= 0)
             {
-                Die();
+                BeginDeath();
                 return;
             }
 
@@ -210,7 +433,7 @@ namespace DungeonKnight.Level
 
         public void Stagger(float duration, Vector3 sourcePosition, bool parried)
         {
-            if (health <= 0) return;
+            if (health <= 0 || dying) return;
 
             posture = maxPosture;
             staggerTimer = Mathf.Max(staggerTimer, duration);
@@ -237,6 +460,8 @@ namespace DungeonKnight.Level
             staggerTimer = 0f;
             flashTimer = 0f;
             attackImpactDone = false;
+            dying = false;
+            deathFinishAt = 0f;
             velocity = Vector3.zero;
             controller.enabled = false;
             transform.position = spawnPosition;
@@ -245,12 +470,115 @@ namespace DungeonKnight.Level
             SetVisualMovement(false, Vector3.zero);
         }
 
-        private void Die()
+        private void BeginDeath()
         {
-            if (player && soulsReward > 0) player.AddCoins(soulsReward);
+            dying = true;
+            health = 0;
+            attackWindupTimer = 0f;
+            attackTimer = 0f;
+            staggerTimer = 0f;
+            attackImpactDone = true;
+            velocity = Vector3.zero;
+            SetVisualMovement(false, Vector3.zero);
+            float deathDuration = riggedSkeletonVisual ? riggedSkeletonVisual.PlayDeath() : 1.2f;
+            deathFinishAt = Time.time + Mathf.Clamp(deathDuration, 0.65f, 4.5f);
+            if (controller) controller.enabled = false;
+        }
+
+        private void FinishDeath()
+        {
+            if (player && maxCoinReward > 0) player.AddCoins(Random.Range(minCoinReward, maxCoinReward + 1));
             if (dropsKey && player) player.GiveGateKey();
-            if (dropsTowerKey && player) player.GiveTowerKey();
+            if (dropsTowerKey) SpawnTowerKeyPickup();
             Destroy(gameObject);
+        }
+
+        private void SpawnTowerKeyPickup()
+        {
+            Vector3 position = new Vector3(transform.position.x, 0.62f, transform.position.z);
+            GameObject pickup = new GameObject("Tower Ornate Key Pickup");
+            pickup.transform.position = position;
+
+            SphereCollider trigger = pickup.AddComponent<SphereCollider>();
+            trigger.isTrigger = true;
+            trigger.radius = 0.85f;
+
+            DungeonPickup3D pickupScript = pickup.AddComponent<DungeonPickup3D>();
+            pickupScript.ConfigureTowerKey();
+            CreateTowerKeyVisual(pickup.transform);
+        }
+
+        private static void CreateTowerKeyVisual(Transform parent)
+        {
+            Material gold = NewMaterial("Tower Key Aged Gold", new Color(0.86f, 0.62f, 0.22f), 0.55f);
+            Material darkGold = NewMaterial("Tower Key Dark Engraving", new Color(0.36f, 0.22f, 0.075f), 0.25f);
+            Material brightGold = NewMaterial("Tower Key Bright Worn Edge", new Color(1f, 0.82f, 0.38f), 0.35f);
+
+            GameObject visual = new GameObject("Ornate Tower Key Visual");
+            visual.transform.SetParent(parent, false);
+            visual.transform.localPosition = new Vector3(0f, 0.2f, 0f);
+            visual.transform.localRotation = Quaternion.Euler(0f, 0f, -3f);
+            visual.transform.localScale = Vector3.one * 0.82f;
+
+            AddKeyCylinder("Long Golden Shaft", visual.transform, new Vector3(0f, 0f, 0f), new Vector3(0.055f, 0.62f, 0.055f), gold);
+            AddKeyCylinder("Lower Knob", visual.transform, new Vector3(0f, -0.72f, 0f), new Vector3(0.1f, 0.055f, 0.1f), brightGold);
+            AddKeyCylinder("Lower Collar", visual.transform, new Vector3(0f, -0.48f, 0f), new Vector3(0.13f, 0.055f, 0.13f), brightGold);
+            AddKeyCylinder("Upper Collar", visual.transform, new Vector3(0f, 0.46f, 0f), new Vector3(0.15f, 0.065f, 0.15f), brightGold);
+
+            AddKeyBox("Key Bit Stem", visual.transform, new Vector3(0.24f, -0.48f, 0f), new Vector3(0.42f, 0.08f, 0.08f), gold);
+            AddKeyBox("Key Bit Upper Tooth", visual.transform, new Vector3(0.48f, -0.36f, 0f), new Vector3(0.22f, 0.08f, 0.08f), gold);
+            AddKeyBox("Key Bit Lower Tooth", visual.transform, new Vector3(0.48f, -0.62f, 0f), new Vector3(0.18f, 0.08f, 0.08f), gold);
+            AddKeyBox("Key Bit Notch Dark", visual.transform, new Vector3(0.37f, -0.5f, -0.045f), new Vector3(0.1f, 0.14f, 0.02f), darkGold);
+
+            AddKeyCylinder("Ornate Head Center", visual.transform, new Vector3(0f, 0.83f, 0f), new Vector3(0.18f, 0.05f, 0.18f), gold);
+            AddKeyCylinder("Ornate Head Left Loop", visual.transform, new Vector3(-0.28f, 0.87f, 0f), new Vector3(0.26f, 0.045f, 0.26f), gold);
+            AddKeyCylinder("Ornate Head Right Loop", visual.transform, new Vector3(0.28f, 0.87f, 0f), new Vector3(0.26f, 0.045f, 0.26f), gold);
+            AddKeyCylinder("Ornate Head Top Loop", visual.transform, new Vector3(0f, 1.13f, 0f), new Vector3(0.18f, 0.04f, 0.18f), gold);
+            AddKeyBox("Filigree Left Curl", visual.transform, new Vector3(-0.24f, 0.91f, -0.05f), new Vector3(0.26f, 0.045f, 0.025f), darkGold);
+            AddKeyBox("Filigree Right Curl", visual.transform, new Vector3(0.24f, 0.91f, -0.05f), new Vector3(0.26f, 0.045f, 0.025f), darkGold);
+            AddKeyBox("Filigree Center Spear", visual.transform, new Vector3(0f, 0.95f, -0.05f), new Vector3(0.045f, 0.34f, 0.025f), brightGold);
+
+            Light glow = parent.gameObject.AddComponent<Light>();
+            glow.type = LightType.Point;
+            glow.color = new Color(1f, 0.72f, 0.24f);
+            glow.intensity = 1.1f;
+            glow.range = 3.6f;
+        }
+
+        private static void AddKeyBox(string name, Transform parent, Vector3 localPosition, Vector3 localScale, Material material)
+        {
+            GameObject box = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            box.name = name;
+            box.transform.SetParent(parent, false);
+            box.transform.localPosition = localPosition;
+            box.transform.localScale = localScale;
+            box.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(box.GetComponent<Collider>());
+        }
+
+        private static void AddKeyCylinder(string name, Transform parent, Vector3 localPosition, Vector3 localScale, Material material)
+        {
+            GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            cylinder.name = name;
+            cylinder.transform.SetParent(parent, false);
+            cylinder.transform.localPosition = localPosition;
+            cylinder.transform.localScale = localScale;
+            cylinder.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(cylinder.GetComponent<Collider>());
+        }
+
+        private static Material NewMaterial(string name, Color color, float metallic)
+        {
+            Shader shader = Shader.Find("Universal Render Pipeline/Lit");
+            if (!shader) shader = Shader.Find("Standard");
+            Material material = new Material(shader);
+            material.name = name;
+            material.color = color;
+            if (material.HasProperty("_BaseColor")) material.SetColor("_BaseColor", color);
+            if (material.HasProperty("_Metallic")) material.SetFloat("_Metallic", metallic);
+            if (material.HasProperty("_Smoothness")) material.SetFloat("_Smoothness", 0.28f);
+            if (material.HasProperty("_Glossiness")) material.SetFloat("_Glossiness", 0.28f);
+            return material;
         }
 
         private void UpdateFlash()
@@ -260,7 +588,7 @@ namespace DungeonKnight.Level
                 flashTimer -= Time.deltaTime;
                 foreach (Renderer renderer in renderers)
                 {
-                    renderer.material.color = hitColor;
+                    SetRendererColor(renderer, hitColor);
                 }
 
                 return;
@@ -270,7 +598,7 @@ namespace DungeonKnight.Level
             {
                 foreach (Renderer renderer in renderers)
                 {
-                    renderer.material.color = staggerColor;
+                    SetRendererColor(renderer, staggerColor);
                 }
 
                 return;
@@ -282,15 +610,48 @@ namespace DungeonKnight.Level
                 Color color = Color.Lerp(telegraphColor, hitColor, pulse * 0.45f);
                 foreach (Renderer renderer in renderers)
                 {
-                    renderer.material.color = color;
+                    SetRendererColor(renderer, color);
                 }
 
                 return;
             }
 
-            for (int i = 0; i < renderers.Length; i++)
+            if (renderers == null || baseColors == null) return;
+
+            int colorCount = Mathf.Min(renderers.Length, baseColors.Length);
+            for (int i = 0; i < colorCount; i++)
             {
-                renderers[i].material.color = baseColors[i];
+                SetRendererColor(renderers[i], baseColors[i]);
+            }
+        }
+
+        private static Color ReadRendererColor(Renderer renderer)
+        {
+            if (!renderer) return Color.white;
+
+            Material material = Application.isPlaying ? renderer.material : renderer.sharedMaterial;
+            return material ? material.color : Color.white;
+        }
+
+        private static void SetRendererColor(Renderer renderer, Color color)
+        {
+            if (!renderer) return;
+
+            Material material = Application.isPlaying ? renderer.material : renderer.sharedMaterial;
+            if (material) material.color = color;
+        }
+
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying)
+            {
+                Object.Destroy(target);
+            }
+            else
+            {
+                Object.DestroyImmediate(target);
             }
         }
     }

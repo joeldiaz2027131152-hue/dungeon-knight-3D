@@ -8,14 +8,20 @@ namespace DungeonKnight.Level
     {
         public const string ResourcePath = "Characters/Enemies/SkeletonEnemy/Rigged/SwordAndShieldSlashEsqueleto";
         private const string WalkResourcePath = "Characters/Enemies/SkeletonEnemy/Rigged/WalkingEsqueleto";
+        private const string MiniBossModelResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Casting";
+        private const string MiniBossAttackResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Slash";
+        private const string MiniBossWalkResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Walk";
+        private const string MiniBossDeathResourcePath = "Characters/Enemies/MiniBoss2/Dying";
         private const int WalkInput = 0;
         private const int AttackInput = 1;
+        private const int DeathInput = 2;
 
         [SerializeField] private float attackPlaybackSpeed = 1f;
         [SerializeField] private float walkPlaybackSpeed = 1f;
         [SerializeField] private float targetHeight = 1.9f;
         [SerializeField] private float moveBob = 0.04f;
         [SerializeField] private float moveSway = 5f;
+        [SerializeField] private bool miniBossVisual;
         private static readonly Color BoneColor = new Color(0.78f, 0.73f, 0.58f);
         private static readonly Color ArmorColor = new Color(0.17f, 0.15f, 0.13f);
         private static readonly Color ArmorTrimColor = new Color(0.45f, 0.3f, 0.16f);
@@ -29,37 +35,62 @@ namespace DungeonKnight.Level
         private Animator animator;
         private AnimationClip attackClip;
         private AnimationClip walkClip;
+        private AnimationClip deathClip;
         private PlayableGraph graph;
         private AnimationMixerPlayable mixer;
         private AnimationClipPlayable attackPlayable;
         private AnimationClipPlayable walkPlayable;
+        private AnimationClipPlayable deathPlayable;
         private Vector3 baseLocalPosition;
         private Transform rightHand;
         private Transform rustySword;
         private Transform hipsRoot;
         private Vector3 hipsBaseLocalPosition;
         private float attackUntil;
+        private float deathUntil;
         private bool moving;
+        private string attackResourcePath = ResourcePath;
+        private string walkResourcePath = WalkResourcePath;
+        private string deathResourcePath = string.Empty;
 
         public static bool TryAttach(Transform enemyRoot)
         {
-            GameObject prefab = Resources.Load<GameObject>(ResourcePath);
+            return TryAttach(enemyRoot, ResourcePath, ResourcePath, WalkResourcePath, string.Empty, 1.9f, false);
+        }
+
+        public static bool TryAttachMiniBoss(Transform enemyRoot)
+        {
+            return TryAttach(enemyRoot, MiniBossModelResourcePath, MiniBossAttackResourcePath, MiniBossWalkResourcePath, MiniBossDeathResourcePath, 3.4f, true);
+        }
+
+        private static bool TryAttach(Transform enemyRoot, string modelResourcePath, string attackResourcePath, string walkResourcePath, string deathResourcePath, float targetHeight, bool miniBoss)
+        {
+            GameObject prefab = Resources.Load<GameObject>(modelResourcePath);
             if (!prefab)
             {
-                Debug.LogWarning($"RiggedSkeletonEnemyVisual3D: missing Resources/{ResourcePath}.fbx");
+                Debug.LogWarning($"RiggedSkeletonEnemyVisual3D: missing Resources/{modelResourcePath}.fbx");
                 return false;
             }
 
             GameObject visual = Instantiate(prefab, enemyRoot);
-            visual.name = "Rigged Skeleton Visual";
+            visual.name = miniBoss ? "Mini Boss Rigged Visual" : "Rigged Skeleton Visual";
             visual.transform.localPosition = Vector3.zero;
             visual.transform.localRotation = Quaternion.identity;
             visual.transform.localScale = Vector3.one;
 
             RiggedSkeletonEnemyVisual3D controller = visual.AddComponent<RiggedSkeletonEnemyVisual3D>();
+            controller.miniBossVisual = miniBoss;
+            controller.attackResourcePath = attackResourcePath;
+            controller.walkResourcePath = walkResourcePath;
+            controller.deathResourcePath = deathResourcePath;
+            controller.targetHeight = targetHeight;
+            controller.moveBob = miniBoss ? 0.015f : controller.moveBob;
+            controller.moveSway = miniBoss ? 3.2f : controller.moveSway;
+            controller.walkPlaybackSpeed = miniBoss ? 0.9f : controller.walkPlaybackSpeed;
 
             Renderer[] renderers = visual.GetComponentsInChildren<Renderer>(true);
-            ApplyRendererPalette(renderers);
+            if (miniBoss) ConfigureRendererBasics(renderers);
+            else ApplyRendererPalette(renderers);
 
             int rendererCount = renderers.Length;
             if (rendererCount == 0)
@@ -75,24 +106,52 @@ namespace DungeonKnight.Level
             }
 
             controller.Configure();
-            controller.AttachRustySword();
-            controller.AttachGlowingEyes();
+            if (!miniBoss)
+            {
+                controller.AttachRustySword();
+            }
 
-            int clipCount = Resources.LoadAll<AnimationClip>(ResourcePath).Length;
-            int walkClipCount = Resources.LoadAll<AnimationClip>(WalkResourcePath).Length;
+            int clipCount = Resources.LoadAll<AnimationClip>(attackResourcePath).Length;
+            int walkClipCount = Resources.LoadAll<AnimationClip>(walkResourcePath).Length;
             Bounds fittedBounds = CalculateBounds(renderers);
-            Debug.Log($"RiggedSkeletonEnemyVisual3D: attached {prefab.name}. Renderers={rendererCount}, AttackClips={clipCount}, WalkClips={walkClipCount}, Height={fittedBounds.size.y:0.00}, Scale={visual.transform.localScale.x:0.00}");
+            Debug.Log($"RiggedSkeletonEnemyVisual3D: attached {prefab.name}. MiniBoss={miniBoss}, Renderers={rendererCount}, AttackClips={clipCount}, WalkClips={walkClipCount}, Height={fittedBounds.size.y:0.00}, Scale={visual.transform.localScale.x:0.00}");
             return true;
         }
 
+        public static bool EnsureMiniBossVisual(Transform enemyRoot)
+        {
+            RiggedSkeletonEnemyVisual3D existing = enemyRoot.GetComponentInChildren<RiggedSkeletonEnemyVisual3D>(true);
+            if (existing)
+            {
+                if (!existing.miniBossVisual)
+                {
+                    DestroySafely(existing.gameObject);
+                    return TryAttachMiniBoss(enemyRoot);
+                }
+
+                existing.RepairRuntimeSetup();
+                return existing.HasVisibleBodyRenderer();
+            }
+
+            return TryAttachMiniBoss(enemyRoot);
+        }
+
         private static void ApplyRendererPalette(Renderer[] renderers)
+        {
+            ConfigureRendererBasics(renderers);
+            foreach (Renderer renderer in renderers)
+            {
+                renderer.material = NewSkeletonZoneMaterial(renderer);
+            }
+        }
+
+        private static void ConfigureRendererBasics(Renderer[] renderers)
         {
             foreach (Renderer renderer in renderers)
             {
                 renderer.enabled = true;
                 renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
                 renderer.receiveShadows = true;
-                renderer.material = NewSkeletonZoneMaterial(renderer);
 
                 if (renderer is SkinnedMeshRenderer skinnedMeshRenderer)
                 {
@@ -137,6 +196,92 @@ namespace DungeonKnight.Level
             return duration;
         }
 
+        public void RepairRuntimeSetup()
+        {
+            if (miniBossVisual)
+            {
+                attackResourcePath = MiniBossAttackResourcePath;
+                walkResourcePath = MiniBossWalkResourcePath;
+                deathResourcePath = MiniBossDeathResourcePath;
+                targetHeight = 3.4f;
+            }
+
+            if (!animator) animator = GetComponentInChildren<Animator>(true);
+            if (animator)
+            {
+                animator.applyRootMotion = false;
+                animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
+            }
+
+            foreach (Renderer renderer in GetComponentsInChildren<Renderer>(true))
+            {
+                renderer.enabled = true;
+                if (renderer is SkinnedMeshRenderer skinnedMeshRenderer)
+                {
+                    skinnedMeshRenderer.updateWhenOffscreen = true;
+                }
+            }
+
+            RemoveGlowingEyes();
+
+            if (!graph.IsValid())
+            {
+                Configure();
+            }
+
+            if (miniBossVisual) return;
+
+            if (!rightHand)
+            {
+                rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
+            }
+
+            if (!rustySword)
+            {
+                Transform owner = transform.parent ? transform.parent : transform;
+                rustySword = FindDeepChild(owner, "Rusty Sword");
+            }
+
+            if (!rustySword && rightHand)
+            {
+                AttachRustySword();
+            }
+        }
+
+        public float PlayDeath()
+        {
+            moving = false;
+            if (!deathClip || !graph.IsValid() || !deathPlayable.IsValid()) return 1.2f;
+
+            deathPlayable.SetTime(0d);
+            deathPlayable.SetSpeed(1d);
+            float duration = Mathf.Max(0.35f, deathClip.length);
+            deathUntil = Time.time + duration;
+            attackUntil = 0f;
+            if (mixer.IsValid())
+            {
+                mixer.SetInputWeight(WalkInput, 0f);
+                mixer.SetInputWeight(AttackInput, 0f);
+                mixer.SetInputWeight(DeathInput, 1f);
+            }
+
+            if (walkPlayable.IsValid()) walkPlayable.SetSpeed(0d);
+            if (attackPlayable.IsValid()) attackPlayable.SetSpeed(0d);
+            return duration;
+        }
+
+        public bool HasVisibleBodyRenderer()
+        {
+            foreach (Renderer renderer in GetComponentsInChildren<Renderer>(true))
+            {
+                if (!renderer || !renderer.enabled) continue;
+                if (rustySword && (renderer.transform == rustySword || renderer.transform.IsChildOf(rustySword))) continue;
+                return true;
+            }
+
+            return false;
+        }
+
         private void Configure()
         {
             baseLocalPosition = transform.localPosition;
@@ -146,14 +291,15 @@ namespace DungeonKnight.Level
             animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
             CacheAnimatedRoot();
 
-            attackClip = ChooseClip(Resources.LoadAll<AnimationClip>(ResourcePath));
-            walkClip = ChooseClip(Resources.LoadAll<AnimationClip>(WalkResourcePath));
+            attackClip = ChooseClip(Resources.LoadAll<AnimationClip>(attackResourcePath));
+            walkClip = ChooseClip(Resources.LoadAll<AnimationClip>(walkResourcePath));
+            deathClip = string.IsNullOrEmpty(deathResourcePath) ? null : ChooseClip(Resources.LoadAll<AnimationClip>(deathResourcePath));
             if (walkClip) walkClip.wrapMode = WrapMode.Loop;
-            if (!attackClip && !walkClip) return;
+            if (!attackClip && !walkClip && !deathClip) return;
 
             graph = PlayableGraph.Create($"{name} Animation Graph");
             graph.SetTimeUpdateMode(DirectorUpdateMode.GameTime);
-            mixer = AnimationMixerPlayable.Create(graph, 2);
+            mixer = AnimationMixerPlayable.Create(graph, 3);
             AnimationPlayableOutput output = AnimationPlayableOutput.Create(graph, "Rigged Skeleton Animation", animator);
             output.SetSourcePlayable(mixer);
 
@@ -171,6 +317,14 @@ namespace DungeonKnight.Level
                 graph.Connect(attackPlayable, 0, mixer, AttackInput);
                 mixer.SetInputWeight(AttackInput, 0f);
                 attackPlayable.SetSpeed(0d);
+            }
+
+            if (deathClip)
+            {
+                deathPlayable = AnimationClipPlayable.Create(graph, deathClip);
+                graph.Connect(deathPlayable, 0, mixer, DeathInput);
+                mixer.SetInputWeight(DeathInput, 0f);
+                deathPlayable.SetSpeed(0d);
             }
 
             graph.Play();
@@ -232,30 +386,27 @@ namespace DungeonKnight.Level
             AddRustPatch(rustySword, new Vector3(0.022f, 0.58f, -0.019f), new Vector3(0.04f, 0.1f, 0.006f), rustMaterial);
         }
 
-        private void AttachGlowingEyes()
+        private void RemoveGlowingEyes()
         {
+            foreach (Transform child in GetComponentsInChildren<Transform>(true))
+            {
+                if (child == transform) continue;
+                if (child.name == "Left Red Eye" || child.name == "Right Red Eye")
+                {
+                    DestroySafely(child.gameObject);
+                }
+            }
+
             Transform head = FindDeepChild(transform, "mixamorig:Head") ?? FindDeepChild(transform, "Head");
-            if (!head)
+            if (!head) return;
+
+            foreach (Light light in head.GetComponents<Light>())
             {
-                Debug.LogWarning("RiggedSkeletonEnemyVisual3D: Head bone not found, glowing eyes skipped.");
-                return;
+                if (ApproximatelySameColor(light.color, EyeGlowColor))
+                {
+                    DestroySafely(light);
+                }
             }
-
-            Material eyeMaterial = NewMaterial("Skeleton Red Eye Glow", EyeGlowColor, 0f);
-            if (eyeMaterial.HasProperty("_EmissionColor"))
-            {
-                eyeMaterial.EnableKeyword("_EMISSION");
-                eyeMaterial.SetColor("_EmissionColor", EyeGlowColor * 2.4f);
-            }
-
-            CreateEyeGlow("Left Red Eye", head, new Vector3(-0.035f, 0.045f, 0.085f), eyeMaterial);
-            CreateEyeGlow("Right Red Eye", head, new Vector3(0.035f, 0.045f, 0.085f), eyeMaterial);
-
-            Light eyeLight = head.gameObject.AddComponent<Light>();
-            eyeLight.type = LightType.Point;
-            eyeLight.color = EyeGlowColor;
-            eyeLight.intensity = 0.38f;
-            eyeLight.range = 0.55f;
         }
 
         private bool FitToEnemyRoot(Transform enemyRoot, Renderer[] renderers)
@@ -385,20 +536,6 @@ namespace DungeonKnight.Level
             return material;
         }
 
-        private static void CreateEyeGlow(string name, Transform parent, Vector3 localPosition, Material material)
-        {
-            GameObject eye = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-            eye.name = name;
-            eye.transform.SetParent(parent, false);
-            eye.transform.localPosition = localPosition;
-            eye.transform.localScale = new Vector3(0.035f, 0.035f, 0.02f);
-            Renderer renderer = eye.GetComponent<Renderer>();
-            renderer.material = material;
-            renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-            renderer.receiveShadows = false;
-            Object.Destroy(eye.GetComponent<Collider>());
-        }
-
         private static Bounds GetRendererLocalBounds(Renderer renderer)
         {
             if (renderer is SkinnedMeshRenderer skinnedMeshRenderer)
@@ -438,6 +575,13 @@ namespace DungeonKnight.Level
             if (material.HasProperty("_Color")) material.SetColor("_Color", color);
         }
 
+        private static bool ApproximatelySameColor(Color a, Color b)
+        {
+            return Mathf.Abs(a.r - b.r) < 0.02f &&
+                Mathf.Abs(a.g - b.g) < 0.02f &&
+                Mathf.Abs(a.b - b.b) < 0.02f;
+        }
+
         private static Transform FindDeepChild(Transform root, string childName)
         {
             foreach (Transform child in root.GetComponentsInChildren<Transform>(true))
@@ -446,6 +590,14 @@ namespace DungeonKnight.Level
             }
 
             return null;
+        }
+
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying) Object.Destroy(target);
+            else Object.DestroyImmediate(target);
         }
 
         private void UpdateRustySwordTransform()

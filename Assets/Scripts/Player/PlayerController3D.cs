@@ -1,8 +1,16 @@
+using System.Collections.Generic;
 using DungeonKnight.Level;
 using UnityEngine;
 
 namespace DungeonKnight.Player
 {
+    public enum HudMessageIcon
+    {
+        None,
+        Sword,
+        Shield
+    }
+
     [RequireComponent(typeof(CharacterController))]
     public class PlayerController3D : MonoBehaviour
     {
@@ -28,17 +36,19 @@ namespace DungeonKnight.Player
         [SerializeField] private float parryWindow = 0.16f;
         [SerializeField] private float parryStaminaReward = 24f;
         [SerializeField] private float rollInvulnerableDuration = 0.38f;
-        [SerializeField] private float lockOnRange = 11f;
+        [SerializeField] private float lockOnRange = 42f;
         [SerializeField] private float lightAttackStaminaCost = 16f;
         [SerializeField] private float chargedAttackStaminaCost = 38f;
         [SerializeField] private float rollStaminaCost = 31f;
         [SerializeField] private float blockStaminaDrainPerSecond = 13f;
         [SerializeField] private float staminaRecoveryPerSecond = 19f;
+        [SerializeField] private float interactionRange = 3.25f;
 
         private readonly Collider[] attackHits = new Collider[12];
         private readonly Collider[] interactHits = new Collider[24];
         private readonly Collider[] lockOnHits = new Collider[32];
         private CharacterController controller;
+        private PlayerInventory inventory;
         private Transform cameraPivot;
         private Vector3 velocity;
         private Vector3 lastMoveDirection = Vector3.forward;
@@ -50,8 +60,10 @@ namespace DungeonKnight.Player
         private float hurtTimer;
         private float invulnerableTimer;
         private float parryTimer;
+        private readonly Queue<StatusMessageEntry> queuedMessages = new Queue<StatusMessageEntry>();
         private float messageUntil;
         private string message = string.Empty;
+        private HudMessageIcon messageIcon;
         private Vector3 respawnPoint = DungeonKnight3DBootstrap.PlayerSpawn;
         private bool blockExhausted;
         private bool attackCharged;
@@ -60,6 +72,7 @@ namespace DungeonKnight.Player
         private int pendingAttackDamage;
         private int attackSequence;
         private DungeonEnemy3D lockOnTarget;
+        private DungeonInteractable3D currentInteractable;
 
         public int MaxHealth { get; private set; } = 120;
         public int Health { get; private set; } = 120;
@@ -86,11 +99,15 @@ namespace DungeonKnight.Player
         public float PlanarSpeed => PlanarVelocity.magnitude;
         public DungeonEnemy3D LockOnTarget => lockOnTarget && lockOnTarget.IsAlive ? lockOnTarget : null;
         public bool HasLockOn => LockOnTarget;
+        public string CurrentInteractionPrompt => currentInteractable ? currentInteractable.GetPrompt(this) : string.Empty;
         public string StatusMessage => Time.time < messageUntil ? message : string.Empty;
+        public HudMessageIcon StatusMessageIcon => Time.time < messageUntil ? messageIcon : HudMessageIcon.None;
 
         private void Awake()
         {
+            lockOnRange = Mathf.Max(lockOnRange, 42f);
             controller = GetComponent<CharacterController>();
+            inventory = GetComponent<PlayerInventory>();
             cameraPivot = Camera.main ? Camera.main.transform : null;
         }
 
@@ -119,6 +136,7 @@ namespace DungeonKnight.Player
             UpdateMovement();
             UpdateCombat();
             UpdateInteraction();
+            UpdateMessageQueue();
 
             if (!IsBlocking && !IsAttacking && stamina < MaxStamina)
             {
@@ -150,7 +168,7 @@ namespace DungeonKnight.Player
             Health = MaxHealth;
             stamina = MaxStamina;
             Potions = Mathf.Max(Potions, 2);
-            foreach (DungeonEnemy3D enemy in Object.FindObjectsOfType<DungeonEnemy3D>())
+            foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude))
             {
                 enemy.RestoreAtBonfire();
             }
@@ -198,7 +216,7 @@ namespace DungeonKnight.Player
             int finalAmount = IsBlocking ? Mathf.CeilToInt(amount * 0.35f) : amount;
             if (IsBlocking)
             {
-                stamina = Mathf.Max(0f, stamina - amount * 1.4f);
+                stamina = Mathf.Max(0f, stamina - amount * 1.4f * EffectiveBlockStaminaMultiplier);
                 if (stamina <= 0.001f)
                 {
                     blockExhausted = true;
@@ -221,8 +239,47 @@ namespace DungeonKnight.Player
 
         public void ShowMessage(string text, float duration)
         {
+            ShowMessage(text, duration, HudMessageIcon.None);
+        }
+
+        public void ShowMessage(string text, float duration, HudMessageIcon icon)
+        {
             message = text;
+            messageIcon = icon;
             messageUntil = Time.time + duration;
+        }
+
+        public void QueueMessage(string text, float duration, HudMessageIcon icon)
+        {
+            if (Time.time >= messageUntil)
+            {
+                ShowMessage(text, duration, icon);
+                return;
+            }
+
+            queuedMessages.Enqueue(new StatusMessageEntry(text, duration, icon));
+        }
+
+        private void UpdateMessageQueue()
+        {
+            if (Time.time < messageUntil || queuedMessages.Count == 0) return;
+
+            StatusMessageEntry next = queuedMessages.Dequeue();
+            ShowMessage(next.Text, next.Duration, next.Icon);
+        }
+
+        private readonly struct StatusMessageEntry
+        {
+            public readonly string Text;
+            public readonly float Duration;
+            public readonly HudMessageIcon Icon;
+
+            public StatusMessageEntry(string text, float duration, HudMessageIcon icon)
+            {
+                Text = text;
+                Duration = duration;
+                Icon = icon;
+            }
         }
 
         public void TeleportTo(Vector3 destination, Vector3 facingDirection, string statusText)
@@ -320,7 +377,7 @@ namespace DungeonKnight.Player
             IsBlocking = wantsBlock && !blockExhausted && stamina > 0f;
             if (IsBlocking)
             {
-                stamina = Mathf.Max(0f, stamina - blockStaminaDrainPerSecond * Time.deltaTime);
+                stamina = Mathf.Max(0f, stamina - blockStaminaDrainPerSecond * EffectiveBlockStaminaMultiplier * Time.deltaTime);
                 if (stamina <= 0.001f)
                 {
                     blockExhausted = true;
@@ -397,9 +454,22 @@ namespace DungeonKnight.Player
             attackTimer = attackDuration;
             attackCharged = charged;
             attackHitResolved = false;
-            pendingAttackDamage = charged ? chargedAttackDamage : lightAttackDamage;
+            pendingAttackDamage = charged ? EffectiveChargedAttackDamage : EffectiveLightAttackDamage;
             attackSequence++;
         }
+
+        private PlayerInventory Inventory
+        {
+            get
+            {
+                if (!inventory) inventory = GetComponent<PlayerInventory>();
+                return inventory;
+            }
+        }
+
+        private int EffectiveLightAttackDamage => Inventory ? Inventory.LightAttackDamage : lightAttackDamage;
+        private int EffectiveChargedAttackDamage => Inventory ? Inventory.ChargedAttackDamage : chargedAttackDamage;
+        private float EffectiveBlockStaminaMultiplier => Inventory ? Inventory.BlockStaminaMultiplier : 1f;
 
         private void ResolveAttackWindow()
         {
@@ -472,31 +542,50 @@ namespace DungeonKnight.Player
             for (int i = 0; i < count; i++)
             {
                 DungeonEnemy3D enemy = lockOnHits[i].GetComponentInParent<DungeonEnemy3D>();
-                if (!enemy || !enemy.IsAlive) continue;
+                ConsiderLockOnCandidate(enemy, referenceForward, ref best, ref bestScore);
+            }
 
-                Vector3 toEnemy = enemy.transform.position - transform.position;
-                toEnemy.y = 0f;
-                float distance = toEnemy.magnitude;
-                if (distance < 0.05f) continue;
-
-                float angle = Vector3.Angle(referenceForward, toEnemy / distance);
-                if (angle > 78f) continue;
-
-                float score = distance + angle * 0.05f;
-                if (score >= bestScore) continue;
-
-                best = enemy;
-                bestScore = score;
+            if (!best)
+            {
+                foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude, FindObjectsSortMode.None))
+                {
+                    ConsiderLockOnCandidate(enemy, referenceForward, ref best, ref bestScore);
+                }
             }
 
             return best;
         }
 
+        private void ConsiderLockOnCandidate(DungeonEnemy3D enemy, Vector3 referenceForward, ref DungeonEnemy3D best, ref float bestScore)
+        {
+            if (!enemy || !enemy.IsAlive) return;
+
+            Vector3 toEnemy = enemy.transform.position - transform.position;
+            toEnemy.y = 0f;
+            float distance = toEnemy.magnitude;
+            if (distance < 0.05f || distance > lockOnRange) return;
+
+            Vector3 direction = toEnemy / distance;
+            float angle = referenceForward.sqrMagnitude > 0.001f ? Vector3.Angle(referenceForward, direction) : 0f;
+            float score = distance + angle * 0.035f;
+            if (score >= bestScore) return;
+
+            best = enemy;
+            bestScore = score;
+        }
+
         private void UpdateInteraction()
         {
+            currentInteractable = FindClosestInteractable();
             if (!Input.GetKeyDown(KeyCode.E)) return;
 
-            int count = Physics.OverlapSphereNonAlloc(transform.position + Vector3.up * 0.8f, 1.8f, interactHits, ~0, QueryTriggerInteraction.Collide);
+            if (currentInteractable) currentInteractable.Interact(this);
+            else ShowMessage("No hay nada cerca para usar.", 1.1f);
+        }
+
+        private DungeonInteractable3D FindClosestInteractable()
+        {
+            int count = Physics.OverlapSphereNonAlloc(transform.position + Vector3.up * 0.8f, interactionRange, interactHits, ~0, QueryTriggerInteraction.Collide);
             DungeonInteractable3D closest = null;
             float closestDistance = float.MaxValue;
 
@@ -504,6 +593,7 @@ namespace DungeonKnight.Player
             {
                 DungeonInteractable3D interactable = interactHits[i].GetComponentInParent<DungeonInteractable3D>();
                 if (!interactable) continue;
+                if (string.IsNullOrEmpty(interactable.GetPrompt(this))) continue;
 
                 float distance = Vector3.Distance(transform.position, interactable.transform.position);
                 if (distance >= closestDistance) continue;
@@ -512,8 +602,7 @@ namespace DungeonKnight.Player
                 closestDistance = distance;
             }
 
-            if (closest) closest.Interact(this);
-            else ShowMessage("No hay nada cerca para usar.", 1.1f);
+            return closest;
         }
 
         private void Respawn()

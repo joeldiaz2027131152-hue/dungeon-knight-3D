@@ -35,6 +35,7 @@ namespace DungeonKnight.Player
         }
 
         private PlayerController3D controller;
+        private PlayerInventory inventory;
         private Animator animator;
         private PlayableGraph graph;
         private AnimationPlayableOutput output;
@@ -62,10 +63,14 @@ namespace DungeonKnight.Player
         private Material swordMaterial;
         private Material shieldMaterial;
         private Material shieldTrimMaterial;
+        private Transform swordEquipmentRoot;
+        private Transform shieldEquipmentRoot;
 
         public void Configure(PlayerController3D playerController, Animator modelAnimator)
         {
+            ResetRuntimeGraph();
             controller = playerController;
+            inventory = controller ? controller.GetComponent<PlayerInventory>() : null;
             animator = modelAnimator;
             if (!animator) return;
 
@@ -79,6 +84,7 @@ namespace DungeonKnight.Player
             blockMoveClip = walkClip;
             jumpClip = LoadClip(JumpAnimationPath, "jumping");
             AttachStarterEquipment();
+            UpdateEquipmentVisibility();
             CacheRootStabilizers();
 
             graph = PlayableGraph.Create("Dark Knight 3D Player Animation");
@@ -90,6 +96,16 @@ namespace DungeonKnight.Player
             Debug.Log($"Dark Knight 3D animation ready. Idle:{ClipLoaded(idleClip)} Walk:{ClipLoaded(walkClip)} Run:{ClipLoaded(runClip)} Attack:{ClipLoaded(attackClip)} Charged:{ClipLoaded(chargedAttackClip)} Block:{ClipLoaded(blockIdleClip)}");
         }
 
+        private void OnDisable()
+        {
+            ResetRuntimeGraph();
+        }
+
+        private void OnDestroy()
+        {
+            ResetRuntimeGraph();
+        }
+
         private void Update()
         {
             if (!controller || !animator || !graph.IsValid()) return;
@@ -99,6 +115,7 @@ namespace DungeonKnight.Player
             PlayState(nextState, replayAttack);
             UpdateCurrentPlaybackSpeed();
             KeepCurrentClipInRange();
+            UpdateEquipmentVisibility();
         }
 
         private void LateUpdate()
@@ -400,10 +417,13 @@ namespace DungeonKnight.Player
 
             if (rightHand)
             {
-                if (!AttachEquipmentModel(rightHand, "sword_02_heavy_broadsword", "Heavy Broadsword", SwordGripOffset, SwordGripRotation, SwordGripScale))
+                bool hasSword = FindChildRecursive(rightHand, "Heavy Broadsword") || FindChildRecursive(rightHand, "Starter Sword");
+                if (!hasSword && !AttachEquipmentModel(rightHand, "sword_02_heavy_broadsword", "Heavy Broadsword", SwordGripOffset, SwordGripRotation, SwordGripScale))
                 {
                     CreateStarterSword(rightHand);
                 }
+
+                swordEquipmentRoot = FindChildRecursive(rightHand, "Heavy Broadsword") ?? FindChildRecursive(rightHand, "Starter Sword");
             }
             else
             {
@@ -413,14 +433,32 @@ namespace DungeonKnight.Player
             Transform shieldBone = leftHand ? leftHand : leftForeArm;
             if (shieldBone)
             {
-                if (!AttachEquipmentModel(shieldBone, "shield_03_heater_dark", "Dark Heater Shield", ShieldGripOffset, ShieldGripRotation, ShieldGripScale))
+                bool hasShield = FindChildRecursive(shieldBone, "Dark Heater Shield") || FindChildRecursive(shieldBone, "Starter Shield");
+                if (!hasShield && !AttachEquipmentModel(shieldBone, "shield_03_heater_dark", "Dark Heater Shield", ShieldGripOffset, ShieldGripRotation, ShieldGripScale))
                 {
                     CreateStarterShield(shieldBone);
                 }
+
+                shieldEquipmentRoot = FindChildRecursive(shieldBone, "Dark Heater Shield") ?? FindChildRecursive(shieldBone, "Starter Shield");
             }
             else
             {
                 Debug.LogWarning("Dark Knight 3D could not find left arm bone for shield.");
+            }
+        }
+
+        private void UpdateEquipmentVisibility()
+        {
+            if (!inventory && controller) inventory = controller.GetComponent<PlayerInventory>();
+
+            if (swordEquipmentRoot)
+            {
+                swordEquipmentRoot.gameObject.SetActive(inventory && !inventory.EquippedWeapon.IsEmpty);
+            }
+
+            if (shieldEquipmentRoot)
+            {
+                shieldEquipmentRoot.gameObject.SetActive(inventory && !inventory.EquippedShieldItem.IsEmpty);
             }
         }
 
@@ -524,6 +562,20 @@ namespace DungeonKnight.Player
             return material;
         }
 
+        private void ResetRuntimeGraph()
+        {
+            if (graph.IsValid())
+            {
+                graph.Destroy();
+            }
+
+            currentRootPlayable = Playable.Null;
+            currentPlayable = default;
+            currentOverlayPlayable = default;
+            currentState = ModelState.None;
+            observedAttackSequence = -1;
+        }
+
         private static Transform FindChildRecursive(Transform root, string childName)
         {
             if (!root) return null;
@@ -543,12 +595,5 @@ namespace DungeonKnight.Player
             return clip != null;
         }
 
-        private void OnDestroy()
-        {
-            if (graph.IsValid())
-            {
-                graph.Destroy();
-            }
-        }
     }
 }

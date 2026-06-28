@@ -60,23 +60,15 @@ namespace DungeonKnight.Level
 
             interactables.CreateBonfire("World 1-2 Bonfire", new Vector3(-7.6f, 0.45f, 30.8f));
             interactables.CreateInteractableBox("World 1-2 Lore Tablet", new Vector3(-8.9f, 0.75f, 33.2f), new Vector3(1f, 1.35f, 0.26f), assets.Brass)
-                .ConfigureLore("El 1-2 abre el castillo: pasarelas, trampas de fuego y enemigos en altura.");
-            interactables.CreateInteractableBox("World 1-2 Supply Chest", new Vector3(5.2f, 2.72f, 51.6f), new Vector3(1.2f, 0.55f, 0.75f), assets.Brass).ConfigureChest(18);
+                .ConfigureLore("El 1-2 abre el castillo: pasarelas, ruinas y enemigos en altura.");
+            interactables.CreateChest("World 1-2 Supply Chest", new Vector3(5.2f, 2.72f, 51.6f), 18);
 
-            interactables.CreatePickup("World 1-2 Coin A", new Vector3(4.6f, 0.65f, 31.2f), true);
-            interactables.CreatePickup("World 1-2 Coin B", new Vector3(-5.2f, 1.9f, 39.1f), true);
             interactables.CreatePickup("World 1-2 Potion", new Vector3(7.2f, 0.65f, 58f), false);
-
-            traversal.CreateFireTrap("World 1-2 Fire Trap A", new Vector3(-2.8f, 0.35f, 35.8f), new Vector3(1.2f, 0.7f, 1.2f));
-            traversal.CreateFireTrap("World 1-2 Fire Trap B", new Vector3(2.6f, 0.35f, 53.6f), new Vector3(1.3f, 0.7f, 1.3f));
-            traversal.CreateBladeTrap("World 1-2 Ceiling Blade", new Vector3(0f, 2.9f, 42.4f), new Vector3(0f, 0f, 165f), new Vector3(0f, 0.55f, 0f));
-            geometry.CreateSpikeRow(new Vector3(0f, 0.15f, 57.2f), 11);
-            traversal.CreateHazardBox("World 1-2 Spike Damage", new Vector3(0f, 0.35f, 57.2f), new Vector3(8.2f, 0.7f, 1.35f), 18, "Pinchos oxidados.");
 
             enemies.CreateEnemy("World 1-2 Gate Guard", new Vector3(4.3f, 1.05f, 31.5f), player, 55, 10, 2.55f, false);
             enemies.CreateEnemy("World 1-2 Walkway Guard", new Vector3(-5.2f, 2.46f, 40.2f), player, 60, 11, 2.45f, false);
             enemies.CreateEnemy("World 1-2 Upper Guard", new Vector3(5.6f, 3.38f, 49.2f), player, 60, 12, 2.35f, false);
-            enemies.CreateEnemy("World 1-2 Door Knight", new Vector3(0f, 1.05f, 61f), player, 85, 16, 2.45f, false).transform.localScale = new Vector3(1.18f, 1.18f, 1.18f);
+            enemies.CreateEnemy("World 1-2 Door Knight", new Vector3(0f, 1.05f, 61f), player, 85, 16, 2.45f, false);
         }
 
         public void BuildWorldOneThree(PlayerController3D player)
@@ -104,20 +96,14 @@ namespace DungeonKnight.Level
             interactables.CreateBonfire("World 1-3 Tower Bonfire", new Vector3(5.7f, 0.45f, 73.3f));
             interactables.CreateInteractableBox("World 1-3 Lore Tablet", new Vector3(-5.6f, 0.8f, 74.3f), new Vector3(1f, 1.35f, 0.26f), assets.Brass)
                 .ConfigureLore("La torre del 1-3 sube en espiral. Las plataformas moviles reemplazan los saltos del prototipo 2D.");
-            interactables.CreateInteractableBox("World 1-3 Tower Chest", new Vector3(-4.8f, 6.72f, 99.5f), new Vector3(1.2f, 0.55f, 0.75f), assets.Brass).ConfigureChest(28);
+            interactables.CreateChest("World 1-3 Tower Chest", new Vector3(-4.8f, 6.72f, 99.5f), 28);
             interactables.CreateInteractableBox("World 1-3 Exit Door", new Vector3(0f, 7.35f, 103f), new Vector3(2.4f, 2.6f, 0.4f), assets.Brass).ConfigureExit();
 
-            interactables.CreatePickup("World 1-3 Coin A", new Vector3(3.8f, 3.55f, 87.2f), true);
-            interactables.CreatePickup("World 1-3 Coin B", new Vector3(-3.2f, 6.75f, 96f), true);
             interactables.CreatePickup("World 1-3 Potion", new Vector3(4.6f, 6.75f, 101f), false);
-
-            traversal.CreateBladeTrap("World 1-3 Lower Blade", new Vector3(0f, 2.25f, 80f), new Vector3(0f, 155f, 0f), new Vector3(0.9f, 0f, 0f));
-            traversal.CreateBladeTrap("World 1-3 Upper Blade", new Vector3(0f, 5.45f, 93f), new Vector3(0f, 170f, 0f), new Vector3(1.15f, 0f, 0f));
-            traversal.CreateFireTrap("World 1-3 Tower Fire", new Vector3(0f, 3.55f, 88.8f), new Vector3(1.2f, 0.7f, 1.2f));
 
             enemies.CreateEnemy("World 1-3 Tower Guard A", new Vector3(-2.5f, 1.05f, 78f), player, 70, 13, 2.4f, false);
             enemies.CreateEnemy("World 1-3 Tower Guard B", new Vector3(3.5f, 4.18f, 89.4f), player, 75, 14, 2.35f, false);
-            enemies.CreateEnemy("World 1-3 Crown Warden", new Vector3(0f, 7.38f, 100.2f), player, 130, 20, 2.55f, false).transform.localScale = new Vector3(1.32f, 1.32f, 1.32f);
+            enemies.CreateEnemy("World 1-3 Crown Warden", new Vector3(0f, 7.38f, 100.2f), player, 130, 20, 2.55f, false);
         }
 
         private GameObject CreateBox(string name, Vector3 position, Vector3 scale, Material material)
