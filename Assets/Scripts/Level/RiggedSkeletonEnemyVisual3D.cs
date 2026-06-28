@@ -691,14 +691,28 @@ namespace DungeonKnight.Level
                     Vector3 gripAxis = rightHand.position - leftHand.position;
                     if (gripAxis.sqrMagnitude > 0.0001f)
                     {
-                        Vector3 forward = Vector3.ProjectOnPlane(owner.forward, gripAxis.normalized);
+                        Vector3 gripDirection = gripAxis.normalized;
+                        Vector3 weaponFacing = rightHand.rotation * Vector3.forward;
+                        Vector3 forward = Vector3.ProjectOnPlane(weaponFacing, gripDirection);
                         if (forward.sqrMagnitude < 0.0001f)
                         {
-                            forward = Vector3.ProjectOnPlane(owner.right, gripAxis.normalized);
+                            forward = Vector3.ProjectOnPlane(owner.forward, gripDirection);
                         }
 
-                        rustySword.position = (rightHand.position + leftHand.position) * 0.5f + forward.normalized * 0.035f;
-                        rustySword.rotation = Quaternion.LookRotation(forward.normalized, gripAxis.normalized);
+                        if (forward.sqrMagnitude < 0.0001f)
+                        {
+                            forward = Vector3.ProjectOnPlane(owner.right, gripDirection);
+                        }
+
+                        Vector3 bodyFront = -owner.forward;
+                        forward = forward.normalized;
+                        if (Vector3.Dot(forward, bodyFront) < 0f)
+                        {
+                            forward = -forward;
+                        }
+
+                        rustySword.position = rightHand.position - gripDirection * 0.14f + forward * 0.1f;
+                        rustySword.rotation = Quaternion.LookRotation(forward, gripDirection);
                         return;
                     }
                 }
