@@ -13,6 +13,9 @@ namespace DungeonKnight.Level
         private const string MiniBossWalkResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Walk";
         private const string MiniBossDeathResourcePath = "Characters/Enemies/MiniBoss2/Dying";
         private const string MiniBossAxeResourcePath = "Characters/Enemies/MiniBoss2/two_handed_axe";
+        private static readonly Vector3 MiniBossAxeLocalPosition = new Vector3(0.00036f, -0.00029f, 0.00001f);
+        private static readonly Vector3 MiniBossAxeLocalRotation = new Vector3(21.84f, 149.64f, 302.41f);
+        private const float MiniBossAxeLocalScale = 2.2f;
         private const int WalkInput = 0;
         private const int AttackInput = 1;
         private const int DeathInput = 2;
@@ -44,7 +47,6 @@ namespace DungeonKnight.Level
         private AnimationClipPlayable deathPlayable;
         private Vector3 baseLocalPosition;
         private Transform rightHand;
-        private Transform leftHand;
         private Transform rustySword;
         private Transform hipsRoot;
         private Vector3 hipsBaseLocalPosition;
@@ -238,7 +240,6 @@ namespace DungeonKnight.Level
             if (miniBossVisual)
             {
                 rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
-                leftHand = FindDeepChild(transform, "mixamorig:LeftHand") ?? FindDeepChild(transform, "LeftHand");
                 if (!rustySword)
                 {
                     Transform owner = transform.parent ? transform.parent : transform;
@@ -417,7 +418,6 @@ namespace DungeonKnight.Level
         private void AttachMiniBossAxe()
         {
             rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
-            leftHand = FindDeepChild(transform, "mixamorig:LeftHand") ?? FindDeepChild(transform, "LeftHand");
             if (!rightHand)
             {
                 Debug.LogWarning("RiggedSkeletonEnemyVisual3D: RightHand bone not found, mini boss axe skipped.");
@@ -438,10 +438,10 @@ namespace DungeonKnight.Level
                 DestroySafely(existingAxe.gameObject);
             }
 
-            GameObject axe = Instantiate(axePrefab, owner);
+            GameObject axe = Instantiate(axePrefab, rightHand);
             axe.name = "Mini Boss Two-Handed Axe";
             rustySword = axe.transform;
-            rustySword.localScale = Vector3.one * 2.2f;
+            ApplyMiniBossAxeSocketTransform();
 
             foreach (Collider collider in rustySword.GetComponentsInChildren<Collider>(true))
             {
@@ -681,50 +681,29 @@ namespace DungeonKnight.Level
             {
                 Transform owner = transform.parent ? transform.parent : transform;
                 if (!rightHand) rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
-                if (!leftHand) leftHand = FindDeepChild(transform, "mixamorig:LeftHand") ?? FindDeepChild(transform, "LeftHand");
                 if (!rustySword) rustySword = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
                 if (!rightHand || !rustySword) return;
-
-                rustySword.localScale = Vector3.one * 2.2f;
-                if (leftHand)
+                if (rustySword.parent != rightHand)
                 {
-                    Vector3 gripAxis = rightHand.position - leftHand.position;
-                    if (gripAxis.sqrMagnitude > 0.0001f)
-                    {
-                        Vector3 gripDirection = gripAxis.normalized;
-                        Vector3 weaponFacing = rightHand.rotation * Vector3.forward;
-                        Vector3 forward = Vector3.ProjectOnPlane(weaponFacing, gripDirection);
-                        if (forward.sqrMagnitude < 0.0001f)
-                        {
-                            forward = Vector3.ProjectOnPlane(owner.forward, gripDirection);
-                        }
-
-                        if (forward.sqrMagnitude < 0.0001f)
-                        {
-                            forward = Vector3.ProjectOnPlane(owner.right, gripDirection);
-                        }
-
-                        Vector3 bodyFront = -owner.forward;
-                        forward = forward.normalized;
-                        if (Vector3.Dot(forward, bodyFront) < 0f)
-                        {
-                            forward = -forward;
-                        }
-
-                        rustySword.position = rightHand.position - gripDirection * 0.14f + forward * 0.1f;
-                        rustySword.rotation = Quaternion.LookRotation(forward, gripDirection);
-                        return;
-                    }
+                    rustySword.SetParent(rightHand, false);
                 }
 
-                rustySword.position = rightHand.position + owner.right * 0.18f + owner.forward * 0.04f + Vector3.up * 0.08f;
-                rustySword.rotation = owner.rotation * Quaternion.Euler(6f, 0f, -34f);
+                ApplyMiniBossAxeSocketTransform();
                 return;
             }
 
             if (!rightHand || !rustySword) return;
             rustySword.position = rightHand.position;
             rustySword.rotation = rightHand.rotation * Quaternion.Euler(8f, 88f, -88f);
+        }
+
+        private void ApplyMiniBossAxeSocketTransform()
+        {
+            if (!rustySword) return;
+
+            rustySword.localPosition = MiniBossAxeLocalPosition;
+            rustySword.localRotation = Quaternion.Euler(MiniBossAxeLocalRotation);
+            rustySword.localScale = Vector3.one * MiniBossAxeLocalScale;
         }
 
         private bool IsAttackActive()
