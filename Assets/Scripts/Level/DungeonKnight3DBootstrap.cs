@@ -77,12 +77,66 @@ namespace DungeonKnight.Level
             {
                 built = true;
                 RepairPlayerRuntimeSetup(existingPlayer, false);
+                EnsureExistingSceneTrialAdditions(existingPlayer);
                 return;
             }
 
             if (built) return;
             built = true;
             CreateBootstrap().Build();
+        }
+
+        private static void EnsureExistingSceneTrialAdditions(PlayerController3D player)
+        {
+            foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude))
+            {
+                if (enemy && enemy.IsTowerMiniBossEnemy)
+                {
+                    enemy.ConfigureTowerKeyMiniBoss(player);
+                }
+            }
+
+            EnsureRuntimePotionPickup("Tower Trial Entry Potion", new Vector3(-4.65f, 0.65f, 55.05f));
+            EnsureRuntimePotionPickup("Tower Trial Mercy Potion", new Vector3(6.55f, 0.65f, 59.15f));
+            EnsureRuntimeTrialSign();
+        }
+
+        private static void EnsureRuntimePotionPickup(string name, Vector3 position)
+        {
+            if (GameObject.Find(name)) return;
+
+            GameObject pickup = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            pickup.name = name;
+            ParentUnderGeneratedRoot(pickup);
+            pickup.transform.position = position;
+            pickup.transform.localScale = new Vector3(0.55f, 0.55f, 0.55f);
+            pickup.GetComponent<Renderer>().sharedMaterial = DungeonKnight3DAssets.NewMaterial("DK3D Potion Runtime", new Color(0.9f, 0.08f, 0.22f));
+            Collider collider = pickup.GetComponent<Collider>();
+            collider.isTrigger = true;
+            pickup.AddComponent<DungeonPickup3D>().ConfigurePotion();
+        }
+
+        private static void EnsureRuntimeTrialSign()
+        {
+            const string name = "Tower Trial Sign";
+            if (GameObject.Find(name)) return;
+
+            GameObject sign = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            sign.name = name;
+            ParentUnderGeneratedRoot(sign);
+            sign.transform.position = new Vector3(-6.85f, 0.86f, 58.25f);
+            sign.transform.localScale = new Vector3(1.1f, 1.25f, 0.16f);
+            sign.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            sign.GetComponent<Renderer>().sharedMaterial = DungeonKnight3DAssets.NewMaterial("Tower Trial Runtime Sign", new Color(0.18f, 0.19f, 0.18f));
+            BoxCollider collider = sign.GetComponent<BoxCollider>();
+            collider.isTrigger = true;
+            sign.AddComponent<DungeonInteractable3D>().ConfigureLore("Primera prueba: fija objetivo, rueda el golpe lento y usa Q para beber pocion.");
+        }
+
+        private static void ParentUnderGeneratedRoot(GameObject gameObject)
+        {
+            GameObject root = GameObject.Find(GeneratedRootName);
+            if (root) gameObject.transform.SetParent(root.transform, true);
         }
 
         public static PlayerController3D RepairPlayerRuntimeSetup(bool resetHeightToSpawn)
