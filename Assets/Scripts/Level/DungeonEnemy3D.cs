@@ -178,11 +178,6 @@ namespace DungeonKnight.Level
             spawnRotation = transform.rotation;
             renderers = GetComponentsInChildren<Renderer>();
             skeletonVisual = GetComponentInChildren<SkeletonEnemyVisual3D>();
-            if (IsTowerMiniBoss())
-            {
-                ApplyTowerMiniBossTrialProfile();
-            }
-
             EnsureTowerMiniBossVisual();
             riggedSkeletonVisual = GetComponentInChildren<RiggedSkeletonEnemyVisual3D>();
             riggedSkeletonVisual?.RepairRuntimeSetup();
