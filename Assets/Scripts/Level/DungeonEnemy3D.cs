@@ -54,8 +54,6 @@ namespace DungeonKnight.Level
         public float HealthFraction => maxHealth > 0 ? Mathf.Clamp01(health / (float)maxHealth) : 0f;
         public float PostureFraction => maxPosture > 0.001f ? Mathf.Clamp01(posture / maxPosture) : 0f;
         public bool IsStaggered => staggerTimer > 0f;
-        public bool IsTowerMiniBossEnemy => IsTowerMiniBoss();
-        public string DisplayName => IsTowerMiniBoss() ? "Prueba de la Torre" : name;
 
         public void Configure(PlayerController3D target, int hp, int damage, float speed, bool keyCarrier)
         {
@@ -72,11 +70,6 @@ namespace DungeonKnight.Level
             dropsTowerKey = towerKeyCarrier;
             minCoinReward = Mathf.Max(0, minReward);
             maxCoinReward = Mathf.Max(minCoinReward, maxReward);
-            if (towerKeyCarrier)
-            {
-                ApplyTowerMiniBossTrialProfile();
-            }
-
             health = maxHealth;
             posture = maxPosture;
             waitForWakeGate = dropsTowerKey || waitForWakeGate;
@@ -94,31 +87,18 @@ namespace DungeonKnight.Level
         public void ConfigureTowerKeyMiniBoss(PlayerController3D target)
         {
             if (target) player = target;
+            maxHealth = Mathf.Max(maxHealth, 280);
+            touchDamage = Mathf.Max(touchDamage, 26);
+            moveSpeed = Mathf.Max(moveSpeed, 2.15f);
             dropsKey = false;
             dropsTowerKey = true;
-            ApplyTowerMiniBossTrialProfile();
+            minCoinReward = Mathf.Max(minCoinReward, 12);
+            maxCoinReward = Mathf.Max(maxCoinReward, 18);
             health = maxHealth;
             posture = maxPosture;
             waitForWakeGate = true;
             miniBossVisualChecked = false;
             EnsureTowerMiniBossVisual();
-        }
-
-        private void ApplyTowerMiniBossTrialProfile()
-        {
-            maxHealth = 220;
-            touchDamage = 18;
-            moveSpeed = 1.55f;
-            attackRange = 2.05f;
-            preferredAttackDistance = 1.82f;
-            attackSpacingCorrection = 1.1f;
-            aggroRange = 9.5f;
-            attackWindup = 0.72f;
-            attackRecovery = 1.18f;
-            attackCooldownPadding = 0.64f;
-            maxPosture = 95f;
-            minCoinReward = Mathf.Max(minCoinReward, 16);
-            maxCoinReward = Mathf.Max(maxCoinReward, 24);
         }
 
         public void RepairRuntimeSetup(PlayerController3D target)
@@ -338,7 +318,6 @@ namespace DungeonKnight.Level
             if (!wakeGate.IsOpen && !PlayerHasCrossedWakeGate()) return true;
 
             awakened = true;
-            player.QueueMessage("Prueba de la Torre: fija objetivo, rueda y castiga la pausa.", 2.6f, HudMessageIcon.Shield);
             return false;
         }
 
@@ -510,11 +489,7 @@ namespace DungeonKnight.Level
         {
             if (player && maxCoinReward > 0) player.AddCoins(Random.Range(minCoinReward, maxCoinReward + 1));
             if (dropsKey && player) player.GiveGateKey();
-            if (dropsTowerKey)
-            {
-                player?.QueueMessage("Prueba superada. La llave de la torre queda libre.", 2.6f, HudMessageIcon.Sword);
-                SpawnTowerKeyPickup();
-            }
+            if (dropsTowerKey) SpawnTowerKeyPickup();
             Destroy(gameObject);
         }
 

@@ -779,7 +779,7 @@ namespace DungeonKnight.Level
 
         private void CreateMiniBossGateArena(PlayerController3D player)
         {
-            GameObject miniBoss = CreateEnemy("Tower Key Mini Boss", new Vector3(0f, 1.05f, 64.2f), player, 220, 18, 1.55f, false, true, 16, 24, true);
+            GameObject miniBoss = CreateEnemy("Tower Key Mini Boss", new Vector3(0f, 1.05f, 64.2f), player, 280, 26, 2.15f, false, true, 12, 18, true);
 
             CreateTowerKeyChamber();
             Transform entryDoor = CreateGothicDoor("Tower Chamber Entry Door", new Vector3(0f, 1.65f, 56.45f), 6.2f, 3.35f);
@@ -792,9 +792,6 @@ namespace DungeonKnight.Level
             CreateInvisibleInteractableBox("Tower Gate Lock", new Vector3(0f, 1.0f, 67.75f), new Vector3(1.55f, 1.45f, 0.75f), brass).ConfigureTowerGate(towerGate);
             CreateInvisibleInteractableBox("Tower Gothic Door Interaction", new Vector3(0f, 1.25f, 67.65f), new Vector3(4.8f, 2.35f, 1.85f), brass).ConfigureTowerGate(towerGate);
             CreateCloseRoomCameraZone("Tower Key Chamber Close Camera Zone", new Vector3(0f, 2.05f, 63.25f), new Vector3(14.9f, 5.2f, 8.5f));
-            CreatePickup("Tower Trial Entry Potion", new Vector3(-4.65f, 0.65f, 55.05f), false);
-            CreatePickup("Tower Trial Mercy Potion", new Vector3(6.55f, 0.65f, 59.15f), false);
-            CreateTutorialSign("Tower Trial Sign", new Vector3(-6.85f, 0.86f, 58.25f), "Primera prueba: fija objetivo, rueda el golpe lento y usa Q para beber pocion.");
         }
 
         private void CreateTowerKeyChamber()

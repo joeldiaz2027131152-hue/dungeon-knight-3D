@@ -45,19 +45,11 @@ namespace DungeonKnight.Level
             PlayerController3D player = other.GetComponentInParent<PlayerController3D>();
             if (!player) return;
 
-            if (!TryCollect(player)) return;
-            Destroy(gameObject);
-        }
-
-        public bool TryCollect(PlayerController3D player)
-        {
-            if (!player) return false;
-
             if (kind == PickupKind.Coin) player.AddCoins(amount);
             else if (kind == PickupKind.TowerKey) player.GiveTowerKey();
-            else if (!player.AddPotion()) return false;
+            else player.AddPotion();
 
-            return true;
+            Destroy(gameObject);
         }
     }
 }
