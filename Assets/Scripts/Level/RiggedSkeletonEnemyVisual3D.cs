@@ -9,7 +9,7 @@ namespace DungeonKnight.Level
         public const string ResourcePath = "Characters/Enemies/SkeletonEnemy/Rigged/SwordAndShieldSlashEsqueleto";
         private const string WalkResourcePath = "Characters/Enemies/SkeletonEnemy/Rigged/WalkingEsqueleto";
         private const string MiniBossModelResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Casting";
-        private const string MiniBossAttackResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Slash";
+        private const string MiniBossAttackResourcePath = "Characters/Enemies/MiniBoss2/Standing Melee Attack Horizontal";
         private const string MiniBossWalkResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Walk";
         private const string MiniBossDeathResourcePath = "Characters/Enemies/MiniBoss2/Dying";
         private const string MiniBossAxeResourcePath = "Characters/Enemies/MiniBoss2/two_handed_axe";
