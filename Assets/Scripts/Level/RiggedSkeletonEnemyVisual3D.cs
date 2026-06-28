@@ -12,10 +12,11 @@ namespace DungeonKnight.Level
         private const string MiniBossAttackResourcePath = "Characters/Enemies/MiniBoss2/Standing Melee Attack Horizontal";
         private const string MiniBossWalkResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Walk";
         private const string MiniBossDeathResourcePath = "Characters/Enemies/MiniBoss2/Dying";
-        private const string MiniBossAxeResourcePath = "Characters/Enemies/MiniBoss2/two_handed_axe";
-        private static readonly Vector3 MiniBossAxeLocalPosition = new Vector3(0.00036f, -0.00029f, 0.00001f);
-        private static readonly Vector3 MiniBossAxeLocalRotation = new Vector3(21.84f, 149.64f, 302.41f);
-        private const float MiniBossAxeLocalScale = 2.2f;
+        private const string MiniBossAxeName = "Mini Boss One-Handed Axe";
+        private const string MiniBossLegacyAxeName = "Mini Boss Two-Handed Axe";
+        private static readonly Vector3 MiniBossAxeLocalPosition = new Vector3(0.02f, -0.03f, 0.015f);
+        private static readonly Vector3 MiniBossAxeLocalRotation = new Vector3(7f, 92f, -86f);
+        private const float MiniBossAxeLocalScale = 1f;
         private const int WalkInput = 0;
         private const int AttackInput = 1;
         private const int DeathInput = 2;
@@ -56,6 +57,15 @@ namespace DungeonKnight.Level
         private string attackResourcePath = ResourcePath;
         private string walkResourcePath = WalkResourcePath;
         private string deathResourcePath = string.Empty;
+
+        private void Start()
+        {
+            if (miniBossVisual || name.Contains("Mini Boss"))
+            {
+                miniBossVisual = true;
+                RepairRuntimeSetup();
+            }
+        }
 
         public static bool TryAttach(Transform enemyRoot)
         {
@@ -243,10 +253,10 @@ namespace DungeonKnight.Level
                 if (!rustySword)
                 {
                     Transform owner = transform.parent ? transform.parent : transform;
-                    rustySword = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
+                    rustySword = FindDeepChild(owner, MiniBossAxeName) ?? FindDeepChild(owner, MiniBossLegacyAxeName);
                 }
 
-                if (rustySword && rustySword.parent != (transform.parent ? transform.parent : transform))
+                if (rustySword && (rustySword.name == MiniBossLegacyAxeName || rustySword.parent != rightHand))
                 {
                     AttachMiniBossAxe();
                     return;
@@ -424,29 +434,19 @@ namespace DungeonKnight.Level
                 return;
             }
 
-            GameObject axePrefab = Resources.Load<GameObject>(MiniBossAxeResourcePath);
-            if (!axePrefab)
-            {
-                Debug.LogWarning($"RiggedSkeletonEnemyVisual3D: missing Resources/{MiniBossAxeResourcePath}.obj");
-                return;
-            }
-
             Transform owner = transform.parent ? transform.parent : transform;
-            Transform existingAxe = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
+            Transform existingAxe = FindDeepChild(owner, MiniBossAxeName) ?? FindDeepChild(owner, MiniBossLegacyAxeName);
             if (existingAxe)
             {
                 DestroySafely(existingAxe.gameObject);
             }
 
-            GameObject axe = Instantiate(axePrefab, rightHand);
-            axe.name = "Mini Boss Two-Handed Axe";
+            GameObject axe = new GameObject(MiniBossAxeName);
+            axe.transform.SetParent(rightHand, false);
             rustySword = axe.transform;
             ApplyMiniBossAxeSocketTransform();
 
-            foreach (Collider collider in rustySword.GetComponentsInChildren<Collider>(true))
-            {
-                DestroySafely(collider);
-            }
+            BuildMiniBossOneHandedAxe(rustySword);
 
             Renderer[] axeRenderers = rustySword.GetComponentsInChildren<Renderer>(true);
             foreach (Renderer renderer in axeRenderers)
@@ -458,7 +458,66 @@ namespace DungeonKnight.Level
 
             UpdateRustySwordTransform();
             Bounds axeBounds = CalculateBounds(axeRenderers);
-            Debug.Log($"RiggedSkeletonEnemyVisual3D: attached mini boss axe. Renderers={axeRenderers.Length}, Size={axeBounds.size}, Parent={owner.name}");
+            Debug.Log($"RiggedSkeletonEnemyVisual3D: attached mini boss one-handed axe. Renderers={axeRenderers.Length}, Size={axeBounds.size}, Parent={rightHand.name}");
+        }
+
+        private static void BuildMiniBossOneHandedAxe(Transform axeRoot)
+        {
+            Material bladeMaterial = NewMaterial("Mini Boss Axe Blade", new Color(0.46f, 0.43f, 0.38f), 0.35f);
+            Material edgeMaterial = NewMaterial("Mini Boss Axe Edge", new Color(0.66f, 0.64f, 0.58f), 0.4f);
+            Material gripMaterial = NewMaterial("Mini Boss Axe Grip", new Color(0.12f, 0.08f, 0.045f), 0.08f);
+            Material wrapMaterial = NewMaterial("Mini Boss Axe Wrap", new Color(0.29f, 0.18f, 0.09f), 0.12f);
+
+            GameObject handle = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            handle.name = "Axe Handle";
+            handle.transform.SetParent(axeRoot, false);
+            handle.transform.localPosition = new Vector3(0f, 0.24f, 0f);
+            handle.transform.localScale = new Vector3(0.045f, 0.36f, 0.045f);
+            handle.GetComponent<Renderer>().sharedMaterial = gripMaterial;
+            DestroySafely(handle.GetComponent<Collider>());
+
+            GameObject pommel = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            pommel.name = "Axe Pommel";
+            pommel.transform.SetParent(axeRoot, false);
+            pommel.transform.localPosition = new Vector3(0f, -0.16f, 0f);
+            pommel.transform.localScale = new Vector3(0.11f, 0.045f, 0.08f);
+            pommel.GetComponent<Renderer>().sharedMaterial = wrapMaterial;
+            DestroySafely(pommel.GetComponent<Collider>());
+
+            GameObject head = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            head.name = "Axe Head";
+            head.transform.SetParent(axeRoot, false);
+            head.transform.localPosition = new Vector3(0.13f, 0.62f, 0f);
+            head.transform.localRotation = Quaternion.Euler(0f, 0f, -8f);
+            head.transform.localScale = new Vector3(0.3f, 0.18f, 0.055f);
+            head.GetComponent<Renderer>().sharedMaterial = bladeMaterial;
+            DestroySafely(head.GetComponent<Collider>());
+
+            GameObject upperEdge = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            upperEdge.name = "Axe Upper Edge";
+            upperEdge.transform.SetParent(axeRoot, false);
+            upperEdge.transform.localPosition = new Vector3(0.28f, 0.69f, 0f);
+            upperEdge.transform.localRotation = Quaternion.Euler(0f, 0f, 28f);
+            upperEdge.transform.localScale = new Vector3(0.13f, 0.035f, 0.06f);
+            upperEdge.GetComponent<Renderer>().sharedMaterial = edgeMaterial;
+            DestroySafely(upperEdge.GetComponent<Collider>());
+
+            GameObject lowerEdge = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            lowerEdge.name = "Axe Lower Edge";
+            lowerEdge.transform.SetParent(axeRoot, false);
+            lowerEdge.transform.localPosition = new Vector3(0.27f, 0.54f, 0f);
+            lowerEdge.transform.localRotation = Quaternion.Euler(0f, 0f, -30f);
+            lowerEdge.transform.localScale = new Vector3(0.13f, 0.035f, 0.06f);
+            lowerEdge.GetComponent<Renderer>().sharedMaterial = edgeMaterial;
+            DestroySafely(lowerEdge.GetComponent<Collider>());
+
+            GameObject collar = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            collar.name = "Axe Collar";
+            collar.transform.SetParent(axeRoot, false);
+            collar.transform.localPosition = new Vector3(0f, 0.58f, 0f);
+            collar.transform.localScale = new Vector3(0.13f, 0.08f, 0.07f);
+            collar.GetComponent<Renderer>().sharedMaterial = wrapMaterial;
+            DestroySafely(collar.GetComponent<Collider>());
         }
 
         private void RemoveGlowingEyes()
@@ -681,8 +740,14 @@ namespace DungeonKnight.Level
             {
                 Transform owner = transform.parent ? transform.parent : transform;
                 if (!rightHand) rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
-                if (!rustySword) rustySword = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
+                if (!rustySword) rustySword = FindDeepChild(owner, MiniBossAxeName) ?? FindDeepChild(owner, MiniBossLegacyAxeName);
                 if (!rightHand || !rustySword) return;
+                if (rustySword.name == MiniBossLegacyAxeName)
+                {
+                    AttachMiniBossAxe();
+                    return;
+                }
+
                 if (rustySword.parent != rightHand)
                 {
                     rustySword.SetParent(rightHand, false);
