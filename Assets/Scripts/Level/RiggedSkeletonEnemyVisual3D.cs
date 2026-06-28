@@ -14,9 +14,9 @@ namespace DungeonKnight.Level
         private const string MiniBossDeathResourcePath = "Characters/Enemies/MiniBoss2/Dying";
         private const string MiniBossAxeName = "Mini Boss One-Handed Axe";
         private const string MiniBossLegacyAxeName = "Mini Boss Two-Handed Axe";
-        private static readonly Vector3 MiniBossAxeLocalPosition = new Vector3(0.02f, -0.03f, 0.015f);
+        private static readonly Vector3 MiniBossAxeLocalPosition = new Vector3(0.015f, -0.02f, 0.012f);
         private static readonly Vector3 MiniBossAxeLocalRotation = new Vector3(7f, 92f, -86f);
-        private const float MiniBossAxeLocalScale = 1f;
+        private const float MiniBossAxeLocalScale = 0.62f;
         private const int WalkInput = 0;
         private const int AttackInput = 1;
         private const int DeathInput = 2;
@@ -471,51 +471,51 @@ namespace DungeonKnight.Level
             GameObject handle = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             handle.name = "Axe Handle";
             handle.transform.SetParent(axeRoot, false);
-            handle.transform.localPosition = new Vector3(0f, 0.24f, 0f);
-            handle.transform.localScale = new Vector3(0.045f, 0.36f, 0.045f);
+            handle.transform.localPosition = new Vector3(0f, 0.2f, 0f);
+            handle.transform.localScale = new Vector3(0.038f, 0.3f, 0.038f);
             handle.GetComponent<Renderer>().sharedMaterial = gripMaterial;
             DestroySafely(handle.GetComponent<Collider>());
 
             GameObject pommel = GameObject.CreatePrimitive(PrimitiveType.Cube);
             pommel.name = "Axe Pommel";
             pommel.transform.SetParent(axeRoot, false);
-            pommel.transform.localPosition = new Vector3(0f, -0.16f, 0f);
-            pommel.transform.localScale = new Vector3(0.11f, 0.045f, 0.08f);
+            pommel.transform.localPosition = new Vector3(0f, -0.13f, 0f);
+            pommel.transform.localScale = new Vector3(0.085f, 0.035f, 0.06f);
             pommel.GetComponent<Renderer>().sharedMaterial = wrapMaterial;
             DestroySafely(pommel.GetComponent<Collider>());
 
             GameObject head = GameObject.CreatePrimitive(PrimitiveType.Cube);
             head.name = "Axe Head";
             head.transform.SetParent(axeRoot, false);
-            head.transform.localPosition = new Vector3(0.13f, 0.62f, 0f);
+            head.transform.localPosition = new Vector3(0.105f, 0.5f, 0f);
             head.transform.localRotation = Quaternion.Euler(0f, 0f, -8f);
-            head.transform.localScale = new Vector3(0.3f, 0.18f, 0.055f);
+            head.transform.localScale = new Vector3(0.22f, 0.13f, 0.045f);
             head.GetComponent<Renderer>().sharedMaterial = bladeMaterial;
             DestroySafely(head.GetComponent<Collider>());
 
             GameObject upperEdge = GameObject.CreatePrimitive(PrimitiveType.Cube);
             upperEdge.name = "Axe Upper Edge";
             upperEdge.transform.SetParent(axeRoot, false);
-            upperEdge.transform.localPosition = new Vector3(0.28f, 0.69f, 0f);
+            upperEdge.transform.localPosition = new Vector3(0.21f, 0.55f, 0f);
             upperEdge.transform.localRotation = Quaternion.Euler(0f, 0f, 28f);
-            upperEdge.transform.localScale = new Vector3(0.13f, 0.035f, 0.06f);
+            upperEdge.transform.localScale = new Vector3(0.095f, 0.026f, 0.048f);
             upperEdge.GetComponent<Renderer>().sharedMaterial = edgeMaterial;
             DestroySafely(upperEdge.GetComponent<Collider>());
 
             GameObject lowerEdge = GameObject.CreatePrimitive(PrimitiveType.Cube);
             lowerEdge.name = "Axe Lower Edge";
             lowerEdge.transform.SetParent(axeRoot, false);
-            lowerEdge.transform.localPosition = new Vector3(0.27f, 0.54f, 0f);
+            lowerEdge.transform.localPosition = new Vector3(0.205f, 0.44f, 0f);
             lowerEdge.transform.localRotation = Quaternion.Euler(0f, 0f, -30f);
-            lowerEdge.transform.localScale = new Vector3(0.13f, 0.035f, 0.06f);
+            lowerEdge.transform.localScale = new Vector3(0.095f, 0.026f, 0.048f);
             lowerEdge.GetComponent<Renderer>().sharedMaterial = edgeMaterial;
             DestroySafely(lowerEdge.GetComponent<Collider>());
 
             GameObject collar = GameObject.CreatePrimitive(PrimitiveType.Cube);
             collar.name = "Axe Collar";
             collar.transform.SetParent(axeRoot, false);
-            collar.transform.localPosition = new Vector3(0f, 0.58f, 0f);
-            collar.transform.localScale = new Vector3(0.13f, 0.08f, 0.07f);
+            collar.transform.localPosition = new Vector3(0f, 0.47f, 0f);
+            collar.transform.localScale = new Vector3(0.1f, 0.06f, 0.055f);
             collar.GetComponent<Renderer>().sharedMaterial = wrapMaterial;
             DestroySafely(collar.GetComponent<Collider>());
         }
@@ -766,9 +766,22 @@ namespace DungeonKnight.Level
         {
             if (!rustySword) return;
 
-            rustySword.localPosition = MiniBossAxeLocalPosition;
+            Vector3 parentScale = rustySword.parent ? rustySword.parent.lossyScale : Vector3.one;
+            rustySword.localPosition = new Vector3(
+                MiniBossAxeLocalPosition.x / SafeScale(parentScale.x),
+                MiniBossAxeLocalPosition.y / SafeScale(parentScale.y),
+                MiniBossAxeLocalPosition.z / SafeScale(parentScale.z));
             rustySword.localRotation = Quaternion.Euler(MiniBossAxeLocalRotation);
-            rustySword.localScale = Vector3.one * MiniBossAxeLocalScale;
+            rustySword.localScale = new Vector3(
+                MiniBossAxeLocalScale / SafeScale(parentScale.x),
+                MiniBossAxeLocalScale / SafeScale(parentScale.y),
+                MiniBossAxeLocalScale / SafeScale(parentScale.z));
+        }
+
+        private static float SafeScale(float scale)
+        {
+            float absolute = Mathf.Abs(scale);
+            return absolute < 0.0001f ? 1f : absolute;
         }
 
         private bool IsAttackActive()
