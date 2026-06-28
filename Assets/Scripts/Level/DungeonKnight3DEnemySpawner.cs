@@ -24,7 +24,7 @@ namespace DungeonKnight.Level
             GameObject enemyObject = GameObject.CreatePrimitive(PrimitiveType.Capsule);
             enemyObject.name = name;
             enemyObject.transform.position = position;
-            enemyObject.GetComponent<Renderer>().material = assets.Enemy;
+            enemyObject.GetComponent<Renderer>().sharedMaterial = assets.Enemy;
             CapsuleCollider capsuleCollider = enemyObject.GetComponent<CapsuleCollider>();
             if (Application.isPlaying) Object.Destroy(capsuleCollider);
             else Object.DestroyImmediate(capsuleCollider);

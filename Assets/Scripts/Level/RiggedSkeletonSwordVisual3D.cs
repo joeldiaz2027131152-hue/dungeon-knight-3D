@@ -57,7 +57,7 @@ namespace DungeonKnight.Level
 
         public void Destroy()
         {
-            if (rustySword) Object.Destroy(rustySword.gameObject);
+            if (rustySword) DestroySafely(rustySword.gameObject);
         }
 
         private static void CreateBlade(Transform parent, Material material)
@@ -67,8 +67,8 @@ namespace DungeonKnight.Level
             blade.transform.SetParent(parent, false);
             blade.transform.localPosition = new Vector3(0f, 0.43f, 0f);
             blade.transform.localScale = new Vector3(0.075f, 0.78f, 0.035f);
-            blade.GetComponent<Renderer>().material = material;
-            Object.Destroy(blade.GetComponent<Collider>());
+            blade.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(blade.GetComponent<Collider>());
         }
 
         private static void CreateTip(Transform parent, Material material)
@@ -79,8 +79,8 @@ namespace DungeonKnight.Level
             tip.transform.localPosition = new Vector3(0f, 0.84f, 0f);
             tip.transform.localRotation = Quaternion.Euler(0f, 0f, 45f);
             tip.transform.localScale = new Vector3(0.058f, 0.058f, 0.034f);
-            tip.GetComponent<Renderer>().material = material;
-            Object.Destroy(tip.GetComponent<Collider>());
+            tip.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(tip.GetComponent<Collider>());
         }
 
         private static void CreateGuard(Transform parent, Material material)
@@ -90,8 +90,8 @@ namespace DungeonKnight.Level
             guard.transform.SetParent(parent, false);
             guard.transform.localPosition = new Vector3(0f, 0.02f, 0f);
             guard.transform.localScale = new Vector3(0.34f, 0.05f, 0.06f);
-            guard.GetComponent<Renderer>().material = material;
-            Object.Destroy(guard.GetComponent<Collider>());
+            guard.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(guard.GetComponent<Collider>());
         }
 
         private static void CreateGrip(Transform parent, Material material)
@@ -101,8 +101,8 @@ namespace DungeonKnight.Level
             grip.transform.SetParent(parent, false);
             grip.transform.localPosition = new Vector3(0f, -0.13f, 0f);
             grip.transform.localScale = new Vector3(0.045f, 0.18f, 0.045f);
-            grip.GetComponent<Renderer>().material = material;
-            Object.Destroy(grip.GetComponent<Collider>());
+            grip.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(grip.GetComponent<Collider>());
         }
 
         private static void AddRustPatch(Transform parent, Vector3 position, Vector3 scale, Material material)
@@ -112,8 +112,8 @@ namespace DungeonKnight.Level
             patch.transform.SetParent(parent, false);
             patch.transform.localPosition = position;
             patch.transform.localScale = scale;
-            patch.GetComponent<Renderer>().material = material;
-            Object.Destroy(patch.GetComponent<Collider>());
+            patch.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(patch.GetComponent<Collider>());
         }
 
         private static Material NewMaterial(string name, Color color, float metallic)
@@ -134,6 +134,14 @@ namespace DungeonKnight.Level
             }
 
             return null;
+        }
+
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying) Object.Destroy(target);
+            else Object.DestroyImmediate(target);
         }
     }
 }

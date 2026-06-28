@@ -22,7 +22,7 @@ namespace DungeonKnight.Level
             CapsuleCollider capsuleCollider = player.GetComponent<CapsuleCollider>();
             if (Application.isPlaying) Object.Destroy(capsuleCollider);
             else Object.DestroyImmediate(capsuleCollider);
-            player.GetComponent<Renderer>().material = assets.PlayerBody;
+            player.GetComponent<Renderer>().sharedMaterial = assets.PlayerBody;
 
             CharacterController controller = player.AddComponent<CharacterController>();
             controller.height = 2.1f;
@@ -81,7 +81,7 @@ namespace DungeonKnight.Level
             Renderer[] renderers = visual.GetComponentsInChildren<Renderer>();
             if (renderers.Length == 0)
             {
-                Object.Destroy(visual);
+                DestroySafely(visual);
                 return false;
             }
 
@@ -164,6 +164,14 @@ namespace DungeonKnight.Level
         private static GameObject CreateBox(string name, Vector3 position, Vector3 scale, Material material)
         {
             return DungeonKnight3DGeometryBuilder.CreateBox(name, position, scale, material);
+        }
+
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying) Object.Destroy(target);
+            else Object.DestroyImmediate(target);
         }
     }
 }

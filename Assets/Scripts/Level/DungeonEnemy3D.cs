@@ -336,7 +336,7 @@ namespace DungeonKnight.Level
 
             GothicDoubleDoor3D bestGate = null;
             float bestDistance = float.MaxValue;
-            foreach (GothicDoubleDoor3D gate in Object.FindObjectsByType<GothicDoubleDoor3D>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+            foreach (GothicDoubleDoor3D gate in Object.FindObjectsByType<GothicDoubleDoor3D>(FindObjectsInactive.Include))
             {
                 if (!gate || gate.transform.position.z > transform.position.z) continue;
 

@@ -95,13 +95,13 @@ namespace DungeonKnight.Level
             int rendererCount = renderers.Length;
             if (rendererCount == 0)
             {
-                Object.Destroy(visual);
+                DestroySafely(visual);
                 return false;
             }
 
             if (!controller.FitToEnemyRoot(enemyRoot, renderers))
             {
-                Object.Destroy(visual);
+                DestroySafely(visual);
                 return false;
             }
 
@@ -141,7 +141,7 @@ namespace DungeonKnight.Level
             ConfigureRendererBasics(renderers);
             foreach (Renderer renderer in renderers)
             {
-                renderer.material = NewSkeletonZoneMaterial(renderer);
+                renderer.sharedMaterial = NewSkeletonZoneMaterial(renderer);
             }
         }
 
@@ -354,8 +354,8 @@ namespace DungeonKnight.Level
             blade.transform.SetParent(rustySword, false);
             blade.transform.localPosition = new Vector3(0f, 0.43f, 0f);
             blade.transform.localScale = new Vector3(0.075f, 0.78f, 0.035f);
-            blade.GetComponent<Renderer>().material = bladeMaterial;
-            Object.Destroy(blade.GetComponent<Collider>());
+            blade.GetComponent<Renderer>().sharedMaterial = bladeMaterial;
+            DestroySafely(blade.GetComponent<Collider>());
 
             GameObject tip = GameObject.CreatePrimitive(PrimitiveType.Cube);
             tip.name = "Chipped Tip";
@@ -363,24 +363,24 @@ namespace DungeonKnight.Level
             tip.transform.localPosition = new Vector3(0f, 0.84f, 0f);
             tip.transform.localRotation = Quaternion.Euler(0f, 0f, 45f);
             tip.transform.localScale = new Vector3(0.058f, 0.058f, 0.034f);
-            tip.GetComponent<Renderer>().material = bladeMaterial;
-            Object.Destroy(tip.GetComponent<Collider>());
+            tip.GetComponent<Renderer>().sharedMaterial = bladeMaterial;
+            DestroySafely(tip.GetComponent<Collider>());
 
             GameObject guard = GameObject.CreatePrimitive(PrimitiveType.Cube);
             guard.name = "Rusty Guard";
             guard.transform.SetParent(rustySword, false);
             guard.transform.localPosition = new Vector3(0f, 0.02f, 0f);
             guard.transform.localScale = new Vector3(0.34f, 0.05f, 0.06f);
-            guard.GetComponent<Renderer>().material = rustMaterial;
-            Object.Destroy(guard.GetComponent<Collider>());
+            guard.GetComponent<Renderer>().sharedMaterial = rustMaterial;
+            DestroySafely(guard.GetComponent<Collider>());
 
             GameObject grip = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             grip.name = "Worn Grip";
             grip.transform.SetParent(rustySword, false);
             grip.transform.localPosition = new Vector3(0f, -0.13f, 0f);
             grip.transform.localScale = new Vector3(0.045f, 0.18f, 0.045f);
-            grip.GetComponent<Renderer>().material = gripMaterial;
-            Object.Destroy(grip.GetComponent<Collider>());
+            grip.GetComponent<Renderer>().sharedMaterial = gripMaterial;
+            DestroySafely(grip.GetComponent<Collider>());
 
             AddRustPatch(rustySword, new Vector3(-0.024f, 0.28f, -0.019f), new Vector3(0.044f, 0.12f, 0.006f), rustMaterial);
             AddRustPatch(rustySword, new Vector3(0.022f, 0.58f, -0.019f), new Vector3(0.04f, 0.1f, 0.006f), rustMaterial);
@@ -451,7 +451,7 @@ namespace DungeonKnight.Level
         private void OnDestroy()
         {
             if (graph.IsValid()) graph.Destroy();
-            if (rustySword) Object.Destroy(rustySword.gameObject);
+            if (rustySword) DestroySafely(rustySword.gameObject);
         }
 
         private static AnimationClip ChooseClip(AnimationClip[] clips)
@@ -498,8 +498,8 @@ namespace DungeonKnight.Level
             patch.transform.SetParent(parent, false);
             patch.transform.localPosition = position;
             patch.transform.localScale = scale;
-            patch.GetComponent<Renderer>().material = material;
-            Object.Destroy(patch.GetComponent<Collider>());
+            patch.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(patch.GetComponent<Collider>());
         }
 
         private static Material NewSkeletonZoneMaterial(Renderer renderer)

@@ -113,7 +113,7 @@ namespace DungeonKnight.Level
             pickup.name = name;
             pickup.transform.position = position;
             pickup.transform.localScale = coin ? new Vector3(0.45f, 0.08f, 0.45f) : new Vector3(0.55f, 0.55f, 0.55f);
-            pickup.GetComponent<Renderer>().material = coin ? assets.Brass : assets.Potion;
+            pickup.GetComponent<Renderer>().sharedMaterial = coin ? assets.Brass : assets.Potion;
             Collider collider = pickup.GetComponent<Collider>();
             collider.isTrigger = true;
             DungeonPickup3D pickupScript = pickup.AddComponent<DungeonPickup3D>();
@@ -133,8 +133,8 @@ namespace DungeonKnight.Level
             box.transform.SetParent(parent, false);
             box.transform.localPosition = localPosition;
             box.transform.localScale = localScale;
-            box.GetComponent<Renderer>().material = material;
-            Object.Destroy(box.GetComponent<Collider>());
+            box.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(box.GetComponent<Collider>());
             return box;
         }
 
@@ -148,8 +148,8 @@ namespace DungeonKnight.Level
                 rivet.transform.SetParent(parent, false);
                 rivet.transform.localPosition = new Vector3(x, y, z);
                 rivet.transform.localScale = Vector3.one * 0.055f;
-                rivet.GetComponent<Renderer>().material = assets.ChestTrim;
-                Object.Destroy(rivet.GetComponent<Collider>());
+                rivet.GetComponent<Renderer>().sharedMaterial = assets.ChestTrim;
+                DestroySafely(rivet.GetComponent<Collider>());
             }
         }
 
@@ -160,8 +160,8 @@ namespace DungeonKnight.Level
             soul.transform.SetParent(parent, false);
             soul.transform.localPosition = new Vector3(0f, 0.28f, -0.08f);
             soul.transform.localScale = Vector3.one * 0.28f;
-            soul.GetComponent<Renderer>().material = assets.ChestGlow;
-            Object.Destroy(soul.GetComponent<Collider>());
+            soul.GetComponent<Renderer>().sharedMaterial = assets.ChestGlow;
+            DestroySafely(soul.GetComponent<Collider>());
 
             CreateLocalBox(soul.transform, "Chest Soul Wisp A", new Vector3(-0.16f, 0.42f, 0f), new Vector3(0.05f, 0.42f, 0.05f), assets.ChestGlow)
                 .transform.localRotation = Quaternion.Euler(0f, 0f, -22f);
@@ -185,8 +185,8 @@ namespace DungeonKnight.Level
                 fallback.transform.localPosition = Vector3.up;
                 fallback.transform.localRotation = Quaternion.identity;
                 fallback.transform.localScale = new Vector3(0.65f, 0.9f, 0.65f);
-                fallback.GetComponent<Renderer>().material = DungeonKnight3DAssets.NewMaterial("DK3D Anciano Cloak", new Color(0.025f, 0.026f, 0.024f));
-                Object.Destroy(fallback.GetComponent<CapsuleCollider>());
+                fallback.GetComponent<Renderer>().sharedMaterial = DungeonKnight3DAssets.NewMaterial("DK3D Anciano Cloak", new Color(0.025f, 0.026f, 0.024f));
+                DestroySafely(fallback.GetComponent<CapsuleCollider>());
             }
 
             Vector3 talkPosition = position + Vector3.up * 0.95f + npc.transform.forward * 0.55f;
@@ -209,13 +209,13 @@ namespace DungeonKnight.Level
             Collider[] modelColliders = visual.GetComponentsInChildren<Collider>(true);
             foreach (Collider modelCollider in modelColliders)
             {
-                Object.Destroy(modelCollider);
+                DestroySafely(modelCollider);
             }
 
             Renderer[] renderers = visual.GetComponentsInChildren<Renderer>(true);
             if (renderers.Length == 0)
             {
-                Object.Destroy(visual);
+                DestroySafely(visual);
                 return false;
             }
 
@@ -251,7 +251,7 @@ namespace DungeonKnight.Level
 
             foreach (Renderer renderer in visual.GetComponentsInChildren<Renderer>(true))
             {
-                renderer.material = robe;
+                renderer.sharedMaterial = robe;
             }
 
             Transform head = FindModelBone(visual.transform, "head");
@@ -294,8 +294,8 @@ namespace DungeonKnight.Level
             accent.transform.rotation = worldRotation;
             accent.transform.localScale = worldScale;
             accent.transform.SetParent(parent, true);
-            accent.GetComponent<Renderer>().material = material;
-            Object.Destroy(accent.GetComponent<Collider>());
+            accent.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(accent.GetComponent<Collider>());
         }
 
         private static void FitModelToHeightOnFloor(GameObject visual, Renderer[] renderers, float targetHeight, Vector3 floorPosition)
@@ -320,6 +320,14 @@ namespace DungeonKnight.Level
             }
 
             return bounds;
+        }
+
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying) Object.Destroy(target);
+            else Object.DestroyImmediate(target);
         }
     }
 }

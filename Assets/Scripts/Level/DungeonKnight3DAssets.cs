@@ -120,8 +120,9 @@ namespace DungeonKnight.Level
 
         public static void ApplyBoxTextureTiling(Renderer renderer, Vector3 scale)
         {
-            if (!renderer || !renderer.material || !renderer.material.mainTexture) return;
+            if (!renderer || !renderer.sharedMaterial || !renderer.sharedMaterial.mainTexture) return;
 
+            Material material = GetWritableMaterial(renderer);
             Vector2 tiling = new Vector2(
                 Mathf.Max(1f, Mathf.Max(Mathf.Abs(scale.x), Mathf.Abs(scale.z)) * 0.45f),
                 Mathf.Max(1f, Mathf.Abs(scale.y) * 0.65f)
@@ -132,7 +133,20 @@ namespace DungeonKnight.Level
                 tiling = new Vector2(Mathf.Max(1f, Mathf.Abs(scale.x) * 0.45f), Mathf.Max(1f, Mathf.Abs(scale.z) * 0.45f));
             }
 
-            renderer.material.mainTextureScale = tiling;
+            material.mainTextureScale = tiling;
+        }
+
+        private static Material GetWritableMaterial(Renderer renderer)
+        {
+            if (Application.isPlaying) return renderer.material;
+
+            Material source = renderer.sharedMaterial;
+            Material material = new Material(source)
+            {
+                name = source.name
+            };
+            renderer.sharedMaterial = material;
+            return material;
         }
 
         private static Material NewTexturedMaterial(string name, Color color, Texture2D texture)

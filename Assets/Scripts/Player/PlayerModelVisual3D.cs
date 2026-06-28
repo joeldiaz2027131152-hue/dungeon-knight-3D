@@ -475,16 +475,16 @@ namespace DungeonKnight.Player
             blade.transform.SetParent(root.transform, false);
             blade.transform.localPosition = new Vector3(0f, 0.46f, 0f);
             blade.transform.localScale = new Vector3(0.055f, 0.88f, 0.035f);
-            blade.GetComponent<Renderer>().material = swordMaterial;
-            Object.Destroy(blade.GetComponent<Collider>());
+            blade.GetComponent<Renderer>().sharedMaterial = swordMaterial;
+            DestroySafely(blade.GetComponent<Collider>());
 
             GameObject guard = GameObject.CreatePrimitive(PrimitiveType.Cube);
             guard.name = "Guard";
             guard.transform.SetParent(root.transform, false);
             guard.transform.localPosition = new Vector3(0f, 0.05f, 0f);
             guard.transform.localScale = new Vector3(0.36f, 0.06f, 0.055f);
-            guard.GetComponent<Renderer>().material = shieldTrimMaterial;
-            Object.Destroy(guard.GetComponent<Collider>());
+            guard.GetComponent<Renderer>().sharedMaterial = shieldTrimMaterial;
+            DestroySafely(guard.GetComponent<Collider>());
 
             GameObject grip = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             grip.name = "Grip";
@@ -492,8 +492,8 @@ namespace DungeonKnight.Player
             grip.transform.localPosition = new Vector3(0f, -0.09f, 0f);
             grip.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
             grip.transform.localScale = new Vector3(0.035f, 0.18f, 0.035f);
-            grip.GetComponent<Renderer>().material = shieldTrimMaterial;
-            Object.Destroy(grip.GetComponent<Collider>());
+            grip.GetComponent<Renderer>().sharedMaterial = shieldTrimMaterial;
+            DestroySafely(grip.GetComponent<Collider>());
         }
 
         private bool AttachEquipmentModel(Transform parent, string resourceName, string objectName, Vector3 offset, Vector3 rotation, float scale)
@@ -513,7 +513,7 @@ namespace DungeonKnight.Player
 
             foreach (Collider collider in instance.GetComponentsInChildren<Collider>())
             {
-                Destroy(collider);
+                DestroySafely(collider);
             }
 
             foreach (Renderer renderer in instance.GetComponentsInChildren<Renderer>())
@@ -540,16 +540,16 @@ namespace DungeonKnight.Player
             body.transform.localPosition = Vector3.zero;
             body.transform.localRotation = Quaternion.Euler(90f, 0f, 0f);
             body.transform.localScale = new Vector3(0.38f, 0.035f, 0.5f);
-            body.GetComponent<Renderer>().material = shieldMaterial;
-            Object.Destroy(body.GetComponent<Collider>());
+            body.GetComponent<Renderer>().sharedMaterial = shieldMaterial;
+            DestroySafely(body.GetComponent<Collider>());
 
             GameObject boss = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             boss.name = "Shield Boss";
             boss.transform.SetParent(root.transform, false);
             boss.transform.localPosition = new Vector3(0f, 0.04f, 0f);
             boss.transform.localScale = new Vector3(0.16f, 0.055f, 0.16f);
-            boss.GetComponent<Renderer>().material = shieldTrimMaterial;
-            Object.Destroy(boss.GetComponent<Collider>());
+            boss.GetComponent<Renderer>().sharedMaterial = shieldTrimMaterial;
+            DestroySafely(boss.GetComponent<Collider>());
         }
 
         private static Material NewMaterial(string name, Color color, float metallic)
@@ -595,5 +595,12 @@ namespace DungeonKnight.Player
             return clip != null;
         }
 
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying) Object.Destroy(target);
+            else Object.DestroyImmediate(target);
+        }
     }
 }

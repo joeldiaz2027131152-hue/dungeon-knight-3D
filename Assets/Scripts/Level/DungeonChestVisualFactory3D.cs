@@ -99,8 +99,8 @@ namespace DungeonKnight.Level
             box.transform.SetParent(parent, false);
             box.transform.localPosition = localPosition;
             box.transform.localScale = localScale;
-            box.GetComponent<Renderer>().material = material;
-            Object.Destroy(box.GetComponent<Collider>());
+            box.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(box.GetComponent<Collider>());
             return box;
         }
 
@@ -114,8 +114,8 @@ namespace DungeonKnight.Level
                 rivet.transform.SetParent(parent, false);
                 rivet.transform.localPosition = new Vector3(x, y, z);
                 rivet.transform.localScale = Vector3.one * 0.055f;
-                rivet.GetComponent<Renderer>().material = material;
-                Object.Destroy(rivet.GetComponent<Collider>());
+                rivet.GetComponent<Renderer>().sharedMaterial = material;
+                DestroySafely(rivet.GetComponent<Collider>());
             }
         }
 
@@ -212,7 +212,7 @@ namespace DungeonKnight.Level
             mesh.triangles = triangles;
             mesh.RecalculateNormals();
             lid.AddComponent<MeshFilter>().mesh = mesh;
-            lid.AddComponent<MeshRenderer>().material = material;
+            lid.AddComponent<MeshRenderer>().sharedMaterial = material;
         }
 
         private static void CreateCoinPile(Transform parent, Material material)
@@ -225,8 +225,8 @@ namespace DungeonKnight.Level
                 coin.transform.localPosition = new Vector3(-0.28f + (i % 4) * 0.18f, -0.02f + i * 0.006f, -0.12f + (i / 4) * 0.18f);
                 coin.transform.localRotation = Quaternion.Euler(90f, 0f, i * 11f);
                 coin.transform.localScale = new Vector3(0.075f, 0.012f, 0.075f);
-                coin.GetComponent<Renderer>().material = material;
-                Object.Destroy(coin.GetComponent<Collider>());
+                coin.GetComponent<Renderer>().sharedMaterial = material;
+                DestroySafely(coin.GetComponent<Collider>());
             }
         }
 
@@ -237,8 +237,8 @@ namespace DungeonKnight.Level
             soul.transform.SetParent(parent, false);
             soul.transform.localPosition = new Vector3(0f, 0.16f, -0.04f);
             soul.transform.localScale = Vector3.one * 0.12f;
-            soul.GetComponent<Renderer>().material = material;
-            Object.Destroy(soul.GetComponent<Collider>());
+            soul.GetComponent<Renderer>().sharedMaterial = material;
+            DestroySafely(soul.GetComponent<Collider>());
 
             GameObject wispA = CreateLocalBox(soul.transform, "Chest Soul Wisp A", new Vector3(-0.08f, 0.22f, 0f), new Vector3(0.025f, 0.2f, 0.025f), material);
             wispA.transform.localRotation = Quaternion.Euler(0f, 0f, -22f);
@@ -255,6 +255,14 @@ namespace DungeonKnight.Level
             material.name = name;
             material.color = color;
             return material;
+        }
+
+        private static void DestroySafely(Object target)
+        {
+            if (!target) return;
+
+            if (Application.isPlaying) Object.Destroy(target);
+            else Object.DestroyImmediate(target);
         }
     }
 }

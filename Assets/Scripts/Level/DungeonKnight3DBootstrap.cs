@@ -2437,7 +2437,7 @@ namespace DungeonKnight.Level
         {
             if (!renderer || !renderer.sharedMaterial || !renderer.sharedMaterial.mainTexture) return;
 
-            Material material = renderer.material;
+            Material material = GetWritableMaterial(renderer);
             string materialName = material.name.Replace(" (Instance)", string.Empty);
             bool isWallTexture = materialName == "DK3D Damp Moss Wall" || materialName == "DK3D Damp Vine Wall";
 
@@ -2457,6 +2457,19 @@ namespace DungeonKnight.Level
             }
 
             material.mainTextureScale = tiling;
+        }
+
+        private static Material GetWritableMaterial(Renderer renderer)
+        {
+            if (Application.isPlaying) return renderer.material;
+
+            Material source = renderer.sharedMaterial;
+            Material material = new Material(source)
+            {
+                name = source.name
+            };
+            renderer.sharedMaterial = material;
+            return material;
         }
 
         private void SetGeneratedParent(GameObject target)

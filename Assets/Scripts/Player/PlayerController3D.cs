@@ -547,7 +547,7 @@ namespace DungeonKnight.Player
 
             if (!best)
             {
-                foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude, FindObjectsSortMode.None))
+                foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Exclude))
                 {
                     ConsiderLockOnCandidate(enemy, referenceForward, ref best, ref bestScore);
                 }

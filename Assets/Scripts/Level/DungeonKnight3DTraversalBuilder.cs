@@ -40,7 +40,7 @@ namespace DungeonKnight.Level
         public void CreateFireTrap(string name, Vector3 position, Vector3 scale)
         {
             GameObject fire = CreateHazardBox(name, position, scale, 16, "Llamas del castillo.");
-            fire.GetComponent<Renderer>().material = assets.Ember;
+            fire.GetComponent<Renderer>().sharedMaterial = assets.Ember;
 
             Light light = fire.AddComponent<Light>();
             light.type = LightType.Point;
@@ -52,7 +52,7 @@ namespace DungeonKnight.Level
         public void CreateBladeTrap(string name, Vector3 position, Vector3 spin, Vector3 bob)
         {
             GameObject blade = CreateHazardBox(name, position, new Vector3(3.6f, 0.18f, 0.42f), 22, "Una cuchilla te alcanza.");
-            blade.GetComponent<Renderer>().material = assets.Hazard;
+            blade.GetComponent<Renderer>().sharedMaterial = assets.Hazard;
             blade.GetComponent<DungeonHazard3D>().Configure(22, "Una cuchilla te alcanza.", spin, bob, 2.1f);
         }
 

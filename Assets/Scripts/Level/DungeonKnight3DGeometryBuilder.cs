@@ -18,7 +18,7 @@ namespace DungeonKnight.Level
             box.transform.position = position;
             box.transform.localScale = scale;
             Renderer renderer = box.GetComponent<Renderer>();
-            renderer.material = material;
+            renderer.sharedMaterial = material;
             DungeonKnight3DAssets.ApplyBoxTextureTiling(renderer, scale);
             return box;
         }
@@ -29,7 +29,7 @@ namespace DungeonKnight.Level
             column.name = "Stone Column";
             column.transform.position = position;
             column.transform.localScale = new Vector3(0.55f, 1.7f, 0.55f);
-            column.GetComponent<Renderer>().material = assets.DarkStone;
+            column.GetComponent<Renderer>().sharedMaterial = assets.DarkStone;
         }
 
         public void CreateTorch(Vector3 position)
@@ -39,7 +39,7 @@ namespace DungeonKnight.Level
             flame.name = "Torch Flame";
             flame.transform.position = position + Vector3.up * 0.42f;
             flame.transform.localScale = new Vector3(0.35f, 0.45f, 0.35f);
-            flame.GetComponent<Renderer>().material = assets.Ember;
+            flame.GetComponent<Renderer>().sharedMaterial = assets.Ember;
 
             Light light = flame.AddComponent<Light>();
             light.type = LightType.Point;

@@ -18,7 +18,7 @@ namespace DungeonKnight.Level
                 renderer.enabled = true;
                 renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
                 renderer.receiveShadows = true;
-                renderer.material = NewSkeletonZoneMaterial(renderer);
+                renderer.sharedMaterial = NewSkeletonZoneMaterial(renderer);
 
                 if (renderer is SkinnedMeshRenderer skinnedMeshRenderer)
                 {
