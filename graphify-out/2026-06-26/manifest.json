@@ -1,0 +1,3262 @@
+{
+  "Assets/Art/HatchPetRuns/dungeon-knight/imagegen-jobs.json": {
+    "mtime": 1780869384.8671212,
+    "ast_hash": "e615b64c6b9dfb32e71d9d4a3adb3787",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/pet_request.json": {
+    "mtime": 1780868970.7838736,
+    "ast_hash": "d79339b4ec31aead748f63e277bc8b72",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_normalized_manifest.json": {
+    "mtime": 1781631004.8118198,
+    "ast_hash": "a87e135df9b3964858e87286c0eade06",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_manifest.json": {
+    "mtime": 1781630102.7187502,
+    "ast_hash": "17a6f745eeb43890397eb5c85f60e551",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_sprites_manifest.json": {
+    "mtime": 1781628881.2648997,
+    "ast_hash": "b0d555e62ca0420f6f8817f152b438bd",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_normalized_manifest.json": {
+    "mtime": 1781880664.9531424,
+    "ast_hash": "508ff9f2c4f666f43b53203e4a5e7756",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/dark_knight_player_manifest.json": {
+    "mtime": 1781880664.951077,
+    "ast_hash": "b623f2b0b34ebcce0740456014ae7414",
+    "semantic_hash": ""
+  },
+  "Assets/Editor/CodexUnitySkillsBootstrap.cs": {
+    "mtime": 1780876376.37635,
+    "ast_hash": "98863c31dc0501fb39adaf83701e7ec7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_normalized_manifest.json": {
+    "mtime": 1781631004.880262,
+    "ast_hash": "a87e135df9b3964858e87286c0eade06",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_manifest.json": {
+    "mtime": 1781630218.6464722,
+    "ast_hash": "17a6f745eeb43890397eb5c85f60e551",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_sprites_manifest.json": {
+    "mtime": 1781629551.0955539,
+    "ast_hash": "b0d555e62ca0420f6f8817f152b438bd",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_normalized_manifest.json": {
+    "mtime": 1781880664.95434,
+    "ast_hash": "508ff9f2c4f666f43b53203e4a5e7756",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/dark_knight_player_manifest.json": {
+    "mtime": 1781880664.952274,
+    "ast_hash": "b623f2b0b34ebcce0740456014ae7414",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Combat/Health.cs": {
+    "mtime": 1780776924.7875621,
+    "ast_hash": "79092289d464e5b8931ee03cea4d0941",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/CharacterSpriteFactory.cs": {
+    "mtime": 1782066216.0685914,
+    "ast_hash": "38f55ddde3b138ae3c8356ee4feafeda",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/CombatFeedback.cs": {
+    "mtime": 1780766409.2091074,
+    "ast_hash": "3a36f08fdde1612fba1dc5ed2842501b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/GameConstants.cs": {
+    "mtime": 1780714306.225191,
+    "ast_hash": "1df6880a6976223d3787fdb01ae5c7b8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/PixelSpriteFactory.cs": {
+    "mtime": 1782066208.1654878,
+    "ast_hash": "be1d5885f670a986e98df733026ebceb",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Core/RetroAudio.cs": {
+    "mtime": 1780793035.1232898,
+    "ast_hash": "2ba5856600351d5614a6612cc1ee1864",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/ArrowProjectile.cs": {
+    "mtime": 1780793034.896204,
+    "ast_hash": "4efe05590c57018344d0117381d738db",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/ChasingBatAI.cs": {
+    "mtime": 1780846527.6411138,
+    "ast_hash": "c28cb24846b93bc82c9901e5ce7673e7",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/DeathShard.cs": {
+    "mtime": 1780768411.2288342,
+    "ast_hash": "803d4b6d91b1e3b17c4c2a69f9cfc8f6",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/KeyGuardianBoss.cs": {
+    "mtime": 1780782235.3018205,
+    "ast_hash": "7b65380b610d3a7cc01a1247d1733f7a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/KeyGuardianVisual.cs": {
+    "mtime": 1780782260.1010904,
+    "ast_hash": "0d0efe149c8f382baac9e714e692702a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/SkeletonArcherAI.cs": {
+    "mtime": 1780866675.8286345,
+    "ast_hash": "b98f311b52350921a7f8ebf31ac711ac",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/SkeletonDeathEffect.cs": {
+    "mtime": 1780772812.9412296,
+    "ast_hash": "90c159d0987ef0c32bf33cdddb0b8f74",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Enemies/SkeletonMinionAI.cs": {
+    "mtime": 1780793034.767285,
+    "ast_hash": "bff249f6aa3a80f081666cb1b7354e5e",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/Bonfire.cs": {
+    "mtime": 1780777045.717039,
+    "ast_hash": "c6f2222faf1ffa0a807334dcf2a8237a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/BreakableCrate.cs": {
+    "mtime": 1780774076.2493272,
+    "ast_hash": "67eca4077f1c2c3b9a3bcd9e0866ffc4",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/ExitDoor.cs": {
+    "mtime": 1780860302.4682846,
+    "ast_hash": "f3f6fc8f4fecbdf4ae9acd84de777870",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/GateDoorVisual.cs": {
+    "mtime": 1780782307.102602,
+    "ast_hash": "ed9f432ca5996414c29a7acb0756aa49",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/GateLever.cs": {
+    "mtime": 1780799733.470801,
+    "ast_hash": "c27b82388c8613bf70bacc61bc1c746d",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/IInteractable.cs": {
+    "mtime": 1780709246.688893,
+    "ast_hash": "5de2a2e1f3f7f3acb928fdd7acea2ee8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/LoreTablet.cs": {
+    "mtime": 1780714315.3341641,
+    "ast_hash": "102d7f0e454a631a452bbce6a8cba277",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/SimpleGate.cs": {
+    "mtime": 1780800046.0605586,
+    "ast_hash": "b4f2538a1dfe3e497049ecf196988117",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/TowerAmbushLever.cs": {
+    "mtime": 1780862183.5680156,
+    "ast_hash": "bd4efeaf869f28c2d21cf73df9b29f92",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Interactables/TreasureChest.cs": {
+    "mtime": 1782059437.4654143,
+    "ast_hash": "e44411517441977de15cb1dba2ad4928",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/AnimatedWallTorch3D.cs": {
+    "mtime": 1782070627.3913968,
+    "ast_hash": "1d1cea86aadda33e18a78c86a1cb77b7",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/ArenaEncounter.cs": {
+    "mtime": 1780846574.462903,
+    "ast_hash": "a4fb81689e44e7b20c3fb8c71c65d9ee",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/BreakablePlatform.cs": {
+    "mtime": 1780846527.7591157,
+    "ast_hash": "ef6d63437d9e1b86d974d101f2bff561",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CameraFollow2D.cs": {
+    "mtime": 1780860584.198348,
+    "ast_hash": "c8ecd30af460987656351918fca145a2",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CameraFollow3D.cs": {
+    "mtime": 1782075670.9013584,
+    "ast_hash": "3c18d1c5a95f4797707295cd8acfcce2",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CeilingBladeHazard.cs": {
+    "mtime": 1780770928.5103922,
+    "ast_hash": "5980b00fa8bb68ead826d537cbb54857",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/CombatFeedback3D.cs": {
+    "mtime": 1781904476.2069077,
+    "ast_hash": "80944ed9f94fe4bebf58ccce3c838694",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DamageHazard.cs": {
+    "mtime": 1780716906.6005368,
+    "ast_hash": "be27a79ed2bbd18786dfc012ad16ba17",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DriftSprite.cs": {
+    "mtime": 1780717648.9211197,
+    "ast_hash": "728ebec588e7355bcd1db13fb3a27025",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DropThroughSurface.cs": {
+    "mtime": 1780859232.506234,
+    "ast_hash": "7f6cff901df01c5e5f8c5699f145fe16",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonChestVisual3D.cs": {
+    "mtime": 1782062808.8164248,
+    "ast_hash": "61d935422a23ab73ca6580b05fedc9c0",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonEnemy3D.cs": {
+    "mtime": 1782513846.5333939,
+    "ast_hash": "a78b7a2cfb2594aa86445130758d207d",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonHazard3D.cs": {
+    "mtime": 1781625770.9790933,
+    "ast_hash": "0c57a0cf4bdb1ff6940948e1e5704275",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonInteractable3D.cs": {
+    "mtime": 1782400818.8603196,
+    "ast_hash": "00a5919544dc7424c47056b8b102fd6c",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DBootstrap.cs": {
+    "mtime": 1782512599.5610685,
+    "ast_hash": "cfaec859bd459a8d0ab2013f0ff217cd",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonMiniBossArena3D.cs": {
+    "mtime": 1781906991.7956114,
+    "ast_hash": "a60a18eb9fa1a6597416acff170ee8ce",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonMovingPlatform3D.cs": {
+    "mtime": 1782408106.2480497,
+    "ast_hash": "20f76ca139a7325105cd7e05107cd65e",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonPickup3D.cs": {
+    "mtime": 1782513277.8841453,
+    "ast_hash": "908758d83098413b490b4d70e7e72028",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonShortcutElevator3D.cs": {
+    "mtime": 1781906653.2870536,
+    "ast_hash": "c398f403cd12caf19ec0de3f0de447cb",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonSoulRemnant3D.cs": {
+    "mtime": 1781906937.7498796,
+    "ast_hash": "658232719aa867a936dbd2118781301c",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonSpriteBillboard3D.cs": {
+    "mtime": 1781629176.178383,
+    "ast_hash": "54b536556e1af00cc9eb9a12967b4617",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/FlickerSprite.cs": {
+    "mtime": 1780715788.9859211,
+    "ast_hash": "1ed5bf3f0fa7ba9dba8bd689e0a3f3b8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/GameSession.cs": {
+    "mtime": 1780864123.6820195,
+    "ast_hash": "8841cf5d36db7917ab69c85bcef138d5",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/LightningFlash.cs": {
+    "mtime": 1780793111.8142881,
+    "ast_hash": "717029b256f9a22bd462e8d488e56711",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonEnemyVisual3D.cs": {
+    "mtime": 1782513415.5862672,
+    "ast_hash": "4bccfef82faa03f8e9537525a96250b9",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/SkeletonEnemyVisual3D.cs": {
+    "mtime": 1781630243.2717977,
+    "ast_hash": "da4985a4a061c68147e27363a97523fc",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/TimedFireTrap.cs": {
+    "mtime": 1780859865.1491225,
+    "ast_hash": "0690a6d63627af58ecdb2f249282484a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/WorldOneOneBootstrap.cs": {
+    "mtime": 1781623499.3511577,
+    "ast_hash": "c7db9e2a573eaf49b776e81a37b7e978",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/CoinDropper.cs": {
+    "mtime": 1780718043.1548116,
+    "ast_hash": "bc64cbdd3f331f11686731c3f7088113",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/CoinPickup.cs": {
+    "mtime": 1780718120.4754374,
+    "ast_hash": "7db2d6af59f890f27a3edfeece2fd4e3",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/KeyDropper.cs": {
+    "mtime": 1780767403.7226412,
+    "ast_hash": "a3dd80b069346e1ab6010c8d7aa23693",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/KeyPickup.cs": {
+    "mtime": 1780777024.6577847,
+    "ast_hash": "8fd48da5156b83c4633cfef7158fef5b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/KeyVisual.cs": {
+    "mtime": 1780777024.779786,
+    "ast_hash": "9e33e170f1fca81f355fe849c358f9d5",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/LootSpawner.cs": {
+    "mtime": 1780777078.1914294,
+    "ast_hash": "e9a9df384b6fb3a62c1a97d801ca5a12",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/ShieldDropper.cs": {
+    "mtime": 1780862162.9987836,
+    "ast_hash": "b5c95a7224d385fae15b43da1e06b977",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Loot/ShieldPickup.cs": {
+    "mtime": 1780865096.6614296,
+    "ast_hash": "610cbd91fd43d4085a7e40e4d5e3b947",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerController2D.cs": {
+    "mtime": 1780879574.3024764,
+    "ast_hash": "9fcf4c4f309040c5a8b1c22fc99e05fb",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerController3D.cs": {
+    "mtime": 1782401100.4880667,
+    "ast_hash": "f23e00dcf2fac66387cfc99e10428ef1",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerInteraction.cs": {
+    "mtime": 1780772654.2106595,
+    "ast_hash": "e833453b982b11894a6c13df00999e15",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerInventory.cs": {
+    "mtime": 1782073551.2004042,
+    "ast_hash": "1ee425c70258f8b7ff925b8230377198",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerModelVisual3D.cs": {
+    "mtime": 1782072970.3899653,
+    "ast_hash": "f9d00b077de9eb55505fbe81a1883fa8",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerVisual3D.cs": {
+    "mtime": 1781899362.4635255,
+    "ast_hash": "1a5aaaecb626fb0aa1ccb14f916ef4b6",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/DamagePopup.cs": {
+    "mtime": 1780715738.5232527,
+    "ast_hash": "675e5cafe5dc34170db1f70de1061f2d",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/EnemyHealthBar.cs": {
+    "mtime": 1780716365.3011067,
+    "ast_hash": "18af3d2d237349f7443707069951bf9a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/GameHud.cs": {
+    "mtime": 1780865123.701754,
+    "ast_hash": "3b8e78bc73538f7ddc4c8182b913221a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/GameHud3D.cs": {
+    "mtime": 1782078904.3041167,
+    "ast_hash": "6ee7ac83b12ecc4cd3ab27218a8ee817",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/HitBurst.cs": {
+    "mtime": 1780715794.0139802,
+    "ast_hash": "ad69a9db22ea814c3735581a5b1fee9b",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/InteractionFeedback.cs": {
+    "mtime": 1780793556.2107823,
+    "ast_hash": "7efad0b1b038f250bd329b8527b104d4",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/UI/SlashEffect.cs": {
+    "mtime": 1780776520.1851854,
+    "ast_hash": "9150a6577f8756578f8f57f844b3dde5",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Visuals/CharacterFrameAnimator.cs": {
+    "mtime": 1780878756.801579,
+    "ast_hash": "35eb2fde13f06589e52b20dd90b8a291",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Visuals/SquashStretchAnimator.cs": {
+    "mtime": 1780717205.5063388,
+    "ast_hash": "5cb9f6264786c207a46149778ff6786a",
+    "semantic_hash": ""
+  },
+  "Packages/manifest.json": {
+    "mtime": 1780876461.167271,
+    "ast_hash": "68bdd7057acbe8bbb981707eec9df90b",
+    "semantic_hash": ""
+  },
+  "Packages/packages-lock.json": {
+    "mtime": 1780875808.208179,
+    "ast_hash": "f317673cac628b9cdac95b9640487a6d",
+    "semantic_hash": ""
+  },
+  "ProjectSettings/Packages/com.unity.ai.assistant/Settings.json": {
+    "mtime": 1780748926.8052077,
+    "ast_hash": "49b041605e47ba44f2c817ebf4c6e422",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/base-pet.md": {
+    "mtime": 1780868970.7839491,
+    "ast_hash": "268819fd4a4edeec83289bf7ce3a422a",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/failed.md": {
+    "mtime": 1780868970.7844603,
+    "ast_hash": "2b65b12a8a9eec41b520f397ea64d313",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/idle.md": {
+    "mtime": 1780868970.784054,
+    "ast_hash": "b94319c5afb07b53ed08a4f549371399",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/jumping.md": {
+    "mtime": 1780868970.7843843,
+    "ast_hash": "95fc048d388ef74ad2b16f4910933f0d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/review.md": {
+    "mtime": 1780868970.7846937,
+    "ast_hash": "d13721e738452bd00903b99b2820e84a",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/running-left.md": {
+    "mtime": 1780868970.7842252,
+    "ast_hash": "f5013176af1fee4f1782746dd59c3a85",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/running-right.md": {
+    "mtime": 1780868970.7841396,
+    "ast_hash": "13e45e53db39e7208f7da5169c0ae810",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/running.md": {
+    "mtime": 1780868970.7846162,
+    "ast_hash": "7b32de7f204234703946c060da3c6d17",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/waiting.md": {
+    "mtime": 1780868970.7845387,
+    "ast_hash": "697e40f9e46ac30db4f2c87dc810eb81",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/row-retries/waving.md": {
+    "mtime": 1780868970.784304,
+    "ast_hash": "3fcd6cf8a733ac81042c57813cc1b9ac",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/failed.md": {
+    "mtime": 1780868970.7844236,
+    "ast_hash": "12e4f2b1e55ba78aae551c987c49f988",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/idle.md": {
+    "mtime": 1780868970.7840085,
+    "ast_hash": "3bf35b962fd3e383c3b9e8dba70b045c",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/jumping.md": {
+    "mtime": 1780868970.7843456,
+    "ast_hash": "a1c26ea8e0fee32daece45373b350ccb",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/review.md": {
+    "mtime": 1780868970.7846556,
+    "ast_hash": "d0038f28cbee4b03c05c2b81bb6c9d71",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/running-left.md": {
+    "mtime": 1780868970.7841845,
+    "ast_hash": "3b0aec652d004eed37d53ce9b56d2a19",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/running-right.md": {
+    "mtime": 1780868970.7840993,
+    "ast_hash": "4ce67f954ca51a9a1bfe48b89a63b6da",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/running.md": {
+    "mtime": 1780868970.7845776,
+    "ast_hash": "73d480eab897e970e7c304c895b06876",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/waiting.md": {
+    "mtime": 1780868970.7844994,
+    "ast_hash": "126700cdf8f8dbc9531069f319f22d5b",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/prompts/rows/waving.md": {
+    "mtime": 1780868970.7842653,
+    "ast_hash": "2973f2a8268d0b834bda9b7ba54d3135",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/3DModels/README.md": {
+    "mtime": 1781882509.543477,
+    "ast_hash": "2b339426b09bb78f7afac23947e22395",
+    "semantic_hash": ""
+  },
+  "Assets/Scenes/README.md": {
+    "mtime": 1781624113.476626,
+    "ast_hash": "2c0d484809adc6bd97ed0aecca9a59e2",
+    "semantic_hash": ""
+  },
+  "ProjectSettings/ProjectVersion.txt": {
+    "mtime": 1780713531.8302708,
+    "ast_hash": "21fa4be5a697d5e1ccf8b502d74af971",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1781629212.2132225,
+    "ast_hash": "34278e2d392c9ac92efbf33eb10752bc",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/cleanup_backup/idle_0_before_magenta_cleanup.png": {
+    "mtime": 1780880145.4878109,
+    "ast_hash": "fe01bd0588d06b47016c57c6fe8d4ae7",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/dungeon_knight_actions_contact.png": {
+    "mtime": 1780879487.516631,
+    "ast_hash": "ac45d84bb33ee44a656c0ca1e55245b8",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/dungeon_knight_actions_sheet.png": {
+    "mtime": 1780878603.8329058,
+    "ast_hash": "f125cf92cf92788adfd0873e88fc242b",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/decoded/base.png": {
+    "mtime": 1780869192.718105,
+    "ast_hash": "29ed5abaa1d8e28b0465edaf24105e74",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/decoded/idle.png": {
+    "mtime": 1780869373.115997,
+    "ast_hash": "9545c51b64d82c594329ff12eddea631",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/canonical-base.png": {
+    "mtime": 1780869218.7813768,
+    "ast_hash": "3ab2f4e2a6a1d8e9dd9e66037b959e99",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/failed.png": {
+    "mtime": 1780868970.774818,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/idle.png": {
+    "mtime": 1780868970.7628179,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/jumping.png": {
+    "mtime": 1780868970.771818,
+    "ast_hash": "4e372653fa408a58c5e2784f5f371f10",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/review.png": {
+    "mtime": 1780868970.781818,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/running-left.png": {
+    "mtime": 1780868970.768818,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/running-right.png": {
+    "mtime": 1780868970.7658179,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/running.png": {
+    "mtime": 1780868970.779818,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/waiting.png": {
+    "mtime": 1780868970.776818,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/layout-guides/waving.png": {
+    "mtime": 1780868970.7698178,
+    "ast_hash": "39bef3ffd0ad2fea93f43446899b1ffa",
+    "semantic_hash": ""
+  },
+  "Assets/Art/HatchPetRuns/dungeon-knight/references/reference-01.png": {
+    "mtime": 1780868507.0253348,
+    "ast_hash": "dd93ac0708e051b606fea772d47c7a50",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/Dungeon/dark_moss_stone_tiles.png": {
+    "mtime": 1781891954.6704903,
+    "ast_hash": "4407fced1b43ce1862beea4868eeaffb",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/3DModels/Player/DarkKnight/MixamoPrep/dark_knight_basecolor.png": {
+    "mtime": 1781882495.7974825,
+    "ast_hash": "da67a7dfc928a1581e59bed265f2cc9a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/3DModels/Player/DarkKnight/MixamoPrep/dark_knight_texture_1.png": {
+    "mtime": 1781882495.7974825,
+    "ast_hash": "3769d51f907d094f83347c73070d4ebf",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/3DModels/Player/DarkKnight/TposeMixamoPrep/dark_knight_tpose_basecolor.png": {
+    "mtime": 1781883899.1843035,
+    "ast_hash": "aa8e9e714a5df55551c5c809c095af7b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/3DModels/Player/DarkKnight/TposeMixamoPrep/dark_knight_tpose_texture_1.png": {
+    "mtime": 1781883899.1866937,
+    "ast_hash": "c4b184cd34a4624e8f0d07a797fa5667",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_back_slash_normalized.png": {
+    "mtime": 1781630913.2436178,
+    "ast_hash": "ea8562952e71c32b01e6a20e4cf879aa",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_front_left_slash_normalized.png": {
+    "mtime": 1781630913.3626194,
+    "ast_hash": "1d51de56106c81ad59de83c1c945c6c1",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_front_right_slash_normalized.png": {
+    "mtime": 1781630913.3976197,
+    "ast_hash": "709d514be42ffc8929fd8f688692bfed",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_front_slash_normalized.png": {
+    "mtime": 1781630913.2086172,
+    "ast_hash": "a6595f570a488a0d89152c6ad9f12594",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_left_slash_normalized.png": {
+    "mtime": 1781630913.3186188,
+    "ast_hash": "21ed54f3f3d7afa0d853707013e92c11",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_normalized_sheet.png": {
+    "mtime": 1781630913.9246266,
+    "ast_hash": "aa270f3031d3890caf5eebc216b4a017",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_right_slash_normalized.png": {
+    "mtime": 1781630913.2856183,
+    "ast_hash": "8b14d186a03a26ca6d2e8766c9bcd6c7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_idle_normalized.png": {
+    "mtime": 1781631004.8110666,
+    "ast_hash": "7f930a92b66ab5221e795f87bf5364fd",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_01_normalized.png": {
+    "mtime": 1781630913.42262,
+    "ast_hash": "4161027ff0b539622400c0614197f454",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_02_normalized.png": {
+    "mtime": 1781630913.4556205,
+    "ast_hash": "6523d5c38bbc26abf1d6289533d3f143",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_03_normalized.png": {
+    "mtime": 1781630913.487621,
+    "ast_hash": "fb034b9ebbc6a35369514ad544a25d05",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_04_normalized.png": {
+    "mtime": 1781630913.5146213,
+    "ast_hash": "7f203b86679fac63e2e962e3eebaff65",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_01_normalized.png": {
+    "mtime": 1781630913.5436218,
+    "ast_hash": "400d9a9ee648ad8a28d591353bb05a69",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_02_normalized.png": {
+    "mtime": 1781630913.569622,
+    "ast_hash": "95f995516436e0068b2bf88ae8031b54",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_03_normalized.png": {
+    "mtime": 1781630913.5947535,
+    "ast_hash": "6e58767ab0af486bde036bf2ab54456d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_04_normalized.png": {
+    "mtime": 1781630913.629216,
+    "ast_hash": "88a861bb51cd52858ed425325159d459",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_normalized_sheet.png": {
+    "mtime": 1781630914.3656325,
+    "ast_hash": "b5fe02afa93eb996ae899a7f3f4ef402",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_01_normalized.png": {
+    "mtime": 1781630913.6556232,
+    "ast_hash": "93cd26009b016a5381ec9454a963b27b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_02_normalized.png": {
+    "mtime": 1781630913.6806235,
+    "ast_hash": "b9d243d3e854ab3d19ced5f81a39b288",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_03_normalized.png": {
+    "mtime": 1781630913.7066238,
+    "ast_hash": "7bb213c77a254f94f25f56a0a5f8be9d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_04_normalized.png": {
+    "mtime": 1781630913.7306242,
+    "ast_hash": "d38c42b30ef49b6a78277a86741a42c4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_01.png": {
+    "mtime": 1781630102.5839355,
+    "ast_hash": "2f5f6fde7d38835ad1a2ad4c765575ce",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_02.png": {
+    "mtime": 1781630102.5959356,
+    "ast_hash": "7c6cabdfff77dfd113e08b91d82944f7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_03.png": {
+    "mtime": 1781630102.6099358,
+    "ast_hash": "b0f57f504ef987dab7aa731b5aebc4ea",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_04.png": {
+    "mtime": 1781630102.6249359,
+    "ast_hash": "775290ca66a50da0570ca04c374f4f31",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_01.png": {
+    "mtime": 1781630102.6369362,
+    "ast_hash": "9360b72314cb8287eb3dfa04ffe36b2d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_02.png": {
+    "mtime": 1781630102.6499362,
+    "ast_hash": "293c769afb125309c25abe1736edf45e",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_03.png": {
+    "mtime": 1781630102.6609364,
+    "ast_hash": "dc67351c8eef99e5da3ebea5b40706c2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_04.png": {
+    "mtime": 1781630102.6709366,
+    "ast_hash": "9677609e98d9417820849973b374fd52",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_01.png": {
+    "mtime": 1781630102.6829367,
+    "ast_hash": "72dd940c15acc82743c2b4b03eed548b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_02.png": {
+    "mtime": 1781630102.694937,
+    "ast_hash": "96a9715a21c187d3b59991e1094c25d6",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_03.png": {
+    "mtime": 1781630102.704937,
+    "ast_hash": "a1d2f10052bd618a4d0120d6f36c1966",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_04.png": {
+    "mtime": 1781630102.7178965,
+    "ast_hash": "3e3e688bebe23653ad16c7e7da902540",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_sheet.png": {
+    "mtime": 1781630015.145775,
+    "ast_hash": "6a901d43b15f9fb1752162ea2a21d5df",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_source_chroma.png": {
+    "mtime": 1781630013.2817502,
+    "ast_hash": "bb058740836095a220116389b5038f56",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_back_slash.png": {
+    "mtime": 1781628881.2633915,
+    "ast_hash": "0e77f9cb2acfda7aa6e467f70a5b0917",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_directions_sheet.png": {
+    "mtime": 1781628881.2633915,
+    "ast_hash": "8a31f58b828825406814e27c8a9fa33d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_front_left_slash.png": {
+    "mtime": 1781628881.2633915,
+    "ast_hash": "821563fbdc78a2c1c9ec22b7372f7bdf",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_front_right_slash.png": {
+    "mtime": 1781628881.2633915,
+    "ast_hash": "331414de9537735b602a85ce48e2b88d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_front_slash.png": {
+    "mtime": 1781628881.264765,
+    "ast_hash": "70881b6cd4224a4cee6a3bc4f881f8f6",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_left_slash.png": {
+    "mtime": 1781628881.264765,
+    "ast_hash": "a3dc3fe88f39ea3ad48f46ed5b018bfa",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_right_slash.png": {
+    "mtime": 1781628881.264765,
+    "ast_hash": "a28d81512dbddba69b26685ed96562c2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Enemies/SkeletonEnemy/skeleton_enemy_reference_cutout.png": {
+    "mtime": 1781628881.264765,
+    "ast_hash": "581f8dd73f1b4a8f61a9d6ed1d4e97d7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_back_slash.png": {
+    "mtime": 1781632778.4951143,
+    "ast_hash": "352610f6119d0570d8e756b252ecd677",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_front_left_slash.png": {
+    "mtime": 1781632779.7271307,
+    "ast_hash": "8eccb9065f47586771a2f363b3f68408",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_front_right_slash.png": {
+    "mtime": 1781632780.0901353,
+    "ast_hash": "f355e7176971daf2365df459fcd422c5",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_front_slash.png": {
+    "mtime": 1781632778.1381097,
+    "ast_hash": "e75c9c031b17619e761de3683f3c3fad",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_left_slash.png": {
+    "mtime": 1781632779.320125,
+    "ast_hash": "f17e7974960697fa917e203459889860",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_right_slash.png": {
+    "mtime": 1781632778.93212,
+    "ast_hash": "ba0ae3d11be3309f680261a3adeb3756",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_sheet.png": {
+    "mtime": 1781632468.8250537,
+    "ast_hash": "2a24540014604755451baaa69c7a98b9",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Attack/dark_knight_attack_source_chroma.png": {
+    "mtime": 1781631972.0755372,
+    "ast_hash": "565f9aa3d847f3ce148c941ddc256bd0",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_01.png": {
+    "mtime": 1781879845.4362652,
+    "ast_hash": "56882d770848001a2c785e3776986d41",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_02.png": {
+    "mtime": 1781879845.5892673,
+    "ast_hash": "389edeb82f1b291fee84399147503fa9",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_03.png": {
+    "mtime": 1781879845.7402692,
+    "ast_hash": "3b8735c157c20455b449179c31553d61",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_04.png": {
+    "mtime": 1781879845.9092712,
+    "ast_hash": "25d21e6d3b289c09541b7be949b718d7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_01.png": {
+    "mtime": 1781879844.6092546,
+    "ast_hash": "652e76f0a6d32f3c41ec58f3709a055a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_02.png": {
+    "mtime": 1781879844.8272574,
+    "ast_hash": "3913ec10e0cb7b2207fcf0fe8142d21c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_03.png": {
+    "mtime": 1781879845.0482602,
+    "ast_hash": "24ab2e8a1699b0c04b1472ee554cb631",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_04.png": {
+    "mtime": 1781879845.2862632,
+    "ast_hash": "75078ce078aa6d26537e12c3f35fe1f3",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_01.png": {
+    "mtime": 1781879846.0462732,
+    "ast_hash": "12484a3cce5c473fea0eecb4e2678c0c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_02.png": {
+    "mtime": 1781879846.2222755,
+    "ast_hash": "c163a8b80f0334bafdb2cf7ae5dfec13",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_03.png": {
+    "mtime": 1781879846.3952777,
+    "ast_hash": "b168c25c4aa3a67cb6ba07847337a3e3",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_04.png": {
+    "mtime": 1781879846.5462797,
+    "ast_hash": "92982df801d1ddc03331145462a03f50",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_01.png": {
+    "mtime": 1781879846.6792812,
+    "ast_hash": "4536add52760b8578797ad4ab05f1f5b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_02.png": {
+    "mtime": 1781879846.8392835,
+    "ast_hash": "de8420bfb1ca9903835754020ea43847",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_03.png": {
+    "mtime": 1781879847.0332859,
+    "ast_hash": "05388b416974122fd02547e0f0a52147",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_04.png": {
+    "mtime": 1781879847.1512876,
+    "ast_hash": "455d2a360cab50dd6921bab77839af2c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_sheet.png": {
+    "mtime": 1781879844.3222508,
+    "ast_hash": "ad8764f3eda0f41e506e966240a1114e",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_source_chroma.png": {
+    "mtime": 1781879426.7578351,
+    "ast_hash": "a6b2096d1b0edc3fbdc2a12c9ead3514",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_backmove_sheet.png": {
+    "mtime": 1781879840.4352005,
+    "ast_hash": "16f1b7af00cd3cf24baf4ef6507c7eba",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_backmove_source_chroma.png": {
+    "mtime": 1781879318.850436,
+    "ast_hash": "b313f09bdf3c3b8a09281ccf8ce784fb",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_01.png": {
+    "mtime": 1781879841.6842165,
+    "ast_hash": "4f7dbf883831cf7e72f2ce9188978d69",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_02.png": {
+    "mtime": 1781879841.871219,
+    "ast_hash": "f8f8a52b1cca25650c85df2429087f2b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_03.png": {
+    "mtime": 1781879842.096222,
+    "ast_hash": "2416e31a071e52bc419cfd72100f7c56",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_04.png": {
+    "mtime": 1781879842.3062246,
+    "ast_hash": "ff71b568f98c69b3f0185fe1e9fb7e8d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_01.png": {
+    "mtime": 1781879842.5422277,
+    "ast_hash": "7c3b03179c7bc938e335a38fd91aacc2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_02.png": {
+    "mtime": 1781879842.7532303,
+    "ast_hash": "8ca5a2366f291b7d1e99d54c60e05a78",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_03.png": {
+    "mtime": 1781879842.9462328,
+    "ast_hash": "59d2e4bbbabf9935dc17ac24efdc40db",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_04.png": {
+    "mtime": 1781879843.182236,
+    "ast_hash": "314e7607de3daee1bc6c277c02d66b6c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_01.png": {
+    "mtime": 1781879840.6962037,
+    "ast_hash": "17a087b02dca04b4fa4f535eb6606e43",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_02.png": {
+    "mtime": 1781879840.9322069,
+    "ast_hash": "8a71d34b84278f9d2f442746ceca98d6",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_03.png": {
+    "mtime": 1781879841.1682098,
+    "ast_hash": "26d6edbff2fcd098d8cc3cb96fa603e9",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_04.png": {
+    "mtime": 1781879841.488214,
+    "ast_hash": "9ee01dbfc03d0533204b7ec3bad3d1d1",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_back_block.png": {
+    "mtime": 1781632470.0720701,
+    "ast_hash": "c899a47ded77f5ebcc2ed38ed686f97e",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_front_block.png": {
+    "mtime": 1781632780.516141,
+    "ast_hash": "0c3c1b05d5a3705d85a3ed354db494a7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_front_left_block.png": {
+    "mtime": 1781632470.135071,
+    "ast_hash": "cc5ee14194a91ad6ee1959d76c22045c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_front_right_block.png": {
+    "mtime": 1781632782.520167,
+    "ast_hash": "d16c399199560c21577434c4a5b58efb",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_left_block.png": {
+    "mtime": 1781632781.7731574,
+    "ast_hash": "ddfc875e51f97a80d5dbedf6e4069c4d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_right_block.png": {
+    "mtime": 1781632470.0930705,
+    "ast_hash": "184fb254c1ba0e5ea416a08fd4bfabee",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_sheet.png": {
+    "mtime": 1781632470.0200694,
+    "ast_hash": "9013e9b15090884c64aeb5e43aeff2ce",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Block/dark_knight_block_source_chroma.png": {
+    "mtime": 1781632031.0013106,
+    "ast_hash": "81be3584721183cfc5cb969325c58307",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_01.png": {
+    "mtime": 1781636422.1397111,
+    "ast_hash": "5c5532626d771f681093378e8595cee4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_02.png": {
+    "mtime": 1781636422.4067144,
+    "ast_hash": "666b60e9599de9134002d9710bcbb6c0",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_03.png": {
+    "mtime": 1781636422.669718,
+    "ast_hash": "55a186cd41c90748a14016fc03056516",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_04.png": {
+    "mtime": 1781636422.9577217,
+    "ast_hash": "27639b144c644b5f84f193759027ec3d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_01.png": {
+    "mtime": 1781636423.2497253,
+    "ast_hash": "b9a05ef8889aabd2c6e209f3963ce3a1",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_02.png": {
+    "mtime": 1781636423.4847283,
+    "ast_hash": "5a49a866441a08ed701703d97b4e0aaa",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_03.png": {
+    "mtime": 1781636423.7317317,
+    "ast_hash": "f98e311827ce16bda42ffb653c994d80",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_04.png": {
+    "mtime": 1781636423.9697347,
+    "ast_hash": "9b59861b54d3f236d9dfdc1e031d85f7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_01.png": {
+    "mtime": 1781636424.2206364,
+    "ast_hash": "f835b3275e37b99ead6d3f0409ef58f0",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_02.png": {
+    "mtime": 1781636424.461741,
+    "ast_hash": "6b581a8e4f0fc76c86dd11fdf254e574",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_03.png": {
+    "mtime": 1781636424.7127442,
+    "ast_hash": "28e6e40c5aa0e77588042ef35fc2a0c1",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_04.png": {
+    "mtime": 1781636424.9127467,
+    "ast_hash": "f961986b25693c32e609b2673330d908",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_sheet.png": {
+    "mtime": 1781636421.8677075,
+    "ast_hash": "7a71577dc3b8da4f353b8e0f443c9384",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_source_chroma.png": {
+    "mtime": 1781636253.0905402,
+    "ast_hash": "f6880206e4bbcdb2691414e57215e3ae",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_back_slash_normalized.png": {
+    "mtime": 1781880018.1656566,
+    "ast_hash": "69c500702d66836f6d8f5e7654682cbd",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_front_left_slash_normalized.png": {
+    "mtime": 1781880018.4201512,
+    "ast_hash": "fa3b4a4a54fa5e3c918a33767b820e3a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_front_right_slash_normalized.png": {
+    "mtime": 1781880018.49651,
+    "ast_hash": "5d5b77ed3a8fd22d62f6ebfb3a844012",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_front_slash_normalized.png": {
+    "mtime": 1781880018.0885046,
+    "ast_hash": "82ddb329c95e500f75f63929a484e2f7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_left_slash_normalized.png": {
+    "mtime": 1781880018.3255076,
+    "ast_hash": "568d83cdd7a0c22f89b8da65c1341862",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_normalized_sheet.png": {
+    "mtime": 1781880023.6839912,
+    "ast_hash": "f6bb42bbc7a2698b7dab489bdb2ef7a2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attack_right_slash_normalized.png": {
+    "mtime": 1781880018.2435067,
+    "ast_hash": "8ada6cb2088b7f7c386e1ee778c997ab",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_01_normalized.png": {
+    "mtime": 1781880021.4465635,
+    "ast_hash": "57cb75e768cf8691125b02fd81f45448",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_02_normalized.png": {
+    "mtime": 1781880021.4921768,
+    "ast_hash": "56d7e8982a5e5705a16c949f56c1a066",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_03_normalized.png": {
+    "mtime": 1781880021.5519807,
+    "ast_hash": "3ab0d7c5e7408039599f3a97bf7ef83c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_04_normalized.png": {
+    "mtime": 1781880021.6046894,
+    "ast_hash": "71c13656f13b309c42ec86303846566a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_01_normalized.png": {
+    "mtime": 1781880021.2215385,
+    "ast_hash": "8266de5b8f98ec7551318f615e7d3298",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_02_normalized.png": {
+    "mtime": 1781880021.2783015,
+    "ast_hash": "01191ecdee4267c6f336a552915c7216",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_03_normalized.png": {
+    "mtime": 1781880021.3431737,
+    "ast_hash": "c749cc7aa189da3cde440b09f2509287",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_04_normalized.png": {
+    "mtime": 1781880021.4029777,
+    "ast_hash": "d6e384cd10b2b0bb6ae30d11557b259a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_01_normalized.png": {
+    "mtime": 1781880021.6543572,
+    "ast_hash": "ddcdbf80b3cb95ce99f763b0aa392d67",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_02_normalized.png": {
+    "mtime": 1781880021.7019975,
+    "ast_hash": "0fe9f2d7fcea5d0f3a9e5ad57b65ee7a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_03_normalized.png": {
+    "mtime": 1781880021.749638,
+    "ast_hash": "9a5f852d61855cb20b437b71acf2f1db",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_04_normalized.png": {
+    "mtime": 1781880021.7942376,
+    "ast_hash": "39357c27f5fabf0f289ec32d7024ce6e",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_normalized_sheet.png": {
+    "mtime": 1781880029.0942569,
+    "ast_hash": "b396e00f3fd1e3ea476e5697a6318656",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_01_normalized.png": {
+    "mtime": 1781880021.839851,
+    "ast_hash": "639779be39622ccf09a0dd3605f4d87a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_02_normalized.png": {
+    "mtime": 1781880021.888505,
+    "ast_hash": "25b6fb2015811859db4cd450b11d9929",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_03_normalized.png": {
+    "mtime": 1781880021.9391863,
+    "ast_hash": "d8a8132ee0938d9f24e384cea25848ce",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_04_normalized.png": {
+    "mtime": 1781880021.988854,
+    "ast_hash": "1709fbe58891e9aab186456263bfb62b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_back_block_normalized.png": {
+    "mtime": 1781880018.650512,
+    "ast_hash": "ad7d9ed3e7e0bbb559afdcfbea19c173",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_front_block_normalized.png": {
+    "mtime": 1781880018.574511,
+    "ast_hash": "2604366edf83cf0280ea0c2f479d4a89",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_front_left_block_normalized.png": {
+    "mtime": 1781880018.8665147,
+    "ast_hash": "bb064ce10a2b5046e34c02ffff9915ec",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_front_right_block_normalized.png": {
+    "mtime": 1781880018.9395156,
+    "ast_hash": "1da637eba79c5fd7c5a255a14f60efa7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_left_block_normalized.png": {
+    "mtime": 1781880018.7955139,
+    "ast_hash": "c4fe912902cbcea448c01b3ff572270c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_normalized_sheet.png": {
+    "mtime": 1781880024.3666673,
+    "ast_hash": "05125ecb87c175dc4230d88d5defc0a4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_block_right_block_normalized.png": {
+    "mtime": 1781880018.722513,
+    "ast_hash": "c8649a261c56892a2b8ee99dfc8c9f9a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_01_normalized.png": {
+    "mtime": 1781880020.7725394,
+    "ast_hash": "a903c3ef9a125138520bcb6a7675fc73",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_02_normalized.png": {
+    "mtime": 1781880020.8325403,
+    "ast_hash": "7e70a2b36fa3db229e065ac8636afbb1",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_03_normalized.png": {
+    "mtime": 1781880020.890541,
+    "ast_hash": "376c0871c093a11cd20c922605f5effc",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_04_normalized.png": {
+    "mtime": 1781880020.946551,
+    "ast_hash": "c06a524bee30f614ef4892f469d0be68",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_normalized_sheet.png": {
+    "mtime": 1781880027.432559,
+    "ast_hash": "40a184c291c7682481b76e1b288f7cbc",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_01_normalized.png": {
+    "mtime": 1781880019.818152,
+    "ast_hash": "12472d076d4fd1b2355594922f1c1642",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_02_normalized.png": {
+    "mtime": 1781880019.8763344,
+    "ast_hash": "7f6ded48662c6681d600ee5071f6c551",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_03_normalized.png": {
+    "mtime": 1781880019.9335287,
+    "ast_hash": "1b4e105b6b75587004d3e961a91b1444",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_04_normalized.png": {
+    "mtime": 1781880020.0085297,
+    "ast_hash": "2ab89dd9d1c502413e7490b79caedaa4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_01_normalized.png": {
+    "mtime": 1781880020.0675304,
+    "ast_hash": "6ff243cc57d300b91d654efc35215798",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_02_normalized.png": {
+    "mtime": 1781880020.128623,
+    "ast_hash": "88188279258040b6d3f838c8ea8166e8",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_03_normalized.png": {
+    "mtime": 1781880020.1928124,
+    "ast_hash": "b45ed2fec42c960328d095c659260510",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_04_normalized.png": {
+    "mtime": 1781880020.2491982,
+    "ast_hash": "1357ec7690ef01d527708e00dfa3395b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_normalized_sheet.png": {
+    "mtime": 1781880026.6905892,
+    "ast_hash": "6e46cd789169ddd6c4385e5af776c0bf",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_01_normalized.png": {
+    "mtime": 1781880020.3065333,
+    "ast_hash": "2b32352a574499d1b087149da8b015c0",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_02_normalized.png": {
+    "mtime": 1781880020.3660438,
+    "ast_hash": "a4c409ee948ccbb944e761a58b6747ba",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_03_normalized.png": {
+    "mtime": 1781880020.428535,
+    "ast_hash": "9e7d855999e7d658ca8007bedffaf6bf",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_04_normalized.png": {
+    "mtime": 1781880020.4825356,
+    "ast_hash": "eb0ed0b13c4dbe15ef4bd14a4a435078",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_idle_base_normalized.png": {
+    "mtime": 1781880017.3634953,
+    "ast_hash": "0756b8e20082270a167f382b87a59255",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_01_normalized.png": {
+    "mtime": 1781880021.0035903,
+    "ast_hash": "74e20b27ba1e2cf99ee329252e52211b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_02_normalized.png": {
+    "mtime": 1781880021.0553036,
+    "ast_hash": "447a5e59283090169cdab1428fb57b4c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_03_normalized.png": {
+    "mtime": 1781880021.1100395,
+    "ast_hash": "11510f53c2423123fcc3d83f2fb8a0c9",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_04_normalized.png": {
+    "mtime": 1781880021.1718707,
+    "ast_hash": "094da0e9cc30fddb07512273e9746bbb",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_normalized_sheet.png": {
+    "mtime": 1781880027.7596362,
+    "ast_hash": "132e2423e7eb7bdb795f218073a891d7",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_01_normalized.png": {
+    "mtime": 1781880018.9975164,
+    "ast_hash": "cb6d6745314cb5cb3ea2e192022f6dfd",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_02_normalized.png": {
+    "mtime": 1781880019.0621464,
+    "ast_hash": "639674055ec6f078dd2267ae2b139165",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_03_normalized.png": {
+    "mtime": 1781880019.1325183,
+    "ast_hash": "445ffa4c47e4c1afa94adff326ee953f",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_04_normalized.png": {
+    "mtime": 1781880019.2269206,
+    "ast_hash": "616fb9fe4f30aee94a0792f054eea4ee",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_01_normalized.png": {
+    "mtime": 1781880019.306681,
+    "ast_hash": "b3e2dda8521c8a4192f5007e5a24c395",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_02_normalized.png": {
+    "mtime": 1781880019.3868299,
+    "ast_hash": "99c1ab070f8e7df102440b3bebb06211",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_03_normalized.png": {
+    "mtime": 1781880019.4675226,
+    "ast_hash": "e2b3ec4670cdbba6e37ec653f24da2ff",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_04_normalized.png": {
+    "mtime": 1781880019.5245233,
+    "ast_hash": "398d6244d53cdf52f3fd030872aa3498",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_normalized_sheet.png": {
+    "mtime": 1781880025.5419054,
+    "ast_hash": "f2f816c2531a4e17cbbfb22cabf6ce48",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_01_normalized.png": {
+    "mtime": 1781880019.588524,
+    "ast_hash": "345822d3c01bd6c92fe96ec611194632",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_02_normalized.png": {
+    "mtime": 1781880019.6471035,
+    "ast_hash": "16b24c5d994877a893e871f9bdf2b8da",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_03_normalized.png": {
+    "mtime": 1781880019.6985254,
+    "ast_hash": "bf34671cd067e333cd8941c289497540",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_04_normalized.png": {
+    "mtime": 1781880019.7565262,
+    "ast_hash": "ee0eacd5d43c0acf02c56296b9a6008a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_01_normalized.png": {
+    "mtime": 1781880020.5395365,
+    "ast_hash": "db10020cc079cdc9d5f6372f589b61af",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_02_normalized.png": {
+    "mtime": 1781880020.6075373,
+    "ast_hash": "def4599409e8a9e135b443cf2f15418c",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_03_normalized.png": {
+    "mtime": 1781880020.660538,
+    "ast_hash": "833311f0aab42ba5c035a23fd2730ba2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_04_normalized.png": {
+    "mtime": 1781880020.7195387,
+    "ast_hash": "7d24deb871eb8bed210c3df210be3406",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_normalized_sheet.png": {
+    "mtime": 1781880027.067239,
+    "ast_hash": "a056b78094de9c3857add327de25c499",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_01_normalized.png": {
+    "mtime": 1781880017.4291744,
+    "ast_hash": "719af605b9b17b86d365efff43246c20",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_02_normalized.png": {
+    "mtime": 1781880017.493497,
+    "ast_hash": "a0a7b397707267dbecc863a454f2896d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_03_normalized.png": {
+    "mtime": 1781880017.5557396,
+    "ast_hash": "64fe67ec7f5b813d24ac61faaf839b88",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_04_normalized.png": {
+    "mtime": 1781880017.6084983,
+    "ast_hash": "7a779e61aa0446b40e3b0cd46c3cf45a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_01_normalized.png": {
+    "mtime": 1781880017.6594992,
+    "ast_hash": "acb11defaf36161181652d51cc636f63",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_02_normalized.png": {
+    "mtime": 1781880017.7064996,
+    "ast_hash": "3c074b28b7cc8003118cd63f27a5e91f",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_03_normalized.png": {
+    "mtime": 1781880017.7545004,
+    "ast_hash": "7648268f98cd6aef49f78609683bde2d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_04_normalized.png": {
+    "mtime": 1781880017.804501,
+    "ast_hash": "47d18c2832e7d4cec8740b4def299ef6",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_normalized_sheet.png": {
+    "mtime": 1781880022.9927626,
+    "ast_hash": "bd5350e0f0a89b511db2f85268318bba",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_01_normalized.png": {
+    "mtime": 1781880017.8545017,
+    "ast_hash": "8d3439bca53cd1f8f963572240e3e350",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_02_normalized.png": {
+    "mtime": 1781880017.9055023,
+    "ast_hash": "cc02a1345bb2494471298cd2b2f5fab1",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_03_normalized.png": {
+    "mtime": 1781880017.9575028,
+    "ast_hash": "9124f675654f70d28806cfbe3c8849bc",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_04_normalized.png": {
+    "mtime": 1781880018.0115037,
+    "ast_hash": "856732716b4225878e2e0899162b2401",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_01.png": {
+    "mtime": 1781632782.7231698,
+    "ast_hash": "d404dbfd7e8d8905fd42600a549d91eb",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_02.png": {
+    "mtime": 1781632782.884172,
+    "ast_hash": "c6db8778cdcc38ed0f44eb6bc644af3a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_03.png": {
+    "mtime": 1781632471.202085,
+    "ast_hash": "6d58e49d36b066804e865e69f325d97b",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_04.png": {
+    "mtime": 1781632783.2301764,
+    "ast_hash": "7af2ab16a2acaf0da17d6a908aa3619f",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_01.png": {
+    "mtime": 1781632783.3871787,
+    "ast_hash": "052f38bae35daf04a391eb39db668666",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_02.png": {
+    "mtime": 1781632471.2310853,
+    "ast_hash": "8b85597bd06124683d31f2bb0d830f28",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_03.png": {
+    "mtime": 1781632471.2390854,
+    "ast_hash": "0204ada8e78415d1172c03c8bea61623",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_04.png": {
+    "mtime": 1781632471.2490857,
+    "ast_hash": "a1b2e81e7c886d5c016dcf1e8728e8f5",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_01.png": {
+    "mtime": 1781632783.9831862,
+    "ast_hash": "0bd4f237f345b3a103037481e49e0cd2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_02.png": {
+    "mtime": 1781632471.274086,
+    "ast_hash": "5734726f5ac989dffd83b8821094330f",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_03.png": {
+    "mtime": 1781632471.282086,
+    "ast_hash": "04e565c3d3196a9d9552757468a9f8f2",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_04.png": {
+    "mtime": 1781632471.2950861,
+    "ast_hash": "85d0c1f43efcbcac5d4668f8048ceeba",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_sheet.png": {
+    "mtime": 1781632471.1630845,
+    "ast_hash": "d42cea8195f88678fe48d1f6fbb1010d",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Roll/dark_knight_roll_source_chroma.png": {
+    "mtime": 1781632097.1931791,
+    "ast_hash": "52058743e9ce48d5d181fab4c1c182c4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_01.png": {
+    "mtime": 1781632775.326073,
+    "ast_hash": "afa8c31528e0b10425757e5bd4b495cd",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_02.png": {
+    "mtime": 1781632775.5360756,
+    "ast_hash": "dae1ea438b3c1c4ac187c7d48eaacdb4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_03.png": {
+    "mtime": 1781632775.7370782,
+    "ast_hash": "66390f762087e57d1de9324590616242",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_04.png": {
+    "mtime": 1781632775.940081,
+    "ast_hash": "c7f60b8fa98b698756d3f4e11f607038",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_01.png": {
+    "mtime": 1781632776.1370835,
+    "ast_hash": "975c7fa0266d2060ade58b3dacc3f853",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_02.png": {
+    "mtime": 1781878413.1757007,
+    "ast_hash": "300e56e1b5aa50414807419ff24809c4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_03.png": {
+    "mtime": 1781878413.4947047,
+    "ast_hash": "79423350506188b2f0251c3de674a932",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_04.png": {
+    "mtime": 1781632776.8210924,
+    "ast_hash": "3d039ae9e5d98bcfaa4585785d430784",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_01.png": {
+    "mtime": 1781632777.0700958,
+    "ast_hash": "231d5830a5ce7ebaf38ea6ffc465a1c8",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_02.png": {
+    "mtime": 1781878413.730708,
+    "ast_hash": "2ae9968039cd485cead45d7cda83a4ca",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_03.png": {
+    "mtime": 1781878414.0647123,
+    "ast_hash": "3861063b36ab4470bed6d5059bc7b7a3",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_04.png": {
+    "mtime": 1781632777.7101042,
+    "ast_hash": "e4087a5b4b894c7ccce8fbe0dca40d50",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_sheet.png": {
+    "mtime": 1781632467.557037,
+    "ast_hash": "49e7fd7ea933e8f636c0002f4b8ae6f4",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/Walk/dark_knight_walk_source_chroma.png": {
+    "mtime": 1781631909.0747104,
+    "ast_hash": "247865ef6198c712ee36075f09686859",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/DarkKnight/dark_knight_idle_cutout.png": {
+    "mtime": 1781632994.6689515,
+    "ast_hash": "3445f70a19d17ea499fddc3e5186d766",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/Models/DarkKnight3D/MixamoPrep/dark_knight_basecolor.png": {
+    "mtime": 1781882219.1225219,
+    "ast_hash": "da67a7dfc928a1581e59bed265f2cc9a",
+    "semantic_hash": ""
+  },
+  "Assets/Characters/Player/Models/DarkKnight3D/MixamoPrep/dark_knight_texture_1.png": {
+    "mtime": 1781882219.1246204,
+    "ast_hash": "3769d51f907d094f83347c73070d4ebf",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Art/Textures/Dungeon/dark_moss_stone_tiles.png": {
+    "mtime": 1781891954.6664903,
+    "ast_hash": "4407fced1b43ce1862beea4868eeaffb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_0.png": {
+    "mtime": 1780880164.154981,
+    "ast_hash": "7064b5f5fc2f12c053e0c760ff355bed",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_1.png": {
+    "mtime": 1780880164.6799858,
+    "ast_hash": "8e9ccf4b87ed7add5bae62686dbf7a61",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_2.png": {
+    "mtime": 1780880165.2509909,
+    "ast_hash": "4df25d48c5ebf1c9d40182307290d383",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/attack_3.png": {
+    "mtime": 1780880165.827996,
+    "ast_hash": "4ef9c00ebd3a45034dc07cfc99119681",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_0.png": {
+    "mtime": 1780880166.361001,
+    "ast_hash": "68b4da065096617c13a6d6b53384cb98",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_1.png": {
+    "mtime": 1780880166.9770067,
+    "ast_hash": "2cd1f4a6cc698fee1f1462b473b6336b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_2.png": {
+    "mtime": 1780880167.4840112,
+    "ast_hash": "167d5a645d62a9a4737749284af8bc41",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/block_3.png": {
+    "mtime": 1780880168.2180178,
+    "ast_hash": "55cc6e16734650056bd6d9a39a45907a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_0.png": {
+    "mtime": 1780880168.7020223,
+    "ast_hash": "71c90694e9cbd182c46fb7f3ae2b3d0d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_1.png": {
+    "mtime": 1780880169.224027,
+    "ast_hash": "5c26d04083339859621b16926588f329",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_2.png": {
+    "mtime": 1780880169.778032,
+    "ast_hash": "865ab9a4ace2323733aaa23ca9aa830a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/crouch_3.png": {
+    "mtime": 1780880170.232036,
+    "ast_hash": "84a48a8314390d10c081e7c4bdc5e177",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_0.png": {
+    "mtime": 1780880170.8190415,
+    "ast_hash": "a37bdd87248462d9db708ce081e5d6eb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_1.png": {
+    "mtime": 1780880171.297046,
+    "ast_hash": "561414235d8ba19599b479406ba83c25",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_2.png": {
+    "mtime": 1780880172.0180523,
+    "ast_hash": "a0d43b3e405d346f7d42bb85ed920087",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/Actions/roll_3.png": {
+    "mtime": 1780880172.6580582,
+    "ast_hash": "7fb892595fdf8429cbf1dab97d4d56a7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_0.png": {
+    "mtime": 1780880199.7013042,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_1.png": {
+    "mtime": 1780880200.4273107,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_2.png": {
+    "mtime": 1780880201.0473163,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_3.png": {
+    "mtime": 1780880201.7363226,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_4.png": {
+    "mtime": 1780880202.3823285,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/DungeonKnight/idle_5.png": {
+    "mtime": 1780880203.0253344,
+    "ast_hash": "5f9392ee188e327b85b9ddd39ea817c6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_back_slash_normalized.png": {
+    "mtime": 1781631004.8778207,
+    "ast_hash": "ea8562952e71c32b01e6a20e4cf879aa",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_front_left_slash_normalized.png": {
+    "mtime": 1781631004.8778207,
+    "ast_hash": "1d51de56106c81ad59de83c1c945c6c1",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_front_right_slash_normalized.png": {
+    "mtime": 1781631004.8792303,
+    "ast_hash": "709d514be42ffc8929fd8f688692bfed",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_front_slash_normalized.png": {
+    "mtime": 1781631004.8792303,
+    "ast_hash": "a6595f570a488a0d89152c6ad9f12594",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_left_slash_normalized.png": {
+    "mtime": 1781631004.8792303,
+    "ast_hash": "21ed54f3f3d7afa0d853707013e92c11",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_normalized_sheet.png": {
+    "mtime": 1781631004.8792303,
+    "ast_hash": "aa270f3031d3890caf5eebc216b4a017",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_attack_right_slash_normalized.png": {
+    "mtime": 1781631004.8792303,
+    "ast_hash": "8b14d186a03a26ca6d2e8766c9bcd6c7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_idle_normalized.png": {
+    "mtime": 1781631004.8800628,
+    "ast_hash": "7f930a92b66ab5221e795f87bf5364fd",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_01_normalized.png": {
+    "mtime": 1781631004.8803537,
+    "ast_hash": "4161027ff0b539622400c0614197f454",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_02_normalized.png": {
+    "mtime": 1781631004.8803537,
+    "ast_hash": "6523d5c38bbc26abf1d6289533d3f143",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_03_normalized.png": {
+    "mtime": 1781631004.8803537,
+    "ast_hash": "fb034b9ebbc6a35369514ad544a25d05",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_front_04_normalized.png": {
+    "mtime": 1781631004.88055,
+    "ast_hash": "7f203b86679fac63e2e962e3eebaff65",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_01_normalized.png": {
+    "mtime": 1781631004.88055,
+    "ast_hash": "400d9a9ee648ad8a28d591353bb05a69",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_02_normalized.png": {
+    "mtime": 1781631004.8806794,
+    "ast_hash": "95f995516436e0068b2bf88ae8031b54",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_03_normalized.png": {
+    "mtime": 1781631004.880743,
+    "ast_hash": "6e58767ab0af486bde036bf2ab54456d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_left_04_normalized.png": {
+    "mtime": 1781631004.8808074,
+    "ast_hash": "88a861bb51cd52858ed425325159d459",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_normalized_sheet.png": {
+    "mtime": 1781631004.8808734,
+    "ast_hash": "b5fe02afa93eb996ae899a7f3f4ef402",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_01_normalized.png": {
+    "mtime": 1781631004.8808734,
+    "ast_hash": "93cd26009b016a5381ec9454a963b27b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_02_normalized.png": {
+    "mtime": 1781631004.8810005,
+    "ast_hash": "b9d243d3e854ab3d19ced5f81a39b288",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_03_normalized.png": {
+    "mtime": 1781631004.8810005,
+    "ast_hash": "7bb213c77a254f94f25f56a0a5f8be9d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Normalized/skeleton_enemy_walk_right_04_normalized.png": {
+    "mtime": 1781631004.8810005,
+    "ast_hash": "d38c42b30ef49b6a78277a86741a42c4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_01.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "2f5f6fde7d38835ad1a2ad4c765575ce",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_02.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "7c6cabdfff77dfd113e08b91d82944f7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_03.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "b0f57f504ef987dab7aa731b5aebc4ea",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_front_04.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "775290ca66a50da0570ca04c374f4f31",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_01.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "9360b72314cb8287eb3dfa04ffe36b2d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_02.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "293c769afb125309c25abe1736edf45e",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_03.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "dc67351c8eef99e5da3ebea5b40706c2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_left_04.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "9677609e98d9417820849973b374fd52",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_01.png": {
+    "mtime": 1781630218.642472,
+    "ast_hash": "72dd940c15acc82743c2b4b03eed548b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_02.png": {
+    "mtime": 1781630218.6438792,
+    "ast_hash": "96a9715a21c187d3b59991e1094c25d6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_03.png": {
+    "mtime": 1781630218.6438792,
+    "ast_hash": "a1d2f10052bd618a4d0120d6f36c1966",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_right_04.png": {
+    "mtime": 1781630218.6438792,
+    "ast_hash": "3e3e688bebe23653ad16c7e7da902540",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_sheet.png": {
+    "mtime": 1781630218.6438792,
+    "ast_hash": "6a901d43b15f9fb1752162ea2a21d5df",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/Walk/skeleton_enemy_walk_source_chroma.png": {
+    "mtime": 1781630218.6438792,
+    "ast_hash": "bb058740836095a220116389b5038f56",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_back_slash.png": {
+    "mtime": 1781629551.0905538,
+    "ast_hash": "0e77f9cb2acfda7aa6e467f70a5b0917",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_front_left_slash.png": {
+    "mtime": 1781629551.0915537,
+    "ast_hash": "821563fbdc78a2c1c9ec22b7372f7bdf",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_front_right_slash.png": {
+    "mtime": 1781629551.0915537,
+    "ast_hash": "331414de9537735b602a85ce48e2b88d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_front_slash.png": {
+    "mtime": 1781629551.0915537,
+    "ast_hash": "70881b6cd4224a4cee6a3bc4f881f8f6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_left_slash.png": {
+    "mtime": 1781629551.0915537,
+    "ast_hash": "a3dc3fe88f39ea3ad48f46ed5b018bfa",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_attack_right_slash.png": {
+    "mtime": 1781629551.092552,
+    "ast_hash": "a28d81512dbddba69b26685ed96562c2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Enemies/SkeletonEnemy/skeleton_enemy_reference_cutout.png": {
+    "mtime": 1781629134.8445568,
+    "ast_hash": "581f8dd73f1b4a8f61a9d6ed1d4e97d7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_back_slash.png": {
+    "mtime": 1781632778.4951143,
+    "ast_hash": "352610f6119d0570d8e756b252ecd677",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_front_left_slash.png": {
+    "mtime": 1781632779.7271307,
+    "ast_hash": "8eccb9065f47586771a2f363b3f68408",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_front_right_slash.png": {
+    "mtime": 1781632780.0901353,
+    "ast_hash": "f355e7176971daf2365df459fcd422c5",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_front_slash.png": {
+    "mtime": 1781632778.1381097,
+    "ast_hash": "e75c9c031b17619e761de3683f3c3fad",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_left_slash.png": {
+    "mtime": 1781632779.320125,
+    "ast_hash": "f17e7974960697fa917e203459889860",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_right_slash.png": {
+    "mtime": 1781632778.93212,
+    "ast_hash": "ba0ae3d11be3309f680261a3adeb3756",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_sheet.png": {
+    "mtime": 1781632468.8250537,
+    "ast_hash": "2a24540014604755451baaa69c7a98b9",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Attack/dark_knight_attack_source_chroma.png": {
+    "mtime": 1781631972.0755372,
+    "ast_hash": "565f9aa3d847f3ce148c941ddc256bd0",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_01.png": {
+    "mtime": 1781879845.4362652,
+    "ast_hash": "56882d770848001a2c785e3776986d41",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_02.png": {
+    "mtime": 1781879845.5892673,
+    "ast_hash": "389edeb82f1b291fee84399147503fa9",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_03.png": {
+    "mtime": 1781879845.7402692,
+    "ast_hash": "3b8735c157c20455b449179c31553d61",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_back_04.png": {
+    "mtime": 1781879845.9092712,
+    "ast_hash": "25d21e6d3b289c09541b7be949b718d7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_01.png": {
+    "mtime": 1781879844.6092546,
+    "ast_hash": "652e76f0a6d32f3c41ec58f3709a055a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_02.png": {
+    "mtime": 1781879844.8272574,
+    "ast_hash": "3913ec10e0cb7b2207fcf0fe8142d21c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_03.png": {
+    "mtime": 1781879845.0482602,
+    "ast_hash": "24ab2e8a1699b0c04b1472ee554cb631",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_front_04.png": {
+    "mtime": 1781879845.2862632,
+    "ast_hash": "75078ce078aa6d26537e12c3f35fe1f3",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_01.png": {
+    "mtime": 1781879846.0462732,
+    "ast_hash": "12484a3cce5c473fea0eecb4e2678c0c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_02.png": {
+    "mtime": 1781879846.2222755,
+    "ast_hash": "c163a8b80f0334bafdb2cf7ae5dfec13",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_03.png": {
+    "mtime": 1781879846.3952777,
+    "ast_hash": "b168c25c4aa3a67cb6ba07847337a3e3",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_left_04.png": {
+    "mtime": 1781879846.5462797,
+    "ast_hash": "92982df801d1ddc03331145462a03f50",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_01.png": {
+    "mtime": 1781879846.6792812,
+    "ast_hash": "4536add52760b8578797ad4ab05f1f5b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_02.png": {
+    "mtime": 1781879846.8392835,
+    "ast_hash": "de8420bfb1ca9903835754020ea43847",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_03.png": {
+    "mtime": 1781879847.0332859,
+    "ast_hash": "05388b416974122fd02547e0f0a52147",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_right_04.png": {
+    "mtime": 1781879847.1512876,
+    "ast_hash": "455d2a360cab50dd6921bab77839af2c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_sheet.png": {
+    "mtime": 1781879844.3222508,
+    "ast_hash": "ad8764f3eda0f41e506e966240a1114e",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/AttackAnim/dark_knight_attackanim_source_chroma.png": {
+    "mtime": 1781879426.7578351,
+    "ast_hash": "a6b2096d1b0edc3fbdc2a12c9ead3514",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_backmove_sheet.png": {
+    "mtime": 1781879840.4352005,
+    "ast_hash": "16f1b7af00cd3cf24baf4ef6507c7eba",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_backmove_source_chroma.png": {
+    "mtime": 1781879318.850436,
+    "ast_hash": "b313f09bdf3c3b8a09281ccf8ce784fb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_01.png": {
+    "mtime": 1781879841.6842165,
+    "ast_hash": "4f7dbf883831cf7e72f2ce9188978d69",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_02.png": {
+    "mtime": 1781879841.871219,
+    "ast_hash": "f8f8a52b1cca25650c85df2429087f2b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_03.png": {
+    "mtime": 1781879842.096222,
+    "ast_hash": "2416e31a071e52bc419cfd72100f7c56",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_blockwalk_back_04.png": {
+    "mtime": 1781879842.3062246,
+    "ast_hash": "ff71b568f98c69b3f0185fe1e9fb7e8d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_01.png": {
+    "mtime": 1781879842.5422277,
+    "ast_hash": "7c3b03179c7bc938e335a38fd91aacc2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_02.png": {
+    "mtime": 1781879842.7532303,
+    "ast_hash": "8ca5a2366f291b7d1e99d54c60e05a78",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_03.png": {
+    "mtime": 1781879842.9462328,
+    "ast_hash": "59d2e4bbbabf9935dc17ac24efdc40db",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_roll_back_04.png": {
+    "mtime": 1781879843.182236,
+    "ast_hash": "314e7607de3daee1bc6c277c02d66b6c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_01.png": {
+    "mtime": 1781879840.6962037,
+    "ast_hash": "17a087b02dca04b4fa4f535eb6606e43",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_02.png": {
+    "mtime": 1781879840.9322069,
+    "ast_hash": "8a71d34b84278f9d2f442746ceca98d6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_03.png": {
+    "mtime": 1781879841.1682098,
+    "ast_hash": "26d6edbff2fcd098d8cc3cb96fa603e9",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BackMove/dark_knight_walk_back_04.png": {
+    "mtime": 1781879841.488214,
+    "ast_hash": "9ee01dbfc03d0533204b7ec3bad3d1d1",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_back_block.png": {
+    "mtime": 1781632470.0720701,
+    "ast_hash": "c899a47ded77f5ebcc2ed38ed686f97e",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_front_block.png": {
+    "mtime": 1781632780.516141,
+    "ast_hash": "0c3c1b05d5a3705d85a3ed354db494a7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_front_left_block.png": {
+    "mtime": 1781632470.135071,
+    "ast_hash": "cc5ee14194a91ad6ee1959d76c22045c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_front_right_block.png": {
+    "mtime": 1781632782.520167,
+    "ast_hash": "d16c399199560c21577434c4a5b58efb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_left_block.png": {
+    "mtime": 1781632781.7731574,
+    "ast_hash": "ddfc875e51f97a80d5dbedf6e4069c4d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_right_block.png": {
+    "mtime": 1781632470.0930705,
+    "ast_hash": "184fb254c1ba0e5ea416a08fd4bfabee",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_sheet.png": {
+    "mtime": 1781632470.0200694,
+    "ast_hash": "9013e9b15090884c64aeb5e43aeff2ce",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Block/dark_knight_block_source_chroma.png": {
+    "mtime": 1781632031.0013106,
+    "ast_hash": "81be3584721183cfc5cb969325c58307",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_01.png": {
+    "mtime": 1781636422.1397111,
+    "ast_hash": "5c5532626d771f681093378e8595cee4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_02.png": {
+    "mtime": 1781636422.4067144,
+    "ast_hash": "666b60e9599de9134002d9710bcbb6c0",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_03.png": {
+    "mtime": 1781636422.669718,
+    "ast_hash": "55a186cd41c90748a14016fc03056516",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_front_04.png": {
+    "mtime": 1781636422.9577217,
+    "ast_hash": "27639b144c644b5f84f193759027ec3d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_01.png": {
+    "mtime": 1781636423.2497253,
+    "ast_hash": "b9a05ef8889aabd2c6e209f3963ce3a1",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_02.png": {
+    "mtime": 1781636423.4847283,
+    "ast_hash": "5a49a866441a08ed701703d97b4e0aaa",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_03.png": {
+    "mtime": 1781636423.7317317,
+    "ast_hash": "f98e311827ce16bda42ffb653c994d80",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_left_04.png": {
+    "mtime": 1781636423.9697347,
+    "ast_hash": "9b59861b54d3f236d9dfdc1e031d85f7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_01.png": {
+    "mtime": 1781636424.2206364,
+    "ast_hash": "f835b3275e37b99ead6d3f0409ef58f0",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_02.png": {
+    "mtime": 1781636424.461741,
+    "ast_hash": "6b581a8e4f0fc76c86dd11fdf254e574",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_03.png": {
+    "mtime": 1781636424.7127442,
+    "ast_hash": "28e6e40c5aa0e77588042ef35fc2a0c1",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_right_04.png": {
+    "mtime": 1781636424.9127467,
+    "ast_hash": "f961986b25693c32e609b2673330d908",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_sheet.png": {
+    "mtime": 1781636421.8677075,
+    "ast_hash": "7a71577dc3b8da4f353b8e0f443c9384",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/BlockWalk/dark_knight_blockwalk_source_chroma.png": {
+    "mtime": 1781636253.0905402,
+    "ast_hash": "f6880206e4bbcdb2691414e57215e3ae",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_back_slash_normalized.png": {
+    "mtime": 1781880018.1656566,
+    "ast_hash": "69c500702d66836f6d8f5e7654682cbd",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_front_left_slash_normalized.png": {
+    "mtime": 1781880018.4201512,
+    "ast_hash": "fa3b4a4a54fa5e3c918a33767b820e3a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_front_right_slash_normalized.png": {
+    "mtime": 1781880018.49651,
+    "ast_hash": "5d5b77ed3a8fd22d62f6ebfb3a844012",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_front_slash_normalized.png": {
+    "mtime": 1781880018.0885046,
+    "ast_hash": "82ddb329c95e500f75f63929a484e2f7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_left_slash_normalized.png": {
+    "mtime": 1781880018.3255076,
+    "ast_hash": "568d83cdd7a0c22f89b8da65c1341862",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_normalized_sheet.png": {
+    "mtime": 1781880023.6839912,
+    "ast_hash": "f6bb42bbc7a2698b7dab489bdb2ef7a2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attack_right_slash_normalized.png": {
+    "mtime": 1781880018.2435067,
+    "ast_hash": "8ada6cb2088b7f7c386e1ee778c997ab",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_01_normalized.png": {
+    "mtime": 1781880021.4465635,
+    "ast_hash": "57cb75e768cf8691125b02fd81f45448",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_02_normalized.png": {
+    "mtime": 1781880021.4921768,
+    "ast_hash": "56d7e8982a5e5705a16c949f56c1a066",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_03_normalized.png": {
+    "mtime": 1781880021.5519807,
+    "ast_hash": "3ab0d7c5e7408039599f3a97bf7ef83c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_back_04_normalized.png": {
+    "mtime": 1781880021.6046894,
+    "ast_hash": "71c13656f13b309c42ec86303846566a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_01_normalized.png": {
+    "mtime": 1781880021.2215385,
+    "ast_hash": "8266de5b8f98ec7551318f615e7d3298",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_02_normalized.png": {
+    "mtime": 1781880021.2783015,
+    "ast_hash": "01191ecdee4267c6f336a552915c7216",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_03_normalized.png": {
+    "mtime": 1781880021.3431737,
+    "ast_hash": "c749cc7aa189da3cde440b09f2509287",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_front_04_normalized.png": {
+    "mtime": 1781880021.4029777,
+    "ast_hash": "d6e384cd10b2b0bb6ae30d11557b259a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_01_normalized.png": {
+    "mtime": 1781880021.6543572,
+    "ast_hash": "ddcdbf80b3cb95ce99f763b0aa392d67",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_02_normalized.png": {
+    "mtime": 1781880021.7019975,
+    "ast_hash": "0fe9f2d7fcea5d0f3a9e5ad57b65ee7a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_03_normalized.png": {
+    "mtime": 1781880021.749638,
+    "ast_hash": "9a5f852d61855cb20b437b71acf2f1db",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_left_04_normalized.png": {
+    "mtime": 1781880021.7942376,
+    "ast_hash": "39357c27f5fabf0f289ec32d7024ce6e",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_normalized_sheet.png": {
+    "mtime": 1781880029.0942569,
+    "ast_hash": "b396e00f3fd1e3ea476e5697a6318656",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_01_normalized.png": {
+    "mtime": 1781880021.839851,
+    "ast_hash": "639779be39622ccf09a0dd3605f4d87a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_02_normalized.png": {
+    "mtime": 1781880021.888505,
+    "ast_hash": "25b6fb2015811859db4cd450b11d9929",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_03_normalized.png": {
+    "mtime": 1781880021.9391863,
+    "ast_hash": "d8a8132ee0938d9f24e384cea25848ce",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_attackanim_right_04_normalized.png": {
+    "mtime": 1781880021.988854,
+    "ast_hash": "1709fbe58891e9aab186456263bfb62b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_back_block_normalized.png": {
+    "mtime": 1781880018.650512,
+    "ast_hash": "ad7d9ed3e7e0bbb559afdcfbea19c173",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_front_block_normalized.png": {
+    "mtime": 1781880018.574511,
+    "ast_hash": "2604366edf83cf0280ea0c2f479d4a89",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_front_left_block_normalized.png": {
+    "mtime": 1781880018.8665147,
+    "ast_hash": "bb064ce10a2b5046e34c02ffff9915ec",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_front_right_block_normalized.png": {
+    "mtime": 1781880018.9395156,
+    "ast_hash": "1da637eba79c5fd7c5a255a14f60efa7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_left_block_normalized.png": {
+    "mtime": 1781880018.7955139,
+    "ast_hash": "c4fe912902cbcea448c01b3ff572270c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_normalized_sheet.png": {
+    "mtime": 1781880024.3666673,
+    "ast_hash": "05125ecb87c175dc4230d88d5defc0a4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_block_right_block_normalized.png": {
+    "mtime": 1781880018.722513,
+    "ast_hash": "c8649a261c56892a2b8ee99dfc8c9f9a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_01_normalized.png": {
+    "mtime": 1781880020.7725394,
+    "ast_hash": "a903c3ef9a125138520bcb6a7675fc73",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_02_normalized.png": {
+    "mtime": 1781880020.8325403,
+    "ast_hash": "7e70a2b36fa3db229e065ac8636afbb1",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_03_normalized.png": {
+    "mtime": 1781880020.890541,
+    "ast_hash": "376c0871c093a11cd20c922605f5effc",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_04_normalized.png": {
+    "mtime": 1781880020.946551,
+    "ast_hash": "c06a524bee30f614ef4892f469d0be68",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_back_normalized_sheet.png": {
+    "mtime": 1781880027.432559,
+    "ast_hash": "40a184c291c7682481b76e1b288f7cbc",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_01_normalized.png": {
+    "mtime": 1781880019.818152,
+    "ast_hash": "12472d076d4fd1b2355594922f1c1642",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_02_normalized.png": {
+    "mtime": 1781880019.8763344,
+    "ast_hash": "7f6ded48662c6681d600ee5071f6c551",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_03_normalized.png": {
+    "mtime": 1781880019.9335287,
+    "ast_hash": "1b4e105b6b75587004d3e961a91b1444",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_front_04_normalized.png": {
+    "mtime": 1781880020.0085297,
+    "ast_hash": "2ab89dd9d1c502413e7490b79caedaa4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_01_normalized.png": {
+    "mtime": 1781880020.0675304,
+    "ast_hash": "6ff243cc57d300b91d654efc35215798",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_02_normalized.png": {
+    "mtime": 1781880020.128623,
+    "ast_hash": "88188279258040b6d3f838c8ea8166e8",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_03_normalized.png": {
+    "mtime": 1781880020.1928124,
+    "ast_hash": "b45ed2fec42c960328d095c659260510",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_left_04_normalized.png": {
+    "mtime": 1781880020.2491982,
+    "ast_hash": "1357ec7690ef01d527708e00dfa3395b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_normalized_sheet.png": {
+    "mtime": 1781880026.6905892,
+    "ast_hash": "6e46cd789169ddd6c4385e5af776c0bf",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_01_normalized.png": {
+    "mtime": 1781880020.3065333,
+    "ast_hash": "2b32352a574499d1b087149da8b015c0",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_02_normalized.png": {
+    "mtime": 1781880020.3660438,
+    "ast_hash": "a4c409ee948ccbb944e761a58b6747ba",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_03_normalized.png": {
+    "mtime": 1781880020.428535,
+    "ast_hash": "9e7d855999e7d658ca8007bedffaf6bf",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_blockwalk_right_04_normalized.png": {
+    "mtime": 1781880020.4825356,
+    "ast_hash": "eb0ed0b13c4dbe15ef4bd14a4a435078",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_idle_base_normalized.png": {
+    "mtime": 1781880017.3634953,
+    "ast_hash": "0756b8e20082270a167f382b87a59255",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_01_normalized.png": {
+    "mtime": 1781880021.0035903,
+    "ast_hash": "74e20b27ba1e2cf99ee329252e52211b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_02_normalized.png": {
+    "mtime": 1781880021.0553036,
+    "ast_hash": "447a5e59283090169cdab1428fb57b4c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_03_normalized.png": {
+    "mtime": 1781880021.1100395,
+    "ast_hash": "11510f53c2423123fcc3d83f2fb8a0c9",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_04_normalized.png": {
+    "mtime": 1781880021.1718707,
+    "ast_hash": "094da0e9cc30fddb07512273e9746bbb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_back_normalized_sheet.png": {
+    "mtime": 1781880027.7596362,
+    "ast_hash": "132e2423e7eb7bdb795f218073a891d7",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_01_normalized.png": {
+    "mtime": 1781880018.9975164,
+    "ast_hash": "cb6d6745314cb5cb3ea2e192022f6dfd",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_02_normalized.png": {
+    "mtime": 1781880019.0621464,
+    "ast_hash": "639674055ec6f078dd2267ae2b139165",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_03_normalized.png": {
+    "mtime": 1781880019.1325183,
+    "ast_hash": "445ffa4c47e4c1afa94adff326ee953f",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_front_04_normalized.png": {
+    "mtime": 1781880019.2269206,
+    "ast_hash": "616fb9fe4f30aee94a0792f054eea4ee",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_01_normalized.png": {
+    "mtime": 1781880019.306681,
+    "ast_hash": "b3e2dda8521c8a4192f5007e5a24c395",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_02_normalized.png": {
+    "mtime": 1781880019.3868299,
+    "ast_hash": "99c1ab070f8e7df102440b3bebb06211",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_03_normalized.png": {
+    "mtime": 1781880019.4675226,
+    "ast_hash": "e2b3ec4670cdbba6e37ec653f24da2ff",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_left_04_normalized.png": {
+    "mtime": 1781880019.5245233,
+    "ast_hash": "398d6244d53cdf52f3fd030872aa3498",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_normalized_sheet.png": {
+    "mtime": 1781880025.5419054,
+    "ast_hash": "f2f816c2531a4e17cbbfb22cabf6ce48",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_01_normalized.png": {
+    "mtime": 1781880019.588524,
+    "ast_hash": "345822d3c01bd6c92fe96ec611194632",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_02_normalized.png": {
+    "mtime": 1781880019.6471035,
+    "ast_hash": "16b24c5d994877a893e871f9bdf2b8da",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_03_normalized.png": {
+    "mtime": 1781880019.6985254,
+    "ast_hash": "bf34671cd067e333cd8941c289497540",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_roll_right_04_normalized.png": {
+    "mtime": 1781880019.7565262,
+    "ast_hash": "ee0eacd5d43c0acf02c56296b9a6008a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_01_normalized.png": {
+    "mtime": 1781880020.5395365,
+    "ast_hash": "db10020cc079cdc9d5f6372f589b61af",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_02_normalized.png": {
+    "mtime": 1781880020.6075373,
+    "ast_hash": "def4599409e8a9e135b443cf2f15418c",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_03_normalized.png": {
+    "mtime": 1781880020.660538,
+    "ast_hash": "833311f0aab42ba5c035a23fd2730ba2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_04_normalized.png": {
+    "mtime": 1781880020.7195387,
+    "ast_hash": "7d24deb871eb8bed210c3df210be3406",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_back_normalized_sheet.png": {
+    "mtime": 1781880027.067239,
+    "ast_hash": "a056b78094de9c3857add327de25c499",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_01_normalized.png": {
+    "mtime": 1781880017.4291744,
+    "ast_hash": "719af605b9b17b86d365efff43246c20",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_02_normalized.png": {
+    "mtime": 1781880017.493497,
+    "ast_hash": "a0a7b397707267dbecc863a454f2896d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_03_normalized.png": {
+    "mtime": 1781880017.5557396,
+    "ast_hash": "64fe67ec7f5b813d24ac61faaf839b88",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_front_04_normalized.png": {
+    "mtime": 1781880017.6084983,
+    "ast_hash": "7a779e61aa0446b40e3b0cd46c3cf45a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_01_normalized.png": {
+    "mtime": 1781880017.6594992,
+    "ast_hash": "acb11defaf36161181652d51cc636f63",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_02_normalized.png": {
+    "mtime": 1781880017.7064996,
+    "ast_hash": "3c074b28b7cc8003118cd63f27a5e91f",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_03_normalized.png": {
+    "mtime": 1781880017.7545004,
+    "ast_hash": "7648268f98cd6aef49f78609683bde2d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_left_04_normalized.png": {
+    "mtime": 1781880017.804501,
+    "ast_hash": "47d18c2832e7d4cec8740b4def299ef6",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_normalized_sheet.png": {
+    "mtime": 1781880022.9927626,
+    "ast_hash": "bd5350e0f0a89b511db2f85268318bba",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_01_normalized.png": {
+    "mtime": 1781880017.8545017,
+    "ast_hash": "8d3439bca53cd1f8f963572240e3e350",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_02_normalized.png": {
+    "mtime": 1781880017.9055023,
+    "ast_hash": "cc02a1345bb2494471298cd2b2f5fab1",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_03_normalized.png": {
+    "mtime": 1781880017.9575028,
+    "ast_hash": "9124f675654f70d28806cfbe3c8849bc",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Normalized/dark_knight_walk_right_04_normalized.png": {
+    "mtime": 1781880018.0115037,
+    "ast_hash": "856732716b4225878e2e0899162b2401",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_01.png": {
+    "mtime": 1781632782.7231698,
+    "ast_hash": "d404dbfd7e8d8905fd42600a549d91eb",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_02.png": {
+    "mtime": 1781632782.884172,
+    "ast_hash": "c6db8778cdcc38ed0f44eb6bc644af3a",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_03.png": {
+    "mtime": 1781632471.202085,
+    "ast_hash": "6d58e49d36b066804e865e69f325d97b",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_front_04.png": {
+    "mtime": 1781632783.2301764,
+    "ast_hash": "7af2ab16a2acaf0da17d6a908aa3619f",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_01.png": {
+    "mtime": 1781632783.3871787,
+    "ast_hash": "052f38bae35daf04a391eb39db668666",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_02.png": {
+    "mtime": 1781632471.2310853,
+    "ast_hash": "8b85597bd06124683d31f2bb0d830f28",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_03.png": {
+    "mtime": 1781632471.2390854,
+    "ast_hash": "0204ada8e78415d1172c03c8bea61623",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_left_04.png": {
+    "mtime": 1781632471.2490857,
+    "ast_hash": "a1b2e81e7c886d5c016dcf1e8728e8f5",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_01.png": {
+    "mtime": 1781632783.9831862,
+    "ast_hash": "0bd4f237f345b3a103037481e49e0cd2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_02.png": {
+    "mtime": 1781632471.274086,
+    "ast_hash": "5734726f5ac989dffd83b8821094330f",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_03.png": {
+    "mtime": 1781632471.282086,
+    "ast_hash": "04e565c3d3196a9d9552757468a9f8f2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_right_04.png": {
+    "mtime": 1781632471.2950861,
+    "ast_hash": "85d0c1f43efcbcac5d4668f8048ceeba",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_sheet.png": {
+    "mtime": 1781632471.1630845,
+    "ast_hash": "d42cea8195f88678fe48d1f6fbb1010d",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Roll/dark_knight_roll_source_chroma.png": {
+    "mtime": 1781632097.1931791,
+    "ast_hash": "52058743e9ce48d5d181fab4c1c182c4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_01.png": {
+    "mtime": 1781632775.326073,
+    "ast_hash": "afa8c31528e0b10425757e5bd4b495cd",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_02.png": {
+    "mtime": 1781632775.5360756,
+    "ast_hash": "dae1ea438b3c1c4ac187c7d48eaacdb4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_03.png": {
+    "mtime": 1781632775.7370782,
+    "ast_hash": "66390f762087e57d1de9324590616242",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_front_04.png": {
+    "mtime": 1781632775.940081,
+    "ast_hash": "c7f60b8fa98b698756d3f4e11f607038",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_01.png": {
+    "mtime": 1781632776.1370835,
+    "ast_hash": "975c7fa0266d2060ade58b3dacc3f853",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_02.png": {
+    "mtime": 1781878413.1757007,
+    "ast_hash": "300e56e1b5aa50414807419ff24809c4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_03.png": {
+    "mtime": 1781878413.4947047,
+    "ast_hash": "79423350506188b2f0251c3de674a932",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_left_04.png": {
+    "mtime": 1781632776.8210924,
+    "ast_hash": "3d039ae9e5d98bcfaa4585785d430784",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_01.png": {
+    "mtime": 1781632777.0700958,
+    "ast_hash": "231d5830a5ce7ebaf38ea6ffc465a1c8",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_02.png": {
+    "mtime": 1781878413.730708,
+    "ast_hash": "2ae9968039cd485cead45d7cda83a4ca",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_03.png": {
+    "mtime": 1781878414.0647123,
+    "ast_hash": "3861063b36ab4470bed6d5059bc7b7a3",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_right_04.png": {
+    "mtime": 1781632777.7101042,
+    "ast_hash": "e4087a5b4b894c7ccce8fbe0dca40d50",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_sheet.png": {
+    "mtime": 1781632467.557037,
+    "ast_hash": "49e7fd7ea933e8f636c0002f4b8ae6f4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/Walk/dark_knight_walk_source_chroma.png": {
+    "mtime": 1781631909.0747104,
+    "ast_hash": "247865ef6198c712ee36075f09686859",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/Player/DarkKnight/dark_knight_idle_cutout.png": {
+    "mtime": 1781632994.6689515,
+    "ast_hash": "3445f70a19d17ea499fddc3e5186d766",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/dungeon_knight_hatch_base.png": {
+    "mtime": 1780880163.4989748,
+    "ast_hash": "3ab2f4e2a6a1d8e9dd9e66037b959e99",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Characters/knight_reference_cutout.png": {
+    "mtime": 1780868507.0253348,
+    "ast_hash": "dd93ac0708e051b606fea772d47c7a50",
+    "semantic_hash": ""
+  },
+  "tmp/equipment_previews/dark_knight_equipment_options.png": {
+    "mtime": 1781890762.575176,
+    "ast_hash": "b0391b31e1e1b6b0a2c85a22c4d0f86c",
+    "semantic_hash": ""
+  },
+  "tmp/model_review/copilot3d_dark_knight_projection.png": {
+    "mtime": 1781882222.742501,
+    "ast_hash": "34f4ed7c671cb274bd6109679feb3d95",
+    "semantic_hash": ""
+  },
+  "tmp/model_review/copilot3d_dark_knight_proxy_projection.png": {
+    "mtime": 1781882320.641957,
+    "ast_hash": "4a18ddc4d4c00b4af817e63ca97a756d",
+    "semantic_hash": ""
+  },
+  "tmp/model_review/copilot3d_dark_knight_tpose_candidate_projection.png": {
+    "mtime": 1781883901.8488452,
+    "ast_hash": "71ee907f15cfe8458e40b24cac090bb7",
+    "semantic_hash": ""
+  },
+  "tmp/video_review/contact.jpg": {
+    "mtime": 1781879026.44875,
+    "ast_hash": "6cc8e9f5b70ccb5b3fd87dae759c51e2",
+    "semantic_hash": ""
+  },
+  "tmp/video_review_104356/contact.jpg": {
+    "mtime": 1781880911.240828,
+    "ast_hash": "8696edd51e357af95db3f37cafd49133",
+    "semantic_hash": ""
+  },
+  "tmp/video_review_130045/contact.jpg": {
+    "mtime": 1781888520.5459664,
+    "ast_hash": "928e6c7de429839401e6ef805d4ffbd6",
+    "semantic_hash": ""
+  },
+  "tmp/video_review_130442/contact.jpg": {
+    "mtime": 1781888749.65691,
+    "ast_hash": "7a5c9741de488fbbc946f4cc0b5eba1f",
+    "semantic_hash": ""
+  },
+  "tmp/video_review_134328/contact.jpg": {
+    "mtime": 1781891190.4162889,
+    "ast_hash": "8cc4b0878af752a468dc6ee535af8dd7",
+    "semantic_hash": ""
+  },
+  "tmp/video_review_140223/contact.jpg": {
+    "mtime": 1781892276.784342,
+    "ast_hash": "ecced823cfc305301e097f93745379a3",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_sprites_manifest.json": {
+    "mtime": 1781628613.060508,
+    "ast_hash": "b0d555e62ca0420f6f8817f152b438bd",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonEnemyDamageFlash3D.cs": {
+    "mtime": 1782013553.8952913,
+    "ast_hash": "4c991cc2ac18d1d0a9a6b3d29c9e3691",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DAssets.cs": {
+    "mtime": 1782059446.063532,
+    "ast_hash": "c088841f256059ae192cb317356b742d",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DEnemySpawner.cs": {
+    "mtime": 1782066670.5205076,
+    "ast_hash": "8bb03bc5523a0a6496f1f28320a9421a",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DGeometryBuilder.cs": {
+    "mtime": 1782486037.2896953,
+    "ast_hash": "be035a34c3ecf8f800b9ba3f48a59eda",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DInteractableBuilder.cs": {
+    "mtime": 1782409057.9059243,
+    "ast_hash": "f10a0a969123e0d6da3b4b1768ecedf9",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DPlayerFactory.cs": {
+    "mtime": 1782064544.5993657,
+    "ast_hash": "060bcb551b8146d8aef7b0a526950856",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DProgressionWorldBuilder.cs": {
+    "mtime": 1782483314.4541914,
+    "ast_hash": "1495b237b1ae081846795a00f1acba27",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DTraversalBuilder.cs": {
+    "mtime": 1782013554.0844426,
+    "ast_hash": "f98774627113509fdc42984986c8d649",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DWorldBuilder.cs": {
+    "mtime": 1782400116.8226905,
+    "ast_hash": "32f56e991e1b5aa76c504bb2d6a50533",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonAnimationGraph3D.cs": {
+    "mtime": 1782013554.134279,
+    "ast_hash": "68bfbc5211bcf90405a8c02fd288985c",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonModelSetup3D.cs": {
+    "mtime": 1782410337.7702081,
+    "ast_hash": "dbecf3942de12105bfc01f1713b578d4",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/RiggedSkeletonSwordVisual3D.cs": {
+    "mtime": 1782066190.1462517,
+    "ast_hash": "6f6d0b9be2d408e1f72fd4cffa6fad15",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerAttackResolver3D.cs": {
+    "mtime": 1782013554.2112951,
+    "ast_hash": "24545fd7b8b0d7cf5432ad874ba6db27",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerInteractionScanner3D.cs": {
+    "mtime": 1782013554.2362955,
+    "ast_hash": "401fc460e32e223a547f289237700559",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerMovementMotor3D.cs": {
+    "mtime": 1782013554.2632957,
+    "ast_hash": "1f93a5f0194eeeb045b84fd4c53f2faf",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerState3D.cs": {
+    "mtime": 1782013554.2897909,
+    "ast_hash": "e53ea13851a8dd48beb5ff89bce34b88",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Player/PlayerStatusMessenger3D.cs": {
+    "mtime": 1782013554.3162963,
+    "ast_hash": "4e1aa3a0072c22ec3e647e2b627fdb28",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_back_slash.png": {
+    "mtime": 1781628612.987909,
+    "ast_hash": "0e77f9cb2acfda7aa6e467f70a5b0917",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_directions_sheet.png": {
+    "mtime": 1781628612.9519086,
+    "ast_hash": "8a31f58b828825406814e27c8a9fa33d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_front_left_slash.png": {
+    "mtime": 1781628613.0409098,
+    "ast_hash": "821563fbdc78a2c1c9ec22b7372f7bdf",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_front_right_slash.png": {
+    "mtime": 1781628613.05891,
+    "ast_hash": "331414de9537735b602a85ce48e2b88d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_front_slash.png": {
+    "mtime": 1781628612.9709089,
+    "ast_hash": "70881b6cd4224a4cee6a3bc4f881f8f6",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_left_slash.png": {
+    "mtime": 1781628613.0239096,
+    "ast_hash": "a3dc3fe88f39ea3ad48f46ed5b018bfa",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_attack_right_slash.png": {
+    "mtime": 1781628613.0069094,
+    "ast_hash": "a28d81512dbddba69b26685ed96562c2",
+    "semantic_hash": ""
+  },
+  "Assets/Art/GeneratedSprites/SkeletonEnemy/skeleton_enemy_reference_cutout.png": {
+    "mtime": 1781628611.51489,
+    "ast_hash": "581f8dd73f1b4a8f61a9d6ed1d4e97d7",
+    "semantic_hash": ""
+  },
+  "Assets/Editor/DungeonKnight3DEditorMenu.cs": {
+    "mtime": 1782513898.2307281,
+    "ast_hash": "5b3efb55f5b84309dd8264e548cb79bb",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1782014569.798033,
+    "ast_hash": "ca24cb1772319377d38124ffabe5a07f",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DEditorPreviewLight.cs": {
+    "mtime": 1782054307.6022477,
+    "ast_hash": "b5569560bf8ff6cfbb013985fd7882fd",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DEditorPreviewRenderer.cs": {
+    "mtime": 1782054810.2305937,
+    "ast_hash": "2f23869c54732b55be152c2ff5cd5ffb",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonKnight3DSelectionRoot.cs": {
+    "mtime": 1782057191.91806,
+    "ast_hash": "d4e9a0173bbf5bee172b73d4225f7bc4",
+    "semantic_hash": ""
+  },
+  "ProjectSettings/SceneTemplateSettings.json": {
+    "mtime": 1782058979.9034264,
+    "ast_hash": "eeb26e313b89cd9334b828428a4847ef",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/DungeonChestVisualFactory3D.cs": {
+    "mtime": 1782406295.347671,
+    "ast_hash": "c491dc1476d5b21eb58ac7f9f59bcade",
+    "semantic_hash": ""
+  },
+  "Assets/Screenshots/unityskills-final-worldeditable.png": {
+    "mtime": 1782070372.187027,
+    "ast_hash": "952b84547b0442bd209d67f57712387f",
+    "semantic_hash": ""
+  },
+  "Assets/Screenshots/enemy_scale_check.png": {
+    "mtime": 1782070846.0958898,
+    "ast_hash": "149e251cb0cb087338c448d9052f5716",
+    "semantic_hash": ""
+  },
+  "Assets/Screenshots/world_after_interaction_platform_fixes.png": {
+    "mtime": 1782071892.8818038,
+    "ast_hash": "02264d9dccf07422d2ec3589a14be8ea",
+    "semantic_hash": ""
+  },
+  "Assets/Scripts/Level/GothicDoubleDoor3D.cs": {
+    "mtime": 1782398773.9144545,
+    "ast_hash": "0e6e909899f08f1e985722f7857a38b7",
+    "semantic_hash": ""
+  },
+  "Assets/Editor/DungeonKnight3DWallStretchTool.cs": {
+    "mtime": 1782504938.2462542,
+    "ast_hash": "4d667127f2081d0efa288c111757bec2",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Art/Textures/Dungeon/floor_moss_stone_tiles.png": {
+    "mtime": 1782507731.5230544,
+    "ast_hash": "4642087c18ac1805a71d8e55cf0b92ca",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Art/Textures/Dungeon/wall_damp_moss_stone.png": {
+    "mtime": 1782508518.5114503,
+    "ast_hash": "c052946118974aa6797ce47b73058be4",
+    "semantic_hash": ""
+  },
+  "Assets/Resources/Art/Textures/Dungeon/wall_damp_vines_stone.png": {
+    "mtime": 1782508518.5962632,
+    "ast_hash": "33f48139cea0d923696c7cd0d93ca1e6",
+    "semantic_hash": ""
+  }
+}

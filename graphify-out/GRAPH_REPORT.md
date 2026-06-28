@@ -1,13 +1,18 @@
-# Graph Report - dungeon-knight-3D  (2026-06-20)
+# Graph Report - dungeon-knight-3D  (2026-06-27)
 
 ## Corpus Check
-- 131 files · ~5,454,727 words
+- 141 files · ~6,549,352 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1753 nodes · 3034 edges · 127 communities (126 shown, 1 thin omitted)
+- 2140 nodes · 4130 edges · 135 communities (133 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `8ae851a0`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_World 1-1 Bootstrap|World 1-1 Bootstrap]]
@@ -64,7 +69,7 @@
 - [[_COMMUNITY_3D Shortcut Elevator|3D Shortcut Elevator]]
 - [[_COMMUNITY_3D Game HUD|3D Game HUD]]
 - [[_COMMUNITY_Hit Burst Effect|Hit Burst Effect]]
-- [[_COMMUNITY_Combat Feedback (Hitstop)|Combat Feedback (Hitstop)]]
+- [[_COMMUNITY_Community 54|Community 54]]
 - [[_COMMUNITY_Arrow Projectile|Arrow Projectile]]
 - [[_COMMUNITY_Gate Lever|Gate Lever]]
 - [[_COMMUNITY_Slash Effect|Slash Effect]]
@@ -82,7 +87,7 @@
 - [[_COMMUNITY_Lore Tablet|Lore Tablet]]
 - [[_COMMUNITY_Enemy Health Bar|Enemy Health Bar]]
 - [[_COMMUNITY_Game Constants|Game Constants]]
-- [[_COMMUNITY_Shield Pickup|Shield Pickup]]
+- [[_COMMUNITY_Community 72|Community 72]]
 - [[_COMMUNITY_Interactable Interface|Interactable Interface]]
 - [[_COMMUNITY_Community 74|Community 74]]
 - [[_COMMUNITY_Community 75|Community 75]]
@@ -117,18 +122,26 @@
 - [[_COMMUNITY_Community 124|Community 124]]
 - [[_COMMUNITY_Community 125|Community 125]]
 - [[_COMMUNITY_Community 126|Community 126]]
+- [[_COMMUNITY_Community 127|Community 127]]
+- [[_COMMUNITY_Community 128|Community 128]]
+- [[_COMMUNITY_Community 129|Community 129]]
+- [[_COMMUNITY_Community 130|Community 130]]
+- [[_COMMUNITY_Community 131|Community 131]]
+- [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 134|Community 134]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `WorldOneOneBootstrap` - 82 edges
-2. `DungeonKnight3DBootstrap` - 68 edges
-3. `Vector2` - 59 edges
-4. `CharacterSpriteFactory` - 45 edges
-5. `PlayerModelVisual3D` - 44 edges
-6. `PlayerController2D` - 43 edges
-7. `RiggedSkeletonEnemyVisual3D` - 39 edges
-8. `Sprite` - 35 edges
-9. `PlayerController3D` - 35 edges
-10. `PixelSpriteFactory` - 30 edges
+1. `DungeonKnight3DBootstrap` - 140 edges
+2. `WorldOneOneBootstrap` - 82 edges
+3. `Vector3` - 67 edges
+4. `RiggedSkeletonEnemyVisual3D` - 62 edges
+5. `Vector2` - 59 edges
+6. `DungeonKnight3DEditorMenu` - 49 edges
+7. `PlayerModelVisual3D` - 48 edges
+8. `GameHud3D` - 48 edges
+9. `DungeonEnemy3D` - 47 edges
+10. `CharacterSpriteFactory` - 45 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Health` --inherits--> `MonoBehaviour`  [EXTRACTED]
@@ -145,47 +158,47 @@
 ## Import Cycles
 - None detected.
 
-## Communities (127 total, 1 thin omitted)
+## Communities (135 total, 2 thin omitted)
 
 ### Community 0 - "World 1-1 Bootstrap"
 Cohesion: 0.10
 Nodes (14): bool, Color, float, GameObject, SimpleGate, Sprite, SpriteRenderer, Transform (+6 more)
 
 ### Community 1 - "3D Scene Bootstrap"
-Cohesion: 0.09
-Nodes (16): bool, Bounds, Color, DungeonInteractable3D, GameObject, Material, PlayerController3D, PrimitiveType (+8 more)
+Cohesion: 0.06
+Nodes (20): bool, Bounds, Color, DungeonInteractable3D, GameObject, Light, Material, Object (+12 more)
 
 ### Community 2 - "Character Sprite Factory"
 Cohesion: 0.13
 Nodes (10): Action, Color, Dictionary, int, Sprite, string, Texture2D, Vector2 (+2 more)
 
 ### Community 3 - "3D Player Animation"
-Cohesion: 0.09
-Nodes (19): AnimationPlayableOutput, AnimationClip, AnimationClipPlayable, Animator, Color, float, int, Material (+11 more)
+Cohesion: 0.08
+Nodes (20): AnimationPlayableOutput, AnimationClip, AnimationClipPlayable, Animator, Color, float, int, Material (+12 more)
 
 ### Community 4 - "Player Combat & Inventory"
 Cohesion: 0.07
 Nodes (16): bool, Collider2D, float, Health, int, LayerMask, List, PlayerInventory (+8 more)
 
 ### Community 5 - "Animation Mixer Playables"
-Cohesion: 0.10
-Nodes (17): AnimationClip, AnimationClipPlayable, AnimationMixerPlayable, Animator, bool, Bounds, Color, float (+9 more)
+Cohesion: 0.08
+Nodes (20): AnimationClip, AnimationClipPlayable, AnimationMixerPlayable, Animator, bool, Bounds, Color, float (+12 more)
 
 ### Community 6 - "2D Game Session"
 Cohesion: 0.10
 Nodes (14): bool, Color, float, GameObject, GUIStyle, Health, IEnumerator, int (+6 more)
 
 ### Community 7 - "3D Player Controller"
-Cohesion: 0.11
-Nodes (11): bool, CharacterController, Collider, DungeonEnemy3D, float, int, string, Transform (+3 more)
+Cohesion: 0.09
+Nodes (15): bool, CharacterController, Collider, DungeonEnemy3D, DungeonInteractable3D, float, HudMessageIcon, int (+7 more)
 
 ### Community 8 - "Pixel Sprite Factory"
 Cohesion: 0.19
 Nodes (6): Color, Dictionary, int, Sprite, DungeonKnight, PixelSpriteFactory
 
 ### Community 9 - "3D Dungeon Enemy"
-Cohesion: 0.12
-Nodes (13): bool, CharacterController, Color, float, int, PlayerController3D, Quaternion, Renderer (+5 more)
+Cohesion: 0.09
+Nodes (17): bool, CharacterController, Color, float, int, Material, Object, PlayerController3D (+9 more)
 
 ### Community 10 - "2D Game HUD"
 Cohesion: 0.23
@@ -200,8 +213,8 @@ Cohesion: 0.15
 Nodes (12): float, int, PlayerController2D, Rigidbody2D, Sprite, SpriteRenderer, Transform, SkeletonArcherAI (+4 more)
 
 ### Community 13 - "3D Interactables"
-Cohesion: 0.11
-Nodes (11): bool, int, PlayerController3D, string, Transform, Vector3, DungeonChestVisual3D, DungeonShortcutElevator3D (+3 more)
+Cohesion: 0.09
+Nodes (12): bool, DungeonChestVisual3D, GameObject, int, PlayerController3D, string, Transform, Vector3 (+4 more)
 
 ### Community 14 - "Ceiling Blade Hazard"
 Cohesion: 0.16
@@ -224,8 +237,8 @@ Cohesion: 0.13
 Nodes (8): bool, Color, Coroutine, IEnumerator, int, SpriteRenderer, DungeonKnight.Combat, Health
 
 ### Community 19 - "3D Wall Torch"
-Cohesion: 0.18
-Nodes (9): Color, float, int, Light, Sprite, SpriteRenderer, Vector3, AnimatedWallTorch3D (+1 more)
+Cohesion: 0.16
+Nodes (10): bool, Color, float, int, Light, Sprite, SpriteRenderer, Vector3 (+2 more)
 
 ### Community 20 - "Gate Door Visual"
 Cohesion: 0.15
@@ -248,8 +261,8 @@ Cohesion: 0.20
 Nodes (9): bool, GameObject, Health, List, SimpleGate, SpriteRenderer, Transform, DungeonKnight.Interactables (+1 more)
 
 ### Community 25 - "Player Inventory"
-Cohesion: 0.16
-Nodes (4): bool, DungeonKnight.Player, PlayerInventory, ShieldKind
+Cohesion: 0.13
+Nodes (4): EquipmentItem, int, DungeonKnight.Player, PlayerInventory
 
 ### Community 26 - "Key Guardian Boss"
 Cohesion: 0.19
@@ -316,16 +329,16 @@ Cohesion: 0.21
 Nodes (7): Color, float, Material, Renderer, Vector3, CombatFeedback3D, DungeonKnight.Level
 
 ### Community 42 - "3D Chest Visual"
-Cohesion: 0.21
-Nodes (8): bool, float, GameObject, Light, Quaternion, Transform, DungeonChestVisual3D, DungeonKnight.Level
+Cohesion: 0.19
+Nodes (9): bool, float, GameObject, Light, Quaternion, Transform, Vector3, DungeonChestVisual3D (+1 more)
 
 ### Community 43 - "3D Dungeon Hazard"
 Cohesion: 0.18
 Nodes (7): Collider, float, int, string, Vector3, DungeonHazard3D, DungeonKnight.Level
 
 ### Community 44 - "3D Billboard & Key Drop"
-Cohesion: 0.17
-Nodes (7): Transform, Health, DungeonKnight.Level, DungeonSpriteBillboard3D, DungeonKnight.Loot, KeyDropper, MonoBehaviour
+Cohesion: 0.13
+Nodes (9): Transform, Health, DungeonKnight3DSelectionRoot, DungeonKnight.Level, DungeonKnight.Level, DungeonSpriteBillboard3D, DungeonKnight.Loot, KeyDropper (+1 more)
 
 ### Community 45 - "Interaction Feedback UI"
 Cohesion: 0.23
@@ -340,15 +353,15 @@ Cohesion: 0.18
 Nodes (7): bool, Collider2D, float, SpriteRenderer, Vector3, DungeonKnight.Interactables, SimpleGate
 
 ### Community 48 - "3D Camera Follow"
-Cohesion: 0.22
-Nodes (6): float, PlayerController3D, Transform, Vector3, CameraFollow3D, DungeonKnight.Level
+Cohesion: 0.17
+Nodes (9): bool, Camera, float, Object, PlayerController3D, Transform, Vector3, CameraFollow3D (+1 more)
 
 ### Community 49 - "3D Mini-Boss Arena"
 Cohesion: 0.22
 Nodes (7): bool, Collider, DungeonEnemy3D, GameObject, string, DungeonKnight.Level, DungeonMiniBossArena3D
 
 ### Community 50 - "3D Pickups"
-Cohesion: 0.18
+Cohesion: 0.17
 Nodes (6): Collider, float, int, DungeonKnight.Level, DungeonPickup3D, PickupKind
 
 ### Community 51 - "3D Shortcut Elevator"
@@ -356,14 +369,14 @@ Cohesion: 0.24
 Nodes (7): bool, float, PlayerController3D, Transform, Vector3, DungeonKnight.Level, DungeonShortcutElevator3D
 
 ### Community 52 - "3D Game HUD"
-Cohesion: 0.29
-Nodes (6): Color, GUIStyle, PlayerController3D, Rect, DungeonKnight.UI, GameHud3D
+Cohesion: 0.08
+Nodes (26): bool, Camera, Color, EquipmentItem, GUIStyle, HudMessageIcon, int, Material (+18 more)
 
 ### Community 53 - "Hit Burst Effect"
 Cohesion: 0.22
 Nodes (7): Color, float, Sprite, SpriteRenderer, Vector3, DungeonKnight.UI, HitBurst
 
-### Community 54 - "Combat Feedback (Hitstop)"
+### Community 54 - "Community 54"
 Cohesion: 0.29
 Nodes (4): Coroutine, IEnumerator, CombatFeedback, DungeonKnight
 
@@ -393,7 +406,7 @@ Nodes (4): Sprite, Vector3, DungeonKnight.Loot, LootSpawner
 
 ### Community 61 - "Damage Popup"
 Cohesion: 0.25
-Nodes (6): Color, float, Vector3, TextMesh, DamagePopup, DungeonKnight.UI
+Nodes (6): Color, float, TextMesh, Vector3, DamagePopup, DungeonKnight.UI
 
 ### Community 62 - "Squash & Stretch Anim"
 Cohesion: 0.22
@@ -408,8 +421,8 @@ Cohesion: 0.25
 Nodes (5): Collider2D, float, int, DamageHazard, DungeonKnight.Level
 
 ### Community 65 - "3D Moving Platform"
-Cohesion: 0.29
-Nodes (4): float, Vector3, DungeonKnight.Level, DungeonMovingPlatform3D
+Cohesion: 0.20
+Nodes (8): Bounds, CharacterController, Collider, float, Vector3, BoxCollider, DungeonKnight.Level, DungeonMovingPlatform3D
 
 ### Community 66 - "Lightning Flash"
 Cohesion: 0.32
@@ -435,9 +448,9 @@ Nodes (4): GUIStyle, Health, DungeonKnight.UI, EnemyHealthBar
 Cohesion: 0.33
 Nodes (5): float, int, LayerMask, DungeonKnight, GameConstants
 
-### Community 72 - "Shield Pickup"
-Cohesion: 0.33
-Nodes (4): GameObject, IInteractable, DungeonKnight.Loot, ShieldPickup
+### Community 72 - "Community 72"
+Cohesion: 0.24
+Nodes (5): Collider, float, Vector3, CloseRoomCameraZone3D, DungeonKnight.Level
 
 ### Community 73 - "Interactable Interface"
 Cohesion: 0.40
@@ -500,8 +513,8 @@ Cohesion: 0.17
 Nodes (12): Bounds, DungeonInteractable3D, DungeonKnight3DAssets, GameObject, Material, PrimitiveType, Quaternion, Renderer (+4 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.40
-Nodes (3): CodexUnitySkillsBootstrap, DungeonKnight.Editor, MenuItem
+Cohesion: 0.33
+Nodes (4): MenuItem, double, CodexUnitySkillsBootstrap, DungeonKnight.Editor
 
 ### Community 89 - "Community 89"
 Cohesion: 0.40
@@ -544,7 +557,7 @@ Cohesion: 0.24
 Nodes (7): DungeonKnight3DAssets, GameObject, PlayerController3D, Transform, Vector3, DungeonKnight3DEnemySpawner, DungeonKnight.Level
 
 ### Community 120 - "Community 120"
-Cohesion: 0.25
+Cohesion: 0.26
 Nodes (6): DungeonKnight3DAssets, GameObject, Material, Vector3, DungeonKnight3DGeometryBuilder, DungeonKnight.Level
 
 ### Community 121 - "Community 121"
@@ -571,25 +584,53 @@ Nodes (4): Collider, Vector3, DungeonKnight.Player, PlayerAttackResolver3D
 Cohesion: 0.33
 Nodes (4): float, string, DungeonKnight.Player, PlayerStatusMessenger3D
 
+### Community 127 - "Community 127"
+Cohesion: 0.09
+Nodes (11): Bounds, GameObject, Material, MenuItem, Transform, Vector2, Vector3, DungeonKnight3DEditorMenu (+3 more)
+
+### Community 129 - "Community 129"
+Cohesion: 0.39
+Nodes (3): Light, DungeonKnight3DEditorPreviewLight, DungeonKnight.Level
+
+### Community 130 - "Community 130"
+Cohesion: 0.29
+Nodes (4): bool, Renderer, DungeonKnight3DEditorPreviewRenderer, DungeonKnight.Level
+
+### Community 131 - "Community 131"
+Cohesion: 0.17
+Nodes (9): bool, Bounds, Collider, float, Quaternion, Transform, Vector3, DungeonKnight.Level (+1 more)
+
+### Community 132 - "Community 132"
+Cohesion: 0.25
+Nodes (9): Color, DungeonChestVisual3D, DungeonInteractable3D, GameObject, Material, Transform, Vector3, DungeonChestVisualFactory3D (+1 more)
+
+### Community 133 - "Community 133"
+Cohesion: 0.13
+Nodes (13): bool, float, MenuItem, string, Transform, Vector3, DungeonKnight3DWallCornerHandles, DungeonKnight3DWallStretchTool (+5 more)
+
+### Community 134 - "Community 134"
+Cohesion: 0.33
+Nodes (4): GameObject, IInteractable, DungeonKnight.Loot, ShieldPickup
+
 ## Knowledge Gaps
-- **598 isolated node(s):** `DungeonKnight.Editor`, `MenuItem`, `DungeonKnight.Combat`, `int`, `bool` (+593 more)
+- **640 isolated node(s):** `DungeonKnight.Editor`, `double`, `MenuItem`, `DungeonKnight.Editor`, `Predicate<Transform>` (+635 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `DungeonKnight3DBootstrap` connect `3D Scene Bootstrap` to `3D Billboard & Key Drop`?**
+  _High betweenness centrality (0.112) - this node is a cross-community bridge._
 - **Why does `WorldOneOneBootstrap` connect `World 1-1 Bootstrap` to `3D Billboard & Key Drop`?**
-  _High betweenness centrality (0.053) - this node is a cross-community bridge._
-- **Why does `PlayerModelVisual3D` connect `3D Player Animation` to `3D Billboard & Key Drop`?**
+  _High betweenness centrality (0.050) - this node is a cross-community bridge._
+- **Why does `DungeonEnemy3D` connect `3D Dungeon Enemy` to `3D Billboard & Key Drop`?**
   _High betweenness centrality (0.044) - this node is a cross-community bridge._
-- **Why does `PlayerController2D` connect `Player Combat & Inventory` to `3D Billboard & Key Drop`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
-- **What connects `DungeonKnight.Editor`, `MenuItem`, `DungeonKnight.Combat` to the rest of the system?**
-  _598 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `DungeonKnight.Editor`, `double`, `MenuItem` to the rest of the system?**
+  _640 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `World 1-1 Bootstrap` be split into smaller, more focused modules?**
   _Cohesion score 0.09548229548229548 - nodes in this community are weakly interconnected._
 - **Should `3D Scene Bootstrap` be split into smaller, more focused modules?**
-  _Cohesion score 0.08698474521259332 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05521155830753354 - nodes in this community are weakly interconnected._
 - **Should `Character Sprite Factory` be split into smaller, more focused modules?**
   _Cohesion score 0.12895927601809956 - nodes in this community are weakly interconnected._

@@ -5,6 +5,9 @@
 /Builds/
 /Logs/
 /UserSettings/
+/tmp/
+/Assets/Screenshots/
+/Assets/Screenshots.meta
 
 *.csproj
 *.sln
