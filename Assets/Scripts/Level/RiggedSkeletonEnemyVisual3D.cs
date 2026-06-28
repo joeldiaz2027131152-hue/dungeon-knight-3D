@@ -243,6 +243,12 @@ namespace DungeonKnight.Level
                     rustySword = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
                 }
 
+                if (rustySword && rustySword.parent != (transform.parent ? transform.parent : transform))
+                {
+                    AttachMiniBossAxe();
+                    return;
+                }
+
                 if (!rustySword)
                 {
                     AttachMiniBossAxe();
