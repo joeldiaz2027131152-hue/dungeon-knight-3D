@@ -12,6 +12,7 @@ namespace DungeonKnight.Level
         private const string MiniBossAttackResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Slash";
         private const string MiniBossWalkResourcePath = "Characters/Enemies/MiniBoss2/Great Sword Walk";
         private const string MiniBossDeathResourcePath = "Characters/Enemies/MiniBoss2/Dying";
+        private const string MiniBossAxeResourcePath = "Characters/Enemies/MiniBoss2/two_handed_axe";
         private const int WalkInput = 0;
         private const int AttackInput = 1;
         private const int DeathInput = 2;
@@ -106,7 +107,11 @@ namespace DungeonKnight.Level
             }
 
             controller.Configure();
-            if (!miniBoss)
+            if (miniBoss)
+            {
+                controller.AttachMiniBossAxe();
+            }
+            else
             {
                 controller.AttachRustySword();
             }
@@ -229,7 +234,22 @@ namespace DungeonKnight.Level
                 Configure();
             }
 
-            if (miniBossVisual) return;
+            if (miniBossVisual)
+            {
+                rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
+                if (!rustySword)
+                {
+                    Transform owner = transform.parent ? transform.parent : transform;
+                    rustySword = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
+                }
+
+                if (!rustySword)
+                {
+                    AttachMiniBossAxe();
+                }
+
+                return;
+            }
 
             if (!rightHand)
             {
@@ -384,6 +404,52 @@ namespace DungeonKnight.Level
 
             AddRustPatch(rustySword, new Vector3(-0.024f, 0.28f, -0.019f), new Vector3(0.044f, 0.12f, 0.006f), rustMaterial);
             AddRustPatch(rustySword, new Vector3(0.022f, 0.58f, -0.019f), new Vector3(0.04f, 0.1f, 0.006f), rustMaterial);
+        }
+
+        private void AttachMiniBossAxe()
+        {
+            rightHand = FindDeepChild(transform, "mixamorig:RightHand") ?? FindDeepChild(transform, "RightHand");
+            if (!rightHand)
+            {
+                Debug.LogWarning("RiggedSkeletonEnemyVisual3D: RightHand bone not found, mini boss axe skipped.");
+                return;
+            }
+
+            GameObject axePrefab = Resources.Load<GameObject>(MiniBossAxeResourcePath);
+            if (!axePrefab)
+            {
+                Debug.LogWarning($"RiggedSkeletonEnemyVisual3D: missing Resources/{MiniBossAxeResourcePath}.obj");
+                return;
+            }
+
+            Transform owner = transform.parent ? transform.parent : transform;
+            Transform existingAxe = FindDeepChild(owner, "Mini Boss Two-Handed Axe");
+            if (existingAxe)
+            {
+                DestroySafely(existingAxe.gameObject);
+            }
+
+            GameObject axe = Instantiate(axePrefab, owner);
+            axe.name = "Mini Boss Two-Handed Axe";
+            rustySword = axe.transform;
+            rustySword.localScale = Vector3.one * 2.45f;
+
+            foreach (Collider collider in rustySword.GetComponentsInChildren<Collider>(true))
+            {
+                DestroySafely(collider);
+            }
+
+            Renderer[] axeRenderers = rustySword.GetComponentsInChildren<Renderer>(true);
+            foreach (Renderer renderer in axeRenderers)
+            {
+                renderer.enabled = true;
+                renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+                renderer.receiveShadows = true;
+            }
+
+            UpdateRustySwordTransform();
+            Bounds axeBounds = CalculateBounds(axeRenderers);
+            Debug.Log($"RiggedSkeletonEnemyVisual3D: attached mini boss axe. Renderers={axeRenderers.Length}, Size={axeBounds.size}, Parent={owner.name}");
         }
 
         private void RemoveGlowingEyes()
@@ -603,6 +669,13 @@ namespace DungeonKnight.Level
         private void UpdateRustySwordTransform()
         {
             if (!rightHand || !rustySword) return;
+            if (miniBossVisual)
+            {
+                Transform owner = transform.parent ? transform.parent : transform;
+                rustySword.position = rightHand.position + owner.right * 0.28f + owner.forward * 0.05f + Vector3.up * 0.22f;
+                rustySword.rotation = owner.rotation * Quaternion.Euler(6f, 0f, -34f);
+                return;
+            }
 
             rustySword.position = rightHand.position;
             rustySword.rotation = rightHand.rotation * Quaternion.Euler(8f, 88f, -88f);
