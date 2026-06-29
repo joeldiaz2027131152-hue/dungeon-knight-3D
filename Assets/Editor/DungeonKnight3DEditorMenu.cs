@@ -21,6 +21,9 @@ namespace DungeonKnight.Editor
             if (!SaveActiveSceneBeforeEditableWorldBuild()) return;
             if (!BackupActiveSceneBeforeEditableWorldBuild()) return;
 
+            UnityEngine.SceneManagement.Scene sourceScene = EditorSceneManager.GetActiveScene();
+            string returnScenePath = string.IsNullOrEmpty(sourceScene.path) ? EditableScenePath : sourceScene.path;
+
             EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
             DungeonKnight3DBootstrap.BuildEditableScene();
             UnityEngine.SceneManagement.Scene scene = EditorSceneManager.GetActiveScene();
@@ -30,7 +33,12 @@ namespace DungeonKnight.Editor
             if (saved)
             {
                 AssetDatabase.Refresh();
-                Debug.Log($"[Dungeon Knight 3D] Code-generated preview world built and saved: {EditableCodePreviewScenePath}. Manual scene preserved: {EditableScenePath}");
+                if (File.Exists(returnScenePath))
+                {
+                    EditorSceneManager.OpenScene(returnScenePath, OpenSceneMode.Single);
+                }
+
+                Debug.Log($"[Dungeon Knight 3D] Code-generated preview world built and saved: {EditableCodePreviewScenePath}. Reopened manual scene: {returnScenePath}");
             }
             else
             {
