@@ -8,6 +8,8 @@ namespace DungeonKnight.Level
     {
         public const string GeneratedRootName = "Dungeon Knight 3D Generated World";
         public static readonly Vector3 PlayerSpawn = new Vector3(0f, 1.05f, -16f);
+        private const bool EnemyEncountersEnabled = false;
+        private const bool EnemySetDressingEnabled = false;
 
         private static bool built;
         [SerializeField] private bool quietEditorPreview;
@@ -215,11 +217,27 @@ namespace DungeonKnight.Level
         private static void RepairEnemiesRuntimeSetup(PlayerController3D player)
         {
             if (!player) return;
+            if (!EnemyEncountersEnabled)
+            {
+                RemoveEnemyActorsFromScene();
+                RemoveOrphanEnemySwords();
+                return;
+            }
+
             RemoveOrphanEnemySwords();
 
             foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Include))
             {
                 enemy.RepairRuntimeSetup(player);
+            }
+        }
+
+        private static void RemoveEnemyActorsFromScene()
+        {
+            foreach (DungeonEnemy3D enemy in Object.FindObjectsByType<DungeonEnemy3D>(FindObjectsInactive.Include))
+            {
+                if (Application.isPlaying) DestroySafely(enemy.gameObject);
+                else Object.DestroyImmediate(enemy.gameObject);
             }
         }
 
@@ -458,13 +476,13 @@ namespace DungeonKnight.Level
         private void CreateDungeonShell()
         {
             CreateBox("Main Stone Floor", new Vector3(0f, -0.25f, 0f), new Vector3(15f, 0.5f, 44f), floorStone);
-            CreateBox("Left Wall", new Vector3(-7.75f, 2.5f, 0f), new Vector3(0.5f, 5.5f, 44f), vineWallStone);
-            CreateBox("Right Wall", new Vector3(7.75f, 2.5f, 0f), new Vector3(0.5f, 5.5f, 44f), wallStone);
-            CreateBox("Left Wall Upper Seal", new Vector3(-7.75f, 5.65f, 0f), new Vector3(0.7f, 0.55f, 44f), wallStone);
-            CreateBox("Right Wall Upper Seal", new Vector3(7.75f, 5.65f, 0f), new Vector3(0.7f, 0.55f, 44f), wallStone);
-            CreateBox("Rear Wall Left", new Vector3(-5.15f, 2.5f, 22f), new Vector3(4.7f, 5.5f, 0.5f), wallStone);
-            CreateBox("Rear Wall Right", new Vector3(5.15f, 2.5f, 22f), new Vector3(4.7f, 5.5f, 0.5f), wallStone);
-            CreateBox("Rear Wall Above Door", new Vector3(0f, 4.2f, 22f), new Vector3(5.6f, 2.1f, 0.5f), vineWallStone);
+            CreateBox("Left Wall", new Vector3(-7.75f, 2.5f, 0.12f), new Vector3(0.5f, 5.5f, 44.35f), vineWallStone);
+            CreateBox("Right Wall", new Vector3(7.75f, 2.5f, 0.12f), new Vector3(0.5f, 5.5f, 44.35f), wallStone);
+            CreateBox("Left Wall Upper Seal", new Vector3(-7.75f, 5.65f, 0.12f), new Vector3(0.7f, 0.55f, 44.35f), wallStone);
+            CreateBox("Right Wall Upper Seal", new Vector3(7.75f, 5.65f, 0.12f), new Vector3(0.7f, 0.55f, 44.35f), wallStone);
+            CreateBox("Rear Wall Left", new Vector3(-5.2f, 2.5f, 22.03f), new Vector3(4.9f, 5.5f, 0.72f), wallStone);
+            CreateBox("Rear Wall Right", new Vector3(5.2f, 2.5f, 22.03f), new Vector3(4.9f, 5.5f, 0.72f), wallStone);
+            CreateBox("Rear Wall Above Door", new Vector3(0f, 4.2f, 22.03f), new Vector3(5.95f, 2.1f, 0.72f), vineWallStone);
             CreateBox("Start Arch", new Vector3(0f, 3.8f, -20f), new Vector3(15f, 0.8f, 0.7f), wallStone);
             CreateFloorInlays("World 1-1", -18f, 20f, 12.8f, 0.025f);
 
@@ -640,15 +658,15 @@ namespace DungeonKnight.Level
         private void CreateWorldOneTwo(PlayerController3D player)
         {
             CreateBox("World 1-2 Courtyard Floor", new Vector3(0f, -0.25f, 43f), new Vector3(22f, 0.5f, 42f), floorStone);
-            CreateBox("World 1-2 Left Parapet", new Vector3(-11.25f, 1.25f, 43f), new Vector3(0.5f, 3f, 42f), wallStone);
-            CreateBox("World 1-2 Right Parapet", new Vector3(11.25f, 1.25f, 43f), new Vector3(0.5f, 3f, 42f), vineWallStone);
-            CreateBox("World 1-2 Left Upper Wall Seal", new Vector3(-11.25f, 3.05f, 43f), new Vector3(0.7f, 0.5f, 42f), wallStone);
-            CreateBox("World 1-2 Right Upper Wall Seal", new Vector3(11.25f, 3.05f, 43f), new Vector3(0.7f, 0.5f, 42f), wallStone);
-            CreateBox("World 1-2 Entry Left Seal", new Vector3(-7f, 1.9f, 22.05f), new Vector3(8f, 3.4f, 0.48f), wallStone);
-            CreateBox("World 1-2 Entry Right Seal", new Vector3(7f, 1.9f, 22.05f), new Vector3(8f, 3.4f, 0.48f), wallStone);
-            CreateBox("World 1-2 Far Arch Left", new Vector3(-6.05f, 2.2f, 68.35f), new Vector3(4.5f, 4.6f, 0.5f), wallStone);
-            CreateBox("World 1-2 Far Arch Right", new Vector3(6.05f, 2.2f, 68.35f), new Vector3(4.5f, 4.6f, 0.5f), wallStone);
-            CreateBox("World 1-2 Far Arch Top", new Vector3(0f, 4.6f, 68.35f), new Vector3(12.6f, 0.9f, 0.55f), vineWallStone);
+            CreateBox("World 1-2 Left Parapet", new Vector3(-11.25f, 1.25f, 45.38f), new Vector3(0.5f, 3f, 46.95f), wallStone);
+            CreateBox("World 1-2 Right Parapet", new Vector3(11.25f, 1.25f, 45.38f), new Vector3(0.5f, 3f, 46.95f), vineWallStone);
+            CreateBox("World 1-2 Left Upper Wall Seal", new Vector3(-11.25f, 3.05f, 45.38f), new Vector3(0.7f, 0.5f, 46.95f), wallStone);
+            CreateBox("World 1-2 Right Upper Wall Seal", new Vector3(11.25f, 3.05f, 45.38f), new Vector3(0.7f, 0.5f, 46.95f), wallStone);
+            CreateBox("World 1-2 Entry Left Seal", new Vector3(-7.15f, 1.9f, 22.05f), new Vector3(8.55f, 3.4f, 0.75f), wallStone);
+            CreateBox("World 1-2 Entry Right Seal", new Vector3(7.15f, 1.9f, 22.05f), new Vector3(8.55f, 3.4f, 0.75f), wallStone);
+            CreateBox("World 1-2 Far Arch Left", new Vector3(-6.12f, 2.2f, 68.35f), new Vector3(4.75f, 4.6f, 0.72f), wallStone);
+            CreateBox("World 1-2 Far Arch Right", new Vector3(6.12f, 2.2f, 68.35f), new Vector3(4.75f, 4.6f, 0.72f), wallStone);
+            CreateBox("World 1-2 Far Arch Top", new Vector3(0f, 4.6f, 68.35f), new Vector3(12.95f, 0.9f, 0.78f), vineWallStone);
             CreateBox("Tower Threshold Stone Link", new Vector3(0f, -0.25f, 66.7f), new Vector3(12f, 0.5f, 4.3f), exteriorStone);
             CreateFloorInlays("World 1-2 Courtyard", 24f, 62f, 18f, 0.026f);
 
@@ -789,8 +807,19 @@ namespace DungeonKnight.Level
             }
 
             Transform towerGate = CreateGothicDoor("Tower Gothic Door", new Vector3(0f, 1.65f, 68.85f), 6.2f, 3.35f, false);
-            CreateInvisibleInteractableBox("Tower Gate Lock", new Vector3(0f, 1.0f, 67.75f), new Vector3(1.55f, 1.45f, 0.75f), brass).ConfigureTowerGate(towerGate);
-            CreateInvisibleInteractableBox("Tower Gothic Door Interaction", new Vector3(0f, 1.25f, 67.65f), new Vector3(4.8f, 2.35f, 1.85f), brass).ConfigureTowerGate(towerGate);
+            DungeonInteractable3D towerGateLock = CreateInvisibleInteractableBox("Tower Gate Lock", new Vector3(0f, 1.0f, 67.75f), new Vector3(1.55f, 1.45f, 0.75f), brass);
+            DungeonInteractable3D towerDoorInteraction = CreateInvisibleInteractableBox("Tower Gothic Door Interaction", new Vector3(0f, 1.25f, 67.65f), new Vector3(4.8f, 2.35f, 1.85f), brass);
+            if (EnemyEncountersEnabled)
+            {
+                towerGateLock.ConfigureTowerGate(towerGate);
+                towerDoorInteraction.ConfigureTowerGate(towerGate);
+            }
+            else
+            {
+                towerGateLock.ConfigureUnlockedGate(towerGate);
+                towerDoorInteraction.ConfigureUnlockedGate(towerGate);
+            }
+
             CreateCloseRoomCameraZone("Tower Key Chamber Close Camera Zone", new Vector3(0f, 2.05f, 63.25f), new Vector3(14.9f, 5.2f, 8.5f));
         }
 
@@ -798,28 +827,28 @@ namespace DungeonKnight.Level
         {
             CreateBox("Tower Key Chamber Left Wall", new Vector3(-8.25f, 2.45f, 62.75f), new Vector3(0.7f, 5.6f, 13.1f), wallStone);
             CreateBox("Tower Key Chamber Right Wall", new Vector3(8.25f, 2.45f, 62.75f), new Vector3(0.7f, 5.6f, 13.1f), wallStone);
-            CreateBox("Tower Key Chamber Outer Left Gap Seal", new Vector3(-9.75f, 2.15f, 66.65f), new Vector3(3.0f, 4.8f, 0.5f), wallStone);
-            CreateBox("Tower Key Chamber Outer Right Gap Seal", new Vector3(9.75f, 2.15f, 66.65f), new Vector3(3.0f, 4.8f, 0.5f), wallStone);
-            CreateBox("Tower Key Chamber Front Left Return", new Vector3(-5.55f, 2.15f, 56.45f), new Vector3(5.9f, 4.8f, 0.85f), wallStone);
-            CreateBox("Tower Key Chamber Front Right Return", new Vector3(5.55f, 2.15f, 56.45f), new Vector3(5.9f, 4.8f, 0.85f), wallStone);
-            CreateBox("Tower Key Chamber Front Header", new Vector3(0f, 4.05f, 56.45f), new Vector3(16.8f, 2.0f, 0.85f), wallStone);
-            CreateBox("Tower Key Chamber Front Left Gap Seal", new Vector3(-5.55f, 2.15f, 56.32f), new Vector3(5.9f, 4.8f, 0.9f), wallStone);
-            CreateBox("Tower Key Chamber Front Right Gap Seal", new Vector3(5.55f, 2.15f, 56.32f), new Vector3(5.9f, 4.8f, 0.9f), wallStone);
-            CreateBox("Tower Key Chamber Front Top Gap Seal", new Vector3(0f, 4.05f, 56.3f), new Vector3(16.9f, 2.05f, 0.9f), wallStone);
-            CreateBox("Tower Key Chamber Front Left Jamb Seal", new Vector3(-2.9f, 2.15f, 56.28f), new Vector3(0.38f, 4.8f, 0.95f), wallStone);
-            CreateBox("Tower Key Chamber Front Right Jamb Seal", new Vector3(2.9f, 2.15f, 56.28f), new Vector3(0.38f, 4.8f, 0.95f), wallStone);
-            CreateBox("Tower Key Chamber Rear Left Fill", new Vector3(-5.55f, 2.15f, 68.85f), new Vector3(5.9f, 4.8f, 0.9f), vineWallStone);
-            CreateBox("Tower Key Chamber Rear Right Fill", new Vector3(5.55f, 2.15f, 68.85f), new Vector3(5.9f, 4.8f, 0.9f), vineWallStone);
-            CreateBox("Tower Key Chamber Rear Header", new Vector3(0f, 4.05f, 68.85f), new Vector3(16.9f, 2.05f, 0.9f), wallStone);
-            CreateBox("Tower Key Chamber Rear Left Gap Seal", new Vector3(-5.55f, 2.15f, 69.02f), new Vector3(5.9f, 4.8f, 0.95f), vineWallStone);
-            CreateBox("Tower Key Chamber Rear Right Gap Seal", new Vector3(5.55f, 2.15f, 69.02f), new Vector3(5.9f, 4.8f, 0.95f), vineWallStone);
-            CreateBox("Tower Key Chamber Rear Top Gap Seal", new Vector3(0f, 4.05f, 69.04f), new Vector3(16.9f, 2.05f, 0.95f), wallStone);
-            CreateBox("Tower Key Chamber Rear Left Jamb Seal", new Vector3(-2.9f, 2.15f, 69.06f), new Vector3(0.38f, 4.8f, 0.95f), wallStone);
-            CreateBox("Tower Key Chamber Rear Right Jamb Seal", new Vector3(2.9f, 2.15f, 69.06f), new Vector3(0.38f, 4.8f, 0.95f), wallStone);
-            CreateBox("Tower Key Chamber Unified Floor", new Vector3(0f, -0.255f, 62.8f), new Vector3(16.9f, 0.5f, 13.1f), floorStone);
-            CreateBox("Tower Key Chamber Ceiling", new Vector3(0f, 4.95f, 62.8f), new Vector3(17.2f, 0.7f, 13.4f), darkStone);
-            CreateBox("Tower Key Chamber Left Upper Side Seal", new Vector3(-8.25f, 4.75f, 62.75f), new Vector3(1.0f, 1.1f, 13.4f), wallStone);
-            CreateBox("Tower Key Chamber Right Upper Side Seal", new Vector3(8.25f, 4.75f, 62.75f), new Vector3(1.0f, 1.1f, 13.4f), wallStone);
+            CreateBox("Tower Key Chamber Outer Left Gap Seal", new Vector3(-9.68f, 2.15f, 68.35f), new Vector3(3.25f, 4.8f, 0.76f), wallStone);
+            CreateBox("Tower Key Chamber Outer Right Gap Seal", new Vector3(9.68f, 2.15f, 68.35f), new Vector3(3.25f, 4.8f, 0.76f), wallStone);
+            CreateBox("Tower Key Chamber Front Left Return", new Vector3(-5.62f, 2.15f, 56.45f), new Vector3(6.18f, 4.8f, 1.08f), wallStone);
+            CreateBox("Tower Key Chamber Front Right Return", new Vector3(5.62f, 2.15f, 56.45f), new Vector3(6.18f, 4.8f, 1.08f), wallStone);
+            CreateBox("Tower Key Chamber Front Header", new Vector3(0f, 4.05f, 56.45f), new Vector3(17.05f, 2.0f, 1.08f), wallStone);
+            CreateBox("Tower Key Chamber Front Left Gap Seal", new Vector3(-5.62f, 2.15f, 56.25f), new Vector3(6.18f, 4.8f, 1.12f), wallStone);
+            CreateBox("Tower Key Chamber Front Right Gap Seal", new Vector3(5.62f, 2.15f, 56.25f), new Vector3(6.18f, 4.8f, 1.12f), wallStone);
+            CreateBox("Tower Key Chamber Front Top Gap Seal", new Vector3(0f, 4.05f, 56.25f), new Vector3(17.1f, 2.05f, 1.12f), wallStone);
+            CreateBox("Tower Key Chamber Front Left Jamb Seal", new Vector3(-2.92f, 2.15f, 56.22f), new Vector3(0.5f, 4.8f, 1.18f), wallStone);
+            CreateBox("Tower Key Chamber Front Right Jamb Seal", new Vector3(2.92f, 2.15f, 56.22f), new Vector3(0.5f, 4.8f, 1.18f), wallStone);
+            CreateBox("Tower Key Chamber Rear Left Fill", new Vector3(-5.62f, 2.15f, 68.85f), new Vector3(6.18f, 4.8f, 1.08f), vineWallStone);
+            CreateBox("Tower Key Chamber Rear Right Fill", new Vector3(5.62f, 2.15f, 68.85f), new Vector3(6.18f, 4.8f, 1.08f), vineWallStone);
+            CreateBox("Tower Key Chamber Rear Header", new Vector3(0f, 4.05f, 68.85f), new Vector3(17.1f, 2.05f, 1.08f), wallStone);
+            CreateBox("Tower Key Chamber Rear Left Gap Seal", new Vector3(-5.62f, 2.15f, 69.08f), new Vector3(6.18f, 4.8f, 1.18f), vineWallStone);
+            CreateBox("Tower Key Chamber Rear Right Gap Seal", new Vector3(5.62f, 2.15f, 69.08f), new Vector3(6.18f, 4.8f, 1.18f), vineWallStone);
+            CreateBox("Tower Key Chamber Rear Top Gap Seal", new Vector3(0f, 4.05f, 69.08f), new Vector3(17.1f, 2.05f, 1.18f), wallStone);
+            CreateBox("Tower Key Chamber Rear Left Jamb Seal", new Vector3(-2.92f, 2.15f, 69.08f), new Vector3(0.5f, 4.8f, 1.18f), wallStone);
+            CreateBox("Tower Key Chamber Rear Right Jamb Seal", new Vector3(2.92f, 2.15f, 69.08f), new Vector3(0.5f, 4.8f, 1.18f), wallStone);
+            CreateBox("Tower Key Chamber Unified Floor", new Vector3(0f, -0.255f, 62.8f), new Vector3(17.15f, 0.5f, 13.35f), floorStone);
+            CreateBox("Tower Key Chamber Ceiling", new Vector3(0f, 4.95f, 62.8f), new Vector3(17.35f, 0.7f, 13.65f), darkStone);
+            CreateBox("Tower Key Chamber Left Upper Side Seal", new Vector3(-8.25f, 4.75f, 62.75f), new Vector3(1.1f, 1.1f, 13.65f), wallStone);
+            CreateBox("Tower Key Chamber Right Upper Side Seal", new Vector3(8.25f, 4.75f, 62.75f), new Vector3(1.1f, 1.1f, 13.65f), wallStone);
 
             CreateTorch(new Vector3(-7.85f, 3.15f, 62.75f));
             CreateTorch(new Vector3(7.85f, 3.15f, 62.75f));
@@ -1059,6 +1088,8 @@ namespace DungeonKnight.Level
 
         private GameObject CreateEnemy(string name, Vector3 position, PlayerController3D player, int hp, int damage, float speed, bool dropsKey, bool dropsTowerKey, int minCoinReward, int maxCoinReward, bool miniBossVisual = false)
         {
+            if (!EnemyEncountersEnabled) return null;
+
             GameObject enemyObject = GameObject.CreatePrimitive(PrimitiveType.Capsule);
             enemyObject.name = name;
             SetGeneratedParent(enemyObject);
@@ -2169,6 +2200,8 @@ namespace DungeonKnight.Level
 
         private void CreateFallenSkeleton(string prefix, Vector3 center, float yaw)
         {
+            if (!EnemySetDressingEnabled) return;
+
             Quaternion rotation = Quaternion.Euler(0f, yaw, 0f);
             Vector3 right = rotation * Vector3.right;
             Vector3 forward = rotation * Vector3.forward;
