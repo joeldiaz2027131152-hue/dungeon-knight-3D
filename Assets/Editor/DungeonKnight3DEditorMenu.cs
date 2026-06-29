@@ -12,11 +12,13 @@ namespace DungeonKnight.Editor
     public static class DungeonKnight3DEditorMenu
     {
         private const string EditableScenePath = "Assets/Scenes/WorldEditable.unity";
+        private const string EditableCodePreviewScenePath = "Assets/Scenes/WorldEditable_CodePreview.unity";
         private const string EditableSceneBackupFolder = "Assets/Scenes/Backups/WorldEditable";
 
         [MenuItem("Tools/Dungeon Knight 3D/Build Editable World")]
         public static void BuildEditableWorld()
         {
+            if (!SaveActiveSceneBeforeEditableWorldBuild()) return;
             if (!BackupActiveSceneBeforeEditableWorldBuild()) return;
 
             EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
@@ -24,15 +26,15 @@ namespace DungeonKnight.Editor
             UnityEngine.SceneManagement.Scene scene = EditorSceneManager.GetActiveScene();
             EditorSceneManager.MarkSceneDirty(scene);
 
-            bool saved = EditorSceneManager.SaveScene(scene, EditableScenePath);
+            bool saved = EditorSceneManager.SaveScene(scene, EditableCodePreviewScenePath);
             if (saved)
             {
                 AssetDatabase.Refresh();
-                Debug.Log($"[Dungeon Knight 3D] Clean editable generated world built and saved: {EditableScenePath}");
+                Debug.Log($"[Dungeon Knight 3D] Code-generated preview world built and saved: {EditableCodePreviewScenePath}. Manual scene preserved: {EditableScenePath}");
             }
             else
             {
-                Debug.LogWarning("[Dungeon Knight 3D] Editable world was built, but saving WorldEditable.unity failed or was cancelled.");
+                Debug.LogWarning("[Dungeon Knight 3D] Editable world preview was built, but saving WorldEditable_CodePreview.unity failed or was cancelled.");
             }
         }
 
@@ -548,6 +550,30 @@ namespace DungeonKnight.Editor
 
             AssetDatabase.Refresh();
             Debug.Log($"[Dungeon Knight 3D] Editable world backup saved before rebuild: {backupPath}");
+            return true;
+        }
+
+        private static bool SaveActiveSceneBeforeEditableWorldBuild()
+        {
+            UnityEngine.SceneManagement.Scene scene = EditorSceneManager.GetActiveScene();
+            if (!scene.IsValid())
+            {
+                Debug.LogWarning("[Dungeon Knight 3D] Could not save the active scene because it is invalid. Build cancelled.");
+                return false;
+            }
+
+            if (!scene.isDirty) return true;
+
+            string savePath = string.IsNullOrEmpty(scene.path) ? EditableScenePath : scene.path;
+            bool saved = EditorSceneManager.SaveScene(scene, savePath);
+            if (!saved)
+            {
+                Debug.LogWarning("[Dungeon Knight 3D] Active scene save failed or was cancelled. Build cancelled to protect manual changes.");
+                return false;
+            }
+
+            AssetDatabase.Refresh();
+            Debug.Log($"[Dungeon Knight 3D] Active scene saved before code preview build: {savePath}");
             return true;
         }
 
