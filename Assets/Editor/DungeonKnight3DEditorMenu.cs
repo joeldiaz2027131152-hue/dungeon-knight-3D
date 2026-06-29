@@ -1,5 +1,4 @@
 #if UNITY_EDITOR
-using System;
 using System.Collections.Generic;
 using System.IO;
 using DungeonKnight.Level;
@@ -537,7 +536,7 @@ namespace DungeonKnight.Editor
             EnsureAssetFolder("Assets/Scenes/Backups");
             EnsureAssetFolder(EditableSceneBackupFolder);
 
-            string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            string timestamp = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
             string backupPath = AssetDatabase.GenerateUniqueAssetPath($"{EditableSceneBackupFolder}/WorldEditable_{timestamp}.unity");
 
             bool backedUp = EditorSceneManager.SaveScene(scene, backupPath, true);
