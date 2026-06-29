@@ -753,8 +753,8 @@ namespace DungeonKnight.Level
             CreateBox("World 1-3 Mid Floor Right Rail", new Vector3(6.75f, 3.55f, 87f), new Vector3(0.28f, 1.0f, 16f), darkStone);
             CreateBox("World 1-3 Top Floor Left Rail", new Vector3(-6.25f, 6.75f, 97f), new Vector3(0.28f, 1.0f, 14f), darkStone);
             CreateBox("World 1-3 Top Floor Right Rail", new Vector3(6.25f, 6.75f, 97f), new Vector3(0.28f, 1.0f, 14f), darkStone);
-            CreateStairRun("World 1-3 Lower Tower Stair", new Vector3(-5.5f, 0f, 80.8f), 13, new Vector3(0.45f, 0.25f, 0.48f), 1.35f, true);
-            CreateStairRun("World 1-3 Upper Tower Stair", new Vector3(5.2f, 3.1f, 89.1f), 13, new Vector3(-0.45f, 0.25f, 0.48f), 1.35f, true);
+            CreateStairRun("World 1-3 Lower Tower Stair", new Vector3(-5.5f, 0f, 80.8f), 13, new Vector3(0.45f, 0.25f, 0.48f), 1.35f);
+            CreateStairRun("World 1-3 Upper Tower Stair", new Vector3(5.2f, 3.1f, 89.1f), 13, new Vector3(-0.45f, 0.25f, 0.48f), 1.35f);
             CreateBox("World 1-3 High Tower Floor", new Vector3(0f, 9.35f, 108f), new Vector3(11.2f, 0.45f, 13.5f), floorStone);
             CreateBox("World 1-3 Spire Floor", new Vector3(0f, 12.55f, 119f), new Vector3(9.4f, 0.45f, 10.5f), floorStone);
             CreateBox("World 1-3 High Left Wall", new Vector3(-5.85f, 9.5f, 108f), new Vector3(0.45f, 6.2f, 13.5f), wallStone);
@@ -763,8 +763,8 @@ namespace DungeonKnight.Level
             CreateBox("World 1-3 High Front Rail", new Vector3(0f, 9.95f, 101.15f), new Vector3(11.2f, 1f, 0.28f), darkStone);
             CreateBox("World 1-3 Spire Left Rail", new Vector3(-4.9f, 13.15f, 119f), new Vector3(0.25f, 1f, 10.5f), darkStone);
             CreateBox("World 1-3 Spire Right Rail", new Vector3(4.9f, 13.15f, 119f), new Vector3(0.25f, 1f, 10.5f), darkStone);
-            CreateStairRun("World 1-3 High Tower Stair", new Vector3(-4.9f, 6.28f, 101.4f), 13, new Vector3(0.42f, 0.25f, 0.48f), 1.25f, true);
-            CreateStairRun("World 1-3 Spire Stair", new Vector3(4.35f, 9.45f, 112.2f), 13, new Vector3(-0.38f, 0.25f, 0.43f), 1.15f, true);
+            CreateStairRun("World 1-3 High Tower Stair", new Vector3(-4.9f, 6.28f, 101.4f), 13, new Vector3(0.42f, 0.25f, 0.48f), 1.25f);
+            CreateStairRun("World 1-3 Spire Stair", new Vector3(4.35f, 9.45f, 112.2f), 13, new Vector3(-0.38f, 0.25f, 0.43f), 1.15f);
             CreateMovingPlatform("World 1-3 Lift Stone", new Vector3(-4.6f, 4.4f, 94f), new Vector3(2.8f, 0.42f, 2.8f), new Vector3(0f, 2.6f, 0f), 0.7f);
             CreateFloorInlays("World 1-3 Lower", 68f, 86f, 12f, 0.026f);
             CreateFloorInlays("World 1-3 High", 102f, 123f, 8f, 12.83f);
@@ -1245,13 +1245,10 @@ namespace DungeonKnight.Level
             return sprites;
         }
 
-        private void CreateStairRun(string name, Vector3 start, int steps, Vector3 stepOffset, float width, bool alignStepsToRun = false)
+        private void CreateStairRun(string name, Vector3 start, int steps, Vector3 stepOffset, float width)
         {
             Transform group = CreateGroup(name, start);
             Vector3 alignedStepOffset = stepOffset;
-            Quaternion stepRotation = alignStepsToRun
-                ? Quaternion.Euler(0f, Mathf.Atan2(stepOffset.x, stepOffset.z) * Mathf.Rad2Deg, 0f)
-                : Quaternion.identity;
             for (int i = 0; i < steps; i++)
             {
                 Vector3 position = start + alignedStepOffset * i;
@@ -1259,7 +1256,6 @@ namespace DungeonKnight.Level
                     ? new Vector3(Mathf.Abs(alignedStepOffset.x) + 0.35f, 0.28f, width)
                     : new Vector3(width, 0.28f, Mathf.Abs(alignedStepOffset.z) + 0.35f);
                 GameObject step = CreateBox($"{name} {i + 1}", position, scale, exteriorStone);
-                step.transform.rotation = stepRotation;
                 step.transform.SetParent(group, true);
             }
         }
