@@ -81,8 +81,8 @@ namespace DungeonKnight.Level
             CreateBox("World 1-3 Rear Wall", new Vector3(0f, 5.4f, 104f), new Vector3(16.5f, 10f, 0.5f), assets.ShadowStone);
             interactables.CreateDoor("Door 1-3 Back To 1-2", new Vector3(0f, 1.35f, 70.15f), new Vector3(2.35f, 2.7f, 0.35f), new Vector3(0f, 1.05f, 61.8f), Vector3.back, "Regresaste al World 1-2.");
 
-            traversal.CreateStairRun("World 1-3 Lower Tower Stair", new Vector3(-5.5f, 0f, 80.8f), 13, new Vector3(0f, 0.25f, 0.48f), 1.35f);
-            traversal.CreateStairRun("World 1-3 Upper Tower Stair", new Vector3(5.2f, 3.1f, 89.1f), 13, new Vector3(0f, 0.25f, 0.48f), 1.35f);
+            traversal.CreateStairRun("World 1-3 Lower Tower Stair", new Vector3(-5.5f, 0f, 80.8f), 13, new Vector3(0.45f, 0.25f, 0.48f), 1.35f, true);
+            traversal.CreateStairRun("World 1-3 Upper Tower Stair", new Vector3(5.2f, 3.1f, 89.1f), 13, new Vector3(-0.45f, 0.25f, 0.48f), 1.35f, true);
             traversal.CreateMovingPlatform("World 1-3 Lift Stone", new Vector3(-4.6f, 4.4f, 94f), new Vector3(2.8f, 0.42f, 2.8f), new Vector3(0f, 2.6f, 0f), 0.7f);
 
             for (int i = 0; i < 5; i++)
