@@ -11,15 +11,19 @@ namespace DungeonKnight.Level
             this.assets = assets;
         }
 
-        public void CreateStairRun(string name, Vector3 start, int steps, Vector3 stepOffset, float width)
+        public void CreateStairRun(string name, Vector3 start, int steps, Vector3 stepOffset, float width, bool alignStepsToRun = false)
         {
+            Quaternion stepRotation = alignStepsToRun
+                ? Quaternion.Euler(0f, Mathf.Atan2(stepOffset.x, stepOffset.z) * Mathf.Rad2Deg, 0f)
+                : Quaternion.identity;
             for (int i = 0; i < steps; i++)
             {
                 Vector3 position = start + stepOffset * i;
                 Vector3 scale = Mathf.Abs(stepOffset.x) > Mathf.Abs(stepOffset.z)
                     ? new Vector3(Mathf.Abs(stepOffset.x) + 0.35f, 0.28f, width)
                     : new Vector3(width, 0.28f, Mathf.Abs(stepOffset.z) + 0.35f);
-                DungeonKnight3DGeometryBuilder.CreateBox($"{name} {i + 1}", position, scale, assets.Stone);
+                GameObject step = DungeonKnight3DGeometryBuilder.CreateBox($"{name} {i + 1}", position, scale, assets.Stone);
+                step.transform.rotation = stepRotation;
             }
         }
 
