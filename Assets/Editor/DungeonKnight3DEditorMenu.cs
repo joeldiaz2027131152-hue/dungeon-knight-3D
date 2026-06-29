@@ -1,4 +1,5 @@
 #if UNITY_EDITOR
+using System;
 using System.Collections.Generic;
 using System.IO;
 using DungeonKnight.Level;
@@ -11,13 +12,29 @@ namespace DungeonKnight.Editor
 {
     public static class DungeonKnight3DEditorMenu
     {
+        private const string EditableScenePath = "Assets/Scenes/WorldEditable.unity";
+        private const string EditableSceneBackupFolder = "Assets/Scenes/Backups/WorldEditable";
+
         [MenuItem("Tools/Dungeon Knight 3D/Build Editable World")]
         public static void BuildEditableWorld()
         {
+            if (!BackupActiveSceneBeforeEditableWorldBuild()) return;
+
             EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
             DungeonKnight3DBootstrap.BuildEditableScene();
-            EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            Debug.Log("[Dungeon Knight 3D] Clean editable generated world built in the Scene view.");
+            UnityEngine.SceneManagement.Scene scene = EditorSceneManager.GetActiveScene();
+            EditorSceneManager.MarkSceneDirty(scene);
+
+            bool saved = EditorSceneManager.SaveScene(scene, EditableScenePath);
+            if (saved)
+            {
+                AssetDatabase.Refresh();
+                Debug.Log($"[Dungeon Knight 3D] Clean editable generated world built and saved: {EditableScenePath}");
+            }
+            else
+            {
+                Debug.LogWarning("[Dungeon Knight 3D] Editable world was built, but saving WorldEditable.unity failed or was cancelled.");
+            }
         }
 
         [MenuItem("Tools/Dungeon Knight 3D/Clear Editable World")]
@@ -486,7 +503,6 @@ namespace DungeonKnight.Editor
         [MenuItem("Tools/Dungeon Knight 3D/Save Editable Scene")]
         public static void SaveEditableScene()
         {
-            const string scenePath = "Assets/Scenes/WorldEditable.unity";
             if (!AssetDatabase.IsValidFolder("Assets/Scenes"))
             {
                 AssetDatabase.CreateFolder("Assets", "Scenes");
@@ -494,17 +510,60 @@ namespace DungeonKnight.Editor
 
             UnityEngine.SceneManagement.Scene scene = EditorSceneManager.GetActiveScene();
             bool saved = string.IsNullOrEmpty(scene.path)
-                ? EditorSceneManager.SaveScene(scene, scenePath)
+                ? EditorSceneManager.SaveScene(scene, EditableScenePath)
                 : EditorSceneManager.SaveScene(scene);
 
             if (saved)
             {
                 AssetDatabase.Refresh();
-                Debug.Log($"[Dungeon Knight 3D] Scene saved: {(string.IsNullOrEmpty(scene.path) ? scenePath : scene.path)}");
+                Debug.Log($"[Dungeon Knight 3D] Scene saved: {(string.IsNullOrEmpty(scene.path) ? EditableScenePath : scene.path)}");
             }
             else
             {
                 Debug.LogWarning("[Dungeon Knight 3D] Scene save was cancelled or failed.");
+            }
+        }
+
+        private static bool BackupActiveSceneBeforeEditableWorldBuild()
+        {
+            UnityEngine.SceneManagement.Scene scene = EditorSceneManager.GetActiveScene();
+            if (!scene.IsValid())
+            {
+                Debug.LogWarning("[Dungeon Knight 3D] Could not back up the active scene because it is invalid. Build cancelled.");
+                return false;
+            }
+
+            EnsureAssetFolder("Assets/Scenes");
+            EnsureAssetFolder("Assets/Scenes/Backups");
+            EnsureAssetFolder(EditableSceneBackupFolder);
+
+            string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            string backupPath = AssetDatabase.GenerateUniqueAssetPath($"{EditableSceneBackupFolder}/WorldEditable_{timestamp}.unity");
+
+            bool backedUp = EditorSceneManager.SaveScene(scene, backupPath, true);
+            if (!backedUp)
+            {
+                Debug.LogWarning("[Dungeon Knight 3D] Editable world backup failed or was cancelled. Build cancelled to protect the current scene.");
+                return false;
+            }
+
+            AssetDatabase.Refresh();
+            Debug.Log($"[Dungeon Knight 3D] Editable world backup saved before rebuild: {backupPath}");
+            return true;
+        }
+
+        private static void EnsureAssetFolder(string folderPath)
+        {
+            if (AssetDatabase.IsValidFolder(folderPath)) return;
+
+            string parent = Path.GetDirectoryName(folderPath)?.Replace('\\', '/');
+            string folderName = Path.GetFileName(folderPath);
+
+            if (string.IsNullOrEmpty(parent) || string.IsNullOrEmpty(folderName)) return;
+            EnsureAssetFolder(parent);
+            if (!AssetDatabase.IsValidFolder(folderPath))
+            {
+                AssetDatabase.CreateFolder(parent, folderName);
             }
         }
 
