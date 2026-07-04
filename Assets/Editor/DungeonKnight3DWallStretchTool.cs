@@ -342,6 +342,18 @@ namespace DungeonKnight.Editor
                     DuplicatePickedAttached(Vector3.forward);
                 }
                 EditorGUILayout.EndHorizontal();
+
+                EditorGUILayout.BeginHorizontal();
+                if (GUILayout.Button("Down"))
+                {
+                    DuplicatePickedAttached(Vector3.down);
+                }
+
+                if (GUILayout.Button("Up"))
+                {
+                    DuplicatePickedAttached(Vector3.up);
+                }
+                EditorGUILayout.EndHorizontal();
             }
 
             snapTarget = (GameObject)EditorGUILayout.ObjectField("Snap Target", snapTarget, typeof(GameObject), true);
@@ -555,6 +567,11 @@ namespace DungeonKnight.Editor
 
         private static Vector3 CalculateAttachedDuplicateOffset(Bounds bounds, Vector3 direction)
         {
+            if (Mathf.Abs(direction.y) > Mathf.Abs(direction.x) && Mathf.Abs(direction.y) > Mathf.Abs(direction.z))
+            {
+                return Vector3.up * Mathf.Sign(direction.y) * bounds.size.y;
+            }
+
             if (Mathf.Abs(direction.x) > Mathf.Abs(direction.z))
             {
                 return Vector3.right * Mathf.Sign(direction.x) * bounds.size.x;

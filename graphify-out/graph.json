@@ -840,7 +840,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool",
-      "community": 52,
+      "community": 390,
       "norm_label": "dungeonknight3dwallstretchtool"
     },
     {
@@ -860,7 +860,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "stretchaxis",
-      "community": 52,
+      "community": 390,
       "norm_label": "stretchaxis"
     },
     {
@@ -870,7 +870,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "stretchanchor",
-      "community": 52,
+      "community": 390,
       "norm_label": "stretchanchor"
     },
     {
@@ -890,7 +890,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_onselectionchange",
-      "community": 52,
+      "community": 390,
       "norm_label": ".onselectionchange()"
     },
     {
@@ -900,7 +900,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_ongui",
-      "community": 52,
+      "community": 390,
       "norm_label": ".ongui()"
     },
     {
@@ -910,7 +910,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_apply",
-      "community": 52,
+      "community": 390,
       "norm_label": ".apply()"
     },
     {
@@ -920,7 +920,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getanchoroffset",
-      "community": 52,
+      "community": 390,
       "norm_label": ".getanchoroffset()"
     },
     {
@@ -930,7 +930,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getaxisvalue",
-      "community": 52,
+      "community": 390,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -940,7 +940,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_setaxisvalue",
-      "community": 52,
+      "community": 390,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -980,7 +980,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "editaxis",
-      "community": 52,
+      "community": 390,
       "norm_label": "editaxis"
     },
     {
@@ -1057,7 +1057,7 @@
       "label": ".DrawScenePicker()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L405",
+      "source_location": "L417",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_drawscenepicker",
       "community": 133,
@@ -1067,7 +1067,7 @@
       "label": ".DrawPickedBounds()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L439",
+      "source_location": "L451",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_drawpickedbounds",
       "community": 133,
@@ -1077,7 +1077,7 @@
       "label": ".DrawGroupCornerHandles()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L459",
+      "source_location": "L471",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_drawgroupcornerhandles",
       "community": 133,
@@ -1087,7 +1087,7 @@
       "label": "Bounds",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L459",
+      "source_location": "L471",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_bounds",
       "community": 133,
@@ -1097,7 +1097,7 @@
       "label": ".DrawGroupMoveHandle()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L470",
+      "source_location": "L482",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_drawgroupmovehandle",
       "community": 133,
@@ -1107,7 +1107,7 @@
       "label": ".LoadFromUnitySelection()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L481",
+      "source_location": "L493",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_loadfromunityselection",
       "community": 133,
@@ -1117,7 +1117,7 @@
       "label": ".MakeAttachedGroup()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L498",
+      "source_location": "L510",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_makeattachedgroup",
       "community": 133,
@@ -1127,7 +1127,7 @@
       "label": ".StickPickedToTarget()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L519",
+      "source_location": "L531",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_stickpickedtotarget",
       "community": 133,
@@ -1137,7 +1137,7 @@
       "label": ".DuplicatePickedAttached()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L530",
+      "source_location": "L542",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
       "community": 133,
@@ -1147,7 +1147,7 @@
       "label": ".CalculateAttachedDuplicateOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L556",
+      "source_location": "L568",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset",
       "community": 133,
@@ -1157,7 +1157,7 @@
       "label": ".MovePicked()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L566",
+      "source_location": "L583",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_movepicked",
       "community": 133,
@@ -1167,7 +1167,7 @@
       "label": ".ResizePicked()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L580",
+      "source_location": "L597",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_resizepicked",
       "community": 133,
@@ -1177,7 +1177,7 @@
       "label": ".GetPickedTransforms()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L603",
+      "source_location": "L620",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getpickedtransforms",
       "community": 133,
@@ -1187,7 +1187,7 @@
       "label": ".CleanupPickedObjects()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L615",
+      "source_location": "L632",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_cleanuppickedobjects",
       "community": 133,
@@ -1197,7 +1197,7 @@
       "label": ".FindEditableRoot()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L626",
+      "source_location": "L643",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_findeditableroot",
       "community": 133,
@@ -1207,7 +1207,7 @@
       "label": ".TryCalculateBounds()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L638",
+      "source_location": "L655",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_trycalculatebounds",
       "community": 133,
@@ -1217,7 +1217,7 @@
       "label": ".FindClosestFaceOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L673",
+      "source_location": "L690",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_findclosestfaceoffset",
       "community": 133,
@@ -1227,7 +1227,7 @@
       "label": ".TryFaceOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L687",
+      "source_location": "L704",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_tryfaceoffset",
       "community": 133,
@@ -1237,7 +1237,7 @@
       "label": ".GetAnchorOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L696",
+      "source_location": "L713",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getanchoroffset",
       "community": 133,
@@ -1247,27 +1247,27 @@
       "label": ".GetAxisValue()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L709",
+      "source_location": "L726",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getaxisvalue",
-      "community": 52,
+      "community": 390,
       "norm_label": ".getaxisvalue()"
     },
     {
       "label": ".SetAxisValue()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L722",
+      "source_location": "L739",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_setaxisvalue",
-      "community": 52,
+      "community": 390,
       "norm_label": ".setaxisvalue()"
     },
     {
       "label": ".MarkDirty()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L738",
+      "source_location": "L755",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_markdirty",
       "community": 133,
@@ -1277,7 +1277,7 @@
       "label": ".RepaintScene()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
-      "source_location": "L744",
+      "source_location": "L761",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_repaintscene",
       "community": 133,
@@ -18560,7 +18560,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldbar",
-      "community": 351,
+      "community": 58,
       "norm_label": ".positionworldbar()"
     },
     {
@@ -111521,9 +111521,9 @@
       "source_location": "L556",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset",
-      "target": "assets_editor_dungeonknight3dwallstretchtool_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_dungeonknight3dwallstretchtool_cs_vector3"
     },
     {
       "relation": "references",
@@ -111543,9 +111543,9 @@
       "source_location": "L530",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "target": "assets_editor_dungeonknight3dwallstretchtool_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_dungeonknight3dwallstretchtool_cs_vector3"
     },
     {
       "relation": "references",
@@ -111948,9 +111948,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L556",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset"
     },
     {
       "relation": "method",
@@ -112008,9 +112008,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L530",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached"
     },
     {
       "relation": "method",
@@ -112285,9 +112285,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L325",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_ongui",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached"
     },
     {
       "relation": "calls",
@@ -112461,9 +112461,9 @@
       "source_location": "L556",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset",
-      "target": "assets_editor_dungeonknight3dwallstretchtool_cs_bounds",
-      "confidence_score": 1.0
+      "target": "assets_editor_dungeonknight3dwallstretchtool_cs_bounds"
     },
     {
       "relation": "references",
@@ -112604,9 +112604,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L536",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_calculateattachedduplicateoffset"
     },
     {
       "relation": "calls",
@@ -112615,9 +112615,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L532",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getpickedtransforms",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getpickedtransforms"
     },
     {
       "relation": "calls",
@@ -112626,9 +112626,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L553",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_markdirty",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_markdirty"
     },
     {
       "relation": "calls",
@@ -112637,9 +112637,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DWallStretchTool.cs",
       "source_location": "L534",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_duplicatepickedattached",
-      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_trycalculatebounds",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_trycalculatebounds"
     },
     {
       "relation": "calls",
@@ -285409,5 +285409,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b5386af9b4d4450b6dfb3437759c3074f0e1dbf0"
+  "built_at_commit": "736fc6b8e7a8b433c87e012fa8b445d70c28be1a"
 }

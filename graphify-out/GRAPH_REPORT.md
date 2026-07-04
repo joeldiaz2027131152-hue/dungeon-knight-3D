@@ -1,16 +1,16 @@
 # Graph Report - dungeon-knight-3D  (2026-07-04)
 
 ## Corpus Check
-- 393 files · ~5,829,300 words
+- 393 files · ~5,829,328 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 10945 nodes · 16859 edges · 394 communities (390 shown, 4 thin omitted)
+- 10945 nodes · 16859 edges · 395 communities (391 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b5386af9`
+- Built from commit: `736fc6b8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -385,6 +385,7 @@
 - [[_COMMUNITY_Community 387|Community 387]]
 - [[_COMMUNITY_Community 388|Community 388]]
 - [[_COMMUNITY_Community 389|Community 389]]
+- [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
 - [[_COMMUNITY_Community 394|Community 394]]
@@ -404,19 +405,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `DungeonKnight3DMapAttachTool` --references--> `float`  [EXTRACTED]
   Assets/Editor/DungeonKnight3DWallStretchTool.cs → Assets/Editor/DungeonKnight3DWallStretchTool.cs  _Bridges community 52 → community 133_
+- `DungeonKnight3DWallStretchTool` --references--> `float`  [EXTRACTED]
+  Assets/Editor/DungeonKnight3DWallStretchTool.cs → Assets/Editor/DungeonKnight3DWallStretchTool.cs  _Bridges community 52 → community 390_
 - `DungeonKnight3DWallStretchTool` --inherits--> `EditorWindow`  [EXTRACTED]
-  Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 52 → community 191_
+  Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 390 → community 191_
 - `DungeonKnight3DMapAttachTool` --inherits--> `EditorWindow`  [EXTRACTED]
   Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 191 → community 133_
 - `AllowlistPickerWindow` --inherits--> `EditorWindow`  [EXTRACTED]
   Packages/com.besty.unity-skills/Editor/UI/AllowlistPickerWindow.cs →   _Bridges community 191 → community 148_
-- `UnitySkillsAuditWindow` --inherits--> `EditorWindow`  [EXTRACTED]
-  Packages/com.besty.unity-skills/Editor/UI/UnitySkillsWindow.cs →   _Bridges community 191 → community 233_
 
 ## Import Cycles
 - None detected.
 
-## Communities (394 total, 4 thin omitted)
+## Communities (395 total, 4 thin omitted)
 
 ### Community 0 - "World 1-1 Bootstrap"
 Cohesion: 0.10
@@ -627,8 +628,8 @@ Cohesion: 0.24
 Nodes (7): bool, float, PlayerController3D, Transform, Vector3, DungeonKnight.Level, DungeonShortcutElevator3D
 
 ### Community 52 - "3D Game HUD"
-Cohesion: 0.12
-Nodes (11): bool, float, MenuItem, string, EditAxis, DungeonKnight3DWallCornerHandles, DungeonKnight3DWallStretchTool, DungeonKnight.Editor (+3 more)
+Cohesion: 0.16
+Nodes (7): bool, float, MenuItem, string, DungeonKnight3DWallCornerHandles, DungeonKnight.Editor, SceneView
 
 ### Community 53 - "Hit Burst Effect"
 Cohesion: 0.22
@@ -651,7 +652,7 @@ Cohesion: 0.20
 Nodes (7): bool, float, int, SpriteRenderer, Vector2, DungeonKnight.UI, SlashEffect
 
 ### Community 58 - "Drift Sprite"
-Cohesion: 0.23
+Cohesion: 0.22
 Nodes (5): Camera, TextAnchor, TextMesh, Vector3, MeshRenderer
 
 ### Community 59 - "Flicker Sprite"
@@ -1885,6 +1886,10 @@ Nodes (4): Example Use Cases, Guardrails, Output Format, Unity ADR
 ### Community 389 - "Community 389"
 Cohesion: 0.40
 Nodes (4): Define, Guardrails, Output Format, Unity Scene Contracts
+
+### Community 390 - "Community 390"
+Cohesion: 0.32
+Nodes (4): EditAxis, DungeonKnight3DWallStretchTool, StretchAnchor, StretchAxis
 
 ### Community 391 - "Community 391"
 Cohesion: 0.50
