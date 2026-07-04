@@ -315,6 +315,35 @@ namespace DungeonKnight.Editor
                 }
             }
 
+            EditorGUILayout.Space(8f);
+            EditorGUILayout.LabelField("Duplicate And Attach", EditorStyles.boldLabel);
+            using (new EditorGUI.DisabledScope(pickedObjects.Count == 0))
+            {
+                EditorGUILayout.BeginHorizontal();
+                if (GUILayout.Button("Left"))
+                {
+                    DuplicatePickedAttached(Vector3.left);
+                }
+
+                if (GUILayout.Button("Right"))
+                {
+                    DuplicatePickedAttached(Vector3.right);
+                }
+                EditorGUILayout.EndHorizontal();
+
+                EditorGUILayout.BeginHorizontal();
+                if (GUILayout.Button("Back"))
+                {
+                    DuplicatePickedAttached(Vector3.back);
+                }
+
+                if (GUILayout.Button("Forward"))
+                {
+                    DuplicatePickedAttached(Vector3.forward);
+                }
+                EditorGUILayout.EndHorizontal();
+            }
+
             snapTarget = (GameObject)EditorGUILayout.ObjectField("Snap Target", snapTarget, typeof(GameObject), true);
             EditorGUILayout.BeginHorizontal();
             if (GUILayout.Button("Target From Active"))
@@ -496,6 +525,42 @@ namespace DungeonKnight.Editor
 
             Vector3 offset = FindClosestFaceOffset(pickedBounds, targetBounds);
             MovePicked(offset);
+        }
+
+        private void DuplicatePickedAttached(Vector3 direction)
+        {
+            Transform[] picked = GetPickedTransforms();
+            if (picked.Length == 0) return;
+            if (!TryCalculateBounds(picked, out Bounds bounds)) return;
+
+            Vector3 offset = CalculateAttachedDuplicateOffset(bounds, direction);
+            List<GameObject> duplicates = new List<GameObject>(pickedObjects.Count);
+
+            foreach (GameObject pickedObject in pickedObjects)
+            {
+                if (!pickedObject) continue;
+
+                GameObject duplicate = Object.Instantiate(pickedObject, pickedObject.transform.parent);
+                Undo.RegisterCreatedObjectUndo(duplicate, "Duplicate attached map pieces");
+                duplicate.name = $"{pickedObject.name} Attached Copy";
+                duplicate.transform.position = pickedObject.transform.position + offset;
+                duplicates.Add(duplicate);
+            }
+
+            pickedObjects.Clear();
+            pickedObjects.AddRange(duplicates);
+            Selection.objects = duplicates.ToArray();
+            MarkDirty();
+        }
+
+        private static Vector3 CalculateAttachedDuplicateOffset(Bounds bounds, Vector3 direction)
+        {
+            if (Mathf.Abs(direction.x) > Mathf.Abs(direction.z))
+            {
+                return Vector3.right * Mathf.Sign(direction.x) * bounds.size.x;
+            }
+
+            return Vector3.forward * Mathf.Sign(direction.z) * bounds.size.z;
         }
 
         private void MovePicked(Vector3 offset)
