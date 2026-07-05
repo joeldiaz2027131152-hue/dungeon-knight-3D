@@ -876,13 +876,15 @@ namespace DungeonKnight.Editor
 
             GameObject[] stairObjects = new GameObject[stepCount];
             Vector3 stepScale = GetStoneStairStepScale(source);
+            Bounds sourceBounds = CalculateBounds(new[] { source });
+            Vector3 firstStepPosition = GetStairEdgeStartPosition(sourceBounds, step, stepScale);
 
             for (int i = 0; i < stepCount; i++)
             {
                 GameObject clone = Object.Instantiate(source.gameObject, source.parent);
                 Undo.RegisterCreatedObjectUndo(clone, "Make stair from selection");
                 clone.name = $"{source.name} Stair Step {i + 1}";
-                clone.transform.position = source.position + step * (i + 1);
+                clone.transform.position = firstStepPosition + step * i;
                 clone.transform.localScale = stepScale;
                 stairObjects[i] = clone;
             }
@@ -890,6 +892,19 @@ namespace DungeonKnight.Editor
             Selection.objects = stairObjects;
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
             Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from {source.name}. Source object was left unchanged.");
+        }
+
+        private static Vector3 GetStairEdgeStartPosition(Bounds sourceBounds, Vector3 step, Vector3 stepScale)
+        {
+            float zDirection = step.z >= 0f ? 1f : -1f;
+            float y = step.y >= 0f
+                ? sourceBounds.max.y + stepScale.y * 0.5f
+                : sourceBounds.max.y - stepScale.y * 0.5f;
+            float z = zDirection > 0f
+                ? sourceBounds.max.z + stepScale.z * 0.5f
+                : sourceBounds.min.z - stepScale.z * 0.5f;
+
+            return new Vector3(sourceBounds.center.x, y, z);
         }
 
         private static Vector3 GetStoneStairStepScale(Transform source)
