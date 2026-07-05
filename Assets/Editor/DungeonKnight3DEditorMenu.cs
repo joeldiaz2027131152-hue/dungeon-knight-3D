@@ -831,10 +831,14 @@ namespace DungeonKnight.Editor
                 return;
             }
 
-            Vector3 step = new Vector3(0f, 0.25f, 0.65f);
+            if (!TryChooseStairDirection(out Vector3 step, out string directionLabel))
+            {
+                return;
+            }
+
             if (selected.Length == 1)
             {
-                CreateStairFromSingleBlock(selected[0], step, 8);
+                CreateStairFromSingleBlock(selected[0], step, 8, directionLabel);
                 return;
             }
 
@@ -847,10 +851,32 @@ namespace DungeonKnight.Editor
             }
 
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            Debug.Log($"[Dungeon Knight 3D] Arranged {selected.Length} selected blocks into a stair.");
+            Debug.Log($"[Dungeon Knight 3D] Arranged {selected.Length} selected blocks into a stair going {directionLabel}.");
         }
 
-        private static void CreateStairFromSingleBlock(Transform source, Vector3 step, int stepCount)
+        private static bool TryChooseStairDirection(out Vector3 step, out string directionLabel)
+        {
+            int choice = EditorUtility.DisplayDialogComplex(
+                "Make Stair",
+                "Which direction should the stair go?",
+                "Up",
+                "Cancel",
+                "Down");
+
+            if (choice == 1)
+            {
+                step = Vector3.zero;
+                directionLabel = string.Empty;
+                return false;
+            }
+
+            bool goesDown = choice == 2;
+            step = new Vector3(0f, goesDown ? -0.25f : 0.25f, 0.65f);
+            directionLabel = goesDown ? "down" : "up";
+            return true;
+        }
+
+        private static void CreateStairFromSingleBlock(Transform source, Vector3 step, int stepCount, string directionLabel)
         {
             if (!source) return;
 
@@ -874,7 +900,7 @@ namespace DungeonKnight.Editor
 
             Selection.objects = stairObjects;
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair from {source.name}.");
+            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from {source.name}.");
         }
 
         [MenuItem("Tools/Dungeon Knight 3D/Create Prefab From Selected")]
