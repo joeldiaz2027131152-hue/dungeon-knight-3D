@@ -831,9 +831,15 @@ namespace DungeonKnight.Editor
                 return;
             }
 
+            Vector3 step = new Vector3(0f, 0.25f, 0.65f);
+            if (selected.Length == 1)
+            {
+                CreateStairFromSingleBlock(selected[0], step, 8);
+                return;
+            }
+
             System.Array.Sort(selected, (a, b) => string.CompareOrdinal(a.name, b.name));
             Vector3 start = selected[0].position;
-            Vector3 step = new Vector3(0f, 0.25f, 0.65f);
             for (int i = 0; i < selected.Length; i++)
             {
                 Undo.RecordObject(selected[i], "Make stair from selection");
@@ -841,6 +847,34 @@ namespace DungeonKnight.Editor
             }
 
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
+            Debug.Log($"[Dungeon Knight 3D] Arranged {selected.Length} selected blocks into a stair.");
+        }
+
+        private static void CreateStairFromSingleBlock(Transform source, Vector3 step, int stepCount)
+        {
+            if (!source) return;
+
+            GameObject[] stairObjects = new GameObject[stepCount];
+            stairObjects[0] = source.gameObject;
+
+            for (int i = 1; i < stepCount; i++)
+            {
+                GameObject clone = Object.Instantiate(source.gameObject, source.parent);
+                Undo.RegisterCreatedObjectUndo(clone, "Make stair from selection");
+                clone.name = $"{source.name} Stair Step {i + 1}";
+                stairObjects[i] = clone;
+            }
+
+            for (int i = 0; i < stepCount; i++)
+            {
+                Transform stepTransform = stairObjects[i].transform;
+                Undo.RecordObject(stepTransform, "Make stair from selection");
+                stepTransform.position = source.position + step * i;
+            }
+
+            Selection.objects = stairObjects;
+            EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
+            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair from {source.name}.");
         }
 
         [MenuItem("Tools/Dungeon Knight 3D/Create Prefab From Selected")]
