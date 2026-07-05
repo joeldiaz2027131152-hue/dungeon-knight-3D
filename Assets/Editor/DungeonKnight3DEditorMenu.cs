@@ -875,28 +875,21 @@ namespace DungeonKnight.Editor
             if (!source) return;
 
             GameObject[] stairObjects = new GameObject[stepCount];
-            stairObjects[0] = source.gameObject;
             Vector3 stepScale = GetStoneStairStepScale(source);
 
-            for (int i = 1; i < stepCount; i++)
+            for (int i = 0; i < stepCount; i++)
             {
                 GameObject clone = Object.Instantiate(source.gameObject, source.parent);
                 Undo.RegisterCreatedObjectUndo(clone, "Make stair from selection");
                 clone.name = $"{source.name} Stair Step {i + 1}";
+                clone.transform.position = source.position + step * (i + 1);
+                clone.transform.localScale = stepScale;
                 stairObjects[i] = clone;
-            }
-
-            for (int i = 0; i < stepCount; i++)
-            {
-                Transform stepTransform = stairObjects[i].transform;
-                Undo.RecordObject(stepTransform, "Make stair from selection");
-                stepTransform.position = source.position + step * i;
-                stepTransform.localScale = stepScale;
             }
 
             Selection.objects = stairObjects;
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from {source.name}.");
+            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from {source.name}. Source object was left unchanged.");
         }
 
         private static Vector3 GetStoneStairStepScale(Transform source)
