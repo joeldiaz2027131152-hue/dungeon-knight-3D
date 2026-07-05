@@ -856,23 +856,14 @@ namespace DungeonKnight.Editor
 
         private static bool TryChooseStairDirection(out Vector3 step, out string directionLabel)
         {
-            int choice = EditorUtility.DisplayDialogComplex(
+            bool goesUp = EditorUtility.DisplayDialog(
                 "Make Stair",
                 "Which direction should the stair go?",
                 "Up",
-                "Cancel",
                 "Down");
 
-            if (choice == 1)
-            {
-                step = Vector3.zero;
-                directionLabel = string.Empty;
-                return false;
-            }
-
-            bool goesDown = choice == 2;
-            step = new Vector3(0f, goesDown ? -0.25f : 0.25f, 0.65f);
-            directionLabel = goesDown ? "down" : "up";
+            step = new Vector3(0f, goesUp ? 0.25f : -0.25f, 0.65f);
+            directionLabel = goesUp ? "up" : "down";
             return true;
         }
 

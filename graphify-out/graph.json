@@ -547,7 +547,7 @@
       "label": ".CreateStairFromSingleBlock()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L879",
+      "source_location": "L870",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_createstairfromsingleblock",
       "community": 127,
@@ -557,7 +557,7 @@
       "label": ".CreatePrefabFromSelected()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L906",
+      "source_location": "L897",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_createprefabfromselected",
       "community": 127,
@@ -567,7 +567,7 @@
       "label": ".ValidateEditableWorld()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L928",
+      "source_location": "L919",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_validateeditableworld",
       "community": 127,
@@ -577,7 +577,7 @@
       "label": ".RepairTowerMiniBoss()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L948",
+      "source_location": "L939",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_repairtowerminiboss",
       "community": 127,
@@ -587,7 +587,7 @@
       "label": ".DuplicateSelectedAlong()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L967",
+      "source_location": "L958",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_duplicateselectedalong",
       "community": 127,
@@ -597,7 +597,7 @@
       "label": ".MoveSelectionToBoundsOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L992",
+      "source_location": "L983",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_moveselectiontoboundsoffset",
       "community": 127,
@@ -607,7 +607,7 @@
       "label": ".CalculateBounds()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1010",
+      "source_location": "L1001",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_calculatebounds",
       "community": 127,
@@ -617,7 +617,7 @@
       "label": ".IsInSelection()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1039",
+      "source_location": "L1030",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_isinselection",
       "community": 127,
@@ -627,7 +627,7 @@
       "label": ".FindOtherSelectedWall()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1049",
+      "source_location": "L1040",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findotherselectedwall",
       "community": 127,
@@ -637,7 +637,7 @@
       "label": ".FindJoinTarget()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1061",
+      "source_location": "L1052",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findjointarget",
       "community": 127,
@@ -647,7 +647,7 @@
       "label": ".FindClosestFaceOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1091",
+      "source_location": "L1082",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findclosestfaceoffset",
       "community": 127,
@@ -657,7 +657,7 @@
       "label": ".FindClosestStretchCandidate()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1102",
+      "source_location": "L1093",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findcloseststretchcandidate",
       "community": 127,
@@ -667,7 +667,7 @@
       "label": "JoinCandidate",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1102",
+      "source_location": "L1093",
       "_origin": "ast",
       "id": "joincandidate",
       "community": 127,
@@ -677,7 +677,7 @@
       "label": ".TryStretchCandidate()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1112",
+      "source_location": "L1103",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trystretchcandidate",
       "community": 127,
@@ -687,7 +687,7 @@
       "label": ".GetAxisValue()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1127",
+      "source_location": "L1118",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getaxisvalue",
       "community": 127,
@@ -697,7 +697,7 @@
       "label": ".SetAxisValue()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1140",
+      "source_location": "L1131",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_setaxisvalue",
       "community": 127,
@@ -707,7 +707,7 @@
       "label": ".TryWallOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1156",
+      "source_location": "L1147",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trywalloffset",
       "community": 127,
@@ -52070,7 +52070,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_registry_path",
-      "community": 292,
+      "community": 190,
       "norm_label": "get_registry_path()"
     },
     {
@@ -52080,7 +52080,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "scripts_unity_skills_load_registry",
-      "community": 292,
+      "community": 190,
       "norm_label": "_load_registry()"
     },
     {
@@ -52130,7 +52130,7 @@
       "source_location": "L117",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills",
-      "community": 192,
+      "community": 292,
       "norm_label": "unityskills"
     },
     {
@@ -52190,7 +52190,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_post_skill",
-      "community": 192,
+      "community": 292,
       "norm_label": "._post_skill()"
     },
     {
@@ -52210,7 +52210,7 @@
       "source_location": "L339",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_dry_run_skill",
-      "community": 192,
+      "community": 292,
       "norm_label": ".dry_run_skill()"
     },
     {
@@ -52220,7 +52220,7 @@
       "source_location": "L348",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_plan_skill",
-      "community": 192,
+      "community": 292,
       "norm_label": ".plan_skill()"
     },
     {
@@ -52270,7 +52270,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_get_job",
-      "community": 192,
+      "community": 292,
       "norm_label": ".get_job()"
     },
     {
@@ -52280,7 +52280,7 @@
       "source_location": "L388",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_list_jobs",
-      "community": 192,
+      "community": 292,
       "norm_label": ".list_jobs()"
     },
     {
@@ -52290,7 +52290,7 @@
       "source_location": "L396",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_get_job_progress",
-      "community": 192,
+      "community": 292,
       "norm_label": ".get_job_progress()"
     },
     {
@@ -52300,7 +52300,7 @@
       "source_location": "L404",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_poll_job",
-      "community": 192,
+      "community": 378,
       "norm_label": ".poll_job()"
     },
     {
@@ -52340,7 +52340,7 @@
       "source_location": "L468",
       "_origin": "ast",
       "id": "scripts_unity_skills_connect",
-      "community": 190,
+      "community": 292,
       "norm_label": "connect()"
     },
     {
@@ -52350,7 +52350,7 @@
       "source_location": "L478",
       "_origin": "ast",
       "id": "scripts_unity_skills_set_unity_version",
-      "community": 190,
+      "community": 292,
       "norm_label": "set_unity_version()"
     },
     {
@@ -52360,7 +52360,7 @@
       "source_location": "L496",
       "_origin": "ast",
       "id": "scripts_unity_skills_list_instances",
-      "community": 292,
+      "community": 190,
       "norm_label": "list_instances()"
     },
     {
@@ -52370,7 +52370,7 @@
       "source_location": "L504",
       "_origin": "ast",
       "id": "scripts_unity_skills_dry_run_skill",
-      "community": 190,
+      "community": 192,
       "norm_label": "dry_run_skill()"
     },
     {
@@ -52380,7 +52380,7 @@
       "source_location": "L509",
       "_origin": "ast",
       "id": "scripts_unity_skills_plan_skill",
-      "community": 190,
+      "community": 226,
       "norm_label": "plan_skill()"
     },
     {
@@ -52400,7 +52400,7 @@
       "source_location": "L541",
       "_origin": "ast",
       "id": "scripts_unity_skills_call_skill",
-      "community": 226,
+      "community": 372,
       "norm_label": "call_skill()"
     },
     {
@@ -52410,7 +52410,7 @@
       "source_location": "L546",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_status",
-      "community": 190,
+      "community": 192,
       "norm_label": "get_job_status()"
     },
     {
@@ -52440,7 +52440,7 @@
       "source_location": "L565",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job",
-      "community": 192,
+      "community": 378,
       "norm_label": "get_job()"
     },
     {
@@ -52450,7 +52450,7 @@
       "source_location": "L570",
       "_origin": "ast",
       "id": "scripts_unity_skills_list_jobs",
-      "community": 190,
+      "community": 390,
       "norm_label": "list_jobs()"
     },
     {
@@ -52460,7 +52460,7 @@
       "source_location": "L575",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_progress",
-      "community": 378,
+      "community": 190,
       "norm_label": "get_job_progress()"
     },
     {
@@ -52580,7 +52580,7 @@
       "source_location": "L727",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_skills",
-      "community": 372,
+      "community": 190,
       "norm_label": "get_skills()"
     },
     {
@@ -52620,7 +52620,7 @@
       "source_location": "L821",
       "_origin": "ast",
       "id": "scripts_unity_skills_health",
-      "community": 190,
+      "community": 226,
       "norm_label": "health()"
     },
     {
@@ -52630,7 +52630,7 @@
       "source_location": "L832",
       "_origin": "ast",
       "id": "scripts_unity_skills_is_unity_running",
-      "community": 190,
+      "community": 226,
       "norm_label": "is_unity_running()"
     },
     {
@@ -52650,7 +52650,7 @@
       "source_location": "L847",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_server_status",
-      "community": 190,
+      "community": 192,
       "norm_label": "get_server_status()"
     },
     {
@@ -52770,7 +52770,7 @@
       "source_location": "L1043",
       "_origin": "ast",
       "id": "scripts_unity_skills_create_script",
-      "community": 226,
+      "community": 372,
       "norm_label": "create_script()"
     },
     {
@@ -52780,7 +52780,7 @@
       "source_location": "L1060",
       "_origin": "ast",
       "id": "scripts_unity_skills_parse_cli_value",
-      "community": 372,
+      "community": 190,
       "norm_label": "_parse_cli_value()"
     },
     {
@@ -52790,7 +52790,7 @@
       "source_location": "L1081",
       "_origin": "ast",
       "id": "scripts_unity_skills_main",
-      "community": 372,
+      "community": 190,
       "norm_label": "main()"
     },
     {
@@ -52810,7 +52810,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_118",
-      "community": 192,
+      "community": 292,
       "norm_label": "client for interacting with a specific unity editor instance."
     },
     {
@@ -52880,7 +52880,7 @@
       "source_location": "L381",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_381",
-      "community": 192,
+      "community": 292,
       "norm_label": "read a job snapshot via get /jobs/{id} (lightweight, bypasses skill router)."
     },
     {
@@ -52890,7 +52890,7 @@
       "source_location": "L389",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_389",
-      "community": 192,
+      "community": 292,
       "norm_label": "list recent jobs via get /jobs."
     },
     {
@@ -52900,7 +52900,7 @@
       "source_location": "L397",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_397",
-      "community": 192,
+      "community": 292,
       "norm_label": "read fine-grained progress events via get /jobs/{id}/progress?offset=n."
     },
     {
@@ -52910,7 +52910,7 @@
       "source_location": "L406",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_406",
-      "community": 192,
+      "community": 378,
       "norm_label": "poll get /jobs/{id} until the job reaches a terminal state or timeout elapses."
     },
     {
@@ -52950,7 +52950,7 @@
       "source_location": "L469",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_469",
-      "community": 190,
+      "community": 292,
       "norm_label": "create a new unityskills client.     args:         port: connect to specific loc"
     },
     {
@@ -52960,7 +52960,7 @@
       "source_location": "L479",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_479",
-      "community": 190,
+      "community": 292,
       "norm_label": "set target unity version and reconfigure the default client.      this is the pr"
     },
     {
@@ -52970,7 +52970,7 @@
       "source_location": "L497",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_497",
-      "community": 292,
+      "community": 190,
       "norm_label": "return list of active unity instances from registry."
     },
     {
@@ -52980,7 +52980,7 @@
       "source_location": "L505",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_505",
-      "community": 190,
+      "community": 192,
       "norm_label": "validate a unity skill call without executing it."
     },
     {
@@ -52990,7 +52990,7 @@
       "source_location": "L510",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_510",
-      "community": 190,
+      "community": 226,
       "norm_label": "preview a unity skill call with generic/semantic planning details."
     },
     {
@@ -53010,7 +53010,7 @@
       "source_location": "L542",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_542",
-      "community": 226,
+      "community": 372,
       "norm_label": "call a unity skill. single-call auto-workflow is handled by the unity server."
     },
     {
@@ -53020,7 +53020,7 @@
       "source_location": "L547",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_547",
-      "community": 190,
+      "community": 192,
       "norm_label": "get status for an asynchronous unityskills job."
     },
     {
@@ -53050,7 +53050,7 @@
       "source_location": "L566",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_566",
-      "community": 192,
+      "community": 378,
       "norm_label": "lightweight get /jobs/{id} snapshot \u2014 preferred for high-frequency progress poll"
     },
     {
@@ -53060,7 +53060,7 @@
       "source_location": "L571",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_571",
-      "community": 190,
+      "community": 390,
       "norm_label": "list recent jobs via get /jobs."
     },
     {
@@ -53070,7 +53070,7 @@
       "source_location": "L576",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_576",
-      "community": 378,
+      "community": 190,
       "norm_label": "read fine-grained progress events via get /jobs/{id}/progress?offset=n."
     },
     {
@@ -53130,7 +53130,7 @@
       "source_location": "L729",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_729",
-      "community": 372,
+      "community": 190,
       "norm_label": "get list of available skills, optionally filtered by metadata.      args:"
     },
     {
@@ -53170,7 +53170,7 @@
       "source_location": "L822",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_822",
-      "community": 190,
+      "community": 226,
       "norm_label": "check if the current default unity server is running."
     },
     {
@@ -53190,7 +53190,7 @@
       "source_location": "L848",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_848",
-      "community": 190,
+      "community": 192,
       "norm_label": "get detailed health information from the current unity server."
     },
     {
@@ -53310,7 +53310,7 @@
       "source_location": "L1044",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_1044",
-      "community": 226,
+      "community": 372,
       "norm_label": "create a script and optionally wait for recompilation to settle."
     },
     {
@@ -53320,7 +53320,7 @@
       "source_location": "L1082",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_1082",
-      "community": 372,
+      "community": 190,
       "norm_label": "command-line interface for unity skills."
     },
     {
@@ -110023,9 +110023,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
       "source_location": "L857",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection"
     },
     {
       "relation": "method",
@@ -110810,9 +110810,9 @@
       "source_location": "L857",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection",
-      "target": "assets_editor_dungeonknight3deditormenu_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_dungeonknight3deditormenu_cs_vector3"
     },
     {
       "relation": "references",
@@ -111206,9 +111206,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
       "source_location": "L834",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_makestairfromselection",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection"
     },
     {
       "relation": "calls",
@@ -285504,5 +285504,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ab70a7a0a77c9e16eb744a97865a26068082c270"
+  "built_at_commit": "833251b0165b8b4afff1ae63824f117d836d4d71"
 }

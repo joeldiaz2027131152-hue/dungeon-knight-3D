@@ -1,16 +1,16 @@
 # Graph Report - dungeon-knight-3D  (2026-07-05)
 
 ## Corpus Check
-- 393 files · ~5,829,517 words
+- 393 files · ~5,829,496 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 10947 nodes · 16866 edges · 394 communities (390 shown, 4 thin omitted)
+- 10947 nodes · 16866 edges · 395 communities (391 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ab70a7a0`
+- Built from commit: `833251b0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -385,6 +385,7 @@
 - [[_COMMUNITY_Community 387|Community 387]]
 - [[_COMMUNITY_Community 388|Community 388]]
 - [[_COMMUNITY_Community 389|Community 389]]
+- [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
 - [[_COMMUNITY_Community 394|Community 394]]
@@ -416,7 +417,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (394 total, 4 thin omitted)
+## Communities (395 total, 4 thin omitted)
 
 ### Community 0 - "World 1-1 Bootstrap"
 Cohesion: 0.10
@@ -1091,16 +1092,16 @@ Cohesion: 0.16
 Nodes (3): UnitySkill, ShaderGraphSkills, UnitySkills
 
 ### Community 190 - "Community 190"
-Cohesion: 0.07
-Nodes (27): connect(), dry_run_skill(), get_job_logs(), get_job_status(), get_server_status(), health(), is_auto_workflow_enabled(), is_unity_running() (+19 more)
+Cohesion: 0.11
+Nodes (21): get_job_logs(), get_job_progress(), get_registry_path(), get_skills(), is_auto_workflow_enabled(), list_instances(), _load_registry(), main() (+13 more)
 
 ### Community 191 - "Community 191"
 Cohesion: 0.08
 Nodes (15): AIConfigTabController, EditorWindow, FooterController, HistoryTabController, Button, Dictionary, Language, MenuItem (+7 more)
 
 ### Community 192 - "Community 192"
-Cohesion: 0.13
-Nodes (15): Any, diagnose(), get_job(), Client for interacting with a specific Unity Editor instance., Call a skill on this instance with automatic retry on connection errors., Block via the job_wait skill until the job ends or `timeout` elapses.          `, Read a job snapshot via GET /jobs/{id} (lightweight, bypasses skill router)., List recent jobs via GET /jobs. (+7 more)
+Cohesion: 0.15
+Nodes (13): Any, diagnose(), dry_run_skill(), get_job_status(), get_server_status(), Call a skill on this instance with automatic retry on connection errors., Block via the job_wait skill until the job ends or `timeout` elapses.          `, Validate a Unity skill call without executing it. (+5 more)
 
 ### Community 193 - "Community 193"
 Cohesion: 0.07
@@ -1235,8 +1236,8 @@ Cohesion: 0.10
 Nodes (20): Exact Signatures, High-Frequency Skill Differences, Key Return Shapes, Minimal Example, Operating Mode, Project and Script Analysis, `scene_analyze`, `scene_context` (+12 more)
 
 ### Community 226 - "Community 226"
-Cohesion: 0.15
-Nodes (15): call_skill(), call_skill_with_retry(), create_script(), _get_default_client(), get_skill_schema(), _is_retryable_transport_error(), Create a script and optionally wait for recompilation to settle., Lazily initialize the default client and auto-discover an instance on first use. (+7 more)
+Cohesion: 0.14
+Nodes (16): call_skill_with_retry(), _get_default_client(), get_skill_schema(), health(), _is_retryable_transport_error(), is_unity_running(), plan_skill(), Lazily initialize the default client and auto-discover an instance on first use. (+8 more)
 
 ### Community 227 - "Community 227"
 Cohesion: 0.10
@@ -1499,8 +1500,8 @@ Cohesion: 0.12
 Nodes (15): Unity - Manual: Matchmaker Session Building Block, Unity - Manual: Multiplayer, Unity - Manual: Multiplayer Center, Unity - Manual: Multiplayer Play Mode, Unity - Manual: Multiplayer Services, Unity - Manual: Multiplayer Services Building Blocks, Unity - Manual: Multiplayer Services Building Blocks prerequisites, Unity - Manual: Multiplayer Sessions Building Block (+7 more)
 
 ### Community 292 - "Community 292"
-Cohesion: 0.13
-Nodes (11): _get_agent_id(), get_registry_path(), list_instances(), _load_registry(), Initialize client.         Args:             port: Connect to specific localhost, Fetch requestTimeoutMinutes from /health and apply as self.timeout., Scan ports 8090-8100 and return the first responsive Unity instance., Find a Unity instance port by version string.          Three-stage search strate (+3 more)
+Cohesion: 0.09
+Nodes (16): connect(), _get_agent_id(), Client for interacting with a specific Unity Editor instance., Initialize client.         Args:             port: Connect to specific localhost, Fetch requestTimeoutMinutes from /health and apply as self.timeout., Scan ports 8090-8100 and return the first responsive Unity instance., Find a Unity instance port by version string.          Three-stage search strate, Read a job snapshot via GET /jobs/{id} (lightweight, bypasses skill router). (+8 more)
 
 ### Community 293 - "Community 293"
 Cohesion: 0.12
@@ -1819,8 +1820,8 @@ Cohesion: 0.40
 Nodes (5): Advisory Design Modules, Batch-First Rule, Modules, Skill Naming Convention, Unity Skills - Module Index
 
 ### Community 372 - "Community 372"
-Cohesion: 0.40
-Nodes (5): get_skills(), main(), _parse_cli_value(), Command-line interface for Unity Skills., Get list of available skills, optionally filtered by metadata.      Args:
+Cohesion: 0.50
+Nodes (4): call_skill(), create_script(), Create a script and optionally wait for recompilation to settle., Call a Unity skill. Single-call auto-workflow is handled by the Unity server.
 
 ### Community 373 - "Community 373"
 Cohesion: 0.40
@@ -1841,6 +1842,10 @@ Nodes (5): Unity - Getting Started, Unity - Manual: Get started with 3D game dev
 ### Community 377 - "Community 377"
 Cohesion: 0.33
 Nodes (6): find_skills(), get_skill_chain(), plan_workflow(), Plan a multi-step workflow.      Preferred usage:         plan_workflow(skills=[, Server-side intent-based skill recommendation.      Uses keyword scoring: name m, Find skill producers and dependency chain for a specific output field via the se
+
+### Community 378 - "Community 378"
+Cohesion: 0.50
+Nodes (3): get_job(), Poll GET /jobs/{id} until the job reaches a terminal state or timeout elapses., Lightweight GET /jobs/{id} snapshot — preferred for high-frequency progress poll
 
 ### Community 379 - "Community 379"
 Cohesion: 0.29
