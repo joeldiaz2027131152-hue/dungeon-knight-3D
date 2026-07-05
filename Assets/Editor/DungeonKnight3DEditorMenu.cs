@@ -12,6 +12,9 @@ namespace DungeonKnight.Editor
     public static class DungeonKnight3DEditorMenu
     {
         private const string EditableScenePath = "Assets/Scenes/WorldEditable.unity";
+        private const int DefaultStairStepCount = 9;
+        private const float DefaultStairStepHeight = 0.28f;
+        private const float DefaultStairStepDepth = 0.72f;
         private const string EditableCodePreviewScenePath = "Assets/Scenes/WorldEditable_CodePreview.unity";
         private const string EditableSceneBackupFolder = "Assets/Scenes/Backups/WorldEditable";
 
@@ -838,7 +841,7 @@ namespace DungeonKnight.Editor
 
             if (selected.Length == 1)
             {
-                CreateStairFromSingleBlock(selected[0], step, 8, directionLabel);
+                CreateStairFromSingleBlock(selected[0], step, DefaultStairStepCount, directionLabel);
                 return;
             }
 
@@ -862,7 +865,7 @@ namespace DungeonKnight.Editor
                 "Up",
                 "Down");
 
-            step = new Vector3(0f, goesUp ? 0.25f : -0.25f, 0.65f);
+            step = new Vector3(0f, goesUp ? DefaultStairStepHeight : -DefaultStairStepHeight, DefaultStairStepDepth);
             directionLabel = goesUp ? "up" : "down";
             return true;
         }
@@ -873,6 +876,7 @@ namespace DungeonKnight.Editor
 
             GameObject[] stairObjects = new GameObject[stepCount];
             stairObjects[0] = source.gameObject;
+            Vector3 stepScale = GetStoneStairStepScale(source);
 
             for (int i = 1; i < stepCount; i++)
             {
@@ -887,11 +891,21 @@ namespace DungeonKnight.Editor
                 Transform stepTransform = stairObjects[i].transform;
                 Undo.RecordObject(stepTransform, "Make stair from selection");
                 stepTransform.position = source.position + step * i;
+                stepTransform.localScale = stepScale;
             }
 
             Selection.objects = stairObjects;
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
             Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from {source.name}.");
+        }
+
+        private static Vector3 GetStoneStairStepScale(Transform source)
+        {
+            Vector3 scale = source.localScale;
+            scale.x = Mathf.Clamp(Mathf.Abs(scale.x), 1.4f, 2.4f);
+            scale.y = DefaultStairStepHeight;
+            scale.z = DefaultStairStepDepth;
+            return scale;
         }
 
         [MenuItem("Tools/Dungeon Knight 3D/Create Prefab From Selected")]
