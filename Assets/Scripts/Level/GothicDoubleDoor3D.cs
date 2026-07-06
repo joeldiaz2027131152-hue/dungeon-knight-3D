@@ -12,6 +12,7 @@ namespace DungeonKnight.Level
 
         private Quaternion leftClosedRotation;
         private Quaternion rightClosedRotation;
+        private Transform centerGap;
         private bool open;
 
         public bool IsOpen => open;
@@ -46,6 +47,7 @@ namespace DungeonKnight.Level
 
             open = true;
             if (blocker) blocker.enabled = false;
+            HideCenterGap();
             return true;
         }
 
@@ -53,6 +55,7 @@ namespace DungeonKnight.Level
         {
             if (!leftPivot) leftPivot = transform.Find("Left Door Pivot");
             if (!rightPivot) rightPivot = transform.Find("Right Door Pivot");
+            if (!centerGap) centerGap = transform.Find("Door Center Gap");
             if (!blocker)
             {
                 Transform blockerTransform = transform.Find($"{name} Solid Blocker");
@@ -70,6 +73,21 @@ namespace DungeonKnight.Level
             }
 
             CacheClosedRotations();
+        }
+
+        private void HideCenterGap()
+        {
+            if (!centerGap) return;
+
+            foreach (Collider childCollider in centerGap.GetComponentsInChildren<Collider>())
+            {
+                childCollider.enabled = false;
+            }
+
+            foreach (Renderer childRenderer in centerGap.GetComponentsInChildren<Renderer>())
+            {
+                childRenderer.enabled = false;
+            }
         }
 
         private bool TryFindLegacyDoorLeaves(out Transform leftDoor, out Transform rightDoor)
