@@ -42,10 +42,11 @@ namespace DungeonKnight.Player
         [SerializeField] private float rollStaminaCost = 31f;
         [SerializeField] private float blockStaminaDrainPerSecond = 13f;
         [SerializeField] private float staminaRecoveryPerSecond = 19f;
-        [SerializeField] private float interactionRange = 3.25f;
+        [SerializeField] private float interactionRange = 4.35f;
 
         private readonly Collider[] attackHits = new Collider[12];
         private readonly Collider[] interactHits = new Collider[24];
+        private readonly RaycastHit[] interactRayHits = new RaycastHit[12];
         private readonly Collider[] lockOnHits = new Collider[32];
         private CharacterController controller;
         private PlayerInventory inventory;
@@ -585,6 +586,9 @@ namespace DungeonKnight.Player
 
         private DungeonInteractable3D FindClosestInteractable()
         {
+            DungeonInteractable3D lookInteractable = FindLookInteractable();
+            if (lookInteractable) return lookInteractable;
+
             int count = Physics.OverlapSphereNonAlloc(transform.position + Vector3.up * 0.8f, interactionRange, interactHits, ~0, QueryTriggerInteraction.Collide);
             DungeonInteractable3D closest = null;
             float closestDistance = float.MaxValue;
@@ -600,6 +604,33 @@ namespace DungeonKnight.Player
 
                 closest = interactable;
                 closestDistance = distance;
+            }
+
+            return closest;
+        }
+
+        private DungeonInteractable3D FindLookInteractable()
+        {
+            Camera camera = Camera.main;
+            if (!camera) return null;
+
+            Ray ray = new Ray(camera.transform.position, camera.transform.forward);
+            int count = Physics.SphereCastNonAlloc(ray, 0.28f, interactRayHits, interactionRange + 1.1f, ~0, QueryTriggerInteraction.Collide);
+            DungeonInteractable3D closest = null;
+            float closestDistance = float.MaxValue;
+
+            for (int i = 0; i < count; i++)
+            {
+                RaycastHit hit = interactRayHits[i];
+                interactRayHits[i] = default;
+
+                DungeonInteractable3D interactable = hit.collider ? hit.collider.GetComponentInParent<DungeonInteractable3D>() : null;
+                if (!interactable) continue;
+                if (string.IsNullOrEmpty(interactable.GetPrompt(this))) continue;
+                if (hit.distance >= closestDistance) continue;
+
+                closest = interactable;
+                closestDistance = hit.distance;
             }
 
             return closest;
