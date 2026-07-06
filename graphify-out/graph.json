@@ -2940,7 +2940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "enemies_deathshard",
-      "community": 44,
+      "community": 369,
       "norm_label": "deathshard.cs"
     },
     {
@@ -2950,7 +2950,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "enemies_deathshard_dungeonknight_enemies",
-      "community": 44,
+      "community": 369,
       "norm_label": "dungeonknight.enemies"
     },
     {
@@ -2960,7 +2960,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard",
-      "community": 44,
+      "community": 369,
       "norm_label": "deathshard"
     },
     {
@@ -2970,7 +2970,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_enemies_deathshard_cs_spriterenderer",
-      "community": 44,
+      "community": 369,
       "norm_label": "spriterenderer"
     },
     {
@@ -2980,7 +2980,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_enemies_deathshard_cs_float",
-      "community": 44,
+      "community": 369,
       "norm_label": "float"
     },
     {
@@ -2990,7 +2990,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_configure",
-      "community": 44,
+      "community": 369,
       "norm_label": ".configure()"
     },
     {
@@ -3000,7 +3000,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_awake",
-      "community": 44,
+      "community": 369,
       "norm_label": ".awake()"
     },
     {
@@ -3010,7 +3010,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_update",
-      "community": 44,
+      "community": 369,
       "norm_label": ".update()"
     },
     {
@@ -11117,17 +11117,27 @@
       "label": "BoxCollider",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "boxcollider",
       "community": 65,
       "norm_label": "boxcollider"
     },
     {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "assets_scripts_level_dungeonmovingplatform3d_cs_int",
+      "community": 65,
+      "norm_label": "int"
+    },
+    {
       "label": "Collider",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L14",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "assets_scripts_level_dungeonmovingplatform3d_cs_collider",
       "community": 65,
@@ -11137,7 +11147,7 @@
       "label": "CharacterController",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "assets_scripts_level_dungeonmovingplatform3d_cs_charactercontroller",
       "community": 65,
@@ -11147,17 +11157,27 @@
       "label": ".Configure()",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L17",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_configure",
       "community": 65,
       "norm_label": ".configure()"
     },
     {
+      "label": ".ConfigureRoute()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_configureroute",
+      "community": 65,
+      "norm_label": ".configureroute()"
+    },
+    {
       "label": ".Awake()",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L29",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_awake",
       "community": 65,
@@ -11167,17 +11187,37 @@
       "label": ".Update()",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L36",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_update",
       "community": 65,
       "norm_label": ".update()"
     },
     {
+      "label": ".CalculateTravelPosition()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculatetravelposition",
+      "community": 65,
+      "norm_label": ".calculatetravelposition()"
+    },
+    {
+      "label": ".CalculateRoutePosition()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculaterouteposition",
+      "community": 65,
+      "norm_label": ".calculaterouteposition()"
+    },
+    {
       "label": ".CollectRiders()",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L57",
+      "source_location": "L93",
       "_origin": "ast",
       "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_collectriders",
       "community": 65,
@@ -11187,7 +11227,7 @@
       "label": "Bounds",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L57",
+      "source_location": "L93",
       "_origin": "ast",
       "id": "assets_scripts_level_dungeonmovingplatform3d_cs_bounds",
       "community": 65,
@@ -11197,7 +11237,7 @@
       "label": ".IsStandingOnPlatform()",
       "file_type": "code",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
-      "source_location": "L89",
+      "source_location": "L125",
       "_origin": "ast",
       "id": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_isstandingonplatform",
       "community": 65,
@@ -14690,7 +14730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_coindropper",
-      "community": 67,
+      "community": 44,
       "norm_label": "coindropper.cs"
     },
     {
@@ -14700,7 +14740,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_coindropper_dungeonknight_loot",
-      "community": 67,
+      "community": 44,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -14710,7 +14750,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper",
-      "community": 67,
+      "community": 44,
       "norm_label": "coindropper"
     },
     {
@@ -14720,7 +14760,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_int",
-      "community": 67,
+      "community": 44,
       "norm_label": "int"
     },
     {
@@ -14730,7 +14770,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_configure",
-      "community": 67,
+      "community": 44,
       "norm_label": ".configure()"
     },
     {
@@ -14740,7 +14780,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_awake",
-      "community": 67,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -14750,7 +14790,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_ondied",
-      "community": 67,
+      "community": 44,
       "norm_label": ".ondied()"
     },
     {
@@ -14760,7 +14800,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_health",
-      "community": 67,
+      "community": 44,
       "norm_label": "health"
     },
     {
@@ -17860,7 +17900,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_damagepopup",
-      "community": 44,
+      "community": 368,
       "norm_label": "damagepopup.cs"
     },
     {
@@ -17870,7 +17910,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "ui_damagepopup_dungeonknight_ui",
-      "community": 44,
+      "community": 368,
       "norm_label": "dungeonknight.ui"
     },
     {
@@ -17880,7 +17920,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "ui_damagepopup_damagepopup",
-      "community": 44,
+      "community": 368,
       "norm_label": "damagepopup"
     },
     {
@@ -17890,7 +17930,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_textmesh",
-      "community": 44,
+      "community": 368,
       "norm_label": "textmesh"
     },
     {
@@ -17900,7 +17940,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_vector3",
-      "community": 44,
+      "community": 368,
       "norm_label": "vector3"
     },
     {
@@ -17910,7 +17950,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_float",
-      "community": 44,
+      "community": 368,
       "norm_label": "float"
     },
     {
@@ -17920,7 +17960,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "ui_damagepopup_damagepopup_spawn",
-      "community": 44,
+      "community": 368,
       "norm_label": ".spawn()"
     },
     {
@@ -17930,7 +17970,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_color",
-      "community": 44,
+      "community": 368,
       "norm_label": "color"
     },
     {
@@ -17940,7 +17980,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "ui_damagepopup_damagepopup_update",
-      "community": 44,
+      "community": 368,
       "norm_label": ".update()"
     },
     {
@@ -18270,7 +18310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_gamehud3d",
-      "community": 61,
+      "community": 351,
       "norm_label": "gamehud3d.cs"
     },
     {
@@ -18280,7 +18320,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "ui_gamehud3d_dungeonknight_ui",
-      "community": 61,
+      "community": 351,
       "norm_label": "dungeonknight.ui"
     },
     {
@@ -18290,7 +18330,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d",
-      "community": 61,
+      "community": 351,
       "norm_label": "gamehud3d"
     },
     {
@@ -18300,7 +18340,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_playercontroller3d",
-      "community": 61,
+      "community": 351,
       "norm_label": "playercontroller3d"
     },
     {
@@ -18310,7 +18350,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_playerinventory",
-      "community": 61,
+      "community": 351,
       "norm_label": "playerinventory"
     },
     {
@@ -18320,7 +18360,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_bool",
-      "community": 61,
+      "community": 351,
       "norm_label": "bool"
     },
     {
@@ -18340,7 +18380,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_int",
-      "community": 61,
+      "community": 351,
       "norm_label": "int"
     },
     {
@@ -18350,7 +18390,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_guistyle",
-      "community": 61,
+      "community": 351,
       "norm_label": "guistyle"
     },
     {
@@ -18360,7 +18400,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "canvas",
-      "community": 61,
+      "community": 351,
       "norm_label": "canvas"
     },
     {
@@ -18370,7 +18410,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "text",
-      "community": 282,
+      "community": 201,
       "norm_label": "text"
     },
     {
@@ -18420,7 +18460,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_bind",
-      "community": 61,
+      "community": 351,
       "norm_label": ".bind()"
     },
     {
@@ -18440,7 +18480,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_update",
-      "community": 61,
+      "community": 351,
       "norm_label": ".update()"
     },
     {
@@ -18460,7 +18500,7 @@
       "source_location": "L169",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_hideworldhud",
-      "community": 61,
+      "community": 351,
       "norm_label": ".hideworldhud()"
     },
     {
@@ -18470,7 +18510,7 @@
       "source_location": "L177",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_hideoverlaycanvas",
-      "community": 61,
+      "community": 351,
       "norm_label": ".hideoverlaycanvas()"
     },
     {
@@ -18520,7 +18560,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 351,
+      "community": 58,
       "norm_label": "textanchor"
     },
     {
@@ -18530,7 +18570,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 351,
+      "community": 58,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -18540,7 +18580,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 351,
+      "community": 58,
       "norm_label": "meshrenderer"
     },
     {
@@ -18640,7 +18680,7 @@
       "source_location": "L405",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateoverlaycanvas",
-      "community": 61,
+      "community": 58,
       "norm_label": ".updateoverlaycanvas()"
     },
     {
@@ -34080,7 +34120,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_scriptskills",
-      "community": 180,
+      "community": 201,
       "norm_label": "scriptskills.cs"
     },
     {
@@ -34090,7 +34130,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "skills_scriptskills_unityskills",
-      "community": 180,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -34150,7 +34190,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "skills_scriptskills_batchscriptitem",
-      "community": 180,
+      "community": 201,
       "norm_label": "batchscriptitem"
     },
     {
@@ -36550,7 +36590,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_shaderskills",
-      "community": 282,
+      "community": 201,
       "norm_label": "shaderskills.cs"
     },
     {
@@ -36560,7 +36600,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "skills_shaderskills_unityskills",
-      "community": 282,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -36900,7 +36940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillinstaller",
-      "community": 282,
+      "community": 201,
       "norm_label": "skillinstaller.cs"
     },
     {
@@ -36910,7 +36950,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "skills_skillinstaller_unityskills",
-      "community": 282,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -46920,7 +46960,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "controllers_pendingapprovalbannercontroller",
-      "community": 282,
+      "community": 201,
       "norm_label": "pendingapprovalbannercontroller.cs"
     },
     {
@@ -46930,7 +46970,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "controllers_pendingapprovalbannercontroller_unityskills",
-      "community": 282,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -89380,7 +89420,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "skills_skill_unity_skills_module_index",
-      "community": 371,
+      "community": 349,
       "norm_label": "unity skills - module index"
     },
     {
@@ -89390,7 +89430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_skill_modules",
-      "community": 371,
+      "community": 349,
       "norm_label": "modules"
     },
     {
@@ -89400,7 +89440,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "skills_skill_advisory_design_modules",
-      "community": 371,
+      "community": 349,
       "norm_label": "advisory design modules"
     },
     {
@@ -89410,7 +89450,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "skills_skill_batch_first_rule",
-      "community": 371,
+      "community": 349,
       "norm_label": "batch-first rule"
     },
     {
@@ -89420,7 +89460,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "skills_skill_skill_naming_convention",
-      "community": 371,
+      "community": 349,
       "norm_label": "skill naming convention"
     },
     {
@@ -89840,7 +89880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "addressables_design_handles",
-      "community": 349,
+      "community": 242,
       "norm_label": "handles.md"
     },
     {
@@ -91510,7 +91550,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "asmdef_skill_unity_asmdef_advisor",
-      "community": 349,
+      "community": 382,
       "norm_label": "unity asmdef advisor"
     },
     {
@@ -91520,7 +91560,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "asmdef_skill_recommend_only_when_worth_it",
-      "community": 349,
+      "community": 382,
       "norm_label": "recommend only when worth it"
     },
     {
@@ -91530,7 +91570,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "asmdef_skill_output_format",
-      "community": 349,
+      "community": 382,
       "norm_label": "output format"
     },
     {
@@ -91540,7 +91580,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "asmdef_skill_default_guidance",
-      "community": 349,
+      "community": 382,
       "norm_label": "default guidance"
     },
     {
@@ -91550,7 +91590,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "asmdef_skill_guardrails",
-      "community": 349,
+      "community": 382,
       "norm_label": "guardrails"
     },
     {
@@ -91800,7 +91840,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "async_skill_unity_async_strategy",
-      "community": 368,
+      "community": 349,
       "norm_label": "unity async strategy"
     },
     {
@@ -91810,7 +91850,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "async_skill_guardrails",
-      "community": 368,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -91820,7 +91860,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "async_skill_decision_ladder",
-      "community": 368,
+      "community": 349,
       "norm_label": "decision ladder"
     },
     {
@@ -91830,7 +91870,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "async_skill_specific_guidance",
-      "community": 368,
+      "community": 349,
       "norm_label": "specific guidance"
     },
     {
@@ -91840,7 +91880,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "async_skill_output_format",
-      "community": 368,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -92120,7 +92160,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blueprints_skill",
-      "community": 369,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -92130,7 +92170,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "blueprints_skill_unity_gameplay_blueprints",
-      "community": 369,
+      "community": 349,
       "norm_label": "unity gameplay blueprints"
     },
     {
@@ -92140,7 +92180,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blueprints_skill_supported_blueprint_styles",
-      "community": 369,
+      "community": 349,
       "norm_label": "supported blueprint styles"
     },
     {
@@ -92150,7 +92190,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "blueprints_skill_output_format",
-      "community": 369,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -92160,7 +92200,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "blueprints_skill_guardrails",
-      "community": 369,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -94210,7 +94250,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "dotween_design_lifetime_dotween_lifetime_ownership",
-      "community": 69,
+      "community": 331,
       "norm_label": "dotween lifetime & ownership"
     },
     {
@@ -94220,7 +94260,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "dotween_design_lifetime_settarget_grouping_by_owner",
-      "community": 69,
+      "community": 331,
       "norm_label": "`settarget` \u2014 grouping by owner"
     },
     {
@@ -94230,7 +94270,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "dotween_design_lifetime_setid_grouping_by_tag",
-      "community": 69,
+      "community": 331,
       "norm_label": "`setid` \u2014 grouping by tag"
     },
     {
@@ -94240,7 +94280,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "dotween_design_lifetime_setlink_bind_lifecycle_to_gameobject",
-      "community": 69,
+      "community": 331,
       "norm_label": "`setlink` \u2014 bind lifecycle to gameobject"
     },
     {
@@ -94250,7 +94290,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "dotween_design_lifetime_setautokill_survive_completion",
-      "community": 69,
+      "community": 331,
       "norm_label": "`setautokill` \u2014 survive completion?"
     },
     {
@@ -94260,7 +94300,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "dotween_design_lifetime_setrecyclable_tween_instance_pooling",
-      "community": 69,
+      "community": 331,
       "norm_label": "`setrecyclable` \u2014 tween instance pooling"
     },
     {
@@ -94270,7 +94310,7 @@
       "source_location": "L129",
       "_origin": "ast",
       "id": "dotween_design_lifetime_dotween_kill_dotween_killall",
-      "community": 69,
+      "community": 331,
       "norm_label": "`dotween.kill` / `dotween.killall`"
     },
     {
@@ -94280,7 +94320,7 @@
       "source_location": "L158",
       "_origin": "ast",
       "id": "dotween_design_lifetime_safe_mode_destroyed_target_protection",
-      "community": 69,
+      "community": 331,
       "norm_label": "safe mode \u2014 destroyed target protection"
     },
     {
@@ -94290,7 +94330,7 @@
       "source_location": "L183",
       "_origin": "ast",
       "id": "dotween_design_lifetime_tween_pool_capacity",
-      "community": 69,
+      "community": 331,
       "norm_label": "tween pool capacity"
     },
     {
@@ -94300,7 +94340,7 @@
       "source_location": "L202",
       "_origin": "ast",
       "id": "dotween_design_lifetime_dotween_clear",
-      "community": 69,
+      "community": 331,
       "norm_label": "`dotween.clear`"
     },
     {
@@ -94310,7 +94350,7 @@
       "source_location": "L215",
       "_origin": "ast",
       "id": "dotween_design_lifetime_clearcachedtweens",
-      "community": 69,
+      "community": 331,
       "norm_label": "`clearcachedtweens`"
     },
     {
@@ -94320,7 +94360,7 @@
       "source_location": "L225",
       "_origin": "ast",
       "id": "dotween_design_lifetime_lifetime_checklist",
-      "community": 69,
+      "community": 331,
       "norm_label": "lifetime checklist"
     },
     {
@@ -95080,7 +95120,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "dotween_design_tween_dotween_tween_lifecycle",
-      "community": 331,
+      "community": 69,
       "norm_label": "dotween tween lifecycle"
     },
     {
@@ -95090,7 +95130,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "dotween_design_tween_class_hierarchy",
-      "community": 331,
+      "community": 69,
       "norm_label": "class hierarchy"
     },
     {
@@ -95100,7 +95140,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "dotween_design_tween_tween_state_fields_you_can_inspect",
-      "community": 331,
+      "community": 69,
       "norm_label": "tween state (fields you can inspect)"
     },
     {
@@ -95110,7 +95150,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "dotween_design_tween_lifecycle_commands",
-      "community": 331,
+      "community": 69,
       "norm_label": "lifecycle commands"
     },
     {
@@ -95120,7 +95160,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "dotween_design_tween_state_machine_flow",
-      "community": 331,
+      "community": 69,
       "norm_label": "state machine flow"
     },
     {
@@ -95130,7 +95170,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "dotween_design_tween_autokill_the_most_common_footgun",
-      "community": 331,
+      "community": 69,
       "norm_label": "`autokill` \u2014 the most common footgun"
     },
     {
@@ -95140,7 +95180,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "dotween_design_tween_callbacks",
-      "community": 331,
+      "community": 69,
       "norm_label": "callbacks"
     },
     {
@@ -95150,7 +95190,7 @@
       "source_location": "L133",
       "_origin": "ast",
       "id": "dotween_design_tween_onupdate_allocation_trap",
-      "community": 331,
+      "community": 69,
       "norm_label": "`onupdate` allocation trap"
     },
     {
@@ -95160,7 +95200,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "dotween_design_tween_manualupdate_driving_tweens_outside_playerloop",
-      "community": 331,
+      "community": 69,
       "norm_label": "`manualupdate` \u2014 driving tweens outside playerloop"
     },
     {
@@ -95170,7 +95210,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "dotween_design_tween_forceinit",
-      "community": 331,
+      "community": 69,
       "norm_label": "`forceinit`"
     },
     {
@@ -95180,7 +95220,7 @@
       "source_location": "L169",
       "_origin": "ast",
       "id": "dotween_design_tween_tween_state_checklist",
-      "community": 331,
+      "community": 69,
       "norm_label": "tween state checklist"
     },
     {
@@ -97410,7 +97450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_ownership",
-      "community": 235,
+      "community": 67,
       "norm_label": "ownership.md"
     },
     {
@@ -97420,7 +97460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_ownership_netcode_ownership_authority",
-      "community": 235,
+      "community": 67,
       "norm_label": "netcode - ownership & authority"
     },
     {
@@ -97430,7 +97470,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "netcode_design_ownership_role_properties",
-      "community": 235,
+      "community": 67,
       "norm_label": "role properties"
     },
     {
@@ -97440,7 +97480,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "netcode_design_ownership_permission_matrix",
-      "community": 235,
+      "community": 67,
       "norm_label": "permission matrix"
     },
     {
@@ -97450,7 +97490,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "netcode_design_ownership_distributed_authority_mode",
-      "community": 235,
+      "community": 67,
       "norm_label": "distributed authority mode"
     },
     {
@@ -97460,7 +97500,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "netcode_design_ownership_ownership_status_and_locks",
-      "community": 235,
+      "community": 67,
       "norm_label": "ownership status and locks"
     },
     {
@@ -97470,7 +97510,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "netcode_design_ownership_transferring_releasing_ownership",
-      "community": 235,
+      "community": 67,
       "norm_label": "transferring / releasing ownership"
     },
     {
@@ -97480,7 +97520,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "netcode_design_ownership_anti_patterns_vs_correct_patterns",
-      "community": 235,
+      "community": 67,
       "norm_label": "\u274c anti-patterns vs \u2705 correct patterns"
     },
     {
@@ -97490,7 +97530,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "netcode_design_ownership_1_spawning_from_the_client",
-      "community": 235,
+      "community": 67,
       "norm_label": "1. spawning from the client"
     },
     {
@@ -97500,7 +97540,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "netcode_design_ownership_2_using_isowner_inside_a_serverrpc_to_identify_the_sender",
-      "community": 235,
+      "community": 67,
       "norm_label": "2. using `isowner` inside a serverrpc to identify the sender"
     },
     {
@@ -97510,7 +97550,7 @@
       "source_location": "L107",
       "_origin": "ast",
       "id": "netcode_design_ownership_3_client_writing_a_networkvariable_directly",
-      "community": 235,
+      "community": 67,
       "norm_label": "3. client writing a networkvariable directly"
     },
     {
@@ -97520,7 +97560,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "netcode_design_ownership_4_expecting_plain_transform_position_to_sync",
-      "community": 235,
+      "community": 67,
       "norm_label": "4. expecting plain `transform.position = ...` to sync"
     },
     {
@@ -97530,7 +97570,7 @@
       "source_location": "L146",
       "_origin": "ast",
       "id": "netcode_design_ownership_5_believing_sendto_notserver_includes_the_host_s_client_half",
-      "community": 235,
+      "community": 67,
       "norm_label": "5. believing `sendto.notserver` includes the host's client half"
     },
     {
@@ -98150,7 +98190,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_scene",
-      "community": 321,
+      "community": 349,
       "norm_label": "scene.md"
     },
     {
@@ -98320,7 +98360,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_skill",
-      "community": 321,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -98330,7 +98370,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "netcode_design_skill_netcode_for_gameobjects_design_rules",
-      "community": 321,
+      "community": 371,
       "norm_label": "netcode for gameobjects - design rules"
     },
     {
@@ -98340,7 +98380,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "netcode_design_skill_when_to_load_this_module",
-      "community": 321,
+      "community": 371,
       "norm_label": "when to load this module"
     },
     {
@@ -98350,7 +98390,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "netcode_design_skill_critical_rule_summary_memorize_even_if_you_skip_the_sub_docs",
-      "community": 321,
+      "community": 371,
       "norm_label": "critical rule summary (memorize even if you skip the sub-docs)"
     },
     {
@@ -98360,7 +98400,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "netcode_design_skill_sub_doc_routing",
-      "community": 321,
+      "community": 371,
       "norm_label": "sub-doc routing"
     },
     {
@@ -98370,7 +98410,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "netcode_design_skill_routing_to_other_modules",
-      "community": 321,
+      "community": 371,
       "norm_label": "routing to other modules"
     },
     {
@@ -98380,7 +98420,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "netcode_design_skill_version_scope",
-      "community": 321,
+      "community": 371,
       "norm_label": "version scope"
     },
     {
@@ -98390,7 +98430,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_spawning",
-      "community": 321,
+      "community": 349,
       "norm_label": "spawning.md"
     },
     {
@@ -99020,7 +99060,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_skill",
-      "community": 321,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -100870,7 +100910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "project_scout_skill",
-      "community": 349,
+      "community": 378,
       "norm_label": "skill.md"
     },
     {
@@ -100880,7 +100920,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "project_scout_skill_unity_project_scout",
-      "community": 349,
+      "community": 378,
       "norm_label": "unity project scout"
     },
     {
@@ -100890,7 +100930,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "project_scout_skill_inspect_first",
-      "community": 349,
+      "community": 378,
       "norm_label": "inspect first"
     },
     {
@@ -100900,7 +100940,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "project_scout_skill_suggested_tools_inputs",
-      "community": 349,
+      "community": 378,
       "norm_label": "suggested tools / inputs"
     },
     {
@@ -100910,7 +100950,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "project_scout_skill_output_format",
-      "community": 349,
+      "community": 378,
       "norm_label": "output format"
     },
     {
@@ -100920,7 +100960,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "project_scout_skill_guardrails",
-      "community": 349,
+      "community": 378,
       "norm_label": "guardrails"
     },
     {
@@ -103470,7 +103510,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "testability_skill",
-      "community": 383,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -103480,7 +103520,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "testability_skill_unity_testability_advisor",
-      "community": 383,
+      "community": 349,
       "norm_label": "unity testability advisor"
     },
     {
@@ -103490,7 +103530,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "testability_skill_review_questions",
-      "community": 383,
+      "community": 349,
       "norm_label": "review questions"
     },
     {
@@ -103500,7 +103540,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "testability_skill_output_format",
-      "community": 383,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -103510,7 +103550,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "testability_skill_guardrails",
-      "community": 383,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -104470,7 +104510,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable",
-      "community": 349,
+      "community": 62,
       "norm_label": "asyncenumerable.md"
     },
     {
@@ -104630,7 +104670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_basics",
-      "community": 349,
+      "community": 62,
       "norm_label": "basics.md"
     },
     {
@@ -104740,7 +104780,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_cancellation",
-      "community": 349,
+      "community": 62,
       "norm_label": "cancellation.md"
     },
     {
@@ -104890,7 +104930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_composition",
-      "community": 349,
+      "community": 62,
       "norm_label": "composition.md"
     },
     {
@@ -105020,7 +105060,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_conversion",
-      "community": 349,
+      "community": 62,
       "norm_label": "conversion.md"
     },
     {
@@ -105150,7 +105190,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_pitfalls",
-      "community": 349,
+      "community": 62,
       "norm_label": "pitfalls.md"
     },
     {
@@ -105480,7 +105520,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_playerloop",
-      "community": 349,
+      "community": 62,
       "norm_label": "playerloop.md"
     },
     {
@@ -105600,7 +105640,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_skill",
-      "community": 349,
+      "community": 62,
       "norm_label": "skill.md"
     },
     {
@@ -105610,7 +105650,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "unitask_design_skill_unitask_design_rules",
-      "community": 378,
+      "community": 62,
       "norm_label": "unitask - design rules"
     },
     {
@@ -105620,7 +105660,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "unitask_design_skill_when_to_load_this_module",
-      "community": 378,
+      "community": 62,
       "norm_label": "when to load this module"
     },
     {
@@ -105630,7 +105670,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "unitask_design_skill_critical_rule_summary",
-      "community": 378,
+      "community": 62,
       "norm_label": "critical rule summary"
     },
     {
@@ -105640,7 +105680,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "unitask_design_skill_sub_doc_routing",
-      "community": 378,
+      "community": 62,
       "norm_label": "sub-doc routing"
     },
     {
@@ -105650,7 +105690,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "unitask_design_skill_routing_to_other_modules",
-      "community": 378,
+      "community": 62,
       "norm_label": "routing to other modules"
     },
     {
@@ -105660,7 +105700,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "unitask_design_skill_version_scope",
-      "community": 378,
+      "community": 62,
       "norm_label": "version scope"
     },
     {
@@ -105670,7 +105710,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_triggers",
-      "community": 349,
+      "community": 62,
       "norm_label": "triggers.md"
     },
     {
@@ -105680,7 +105720,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_triggers_unitask_triggers",
-      "community": 201,
+      "community": 62,
       "norm_label": "unitask triggers"
     },
     {
@@ -105690,7 +105730,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_triggers_core_types",
-      "community": 201,
+      "community": 62,
       "norm_label": "core types"
     },
     {
@@ -105700,7 +105740,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_1_getcancellationtokenondestroy",
-      "community": 201,
+      "community": 62,
       "norm_label": "pattern 1 \u2014 `getcancellationtokenondestroy`"
     },
     {
@@ -105710,7 +105750,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_2_ondestroyasync_awaitable_lifecycle",
-      "community": 201,
+      "community": 62,
       "norm_label": "pattern 2 \u2014 `ondestroyasync` (awaitable lifecycle)"
     },
     {
@@ -105720,7 +105760,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_3_getasync_trigger_oncollisionenterasync_etc",
-      "community": 201,
+      "community": 62,
       "norm_label": "pattern 3 \u2014 `getasync*trigger()` + `oncollisionenterasync` etc."
     },
     {
@@ -105730,7 +105770,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_4_ui_events_ugui",
-      "community": 201,
+      "community": 62,
       "norm_label": "pattern 4 \u2014 ui events (ugui)"
     },
     {
@@ -105740,7 +105780,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "unitask_design_triggers_how_triggers_manage_lifetime",
-      "community": 201,
+      "community": 62,
       "norm_label": "how triggers manage lifetime"
     },
     {
@@ -105750,7 +105790,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "unitask_design_triggers_null_checks_and_fake_null",
-      "community": 201,
+      "community": 62,
       "norm_label": "null checks and fake-null"
     },
     {
@@ -105760,7 +105800,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "unitask_design_triggers_triggers_checklist",
-      "community": 201,
+      "community": 62,
       "norm_label": "triggers checklist"
     },
     {
@@ -134634,9 +134674,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d",
-      "target": "assets_scripts_level_dungeonmovingplatform3d_cs_bool",
-      "confidence_score": 1.0
+      "target": "assets_scripts_level_dungeonmovingplatform3d_cs_bool"
     },
     {
       "relation": "references",
@@ -134675,6 +134715,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d",
+      "target": "assets_scripts_level_dungeonmovingplatform3d_cs_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
       "source_location": "L10",
       "weight": 1.0,
       "context": "field",
@@ -134707,6 +134758,26 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d",
+      "target": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculaterouteposition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d",
+      "target": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculatetravelposition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
       "source_location": "L48",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -134722,6 +134793,16 @@
       "confidence_score": 1.0,
       "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d",
       "target": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_configure"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d",
+      "target": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_configureroute",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -134747,6 +134828,28 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculaterouteposition",
+      "target": "assets_scripts_level_dungeonmovingplatform3d_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculatetravelposition",
+      "target": "assets_scripts_level_dungeonmovingplatform3d_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
       "source_location": "L12",
       "weight": 1.0,
       "context": "parameter_type",
@@ -134758,12 +134861,45 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_configureroute",
+      "target": "assets_scripts_level_dungeonmovingplatform3d_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
       "source_location": "L80",
       "weight": 1.0,
       "context": "parameter_type",
       "confidence_score": 1.0,
       "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_isstandingonplatform",
       "target": "assets_scripts_level_dungeonmovingplatform3d_cs_charactercontroller"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_update",
+      "target": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculaterouteposition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Level/DungeonMovingPlatform3D.cs",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_update",
+      "target": "level_dungeonmovingplatform3d_dungeonmovingplatform3d_calculatetravelposition",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -285684,5 +285820,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4466ed0b3fc9b549e77d6b9008fd27fdb0cd4da6"
+  "built_at_commit": "27a9cdf8c9e1abd19b1866e9d4ee6ceaccdc7483"
 }

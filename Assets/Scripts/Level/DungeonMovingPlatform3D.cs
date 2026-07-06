@@ -7,10 +7,12 @@ namespace DungeonKnight.Level
         [SerializeField] private Vector3 travel = new Vector3(0f, 0f, 4f);
         [SerializeField] private float speed = 1f;
         [SerializeField] private bool startAtLowerEndpoint;
+        [SerializeField] private Vector3[] routePoints;
 
         private Vector3 startPosition;
         private BoxCollider platformCollider;
         private float phaseOffset;
+        private int routeTargetIndex = 1;
         private readonly Collider[] riderHits = new Collider[8];
         private readonly CharacterController[] riders = new CharacterController[4];
 
@@ -24,10 +26,23 @@ namespace DungeonKnight.Level
             travel = newTravel;
             speed = newSpeed;
             startAtLowerEndpoint = newStartAtLowerEndpoint;
+            routePoints = null;
+        }
+
+        public void ConfigureRoute(Vector3[] newRoutePoints, float newSpeed)
+        {
+            routePoints = newRoutePoints;
+            speed = newSpeed;
+            startAtLowerEndpoint = false;
         }
 
         private void Awake()
         {
+            if (HasRoute)
+            {
+                transform.position = routePoints[0];
+            }
+
             startPosition = startAtLowerEndpoint ? transform.position + travel * 0.5f : transform.position;
             phaseOffset = startAtLowerEndpoint ? -Mathf.PI * 0.5f : 0f;
             platformCollider = GetComponent<BoxCollider>();
@@ -37,8 +52,7 @@ namespace DungeonKnight.Level
         {
             Bounds previousBounds = platformCollider ? platformCollider.bounds : new Bounds(transform.position, transform.lossyScale);
             Vector3 previousPosition = transform.position;
-            float t = (Mathf.Sin(Time.time * speed + phaseOffset) + 1f) * 0.5f;
-            Vector3 nextPosition = Vector3.Lerp(startPosition - travel * 0.5f, startPosition + travel * 0.5f, t);
+            Vector3 nextPosition = HasRoute ? CalculateRoutePosition(previousPosition) : CalculateTravelPosition();
             Vector3 delta = nextPosition - previousPosition;
             int riderCount = delta.sqrMagnitude > 0.000001f ? CollectRiders(previousBounds) : 0;
 
@@ -52,6 +66,28 @@ namespace DungeonKnight.Level
                     riders[i] = null;
                 }
             }
+        }
+
+        private bool HasRoute => routePoints != null && routePoints.Length > 1;
+
+        private Vector3 CalculateTravelPosition()
+        {
+            float t = (Mathf.Sin(Time.time * speed + phaseOffset) + 1f) * 0.5f;
+            return Vector3.Lerp(startPosition - travel * 0.5f, startPosition + travel * 0.5f, t);
+        }
+
+        private Vector3 CalculateRoutePosition(Vector3 previousPosition)
+        {
+            routeTargetIndex = Mathf.Clamp(routeTargetIndex, 0, routePoints.Length - 1);
+            Vector3 target = routePoints[routeTargetIndex];
+            Vector3 nextPosition = Vector3.MoveTowards(previousPosition, target, Mathf.Max(0.05f, speed) * Time.deltaTime);
+
+            if ((nextPosition - target).sqrMagnitude <= 0.0004f)
+            {
+                routeTargetIndex = (routeTargetIndex + 1) % routePoints.Length;
+            }
+
+            return nextPosition;
         }
 
         private int CollectRiders(Bounds platformBounds)
