@@ -554,20 +554,20 @@
       "norm_label": ".makestairfromselection()"
     },
     {
-      "label": ".TryChooseStairDirection()",
+      "label": ".TryChooseStairOptions()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
       "source_location": "L860",
       "_origin": "ast",
-      "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection",
+      "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairoptions",
       "community": 127,
-      "norm_label": ".trychoosestairdirection()"
+      "norm_label": ".trychoosestairoptions()"
     },
     {
       "label": ".CreateStairFromSingleBlock()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L873",
+      "source_location": "L902",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_createstairfromsingleblock",
       "community": 127,
@@ -577,7 +577,7 @@
       "label": ".GetStairEdgeStartPosition()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L897",
+      "source_location": "L926",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition",
       "community": 127,
@@ -587,7 +587,7 @@
       "label": ".GetStoneStairStepScale()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L910",
+      "source_location": "L948",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstonestairstepscale",
       "community": 127,
@@ -597,7 +597,7 @@
       "label": ".CreatePrefabFromSelected()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L919",
+      "source_location": "L967",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_createprefabfromselected",
       "community": 127,
@@ -607,7 +607,7 @@
       "label": ".ValidateEditableWorld()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L941",
+      "source_location": "L989",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_validateeditableworld",
       "community": 127,
@@ -617,7 +617,7 @@
       "label": ".RepairTowerMiniBoss()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L961",
+      "source_location": "L1009",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_repairtowerminiboss",
       "community": 127,
@@ -627,7 +627,7 @@
       "label": ".DuplicateSelectedAlong()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L980",
+      "source_location": "L1028",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_duplicateselectedalong",
       "community": 127,
@@ -637,7 +637,7 @@
       "label": ".MoveSelectionToBoundsOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1005",
+      "source_location": "L1053",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_moveselectiontoboundsoffset",
       "community": 127,
@@ -647,7 +647,7 @@
       "label": ".CalculateBounds()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1023",
+      "source_location": "L1071",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_calculatebounds",
       "community": 127,
@@ -657,7 +657,7 @@
       "label": ".IsInSelection()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1052",
+      "source_location": "L1100",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_isinselection",
       "community": 127,
@@ -667,7 +667,7 @@
       "label": ".FindOtherSelectedWall()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1062",
+      "source_location": "L1110",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findotherselectedwall",
       "community": 127,
@@ -677,7 +677,7 @@
       "label": ".FindJoinTarget()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1074",
+      "source_location": "L1122",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findjointarget",
       "community": 127,
@@ -687,7 +687,7 @@
       "label": ".FindClosestFaceOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1104",
+      "source_location": "L1152",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findclosestfaceoffset",
       "community": 127,
@@ -697,7 +697,7 @@
       "label": ".FindClosestStretchCandidate()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1115",
+      "source_location": "L1163",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_findcloseststretchcandidate",
       "community": 127,
@@ -707,7 +707,7 @@
       "label": "JoinCandidate",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1115",
+      "source_location": "L1163",
       "_origin": "ast",
       "id": "joincandidate",
       "community": 127,
@@ -717,7 +717,7 @@
       "label": ".TryStretchCandidate()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1125",
+      "source_location": "L1173",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trystretchcandidate",
       "community": 127,
@@ -727,7 +727,7 @@
       "label": ".GetAxisValue()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1140",
+      "source_location": "L1188",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getaxisvalue",
       "community": 127,
@@ -737,7 +737,7 @@
       "label": ".SetAxisValue()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1153",
+      "source_location": "L1201",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_setaxisvalue",
       "community": 127,
@@ -747,7 +747,7 @@
       "label": ".TryWallOffset()",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L1169",
+      "source_location": "L1217",
       "_origin": "ast",
       "id": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trywalloffset",
       "community": 127,
@@ -900,7 +900,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool",
-      "community": 52,
+      "community": 378,
       "norm_label": "dungeonknight3dwallstretchtool"
     },
     {
@@ -920,7 +920,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "stretchaxis",
-      "community": 52,
+      "community": 378,
       "norm_label": "stretchaxis"
     },
     {
@@ -930,7 +930,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "stretchanchor",
-      "community": 52,
+      "community": 378,
       "norm_label": "stretchanchor"
     },
     {
@@ -950,7 +950,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_onselectionchange",
-      "community": 52,
+      "community": 378,
       "norm_label": ".onselectionchange()"
     },
     {
@@ -960,7 +960,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_ongui",
-      "community": 52,
+      "community": 378,
       "norm_label": ".ongui()"
     },
     {
@@ -970,7 +970,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_apply",
-      "community": 52,
+      "community": 378,
       "norm_label": ".apply()"
     },
     {
@@ -980,7 +980,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getanchoroffset",
-      "community": 52,
+      "community": 378,
       "norm_label": ".getanchoroffset()"
     },
     {
@@ -990,7 +990,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getaxisvalue",
-      "community": 52,
+      "community": 378,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1000,7 +1000,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_setaxisvalue",
-      "community": 52,
+      "community": 378,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1040,7 +1040,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "editaxis",
-      "community": 52,
+      "community": 378,
       "norm_label": "editaxis"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L726",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getaxisvalue",
-      "community": 52,
+      "community": 378,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1320,7 +1320,7 @@
       "source_location": "L739",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_setaxisvalue",
-      "community": 52,
+      "community": 378,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -109855,9 +109855,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
       "source_location": "L897",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition"
     },
     {
       "relation": "method",
@@ -110103,11 +110103,11 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L857",
+      "source_location": "L860",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection"
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -110881,9 +110881,9 @@
       "source_location": "L897",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition",
-      "target": "assets_editor_dungeonknight3deditormenu_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_dungeonknight3deditormenu_cs_vector3"
     },
     {
       "relation": "references",
@@ -110922,12 +110922,12 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L857",
+      "source_location": "L860",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection",
-      "target": "assets_editor_dungeonknight3deditormenu_cs_vector3"
+      "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairoptions",
+      "target": "assets_editor_dungeonknight3deditormenu_cs_vector3",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -111057,9 +111057,9 @@
       "source_location": "L897",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition",
-      "target": "assets_editor_dungeonknight3deditormenu_cs_bounds",
-      "confidence_score": 1.0
+      "target": "assets_editor_dungeonknight3deditormenu_cs_bounds"
     },
     {
       "relation": "calls",
@@ -111330,11 +111330,11 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
-      "source_location": "L834",
+      "source_location": "L837",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_makestairfromselection",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairdirection"
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_trychoosestairoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -111343,9 +111343,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
       "source_location": "L879",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_createstairfromsingleblock",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_calculatebounds",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_calculatebounds"
     },
     {
       "relation": "calls",
@@ -111354,9 +111354,9 @@
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
       "source_location": "L880",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_createstairfromsingleblock",
-      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition",
-      "confidence_score": 1.0
+      "target": "editor_dungeonknight3deditormenu_dungeonknight3deditormenu_getstairedgestartposition"
     },
     {
       "relation": "calls",
@@ -285663,5 +285663,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dc9167891300c167455516bf777ef6d1b4ed34e7"
+  "built_at_commit": "6b808c6d5d1f30a4490c4c3f8b5a14e4f525fd7b"
 }

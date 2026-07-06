@@ -1,16 +1,16 @@
-# Graph Report - dungeon-knight-3D  (2026-07-05)
+# Graph Report - dungeon-knight-3D  (2026-07-06)
 
 ## Corpus Check
-- 393 files · ~5,829,602 words
+- 393 files · ~5,829,755 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 10951 nodes · 16877 edges · 391 communities (387 shown, 4 thin omitted)
+- 10951 nodes · 16877 edges · 392 communities (388 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dc916789`
+- Built from commit: `6b808c6d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -372,6 +372,7 @@
 - [[_COMMUNITY_Community 375|Community 375]]
 - [[_COMMUNITY_Community 376|Community 376]]
 - [[_COMMUNITY_Community 377|Community 377]]
+- [[_COMMUNITY_Community 378|Community 378]]
 - [[_COMMUNITY_Community 379|Community 379]]
 - [[_COMMUNITY_Community 380|Community 380]]
 - [[_COMMUNITY_Community 381|Community 381]]
@@ -400,19 +401,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `DungeonKnight3DMapAttachTool` --references--> `float`  [EXTRACTED]
   Assets/Editor/DungeonKnight3DWallStretchTool.cs → Assets/Editor/DungeonKnight3DWallStretchTool.cs  _Bridges community 52 → community 133_
+- `DungeonKnight3DWallStretchTool` --references--> `float`  [EXTRACTED]
+  Assets/Editor/DungeonKnight3DWallStretchTool.cs → Assets/Editor/DungeonKnight3DWallStretchTool.cs  _Bridges community 52 → community 378_
 - `DungeonKnight3DWallStretchTool` --inherits--> `EditorWindow`  [EXTRACTED]
-  Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 52 → community 191_
+  Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 378 → community 191_
 - `DungeonKnight3DMapAttachTool` --inherits--> `EditorWindow`  [EXTRACTED]
   Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 191 → community 133_
 - `AllowlistPickerWindow` --inherits--> `EditorWindow`  [EXTRACTED]
   Packages/com.besty.unity-skills/Editor/UI/AllowlistPickerWindow.cs →   _Bridges community 191 → community 148_
-- `UnitySkillsAuditWindow` --inherits--> `EditorWindow`  [EXTRACTED]
-  Packages/com.besty.unity-skills/Editor/UI/UnitySkillsWindow.cs →   _Bridges community 191 → community 233_
 
 ## Import Cycles
 - None detected.
 
-## Communities (391 total, 4 thin omitted)
+## Communities (392 total, 4 thin omitted)
 
 ### Community 0 - "World 1-1 Bootstrap"
 Cohesion: 0.10
@@ -623,8 +624,8 @@ Cohesion: 0.24
 Nodes (7): bool, float, PlayerController3D, Transform, Vector3, DungeonKnight.Level, DungeonShortcutElevator3D
 
 ### Community 52 - "3D Game HUD"
-Cohesion: 0.12
-Nodes (11): bool, float, MenuItem, string, EditAxis, DungeonKnight3DWallCornerHandles, DungeonKnight3DWallStretchTool, DungeonKnight.Editor (+3 more)
+Cohesion: 0.16
+Nodes (7): bool, float, MenuItem, string, DungeonKnight3DWallCornerHandles, DungeonKnight.Editor, SceneView
 
 ### Community 53 - "Hit Burst Effect"
 Cohesion: 0.22
@@ -1829,6 +1830,10 @@ Nodes (5): Unity - Getting Started, Unity - Manual: Get started with 3D game dev
 ### Community 377 - "Community 377"
 Cohesion: 0.33
 Nodes (6): find_skills(), get_skill_chain(), plan_workflow(), Plan a multi-step workflow.      Preferred usage:         plan_workflow(skills=[, Server-side intent-based skill recommendation.      Uses keyword scoring: name m, Find skill producers and dependency chain for a specific output field via the se
+
+### Community 378 - "Community 378"
+Cohesion: 0.32
+Nodes (4): EditAxis, DungeonKnight3DWallStretchTool, StretchAnchor, StretchAxis
 
 ### Community 379 - "Community 379"
 Cohesion: 0.29

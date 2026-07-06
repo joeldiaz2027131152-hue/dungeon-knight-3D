@@ -6,21 +6,30 @@ namespace DungeonKnight.Level
     {
         [SerializeField] private Vector3 travel = new Vector3(0f, 0f, 4f);
         [SerializeField] private float speed = 1f;
+        [SerializeField] private bool startAtLowerEndpoint;
 
         private Vector3 startPosition;
         private BoxCollider platformCollider;
+        private float phaseOffset;
         private readonly Collider[] riderHits = new Collider[8];
         private readonly CharacterController[] riders = new CharacterController[4];
 
         public void Configure(Vector3 newTravel, float newSpeed)
         {
+            Configure(newTravel, newSpeed, false);
+        }
+
+        public void Configure(Vector3 newTravel, float newSpeed, bool newStartAtLowerEndpoint)
+        {
             travel = newTravel;
             speed = newSpeed;
+            startAtLowerEndpoint = newStartAtLowerEndpoint;
         }
 
         private void Awake()
         {
-            startPosition = transform.position;
+            startPosition = startAtLowerEndpoint ? transform.position + travel * 0.5f : transform.position;
+            phaseOffset = startAtLowerEndpoint ? -Mathf.PI * 0.5f : 0f;
             platformCollider = GetComponent<BoxCollider>();
         }
 
@@ -28,7 +37,7 @@ namespace DungeonKnight.Level
         {
             Bounds previousBounds = platformCollider ? platformCollider.bounds : new Bounds(transform.position, transform.lossyScale);
             Vector3 previousPosition = transform.position;
-            float t = (Mathf.Sin(Time.time * speed) + 1f) * 0.5f;
+            float t = (Mathf.Sin(Time.time * speed + phaseOffset) + 1f) * 0.5f;
             Vector3 nextPosition = Vector3.Lerp(startPosition - travel * 0.5f, startPosition + travel * 0.5f, t);
             Vector3 delta = nextPosition - previousPosition;
             int riderCount = delta.sqrMagnitude > 0.000001f ? CollectRiders(previousBounds) : 0;
