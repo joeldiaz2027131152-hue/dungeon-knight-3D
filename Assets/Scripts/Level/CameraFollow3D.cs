@@ -9,6 +9,12 @@ namespace DungeonKnight.Level
         [SerializeField] private Vector3 offset = new Vector3(0f, 7.8f, -8.9f);
         [SerializeField] private float smoothTime = 0.14f;
         [SerializeField] private float lookAhead = 1.05f;
+        [SerializeField] private bool firstPersonMode = true;
+        [SerializeField] private Vector3 firstPersonEyeOffset = new Vector3(0f, 1.55f, 0.16f);
+        [SerializeField] private float firstPersonMouseSensitivity = 2.25f;
+        [SerializeField] private float firstPersonMinPitch = -72f;
+        [SerializeField] private float firstPersonMaxPitch = 78f;
+        [SerializeField] private float firstPersonFieldOfView = 72f;
 
         private Vector3 velocity;
         private PlayerController3D player;
@@ -27,6 +33,9 @@ namespace DungeonKnight.Level
         private float closeRoomMinZ;
         private Vector3 closeRoomLookDirection = Vector3.forward;
         private bool hasCloseRoomOverride;
+        private float yaw;
+        private float pitch;
+        private bool cursorWasLocked;
 
         public static void Shake(float amount, float duration)
         {
@@ -41,12 +50,19 @@ namespace DungeonKnight.Level
             activeCamera = this;
             attachedCamera = GetComponent<Camera>();
             defaultFieldOfView = attachedCamera ? attachedCamera.fieldOfView : 58f;
+            Vector3 euler = transform.eulerAngles;
+            yaw = euler.y;
+            pitch = NormalizePitch(euler.x);
         }
 
         public void SetTarget(Transform newTarget)
         {
             target = newTarget;
             player = target ? target.GetComponent<PlayerController3D>() : null;
+            if (target)
+            {
+                yaw = target.eulerAngles.y;
+            }
         }
 
         public static void SetCloseRoomOverride(
@@ -85,6 +101,25 @@ namespace DungeonKnight.Level
         private void LateUpdate()
         {
             if (!target) return;
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                firstPersonMode = !firstPersonMode;
+                velocity = Vector3.zero;
+            }
+
+            if (firstPersonMode && !LockOnActive)
+            {
+                UpdateFirstPersonCamera();
+                return;
+            }
+
+            if (cursorWasLocked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                cursorWasLocked = false;
+            }
 
             Vector3 flatForward = target.forward;
             flatForward.y = 0f;
@@ -143,6 +178,47 @@ namespace DungeonKnight.Level
                 ? Vector3.Lerp(target.position + Vector3.up * 1.15f, lockTarget.position + Vector3.up * 1.0f, 0.56f)
                 : target.position + Vector3.up * 1.35f + ahead * 0.55f;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(lookTarget - transform.position), 10f * Time.deltaTime);
+        }
+
+        private bool LockOnActive => player && player.LockOnTarget;
+
+        private void UpdateFirstPersonCamera()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            cursorWasLocked = true;
+
+            yaw += Input.GetAxis("Mouse X") * firstPersonMouseSensitivity;
+            pitch -= Input.GetAxis("Mouse Y") * firstPersonMouseSensitivity;
+            pitch = Mathf.Clamp(pitch, firstPersonMinPitch, firstPersonMaxPitch);
+
+            Quaternion yawRotation = Quaternion.Euler(0f, yaw, 0f);
+            Quaternion cameraRotation = Quaternion.Euler(pitch, yaw, 0f);
+            target.rotation = yawRotation;
+
+            Vector3 desired = target.position + yawRotation * firstPersonEyeOffset;
+            transform.position = desired;
+
+            if (shakeTimer > 0f)
+            {
+                shakeTimer -= Time.deltaTime;
+                Vector3 shake = Random.insideUnitSphere * shakeAmount * Mathf.Clamp01(shakeTimer / 0.2f);
+                shake.y *= 0.45f;
+                transform.position += shake;
+            }
+
+            transform.rotation = cameraRotation;
+
+            if (attachedCamera)
+            {
+                attachedCamera.fieldOfView = Mathf.Lerp(attachedCamera.fieldOfView, firstPersonFieldOfView, 8f * Time.deltaTime);
+                attachedCamera.nearClipPlane = Mathf.Min(attachedCamera.nearClipPlane, 0.035f);
+            }
+        }
+
+        private static float NormalizePitch(float value)
+        {
+            return value > 180f ? value - 360f : value;
         }
     }
 }
