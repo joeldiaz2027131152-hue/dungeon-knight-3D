@@ -8,11 +8,13 @@ namespace DungeonKnight.Level
         [SerializeField] private float speed = 1f;
         [SerializeField] private bool startAtLowerEndpoint;
         [SerializeField] private Vector3[] routePoints;
+        [SerializeField] private float routeStopDuration = 0.65f;
 
         private Vector3 startPosition;
         private BoxCollider platformCollider;
         private float phaseOffset;
         private int routeTargetIndex = 1;
+        private float routeStopTimer;
         private readonly Collider[] riderHits = new Collider[8];
         private readonly CharacterController[] riders = new CharacterController[4];
 
@@ -31,9 +33,17 @@ namespace DungeonKnight.Level
 
         public void ConfigureRoute(Vector3[] newRoutePoints, float newSpeed)
         {
+            ConfigureRoute(newRoutePoints, newSpeed, routeStopDuration);
+        }
+
+        public void ConfigureRoute(Vector3[] newRoutePoints, float newSpeed, float newRouteStopDuration)
+        {
             routePoints = newRoutePoints;
             speed = newSpeed;
             startAtLowerEndpoint = false;
+            routeStopDuration = Mathf.Max(0f, newRouteStopDuration);
+            routeTargetIndex = 1;
+            routeStopTimer = 0f;
         }
 
         private void Awake()
@@ -78,6 +88,12 @@ namespace DungeonKnight.Level
 
         private Vector3 CalculateRoutePosition(Vector3 previousPosition)
         {
+            if (routeStopTimer > 0f)
+            {
+                routeStopTimer = Mathf.Max(0f, routeStopTimer - Time.deltaTime);
+                return previousPosition;
+            }
+
             routeTargetIndex = Mathf.Clamp(routeTargetIndex, 0, routePoints.Length - 1);
             Vector3 target = routePoints[routeTargetIndex];
             Vector3 nextPosition = Vector3.MoveTowards(previousPosition, target, Mathf.Max(0.05f, speed) * Time.deltaTime);
@@ -85,6 +101,7 @@ namespace DungeonKnight.Level
             if ((nextPosition - target).sqrMagnitude <= 0.0004f)
             {
                 routeTargetIndex = (routeTargetIndex + 1) % routePoints.Length;
+                routeStopTimer = routeStopDuration;
             }
 
             return nextPosition;
