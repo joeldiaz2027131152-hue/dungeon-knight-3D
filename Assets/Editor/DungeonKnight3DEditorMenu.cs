@@ -834,14 +834,14 @@ namespace DungeonKnight.Editor
                 return;
             }
 
-            if (!TryChooseStairDirection(out Vector3 step, out string directionLabel))
+            if (!TryChooseStairOptions(out Vector3 step, out Vector3 edgeDirection, out string directionLabel, out string edgeLabel))
             {
                 return;
             }
 
             if (selected.Length == 1)
             {
-                CreateStairFromSingleBlock(selected[0], step, DefaultStairStepCount, directionLabel);
+                CreateStairFromSingleBlock(selected[0], step, edgeDirection, DefaultStairStepCount, directionLabel, edgeLabel);
                 return;
             }
 
@@ -854,10 +854,10 @@ namespace DungeonKnight.Editor
             }
 
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            Debug.Log($"[Dungeon Knight 3D] Arranged {selected.Length} selected blocks into a stair going {directionLabel}.");
+            Debug.Log($"[Dungeon Knight 3D] Arranged {selected.Length} selected blocks into a stair going {directionLabel} from the {edgeLabel} edge.");
         }
 
-        private static bool TryChooseStairDirection(out Vector3 step, out string directionLabel)
+        private static bool TryChooseStairOptions(out Vector3 step, out Vector3 edgeDirection, out string directionLabel, out string edgeLabel)
         {
             bool goesUp = EditorUtility.DisplayDialog(
                 "Make Stair",
@@ -865,19 +865,48 @@ namespace DungeonKnight.Editor
                 "Up",
                 "Down");
 
-            step = new Vector3(0f, goesUp ? DefaultStairStepHeight : -DefaultStairStepHeight, DefaultStairStepDepth);
+            bool chooseFrontBack = EditorUtility.DisplayDialog(
+                "Make Stair Edge",
+                "Which platform edge should the stair start from?",
+                "Front / Back",
+                "Left / Right");
+
+            if (chooseFrontBack)
+            {
+                bool front = EditorUtility.DisplayDialog(
+                    "Make Stair Edge",
+                    "Start from which edge?",
+                    "Front",
+                    "Back");
+
+                edgeDirection = front ? Vector3.forward : Vector3.back;
+                edgeLabel = front ? "front" : "back";
+            }
+            else
+            {
+                bool right = EditorUtility.DisplayDialog(
+                    "Make Stair Edge",
+                    "Start from which edge?",
+                    "Right",
+                    "Left");
+
+                edgeDirection = right ? Vector3.right : Vector3.left;
+                edgeLabel = right ? "right" : "left";
+            }
+
+            step = edgeDirection * DefaultStairStepDepth + Vector3.up * (goesUp ? DefaultStairStepHeight : -DefaultStairStepHeight);
             directionLabel = goesUp ? "up" : "down";
             return true;
         }
 
-        private static void CreateStairFromSingleBlock(Transform source, Vector3 step, int stepCount, string directionLabel)
+        private static void CreateStairFromSingleBlock(Transform source, Vector3 step, Vector3 edgeDirection, int stepCount, string directionLabel, string edgeLabel)
         {
             if (!source) return;
 
             GameObject[] stairObjects = new GameObject[stepCount];
-            Vector3 stepScale = GetStoneStairStepScale(source);
+            Vector3 stepScale = GetStoneStairStepScale(source, edgeDirection);
             Bounds sourceBounds = CalculateBounds(new[] { source });
-            Vector3 firstStepPosition = GetStairEdgeStartPosition(sourceBounds, step, stepScale);
+            Vector3 firstStepPosition = GetStairEdgeStartPosition(sourceBounds, edgeDirection, stepScale, step.y);
 
             for (int i = 0; i < stepCount; i++)
             {
@@ -891,28 +920,47 @@ namespace DungeonKnight.Editor
 
             Selection.objects = stairObjects;
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from {source.name}. Source object was left unchanged.");
+            Debug.Log($"[Dungeon Knight 3D] Created a {stepCount}-step stair going {directionLabel} from the {edgeLabel} edge of {source.name}. Source object was left unchanged.");
         }
 
-        private static Vector3 GetStairEdgeStartPosition(Bounds sourceBounds, Vector3 step, Vector3 stepScale)
+        private static Vector3 GetStairEdgeStartPosition(Bounds sourceBounds, Vector3 edgeDirection, Vector3 stepScale, float stepY)
         {
-            float zDirection = step.z >= 0f ? 1f : -1f;
-            float y = step.y >= 0f
+            float y = stepY >= 0f
                 ? sourceBounds.max.y + stepScale.y * 0.5f
                 : sourceBounds.max.y - stepScale.y * 0.5f;
-            float z = zDirection > 0f
+
+            if (Mathf.Abs(edgeDirection.x) > Mathf.Abs(edgeDirection.z))
+            {
+                float x = edgeDirection.x > 0f
+                    ? sourceBounds.max.x + stepScale.x * 0.5f
+                    : sourceBounds.min.x - stepScale.x * 0.5f;
+
+                return new Vector3(x, y, sourceBounds.center.z);
+            }
+
+            float z = edgeDirection.z > 0f
                 ? sourceBounds.max.z + stepScale.z * 0.5f
                 : sourceBounds.min.z - stepScale.z * 0.5f;
 
             return new Vector3(sourceBounds.center.x, y, z);
         }
 
-        private static Vector3 GetStoneStairStepScale(Transform source)
+        private static Vector3 GetStoneStairStepScale(Transform source, Vector3 edgeDirection)
         {
             Vector3 scale = source.localScale;
-            scale.x = Mathf.Clamp(Mathf.Abs(scale.x), 1.4f, 2.4f);
             scale.y = DefaultStairStepHeight;
-            scale.z = DefaultStairStepDepth;
+
+            if (Mathf.Abs(edgeDirection.x) > Mathf.Abs(edgeDirection.z))
+            {
+                scale.x = DefaultStairStepDepth;
+                scale.z = Mathf.Clamp(Mathf.Abs(scale.z), 1.4f, 2.4f);
+            }
+            else
+            {
+                scale.x = Mathf.Clamp(Mathf.Abs(scale.x), 1.4f, 2.4f);
+                scale.z = DefaultStairStepDepth;
+            }
+
             return scale;
         }
 
