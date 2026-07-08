@@ -4698,5 +4698,10 @@
     "mtime": 1783523138.853543,
     "ast_hash": "d1fdbe20c7bf188b3e7c12142afa1bb6",
     "semantic_hash": ""
+  },
+  "Assets/Art/Textures/Ladders/rope_ladder_card_albedo.png": {
+    "mtime": 1783523486.843338,
+    "ast_hash": "c0eb200919da7972704f0cee6335f25e",
+    "semantic_hash": ""
   }
 }
