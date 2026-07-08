@@ -14601,7 +14601,7 @@ GameObject:
   - component: {fileID: 104144123}
   - component: {fileID: 104144122}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 16
+  m_Name: Extra Lower Left Rubble Stone 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14615,9 +14615,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104144120}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.43837115, z: -0, w: 0.89879405}
-  m_LocalPosition: {x: -4.5164, y: 3.401515, z: 96.8649}
-  m_LocalScale: {x: 0.14991, y: 0.14013, z: 0.31431}
+  m_LocalRotation: {x: -0, y: 0.24192187, z: -0, w: -0.9702958}
+  m_LocalPosition: {x: -2.3122, y: -0.151, z: 83.2091}
+  m_LocalScale: {x: 0.21553, y: 0.17611, z: 0.30651}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -19041,7 +19041,7 @@ GameObject:
   - component: {fileID: 137531901}
   - component: {fileID: 137531900}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 14
+  m_Name: Extra Lower Left Rubble Stone 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19055,9 +19055,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137531898}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.1822356, z: -0, w: -0.9832549}
-  m_LocalPosition: {x: -1.9665, y: 3.426515, z: 95.0998}
-  m_LocalScale: {x: 0.20159, y: 0.10472, z: 0.21038}
+  m_LocalRotation: {x: -0, y: 0.8746198, z: -0, w: 0.4848096}
+  m_LocalPosition: {x: -2.5939, y: -0.151, z: 81.5207}
+  m_LocalScale: {x: 0.28166, y: 0.16102, z: 0.16555}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -21644,7 +21644,7 @@ GameObject:
   - component: {fileID: 153625433}
   - component: {fileID: 153625432}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 03
+  m_Name: Extra Lower Right Rubble Stone 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21658,9 +21658,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153625430}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70090926, z: -0, w: 0.71325046}
-  m_LocalPosition: {x: 2.4602, y: 3.426515, z: 91.2083}
-  m_LocalScale: {x: 0.23648, y: 0.16016, z: 0.1901}
+  m_LocalRotation: {x: -0, y: 0.9935719, z: -0, w: -0.11320321}
+  m_LocalPosition: {x: 2.6765, y: -0.126, z: 78.4794}
+  m_LocalScale: {x: 0.26081, y: 0.13327, z: 0.18107}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -31810,7 +31810,7 @@ GameObject:
   - component: {fileID: 223974889}
   - component: {fileID: 223974888}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 06
+  m_Name: Extra Lower Left Rubble Stone 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31824,9 +31824,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223974886}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.21643972, z: -0, w: -0.976296}
-  m_LocalPosition: {x: -1.6118, y: 3.401515, z: 87.1043}
-  m_LocalScale: {x: 0.1858, y: 0.17151, z: 0.35887}
+  m_LocalRotation: {x: -0, y: 0.62251467, z: -0, w: 0.78260815}
+  m_LocalPosition: {x: -2.3366, y: -0.126, z: 74.9957}
+  m_LocalScale: {x: 0.17885, y: 0.11317, z: 0.23017}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -33671,7 +33671,7 @@ GameObject:
   - component: {fileID: 237687149}
   - component: {fileID: 237687148}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 19
+  m_Name: Extra Lower Right Rubble Stone 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33685,9 +33685,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237687146}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.75470966, z: -0, w: -0.656059}
-  m_LocalPosition: {x: 1.3873, y: 3.401515, z: 103.081}
-  m_LocalScale: {x: 0.27368, y: 0.11144, z: 0.23395}
+  m_LocalRotation: {x: -0, y: 0.27563736, z: -0, w: 0.9612617}
+  m_LocalPosition: {x: 4.9385, y: -0.151, z: 84.2912}
+  m_LocalScale: {x: 0.17734, y: 0.14304, z: 0.18875}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -42923,7 +42923,7 @@ GameObject:
   - component: {fileID: 300203454}
   - component: {fileID: 300203453}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 18
+  m_Name: Extra Lower Right Rubble Stone 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42937,9 +42937,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300203451}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9723699, z: -0, w: 0.23344542}
-  m_LocalPosition: {x: 2.2069, y: 3.426515, z: 102.3239}
-  m_LocalScale: {x: 0.14603, y: 0.11465, z: 0.23301}
+  m_LocalRotation: {x: -0, y: 0.9636305, z: -0, w: 0.26723838}
+  m_LocalPosition: {x: 5.6416, y: -0.126, z: 83.2528}
+  m_LocalScale: {x: 0.23494, y: 0.17112, z: 0.29665}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -51811,7 +51811,7 @@ GameObject:
   - component: {fileID: 369527796}
   - component: {fileID: 369527795}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 19
+  m_Name: Extra Lower Left Rubble Stone 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51825,9 +51825,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369527793}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.05233605, z: -0, w: -0.9986295}
-  m_LocalPosition: {x: -2.5844, y: 3.401515, z: 100.1729}
-  m_LocalScale: {x: 0.26059, y: 0.15077, z: 0.27052}
+  m_LocalRotation: {x: -0, y: 0.8746198, z: -0, w: 0.4848096}
+  m_LocalPosition: {x: -5.5541, y: -0.151, z: 85.0443}
+  m_LocalScale: {x: 0.30797, y: 0.14921, z: 0.29277}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -60965,7 +60965,7 @@ GameObject:
   - component: {fileID: 432992693}
   - component: {fileID: 432992692}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 05
+  m_Name: Extra Lower Right Rubble Stone 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60979,9 +60979,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432992690}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9890159, z: -0, w: -0.14780945}
-  m_LocalPosition: {x: 4.6772, y: 3.401515, z: 92.2702}
-  m_LocalScale: {x: 0.24357, y: 0.14365, z: 0.20802}
+  m_LocalRotation: {x: -0, y: 0.09584583, z: -0, w: -0.9953962}
+  m_LocalPosition: {x: 4.4365, y: -0.151, z: 79.5237}
+  m_LocalScale: {x: 0.27887, y: 0.15735, z: 0.29071}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -61350,7 +61350,7 @@ GameObject:
   - component: {fileID: 435006318}
   - component: {fileID: 435006317}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 15
+  m_Name: Extra Lower Left Rubble Stone 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61364,9 +61364,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435006315}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.104528464, z: -0, w: 0.9945219}
-  m_LocalPosition: {x: -3.279, y: 3.401515, z: 96.0858}
-  m_LocalScale: {x: 0.22761, y: 0.10761, z: 0.24312}
+  m_LocalRotation: {x: -0, y: 0.41469324, z: -0, w: 0.9099613}
+  m_LocalPosition: {x: -1.3783, y: -0.126, z: 82.6206}
+  m_LocalScale: {x: 0.1824, y: 0.1793, z: 0.16736}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -62624,7 +62624,7 @@ GameObject:
   - component: {fileID: 442590693}
   - component: {fileID: 442590692}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 11
+  m_Name: Extra Lower Left Rubble Stone 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62638,9 +62638,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442590690}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9999619, z: -0, w: -0.00872653}
-  m_LocalPosition: {x: -3.8976, y: 3.426515, z: 92.1786}
-  m_LocalScale: {x: 0.30061, y: 0.14608, z: 0.32924}
+  m_LocalRotation: {x: -0, y: 0.92718387, z: -0, w: -0.3746066}
+  m_LocalPosition: {x: -5.182, y: -0.151, z: 78.9401}
+  m_LocalScale: {x: 0.26402, y: 0.15634, z: 0.32511}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -90259,7 +90259,7 @@ GameObject:
   - component: {fileID: 622912352}
   - component: {fileID: 622912351}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 03
+  m_Name: Extra Lower Left Rubble Stone 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90273,9 +90273,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622912349}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.8480481, z: -0, w: 0.52991927}
-  m_LocalPosition: {x: -4.797, y: 3.401515, z: 84.6699}
-  m_LocalScale: {x: 0.20158, y: 0.09136, z: 0.28855}
+  m_LocalRotation: {x: -0, y: 0.92050487, z: -0, w: 0.39073122}
+  m_LocalPosition: {x: -4.0591, y: -0.126, z: 72.7172}
+  m_LocalScale: {x: 0.17762, y: 0.13753, z: 0.2312}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -97395,7 +97395,7 @@ GameObject:
   - component: {fileID: 667520909}
   - component: {fileID: 667520908}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 12
+  m_Name: Extra Lower Right Rubble Stone 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97409,9 +97409,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667520906}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.97992474, z: -0, w: -0.19936791}
-  m_LocalPosition: {x: 2.322, y: 3.426515, z: 98.2578}
-  m_LocalScale: {x: 0.30151, y: 0.09605, z: 0.28753}
+  m_LocalRotation: {x: -0, y: 0.92387956, z: -0, w: 0.38268346}
+  m_LocalPosition: {x: 1.081, y: -0.126, z: 84.1412}
+  m_LocalScale: {x: 0.28709, y: 0.15094, z: 0.35158}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -101971,7 +101971,7 @@ GameObject:
   - component: {fileID: 701193036}
   - component: {fileID: 701193035}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 06
+  m_Name: Extra Lower Right Rubble Stone 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101985,9 +101985,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701193033}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.26723838, z: -0, w: 0.96363044}
-  m_LocalPosition: {x: 5.7952, y: 3.426515, z: 93.2339}
-  m_LocalScale: {x: 0.17216, y: 0.1387, z: 0.18844}
+  m_LocalRotation: {x: -0, y: 0.9986295, z: -0, w: -0.05233594}
+  m_LocalPosition: {x: 5.1987, y: -0.126, z: 80.2224}
+  m_LocalScale: {x: 0.14136, y: 0.13858, z: 0.16091}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -105669,7 +105669,7 @@ GameObject:
   - component: {fileID: 726891729}
   - component: {fileID: 726891728}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 02
+  m_Name: Extra Lower Right Rubble Stone 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105683,9 +105683,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726891726}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.8910066, z: -0, w: -0.4539904}
-  m_LocalPosition: {x: 1.9915, y: 3.401515, z: 90.2096}
-  m_LocalScale: {x: 0.26173, y: 0.09639, z: 0.2336}
+  m_LocalRotation: {x: -0, y: 0.4694716, z: -0, w: -0.8829476}
+  m_LocalPosition: {x: 1.9179, y: -0.151, z: 77.6738}
+  m_LocalScale: {x: 0.15336, y: 0.12133, z: 0.28641}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -105759,7 +105759,7 @@ GameObject:
   - component: {fileID: 727037332}
   - component: {fileID: 727037331}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 10
+  m_Name: Extra Lower Right Rubble Stone 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105773,9 +105773,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727037329}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.19936793, z: -0, w: 0.9799247}
-  m_LocalPosition: {x: 2.0191, y: 3.401515, z: 96.3956}
-  m_LocalScale: {x: 0.16449, y: 0.16917, z: 0.25329}
+  m_LocalRotation: {x: -0, y: 0.40673664, z: -0, w: 0.9135454}
+  m_LocalPosition: {x: 3.3528, y: -0.151, z: 82.7552}
+  m_LocalScale: {x: 0.16419, y: 0.16822, z: 0.21857}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -115739,7 +115739,7 @@ GameObject:
   - component: {fileID: 801219870}
   - component: {fileID: 801219869}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 07
+  m_Name: Extra Lower Left Rubble Stone 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115753,9 +115753,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801219867}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.809017, z: -0, w: 0.5877853}
-  m_LocalPosition: {x: -3.2192, y: 3.401515, z: 88.1289}
-  m_LocalScale: {x: 0.29008, y: 0.13295, z: 0.23102}
+  m_LocalRotation: {x: -0, y: 0.53729963, z: -0, w: 0.8433914}
+  m_LocalPosition: {x: -1.4157, y: -0.151, z: 75.8794}
+  m_LocalScale: {x: 0.19087, y: 0.16384, z: 0.34659}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -131503,7 +131503,7 @@ GameObject:
   - component: {fileID: 916097232}
   - component: {fileID: 916097231}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 08
+  m_Name: Extra Lower Right Rubble Stone 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -131517,9 +131517,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916097229}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.551937, z: -0, w: 0.83388585}
-  m_LocalPosition: {x: 4.5281, y: 3.401515, z: 94.981}
-  m_LocalScale: {x: 0.15158, y: 0.09306, z: 0.17052}
+  m_LocalRotation: {x: -0, y: 0.19936791, z: -0, w: -0.97992474}
+  m_LocalPosition: {x: 5.4627, y: -0.151, z: 81.6276}
+  m_LocalScale: {x: 0.14257, y: 0.11885, z: 0.26211}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -135558,7 +135558,7 @@ GameObject:
   - component: {fileID: 942339716}
   - component: {fileID: 942339715}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 10
+  m_Name: Extra Lower Left Rubble Stone 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135572,9 +135572,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942339713}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.29237184, z: -0, w: -0.9563047}
-  m_LocalPosition: {x: -4.9779, y: 3.401515, z: 91.1277}
-  m_LocalScale: {x: 0.15702, y: 0.15835, z: 0.18132}
+  m_LocalRotation: {x: -0, y: 0.72537446, z: -0, w: -0.68835455}
+  m_LocalPosition: {x: -4.3378, y: -0.151, z: 78.1322}
+  m_LocalScale: {x: 0.25312, y: 0.17092, z: 0.29179}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -136212,7 +136212,7 @@ GameObject:
   - component: {fileID: 947554072}
   - component: {fileID: 947554071}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 20
+  m_Name: Extra Lower Left Rubble Stone 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136226,9 +136226,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947554069}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.5519369, z: -0, w: -0.83388585}
-  m_LocalPosition: {x: -1.7495, y: 3.426515, z: 101.133}
-  m_LocalScale: {x: 0.28598, y: 0.17192, z: 0.27828}
+  m_LocalRotation: {x: -0, y: 0.8290376, z: -0, w: -0.55919284}
+  m_LocalPosition: {x: -3.2258, y: -0.151, z: 85.4383}
+  m_LocalScale: {x: 0.21576, y: 0.17943, z: 0.34353}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -148797,7 +148797,7 @@ GameObject:
   - component: {fileID: 1020630630}
   - component: {fileID: 1020630629}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 15
+  m_Name: Extra Lower Right Rubble Stone 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148811,9 +148811,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020630627}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.92387956, z: -0, w: 0.38268346}
-  m_LocalPosition: {x: 5.7511, y: 3.426515, z: 100.2234}
-  m_LocalScale: {x: 0.17294, y: 0.09751, z: 0.19223}
+  m_LocalRotation: {x: -0, y: 0.75470966, z: -0, w: -0.656059}
+  m_LocalPosition: {x: 4.3379, y: -0.126, z: 85.4927}
+  m_LocalScale: {x: 0.19339, y: 0.12218, z: 0.31764}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -163668,7 +163668,7 @@ GameObject:
   - component: {fileID: 1123880573}
   - component: {fileID: 1123880572}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 13
+  m_Name: Extra Lower Right Rubble Stone 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163682,9 +163682,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123880570}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9945219, z: -0, w: -0.10452851}
-  m_LocalPosition: {x: 3.5877, y: 3.401515, z: 99.0735}
-  m_LocalScale: {x: 0.21581, y: 0.10906, z: 0.26404}
+  m_LocalRotation: {x: -0, y: 0.8038569, z: -0, w: -0.5948227}
+  m_LocalPosition: {x: 1.8987, y: -0.151, z: 84.9921}
+  m_LocalScale: {x: 0.30561, y: 0.10051, z: 0.3595}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -166695,7 +166695,7 @@ GameObject:
   - component: {fileID: 1141035660}
   - component: {fileID: 1141035659}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 14
+  m_Name: Extra Lower Right Rubble Stone 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166709,9 +166709,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141035657}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.64944804, z: -0, w: 0.76040596}
-  m_LocalPosition: {x: 4.9342, y: 3.401515, z: 99.5695}
-  m_LocalScale: {x: 0.26618, y: 0.16555, z: 0.18808}
+  m_LocalRotation: {x: -0, y: 0.6087614, z: -0, w: 0.7933533}
+  m_LocalPosition: {x: 3.0754, y: -0.151, z: 85.4582}
+  m_LocalScale: {x: 0.22666, y: 0.13701, z: 0.23499}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -168025,7 +168025,7 @@ GameObject:
   - component: {fileID: 1151117941}
   - component: {fileID: 1151117940}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 01
+  m_Name: Extra Lower Left Rubble Stone 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -168039,9 +168039,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151117938}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.71325046, z: -0, w: 0.70090926}
-  m_LocalPosition: {x: -5.6568, y: 3.401515, z: 83.0619}
-  m_LocalScale: {x: 0.24521, y: 0.1608, z: 0.25832}
+  m_LocalRotation: {x: -0, y: 0.54463905, z: -0, w: -0.83867055}
+  m_LocalPosition: {x: -5.4269, y: -0.151, z: 71.8968}
+  m_LocalScale: {x: 0.29559, y: 0.12866, z: 0.29681}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -170809,7 +170809,7 @@ GameObject:
   - component: {fileID: 1173863196}
   - component: {fileID: 1173863195}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 11
+  m_Name: Extra Lower Right Rubble Stone 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170823,9 +170823,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173863193}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.3826835, z: -0, w: -0.9238795}
-  m_LocalPosition: {x: 1.334, y: 3.401515, z: 97.4234}
-  m_LocalScale: {x: 0.18604, y: 0.10769, z: 0.27385}
+  m_LocalRotation: {x: -0, y: 0.7313537, z: -0, w: 0.6819984}
+  m_LocalPosition: {x: 2.1163, y: -0.151, z: 83.418}
+  m_LocalScale: {x: 0.16602, y: 0.13531, z: 0.24396}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -191010,7 +191010,7 @@ GameObject:
   - component: {fileID: 1310730234}
   - component: {fileID: 1310730233}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 04
+  m_Name: Extra Lower Left Rubble Stone 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191024,9 +191024,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310730231}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.087155886, z: -0, w: -0.9961947}
-  m_LocalPosition: {x: -3.8542, y: 3.401515, z: 85.3566}
-  m_LocalScale: {x: 0.15755, y: 0.13317, z: 0.16385}
+  m_LocalRotation: {x: -0, y: 0.6691306, z: -0, w: 0.7431448}
+  m_LocalPosition: {x: -3.3397, y: -0.151, z: 73.5587}
+  m_LocalScale: {x: 0.27804, y: 0.15991, z: 0.30939}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -215009,7 +215009,7 @@ GameObject:
   - component: {fileID: 1480043728}
   - component: {fileID: 1480043727}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 09
+  m_Name: Extra Lower Right Rubble Stone 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215023,9 +215023,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480043725}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.6087614, z: -0, w: 0.7933533}
-  m_LocalPosition: {x: 3.2275, y: 3.426515, z: 95.9217}
-  m_LocalScale: {x: 0.25302, y: 0.12778, z: 0.2465}
+  m_LocalRotation: {x: -0, y: 0.7880108, z: -0, w: -0.61566144}
+  m_LocalPosition: {x: 4.3911, y: -0.126, z: 82.1684}
+  m_LocalScale: {x: 0.26166, y: 0.14526, z: 0.31204}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -217821,7 +217821,7 @@ GameObject:
   - component: {fileID: 1505856826}
   - component: {fileID: 1505856825}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 16
+  m_Name: Extra Lower Right Rubble Stone 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217835,9 +217835,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505856823}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.4539905, z: -0, w: 0.8910065}
-  m_LocalPosition: {x: 4.8647, y: 3.401515, z: 101.4431}
-  m_LocalScale: {x: 0.2071, y: 0.13245, z: 0.35616}
+  m_LocalRotation: {x: -0, y: 0.8910066, z: -0, w: -0.4539904}
+  m_LocalPosition: {x: 5.5803, y: -0.151, z: 86.1474}
+  m_LocalScale: {x: 0.23176, y: 0.16584, z: 0.35076}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -222325,7 +222325,7 @@ GameObject:
   - component: {fileID: 1540836784}
   - component: {fileID: 1540836783}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 20
+  m_Name: Extra Lower Right Rubble Stone 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222339,9 +222339,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540836781}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.8949344, z: -0, w: -0.44619775}
-  m_LocalPosition: {x: 5.9035, y: 3.401515, z: 96.9653}
-  m_LocalScale: {x: 0.2682, y: 0.09893, z: 0.28253}
+  m_LocalRotation: {x: -0, y: 0.5877852, z: -0, w: -0.80901706}
+  m_LocalPosition: {x: 2.7501, y: -0.151, z: 86.0532}
+  m_LocalScale: {x: 0.24479, y: 0.17036, z: 0.21677}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -230405,7 +230405,7 @@ GameObject:
   - component: {fileID: 1598531157}
   - component: {fileID: 1598531156}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 02
+  m_Name: Extra Lower Left Rubble Stone 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230419,9 +230419,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598531154}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9816272, z: -0, w: -0.19080904}
-  m_LocalPosition: {x: -5.2047, y: 3.426515, z: 84.181}
-  m_LocalScale: {x: 0.14971, y: 0.15892, z: 0.18795}
+  m_LocalRotation: {x: -0, y: 0.9659259, z: -0, w: -0.25881907}
+  m_LocalPosition: {x: -4.6976, y: -0.151, z: 72.1749}
+  m_LocalScale: {x: 0.26268, y: 0.11261, z: 0.35802}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -232235,7 +232235,7 @@ GameObject:
   - component: {fileID: 1611739278}
   - component: {fileID: 1611739277}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 08
+  m_Name: Extra Lower Left Rubble Stone 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232249,9 +232249,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611739275}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70090926, z: -0, w: 0.71325046}
-  m_LocalPosition: {x: -4.3299, y: 3.426515, z: 88.8944}
-  m_LocalScale: {x: 0.21412, y: 0.13277, z: 0.16993}
+  m_LocalRotation: {x: -0, y: 0.6156615, z: -0, w: 0.7880108}
+  m_LocalPosition: {x: -2.5393, y: -0.151, z: 76.5538}
+  m_LocalScale: {x: 0.19096, y: 0.10839, z: 0.24816}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -235893,7 +235893,7 @@ GameObject:
   - component: {fileID: 1639055288}
   - component: {fileID: 1639055287}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 07
+  m_Name: Extra Lower Right Rubble Stone 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235907,9 +235907,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639055285}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.309017, z: -0, w: 0.95105654}
-  m_LocalPosition: {x: 5.5165, y: 3.401515, z: 93.9804}
-  m_LocalScale: {x: 0.18373, y: 0.1423, z: 0.22031}
+  m_LocalRotation: {x: -0, y: 0.5519369, z: -0, w: -0.83388585}
+  m_LocalPosition: {x: 5.9668, y: -0.151, z: 80.7271}
+  m_LocalScale: {x: 0.19094, y: 0.17663, z: 0.29713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -236808,7 +236808,7 @@ GameObject:
   - component: {fileID: 1648677412}
   - component: {fileID: 1648677411}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 18
+  m_Name: Extra Lower Left Rubble Stone 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236822,9 +236822,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648677409}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.87881714, z: -0, w: 0.47715876}
-  m_LocalPosition: {x: -4.0767, y: 3.401515, z: 99.2417}
-  m_LocalScale: {x: 0.16688, y: 0.10003, z: 0.19883}
+  m_LocalRotation: {x: -0, y: 0.9832549, z: -0, w: -0.18223548}
+  m_LocalPosition: {x: -4.6145, y: -0.126, z: 84.7354}
+  m_LocalScale: {x: 0.16553, y: 0.11487, z: 0.17101}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -243595,7 +243595,7 @@ GameObject:
   - component: {fileID: 1694912332}
   - component: {fileID: 1694912331}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 04
+  m_Name: Extra Lower Right Rubble Stone 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243609,9 +243609,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694912329}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.99691737, z: -0, w: 0.07845909}
-  m_LocalPosition: {x: 3.5516, y: 3.401515, z: 91.6285}
-  m_LocalScale: {x: 0.29834, y: 0.167, z: 0.19799}
+  m_LocalRotation: {x: -0, y: 0.7372773, z: -0, w: 0.6755902}
+  m_LocalPosition: {x: 3.4845, y: -0.151, z: 78.9765}
+  m_LocalScale: {x: 0.20053, y: 0.17516, z: 0.1972}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -249109,7 +249109,7 @@ GameObject:
   - component: {fileID: 1740897664}
   - component: {fileID: 1740897663}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 13
+  m_Name: Extra Lower Left Rubble Stone 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249123,9 +249123,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740897661}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.95371693, z: -0, w: -0.3007058}
-  m_LocalPosition: {x: -1.3492, y: 3.401515, z: 93.8295}
-  m_LocalScale: {x: 0.16237, y: 0.17414, z: 0.29036}
+  m_LocalRotation: {x: -0, y: 0.8241262, z: -0, w: 0.56640625}
+  m_LocalPosition: {x: -3.581, y: -0.151, z: 80.6646}
+  m_LocalScale: {x: 0.14428, y: 0.0925, z: 0.22359}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -267844,7 +267844,7 @@ GameObject:
   - component: {fileID: 1866624736}
   - component: {fileID: 1866624735}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 01
+  m_Name: Extra Lower Right Rubble Stone 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267858,9 +267858,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866624733}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.6087614, z: -0, w: 0.7933533}
-  m_LocalPosition: {x: 1.1079, y: 3.401515, z: 89.9674}
-  m_LocalScale: {x: 0.23945, y: 0.13114, z: 0.25837}
+  m_LocalRotation: {x: -0, y: 0.72537434, z: -0, w: 0.6883546}
+  m_LocalPosition: {x: 1.1866, y: -0.151, z: 77.2453}
+  m_LocalScale: {x: 0.26486, y: 0.15868, z: 0.29395}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -268975,7 +268975,7 @@ GameObject:
   - component: {fileID: 1875823486}
   - component: {fileID: 1875823485}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 05
+  m_Name: Extra Lower Left Rubble Stone 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268989,9 +268989,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875823483}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.017452458, z: -0, w: -0.9998477}
-  m_LocalPosition: {x: -2.8614, y: 3.426515, z: 86.2243}
-  m_LocalScale: {x: 0.24413, y: 0.10001, z: 0.16098}
+  m_LocalRotation: {x: -0, y: 0.39073113, z: -0, w: 0.92050487}
+  m_LocalPosition: {x: -2.9084, y: -0.151, z: 74.3478}
+  m_LocalScale: {x: 0.28046, y: 0.10756, z: 0.25169}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -275367,7 +275367,7 @@ GameObject:
   - component: {fileID: 1928304345}
   - component: {fileID: 1928304344}
   m_Layer: 0
-  m_Name: Extra Visible Right Rubble Stone 17
+  m_Name: Extra Lower Right Rubble Stone 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275381,9 +275381,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928304342}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.39073113, z: -0, w: 0.92050487}
-  m_LocalPosition: {x: 3.7249, y: 3.401515, z: 101.7734}
-  m_LocalScale: {x: 0.29184, y: 0.13705, z: 0.2372}
+  m_LocalRotation: {x: -0, y: 0.9563047, z: -0, w: 0.29237178}
+  m_LocalPosition: {x: 6.2492, y: -0.151, z: 86.4631}
+  m_LocalScale: {x: 0.176, y: 0.1214, z: 0.19324}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -275989,7 +275989,7 @@ GameObject:
   - component: {fileID: 1931316048}
   - component: {fileID: 1931316047}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 12
+  m_Name: Extra Lower Left Rubble Stone 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276003,9 +276003,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931316045}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.64944804, z: -0, w: -0.760406}
-  m_LocalPosition: {x: -2.3853, y: 3.401515, z: 93.2236}
-  m_LocalScale: {x: 0.20426, y: 0.13241, z: 0.18204}
+  m_LocalRotation: {x: -0, y: 0.9953962, z: -0, w: 0.09584576}
+  m_LocalPosition: {x: -4.6801, y: -0.126, z: 80.1557}
+  m_LocalScale: {x: 0.18421, y: 0.09333, z: 0.29641}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -287673,7 +287673,7 @@ GameObject:
   - component: {fileID: 2031991524}
   - component: {fileID: 2031991523}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 09
+  m_Name: Extra Lower Left Rubble Stone 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287687,9 +287687,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031991521}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.1902, y: 3.401515, z: 89.4465}
-  m_LocalScale: {x: 0.15919, y: 0.15524, z: 0.18823}
+  m_LocalRotation: {x: -0, y: 0.9902681, z: -0, w: 0.13917312}
+  m_LocalPosition: {x: -3.1799, y: -0.126, z: 77.2859}
+  m_LocalScale: {x: 0.24239, y: 0.15326, z: 0.27092}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
@@ -302336,7 +302336,7 @@ GameObject:
   - component: {fileID: 2120556889}
   - component: {fileID: 2120556888}
   m_Layer: 0
-  m_Name: Extra Visible Left Rubble Stone 17
+  m_Name: Extra Lower Left Rubble Stone 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -302350,9 +302350,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120556886}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.19080901, z: -0, w: 0.9816272}
-  m_LocalPosition: {x: -5.2174, y: 3.426515, z: 98.1667}
-  m_LocalScale: {x: 0.22765, y: 0.13653, z: 0.20427}
+  m_LocalRotation: {x: -0, y: 0.3007058, z: -0, w: 0.95371693}
+  m_LocalPosition: {x: -3.2917, y: -0.151, z: 83.9545}
+  m_LocalScale: {x: 0.21123, y: 0.17887, z: 0.20686}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545825897}
