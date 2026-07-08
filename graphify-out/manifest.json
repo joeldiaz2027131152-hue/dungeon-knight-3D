@@ -4703,10 +4703,5 @@
     "mtime": 1783527014.8342571,
     "ast_hash": "71b2f63bff741159e42a184181fae28f",
     "semantic_hash": ""
-  },
-  "Assets/Editor/DK3DStartingAreaBasicProps.cs": {
-    "mtime": 1783528676.4794383,
-    "ast_hash": "d49e3489cfbbfb23afa2ce2abfcd9f1c",
-    "semantic_hash": ""
   }
 }
