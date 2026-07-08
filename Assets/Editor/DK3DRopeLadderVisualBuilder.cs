@@ -4,8 +4,8 @@ using UnityEngine;
 
 public static class DK3DRopeLadderVisualBuilder
 {
-    private const string MenuPath = "Dungeon Knight 3D/Build Proper Rope Ladder Visual";
-    private const string ToolMenuPath = "Dungeon Knight 3D/Escaleras de madera";
+    private const string MenuPath = "Tools/Dungeon Knight 3D/Build Proper Rope Ladder Visual";
+    private const string ToolMenuPath = "Tools/Dungeon Knight 3D/Escaleras de madera";
     private const string OriginalName = "Manual Rope Ladder To Upper Opening";
     private const string OldImageFaceName = "Manual Rope Ladder Image Face";
     private const string VisualRootName = "Manual Rope Ladder 3D Game Visual";
@@ -211,7 +211,7 @@ public static class DK3DRopeLadderVisualBuilder
         private float height = DefaultHeight;
         private float width = DefaultWidth;
         private int stepCount = DefaultStepCount;
-        private Vector3 position = Vector3.zero;
+        private Vector3 ladderPosition = Vector3.zero;
         private Vector3 rotation = Vector3.zero;
 
         public static void ShowWindow()
@@ -227,12 +227,12 @@ public static class DK3DRopeLadderVisualBuilder
             height = EditorGUILayout.Slider("Alto", height, 1f, 30f);
             width = EditorGUILayout.Slider("Ancho", width, 0.5f, 4f);
             stepCount = EditorGUILayout.IntSlider("Escalones", stepCount, 2, 40);
-            position = EditorGUILayout.Vector3Field("Posicion", position);
+            ladderPosition = EditorGUILayout.Vector3Field("Posicion", ladderPosition);
             rotation = EditorGUILayout.Vector3Field("Rotacion", rotation);
 
             if (GUILayout.Button("Crear nueva escalera"))
             {
-                CreateCustomLadder(ladderName, position, Quaternion.Euler(rotation), height, width, stepCount);
+                CreateCustomLadder(ladderName, ladderPosition, Quaternion.Euler(rotation), height, width, stepCount);
             }
 
             EditorGUILayout.Space(10f);
@@ -242,7 +242,7 @@ public static class DK3DRopeLadderVisualBuilder
             {
                 if (GUILayout.Button("Usar posicion seleccionada"))
                 {
-                    position = Selection.activeGameObject.transform.position;
+                    ladderPosition = Selection.activeGameObject.transform.position;
                     rotation = Selection.activeGameObject.transform.eulerAngles;
                 }
 
