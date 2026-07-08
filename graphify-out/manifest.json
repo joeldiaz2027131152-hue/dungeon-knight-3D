@@ -4783,5 +4783,10 @@
     "mtime": 1783544024.6856368,
     "ast_hash": "0f000f542a1122c9493cbaa670fd0b3c",
     "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/material_0.png": {
+    "mtime": 1783546993.7292407,
+    "ast_hash": "e23055e8b2ce73dac2d60d81a9abad2a",
+    "semantic_hash": ""
   }
 }
