@@ -4678,5 +4678,25 @@
     "mtime": 1781623666.7192914,
     "ast_hash": "c73ba638c4d284d0b61138bcdb949bb1",
     "semantic_hash": ""
+  },
+  "Assets/Art/Textures/Ladders/rope_ladder_rope_albedo.png": {
+    "mtime": 1783522946.2911887,
+    "ast_hash": "ba74953f9b1ef82cc896150076809424",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/Ladders/rope_ladder_rope_height.png": {
+    "mtime": 1783522946.6785412,
+    "ast_hash": "12c585ce7f9dcf858131b16599351baf",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/Ladders/rope_ladder_wood_albedo.png": {
+    "mtime": 1783523138.763509,
+    "ast_hash": "1b6102b2e570874951cd3fb960536621",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/Ladders/rope_ladder_wood_height.png": {
+    "mtime": 1783523138.853543,
+    "ast_hash": "d1fdbe20c7bf188b3e7c12142afa1bb6",
+    "semantic_hash": ""
   }
 }
