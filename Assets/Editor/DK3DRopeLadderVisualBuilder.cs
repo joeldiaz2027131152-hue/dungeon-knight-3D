@@ -5,7 +5,7 @@ using UnityEngine;
 public static class DK3DRopeLadderVisualBuilder
 {
     private const string MenuPath = "Dungeon Knight 3D/Build Proper Rope Ladder Visual";
-    private const string ToolMenuPath = "Dungeon Knight 3D/Rope Ladder Tool";
+    private const string ToolMenuPath = "Dungeon Knight 3D/Escaleras de madera";
     private const string OriginalName = "Manual Rope Ladder To Upper Opening";
     private const string OldImageFaceName = "Manual Rope Ladder Image Face";
     private const string VisualRootName = "Manual Rope Ladder 3D Game Visual";
@@ -207,7 +207,7 @@ public static class DK3DRopeLadderVisualBuilder
 
     private sealed class RopeLadderToolWindow : EditorWindow
     {
-        private string ladderName = "Rope Ladder";
+        private string ladderName = "Escaleras de madera";
         private float height = DefaultHeight;
         private float width = DefaultWidth;
         private int stepCount = DefaultStepCount;
@@ -216,41 +216,41 @@ public static class DK3DRopeLadderVisualBuilder
 
         public static void ShowWindow()
         {
-            var window = GetWindow<RopeLadderToolWindow>("Rope Ladder Tool");
+            var window = GetWindow<RopeLadderToolWindow>("Escaleras de madera");
             window.minSize = new Vector2(280f, 250f);
         }
 
         private void OnGUI()
         {
-            EditorGUILayout.LabelField("Create Rope Ladder", EditorStyles.boldLabel);
-            ladderName = EditorGUILayout.TextField("Name", ladderName);
-            height = EditorGUILayout.Slider("Height", height, 1f, 30f);
-            width = EditorGUILayout.Slider("Width", width, 0.5f, 4f);
-            stepCount = EditorGUILayout.IntSlider("Steps", stepCount, 2, 40);
-            position = EditorGUILayout.Vector3Field("Position", position);
-            rotation = EditorGUILayout.Vector3Field("Rotation", rotation);
+            EditorGUILayout.LabelField("Crear escaleras de madera", EditorStyles.boldLabel);
+            ladderName = EditorGUILayout.TextField("Nombre", ladderName);
+            height = EditorGUILayout.Slider("Alto", height, 1f, 30f);
+            width = EditorGUILayout.Slider("Ancho", width, 0.5f, 4f);
+            stepCount = EditorGUILayout.IntSlider("Escalones", stepCount, 2, 40);
+            position = EditorGUILayout.Vector3Field("Posicion", position);
+            rotation = EditorGUILayout.Vector3Field("Rotacion", rotation);
 
-            if (GUILayout.Button("Create New Ladder"))
+            if (GUILayout.Button("Crear nueva escalera"))
             {
                 CreateCustomLadder(ladderName, position, Quaternion.Euler(rotation), height, width, stepCount);
             }
 
             EditorGUILayout.Space(10f);
-            EditorGUILayout.LabelField("Selected Ladder", EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Escalera seleccionada", EditorStyles.boldLabel);
 
             using (new EditorGUI.DisabledScope(Selection.activeGameObject == null))
             {
-                if (GUILayout.Button("Use Selected Transform"))
+                if (GUILayout.Button("Usar posicion seleccionada"))
                 {
                     position = Selection.activeGameObject.transform.position;
                     rotation = Selection.activeGameObject.transform.eulerAngles;
                 }
 
-                if (GUILayout.Button("Rebuild Selected Ladder"))
+                if (GUILayout.Button("Reconstruir escalera seleccionada"))
                 {
                     if (!IsLikelyGeneratedLadder(Selection.activeGameObject))
                     {
-                        EditorUtility.DisplayDialog("Rope Ladder Tool", "Select a generated rope ladder root before rebuilding.", "OK");
+                        EditorUtility.DisplayDialog("Escaleras de madera", "Selecciona la raiz de una escalera generada antes de reconstruir.", "OK");
                         return;
                     }
 
@@ -266,7 +266,8 @@ public static class DK3DRopeLadderVisualBuilder
                 return false;
             }
 
-            return selected.name.Contains("Rope Ladder")
+            return selected.name.Contains("Escaleras de madera")
+                || selected.name.Contains("Rope Ladder")
                 || selected.transform.Find("Left Long Rope Rail") != null
                 || selected.transform.Find("Squared Wooden Step 01") != null;
         }
