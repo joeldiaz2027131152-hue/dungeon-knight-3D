@@ -4703,10 +4703,5 @@
     "mtime": 1783527014.8342571,
     "ast_hash": "71b2f63bff741159e42a184181fae28f",
     "semantic_hash": ""
-  },
-  "Assets/Editor/DK3DManualTorchPolisher.cs": {
-    "mtime": 1783536852.8861809,
-    "ast_hash": "14733555fabbad0c9c47b72886ebf4e7",
-    "semantic_hash": ""
   }
 }
