@@ -4703,5 +4703,85 @@
     "mtime": 1783527014.8342571,
     "ast_hash": "71b2f63bff741159e42a184181fae28f",
     "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/blue_wisp_albedo.png": {
+    "mtime": 1783544026.7886572,
+    "ast_hash": "e49b6318811a1049efa698f81081f80d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/blue_wisp_height.png": {
+    "mtime": 1783544026.799657,
+    "ast_hash": "0a73fdd7c89bcb8e0be28d1c5db83c70",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/dead_bark_albedo.png": {
+    "mtime": 1783544026.0906503,
+    "ast_hash": "537f59055800910992e45a21f098215f",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/dead_bark_height.png": {
+    "mtime": 1783544026.1076505,
+    "ast_hash": "c482996088c090757e3f6a432286579d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/green_wisp_albedo.png": {
+    "mtime": 1783544027.493664,
+    "ast_hash": "64eef4b610bb9e76ba0eabc82d896316",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/green_wisp_height.png": {
+    "mtime": 1783544027.506664,
+    "ast_hash": "0a73fdd7c89bcb8e0be28d1c5db83c70",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/rotting_plank_albedo.png": {
+    "mtime": 1783544023.2156224,
+    "ast_hash": "a6b87fc80e93a1476e52303f984e81da",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/rotting_plank_height.png": {
+    "mtime": 1783544023.2316227,
+    "ast_hash": "bd9fcd8306d73d6fe359a2161b4cf910",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_moss_albedo.png": {
+    "mtime": 1783544020.392595,
+    "ast_hash": "ba01ed8d1ffba9b236fe7c884ac15053",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_moss_height.png": {
+    "mtime": 1783544020.4095953,
+    "ast_hash": "85e1bb2082666ed9d49827fffe78c6f8",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_mud_albedo.png": {
+    "mtime": 1783544019.0615823,
+    "ast_hash": "976070eddbdfe66e5e6780fbee1fb305",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_mud_height.png": {
+    "mtime": 1783544019.0795825,
+    "ast_hash": "85142e14bc95db33e375ff592a38d81d",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_water_albedo.png": {
+    "mtime": 1783544021.720608,
+    "ast_hash": "de4e5a42ae06d8f3deb07cd2e48e4bb5",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_water_height.png": {
+    "mtime": 1783544021.739608,
+    "ast_hash": "35d2236af1b29f97c3b40f467ff01905",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/wet_stone_albedo.png": {
+    "mtime": 1783544024.6676366,
+    "ast_hash": "a1e9e835b11f5099e3613e974fcf66e7",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/wet_stone_height.png": {
+    "mtime": 1783544024.6856368,
+    "ast_hash": "0f000f542a1122c9493cbaa670fd0b3c",
+    "semantic_hash": ""
   }
 }
