@@ -11,7 +11,6 @@ public static class DK3DRopeLadderVisualBuilder
     private const string MaterialsFolder = "Assets/Art/Materials/Ladders";
     private const string WoodMaterialPath = MaterialsFolder + "/DK3D_RopeLadder_GameWood.mat";
     private const string RopeMaterialPath = MaterialsFolder + "/DK3D_RopeLadder_GameRope.mat";
-    private const string BindingMaterialPath = MaterialsFolder + "/DK3D_RopeLadder_DarkBinding.mat";
     private const string WoodTexturePath = "Assets/Art/Textures/Ladders/rope_ladder_wood_albedo.png";
     private const string RopeTexturePath = "Assets/Art/Textures/Ladders/rope_ladder_rope_albedo.png";
 
@@ -42,7 +41,6 @@ public static class DK3DRopeLadderVisualBuilder
 
         var wood = LoadOrCreateMaterial(WoodMaterialPath, "DK3D_RopeLadder_GameWood", new Color(0.72f, 0.56f, 0.38f), 0.22f, WoodTexturePath);
         var rope = LoadOrCreateMaterial(RopeMaterialPath, "DK3D_RopeLadder_GameRope", new Color(0.66f, 0.58f, 0.46f), 0.34f, RopeTexturePath);
-        var binding = LoadOrCreateMaterial(BindingMaterialPath, "DK3D_RopeLadder_DarkBinding", new Color(0.13f, 0.11f, 0.10f), 0.28f, null);
 
         var root = new GameObject(VisualRootName);
         Undo.RegisterCreatedObjectUndo(root, "Create rope ladder visual");
@@ -71,14 +69,9 @@ public static class DK3DRopeLadderVisualBuilder
             var angle = Mathf.Sin(i * 0.65f) * 2.5f;
 
             CreateBox(root.transform, $"Squared Wooden Step {i + 1:00}", new Vector3(wobble, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(rungLength, plankThickness, plankDepth), wood);
-            CreateBox(root.transform, $"Left Dark Step End {i + 1:00}", new Vector3(-railX - 0.18f, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(0.12f, plankThickness * 1.06f, plankDepth * 1.03f), binding);
-            CreateBox(root.transform, $"Right Dark Step End {i + 1:00}", new Vector3(railX + 0.18f, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(0.12f, plankThickness * 1.06f, plankDepth * 1.03f), binding);
 
             CreateSphere(root.transform, $"Left Rope Knot {i + 1:00}", new Vector3(-railX, y, -0.05f), new Vector3(knotSize * 0.95f, knotSize, knotSize * 0.82f), rope);
             CreateSphere(root.transform, $"Right Rope Knot {i + 1:00}", new Vector3(railX, y, -0.05f), new Vector3(knotSize * 0.95f, knotSize, knotSize * 0.82f), rope);
-
-            CreateCylinder(root.transform, $"Left Dark Lashing {i + 1:00}", new Vector3(-railX, y, -0.075f), Quaternion.Euler(88f, 18f, 0f), 0.032f, 0.36f, binding);
-            CreateCylinder(root.transform, $"Right Dark Lashing {i + 1:00}", new Vector3(railX, y, -0.075f), Quaternion.Euler(88f, -18f, 0f), 0.032f, 0.36f, binding);
         }
 
         Selection.activeGameObject = root;
