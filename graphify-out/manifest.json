@@ -4788,5 +4788,10 @@
     "mtime": 1783546993.7292407,
     "ast_hash": "e23055e8b2ce73dac2d60d81a9abad2a",
     "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/HalfTrunk/material_0.png": {
+    "mtime": 1783550039.5814345,
+    "ast_hash": "62ab84c7635eb0bfd47d930939119023",
+    "semantic_hash": ""
   }
 }
