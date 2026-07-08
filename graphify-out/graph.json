@@ -374,6 +374,346 @@
       "norm_label": ".uniquescenename()"
     },
     {
+      "label": "DK3DStartingAreaBasicProps.cs",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops",
+      "community": 52,
+      "norm_label": "dk3dstartingareabasicprops.cs"
+    },
+    {
+      "label": "DK3DStartingAreaBasicProps",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "community": 52,
+      "norm_label": "dk3dstartingareabasicprops"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_string",
+      "community": 52,
+      "norm_label": "string"
+    },
+    {
+      "label": ".Place()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "community": 52,
+      "norm_label": ".place()"
+    },
+    {
+      "label": "MenuItem",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_menuitem",
+      "community": 52,
+      "norm_label": "menuitem"
+    },
+    {
+      "label": ".PlaceTorches()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placetorches",
+      "community": 52,
+      "norm_label": ".placetorches()"
+    },
+    {
+      "label": "Transform",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "community": 52,
+      "norm_label": "transform"
+    },
+    {
+      "label": "Material",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "community": 52,
+      "norm_label": "material"
+    },
+    {
+      "label": ".PlaceCornerClutter()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "community": 52,
+      "norm_label": ".placecornerclutter()"
+    },
+    {
+      "label": ".PlaceRubble()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placerubble",
+      "community": 52,
+      "norm_label": ".placerubble()"
+    },
+    {
+      "label": ".PlaceMossAndDamp()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "community": 52,
+      "norm_label": ".placemossanddamp()"
+    },
+    {
+      "label": ".PlaceCobwebs()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecobwebs",
+      "community": 52,
+      "norm_label": ".placecobwebs()"
+    },
+    {
+      "label": ".PlaceStaticSpikes()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placestaticspikes",
+      "community": 52,
+      "norm_label": ".placestaticspikes()"
+    },
+    {
+      "label": ".CreateTorch()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "community": 52,
+      "norm_label": ".createtorch()"
+    },
+    {
+      "label": "Vector3",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "community": 52,
+      "norm_label": "vector3"
+    },
+    {
+      "label": ".CreateCrateStack()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "community": 52,
+      "norm_label": ".createcratestack()"
+    },
+    {
+      "label": ".CreateBarrelCluster()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "community": 52,
+      "norm_label": ".createbarrelcluster()"
+    },
+    {
+      "label": ".CreateRubbleCluster()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "community": 52,
+      "norm_label": ".createrubblecluster()"
+    },
+    {
+      "label": ".CreatePatch()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "community": 52,
+      "norm_label": ".createpatch()"
+    },
+    {
+      "label": "Quaternion",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_quaternion",
+      "community": 52,
+      "norm_label": "quaternion"
+    },
+    {
+      "label": ".CreateWallStain()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L159",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "community": 52,
+      "norm_label": ".createwallstain()"
+    },
+    {
+      "label": ".CreateCobweb()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L164",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "community": 52,
+      "norm_label": ".createcobweb()"
+    },
+    {
+      "label": ".CreateSpikeCluster()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "community": 52,
+      "norm_label": ".createspikecluster()"
+    },
+    {
+      "label": ".CreateEmpty()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "community": 52,
+      "norm_label": ".createempty()"
+    },
+    {
+      "label": "GameObject",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_gameobject",
+      "community": 52,
+      "norm_label": "gameobject"
+    },
+    {
+      "label": ".CreateBox()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "community": 52,
+      "norm_label": ".createbox()"
+    },
+    {
+      "label": ".CreateCylinder()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "community": 52,
+      "norm_label": ".createcylinder()"
+    },
+    {
+      "label": ".CreateSphere()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L223",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "community": 52,
+      "norm_label": ".createsphere()"
+    },
+    {
+      "label": ".CreateCylinderBetween()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L236",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "community": 52,
+      "norm_label": ".createcylinderbetween()"
+    },
+    {
+      "label": ".CreateCone()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L245",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "community": 52,
+      "norm_label": ".createcone()"
+    },
+    {
+      "label": ".AssignMaterial()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L291",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "community": 52,
+      "norm_label": ".assignmaterial()"
+    },
+    {
+      "label": ".LoadOrCreateMaterial()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L305",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_loadorcreatematerial",
+      "community": 52,
+      "norm_label": ".loadorcreatematerial()"
+    },
+    {
+      "label": "Color",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L305",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dstartingareabasicprops_cs_color",
+      "community": 52,
+      "norm_label": "color"
+    },
+    {
+      "label": ".DestroyIfPresent()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L327",
+      "_origin": "ast",
+      "id": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_destroyifpresent",
+      "community": 52,
+      "norm_label": ".destroyifpresent()"
+    },
+    {
       "label": "DungeonKnight3DEditorMenu.cs",
       "file_type": "code",
       "source_file": "Assets/Editor/DungeonKnight3DEditorMenu.cs",
@@ -4110,7 +4450,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iinteractable",
-      "community": 314,
+      "community": 46,
       "norm_label": "iinteractable"
     },
     {
@@ -4770,7 +5110,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "interactables_loretablet",
-      "community": 58,
+      "community": 46,
       "norm_label": "loretablet.cs"
     },
     {
@@ -4780,7 +5120,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "interactables_loretablet_dungeonknight_interactables",
-      "community": 58,
+      "community": 46,
       "norm_label": "dungeonknight.interactables"
     },
     {
@@ -4790,7 +5130,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "interactables_loretablet_loretablet",
-      "community": 58,
+      "community": 46,
       "norm_label": "loretablet"
     },
     {
@@ -4800,7 +5140,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_interactables_loretablet_cs_string",
-      "community": 58,
+      "community": 46,
       "norm_label": "string"
     },
     {
@@ -4810,7 +5150,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "interactables_loretablet_loretablet_setmessage",
-      "community": 58,
+      "community": 46,
       "norm_label": ".setmessage()"
     },
     {
@@ -4820,7 +5160,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "interactables_loretablet_loretablet_interact",
-      "community": 58,
+      "community": 46,
       "norm_label": ".interact()"
     },
     {
@@ -4830,7 +5170,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "assets_scripts_interactables_loretablet_cs_gameobject",
-      "community": 58,
+      "community": 46,
       "norm_label": "gameobject"
     },
     {
@@ -15700,7 +16040,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_shielddropper",
-      "community": 66,
+      "community": 44,
       "norm_label": "shielddropper.cs"
     },
     {
@@ -15710,7 +16050,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_shielddropper_dungeonknight_loot",
-      "community": 66,
+      "community": 44,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15720,7 +16060,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper",
-      "community": 66,
+      "community": 44,
       "norm_label": "shielddropper"
     },
     {
@@ -15730,7 +16070,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_awake",
-      "community": 66,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -15740,7 +16080,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_ondied",
-      "community": 66,
+      "community": 44,
       "norm_label": ".ondied()"
     },
     {
@@ -15750,7 +16090,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_health",
-      "community": 66,
+      "community": 44,
       "norm_label": "health"
     },
     {
@@ -15760,7 +16100,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_spawnshield",
-      "community": 66,
+      "community": 44,
       "norm_label": ".spawnshield()"
     },
     {
@@ -15770,7 +16110,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_vector3",
-      "community": 66,
+      "community": 44,
       "norm_label": "vector3"
     },
     {
@@ -15780,7 +16120,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_shieldpickup",
-      "community": 314,
+      "community": 46,
       "norm_label": "shieldpickup.cs"
     },
     {
@@ -15790,7 +16130,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_shieldpickup_dungeonknight_loot",
-      "community": 314,
+      "community": 46,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15800,7 +16140,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "loot_shieldpickup_shieldpickup",
-      "community": 314,
+      "community": 46,
       "norm_label": "shieldpickup"
     },
     {
@@ -15810,7 +16150,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "loot_shieldpickup_shieldpickup_interact",
-      "community": 314,
+      "community": 46,
       "norm_label": ".interact()"
     },
     {
@@ -15820,7 +16160,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "assets_scripts_loot_shieldpickup_cs_gameobject",
-      "community": 314,
+      "community": 46,
       "norm_label": "gameobject"
     },
     {
@@ -18780,7 +19120,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "image",
-      "community": 67,
+      "community": 61,
       "norm_label": "image"
     },
     {
@@ -18790,7 +19130,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_transform",
-      "community": 67,
+      "community": 61,
       "norm_label": "transform"
     },
     {
@@ -18800,7 +19140,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textmesh",
-      "community": 52,
+      "community": 61,
       "norm_label": "textmesh"
     },
     {
@@ -18830,7 +19170,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_awake",
-      "community": 67,
+      "community": 61,
       "norm_label": ".awake()"
     },
     {
@@ -18880,7 +19220,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureoverlaycanvas",
-      "community": 67,
+      "community": 61,
       "norm_label": ".ensureoverlaycanvas()"
     },
     {
@@ -18890,7 +19230,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureworldhud",
-      "community": 52,
+      "community": 61,
       "norm_label": ".ensureworldhud()"
     },
     {
@@ -18900,7 +19240,7 @@
       "source_location": "L267",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateworldhud",
-      "community": 52,
+      "community": 61,
       "norm_label": ".updateworldhud()"
     },
     {
@@ -18910,7 +19250,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldtext",
-      "community": 52,
+      "community": 61,
       "norm_label": ".createworldtext()"
     },
     {
@@ -18920,7 +19260,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 52,
+      "community": 61,
       "norm_label": "textanchor"
     },
     {
@@ -18930,7 +19270,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 52,
+      "community": 61,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -18940,7 +19280,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 52,
+      "community": 61,
       "norm_label": "meshrenderer"
     },
     {
@@ -18970,7 +19310,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldtext",
-      "community": 52,
+      "community": 61,
       "norm_label": ".positionworldtext()"
     },
     {
@@ -18980,7 +19320,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector3",
-      "community": 52,
+      "community": 61,
       "norm_label": "vector3"
     },
     {
@@ -18990,7 +19330,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameralocalfromviewport",
-      "community": 52,
+      "community": 61,
       "norm_label": ".cameralocalfromviewport()"
     },
     {
@@ -19000,7 +19340,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_camera",
-      "community": 52,
+      "community": 61,
       "norm_label": "camera"
     },
     {
@@ -19010,7 +19350,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportheight",
-      "community": 52,
+      "community": 61,
       "norm_label": ".cameraviewportheight()"
     },
     {
@@ -19020,7 +19360,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportwidth",
-      "community": 52,
+      "community": 61,
       "norm_label": ".cameraviewportwidth()"
     },
     {
@@ -19030,7 +19370,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldbar",
-      "community": 52,
+      "community": 61,
       "norm_label": ".positionworldbar()"
     },
     {
@@ -19040,7 +19380,7 @@
       "source_location": "L405",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateoverlaycanvas",
-      "community": 67,
+      "community": 61,
       "norm_label": ".updateoverlaycanvas()"
     },
     {
@@ -19050,7 +19390,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createbar",
-      "community": 67,
+      "community": 61,
       "norm_label": ".createbar()"
     },
     {
@@ -19060,7 +19400,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector2",
-      "community": 67,
+      "community": 61,
       "norm_label": "vector2"
     },
     {
@@ -19070,7 +19410,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createtext",
-      "community": 67,
+      "community": 61,
       "norm_label": ".createtext()"
     },
     {
@@ -19080,7 +19420,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "font",
-      "community": 67,
+      "community": 61,
       "norm_label": "font"
     },
     {
@@ -19090,7 +19430,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "fontstyle",
-      "community": 67,
+      "community": 61,
       "norm_label": "fontstyle"
     },
     {
@@ -19100,7 +19440,7 @@
       "source_location": "L474",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createpanel",
-      "community": 67,
+      "community": 61,
       "norm_label": ".createpanel()"
     },
     {
@@ -19110,7 +19450,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_setrect",
-      "community": 67,
+      "community": 61,
       "norm_label": ".setrect()"
     },
     {
@@ -19120,7 +19460,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_recttransform",
-      "community": 67,
+      "community": 61,
       "norm_label": "recttransform"
     },
     {
@@ -19840,7 +20180,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator",
-      "community": 44,
+      "community": 58,
       "norm_label": "squashstretchanimator.cs"
     },
     {
@@ -19850,7 +20190,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_dungeonknight_visuals",
-      "community": 44,
+      "community": 58,
       "norm_label": "dungeonknight.visuals"
     },
     {
@@ -19860,7 +20200,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_squashstretchanimator",
-      "community": 44,
+      "community": 58,
       "norm_label": "squashstretchanimator"
     },
     {
@@ -19870,7 +20210,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_float",
-      "community": 44,
+      "community": 58,
       "norm_label": "float"
     },
     {
@@ -19880,7 +20220,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_rigidbody2d",
-      "community": 44,
+      "community": 58,
       "norm_label": "rigidbody2d"
     },
     {
@@ -19890,7 +20230,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_playercontroller2d",
-      "community": 44,
+      "community": 58,
       "norm_label": "playercontroller2d"
     },
     {
@@ -19900,7 +20240,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_vector3",
-      "community": 44,
+      "community": 58,
       "norm_label": "vector3"
     },
     {
@@ -19910,7 +20250,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_squashstretchanimator_awake",
-      "community": 44,
+      "community": 58,
       "norm_label": ".awake()"
     },
     {
@@ -19920,7 +20260,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_squashstretchanimator_lateupdate",
-      "community": 44,
+      "community": 58,
       "norm_label": ".lateupdate()"
     },
     {
@@ -34480,7 +34820,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_scriptskills",
-      "community": 180,
+      "community": 201,
       "norm_label": "scriptskills.cs"
     },
     {
@@ -34490,7 +34830,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "skills_scriptskills_unityskills",
-      "community": 180,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -34550,7 +34890,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "skills_scriptskills_batchscriptitem",
-      "community": 180,
+      "community": 201,
       "norm_label": "batchscriptitem"
     },
     {
@@ -37300,7 +37640,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillinstaller",
-      "community": 221,
+      "community": 201,
       "norm_label": "skillinstaller.cs"
     },
     {
@@ -37310,7 +37650,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "skills_skillinstaller_unityskills",
-      "community": 221,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -39240,7 +39580,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsauditlog",
-      "community": 201,
+      "community": 202,
       "norm_label": "skillsauditlog.cs"
     },
     {
@@ -39250,7 +39590,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsauditlog_unityskills",
-      "community": 201,
+      "community": 202,
       "norm_label": "unityskills"
     },
     {
@@ -40330,7 +40670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsmodemanager",
-      "community": 149,
+      "community": 55,
       "norm_label": "skillsmodemanager.cs"
     },
     {
@@ -40340,7 +40680,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsmodemanager_unityskills",
-      "community": 149,
+      "community": 55,
       "norm_label": "unityskills"
     },
     {
@@ -40350,7 +40690,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "skills_skillsmodemanager_grantrequest",
-      "community": 149,
+      "community": 55,
       "norm_label": "grantrequest"
     },
     {
@@ -40360,7 +40700,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_skills_skillsmodemanager_cs_string",
-      "community": 149,
+      "community": 55,
       "norm_label": "string"
     },
     {
@@ -40370,7 +40710,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_skills_skillsmodemanager_cs_datetime",
-      "community": 149,
+      "community": 55,
       "norm_label": "datetime"
     },
     {
@@ -40380,7 +40720,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_skills_skillsmodemanager_cs_bool",
-      "community": 149,
+      "community": 55,
       "norm_label": "bool"
     },
     {
@@ -40410,7 +40750,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "skills_skillsmodemanager_grantentry",
-      "community": 149,
+      "community": 55,
       "norm_label": "grantentry"
     },
     {
@@ -40780,7 +41120,7 @@
       "source_location": "L592",
       "_origin": "ast",
       "id": "skills_skillsmodemanager_skillsmodemanager_peekpending",
-      "community": 149,
+      "community": 55,
       "norm_label": ".peekpending()"
     },
     {
@@ -40800,7 +41140,7 @@
       "source_location": "L611",
       "_origin": "ast",
       "id": "skills_skillsmodemanager_skillsmodemanager_peekpendingfortests",
-      "community": 149,
+      "community": 55,
       "norm_label": ".peekpendingfortests()"
     },
     {
@@ -40810,7 +41150,7 @@
       "source_location": "L615",
       "_origin": "ast",
       "id": "skills_skillsmodemanager_skillsmodemanager_topublic",
-      "community": 149,
+      "community": 55,
       "norm_label": ".topublic()"
     },
     {
@@ -54470,7 +54810,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_particlesystem",
-      "community": 75,
+      "community": 314,
       "norm_label": "com.unity.modules.particlesystem"
     },
     {
@@ -54860,7 +55200,7 @@
       "source_location": "L136",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_version",
-      "community": 75,
+      "community": 314,
       "norm_label": "version"
     },
     {
@@ -54870,7 +55210,7 @@
       "source_location": "L137",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_depth",
-      "community": 75,
+      "community": 314,
       "norm_label": "depth"
     },
     {
@@ -54880,7 +55220,7 @@
       "source_location": "L138",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_source",
-      "community": 75,
+      "community": 314,
       "norm_label": "source"
     },
     {
@@ -54890,7 +55230,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_dependencies",
-      "community": 75,
+      "community": 314,
       "norm_label": "dependencies"
     },
     {
@@ -89780,7 +90120,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "skills_skill_unity_skills_module_index",
-      "community": 388,
+      "community": 349,
       "norm_label": "unity skills - module index"
     },
     {
@@ -89790,7 +90130,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_skill_modules",
-      "community": 388,
+      "community": 349,
       "norm_label": "modules"
     },
     {
@@ -89800,7 +90140,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "skills_skill_advisory_design_modules",
-      "community": 388,
+      "community": 349,
       "norm_label": "advisory design modules"
     },
     {
@@ -89810,7 +90150,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "skills_skill_batch_first_rule",
-      "community": 388,
+      "community": 349,
       "norm_label": "batch-first rule"
     },
     {
@@ -89820,7 +90160,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "skills_skill_skill_naming_convention",
-      "community": 388,
+      "community": 349,
       "norm_label": "skill naming convention"
     },
     {
@@ -92520,7 +92860,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blueprints_skill",
-      "community": 349,
+      "community": 383,
       "norm_label": "skill.md"
     },
     {
@@ -92530,7 +92870,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "blueprints_skill_unity_gameplay_blueprints",
-      "community": 349,
+      "community": 383,
       "norm_label": "unity gameplay blueprints"
     },
     {
@@ -92540,7 +92880,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blueprints_skill_supported_blueprint_styles",
-      "community": 349,
+      "community": 383,
       "norm_label": "supported blueprint styles"
     },
     {
@@ -92550,7 +92890,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "blueprints_skill_output_format",
-      "community": 349,
+      "community": 383,
       "norm_label": "output format"
     },
     {
@@ -92560,7 +92900,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "blueprints_skill_guardrails",
-      "community": 349,
+      "community": 383,
       "norm_label": "guardrails"
     },
     {
@@ -95410,7 +95750,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "dotween_design_skill_dotween_design_rules",
-      "community": 331,
+      "community": 67,
       "norm_label": "dotween - design rules"
     },
     {
@@ -95420,7 +95760,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "dotween_design_skill_when_to_load_this_module",
-      "community": 331,
+      "community": 67,
       "norm_label": "when to load this module"
     },
     {
@@ -95430,7 +95770,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "dotween_design_skill_critical_rule_summary",
-      "community": 331,
+      "community": 67,
       "norm_label": "critical rule summary"
     },
     {
@@ -95440,7 +95780,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "dotween_design_skill_sub_doc_routing",
-      "community": 331,
+      "community": 67,
       "norm_label": "sub-doc routing"
     },
     {
@@ -95450,7 +95790,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "dotween_design_skill_routing_to_other_modules",
-      "community": 331,
+      "community": 67,
       "norm_label": "routing to other modules"
     },
     {
@@ -95460,7 +95800,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "dotween_design_skill_version_scope",
-      "community": 331,
+      "community": 67,
       "norm_label": "version scope"
     },
     {
@@ -101600,7 +101940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 387,
+      "community": 383,
       "norm_label": "skill.md"
     },
     {
@@ -101610,7 +101950,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 387,
+      "community": 383,
       "norm_label": "unity scene contracts"
     },
     {
@@ -101620,7 +101960,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 387,
+      "community": 383,
       "norm_label": "define"
     },
     {
@@ -101630,7 +101970,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 387,
+      "community": 383,
       "norm_label": "output format"
     },
     {
@@ -101640,7 +101980,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 387,
+      "community": 383,
       "norm_label": "guardrails"
     },
     {
@@ -105150,7 +105490,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_cancellation_unitask_cancellation",
-      "community": 55,
+      "community": 59,
       "norm_label": "unitask cancellation"
     },
     {
@@ -105160,7 +105500,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_cancellation_the_core_model",
-      "community": 55,
+      "community": 59,
       "norm_label": "the core model"
     },
     {
@@ -105170,7 +105510,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "unitask_design_cancellation_cancellationtokenondestroy_monobehaviour_integration",
-      "community": 55,
+      "community": 59,
       "norm_label": "`cancellationtokenondestroy` \u2014 monobehaviour integration"
     },
     {
@@ -105180,7 +105520,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "unitask_design_cancellation_passing_tokens_through_the_call_chain",
-      "community": 55,
+      "community": 59,
       "norm_label": "passing tokens through the call chain"
     },
     {
@@ -105190,7 +105530,7 @@
       "source_location": "L96",
       "_origin": "ast",
       "id": "unitask_design_cancellation_attachexternalcancellation_wrap_an_uncancelable_unitask",
-      "community": 55,
+      "community": 59,
       "norm_label": "`attachexternalcancellation` \u2014 wrap an uncancelable unitask"
     },
     {
@@ -105200,7 +105540,7 @@
       "source_location": "L107",
       "_origin": "ast",
       "id": "unitask_design_cancellation_suppresscancellationthrow_cancel_aware_return",
-      "community": 55,
+      "community": 59,
       "norm_label": "`suppresscancellationthrow` \u2014 cancel-aware return"
     },
     {
@@ -105210,7 +105550,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "unitask_design_cancellation_waituntilcanceled_turn_token_into_awaitable",
-      "community": 55,
+      "community": 59,
       "norm_label": "`waituntilcanceled` \u2014 turn token into awaitable"
     },
     {
@@ -105220,7 +105560,7 @@
       "source_location": "L131",
       "_origin": "ast",
       "id": "unitask_design_cancellation_cancelafterslim_low_alloc_timeout",
-      "community": 55,
+      "community": 59,
       "norm_label": "`cancelafterslim` \u2014 low-alloc timeout"
     },
     {
@@ -105230,7 +105570,7 @@
       "source_location": "L162",
       "_origin": "ast",
       "id": "unitask_design_cancellation_registerraisecancelondestroy_tie_cts_to_a_gameobject",
-      "community": 55,
+      "community": 59,
       "norm_label": "`registerraisecancelondestroy` \u2014 tie cts to a gameobject"
     },
     {
@@ -105240,7 +105580,7 @@
       "source_location": "L173",
       "_origin": "ast",
       "id": "unitask_design_cancellation_addto_dispose_on_cancel",
-      "community": 55,
+      "community": 59,
       "norm_label": "`addto` \u2014 dispose on cancel"
     },
     {
@@ -105250,7 +105590,7 @@
       "source_location": "L187",
       "_origin": "ast",
       "id": "unitask_design_cancellation_tocancellationtoken_unitask_token",
-      "community": 55,
+      "community": 59,
       "norm_label": "`tocancellationtoken` \u2014 unitask \u2192 token"
     },
     {
@@ -105260,7 +105600,7 @@
       "source_location": "L199",
       "_origin": "ast",
       "id": "unitask_design_cancellation_createlinkedtokensource_combine_tokens",
-      "community": 55,
+      "community": 59,
       "norm_label": "`createlinkedtokensource` \u2014 combine tokens"
     },
     {
@@ -105270,7 +105610,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "unitask_design_cancellation_lifecycle_checklist",
-      "community": 55,
+      "community": 59,
       "norm_label": "lifecycle checklist"
     },
     {
@@ -105280,7 +105620,7 @@
       "source_location": "L219",
       "_origin": "ast",
       "id": "unitask_design_cancellation_common_pitfalls_full_list_in_pitfalls_md_pitfalls_md",
-      "community": 55,
+      "community": 59,
       "norm_label": "common pitfalls (full list in [pitfalls.md](./pitfalls.md))"
     },
     {
@@ -106080,7 +106420,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_triggers_unitask_triggers",
-      "community": 59,
+      "community": 66,
       "norm_label": "unitask triggers"
     },
     {
@@ -106090,7 +106430,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_triggers_core_types",
-      "community": 59,
+      "community": 66,
       "norm_label": "core types"
     },
     {
@@ -106100,7 +106440,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_1_getcancellationtokenondestroy",
-      "community": 59,
+      "community": 66,
       "norm_label": "pattern 1 \u2014 `getcancellationtokenondestroy`"
     },
     {
@@ -106110,7 +106450,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_2_ondestroyasync_awaitable_lifecycle",
-      "community": 59,
+      "community": 66,
       "norm_label": "pattern 2 \u2014 `ondestroyasync` (awaitable lifecycle)"
     },
     {
@@ -106120,7 +106460,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_3_getasync_trigger_oncollisionenterasync_etc",
-      "community": 59,
+      "community": 66,
       "norm_label": "pattern 3 \u2014 `getasync*trigger()` + `oncollisionenterasync` etc."
     },
     {
@@ -106130,7 +106470,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_4_ui_events_ugui",
-      "community": 59,
+      "community": 66,
       "norm_label": "pattern 4 \u2014 ui events (ugui)"
     },
     {
@@ -106140,7 +106480,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "unitask_design_triggers_how_triggers_manage_lifetime",
-      "community": 59,
+      "community": 66,
       "norm_label": "how triggers manage lifetime"
     },
     {
@@ -106150,7 +106490,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "unitask_design_triggers_null_checks_and_fake_null",
-      "community": 59,
+      "community": 66,
       "norm_label": "null checks and fake-null"
     },
     {
@@ -106160,7 +106500,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "unitask_design_triggers_triggers_checklist",
-      "community": 59,
+      "community": 66,
       "norm_label": "triggers checklist"
     },
     {
@@ -110388,9 +110728,9 @@
       "source_location": "L290",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3"
     },
     {
       "relation": "references",
@@ -110685,9 +111025,9 @@
       "source_location": "L216",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_bool",
-      "confidence_score": 1.0
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_bool"
     },
     {
       "relation": "method",
@@ -110715,9 +111055,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L290",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition"
     },
     {
       "relation": "method",
@@ -110735,9 +111075,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L305",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename"
     },
     {
       "relation": "inherits",
@@ -110817,9 +111157,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L235",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_ongui",
-      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition"
     },
     {
       "relation": "calls",
@@ -110828,8 +111168,1435 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L235",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_ongui",
-      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename",
+      "target": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L327",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_destroyifpresent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L305",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_loadorcreatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecobwebs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placerubble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placestaticspikes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placetorches",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_menuitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_destroyifpresent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_loadorcreatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecobwebs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placerubble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placestaticspikes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_place",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placetorches",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placetorches",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placetorches",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placetorches",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L164",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L236",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L135",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L223",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L174",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L159",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecobwebs",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placerubble",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placestaticspikes",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L291",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L164",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L236",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L135",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L223",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L174",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L159",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L305",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_loadorcreatematerial",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecobwebs",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placerubble",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placestaticspikes",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecornerclutter",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placerubble",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placemossanddamp",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placecobwebs",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_placestaticspikes",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createtorch",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L164",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L236",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L135",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L223",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L174",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L159",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcratestack",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbarrelcluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createrubblecluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L154",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_quaternion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createpatch",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_quaternion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L245",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_quaternion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_quaternion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_quaternion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createwallstain",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcobweb",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createspikecluster",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L187",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createempty",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_gameobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L291",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_gameobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L197",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_gameobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L210",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_gameobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L223",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_gameobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createbox",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinderbetween",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createcylinder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_createsphere",
+      "target": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DStartingAreaBasicProps.cs",
+      "source_location": "L305",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dstartingareabasicprops_dk3dstartingareabasicprops_loadorcreatematerial",
+      "target": "assets_editor_dk3dstartingareabasicprops_cs_color",
       "confidence_score": 1.0
     },
     {
@@ -287102,5 +288869,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c9b8ea68a97b7e73353438cdc18ae5500031bb3d"
+  "built_at_commit": "6be29ed3c304fcbb850ad55734645ad335155ab3"
 }
