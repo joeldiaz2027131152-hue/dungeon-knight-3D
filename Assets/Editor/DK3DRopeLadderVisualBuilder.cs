@@ -213,6 +213,7 @@ public static class DK3DRopeLadderVisualBuilder
         private int stepCount = DefaultStepCount;
         private Vector3 ladderPosition = Vector3.zero;
         private Vector3 rotation = Vector3.zero;
+        private bool showAdvanced;
 
         public static void ShowWindow()
         {
@@ -222,21 +223,35 @@ public static class DK3DRopeLadderVisualBuilder
 
         private void OnGUI()
         {
-            EditorGUILayout.LabelField("Create Rope Ladder", EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Create New Rope Ladder", EditorStyles.boldLabel);
             ladderName = EditorGUILayout.TextField("Name", ladderName);
             height = EditorGUILayout.Slider("Height", height, 1f, 30f);
             width = EditorGUILayout.Slider("Width", width, 0.5f, 4f);
             stepCount = EditorGUILayout.IntSlider("Steps", stepCount, 2, 40);
-            ladderPosition = EditorGUILayout.Vector3Field("Position", ladderPosition);
             rotation = EditorGUILayout.Vector3Field("Rotation", rotation);
 
-            if (GUILayout.Button("Create New Ladder"))
+            if (GUILayout.Button("Create Ladder Here"))
             {
-                CreateCustomLadder(ladderName, ladderPosition, Quaternion.Euler(rotation), height, width, stepCount);
+                var root = CreateCustomLadder(UniqueSceneName(ladderName), SceneViewSpawnPosition(), Quaternion.Euler(rotation), height, width, stepCount);
+                Selection.activeGameObject = root;
             }
 
             EditorGUILayout.Space(10f);
-            EditorGUILayout.LabelField("Selected Ladder", EditorStyles.boldLabel);
+            showAdvanced = EditorGUILayout.Foldout(showAdvanced, "Advanced");
+            if (!showAdvanced)
+            {
+                return;
+            }
+
+            ladderPosition = EditorGUILayout.Vector3Field("Typed Position", ladderPosition);
+            if (GUILayout.Button("Create At Typed Position"))
+            {
+                var root = CreateCustomLadder(UniqueSceneName(ladderName), ladderPosition, Quaternion.Euler(rotation), height, width, stepCount);
+                Selection.activeGameObject = root;
+            }
+
+            EditorGUILayout.Space(10f);
+            EditorGUILayout.LabelField("Rebuild Selected Ladder", EditorStyles.boldLabel);
 
             using (new EditorGUI.DisabledScope(Selection.activeGameObject == null))
             {
@@ -270,6 +285,38 @@ public static class DK3DRopeLadderVisualBuilder
                 || selected.name.Contains("Rope Ladder")
                 || selected.transform.Find("Left Long Rope Rail") != null
                 || selected.transform.Find("Squared Wooden Step 01") != null;
+        }
+
+        private static Vector3 SceneViewSpawnPosition()
+        {
+            if (SceneView.lastActiveSceneView != null)
+            {
+                return SceneView.lastActiveSceneView.pivot;
+            }
+
+            if (Selection.activeTransform != null)
+            {
+                return Selection.activeTransform.position;
+            }
+
+            return Vector3.zero;
+        }
+
+        private static string UniqueSceneName(string desiredName)
+        {
+            var cleanName = string.IsNullOrWhiteSpace(desiredName) ? "Rope Ladder" : desiredName.Trim();
+            if (GameObject.Find(cleanName) == null)
+            {
+                return cleanName;
+            }
+
+            var index = 2;
+            while (GameObject.Find($"{cleanName} {index}") != null)
+            {
+                index++;
+            }
+
+            return $"{cleanName} {index}";
         }
     }
 }
