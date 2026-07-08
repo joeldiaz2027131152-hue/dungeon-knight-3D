@@ -1,16 +1,16 @@
 # Graph Report - dungeon-knight-3D  (2026-07-08)
 
 ## Corpus Check
-- 394 files · ~5,842,404 words
+- 394 files · ~5,842,299 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 10980 nodes · 16944 edges · 390 communities (386 shown, 4 thin omitted)
+- 10980 nodes · 16944 edges · 391 communities (385 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `78e87eec`
+- Built from commit: `2bce7b81`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -378,6 +378,7 @@
 - [[_COMMUNITY_Community 380|Community 380]]
 - [[_COMMUNITY_Community 381|Community 381]]
 - [[_COMMUNITY_Community 382|Community 382]]
+- [[_COMMUNITY_Community 383|Community 383]]
 - [[_COMMUNITY_Community 384|Community 384]]
 - [[_COMMUNITY_Community 385|Community 385]]
 - [[_COMMUNITY_Community 386|Community 386]]
@@ -412,7 +413,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (390 total, 4 thin omitted)
+## Communities (391 total, 6 thin omitted)
 
 ### Community 0 - "World 1-1 Bootstrap"
 Cohesion: 0.10
@@ -1087,8 +1088,8 @@ Cohesion: 0.16
 Nodes (3): UnitySkill, ShaderGraphSkills, UnitySkills
 
 ### Community 190 - "Community 190"
-Cohesion: 0.07
-Nodes (27): connect(), dry_run_skill(), get_job_logs(), get_job_status(), get_server_status(), health(), is_auto_workflow_enabled(), is_unity_running() (+19 more)
+Cohesion: 0.10
+Nodes (26): call_skill(), call_skill_with_retry(), connect(), create_script(), get_skills(), health(), is_auto_workflow_enabled(), is_unity_running() (+18 more)
 
 ### Community 191 - "Community 191"
 Cohesion: 0.10
@@ -1231,8 +1232,8 @@ Cohesion: 0.10
 Nodes (20): Exact Signatures, High-Frequency Skill Differences, Key Return Shapes, Minimal Example, Operating Mode, Project and Script Analysis, `scene_analyze`, `scene_context` (+12 more)
 
 ### Community 226 - "Community 226"
-Cohesion: 0.15
-Nodes (15): call_skill(), call_skill_with_retry(), create_script(), _get_default_client(), get_skill_schema(), _is_retryable_transport_error(), Create a script and optionally wait for recompilation to settle., Lazily initialize the default client and auto-discover an instance on first use. (+7 more)
+Cohesion: 0.11
+Nodes (19): _get_default_client(), get_job_logs(), get_job_progress(), get_job_status(), _is_retryable_transport_error(), list_jobs(), plan_skill(), poll_job() (+11 more)
 
 ### Community 227 - "Community 227"
 Cohesion: 0.10
@@ -1495,8 +1496,8 @@ Cohesion: 0.12
 Nodes (15): Unity - Manual: Matchmaker Session Building Block, Unity - Manual: Multiplayer, Unity - Manual: Multiplayer Center, Unity - Manual: Multiplayer Play Mode, Unity - Manual: Multiplayer Services, Unity - Manual: Multiplayer Services Building Blocks, Unity - Manual: Multiplayer Services Building Blocks prerequisites, Unity - Manual: Multiplayer Sessions Building Block (+7 more)
 
 ### Community 292 - "Community 292"
-Cohesion: 0.13
-Nodes (11): _get_agent_id(), get_registry_path(), list_instances(), _load_registry(), Initialize client.         Args:             port: Connect to specific localhost, Fetch requestTimeoutMinutes from /health and apply as self.timeout., Scan ports 8090-8100 and return the first responsive Unity instance., Find a Unity instance port by version string.          Three-stage search strate (+3 more)
+Cohesion: 0.15
+Nodes (9): _get_agent_id(), get_registry_path(), _load_registry(), Initialize client.         Args:             port: Connect to specific localhost, Fetch requestTimeoutMinutes from /health and apply as self.timeout., Scan ports 8090-8100 and return the first responsive Unity instance., Find a Unity instance port by version string.          Three-stage search strate, Version prefix matching with Unity 6 special format support.      Unity 6 uses i (+1 more)
 
 ### Community 293 - "Community 293"
 Cohesion: 0.12
@@ -1794,10 +1795,6 @@ Nodes (6): Exact Signatures, Guardrails, Operating Mode, Reflection Fragility, S
 Cohesion: 0.33
 Nodes (4): UnitySkills.Tests.Core, WorkflowBookmarkTests, JObject, Test
 
-### Community 367 - "Community 367"
-Cohesion: 0.40
-Nodes (5): get_skills(), main(), _parse_cli_value(), Command-line interface for Unity Skills., Get list of available skills, optionally filtered by metadata.      Args:
-
 ### Community 368 - "Community 368"
 Cohesion: 0.25
 Nodes (6): Color, float, TextMesh, Vector3, DamagePopup, DungeonKnight.UI
@@ -1877,7 +1874,7 @@ Nodes (3): string, AllowlistPresets, UnitySkills
 ## Knowledge Gaps
 - **6199 isolated node(s):** `DungeonKnight.Editor`, `MenuItem`, `string`, `MenuItem`, `Color` (+6194 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

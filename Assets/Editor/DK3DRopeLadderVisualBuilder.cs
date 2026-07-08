@@ -54,7 +54,6 @@ public static class DK3DRopeLadderVisualBuilder
         const float plankThickness = 0.18f;
         const float plankDepth = 0.28f;
         const float ropeDiameter = 0.045f;
-        const float knotSize = 0.24f;
         const float startY = -height * 0.5f;
         const float spacing = height / (rungCount - 1);
 
@@ -69,9 +68,6 @@ public static class DK3DRopeLadderVisualBuilder
             var angle = Mathf.Sin(i * 0.65f) * 2.5f;
 
             CreateBox(root.transform, $"Squared Wooden Step {i + 1:00}", new Vector3(wobble, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(rungLength, plankThickness, plankDepth), wood);
-
-            CreateSphere(root.transform, $"Left Rope Knot {i + 1:00}", new Vector3(-railX, y, -0.05f), new Vector3(knotSize * 0.95f, knotSize, knotSize * 0.82f), rope);
-            CreateSphere(root.transform, $"Right Rope Knot {i + 1:00}", new Vector3(railX, y, -0.05f), new Vector3(knotSize * 0.95f, knotSize, knotSize * 0.82f), rope);
         }
 
         Selection.activeGameObject = root;
@@ -154,20 +150,6 @@ public static class DK3DRopeLadderVisualBuilder
         var length = direction.magnitude;
         var rotation = Quaternion.FromToRotation(Vector3.up, direction.normalized);
         return CreateCylinder(parent, name, midpoint, rotation, diameter, length, material);
-    }
-
-    private static GameObject CreateSphere(Transform parent, string name, Vector3 localPosition, Vector3 localScale, Material material)
-    {
-        var obj = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        Undo.RegisterCreatedObjectUndo(obj, "Create ladder knot");
-        obj.name = name;
-        obj.transform.SetParent(parent, false);
-        obj.transform.localPosition = localPosition;
-        obj.transform.localRotation = Quaternion.identity;
-        obj.transform.localScale = localScale;
-        AssignMaterial(obj, material);
-        Object.DestroyImmediate(obj.GetComponent<Collider>());
-        return obj;
     }
 
     private static void AssignMaterial(GameObject obj, Material material)
