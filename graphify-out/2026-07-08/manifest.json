@@ -4699,9 +4699,9 @@
     "ast_hash": "d1fdbe20c7bf188b3e7c12142afa1bb6",
     "semantic_hash": ""
   },
-  "Assets/Editor/DK3DRopeLadderVisualBuilder.cs": {
-    "mtime": 1783524124.7016258,
-    "ast_hash": "326a197dff873267b3180ed44e15a74a",
+  "Assets/Art/Textures/Ladders/rope_ladder_card_albedo.png": {
+    "mtime": 1783523486.843338,
+    "ast_hash": "c0eb200919da7972704f0cee6335f25e",
     "semantic_hash": ""
   }
 }
