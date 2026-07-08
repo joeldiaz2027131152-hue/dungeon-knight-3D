@@ -54,13 +54,203 @@
       "norm_label": "menuitem"
     },
     {
+      "label": "DK3DManualTorchPolisher.cs",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher",
+      "community": 66,
+      "norm_label": "dk3dmanualtorchpolisher.cs"
+    },
+    {
+      "label": "DK3DManualTorchPolisher",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "community": 66,
+      "norm_label": "dk3dmanualtorchpolisher"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_string",
+      "community": 66,
+      "norm_label": "string"
+    },
+    {
+      "label": ".PolishManualTorchFlames()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "community": 66,
+      "norm_label": ".polishmanualtorchflames()"
+    },
+    {
+      "label": "MenuItem",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_menuitem",
+      "community": 66,
+      "norm_label": "menuitem"
+    },
+    {
+      "label": ".IsManualTorchRoot()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_ismanualtorchroot",
+      "community": 66,
+      "norm_label": ".ismanualtorchroot()"
+    },
+    {
+      "label": ".PolishTorch()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "community": 66,
+      "norm_label": ".polishtorch()"
+    },
+    {
+      "label": "Transform",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_transform",
+      "community": 66,
+      "norm_label": "transform"
+    },
+    {
+      "label": "Material",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_material",
+      "community": 66,
+      "norm_label": "material"
+    },
+    {
+      "label": "Mesh",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_mesh",
+      "community": 66,
+      "norm_label": "mesh"
+    },
+    {
+      "label": ".ReplaceFlameMesh()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "community": 66,
+      "norm_label": ".replaceflamemesh()"
+    },
+    {
+      "label": "Vector3",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_vector3",
+      "community": 66,
+      "norm_label": "vector3"
+    },
+    {
+      "label": ".CreateFlameMesh()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_createflamemesh",
+      "community": 66,
+      "norm_label": ".createflamemesh()"
+    },
+    {
+      "label": ".LoadOrCreateFlameMesh()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreateflamemesh",
+      "community": 66,
+      "norm_label": ".loadorcreateflamemesh()"
+    },
+    {
+      "label": ".TightenBasket()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L170",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_tightenbasket",
+      "community": 66,
+      "norm_label": ".tightenbasket()"
+    },
+    {
+      "label": ".SetLocal()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L186",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_setlocal",
+      "community": 66,
+      "norm_label": ".setlocal()"
+    },
+    {
+      "label": ".AssignMaterial()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L194",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_assignmaterial",
+      "community": 66,
+      "norm_label": ".assignmaterial()"
+    },
+    {
+      "label": ".LoadOrCreateMaterial()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L200",
+      "_origin": "ast",
+      "id": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreatematerial",
+      "community": 66,
+      "norm_label": ".loadorcreatematerial()"
+    },
+    {
+      "label": "Color",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L200",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dmanualtorchpolisher_cs_color",
+      "community": 66,
+      "norm_label": "color"
+    },
+    {
       "label": "DK3DRopeLadderVisualBuilder.cs",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder",
-      "community": 338,
+      "community": 17,
       "norm_label": "dk3dropeladdervisualbuilder.cs"
     },
     {
@@ -80,7 +270,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_string",
-      "community": 338,
+      "community": 17,
       "norm_label": "string"
     },
     {
@@ -90,7 +280,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_int",
-      "community": 338,
+      "community": 17,
       "norm_label": "int"
     },
     {
@@ -100,7 +290,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_float",
-      "community": 338,
+      "community": 17,
       "norm_label": "float"
     },
     {
@@ -120,7 +310,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_menuitem",
-      "community": 338,
+      "community": 17,
       "norm_label": "menuitem"
     },
     {
@@ -130,7 +320,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_opentool",
-      "community": 338,
+      "community": 17,
       "norm_label": ".opentool()"
     },
     {
@@ -300,7 +490,7 @@
       "source_location": "L208",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "community": 338,
+      "community": 17,
       "norm_label": "ropeladdertoolwindow"
     },
     {
@@ -310,7 +500,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "editorwindow",
-      "community": 338,
+      "community": 191,
       "norm_label": "editorwindow"
     },
     {
@@ -320,7 +510,7 @@
       "source_location": "L216",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_bool",
-      "community": 338,
+      "community": 17,
       "norm_label": "bool"
     },
     {
@@ -330,7 +520,7 @@
       "source_location": "L218",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_showwindow",
-      "community": 338,
+      "community": 17,
       "norm_label": ".showwindow()"
     },
     {
@@ -340,7 +530,7 @@
       "source_location": "L224",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_ongui",
-      "community": 338,
+      "community": 17,
       "norm_label": ".ongui()"
     },
     {
@@ -350,7 +540,7 @@
       "source_location": "L277",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_islikelygeneratedladder",
-      "community": 338,
+      "community": 17,
       "norm_label": ".islikelygeneratedladder()"
     },
     {
@@ -360,7 +550,7 @@
       "source_location": "L290",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "community": 338,
+      "community": 17,
       "norm_label": ".sceneviewspawnposition()"
     },
     {
@@ -370,7 +560,7 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename",
-      "community": 338,
+      "community": 17,
       "norm_label": ".uniquescenename()"
     },
     {
@@ -1080,7 +1270,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool",
-      "community": 133,
+      "community": 64,
       "norm_label": "dungeonknight3dwallstretchtool.cs"
     },
     {
@@ -1090,7 +1280,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight_editor",
-      "community": 133,
+      "community": 64,
       "norm_label": "dungeonknight.editor"
     },
     {
@@ -1100,7 +1290,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles",
-      "community": 133,
+      "community": 64,
       "norm_label": "dungeonknight3dwallcornerhandles"
     },
     {
@@ -1110,7 +1300,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_string",
-      "community": 133,
+      "community": 64,
       "norm_label": "string"
     },
     {
@@ -1120,7 +1310,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_float",
-      "community": 133,
+      "community": 64,
       "norm_label": "float"
     },
     {
@@ -1130,7 +1320,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_bool",
-      "community": 133,
+      "community": 64,
       "norm_label": "bool"
     },
     {
@@ -1140,7 +1330,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_toggle",
-      "community": 133,
+      "community": 64,
       "norm_label": ".toggle()"
     },
     {
@@ -1150,7 +1340,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_menuitem",
-      "community": 133,
+      "community": 64,
       "norm_label": "menuitem"
     },
     {
@@ -1160,7 +1350,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_togglevalidate",
-      "community": 133,
+      "community": 64,
       "norm_label": ".togglevalidate()"
     },
     {
@@ -1170,7 +1360,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawscenehandles",
-      "community": 133,
+      "community": 64,
       "norm_label": ".drawscenehandles()"
     },
     {
@@ -1180,7 +1370,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "sceneview",
-      "community": 133,
+      "community": 64,
       "norm_label": "sceneview"
     },
     {
@@ -1190,7 +1380,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawcornerhandle",
-      "community": 133,
+      "community": 64,
       "norm_label": ".drawcornerhandle()"
     },
     {
@@ -1220,7 +1410,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool",
-      "community": 133,
+      "community": 64,
       "norm_label": "dungeonknight3dwallstretchtool"
     },
     {
@@ -1230,7 +1420,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "stretchaxis",
-      "community": 133,
+      "community": 64,
       "norm_label": "stretchaxis"
     },
     {
@@ -1240,7 +1430,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "stretchanchor",
-      "community": 133,
+      "community": 64,
       "norm_label": "stretchanchor"
     },
     {
@@ -1250,7 +1440,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_open",
-      "community": 133,
+      "community": 64,
       "norm_label": ".open()"
     },
     {
@@ -1260,7 +1450,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_onselectionchange",
-      "community": 133,
+      "community": 64,
       "norm_label": ".onselectionchange()"
     },
     {
@@ -1270,7 +1460,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_ongui",
-      "community": 133,
+      "community": 64,
       "norm_label": ".ongui()"
     },
     {
@@ -1280,7 +1470,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_apply",
-      "community": 133,
+      "community": 64,
       "norm_label": ".apply()"
     },
     {
@@ -1290,7 +1480,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getanchoroffset",
-      "community": 133,
+      "community": 64,
       "norm_label": ".getanchoroffset()"
     },
     {
@@ -1300,7 +1490,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getaxisvalue",
-      "community": 133,
+      "community": 64,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1310,7 +1500,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_setaxisvalue",
-      "community": 133,
+      "community": 64,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1350,7 +1540,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "editaxis",
-      "community": 133,
+      "community": 64,
       "norm_label": "editaxis"
     },
     {
@@ -1380,7 +1570,7 @@
       "source_location": "L250",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_open",
-      "community": 133,
+      "community": 64,
       "norm_label": ".open()"
     },
     {
@@ -1620,7 +1810,7 @@
       "source_location": "L726",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getaxisvalue",
-      "community": 133,
+      "community": 64,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1630,7 +1820,7 @@
       "source_location": "L739",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_setaxisvalue",
-      "community": 133,
+      "community": 64,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -6550,7 +6740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "level_damagehazard",
-      "community": 64,
+      "community": 44,
       "norm_label": "damagehazard.cs"
     },
     {
@@ -6560,7 +6750,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "level_damagehazard_dungeonknight_level",
-      "community": 64,
+      "community": 44,
       "norm_label": "dungeonknight.level"
     },
     {
@@ -6570,7 +6760,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "level_damagehazard_damagehazard",
-      "community": 64,
+      "community": 44,
       "norm_label": "damagehazard"
     },
     {
@@ -6580,7 +6770,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_level_damagehazard_cs_int",
-      "community": 64,
+      "community": 44,
       "norm_label": "int"
     },
     {
@@ -6590,7 +6780,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_level_damagehazard_cs_float",
-      "community": 64,
+      "community": 44,
       "norm_label": "float"
     },
     {
@@ -6600,7 +6790,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "level_damagehazard_damagehazard_configure",
-      "community": 64,
+      "community": 44,
       "norm_label": ".configure()"
     },
     {
@@ -6610,7 +6800,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "level_damagehazard_damagehazard_ontriggerstay2d",
-      "community": 64,
+      "community": 44,
       "norm_label": ".ontriggerstay2d()"
     },
     {
@@ -6620,7 +6810,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "assets_scripts_level_damagehazard_cs_collider2d",
-      "community": 64,
+      "community": 44,
       "norm_label": "collider2d"
     },
     {
@@ -15700,7 +15890,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_shielddropper",
-      "community": 66,
+      "community": 44,
       "norm_label": "shielddropper.cs"
     },
     {
@@ -15710,7 +15900,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_shielddropper_dungeonknight_loot",
-      "community": 66,
+      "community": 44,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15720,7 +15910,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper",
-      "community": 66,
+      "community": 44,
       "norm_label": "shielddropper"
     },
     {
@@ -15730,7 +15920,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_awake",
-      "community": 66,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -15740,7 +15930,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_ondied",
-      "community": 66,
+      "community": 44,
       "norm_label": ".ondied()"
     },
     {
@@ -15750,7 +15940,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_health",
-      "community": 66,
+      "community": 44,
       "norm_label": "health"
     },
     {
@@ -15760,7 +15950,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_spawnshield",
-      "community": 66,
+      "community": 44,
       "norm_label": ".spawnshield()"
     },
     {
@@ -15770,7 +15960,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_vector3",
-      "community": 66,
+      "community": 44,
       "norm_label": "vector3"
     },
     {
@@ -19840,7 +20030,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator",
-      "community": 44,
+      "community": 338,
       "norm_label": "squashstretchanimator.cs"
     },
     {
@@ -19850,7 +20040,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_dungeonknight_visuals",
-      "community": 44,
+      "community": 338,
       "norm_label": "dungeonknight.visuals"
     },
     {
@@ -19860,7 +20050,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_squashstretchanimator",
-      "community": 44,
+      "community": 338,
       "norm_label": "squashstretchanimator"
     },
     {
@@ -19870,7 +20060,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_float",
-      "community": 44,
+      "community": 338,
       "norm_label": "float"
     },
     {
@@ -19880,7 +20070,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_rigidbody2d",
-      "community": 44,
+      "community": 338,
       "norm_label": "rigidbody2d"
     },
     {
@@ -19890,7 +20080,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_playercontroller2d",
-      "community": 44,
+      "community": 338,
       "norm_label": "playercontroller2d"
     },
     {
@@ -19900,7 +20090,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "assets_scripts_visuals_squashstretchanimator_cs_vector3",
-      "community": 44,
+      "community": 338,
       "norm_label": "vector3"
     },
     {
@@ -19910,7 +20100,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_squashstretchanimator_awake",
-      "community": 44,
+      "community": 338,
       "norm_label": ".awake()"
     },
     {
@@ -19920,7 +20110,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "visuals_squashstretchanimator_squashstretchanimator_lateupdate",
-      "community": 44,
+      "community": 338,
       "norm_label": ".lateupdate()"
     },
     {
@@ -48540,7 +48730,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_methodinfo",
-      "community": 324,
+      "community": 191,
       "norm_label": "methodinfo"
     },
     {
@@ -48800,7 +48990,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_builddefaultparams",
-      "community": 324,
+      "community": 191,
       "norm_label": ".builddefaultparams()"
     },
     {
@@ -48810,7 +49000,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_getdefaultfortype",
-      "community": 324,
+      "community": 191,
       "norm_label": ".getdefaultfortype()"
     },
     {
@@ -48820,7 +49010,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_type",
-      "community": 324,
+      "community": 191,
       "norm_label": "type"
     },
     {
@@ -52810,7 +53000,7 @@
       "source_location": "L496",
       "_origin": "ast",
       "id": "scripts_unity_skills_list_instances",
-      "community": 190,
+      "community": 292,
       "norm_label": "list_instances()"
     },
     {
@@ -52820,7 +53010,7 @@
       "source_location": "L504",
       "_origin": "ast",
       "id": "scripts_unity_skills_dry_run_skill",
-      "community": 387,
+      "community": 190,
       "norm_label": "dry_run_skill()"
     },
     {
@@ -52830,7 +53020,7 @@
       "source_location": "L509",
       "_origin": "ast",
       "id": "scripts_unity_skills_plan_skill",
-      "community": 226,
+      "community": 190,
       "norm_label": "plan_skill()"
     },
     {
@@ -52850,7 +53040,7 @@
       "source_location": "L541",
       "_origin": "ast",
       "id": "scripts_unity_skills_call_skill",
-      "community": 190,
+      "community": 226,
       "norm_label": "call_skill()"
     },
     {
@@ -52860,7 +53050,7 @@
       "source_location": "L546",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_status",
-      "community": 226,
+      "community": 190,
       "norm_label": "get_job_status()"
     },
     {
@@ -52870,7 +53060,7 @@
       "source_location": "L551",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_logs",
-      "community": 226,
+      "community": 190,
       "norm_label": "get_job_logs()"
     },
     {
@@ -52900,7 +53090,7 @@
       "source_location": "L570",
       "_origin": "ast",
       "id": "scripts_unity_skills_list_jobs",
-      "community": 226,
+      "community": 190,
       "norm_label": "list_jobs()"
     },
     {
@@ -52910,7 +53100,7 @@
       "source_location": "L575",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_progress",
-      "community": 226,
+      "community": 362,
       "norm_label": "get_job_progress()"
     },
     {
@@ -52920,7 +53110,7 @@
       "source_location": "L580",
       "_origin": "ast",
       "id": "scripts_unity_skills_poll_job",
-      "community": 226,
+      "community": 190,
       "norm_label": "poll_job()"
     },
     {
@@ -53010,7 +53200,7 @@
       "source_location": "L691",
       "_origin": "ast",
       "id": "scripts_unity_skills_workflow_context",
-      "community": 226,
+      "community": 190,
       "norm_label": "workflow_context()"
     },
     {
@@ -53020,7 +53210,7 @@
       "source_location": "L695",
       "_origin": "ast",
       "id": "scripts_unity_skills_call_skill_with_retry",
-      "community": 190,
+      "community": 226,
       "norm_label": "call_skill_with_retry()"
     },
     {
@@ -53030,7 +53220,7 @@
       "source_location": "L727",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_skills",
-      "community": 190,
+      "community": 356,
       "norm_label": "get_skills()"
     },
     {
@@ -53040,7 +53230,7 @@
       "source_location": "L760",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_skill_schema",
-      "community": 390,
+      "community": 226,
       "norm_label": "get_skill_schema()"
     },
     {
@@ -53090,7 +53280,7 @@
       "source_location": "L837",
       "_origin": "ast",
       "id": "scripts_unity_skills_wait_for_unity",
-      "community": 190,
+      "community": 226,
       "norm_label": "wait_for_unity()"
     },
     {
@@ -53100,7 +53290,7 @@
       "source_location": "L847",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_server_status",
-      "community": 388,
+      "community": 190,
       "norm_label": "get_server_status()"
     },
     {
@@ -53220,7 +53410,7 @@
       "source_location": "L1043",
       "_origin": "ast",
       "id": "scripts_unity_skills_create_script",
-      "community": 190,
+      "community": 226,
       "norm_label": "create_script()"
     },
     {
@@ -53230,7 +53420,7 @@
       "source_location": "L1060",
       "_origin": "ast",
       "id": "scripts_unity_skills_parse_cli_value",
-      "community": 190,
+      "community": 356,
       "norm_label": "_parse_cli_value()"
     },
     {
@@ -53240,7 +53430,7 @@
       "source_location": "L1081",
       "_origin": "ast",
       "id": "scripts_unity_skills_main",
-      "community": 190,
+      "community": 356,
       "norm_label": "main()"
     },
     {
@@ -53420,7 +53610,7 @@
       "source_location": "L497",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_497",
-      "community": 190,
+      "community": 292,
       "norm_label": "return list of active unity instances from registry."
     },
     {
@@ -53430,7 +53620,7 @@
       "source_location": "L505",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_505",
-      "community": 387,
+      "community": 190,
       "norm_label": "validate a unity skill call without executing it."
     },
     {
@@ -53440,7 +53630,7 @@
       "source_location": "L510",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_510",
-      "community": 226,
+      "community": 190,
       "norm_label": "preview a unity skill call with generic/semantic planning details."
     },
     {
@@ -53460,7 +53650,7 @@
       "source_location": "L542",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_542",
-      "community": 190,
+      "community": 226,
       "norm_label": "call a unity skill. single-call auto-workflow is handled by the unity server."
     },
     {
@@ -53470,7 +53660,7 @@
       "source_location": "L547",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_547",
-      "community": 226,
+      "community": 190,
       "norm_label": "get status for an asynchronous unityskills job."
     },
     {
@@ -53480,7 +53670,7 @@
       "source_location": "L552",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_552",
-      "community": 226,
+      "community": 190,
       "norm_label": "get structured logs for an asynchronous unityskills job."
     },
     {
@@ -53510,7 +53700,7 @@
       "source_location": "L571",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_571",
-      "community": 226,
+      "community": 190,
       "norm_label": "list recent jobs via get /jobs."
     },
     {
@@ -53520,7 +53710,7 @@
       "source_location": "L576",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_576",
-      "community": 226,
+      "community": 362,
       "norm_label": "read fine-grained progress events via get /jobs/{id}/progress?offset=n."
     },
     {
@@ -53530,7 +53720,7 @@
       "source_location": "L581",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_581",
-      "community": 226,
+      "community": 190,
       "norm_label": "block until a job reaches a terminal state, polling get /jobs/{id} every `interv"
     },
     {
@@ -53560,7 +53750,7 @@
       "source_location": "L692",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_692",
-      "community": 226,
+      "community": 190,
       "norm_label": "convenience function to create a workflowcontext."
     },
     {
@@ -53570,7 +53760,7 @@
       "source_location": "L696",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_696",
-      "community": 190,
+      "community": 226,
       "norm_label": "call a unity skill with single-layer retry tuned for domain reload scenarios."
     },
     {
@@ -53580,7 +53770,7 @@
       "source_location": "L729",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_729",
-      "community": 190,
+      "community": 356,
       "norm_label": "get list of available skills, optionally filtered by metadata.      args:"
     },
     {
@@ -53590,7 +53780,7 @@
       "source_location": "L761",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_761",
-      "community": 390,
+      "community": 226,
       "norm_label": "get the canonical machine-readable skill schema (process-cached).      this is t"
     },
     {
@@ -53630,7 +53820,7 @@
       "source_location": "L838",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_838",
-      "community": 190,
+      "community": 226,
       "norm_label": "wait for unity rest server to become available again."
     },
     {
@@ -53640,7 +53830,7 @@
       "source_location": "L848",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_848",
-      "community": 388,
+      "community": 190,
       "norm_label": "get detailed health information from the current unity server."
     },
     {
@@ -53760,7 +53950,7 @@
       "source_location": "L1044",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_1044",
-      "community": 190,
+      "community": 226,
       "norm_label": "create a script and optionally wait for recompilation to settle."
     },
     {
@@ -53770,7 +53960,7 @@
       "source_location": "L1082",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_1082",
-      "community": 190,
+      "community": 356,
       "norm_label": "command-line interface for unity skills."
     },
     {
@@ -89770,7 +89960,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skill",
-      "community": 349,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -89780,7 +89970,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "skills_skill_unity_skills_module_index",
-      "community": 372,
+      "community": 56,
       "norm_label": "unity skills - module index"
     },
     {
@@ -89790,7 +89980,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_skill_modules",
-      "community": 372,
+      "community": 56,
       "norm_label": "modules"
     },
     {
@@ -89800,7 +89990,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "skills_skill_advisory_design_modules",
-      "community": 372,
+      "community": 56,
       "norm_label": "advisory design modules"
     },
     {
@@ -89810,7 +90000,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "skills_skill_batch_first_rule",
-      "community": 372,
+      "community": 56,
       "norm_label": "batch-first rule"
     },
     {
@@ -89820,7 +90010,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "skills_skill_skill_naming_convention",
-      "community": 372,
+      "community": 56,
       "norm_label": "skill naming convention"
     },
     {
@@ -91560,7 +91750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "adr_skill",
-      "community": 349,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -91570,7 +91760,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "adr_skill_unity_adr",
-      "community": 349,
+      "community": 56,
       "norm_label": "unity adr"
     },
     {
@@ -91580,7 +91770,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "adr_skill_output_format",
-      "community": 349,
+      "community": 56,
       "norm_label": "output format"
     },
     {
@@ -91590,7 +91780,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "adr_skill_example_use_cases",
-      "community": 349,
+      "community": 56,
       "norm_label": "example use cases"
     },
     {
@@ -91600,7 +91790,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "adr_skill_guardrails",
-      "community": 349,
+      "community": 56,
       "norm_label": "guardrails"
     },
     {
@@ -92200,7 +92390,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "async_skill_unity_async_strategy",
-      "community": 382,
+      "community": 349,
       "norm_label": "unity async strategy"
     },
     {
@@ -92210,7 +92400,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "async_skill_guardrails",
-      "community": 382,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -92220,7 +92410,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "async_skill_decision_ladder",
-      "community": 382,
+      "community": 349,
       "norm_label": "decision ladder"
     },
     {
@@ -92230,7 +92420,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "async_skill_specific_guidance",
-      "community": 382,
+      "community": 349,
       "norm_label": "specific guidance"
     },
     {
@@ -92240,7 +92430,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "async_skill_output_format",
-      "community": 382,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -92520,7 +92710,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blueprints_skill",
-      "community": 349,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -92530,7 +92720,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "blueprints_skill_unity_gameplay_blueprints",
-      "community": 349,
+      "community": 56,
       "norm_label": "unity gameplay blueprints"
     },
     {
@@ -92540,7 +92730,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blueprints_skill_supported_blueprint_styles",
-      "community": 349,
+      "community": 56,
       "norm_label": "supported blueprint styles"
     },
     {
@@ -92550,7 +92740,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "blueprints_skill_output_format",
-      "community": 349,
+      "community": 56,
       "norm_label": "output format"
     },
     {
@@ -92560,7 +92750,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "blueprints_skill_guardrails",
-      "community": 349,
+      "community": 56,
       "norm_label": "guardrails"
     },
     {
@@ -94170,7 +94360,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_basics",
-      "community": 349,
+      "community": 318,
       "norm_label": "basics.md"
     },
     {
@@ -94310,7 +94500,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_ease",
-      "community": 349,
+      "community": 318,
       "norm_label": "ease.md"
     },
     {
@@ -94450,7 +94640,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_integration",
-      "community": 349,
+      "community": 318,
       "norm_label": "integration.md"
     },
     {
@@ -94600,7 +94790,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_lifetime",
-      "community": 349,
+      "community": 318,
       "norm_label": "lifetime.md"
     },
     {
@@ -94730,7 +94920,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_pitfalls",
-      "community": 349,
+      "community": 318,
       "norm_label": "pitfalls.md"
     },
     {
@@ -95060,7 +95250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_sequence",
-      "community": 349,
+      "community": 318,
       "norm_label": "sequence.md"
     },
     {
@@ -95200,7 +95390,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_shortcuts",
-      "community": 349,
+      "community": 318,
       "norm_label": "shortcuts.md"
     },
     {
@@ -95400,7 +95590,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_skill",
-      "community": 349,
+      "community": 318,
       "norm_label": "skill.md"
     },
     {
@@ -95410,7 +95600,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "dotween_design_skill_dotween_design_rules",
-      "community": 331,
+      "community": 318,
       "norm_label": "dotween - design rules"
     },
     {
@@ -95420,7 +95610,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "dotween_design_skill_when_to_load_this_module",
-      "community": 331,
+      "community": 318,
       "norm_label": "when to load this module"
     },
     {
@@ -95430,7 +95620,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "dotween_design_skill_critical_rule_summary",
-      "community": 331,
+      "community": 318,
       "norm_label": "critical rule summary"
     },
     {
@@ -95440,7 +95630,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "dotween_design_skill_sub_doc_routing",
-      "community": 331,
+      "community": 318,
       "norm_label": "sub-doc routing"
     },
     {
@@ -95450,7 +95640,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "dotween_design_skill_routing_to_other_modules",
-      "community": 331,
+      "community": 318,
       "norm_label": "routing to other modules"
     },
     {
@@ -95460,7 +95650,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "dotween_design_skill_version_scope",
-      "community": 331,
+      "community": 318,
       "norm_label": "version scope"
     },
     {
@@ -95470,7 +95660,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_tween",
-      "community": 349,
+      "community": 318,
       "norm_label": "tween.md"
     },
     {
@@ -96950,7 +97140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "inspector_skill",
-      "community": 349,
+      "community": 318,
       "norm_label": "skill.md"
     },
     {
@@ -96960,7 +97150,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "inspector_skill_unity_inspector_design",
-      "community": 383,
+      "community": 318,
       "norm_label": "unity inspector design"
     },
     {
@@ -96970,7 +97160,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "inspector_skill_guardrails",
-      "community": 383,
+      "community": 318,
       "norm_label": "guardrails"
     },
     {
@@ -96980,7 +97170,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "inspector_skill_default_rules",
-      "community": 383,
+      "community": 318,
       "norm_label": "default rules"
     },
     {
@@ -96990,7 +97180,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "inspector_skill_inspector_quality_checklist",
-      "community": 383,
+      "community": 318,
       "norm_label": "inspector quality checklist"
     },
     {
@@ -97000,7 +97190,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "inspector_skill_output_format",
-      "community": 383,
+      "community": 318,
       "norm_label": "output format"
     },
     {
@@ -98550,7 +98740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_scene",
-      "community": 349,
+      "community": 357,
       "norm_label": "scene.md"
     },
     {
@@ -98720,7 +98910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_skill",
-      "community": 349,
+      "community": 357,
       "norm_label": "skill.md"
     },
     {
@@ -98730,7 +98920,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "netcode_design_skill_netcode_for_gameobjects_design_rules",
-      "community": 378,
+      "community": 357,
       "norm_label": "netcode for gameobjects - design rules"
     },
     {
@@ -98740,7 +98930,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "netcode_design_skill_when_to_load_this_module",
-      "community": 378,
+      "community": 357,
       "norm_label": "when to load this module"
     },
     {
@@ -98750,7 +98940,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "netcode_design_skill_critical_rule_summary_memorize_even_if_you_skip_the_sub_docs",
-      "community": 378,
+      "community": 357,
       "norm_label": "critical rule summary (memorize even if you skip the sub-docs)"
     },
     {
@@ -98760,7 +98950,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "netcode_design_skill_sub_doc_routing",
-      "community": 378,
+      "community": 357,
       "norm_label": "sub-doc routing"
     },
     {
@@ -98770,7 +98960,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "netcode_design_skill_routing_to_other_modules",
-      "community": 378,
+      "community": 357,
       "norm_label": "routing to other modules"
     },
     {
@@ -98780,7 +98970,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "netcode_design_skill_version_scope",
-      "community": 378,
+      "community": 357,
       "norm_label": "version scope"
     },
     {
@@ -98790,7 +98980,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_spawning",
-      "community": 349,
+      "community": 357,
       "norm_label": "spawning.md"
     },
     {
@@ -99420,7 +99610,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_skill",
-      "community": 349,
+      "community": 357,
       "norm_label": "skill.md"
     },
     {
@@ -99900,7 +100090,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "patterns_skill_unity_pattern_selector",
-      "community": 367,
+      "community": 349,
       "norm_label": "unity pattern selector"
     },
     {
@@ -99910,7 +100100,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "patterns_skill_guardrails",
-      "community": 367,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -99920,7 +100110,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "patterns_skill_pattern_guide",
-      "community": 367,
+      "community": 349,
       "norm_label": "pattern guide"
     },
     {
@@ -99930,7 +100120,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "patterns_skill_decision_lab_same_goal_multiple_implementations",
-      "community": 367,
+      "community": 349,
       "norm_label": "decision lab: same goal, multiple implementations"
     },
     {
@@ -99940,7 +100130,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "patterns_skill_worked_example_pause_ai_on_100_enemies_for_a_cutscene",
-      "community": 367,
+      "community": 349,
       "norm_label": "worked example: \"pause ai on 100 enemies for a cutscene\""
     },
     {
@@ -99950,7 +100140,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "patterns_skill_how_to_use",
-      "community": 367,
+      "community": 349,
       "norm_label": "how to use"
     },
     {
@@ -99960,7 +100150,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "patterns_skill_when_to_skip_this_exercise",
-      "community": 367,
+      "community": 349,
       "norm_label": "when to skip this exercise"
     },
     {
@@ -99970,7 +100160,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "patterns_skill_output_format",
-      "community": 367,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -100200,7 +100390,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "performance_skill_unity_performance_red_flags",
-      "community": 369,
+      "community": 349,
       "norm_label": "unity performance red flags"
     },
     {
@@ -100210,7 +100400,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "performance_skill_check_for",
-      "community": 369,
+      "community": 349,
       "norm_label": "check for"
     },
     {
@@ -100220,7 +100410,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "performance_skill_hidden_costs_possibility_actuality",
-      "community": 369,
+      "community": 349,
       "norm_label": "hidden costs: possibility = actuality"
     },
     {
@@ -100230,7 +100420,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "performance_skill_write_permission_costs_even_without_writing",
-      "community": 369,
+      "community": 349,
       "norm_label": "write permission costs, even without writing"
     },
     {
@@ -100240,7 +100430,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "performance_skill_sequential_seeds_produce_correlated_random_streams",
-      "community": 369,
+      "community": 349,
       "norm_label": "sequential seeds produce correlated random streams"
     },
     {
@@ -100250,7 +100440,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "performance_skill_logging_fires_in_release_builds_by_default",
-      "community": 369,
+      "community": 349,
       "norm_label": "logging fires in release builds by default"
     },
     {
@@ -100260,7 +100450,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "performance_skill_output_format",
-      "community": 369,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -100270,7 +100460,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "performance_skill_guardrails",
-      "community": 369,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -101270,7 +101460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "project_scout_skill",
-      "community": 379,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -101280,7 +101470,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "project_scout_skill_unity_project_scout",
-      "community": 379,
+      "community": 56,
       "norm_label": "unity project scout"
     },
     {
@@ -101290,7 +101480,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "project_scout_skill_inspect_first",
-      "community": 379,
+      "community": 56,
       "norm_label": "inspect first"
     },
     {
@@ -101300,7 +101490,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "project_scout_skill_suggested_tools_inputs",
-      "community": 379,
+      "community": 56,
       "norm_label": "suggested tools / inputs"
     },
     {
@@ -101310,7 +101500,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "project_scout_skill_output_format",
-      "community": 379,
+      "community": 56,
       "norm_label": "output format"
     },
     {
@@ -101320,7 +101510,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "project_scout_skill_guardrails",
-      "community": 379,
+      "community": 56,
       "norm_label": "guardrails"
     },
     {
@@ -101600,7 +101790,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 365,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -101610,7 +101800,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 365,
+      "community": 56,
       "norm_label": "unity scene contracts"
     },
     {
@@ -101620,7 +101810,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 365,
+      "community": 56,
       "norm_label": "define"
     },
     {
@@ -101630,7 +101820,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 365,
+      "community": 56,
       "norm_label": "output format"
     },
     {
@@ -101640,7 +101830,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 365,
+      "community": 56,
       "norm_label": "guardrails"
     },
     {
@@ -101830,7 +102020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "script_roles_skill",
-      "community": 356,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -101840,7 +102030,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "script_roles_skill_unity_script_roles",
-      "community": 356,
+      "community": 56,
       "norm_label": "unity script roles"
     },
     {
@@ -101850,7 +102040,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "script_roles_skill_goal",
-      "community": 356,
+      "community": 56,
       "norm_label": "goal"
     },
     {
@@ -101860,7 +102050,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "script_roles_skill_output_format",
-      "community": 356,
+      "community": 56,
       "norm_label": "output format"
     },
     {
@@ -101870,7 +102060,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "script_roles_skill_common_roles",
-      "community": 356,
+      "community": 56,
       "norm_label": "common roles"
     },
     {
@@ -101880,7 +102070,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "script_roles_skill_guardrails",
-      "community": 356,
+      "community": 56,
       "norm_label": "guardrails"
     },
     {
@@ -102260,7 +102450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scriptdesign_skill",
-      "community": 349,
+      "community": 171,
       "norm_label": "skill.md"
     },
     {
@@ -102600,7 +102790,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_pitfalls",
-      "community": 56,
+      "community": 339,
       "norm_label": "pitfalls.md"
     },
     {
@@ -102720,7 +102910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_recipes",
-      "community": 56,
+      "community": 322,
       "norm_label": "recipes.md"
     },
     {
@@ -102820,7 +103010,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review_review_checklist",
-      "community": 362,
+      "community": 56,
       "norm_label": "review checklist"
     },
     {
@@ -102830,7 +103020,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_review_topology",
-      "community": 362,
+      "community": 56,
       "norm_label": "topology"
     },
     {
@@ -102840,7 +103030,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "shadergraph_design_review_blackboard",
-      "community": 362,
+      "community": 56,
       "norm_label": "blackboard"
     },
     {
@@ -102850,7 +103040,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "shadergraph_design_review_dataflow",
-      "community": 362,
+      "community": 56,
       "norm_label": "dataflow"
     },
     {
@@ -102860,7 +103050,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "shadergraph_design_review_cost_maintainability",
-      "community": 362,
+      "community": 56,
       "norm_label": "cost / maintainability"
     },
     {
@@ -102870,7 +103060,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "shadergraph_design_review_version_safety",
-      "community": 362,
+      "community": 56,
       "norm_label": "version safety"
     },
     {
@@ -102880,7 +103070,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "shadergraph_design_review_reject_the_plan_if",
-      "community": 362,
+      "community": 56,
       "norm_label": "reject the plan if"
     },
     {
@@ -102900,7 +103090,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "shadergraph_design_skill_shadergraph_design_rules",
-      "community": 381,
+      "community": 56,
       "norm_label": "shadergraph - design rules"
     },
     {
@@ -102910,7 +103100,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "shadergraph_design_skill_source_scope",
-      "community": 381,
+      "community": 56,
       "norm_label": "source scope"
     },
     {
@@ -102920,7 +103110,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "shadergraph_design_skill_when_to_load",
-      "community": 381,
+      "community": 56,
       "norm_label": "when to load"
     },
     {
@@ -102930,7 +103120,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "shadergraph_design_skill_what_this_module_assumes",
-      "community": 381,
+      "community": 56,
       "norm_label": "what this module assumes"
     },
     {
@@ -102940,7 +103130,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "shadergraph_design_skill_sub_doc_routing",
-      "community": 381,
+      "community": 56,
       "norm_label": "sub-doc routing"
     },
     {
@@ -102950,7 +103140,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "shadergraph_design_skill_hard_rules",
-      "community": 381,
+      "community": 56,
       "norm_label": "hard rules"
     },
     {
@@ -103040,7 +103230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_skill",
-      "community": 370,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -103050,7 +103240,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "shadergraph_skill_shadergraph_skills",
-      "community": 370,
+      "community": 204,
       "norm_label": "shadergraph skills"
     },
     {
@@ -103060,7 +103250,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "shadergraph_skill_operating_mode",
-      "community": 370,
+      "community": 204,
       "norm_label": "operating mode"
     },
     {
@@ -103070,7 +103260,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "shadergraph_skill_reflection_fragility",
-      "community": 370,
+      "community": 204,
       "norm_label": "reflection fragility"
     },
     {
@@ -103080,7 +103270,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "shadergraph_skill_guardrails",
-      "community": 370,
+      "community": 204,
       "norm_label": "guardrails"
     },
     {
@@ -103330,7 +103520,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "shadergraph_skill_workflow",
-      "community": 370,
+      "community": 204,
       "norm_label": "workflow"
     },
     {
@@ -103340,7 +103530,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "shadergraph_skill_exact_signatures",
-      "community": 370,
+      "community": 204,
       "norm_label": "exact signatures"
     },
     {
@@ -103870,7 +104060,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "testability_skill",
-      "community": 389,
+      "community": 56,
       "norm_label": "skill.md"
     },
     {
@@ -103880,7 +104070,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "testability_skill_unity_testability_advisor",
-      "community": 389,
+      "community": 56,
       "norm_label": "unity testability advisor"
     },
     {
@@ -103890,7 +104080,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "testability_skill_review_questions",
-      "community": 389,
+      "community": 56,
       "norm_label": "review questions"
     },
     {
@@ -103900,7 +104090,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "testability_skill_output_format",
-      "community": 389,
+      "community": 56,
       "norm_label": "output format"
     },
     {
@@ -103910,7 +104100,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "testability_skill_guardrails",
-      "community": 389,
+      "community": 56,
       "norm_label": "guardrails"
     },
     {
@@ -109965,6 +110155,413 @@
       "confidence_score": 1.0,
       "source": "editor_codexunityskillsbootstrap_codexunityskillsbootstrap_startunityskillsserver",
       "target": "assets_editor_codexunityskillsbootstrap_cs_menuitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "field",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_createflamemesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_ismanualtorchroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreateflamemesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_setlocal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_tightenbasket",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_menuitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_ismanualtorchroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreateflamemesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishmanualtorchflames",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_mesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_polishtorch",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_tightenbasket",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L194",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_assignmaterial",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L186",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_setlocal",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L170",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_tightenbasket",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L194",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_assignmaterial",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L200",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreatematerial",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_createflamemesh",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_mesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L150",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreateflamemesh",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_mesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_mesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_replaceflamemesh",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L186",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_setlocal",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreateflamemesh",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_createflamemesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_tightenbasket",
+      "target": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_setlocal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DManualTorchPolisher.cs",
+      "source_location": "L200",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dmanualtorchpolisher_dk3dmanualtorchpolisher_loadorcreatematerial",
+      "target": "assets_editor_dk3dmanualtorchpolisher_cs_color",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -287102,5 +287699,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c9773d27a0238fc850a61ad10351c6ceaa4efa60"
+  "built_at_commit": "b19a33296537db4ba0a0a190fc9e810fe2b48549"
 }
