@@ -53,14 +53,15 @@ public static class DK3DRopeLadderVisualBuilder
         const float height = 14.3f;
         const float width = 1.38f;
         const float railX = width * 0.5f;
-        const float rungDiameter = 0.115f;
-        const float ropeDiameter = 0.075f;
+        const float plankThickness = 0.18f;
+        const float plankDepth = 0.28f;
+        const float ropeDiameter = 0.045f;
         const float knotSize = 0.24f;
         const float startY = -height * 0.5f;
         const float spacing = height / (rungCount - 1);
 
-        CreateCylinder(root.transform, "Left Weathered Rope Rail", new Vector3(-railX, 0f, -0.015f), Quaternion.identity, ropeDiameter, height + 0.9f, rope);
-        CreateCylinder(root.transform, "Right Weathered Rope Rail", new Vector3(railX, 0f, -0.015f), Quaternion.identity, ropeDiameter, height + 0.9f, rope);
+        CreateBraidedRopeRail(root.transform, "Left Braided Rope Rail", -railX, height + 0.9f, ropeDiameter, rope);
+        CreateBraidedRopeRail(root.transform, "Right Braided Rope Rail", railX, height + 0.9f, ropeDiameter, rope);
 
         for (var i = 0; i < rungCount; i++)
         {
@@ -69,8 +70,9 @@ public static class DK3DRopeLadderVisualBuilder
             var rungLength = width + 0.32f + Mathf.Sin(i * 0.9f) * 0.04f;
             var angle = Mathf.Sin(i * 0.65f) * 2.5f;
 
-            var rung = CreateCylinder(root.transform, $"Weathered Wooden Rung {i + 1:00}", new Vector3(wobble, y, -0.05f), Quaternion.Euler(0f, 0f, 90f + angle), rungDiameter, rungLength, wood);
-            rung.transform.localScale = new Vector3(rungDiameter, rungLength * 0.5f, rungDiameter * 0.92f);
+            CreateBox(root.transform, $"Squared Wooden Step {i + 1:00}", new Vector3(wobble, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(rungLength, plankThickness, plankDepth), wood);
+            CreateBox(root.transform, $"Left Dark Step End {i + 1:00}", new Vector3(-railX - 0.18f, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(0.12f, plankThickness * 1.06f, plankDepth * 1.03f), binding);
+            CreateBox(root.transform, $"Right Dark Step End {i + 1:00}", new Vector3(railX + 0.18f, y, -0.05f), Quaternion.Euler(0f, 0f, angle), new Vector3(0.12f, plankThickness * 1.06f, plankDepth * 1.03f), binding);
 
             CreateSphere(root.transform, $"Left Rope Knot {i + 1:00}", new Vector3(-railX, y, -0.05f), new Vector3(knotSize * 0.95f, knotSize, knotSize * 0.82f), rope);
             CreateSphere(root.transform, $"Right Rope Knot {i + 1:00}", new Vector3(railX, y, -0.05f), new Vector3(knotSize * 0.95f, knotSize, knotSize * 0.82f), rope);
@@ -86,6 +88,58 @@ public static class DK3DRopeLadderVisualBuilder
         Debug.Log("Built proper 3D rope ladder visual. Original collider object kept; old flat image face removed.");
     }
 
+    private static void CreateBraidedRopeRail(Transform parent, string name, float x, float length, float diameter, Material material)
+    {
+        var railRoot = new GameObject(name);
+        Undo.RegisterCreatedObjectUndo(railRoot, "Create braided rope rail");
+        railRoot.transform.SetParent(parent, false);
+        railRoot.transform.localPosition = Vector3.zero;
+        railRoot.transform.localRotation = Quaternion.identity;
+
+        const int segmentCount = 64;
+        const float strandOffsetX = 0.055f;
+        const float strandOffsetZ = 0.035f;
+        var bottom = -length * 0.5f;
+        var segmentHeight = length / segmentCount;
+
+        for (var i = 0; i < segmentCount; i++)
+        {
+            var y0 = bottom + segmentHeight * i;
+            var y1 = y0 + segmentHeight * 0.92f;
+            var flip = i % 2 == 0 ? 1f : -1f;
+
+            CreateCylinderBetween(
+                railRoot.transform,
+                $"Front Twist {i + 1:00}",
+                new Vector3(x - strandOffsetX * flip, y0, -0.015f - strandOffsetZ),
+                new Vector3(x + strandOffsetX * flip, y1, -0.015f + strandOffsetZ),
+                diameter,
+                material);
+
+            CreateCylinderBetween(
+                railRoot.transform,
+                $"Back Twist {i + 1:00}",
+                new Vector3(x + strandOffsetX * flip, y0, -0.015f + strandOffsetZ),
+                new Vector3(x - strandOffsetX * flip, y1, -0.015f - strandOffsetZ),
+                diameter * 0.92f,
+                material);
+        }
+    }
+
+    private static GameObject CreateBox(Transform parent, string name, Vector3 localPosition, Quaternion localRotation, Vector3 localScale, Material material)
+    {
+        var obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        Undo.RegisterCreatedObjectUndo(obj, "Create ladder box");
+        obj.name = name;
+        obj.transform.SetParent(parent, false);
+        obj.transform.localPosition = localPosition;
+        obj.transform.localRotation = localRotation;
+        obj.transform.localScale = localScale;
+        AssignMaterial(obj, material);
+        Object.DestroyImmediate(obj.GetComponent<Collider>());
+        return obj;
+    }
+
     private static GameObject CreateCylinder(Transform parent, string name, Vector3 localPosition, Quaternion localRotation, float diameter, float length, Material material)
     {
         var obj = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
@@ -98,6 +152,15 @@ public static class DK3DRopeLadderVisualBuilder
         AssignMaterial(obj, material);
         Object.DestroyImmediate(obj.GetComponent<Collider>());
         return obj;
+    }
+
+    private static GameObject CreateCylinderBetween(Transform parent, string name, Vector3 localStart, Vector3 localEnd, float diameter, Material material)
+    {
+        var midpoint = (localStart + localEnd) * 0.5f;
+        var direction = localEnd - localStart;
+        var length = direction.magnitude;
+        var rotation = Quaternion.FromToRotation(Vector3.up, direction.normalized);
+        return CreateCylinder(parent, name, midpoint, rotation, diameter, length, material);
     }
 
     private static GameObject CreateSphere(Transform parent, string name, Vector3 localPosition, Vector3 localScale, Material material)

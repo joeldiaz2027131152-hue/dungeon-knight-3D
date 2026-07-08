@@ -104,30 +104,50 @@
       "norm_label": "menuitem"
     },
     {
-      "label": ".CreateCylinder()",
+      "label": ".CreateBraidedRopeRail()",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L91",
       "_origin": "ast",
-      "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbraidedroperail",
       "community": 17,
-      "norm_label": ".createcylinder()"
+      "norm_label": ".createbraidedroperail()"
     },
     {
       "label": "Transform",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_transform",
       "community": 17,
       "norm_label": "transform"
     },
     {
+      "label": "Material",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
+      "community": 17,
+      "norm_label": "material"
+    },
+    {
+      "label": ".CreateBox()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "community": 17,
+      "norm_label": ".createbox()"
+    },
+    {
       "label": "Vector3",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L129",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3",
       "community": 17,
@@ -137,37 +157,47 @@
       "label": "Quaternion",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L129",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_quaternion",
       "community": 17,
       "norm_label": "quaternion"
     },
     {
-      "label": "Material",
-      "file_type": "code",
-      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
-      "_origin": "ast",
-      "id": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
-      "community": 17,
-      "norm_label": "material"
-    },
-    {
       "label": "GameObject",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L129",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject",
       "community": 17,
       "norm_label": "gameobject"
     },
     {
+      "label": ".CreateCylinder()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "community": 17,
+      "norm_label": ".createcylinder()"
+    },
+    {
+      "label": ".CreateCylinderBetween()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L157",
+      "_origin": "ast",
+      "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
+      "community": 17,
+      "norm_label": ".createcylinderbetween()"
+    },
+    {
       "label": ".CreateSphere()",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L103",
+      "source_location": "L166",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
       "community": 17,
@@ -177,7 +207,7 @@
       "label": ".AssignMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L117",
+      "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
       "community": 17,
@@ -187,7 +217,7 @@
       "label": ".DestroyIfPresent()",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L132",
+      "source_location": "L195",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_destroyifpresent",
       "community": 17,
@@ -197,7 +227,7 @@
       "label": ".LoadOrCreateMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L141",
+      "source_location": "L204",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial",
       "community": 17,
@@ -207,7 +237,7 @@
       "label": "Color",
       "file_type": "code",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L141",
+      "source_location": "L204",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_color",
       "community": 17,
@@ -11840,7 +11870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "level_flickersprite",
-      "community": 44,
+      "community": 380,
       "norm_label": "flickersprite.cs"
     },
     {
@@ -11850,7 +11880,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "level_flickersprite_dungeonknight_level",
-      "community": 44,
+      "community": 380,
       "norm_label": "dungeonknight.level"
     },
     {
@@ -11860,7 +11890,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "level_flickersprite_flickersprite",
-      "community": 44,
+      "community": 380,
       "norm_label": "flickersprite"
     },
     {
@@ -11870,7 +11900,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_float",
-      "community": 44,
+      "community": 380,
       "norm_label": "float"
     },
     {
@@ -11880,7 +11910,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_spriterenderer",
-      "community": 44,
+      "community": 380,
       "norm_label": "spriterenderer"
     },
     {
@@ -11890,7 +11920,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_color",
-      "community": 44,
+      "community": 380,
       "norm_label": "color"
     },
     {
@@ -11900,7 +11930,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_vector3",
-      "community": 44,
+      "community": 380,
       "norm_label": "vector3"
     },
     {
@@ -11910,7 +11940,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "level_flickersprite_flickersprite_awake",
-      "community": 44,
+      "community": 380,
       "norm_label": ".awake()"
     },
     {
@@ -11920,7 +11950,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "level_flickersprite_flickersprite_update",
-      "community": 44,
+      "community": 380,
       "norm_label": ".update()"
     },
     {
@@ -13810,7 +13840,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "level_timedfiretrap",
-      "community": 25,
+      "community": 351,
       "norm_label": "timedfiretrap.cs"
     },
     {
@@ -13820,7 +13850,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "level_timedfiretrap_dungeonknight_level",
-      "community": 25,
+      "community": 351,
       "norm_label": "dungeonknight.level"
     },
     {
@@ -13830,7 +13860,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap",
-      "community": 25,
+      "community": 351,
       "norm_label": "timedfiretrap"
     },
     {
@@ -13840,7 +13870,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_int",
-      "community": 25,
+      "community": 351,
       "norm_label": "int"
     },
     {
@@ -13850,7 +13880,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_float",
-      "community": 25,
+      "community": 351,
       "norm_label": "float"
     },
     {
@@ -13860,7 +13890,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_spriterenderer",
-      "community": 25,
+      "community": 351,
       "norm_label": "spriterenderer"
     },
     {
@@ -13870,7 +13900,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_collider2d",
-      "community": 25,
+      "community": 351,
       "norm_label": "collider2d"
     },
     {
@@ -13880,7 +13910,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_configure",
-      "community": 25,
+      "community": 351,
       "norm_label": ".configure()"
     },
     {
@@ -13890,7 +13920,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_awake",
-      "community": 25,
+      "community": 351,
       "norm_label": ".awake()"
     },
     {
@@ -13900,7 +13930,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_update",
-      "community": 25,
+      "community": 351,
       "norm_label": ".update()"
     },
     {
@@ -13910,7 +13940,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_ontriggerstay2d",
-      "community": 25,
+      "community": 351,
       "norm_label": ".ontriggerstay2d()"
     },
     {
@@ -13920,7 +13950,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_advancestate",
-      "community": 25,
+      "community": 351,
       "norm_label": ".advancestate()"
     },
     {
@@ -13930,7 +13960,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_applyvisuals",
-      "community": 25,
+      "community": 351,
       "norm_label": ".applyvisuals()"
     },
     {
@@ -13940,7 +13970,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_createpixelchild",
-      "community": 25,
+      "community": 351,
       "norm_label": ".createpixelchild()"
     },
     {
@@ -13950,7 +13980,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_transform",
-      "community": 25,
+      "community": 351,
       "norm_label": "transform"
     },
     {
@@ -13960,7 +13990,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_vector2",
-      "community": 25,
+      "community": 351,
       "norm_label": "vector2"
     },
     {
@@ -13970,7 +14000,7 @@
       "source_location": "L126",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_color",
-      "community": 25,
+      "community": 351,
       "norm_label": "color"
     },
     {
@@ -13980,7 +14010,7 @@
       "source_location": "L131",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_createspritechild",
-      "community": 25,
+      "community": 351,
       "norm_label": ".createspritechild()"
     },
     {
@@ -13990,7 +14020,7 @@
       "source_location": "L131",
       "_origin": "ast",
       "id": "assets_scripts_level_timedfiretrap_cs_sprite",
-      "community": 25,
+      "community": 351,
       "norm_label": "sprite"
     },
     {
@@ -14000,7 +14030,7 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "level_timedfiretrap_timedfiretrap_whitepixel",
-      "community": 25,
+      "community": 351,
       "norm_label": ".whitepixel()"
     },
     {
@@ -15550,7 +15580,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_shielddropper",
-      "community": 68,
+      "community": 44,
       "norm_label": "shielddropper.cs"
     },
     {
@@ -15560,7 +15590,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_shielddropper_dungeonknight_loot",
-      "community": 68,
+      "community": 44,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15570,7 +15600,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper",
-      "community": 68,
+      "community": 44,
       "norm_label": "shielddropper"
     },
     {
@@ -15580,7 +15610,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_awake",
-      "community": 68,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -15590,7 +15620,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_ondied",
-      "community": 68,
+      "community": 44,
       "norm_label": ".ondied()"
     },
     {
@@ -15600,7 +15630,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_health",
-      "community": 68,
+      "community": 44,
       "norm_label": "health"
     },
     {
@@ -15610,7 +15640,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_spawnshield",
-      "community": 68,
+      "community": 44,
       "norm_label": ".spawnshield()"
     },
     {
@@ -15620,7 +15650,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_vector3",
-      "community": 68,
+      "community": 44,
       "norm_label": "vector3"
     },
     {
@@ -16640,7 +16670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "player_playerinteraction",
-      "community": 25,
+      "community": 371,
       "norm_label": "playerinteraction.cs"
     },
     {
@@ -16650,7 +16680,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "player_playerinteraction_dungeonknight_player",
-      "community": 25,
+      "community": 371,
       "norm_label": "dungeonknight.player"
     },
     {
@@ -16660,7 +16690,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "player_playerinteraction_playerinteraction",
-      "community": 25,
+      "community": 371,
       "norm_label": "playerinteraction"
     },
     {
@@ -16670,7 +16700,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_player_playerinteraction_cs_layermask",
-      "community": 25,
+      "community": 371,
       "norm_label": "layermask"
     },
     {
@@ -16680,7 +16710,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "assets_scripts_player_playerinteraction_cs_iinteractable",
-      "community": 25,
+      "community": 371,
       "norm_label": "iinteractable"
     },
     {
@@ -16690,7 +16720,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "assets_scripts_player_playerinteraction_cs_transform",
-      "community": 25,
+      "community": 371,
       "norm_label": "transform"
     },
     {
@@ -16700,7 +16730,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_scripts_player_playerinteraction_cs_guistyle",
-      "community": 25,
+      "community": 371,
       "norm_label": "guistyle"
     },
     {
@@ -16710,7 +16740,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "player_playerinteraction_playerinteraction_awake",
-      "community": 25,
+      "community": 371,
       "norm_label": ".awake()"
     },
     {
@@ -16720,7 +16750,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "player_playerinteraction_playerinteraction_update",
-      "community": 25,
+      "community": 371,
       "norm_label": ".update()"
     },
     {
@@ -16730,7 +16760,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "player_playerinteraction_playerinteraction_ongui",
-      "community": 25,
+      "community": 371,
       "norm_label": ".ongui()"
     },
     {
@@ -16740,7 +16770,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "player_playerinteraction_playerinteraction_findclosestinteractable",
-      "community": 25,
+      "community": 371,
       "norm_label": ".findclosestinteractable()"
     },
     {
@@ -16750,7 +16780,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "player_playerinteraction_playerinteraction_drawbox",
-      "community": 25,
+      "community": 371,
       "norm_label": ".drawbox()"
     },
     {
@@ -16760,7 +16790,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "assets_scripts_player_playerinteraction_cs_rect",
-      "community": 25,
+      "community": 371,
       "norm_label": "rect"
     },
     {
@@ -16770,7 +16800,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "assets_scripts_player_playerinteraction_cs_color",
-      "community": 25,
+      "community": 371,
       "norm_label": "color"
     },
     {
@@ -18630,7 +18660,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "image",
-      "community": 61,
+      "community": 68,
       "norm_label": "image"
     },
     {
@@ -18640,7 +18670,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_transform",
-      "community": 61,
+      "community": 68,
       "norm_label": "transform"
     },
     {
@@ -18650,7 +18680,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textmesh",
-      "community": 61,
+      "community": 382,
       "norm_label": "textmesh"
     },
     {
@@ -18660,7 +18690,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_material",
-      "community": 61,
+      "community": 68,
       "norm_label": "material"
     },
     {
@@ -18680,7 +18710,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_awake",
-      "community": 61,
+      "community": 68,
       "norm_label": ".awake()"
     },
     {
@@ -18730,7 +18760,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureoverlaycanvas",
-      "community": 61,
+      "community": 68,
       "norm_label": ".ensureoverlaycanvas()"
     },
     {
@@ -18740,7 +18770,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureworldhud",
-      "community": 61,
+      "community": 68,
       "norm_label": ".ensureworldhud()"
     },
     {
@@ -18750,7 +18780,7 @@
       "source_location": "L267",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateworldhud",
-      "community": 61,
+      "community": 382,
       "norm_label": ".updateworldhud()"
     },
     {
@@ -18760,7 +18790,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldtext",
-      "community": 61,
+      "community": 68,
       "norm_label": ".createworldtext()"
     },
     {
@@ -18770,7 +18800,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 61,
+      "community": 68,
       "norm_label": "textanchor"
     },
     {
@@ -18780,7 +18810,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 61,
+      "community": 68,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -18790,7 +18820,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 61,
+      "community": 68,
       "norm_label": "meshrenderer"
     },
     {
@@ -18800,7 +18830,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_newhudmaterial",
-      "community": 61,
+      "community": 68,
       "norm_label": ".newhudmaterial()"
     },
     {
@@ -18810,7 +18840,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_color",
-      "community": 61,
+      "community": 68,
       "norm_label": "color"
     },
     {
@@ -18820,7 +18850,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldtext",
-      "community": 61,
+      "community": 382,
       "norm_label": ".positionworldtext()"
     },
     {
@@ -18830,7 +18860,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector3",
-      "community": 61,
+      "community": 382,
       "norm_label": "vector3"
     },
     {
@@ -18840,7 +18870,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameralocalfromviewport",
-      "community": 61,
+      "community": 382,
       "norm_label": ".cameralocalfromviewport()"
     },
     {
@@ -18850,7 +18880,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_camera",
-      "community": 61,
+      "community": 382,
       "norm_label": "camera"
     },
     {
@@ -18860,7 +18890,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportheight",
-      "community": 61,
+      "community": 382,
       "norm_label": ".cameraviewportheight()"
     },
     {
@@ -18870,7 +18900,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportwidth",
-      "community": 61,
+      "community": 382,
       "norm_label": ".cameraviewportwidth()"
     },
     {
@@ -18880,7 +18910,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldbar",
-      "community": 61,
+      "community": 382,
       "norm_label": ".positionworldbar()"
     },
     {
@@ -18890,7 +18920,7 @@
       "source_location": "L405",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateoverlaycanvas",
-      "community": 61,
+      "community": 68,
       "norm_label": ".updateoverlaycanvas()"
     },
     {
@@ -18900,7 +18930,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createbar",
-      "community": 61,
+      "community": 68,
       "norm_label": ".createbar()"
     },
     {
@@ -18910,7 +18940,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector2",
-      "community": 61,
+      "community": 68,
       "norm_label": "vector2"
     },
     {
@@ -18920,7 +18950,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createtext",
-      "community": 61,
+      "community": 68,
       "norm_label": ".createtext()"
     },
     {
@@ -18930,7 +18960,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "font",
-      "community": 61,
+      "community": 68,
       "norm_label": "font"
     },
     {
@@ -18940,7 +18970,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "fontstyle",
-      "community": 61,
+      "community": 68,
       "norm_label": "fontstyle"
     },
     {
@@ -18950,7 +18980,7 @@
       "source_location": "L474",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createpanel",
-      "community": 61,
+      "community": 68,
       "norm_label": ".createpanel()"
     },
     {
@@ -18960,7 +18990,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_setrect",
-      "community": 61,
+      "community": 68,
       "norm_label": ".setrect()"
     },
     {
@@ -18970,7 +19000,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_recttransform",
-      "community": 61,
+      "community": 68,
       "norm_label": "recttransform"
     },
     {
@@ -37150,7 +37180,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillinstaller",
-      "community": 201,
+      "community": 221,
       "norm_label": "skillinstaller.cs"
     },
     {
@@ -37160,7 +37190,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "skills_skillinstaller_unityskills",
-      "community": 201,
+      "community": 221,
       "norm_label": "unityskills"
     },
     {
@@ -39090,7 +39120,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsauditlog",
-      "community": 201,
+      "community": 202,
       "norm_label": "skillsauditlog.cs"
     },
     {
@@ -39100,7 +39130,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsauditlog_unityskills",
-      "community": 201,
+      "community": 202,
       "norm_label": "unityskills"
     },
     {
@@ -89630,7 +89660,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "skills_skill_unity_skills_module_index",
-      "community": 378,
+      "community": 349,
       "norm_label": "unity skills - module index"
     },
     {
@@ -89640,7 +89670,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_skill_modules",
-      "community": 378,
+      "community": 349,
       "norm_label": "modules"
     },
     {
@@ -89650,7 +89680,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "skills_skill_advisory_design_modules",
-      "community": 378,
+      "community": 349,
       "norm_label": "advisory design modules"
     },
     {
@@ -89660,7 +89690,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "skills_skill_batch_first_rule",
-      "community": 378,
+      "community": 349,
       "norm_label": "batch-first rule"
     },
     {
@@ -89670,7 +89700,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "skills_skill_skill_naming_convention",
-      "community": 378,
+      "community": 349,
       "norm_label": "skill naming convention"
     },
     {
@@ -90090,7 +90120,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "addressables_design_handles",
-      "community": 242,
+      "community": 349,
       "norm_label": "handles.md"
     },
     {
@@ -91760,7 +91790,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "asmdef_skill_unity_asmdef_advisor",
-      "community": 378,
+      "community": 349,
       "norm_label": "unity asmdef advisor"
     },
     {
@@ -91770,7 +91800,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "asmdef_skill_recommend_only_when_worth_it",
-      "community": 378,
+      "community": 349,
       "norm_label": "recommend only when worth it"
     },
     {
@@ -91780,7 +91810,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "asmdef_skill_output_format",
-      "community": 378,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -91790,7 +91820,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "asmdef_skill_default_guidance",
-      "community": 378,
+      "community": 349,
       "norm_label": "default guidance"
     },
     {
@@ -91800,7 +91830,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "asmdef_skill_guardrails",
-      "community": 378,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -92050,7 +92080,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "async_skill_unity_async_strategy",
-      "community": 378,
+      "community": 349,
       "norm_label": "unity async strategy"
     },
     {
@@ -92060,7 +92090,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "async_skill_guardrails",
-      "community": 378,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -92070,7 +92100,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "async_skill_decision_ladder",
-      "community": 378,
+      "community": 349,
       "norm_label": "decision ladder"
     },
     {
@@ -92080,7 +92110,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "async_skill_specific_guidance",
-      "community": 378,
+      "community": 349,
       "norm_label": "specific guidance"
     },
     {
@@ -92090,7 +92120,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "async_skill_output_format",
-      "community": 378,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -94020,7 +94050,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_basics",
-      "community": 349,
+      "community": 331,
       "norm_label": "basics.md"
     },
     {
@@ -94160,7 +94190,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_ease",
-      "community": 349,
+      "community": 331,
       "norm_label": "ease.md"
     },
     {
@@ -94300,7 +94330,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_integration",
-      "community": 349,
+      "community": 331,
       "norm_label": "integration.md"
     },
     {
@@ -94450,7 +94480,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_lifetime",
-      "community": 349,
+      "community": 331,
       "norm_label": "lifetime.md"
     },
     {
@@ -94580,7 +94610,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_pitfalls",
-      "community": 349,
+      "community": 331,
       "norm_label": "pitfalls.md"
     },
     {
@@ -94910,7 +94940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_sequence",
-      "community": 349,
+      "community": 331,
       "norm_label": "sequence.md"
     },
     {
@@ -95050,7 +95080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_shortcuts",
-      "community": 349,
+      "community": 331,
       "norm_label": "shortcuts.md"
     },
     {
@@ -95250,7 +95280,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_skill",
-      "community": 349,
+      "community": 331,
       "norm_label": "skill.md"
     },
     {
@@ -95260,7 +95290,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "dotween_design_skill_dotween_design_rules",
-      "community": 318,
+      "community": 331,
       "norm_label": "dotween - design rules"
     },
     {
@@ -95270,7 +95300,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "dotween_design_skill_when_to_load_this_module",
-      "community": 318,
+      "community": 331,
       "norm_label": "when to load this module"
     },
     {
@@ -95280,7 +95310,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "dotween_design_skill_critical_rule_summary",
-      "community": 318,
+      "community": 331,
       "norm_label": "critical rule summary"
     },
     {
@@ -95290,7 +95320,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "dotween_design_skill_sub_doc_routing",
-      "community": 318,
+      "community": 331,
       "norm_label": "sub-doc routing"
     },
     {
@@ -95300,7 +95330,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "dotween_design_skill_routing_to_other_modules",
-      "community": 318,
+      "community": 331,
       "norm_label": "routing to other modules"
     },
     {
@@ -95310,7 +95340,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "dotween_design_skill_version_scope",
-      "community": 318,
+      "community": 331,
       "norm_label": "version scope"
     },
     {
@@ -95320,7 +95350,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_tween",
-      "community": 349,
+      "community": 331,
       "norm_label": "tween.md"
     },
     {
@@ -96810,7 +96840,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "inspector_skill_unity_inspector_design",
-      "community": 371,
+      "community": 349,
       "norm_label": "unity inspector design"
     },
     {
@@ -96820,7 +96850,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "inspector_skill_guardrails",
-      "community": 371,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -96830,7 +96860,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "inspector_skill_default_rules",
-      "community": 371,
+      "community": 349,
       "norm_label": "default rules"
     },
     {
@@ -96840,7 +96870,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "inspector_skill_inspector_quality_checklist",
-      "community": 371,
+      "community": 349,
       "norm_label": "inspector quality checklist"
     },
     {
@@ -96850,7 +96880,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "inspector_skill_output_format",
-      "community": 371,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -101450,7 +101480,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 389,
+      "community": 379,
       "norm_label": "skill.md"
     },
     {
@@ -101460,7 +101490,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 389,
+      "community": 379,
       "norm_label": "unity scene contracts"
     },
     {
@@ -101470,7 +101500,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 389,
+      "community": 379,
       "norm_label": "define"
     },
     {
@@ -101480,7 +101510,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 389,
+      "community": 379,
       "norm_label": "output format"
     },
     {
@@ -101490,7 +101520,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 389,
+      "community": 379,
       "norm_label": "guardrails"
     },
     {
@@ -103720,7 +103750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "testability_skill",
-      "community": 380,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -103730,7 +103760,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "testability_skill_unity_testability_advisor",
-      "community": 380,
+      "community": 349,
       "norm_label": "unity testability advisor"
     },
     {
@@ -103740,7 +103770,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "testability_skill_review_questions",
-      "community": 380,
+      "community": 349,
       "norm_label": "review questions"
     },
     {
@@ -103750,7 +103780,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "testability_skill_output_format",
-      "community": 380,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -103760,7 +103790,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "testability_skill_guardrails",
-      "community": 380,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -104720,7 +104750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable",
-      "community": 349,
+      "community": 62,
       "norm_label": "asyncenumerable.md"
     },
     {
@@ -104880,7 +104910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_basics",
-      "community": 349,
+      "community": 62,
       "norm_label": "basics.md"
     },
     {
@@ -104990,7 +105020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_cancellation",
-      "community": 349,
+      "community": 62,
       "norm_label": "cancellation.md"
     },
     {
@@ -105140,7 +105170,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_composition",
-      "community": 349,
+      "community": 62,
       "norm_label": "composition.md"
     },
     {
@@ -105270,7 +105300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_conversion",
-      "community": 349,
+      "community": 62,
       "norm_label": "conversion.md"
     },
     {
@@ -105400,7 +105430,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_pitfalls",
-      "community": 349,
+      "community": 62,
       "norm_label": "pitfalls.md"
     },
     {
@@ -105730,7 +105760,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_playerloop",
-      "community": 349,
+      "community": 62,
       "norm_label": "playerloop.md"
     },
     {
@@ -105850,7 +105880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_skill",
-      "community": 349,
+      "community": 62,
       "norm_label": "skill.md"
     },
     {
@@ -105860,7 +105890,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "unitask_design_skill_unitask_design_rules",
-      "community": 351,
+      "community": 62,
       "norm_label": "unitask - design rules"
     },
     {
@@ -105870,7 +105900,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "unitask_design_skill_when_to_load_this_module",
-      "community": 351,
+      "community": 62,
       "norm_label": "when to load this module"
     },
     {
@@ -105880,7 +105910,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "unitask_design_skill_critical_rule_summary",
-      "community": 351,
+      "community": 62,
       "norm_label": "critical rule summary"
     },
     {
@@ -105890,7 +105920,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "unitask_design_skill_sub_doc_routing",
-      "community": 351,
+      "community": 62,
       "norm_label": "sub-doc routing"
     },
     {
@@ -105900,7 +105930,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "unitask_design_skill_routing_to_other_modules",
-      "community": 351,
+      "community": 62,
       "norm_label": "routing to other modules"
     },
     {
@@ -105910,7 +105940,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "unitask_design_skill_version_scope",
-      "community": 351,
+      "community": 62,
       "norm_label": "version scope"
     },
     {
@@ -105920,7 +105950,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_triggers",
-      "community": 349,
+      "community": 62,
       "norm_label": "triggers.md"
     },
     {
@@ -105930,7 +105960,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_triggers_unitask_triggers",
-      "community": 59,
+      "community": 62,
       "norm_label": "unitask triggers"
     },
     {
@@ -105940,7 +105970,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_triggers_core_types",
-      "community": 59,
+      "community": 62,
       "norm_label": "core types"
     },
     {
@@ -105950,7 +105980,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_1_getcancellationtokenondestroy",
-      "community": 59,
+      "community": 62,
       "norm_label": "pattern 1 \u2014 `getcancellationtokenondestroy`"
     },
     {
@@ -105960,7 +105990,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_2_ondestroyasync_awaitable_lifecycle",
-      "community": 59,
+      "community": 62,
       "norm_label": "pattern 2 \u2014 `ondestroyasync` (awaitable lifecycle)"
     },
     {
@@ -105970,7 +106000,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_3_getasync_trigger_oncollisionenterasync_etc",
-      "community": 59,
+      "community": 62,
       "norm_label": "pattern 3 \u2014 `getasync*trigger()` + `oncollisionenterasync` etc."
     },
     {
@@ -105980,7 +106010,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_4_ui_events_ugui",
-      "community": 59,
+      "community": 62,
       "norm_label": "pattern 4 \u2014 ui events (ugui)"
     },
     {
@@ -105990,7 +106020,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "unitask_design_triggers_how_triggers_manage_lifetime",
-      "community": 59,
+      "community": 62,
       "norm_label": "how triggers manage lifetime"
     },
     {
@@ -106000,7 +106030,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "unitask_design_triggers_null_checks_and_fake_null",
-      "community": 59,
+      "community": 62,
       "norm_label": "null checks and fake-null"
     },
     {
@@ -106010,7 +106040,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "unitask_design_triggers_triggers_checklist",
-      "community": 59,
+      "community": 62,
       "norm_label": "triggers checklist"
     },
     {
@@ -109822,9 +109852,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder"
     },
     {
       "relation": "references",
@@ -109833,9 +109863,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_string",
-      "confidence_score": 1.0
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_string"
     },
     {
       "relation": "method",
@@ -109843,9 +109873,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial"
     },
     {
       "relation": "method",
@@ -109853,8 +109883,28 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbraidedroperail",
       "confidence_score": 1.0
     },
     {
@@ -109863,8 +109913,18 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
       "confidence_score": 1.0
     },
     {
@@ -109873,9 +109933,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere"
     },
     {
       "relation": "method",
@@ -109883,9 +109943,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_destroyifpresent",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_destroyifpresent"
     },
     {
       "relation": "method",
@@ -109893,9 +109953,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial"
     },
     {
       "relation": "references",
@@ -109904,8 +109964,30 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_menuitem",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_menuitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbraidedroperail",
       "confidence_score": 1.0
     },
     {
@@ -109915,9 +109997,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder"
     },
     {
       "relation": "calls",
@@ -109926,9 +110008,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere"
     },
     {
       "relation": "calls",
@@ -109937,9 +110019,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_destroyifpresent",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_destroyifpresent"
     },
     {
       "relation": "calls",
@@ -109948,29 +110030,18 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_build",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L91",
       "weight": 1.0,
       "context": "parameter_type",
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbraidedroperail",
       "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
       "confidence_score": 1.0
     },
@@ -109978,33 +110049,11 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
+      "source_location": "L91",
       "weight": 1.0,
       "context": "parameter_type",
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_quaternion",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbraidedroperail",
       "target": "assets_editor_dk3dropeladdervisualbuilder_cs_transform",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L89",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3",
       "confidence_score": 1.0
     },
     {
@@ -110012,20 +110061,42 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L98",
+      "source_location": "L111",
       "weight": 1.0,
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbraidedroperail",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
       "confidence_score": 1.0
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
-      "source_location": "L103",
+      "source_location": "L129",
       "weight": 1.0,
       "context": "parameter_type",
-      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_transform"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L157",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
       "target": "assets_editor_dk3dropeladdervisualbuilder_cs_transform",
       "confidence_score": 1.0
     },
@@ -110036,9 +110107,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_transform"
     },
     {
       "relation": "references",
@@ -110047,7 +110118,40 @@
       "source_location": "L117",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L157",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
       "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
       "confidence_score": 1.0
     },
@@ -110058,9 +110162,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material"
     },
     {
       "relation": "references",
@@ -110069,9 +110173,97 @@
       "source_location": "L141",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_quaternion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createbox",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L157",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_vector3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_quaternion"
     },
     {
       "relation": "references",
@@ -110080,7 +110272,29 @@
       "source_location": "L117",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L157",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
       "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject",
       "confidence_score": 1.0
     },
@@ -110091,8 +110305,30 @@
       "source_location": "L103",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject",
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_gameobject"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinderbetween",
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createcylinder",
       "confidence_score": 1.0
     },
     {
@@ -110102,9 +110338,9 @@
       "source_file": "Assets/Editor/DK3DRopeLadderVisualBuilder.cs",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_createsphere",
-      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial",
-      "confidence_score": 1.0
+      "target": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_assignmaterial"
     },
     {
       "relation": "references",
@@ -110113,9 +110349,9 @@
       "source_location": "L141",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_loadorcreatematerial",
-      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_color",
-      "confidence_score": 1.0
+      "target": "assets_editor_dk3dropeladdervisualbuilder_cs_color"
     },
     {
       "relation": "contains",
@@ -286437,5 +286673,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "38e3d8904c710f0ba8c65b9fc09dc3cbc5def252"
+  "built_at_commit": "78e87eecc12903943d8c70ab4eb54bb32a17963d"
 }
