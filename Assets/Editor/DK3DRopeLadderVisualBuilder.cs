@@ -57,8 +57,8 @@ public static class DK3DRopeLadderVisualBuilder
         const float startY = -height * 0.5f;
         const float spacing = height / (rungCount - 1);
 
-        CreateBraidedRopeRail(root.transform, "Left Braided Rope Rail", -railX, height + 0.9f, ropeDiameter, rope);
-        CreateBraidedRopeRail(root.transform, "Right Braided Rope Rail", railX, height + 0.9f, ropeDiameter, rope);
+        CreateCylinder(root.transform, "Left Long Rope Rail", new Vector3(-railX, 0f, -0.015f), Quaternion.identity, ropeDiameter, height + 0.9f, rope);
+        CreateCylinder(root.transform, "Right Long Rope Rail", new Vector3(railX, 0f, -0.015f), Quaternion.identity, ropeDiameter, height + 0.9f, rope);
 
         for (var i = 0; i < rungCount; i++)
         {
@@ -75,44 +75,6 @@ public static class DK3DRopeLadderVisualBuilder
         UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(root.scene);
         Undo.CollapseUndoOperations(undoGroup);
         Debug.Log("Built proper 3D rope ladder visual. Original collider object kept; old flat image face removed.");
-    }
-
-    private static void CreateBraidedRopeRail(Transform parent, string name, float x, float length, float diameter, Material material)
-    {
-        var railRoot = new GameObject(name);
-        Undo.RegisterCreatedObjectUndo(railRoot, "Create braided rope rail");
-        railRoot.transform.SetParent(parent, false);
-        railRoot.transform.localPosition = Vector3.zero;
-        railRoot.transform.localRotation = Quaternion.identity;
-
-        const int segmentCount = 64;
-        const float strandOffsetX = 0.055f;
-        const float strandOffsetZ = 0.035f;
-        var bottom = -length * 0.5f;
-        var segmentHeight = length / segmentCount;
-
-        for (var i = 0; i < segmentCount; i++)
-        {
-            var y0 = bottom + segmentHeight * i;
-            var y1 = y0 + segmentHeight * 0.92f;
-            var flip = i % 2 == 0 ? 1f : -1f;
-
-            CreateCylinderBetween(
-                railRoot.transform,
-                $"Front Twist {i + 1:00}",
-                new Vector3(x - strandOffsetX * flip, y0, -0.015f - strandOffsetZ),
-                new Vector3(x + strandOffsetX * flip, y1, -0.015f + strandOffsetZ),
-                diameter,
-                material);
-
-            CreateCylinderBetween(
-                railRoot.transform,
-                $"Back Twist {i + 1:00}",
-                new Vector3(x + strandOffsetX * flip, y0, -0.015f + strandOffsetZ),
-                new Vector3(x - strandOffsetX * flip, y1, -0.015f - strandOffsetZ),
-                diameter * 0.92f,
-                material);
-        }
     }
 
     private static GameObject CreateBox(Transform parent, string name, Vector3 localPosition, Quaternion localRotation, Vector3 localScale, Material material)
@@ -141,15 +103,6 @@ public static class DK3DRopeLadderVisualBuilder
         AssignMaterial(obj, material);
         Object.DestroyImmediate(obj.GetComponent<Collider>());
         return obj;
-    }
-
-    private static GameObject CreateCylinderBetween(Transform parent, string name, Vector3 localStart, Vector3 localEnd, float diameter, Material material)
-    {
-        var midpoint = (localStart + localEnd) * 0.5f;
-        var direction = localEnd - localStart;
-        var length = direction.magnitude;
-        var rotation = Quaternion.FromToRotation(Vector3.up, direction.normalized);
-        return CreateCylinder(parent, name, midpoint, rotation, diameter, length, material);
     }
 
     private static void AssignMaterial(GameObject obj, Material material)
