@@ -4793,5 +4793,10 @@
     "mtime": 1783550039.5814345,
     "ast_hash": "62ab84c7635eb0bfd47d930939119023",
     "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/FullTree/material_0.png": {
+    "mtime": 1783613853.536612,
+    "ast_hash": "be14059b23162f79f85943b275d43391",
+    "semantic_hash": ""
   }
 }
