@@ -4803,5 +4803,10 @@
     "mtime": 1783617111.7152562,
     "ast_hash": "fab1a94fd7a47c80d5741eaa874bd984",
     "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/GroundPatch/material_0.png": {
+    "mtime": 1783619581.8335195,
+    "ast_hash": "ead8ea0ba18ba6f6b09bcf0e7c89cecb",
+    "semantic_hash": ""
   }
 }
