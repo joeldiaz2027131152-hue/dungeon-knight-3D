@@ -189621,35 +189621,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.976296
+      value: -0.6565117
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.75358737
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.21643962
+      value: -0.03308914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.001915022
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -81.731
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 163.619
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 199.226
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
       propertyPath: m_Name
       value: Swamp Rock Preview 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.527
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99790347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06389664
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.010076754
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0021128315
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 7.329
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: dff7632ab08c16e4cba2ca9de644c479, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.169
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -314051,7 +314091,7 @@ Transform:
   m_GameObject: {fileID: 3000000791}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.737277, z: 0, w: 0.67559}
-  m_LocalPosition: {x: 10, y: 84.009995, z: 199}
+  m_LocalPosition: {x: 9.981, y: 84.163, z: 199}
   m_LocalScale: {x: 1.25, y: 0.22, z: 1.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
