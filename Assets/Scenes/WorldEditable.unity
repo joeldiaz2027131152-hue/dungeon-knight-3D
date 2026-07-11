@@ -6236,6 +6236,84 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &47108497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3000000001}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 84.925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 205
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98768836
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.15643448
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ff56b9e164bbb964395903ea383b08a6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+      propertyPath: m_Name
+      value: Large Swamp Rock Preview 01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+--- !u!4 &47108498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7b7cc898521e56e949e34268df5624d6, type: 3}
+  m_PrefabInstance: {fileID: 47108497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &47315762
 GameObject:
   m_ObjectHideFlags: 0
@@ -312848,6 +312926,7 @@ Transform:
   - {fileID: 1354273736}
   - {fileID: 406786378}
   - {fileID: 1283057094}
+  - {fileID: 47108498}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3000000002

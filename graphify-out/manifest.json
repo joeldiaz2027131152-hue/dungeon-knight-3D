@@ -4808,5 +4808,35 @@
     "mtime": 1783619581.8335195,
     "ast_hash": "ead8ea0ba18ba6f6b09bcf0e7c89cecb",
     "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/LargeRock/large_swamp_rock_base_color.png": {
+    "mtime": 1783801303.8554933,
+    "ast_hash": "97c477975f659f3c931245e97fad55b1",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/LargeRock/large_swamp_rock_metallic_roughness.png": {
+    "mtime": 1783801304.1464958,
+    "ast_hash": "c63915103171115e7d93d4fbd27f27ab",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/LargeRock/large_swamp_rock_metallic_smoothness.png": {
+    "mtime": 1783801304.6315,
+    "ast_hash": "8b784ff5e77388db91708ccbb90dcb18",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/SwampRock/swamp_rock_base_color.png": {
+    "mtime": 1783800131.8282382,
+    "ast_hash": "71d02d282d3f66580257ec06c4bca3a7",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/SwampRock/swamp_rock_metallic_roughness.png": {
+    "mtime": 1783800131.9912405,
+    "ast_hash": "8210deedf2783853556e2a592fd55e5f",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/SwampRock/swamp_rock_metallic_smoothness.png": {
+    "mtime": 1783800192.5580366,
+    "ast_hash": "deb999ec433d66746b1bd8a62410f90d",
+    "semantic_hash": ""
   }
 }
