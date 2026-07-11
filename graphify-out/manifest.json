@@ -4838,5 +4838,20 @@
     "mtime": 1783800192.5580366,
     "ast_hash": "deb999ec433d66746b1bd8a62410f90d",
     "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/Torches/swamp_torch_base_color.png": {
+    "mtime": 1783802362.5989337,
+    "ast_hash": "4d7e6c72b4ac8400aeb026ab69084adb",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/Torches/swamp_torch_metallic_roughness.png": {
+    "mtime": 1783802362.9939384,
+    "ast_hash": "cc0b65144db2e107f331ba834651cfce",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/Torches/swamp_torch_metallic_smoothness.png": {
+    "mtime": 1783802363.4859445,
+    "ast_hash": "807fb08cd8a3f24c60e87a32e21c583a",
+    "semantic_hash": ""
   }
 }
