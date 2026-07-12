@@ -1,16 +1,16 @@
 # Graph Report - dungeon-knight-3D  (2026-07-12)
 
 ## Corpus Check
-- 399 files · ~6,818,507 words
+- 399 files · ~6,818,548 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 11159 nodes · 17309 edges · 400 communities (396 shown, 4 thin omitted)
+- 11160 nodes · 17312 edges · 406 communities (402 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ecfeb719`
+- Built from commit: `e07e52ad`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -344,7 +344,6 @@
 - [[_COMMUNITY_Community 346|Community 346]]
 - [[_COMMUNITY_Community 347|Community 347]]
 - [[_COMMUNITY_Community 348|Community 348]]
-- [[_COMMUNITY_Community 349|Community 349]]
 - [[_COMMUNITY_Community 350|Community 350]]
 - [[_COMMUNITY_Community 351|Community 351]]
 - [[_COMMUNITY_Community 352|Community 352]]
@@ -363,6 +362,7 @@
 - [[_COMMUNITY_Community 366|Community 366]]
 - [[_COMMUNITY_Community 367|Community 367]]
 - [[_COMMUNITY_Community 368|Community 368]]
+- [[_COMMUNITY_Community 369|Community 369]]
 - [[_COMMUNITY_Community 370|Community 370]]
 - [[_COMMUNITY_Community 371|Community 371]]
 - [[_COMMUNITY_Community 372|Community 372]]
@@ -381,6 +381,8 @@
 - [[_COMMUNITY_Community 385|Community 385]]
 - [[_COMMUNITY_Community 386|Community 386]]
 - [[_COMMUNITY_Community 387|Community 387]]
+- [[_COMMUNITY_Community 388|Community 388]]
+- [[_COMMUNITY_Community 389|Community 389]]
 - [[_COMMUNITY_Community 390|Community 390]]
 - [[_COMMUNITY_Community 391|Community 391]]
 - [[_COMMUNITY_Community 392|Community 392]]
@@ -390,6 +392,10 @@
 - [[_COMMUNITY_Community 397|Community 397]]
 - [[_COMMUNITY_Community 398|Community 398]]
 - [[_COMMUNITY_Community 399|Community 399]]
+- [[_COMMUNITY_Community 400|Community 400]]
+- [[_COMMUNITY_Community 401|Community 401]]
+- [[_COMMUNITY_Community 402|Community 402]]
+- [[_COMMUNITY_Community 403|Community 403]]
 - [[_COMMUNITY_Community 404|Community 404]]
 - [[_COMMUNITY_Community 405|Community 405]]
 
@@ -406,21 +412,21 @@
 10. `PerceptionSkills` - 70 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `RopeLadderToolWindow` --inherits--> `EditorWindow`  [EXTRACTED]
-  Assets/Editor/DK3DRopeLadderVisualBuilder.cs →   _Bridges community 17 → community 230_
+- `DK3DRopeLadderVisualBuilder` --references--> `float`  [EXTRACTED]
+  Assets/Editor/DK3DRopeLadderVisualBuilder.cs → Assets/Editor/DK3DRopeLadderVisualBuilder.cs  _Bridges community 17 → community 230_
 - `DungeonKnight3DMapAttachTool` --inherits--> `EditorWindow`  [EXTRACTED]
   Assets/Editor/DungeonKnight3DWallStretchTool.cs →   _Bridges community 230 → community 133_
+- `AllowlistPickerWindow` --inherits--> `EditorWindow`  [EXTRACTED]
+  Packages/com.besty.unity-skills/Editor/UI/AllowlistPickerWindow.cs →   _Bridges community 230 → community 148_
 - `UnitySkillsAuditWindow` --inherits--> `EditorWindow`  [EXTRACTED]
   Packages/com.besty.unity-skills/Editor/UI/UnitySkillsWindow.cs →   _Bridges community 230 → community 233_
 - `UnitySkillsWindow` --inherits--> `EditorWindow`  [EXTRACTED]
   Packages/com.besty.unity-skills/Editor/UI/UnitySkillsWindow.cs →   _Bridges community 230 → community 191_
-- `Health` --inherits--> `MonoBehaviour`  [EXTRACTED]
-  Assets/Scripts/Combat/Health.cs →   _Bridges community 18 → community 66_
 
 ## Import Cycles
 - None detected.
 
-## Communities (400 total, 4 thin omitted)
+## Communities (406 total, 4 thin omitted)
 
 ### Community 0 - "World 1-1 Bootstrap"
 Cohesion: 0.10
@@ -491,8 +497,8 @@ Cohesion: 0.12
 Nodes (11): bool, GameObject, IEnumerator, int, SimpleGate, Sprite, SpriteRenderer, Transform (+3 more)
 
 ### Community 17 - "Timed Fire Trap"
-Cohesion: 0.16
-Nodes (13): bool, Color, float, GameObject, int, Material, MenuItem, Quaternion (+5 more)
+Cohesion: 0.32
+Nodes (7): Color, GameObject, Material, Quaternion, Transform, Vector3, DK3DRopeLadderVisualBuilder
 
 ### Community 18 - "Health System"
 Cohesion: 0.13
@@ -631,8 +637,8 @@ Cohesion: 0.24
 Nodes (7): bool, float, PlayerController3D, Transform, Vector3, DungeonKnight.Level, DungeonShortcutElevator3D
 
 ### Community 52 - "3D Game HUD"
-Cohesion: 0.13
-Nodes (14): bool, Color, EquipmentItem, GUIStyle, HudMessageIcon, int, Material, PlayerController3D (+6 more)
+Cohesion: 0.15
+Nodes (12): bool, EquipmentItem, GUIStyle, HudMessageIcon, int, PlayerController3D, PlayerInventory, Rect (+4 more)
 
 ### Community 53 - "Hit Burst Effect"
 Cohesion: 0.22
@@ -679,8 +685,8 @@ Cohesion: 0.00
 Nodes (1754): Unity - Manual: 10. Long running tests, Unity - Manual: 11. Scene-based tests, Unity - Manual: 12. Setup and cleanup at build time, Unity - Manual: 13. Domain reload, Unity - Manual: 14. Preserve test state, Unity - Manual: 15. Test cases, Unity - Manual: 16. Custom attributes, Unity - Manual: 17. Running tests programmatically (+1746 more)
 
 ### Community 64 - "Damage Hazard"
-Cohesion: 0.05
-Nodes (31): Example Use Cases, Guardrails, Output Format, Unity ADR, Guardrails, Output Format, Supported Blueprint Styles, Unity Gameplay Blueprints (+23 more)
+Cohesion: 0.33
+Nodes (5): Guardrails, Inspect First, Output Format, Suggested Tools / Inputs, Unity Project Scout
 
 ### Community 65 - "3D Moving Platform"
 Cohesion: 0.16
@@ -688,7 +694,7 @@ Nodes (10): bool, Bounds, CharacterController, Collider, float, int, Vector3, Bo
 
 ### Community 66 - "Lightning Flash"
 Cohesion: 0.07
-Nodes (17): Transform, Health, int, Health, GUIStyle, Health, DungeonKnight3DSelectionRoot, DungeonKnight.Level (+9 more)
+Nodes (19): Transform, Health, Color, float, TextMesh, Vector3, GUIStyle, Health (+11 more)
 
 ### Community 67 - "Coin Dropper"
 Cohesion: 0.29
@@ -763,8 +769,8 @@ Cohesion: 0.12
 Nodes (16): dependencies, depth, source, version, dependencies, depth, source, url (+8 more)
 
 ### Community 85 - "Community 85"
-Cohesion: 0.22
-Nodes (6): RectTransform, Transform, Vector2, Font, FontStyle, Image
+Cohesion: 0.14
+Nodes (10): Color, Material, RectTransform, TextAnchor, Transform, Vector2, Font, FontStyle (+2 more)
 
 ### Community 86 - "Community 86"
 Cohesion: 0.02
@@ -871,8 +877,8 @@ Cohesion: 0.08
 Nodes (19): bool, Bounds, float, GameObject, List, MenuItem, string, Transform (+11 more)
 
 ### Community 134 - "Community 134"
-Cohesion: 0.13
-Nodes (15): 1. Forgot `WithCancellation`, 2. Forgot to dispose `AsyncReactiveProperty`, 3. `Subscribe` without tracking the returned `IDisposable`, 4. `EveryUpdate` leaks PlayerLoop registration, AsyncEnumerable checklist, `AsyncReactiveProperty<T>` — reactive value, `Channel<T>` — producer/consumer queue, Common factories (+7 more)
+Cohesion: 0.25
+Nodes (8): Addressables - Design Rules, Critical Rule Summary, Migration Notes (hallucination shield), Routing to Other Modules, Sub-doc Routing, Version Difference Matrix, Version Scope, When to Load This Module
 
 ### Community 135 - "Community 135"
 Cohesion: 0.05
@@ -927,8 +933,8 @@ Cohesion: 0.03
 Nodes (63): Unity - Audio, Unity - Manual: Ambisonic Audio, Unity - Manual: An overview of the concepts and Audio Mixer, Unity - Manual: Audio, Unity - Manual: Audio, Unity - Manual: Audio, Unity - Manual: Audio Chorus Effect, Unity - Manual: Audio Chorus Filter (+55 more)
 
 ### Community 148 - "Community 148"
-Cohesion: 0.09
-Nodes (16): SettingsDrawerController, UnitySkills, Foldout, IntegerField, Button, DetachFromPanelEvent, DropdownField, GrantRequest (+8 more)
+Cohesion: 0.05
+Nodes (27): SettingsDrawerController, UnitySkills, Foldout, IntegerField, Button, HashSet, Label, List (+19 more)
 
 ### Community 149 - "Community 149"
 Cohesion: 0.07
@@ -1019,7 +1025,7 @@ Cohesion: 0.06
 Nodes (35): Area vs Anchor, Attach Offset Example, Comfort Defaults, Component Dependency Map, Core, Default Input Action Map, Detection and UI, Event Args (+27 more)
 
 ### Community 171 - "Community 171"
-Cohesion: 0.25
+Cohesion: 0.29
 Nodes (7): Data Lifecycle Boundary, Guardrails, Output Format, Review Checklist, Typical assignments, Unity Script Design Review, Why the separation matters
 
 ### Community 172 - "Community 172"
@@ -1095,16 +1101,16 @@ Cohesion: 0.16
 Nodes (3): UnitySkill, ShaderGraphSkills, UnitySkills
 
 ### Community 190 - "Community 190"
-Cohesion: 0.07
-Nodes (27): connect(), dry_run_skill(), get_job_logs(), get_job_status(), get_server_status(), health(), is_auto_workflow_enabled(), is_unity_running() (+19 more)
+Cohesion: 0.11
+Nodes (21): get_job_logs(), get_job_progress(), get_registry_path(), get_skills(), is_auto_workflow_enabled(), list_instances(), _load_registry(), main() (+13 more)
 
 ### Community 191 - "Community 191"
-Cohesion: 0.09
-Nodes (13): AIConfigTabController, FooterController, HistoryTabController, Button, Dictionary, Language, MenuItem, Type (+5 more)
+Cohesion: 0.10
+Nodes (12): AIConfigTabController, FooterController, HistoryTabController, Button, Dictionary, Language, MenuItem, PendingApprovalBannerController (+4 more)
 
 ### Community 192 - "Community 192"
-Cohesion: 0.13
-Nodes (15): Any, diagnose(), get_job(), Client for interacting with a specific Unity Editor instance., Call a skill on this instance with automatic retry on connection errors., Block via the job_wait skill until the job ends or `timeout` elapses.          `, Read a job snapshot via GET /jobs/{id} (lightweight, bypasses skill router)., List recent jobs via GET /jobs. (+7 more)
+Cohesion: 0.15
+Nodes (13): Any, diagnose(), dry_run_skill(), get_job_status(), get_server_status(), Call a skill on this instance with automatic retry on connection errors., Block via the job_wait skill until the job ends or `timeout` elapses.          `, Validate a Unity skill call without executing it. (+5 more)
 
 ### Community 193 - "Community 193"
 Cohesion: 0.07
@@ -1139,12 +1145,12 @@ Cohesion: 0.18
 Nodes (6): PerceptionSkillsTests, UnitySkills.Tests.Core, JObject, SetUp, TearDown, Test
 
 ### Community 201 - "Community 201"
-Cohesion: 0.29
-Nodes (4): UnitySkills, UnitySkills, UnitySkills, Text
+Cohesion: 0.40
+Nodes (3): UnitySkills, UnitySkills, Text
 
 ### Community 202 - "Community 202"
-Cohesion: 0.18
-Nodes (8): ConcurrentQueue, Func, IList, int, long, object, string, SkillsAuditLog
+Cohesion: 0.16
+Nodes (9): ConcurrentQueue, Func, IList, int, long, object, string, SkillsAuditLog (+1 more)
 
 ### Community 203 - "Community 203"
 Cohesion: 0.13
@@ -1159,8 +1165,8 @@ Cohesion: 0.08
 Nodes (23): Background, Position, Transform, Box Model, Button Variants, Card Grid, Component Patterns, Design Tokens, End-to-End Example, Fake Box Shadow Pattern (+15 more)
 
 ### Community 206 - "Community 206"
-Cohesion: 0.08
-Nodes (23): 1. Using `+=` on a callback field, 2. Assigning callbacks after `BeginDownload()`, 3. Forgetting `UnloadAllAssetsAsync` before a manifest update, 4. Hallucinating `UpdatePackageVersionOperation`, 5. Passing `timeout` to `CreateResourceDownloader`, 6. Starting `CreateResourceDownloader` with `downloadingMaxNumber = 0`, 7. Combining downloaders from different packages, 8. Reading `TotalDownloadCount` on a downloader you haven't started yet (+15 more)
+Cohesion: 0.05
+Nodes (38): 1. Forgot `WithCancellation`, 2. Forgot to dispose `AsyncReactiveProperty`, 3. `Subscribe` without tracking the returned `IDisposable`, 4. `EveryUpdate` leaks PlayerLoop registration, AsyncEnumerable checklist, `AsyncReactiveProperty<T>` — reactive value, `Channel<T>` — producer/consumer queue, Common factories (+30 more)
 
 ### Community 207 - "Community 207"
 Cohesion: 0.09
@@ -1239,8 +1245,8 @@ Cohesion: 0.10
 Nodes (20): Exact Signatures, High-Frequency Skill Differences, Key Return Shapes, Minimal Example, Operating Mode, Project and Script Analysis, `scene_analyze`, `scene_context` (+12 more)
 
 ### Community 226 - "Community 226"
-Cohesion: 0.15
-Nodes (15): call_skill(), call_skill_with_retry(), create_script(), _get_default_client(), get_skill_schema(), _is_retryable_transport_error(), Create a script and optionally wait for recompilation to settle., Lazily initialize the default client and auto-discover an instance on first use. (+7 more)
+Cohesion: 0.14
+Nodes (16): call_skill_with_retry(), _get_default_client(), get_skill_schema(), health(), _is_retryable_transport_error(), is_unity_running(), plan_skill(), Lazily initialize the default client and auto-discover an instance on first use. (+8 more)
 
 ### Community 227 - "Community 227"
 Cohesion: 0.10
@@ -1255,8 +1261,8 @@ Cohesion: 0.10
 Nodes (20): 1. Wrong parameter subclass for the intended topology, 2. EditorSimulateMode in a player build, 3. Using HostPlayMode on WebGL, 4. Setting `BundleLoadingMaxConcurrency = 0`, 5. `CustomPlayMode` with the main file system not last, ❌ Anti-patterns vs ✅ Correct patterns, Base class shared by all five, Canonical mode-builder template (+12 more)
 
 ### Community 230 - "Community 230"
-Cohesion: 0.14
-Nodes (12): EditorWindow, Button, HashSet, Label, List, SkillInfo, string, VisualElement (+4 more)
+Cohesion: 0.18
+Nodes (7): bool, float, int, MenuItem, string, RopeLadderToolWindow, EditorWindow
 
 ### Community 231 - "Community 231"
 Cohesion: 0.20
@@ -1268,7 +1274,7 @@ Nodes (6): TestInfrastructureTests, UnitySkills.Tests.Core, BatchJobRecord, Dict
 
 ### Community 233 - "Community 233"
 Cohesion: 0.14
-Nodes (11): ListView, DropdownField, int, JObject, Label, List, string, TextField (+3 more)
+Nodes (10): ListView, DropdownField, int, JObject, Label, List, TextField, VisualElement (+2 more)
 
 ### Community 234 - "Community 234"
 Cohesion: 0.11
@@ -1503,8 +1509,8 @@ Cohesion: 0.12
 Nodes (15): Unity - Manual: Matchmaker Session Building Block, Unity - Manual: Multiplayer, Unity - Manual: Multiplayer Center, Unity - Manual: Multiplayer Play Mode, Unity - Manual: Multiplayer Services, Unity - Manual: Multiplayer Services Building Blocks, Unity - Manual: Multiplayer Services Building Blocks prerequisites, Unity - Manual: Multiplayer Sessions Building Block (+7 more)
 
 ### Community 292 - "Community 292"
-Cohesion: 0.13
-Nodes (11): _get_agent_id(), get_registry_path(), list_instances(), _load_registry(), Initialize client.         Args:             port: Connect to specific localhost, Fetch requestTimeoutMinutes from /health and apply as self.timeout., Scan ports 8090-8100 and return the first responsive Unity instance., Find a Unity instance port by version string.          Three-stage search strate (+3 more)
+Cohesion: 0.09
+Nodes (16): connect(), _get_agent_id(), Client for interacting with a specific Unity Editor instance., Initialize client.         Args:             port: Connect to specific localhost, Fetch requestTimeoutMinutes from /health and apply as self.timeout., Scan ports 8090-8100 and return the first responsive Unity instance., Find a Unity instance port by version string.          Three-stage search strate, Read a job snapshot via GET /jobs/{id} (lightweight, bypasses skill router). (+8 more)
 
 ### Community 293 - "Community 293"
 Cohesion: 0.12
@@ -1631,8 +1637,8 @@ Cohesion: 0.22
 Nodes (9): IDictionary, IList, JsonSerializerSettings, object, SkillErrorCode, string, SkillErrorResponse, SuggestedFix (+1 more)
 
 ### Community 324 - "Community 324"
-Cohesion: 0.22
-Nodes (5): DateTime, MethodInfo, PermissionUiHelpers, SkillInfo, UnitySkills
+Cohesion: 0.15
+Nodes (7): DateTime, MethodInfo, string, Type, PermissionUiHelpers, SkillInfo, UnitySkills
 
 ### Community 325 - "Community 325"
 Cohesion: 0.15
@@ -1655,8 +1661,8 @@ Cohesion: 0.20
 Nodes (7): FooterController, UnitySkills, Button, Label, Language, UnitySkillsWindow, VisualElement
 
 ### Community 330 - "Community 330"
-Cohesion: 0.22
-Nodes (8): 1. BaseColor Texture Sample Chain, 2. Normal Map Decode Chain, 3. Masked Lerp Blend, 4. UV Tiling/Offset Chain, 5. Constant-Driven Color/Intensity, 6. ViewDirection Edge / Fresnel-Style Base Chain, 7. Branch Toggle Chain, Recipes
+Cohesion: 0.25
+Nodes (4): Health, int, CoinDropper, DungeonKnight.Loot
 
 ### Community 331 - "Community 331"
 Cohesion: 0.17
@@ -1691,8 +1697,8 @@ Cohesion: 0.23
 Nodes (7): List, MenuItem, Mesh, string, Vector2, Vector3, SwampRiverGenerator
 
 ### Community 339 - "Community 339"
-Cohesion: 0.17
-Nodes (11): 10. Do Not Suggest Unsupported Nodes As If They Are Editable, 1. PropertyNode Is Not "Just A String", 2. Do Not Guess Node Ids Or Slot Ids, 3. Default Value And Connection Are Mutually Exclusive, 4. Do Not Over-Promise Template Availability, 5. Sampler Behavior Should Be Explicit When It Matters, 6. Branches Need Cost Warnings, 7. SubGraphs Are Not Free (+3 more)
+Cohesion: 0.05
+Nodes (37): Design Reading Of The Subset, Editable Subset, Supported Nodes, What Not To Recommend As Editable Today, Whitelisted Settings, 10. Do Not Suggest Unsupported Nodes As If They Are Editable, 1. PropertyNode Is Not "Just A String", 2. Do Not Guess Node Ids Or Slot Ids (+29 more)
 
 ### Community 340 - "Community 340"
 Cohesion: 0.18
@@ -1729,10 +1735,6 @@ Nodes (9): Unity - Manual: Analyzing coroutines, Unity - Manual: Editor Coroutin
 ### Community 348 - "Community 348"
 Cohesion: 0.20
 Nodes (9): TextMesh Pro Documentation | Unity UI | 2.0.0, Unity - Manual: Canvas Shader Graph, Unity - Manual: Configure a Web Canvas size, Unity - Manual: Migrate from uGUI to UI Toolkit, Unity - Manual: UI systems, Unity - Manual: UI Toolkit, Unity - Manual: UIElements, Unity - Manual: Unity UI (+1 more)
-
-### Community 349 - "Community 349"
-Cohesion: 0.05
-Nodes (31): Addressables - Design Rules, Critical Rule Summary, Migration Notes (hallucination shield), Routing to Other Modules, Sub-doc Routing, Version Difference Matrix, Version Scope, When to Load This Module (+23 more)
 
 ### Community 350 - "Community 350"
 Cohesion: 0.22
@@ -1799,12 +1801,16 @@ Cohesion: 0.33
 Nodes (4): UnitySkills.Tests.Core, WorkflowBookmarkTests, JObject, Test
 
 ### Community 367 - "Community 367"
-Cohesion: 0.22
+Cohesion: 0.25
 Nodes (8): Decision Lab: Same Goal, Multiple Implementations, Guardrails, How to use, Output Format, Pattern Guide, Unity Pattern Selector, When to skip this exercise, Worked example: "Pause AI on 100 enemies for a cutscene"
 
 ### Community 368 - "Community 368"
 Cohesion: 0.25
-Nodes (6): Color, float, TextMesh, Vector3, DamagePopup, DungeonKnight.UI
+Nodes (8): Check For, Guardrails, Hidden Costs: Possibility ≠ Actuality, Logging fires in release builds by default, Output Format, Sequential seeds produce correlated random streams, Unity Performance Red Flags, Write permission costs, even without writing
+
+### Community 369 - "Community 369"
+Cohesion: 0.40
+Nodes (4): Example Use Cases, Guardrails, Output Format, Unity ADR
 
 ### Community 370 - "Community 370"
 Cohesion: 0.29
@@ -1848,11 +1854,11 @@ Nodes (7): float, int, Renderer, Vector2, MaterialPropertyBlock, DungeonKnight.V
 
 ### Community 380 - "Community 380"
 Cohesion: 0.40
-Nodes (5): get_skills(), main(), _parse_cli_value(), Command-line interface for Unity Skills., Get list of available skills, optionally filtered by metadata.      Args:
+Nodes (5): Default Guidance, Guardrails, Output Format, Recommend Only When Worth It, Unity asmdef Advisor
 
 ### Community 381 - "Community 381"
-Cohesion: 0.25
-Nodes (7): Blackboard, Cost / Maintainability, Dataflow, Reject The Plan If, Review Checklist, Topology, Version Safety
+Cohesion: 0.40
+Nodes (5): Decision Ladder, Guardrails, Output Format, Specific Guidance, Unity Async Strategy
 
 ### Community 382 - "Community 382"
 Cohesion: 0.40
@@ -1874,9 +1880,21 @@ Nodes (4): Unity - Editor, Unity - Manual: Create custom Editor Windows with IMG
 Cohesion: 0.40
 Nodes (4): Unity - Manual: Analytics, Unity - Manual: Editor analytics, Unity - Manual: Unity Services, Unity - Services
 
+### Community 387 - "Community 387"
+Cohesion: 0.40
+Nodes (4): Guardrails, Output Format, Supported Blueprint Styles, Unity Gameplay Blueprints
+
+### Community 388 - "Community 388"
+Cohesion: 0.40
+Nodes (5): Default Rules, Guardrails, Inspector Quality Checklist, Output Format, Unity Inspector Design
+
+### Community 389 - "Community 389"
+Cohesion: 0.40
+Nodes (4): Define, Guardrails, Output Format, Unity Scene Contracts
+
 ### Community 390 - "Community 390"
-Cohesion: 0.33
-Nodes (6): Hard Rules, ShaderGraph - Design Rules, Source Scope, Sub-doc Routing, What This Module Assumes, When To Load
+Cohesion: 0.40
+Nodes (5): Advisory Design Modules, Batch-First Rule, Modules, Skill Naming Convention, Unity Skills - Module Index
 
 ### Community 391 - "Community 391"
 Cohesion: 0.50
@@ -1906,28 +1924,40 @@ Nodes (10): dependencies, depth, source, version, dependencies, depth, source, v
 Cohesion: 0.29
 Nodes (7): Critical Rule Summary (memorize even if you skip the sub-docs), Migration Notes (hallucination shield), Routing to Other Modules, Sub-doc Routing, Version Scope, When to Load This Module, YooAsset - Design Rules
 
+### Community 400 - "Community 400"
+Cohesion: 0.40
+Nodes (4): Guardrails, Output Format, Review Questions, Unity Testability Advisor
+
+### Community 401 - "Community 401"
+Cohesion: 0.50
+Nodes (4): call_skill(), create_script(), Create a script and optionally wait for recompilation to settle., Call a Unity skill. Single-call auto-workflow is handled by the Unity server.
+
+### Community 402 - "Community 402"
+Cohesion: 0.50
+Nodes (3): get_job(), Poll GET /jobs/{id} until the job reaches a terminal state or timeout elapses., Lightweight GET /jobs/{id} snapshot — preferred for high-frequency progress poll
+
 ### Community 404 - "Community 404"
-Cohesion: 0.22
-Nodes (5): Camera, TextAnchor, TextMesh, Vector3, MeshRenderer
+Cohesion: 0.39
+Nodes (3): Camera, TextMesh, Vector3
 
 ### Community 405 - "Community 405"
-Cohesion: 0.18
+Cohesion: 0.20
 Nodes (6): Critical Rule Summary (memorize even if you skip the sub-docs), Netcode for GameObjects - Design Rules, Routing to Other Modules, Sub-doc Routing, Version Scope, When to Load This Module
 
 ## Knowledge Gaps
-- **6271 isolated node(s):** `DungeonKnight.Editor`, `MenuItem`, `Color`, `bool`, `DungeonKnight.Editor` (+6266 more)
+- **6270 isolated node(s):** `DungeonKnight.Editor`, `MenuItem`, `Color`, `bool`, `DungeonKnight.Editor` (+6265 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Text` connect `Community 201` to `Community 260`, `Community 135`, `Community 140`, `Community 175`, `Community 143`, `Community 83`, `Community 180`, `Community 149`, `3D Game HUD`, `Community 85`, `Community 152`, `Community 282`, `Community 221`?**
+- **Why does `Text` connect `Community 201` to `Community 260`, `Community 135`, `Community 202`, `Community 140`, `Community 175`, `Community 143`, `Community 83`, `Community 180`, `Community 149`, `3D Game HUD`, `Community 85`, `Community 152`, `Community 282`, `Community 221`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `GameHud3D` connect `3D Game HUD` to `Community 201`, `Lightning Flash`, `Community 404`, `Community 85`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `DungeonKnight.Editor`, `MenuItem`, `Color` to the rest of the system?**
-  _6324 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _6323 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `World 1-1 Bootstrap` be split into smaller, more focused modules?**
   _Cohesion score 0.09548229548229548 - nodes in this community are weakly interconnected._
 - **Should `3D Scene Bootstrap` be split into smaller, more focused modules?**

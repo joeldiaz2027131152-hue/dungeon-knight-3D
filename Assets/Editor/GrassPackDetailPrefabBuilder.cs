@@ -12,12 +12,12 @@ public static class GrassPackDetailPrefabBuilder
     {
         Directory.CreateDirectory(OutputFolder);
 
-        BuildVariant("Grass01", "Assets/Art/Models/SwampApproach/Grass01Pack/grass_01", new Vector3(3.5f, 18f, 3.5f));
-        BuildVariant("Grass02", "Assets/Art/Models/SwampApproach/Grass01Pack/grass_02", new Vector3(3.8f, 20f, 3.8f));
-        BuildVariant("Grass03", "Assets/Art/Models/SwampApproach/Grass01Pack/grass_03", new Vector3(4.1f, 22f, 4.1f));
-        BuildVariant("Grass04", "Assets/Art/Models/SwampApproach/Grass02Pack/grass_04", new Vector3(3.7f, 19f, 3.7f));
-        BuildVariant("Grass05", "Assets/Art/Models/SwampApproach/Grass02Pack/grass_05", new Vector3(4.2f, 23f, 4.2f));
-        BuildVariant("Grass06", "Assets/Art/Models/SwampApproach/Grass02Pack/grass_06", new Vector3(4.5f, 25f, 4.5f));
+        BuildVariant("Grass01", "Assets/Art/Models/SwampApproach/Grass01Pack/grass_01", new Vector3(1.8f, 3.8f, 1.8f));
+        BuildVariant("Grass02", "Assets/Art/Models/SwampApproach/Grass01Pack/grass_02", new Vector3(2f, 4.2f, 2f));
+        BuildVariant("Grass03", "Assets/Art/Models/SwampApproach/Grass01Pack/grass_03", new Vector3(2.2f, 4.6f, 2.2f));
+        BuildVariant("Grass04", "Assets/Art/Models/SwampApproach/Grass02Pack/grass_04", new Vector3(1.9f, 4f, 1.9f));
+        BuildVariant("Grass05", "Assets/Art/Models/SwampApproach/Grass02Pack/grass_05", new Vector3(2.25f, 4.8f, 2.25f));
+        BuildVariant("Grass06", "Assets/Art/Models/SwampApproach/Grass02Pack/grass_06", new Vector3(2.4f, 5.2f, 2.4f));
 
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
@@ -141,6 +141,7 @@ public static class GrassPackDetailPrefabBuilder
         Mesh combined = new Mesh { name = meshName };
         combined.CombineMeshes(combines, true, true, false);
         combined.RecalculateBounds();
+        MovePivotToGroundCenter(combined);
         combined.RecalculateNormals();
 
         Object.DestroyImmediate(sourceInstance);
@@ -156,5 +157,19 @@ public static class GrassPackDetailPrefabBuilder
         Object.DestroyImmediate(combined);
         EditorUtility.SetDirty(existing);
         return existing;
+    }
+
+    private static void MovePivotToGroundCenter(Mesh mesh)
+    {
+        Bounds bounds = mesh.bounds;
+        Vector3 offset = new Vector3(bounds.center.x, bounds.min.y, bounds.center.z);
+        Vector3[] vertices = mesh.vertices;
+        for (int i = 0; i < vertices.Length; i++)
+        {
+            vertices[i] -= offset;
+        }
+
+        mesh.vertices = vertices;
+        mesh.RecalculateBounds();
     }
 }

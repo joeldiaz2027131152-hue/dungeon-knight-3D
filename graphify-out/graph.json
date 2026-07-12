@@ -60,7 +60,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder",
-      "community": 17,
+      "community": 230,
       "norm_label": "dk3dropeladdervisualbuilder.cs"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_string",
-      "community": 17,
+      "community": 230,
       "norm_label": "string"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_int",
-      "community": 17,
+      "community": 230,
       "norm_label": "int"
     },
     {
@@ -100,7 +100,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_float",
-      "community": 17,
+      "community": 230,
       "norm_label": "float"
     },
     {
@@ -120,7 +120,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_menuitem",
-      "community": 17,
+      "community": 230,
       "norm_label": "menuitem"
     },
     {
@@ -130,7 +130,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_opentool",
-      "community": 17,
+      "community": 230,
       "norm_label": ".opentool()"
     },
     {
@@ -300,7 +300,7 @@
       "source_location": "L208",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "community": 17,
+      "community": 230,
       "norm_label": "ropeladdertoolwindow"
     },
     {
@@ -320,7 +320,7 @@
       "source_location": "L216",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_bool",
-      "community": 17,
+      "community": 230,
       "norm_label": "bool"
     },
     {
@@ -330,7 +330,7 @@
       "source_location": "L218",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_showwindow",
-      "community": 17,
+      "community": 230,
       "norm_label": ".showwindow()"
     },
     {
@@ -340,7 +340,7 @@
       "source_location": "L224",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_ongui",
-      "community": 17,
+      "community": 230,
       "norm_label": ".ongui()"
     },
     {
@@ -350,7 +350,7 @@
       "source_location": "L277",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_islikelygeneratedladder",
-      "community": 17,
+      "community": 230,
       "norm_label": ".islikelygeneratedladder()"
     },
     {
@@ -360,7 +360,7 @@
       "source_location": "L290",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "community": 17,
+      "community": 230,
       "norm_label": ".sceneviewspawnposition()"
     },
     {
@@ -370,7 +370,7 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename",
-      "community": 17,
+      "community": 230,
       "norm_label": ".uniquescenename()"
     },
     {
@@ -1912,6 +1912,16 @@
       "id": "assets_editor_grasspackdetailprefabbuilder_cs_mesh",
       "community": 357,
       "norm_label": "mesh"
+    },
+    {
+      "label": ".MovePivotToGroundCenter()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_movepivottogroundcenter",
+      "community": 357,
+      "norm_label": ".movepivottogroundcenter()"
     },
     {
       "label": "SwampProfessionalVisualPass.cs",
@@ -15930,7 +15940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_coindropper",
-      "community": 66,
+      "community": 330,
       "norm_label": "coindropper.cs"
     },
     {
@@ -15940,7 +15950,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_coindropper_dungeonknight_loot",
-      "community": 66,
+      "community": 330,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15950,7 +15960,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper",
-      "community": 66,
+      "community": 330,
       "norm_label": "coindropper"
     },
     {
@@ -15960,7 +15970,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_int",
-      "community": 66,
+      "community": 330,
       "norm_label": "int"
     },
     {
@@ -15970,7 +15980,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_configure",
-      "community": 66,
+      "community": 330,
       "norm_label": ".configure()"
     },
     {
@@ -15980,7 +15990,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_awake",
-      "community": 66,
+      "community": 330,
       "norm_label": ".awake()"
     },
     {
@@ -15990,7 +16000,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_ondied",
-      "community": 66,
+      "community": 330,
       "norm_label": ".ondied()"
     },
     {
@@ -16000,7 +16010,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_health",
-      "community": 66,
+      "community": 330,
       "norm_label": "health"
     },
     {
@@ -19120,7 +19130,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_damagepopup",
-      "community": 368,
+      "community": 66,
       "norm_label": "damagepopup.cs"
     },
     {
@@ -19130,7 +19140,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "ui_damagepopup_dungeonknight_ui",
-      "community": 368,
+      "community": 66,
       "norm_label": "dungeonknight.ui"
     },
     {
@@ -19140,7 +19150,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "ui_damagepopup_damagepopup",
-      "community": 368,
+      "community": 66,
       "norm_label": "damagepopup"
     },
     {
@@ -19150,7 +19160,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_textmesh",
-      "community": 368,
+      "community": 66,
       "norm_label": "textmesh"
     },
     {
@@ -19160,7 +19170,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_vector3",
-      "community": 368,
+      "community": 66,
       "norm_label": "vector3"
     },
     {
@@ -19170,7 +19180,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_float",
-      "community": 368,
+      "community": 66,
       "norm_label": "float"
     },
     {
@@ -19180,7 +19190,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "ui_damagepopup_damagepopup_spawn",
-      "community": 368,
+      "community": 66,
       "norm_label": ".spawn()"
     },
     {
@@ -19190,7 +19200,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "assets_scripts_ui_damagepopup_cs_color",
-      "community": 368,
+      "community": 66,
       "norm_label": "color"
     },
     {
@@ -19200,7 +19210,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "ui_damagepopup_damagepopup_update",
-      "community": 368,
+      "community": 66,
       "norm_label": ".update()"
     },
     {
@@ -19670,7 +19680,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_material",
-      "community": 52,
+      "community": 85,
       "norm_label": "material"
     },
     {
@@ -19750,7 +19760,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureworldhud",
-      "community": 404,
+      "community": 85,
       "norm_label": ".ensureworldhud()"
     },
     {
@@ -19770,7 +19780,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldtext",
-      "community": 404,
+      "community": 85,
       "norm_label": ".createworldtext()"
     },
     {
@@ -19780,7 +19790,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 404,
+      "community": 85,
       "norm_label": "textanchor"
     },
     {
@@ -19790,7 +19800,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 404,
+      "community": 85,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -19800,7 +19810,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 404,
+      "community": 85,
       "norm_label": "meshrenderer"
     },
     {
@@ -19810,7 +19820,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_newhudmaterial",
-      "community": 52,
+      "community": 85,
       "norm_label": ".newhudmaterial()"
     },
     {
@@ -19820,7 +19830,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_color",
-      "community": 52,
+      "community": 85,
       "norm_label": "color"
     },
     {
@@ -40220,7 +40230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsauditlog",
-      "community": 201,
+      "community": 202,
       "norm_label": "skillsauditlog.cs"
     },
     {
@@ -40230,7 +40240,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsauditlog_unityskills",
-      "community": 201,
+      "community": 202,
       "norm_label": "unityskills"
     },
     {
@@ -47530,7 +47540,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow",
-      "community": 230,
+      "community": 148,
       "norm_label": "allowlistpickerwindow.cs"
     },
     {
@@ -47540,7 +47550,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_unityskills",
-      "community": 230,
+      "community": 148,
       "norm_label": "unityskills"
     },
     {
@@ -47550,7 +47560,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow",
-      "community": 230,
+      "community": 148,
       "norm_label": "allowlistpickerwindow"
     },
     {
@@ -47560,7 +47570,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_string",
-      "community": 230,
+      "community": 148,
       "norm_label": "string"
     },
     {
@@ -47570,7 +47580,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_hashset",
-      "community": 230,
+      "community": 148,
       "norm_label": "hashset"
     },
     {
@@ -47580,7 +47590,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_list",
-      "community": 230,
+      "community": 148,
       "norm_label": "list"
     },
     {
@@ -47590,7 +47600,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "toolbarsearchfield",
-      "community": 230,
+      "community": 148,
       "norm_label": "toolbarsearchfield"
     },
     {
@@ -47600,7 +47610,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scrollview",
-      "community": 230,
+      "community": 148,
       "norm_label": "scrollview"
     },
     {
@@ -47610,7 +47620,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_label",
-      "community": 230,
+      "community": 148,
       "norm_label": "label"
     },
     {
@@ -47620,7 +47630,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_button",
-      "community": 230,
+      "community": 148,
       "norm_label": "button"
     },
     {
@@ -47630,7 +47640,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_open",
-      "community": 230,
+      "community": 148,
       "norm_label": ".open()"
     },
     {
@@ -47640,7 +47650,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_creategui",
-      "community": 230,
+      "community": 148,
       "norm_label": ".creategui()"
     },
     {
@@ -47650,7 +47660,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_buildpresetbar",
-      "community": 230,
+      "community": 148,
       "norm_label": ".buildpresetbar()"
     },
     {
@@ -47660,7 +47670,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_selectcodingassistpreset",
-      "community": 230,
+      "community": 148,
       "norm_label": ".selectcodingassistpreset()"
     },
     {
@@ -47670,7 +47680,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_loadcandidates",
-      "community": 230,
+      "community": 148,
       "norm_label": ".loadcandidates()"
     },
     {
@@ -47680,7 +47690,7 @@
       "source_location": "L162",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_rebuildlist",
-      "community": 230,
+      "community": 148,
       "norm_label": ".rebuildlist()"
     },
     {
@@ -47690,7 +47700,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_appendemptylabel",
-      "community": 230,
+      "community": 148,
       "norm_label": ".appendemptylabel()"
     },
     {
@@ -47700,7 +47710,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_buildskillrow",
-      "community": 230,
+      "community": 148,
       "norm_label": ".buildskillrow()"
     },
     {
@@ -47710,7 +47720,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_skillinfo",
-      "community": 230,
+      "community": 148,
       "norm_label": "skillinfo"
     },
     {
@@ -47720,7 +47730,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_visualelement",
-      "community": 230,
+      "community": 148,
       "norm_label": "visualelement"
     },
     {
@@ -47730,7 +47740,7 @@
       "source_location": "L264",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_togglegroup",
-      "community": 230,
+      "community": 148,
       "norm_label": ".togglegroup()"
     },
     {
@@ -47740,7 +47750,7 @@
       "source_location": "L275",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_updatefooter",
-      "community": 230,
+      "community": 148,
       "norm_label": ".updatefooter()"
     },
     {
@@ -47750,7 +47760,7 @@
       "source_location": "L288",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_onconfirmadd",
-      "community": 230,
+      "community": 148,
       "norm_label": ".onconfirmadd()"
     },
     {
@@ -47760,7 +47770,7 @@
       "source_location": "L322",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_ishighrisk",
-      "community": 230,
+      "community": 148,
       "norm_label": ".ishighrisk()"
     },
     {
@@ -47770,7 +47780,7 @@
       "source_location": "L331",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_l",
-      "community": 230,
+      "community": 148,
       "norm_label": ".l()"
     },
     {
@@ -48700,7 +48710,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "controllers_settingsdrawercontroller_settingsdrawercontroller_close",
-      "community": 230,
+      "community": 148,
       "norm_label": ".close()"
     },
     {
@@ -49490,7 +49500,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_string",
-      "community": 233,
+      "community": 324,
       "norm_label": "string"
     },
     {
@@ -49780,7 +49790,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_builddefaultparams",
-      "community": 191,
+      "community": 324,
       "norm_label": ".builddefaultparams()"
     },
     {
@@ -49790,7 +49800,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_getdefaultfortype",
-      "community": 191,
+      "community": 324,
       "norm_label": ".getdefaultfortype()"
     },
     {
@@ -49800,7 +49810,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_type",
-      "community": 191,
+      "community": 324,
       "norm_label": "type"
     },
     {
@@ -53500,7 +53510,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_registry_path",
-      "community": 292,
+      "community": 190,
       "norm_label": "get_registry_path()"
     },
     {
@@ -53510,7 +53520,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "scripts_unity_skills_load_registry",
-      "community": 292,
+      "community": 190,
       "norm_label": "_load_registry()"
     },
     {
@@ -53560,7 +53570,7 @@
       "source_location": "L117",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills",
-      "community": 192,
+      "community": 292,
       "norm_label": "unityskills"
     },
     {
@@ -53620,7 +53630,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_post_skill",
-      "community": 192,
+      "community": 292,
       "norm_label": "._post_skill()"
     },
     {
@@ -53640,7 +53650,7 @@
       "source_location": "L339",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_dry_run_skill",
-      "community": 192,
+      "community": 292,
       "norm_label": ".dry_run_skill()"
     },
     {
@@ -53650,7 +53660,7 @@
       "source_location": "L348",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_plan_skill",
-      "community": 192,
+      "community": 292,
       "norm_label": ".plan_skill()"
     },
     {
@@ -53700,7 +53710,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_get_job",
-      "community": 192,
+      "community": 292,
       "norm_label": ".get_job()"
     },
     {
@@ -53710,7 +53720,7 @@
       "source_location": "L388",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_list_jobs",
-      "community": 192,
+      "community": 292,
       "norm_label": ".list_jobs()"
     },
     {
@@ -53720,7 +53730,7 @@
       "source_location": "L396",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_get_job_progress",
-      "community": 192,
+      "community": 292,
       "norm_label": ".get_job_progress()"
     },
     {
@@ -53730,7 +53740,7 @@
       "source_location": "L404",
       "_origin": "ast",
       "id": "scripts_unity_skills_unityskills_poll_job",
-      "community": 192,
+      "community": 402,
       "norm_label": ".poll_job()"
     },
     {
@@ -53770,7 +53780,7 @@
       "source_location": "L468",
       "_origin": "ast",
       "id": "scripts_unity_skills_connect",
-      "community": 190,
+      "community": 292,
       "norm_label": "connect()"
     },
     {
@@ -53780,7 +53790,7 @@
       "source_location": "L478",
       "_origin": "ast",
       "id": "scripts_unity_skills_set_unity_version",
-      "community": 190,
+      "community": 292,
       "norm_label": "set_unity_version()"
     },
     {
@@ -53790,7 +53800,7 @@
       "source_location": "L496",
       "_origin": "ast",
       "id": "scripts_unity_skills_list_instances",
-      "community": 292,
+      "community": 190,
       "norm_label": "list_instances()"
     },
     {
@@ -53800,7 +53810,7 @@
       "source_location": "L504",
       "_origin": "ast",
       "id": "scripts_unity_skills_dry_run_skill",
-      "community": 190,
+      "community": 192,
       "norm_label": "dry_run_skill()"
     },
     {
@@ -53810,7 +53820,7 @@
       "source_location": "L509",
       "_origin": "ast",
       "id": "scripts_unity_skills_plan_skill",
-      "community": 190,
+      "community": 226,
       "norm_label": "plan_skill()"
     },
     {
@@ -53830,7 +53840,7 @@
       "source_location": "L541",
       "_origin": "ast",
       "id": "scripts_unity_skills_call_skill",
-      "community": 226,
+      "community": 401,
       "norm_label": "call_skill()"
     },
     {
@@ -53840,7 +53850,7 @@
       "source_location": "L546",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_status",
-      "community": 190,
+      "community": 192,
       "norm_label": "get_job_status()"
     },
     {
@@ -53870,7 +53880,7 @@
       "source_location": "L565",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job",
-      "community": 192,
+      "community": 402,
       "norm_label": "get_job()"
     },
     {
@@ -53880,7 +53890,7 @@
       "source_location": "L570",
       "_origin": "ast",
       "id": "scripts_unity_skills_list_jobs",
-      "community": 190,
+      "community": 403,
       "norm_label": "list_jobs()"
     },
     {
@@ -53890,7 +53900,7 @@
       "source_location": "L575",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_job_progress",
-      "community": 387,
+      "community": 190,
       "norm_label": "get_job_progress()"
     },
     {
@@ -54010,7 +54020,7 @@
       "source_location": "L727",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_skills",
-      "community": 380,
+      "community": 190,
       "norm_label": "get_skills()"
     },
     {
@@ -54050,7 +54060,7 @@
       "source_location": "L821",
       "_origin": "ast",
       "id": "scripts_unity_skills_health",
-      "community": 190,
+      "community": 226,
       "norm_label": "health()"
     },
     {
@@ -54060,7 +54070,7 @@
       "source_location": "L832",
       "_origin": "ast",
       "id": "scripts_unity_skills_is_unity_running",
-      "community": 190,
+      "community": 226,
       "norm_label": "is_unity_running()"
     },
     {
@@ -54080,7 +54090,7 @@
       "source_location": "L847",
       "_origin": "ast",
       "id": "scripts_unity_skills_get_server_status",
-      "community": 190,
+      "community": 192,
       "norm_label": "get_server_status()"
     },
     {
@@ -54200,7 +54210,7 @@
       "source_location": "L1043",
       "_origin": "ast",
       "id": "scripts_unity_skills_create_script",
-      "community": 226,
+      "community": 401,
       "norm_label": "create_script()"
     },
     {
@@ -54210,7 +54220,7 @@
       "source_location": "L1060",
       "_origin": "ast",
       "id": "scripts_unity_skills_parse_cli_value",
-      "community": 380,
+      "community": 190,
       "norm_label": "_parse_cli_value()"
     },
     {
@@ -54220,7 +54230,7 @@
       "source_location": "L1081",
       "_origin": "ast",
       "id": "scripts_unity_skills_main",
-      "community": 380,
+      "community": 190,
       "norm_label": "main()"
     },
     {
@@ -54240,7 +54250,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_118",
-      "community": 192,
+      "community": 292,
       "norm_label": "client for interacting with a specific unity editor instance."
     },
     {
@@ -54310,7 +54320,7 @@
       "source_location": "L381",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_381",
-      "community": 192,
+      "community": 292,
       "norm_label": "read a job snapshot via get /jobs/{id} (lightweight, bypasses skill router)."
     },
     {
@@ -54320,7 +54330,7 @@
       "source_location": "L389",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_389",
-      "community": 192,
+      "community": 292,
       "norm_label": "list recent jobs via get /jobs."
     },
     {
@@ -54330,7 +54340,7 @@
       "source_location": "L397",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_397",
-      "community": 192,
+      "community": 292,
       "norm_label": "read fine-grained progress events via get /jobs/{id}/progress?offset=n."
     },
     {
@@ -54340,7 +54350,7 @@
       "source_location": "L406",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_406",
-      "community": 192,
+      "community": 402,
       "norm_label": "poll get /jobs/{id} until the job reaches a terminal state or timeout elapses."
     },
     {
@@ -54380,7 +54390,7 @@
       "source_location": "L469",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_469",
-      "community": 190,
+      "community": 292,
       "norm_label": "create a new unityskills client.     args:         port: connect to specific loc"
     },
     {
@@ -54390,7 +54400,7 @@
       "source_location": "L479",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_479",
-      "community": 190,
+      "community": 292,
       "norm_label": "set target unity version and reconfigure the default client.      this is the pr"
     },
     {
@@ -54400,7 +54410,7 @@
       "source_location": "L497",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_497",
-      "community": 292,
+      "community": 190,
       "norm_label": "return list of active unity instances from registry."
     },
     {
@@ -54410,7 +54420,7 @@
       "source_location": "L505",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_505",
-      "community": 190,
+      "community": 192,
       "norm_label": "validate a unity skill call without executing it."
     },
     {
@@ -54420,7 +54430,7 @@
       "source_location": "L510",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_510",
-      "community": 190,
+      "community": 226,
       "norm_label": "preview a unity skill call with generic/semantic planning details."
     },
     {
@@ -54440,7 +54450,7 @@
       "source_location": "L542",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_542",
-      "community": 226,
+      "community": 401,
       "norm_label": "call a unity skill. single-call auto-workflow is handled by the unity server."
     },
     {
@@ -54450,7 +54460,7 @@
       "source_location": "L547",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_547",
-      "community": 190,
+      "community": 192,
       "norm_label": "get status for an asynchronous unityskills job."
     },
     {
@@ -54480,7 +54490,7 @@
       "source_location": "L566",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_566",
-      "community": 192,
+      "community": 402,
       "norm_label": "lightweight get /jobs/{id} snapshot \u2014 preferred for high-frequency progress poll"
     },
     {
@@ -54490,7 +54500,7 @@
       "source_location": "L571",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_571",
-      "community": 190,
+      "community": 403,
       "norm_label": "list recent jobs via get /jobs."
     },
     {
@@ -54500,7 +54510,7 @@
       "source_location": "L576",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_576",
-      "community": 387,
+      "community": 190,
       "norm_label": "read fine-grained progress events via get /jobs/{id}/progress?offset=n."
     },
     {
@@ -54560,7 +54570,7 @@
       "source_location": "L729",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_729",
-      "community": 380,
+      "community": 190,
       "norm_label": "get list of available skills, optionally filtered by metadata.      args:"
     },
     {
@@ -54600,7 +54610,7 @@
       "source_location": "L822",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_822",
-      "community": 190,
+      "community": 226,
       "norm_label": "check if the current default unity server is running."
     },
     {
@@ -54620,7 +54630,7 @@
       "source_location": "L848",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_848",
-      "community": 190,
+      "community": 192,
       "norm_label": "get detailed health information from the current unity server."
     },
     {
@@ -54740,7 +54750,7 @@
       "source_location": "L1044",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_1044",
-      "community": 226,
+      "community": 401,
       "norm_label": "create a script and optionally wait for recompilation to settle."
     },
     {
@@ -54750,7 +54760,7 @@
       "source_location": "L1082",
       "_origin": "ast",
       "id": "scripts_unity_skills_rationale_1082",
-      "community": 380,
+      "community": 190,
       "norm_label": "command-line interface for unity skills."
     },
     {
@@ -91440,7 +91450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skill",
-      "community": 64,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -91450,7 +91460,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "skills_skill_unity_skills_module_index",
-      "community": 64,
+      "community": 390,
       "norm_label": "unity skills - module index"
     },
     {
@@ -91460,7 +91470,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_skill_modules",
-      "community": 64,
+      "community": 390,
       "norm_label": "modules"
     },
     {
@@ -91470,7 +91480,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "skills_skill_advisory_design_modules",
-      "community": 64,
+      "community": 390,
       "norm_label": "advisory design modules"
     },
     {
@@ -91480,7 +91490,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "skills_skill_batch_first_rule",
-      "community": 64,
+      "community": 390,
       "norm_label": "batch-first rule"
     },
     {
@@ -91490,7 +91500,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "skills_skill_skill_naming_convention",
-      "community": 64,
+      "community": 390,
       "norm_label": "skill naming convention"
     },
     {
@@ -92980,7 +92990,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "addressables_design_skill_addressables_design_rules",
-      "community": 349,
+      "community": 134,
       "norm_label": "addressables - design rules"
     },
     {
@@ -92990,7 +93000,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "addressables_design_skill_when_to_load_this_module",
-      "community": 349,
+      "community": 134,
       "norm_label": "when to load this module"
     },
     {
@@ -93000,7 +93010,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "addressables_design_skill_version_difference_matrix",
-      "community": 349,
+      "community": 134,
       "norm_label": "version difference matrix"
     },
     {
@@ -93010,7 +93020,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "addressables_design_skill_critical_rule_summary",
-      "community": 349,
+      "community": 134,
       "norm_label": "critical rule summary"
     },
     {
@@ -93020,7 +93030,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "addressables_design_skill_sub_doc_routing",
-      "community": 349,
+      "community": 134,
       "norm_label": "sub-doc routing"
     },
     {
@@ -93030,7 +93040,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "addressables_design_skill_routing_to_other_modules",
-      "community": 349,
+      "community": 134,
       "norm_label": "routing to other modules"
     },
     {
@@ -93040,7 +93050,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "addressables_design_skill_version_scope",
-      "community": 349,
+      "community": 134,
       "norm_label": "version scope"
     },
     {
@@ -93050,7 +93060,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "addressables_design_skill_migration_notes_hallucination_shield",
-      "community": 349,
+      "community": 134,
       "norm_label": "migration notes (hallucination shield)"
     },
     {
@@ -93230,7 +93240,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "adr_skill",
-      "community": 64,
+      "community": 369,
       "norm_label": "skill.md"
     },
     {
@@ -93240,7 +93250,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "adr_skill_unity_adr",
-      "community": 64,
+      "community": 369,
       "norm_label": "unity adr"
     },
     {
@@ -93250,7 +93260,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "adr_skill_output_format",
-      "community": 64,
+      "community": 369,
       "norm_label": "output format"
     },
     {
@@ -93260,7 +93270,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "adr_skill_example_use_cases",
-      "community": 64,
+      "community": 369,
       "norm_label": "example use cases"
     },
     {
@@ -93270,7 +93280,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "adr_skill_guardrails",
-      "community": 64,
+      "community": 369,
       "norm_label": "guardrails"
     },
     {
@@ -93580,7 +93590,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "asmdef_skill_unity_asmdef_advisor",
-      "community": 349,
+      "community": 380,
       "norm_label": "unity asmdef advisor"
     },
     {
@@ -93590,7 +93600,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "asmdef_skill_recommend_only_when_worth_it",
-      "community": 349,
+      "community": 380,
       "norm_label": "recommend only when worth it"
     },
     {
@@ -93600,7 +93610,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "asmdef_skill_output_format",
-      "community": 349,
+      "community": 380,
       "norm_label": "output format"
     },
     {
@@ -93610,7 +93620,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "asmdef_skill_default_guidance",
-      "community": 349,
+      "community": 380,
       "norm_label": "default guidance"
     },
     {
@@ -93620,7 +93630,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "asmdef_skill_guardrails",
-      "community": 349,
+      "community": 380,
       "norm_label": "guardrails"
     },
     {
@@ -93870,7 +93880,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "async_skill_unity_async_strategy",
-      "community": 349,
+      "community": 381,
       "norm_label": "unity async strategy"
     },
     {
@@ -93880,7 +93890,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "async_skill_guardrails",
-      "community": 349,
+      "community": 381,
       "norm_label": "guardrails"
     },
     {
@@ -93890,7 +93900,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "async_skill_decision_ladder",
-      "community": 349,
+      "community": 381,
       "norm_label": "decision ladder"
     },
     {
@@ -93900,7 +93910,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "async_skill_specific_guidance",
-      "community": 349,
+      "community": 381,
       "norm_label": "specific guidance"
     },
     {
@@ -93910,7 +93920,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "async_skill_output_format",
-      "community": 349,
+      "community": 381,
       "norm_label": "output format"
     },
     {
@@ -94190,7 +94200,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blueprints_skill",
-      "community": 64,
+      "community": 387,
       "norm_label": "skill.md"
     },
     {
@@ -94200,7 +94210,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "blueprints_skill_unity_gameplay_blueprints",
-      "community": 64,
+      "community": 387,
       "norm_label": "unity gameplay blueprints"
     },
     {
@@ -94210,7 +94220,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blueprints_skill_supported_blueprint_styles",
-      "community": 64,
+      "community": 387,
       "norm_label": "supported blueprint styles"
     },
     {
@@ -94220,7 +94230,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "blueprints_skill_output_format",
-      "community": 64,
+      "community": 387,
       "norm_label": "output format"
     },
     {
@@ -94230,7 +94240,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "blueprints_skill_guardrails",
-      "community": 64,
+      "community": 387,
       "norm_label": "guardrails"
     },
     {
@@ -98630,7 +98640,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "inspector_skill_unity_inspector_design",
-      "community": 349,
+      "community": 388,
       "norm_label": "unity inspector design"
     },
     {
@@ -98640,7 +98650,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "inspector_skill_guardrails",
-      "community": 349,
+      "community": 388,
       "norm_label": "guardrails"
     },
     {
@@ -98650,7 +98660,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "inspector_skill_default_rules",
-      "community": 349,
+      "community": 388,
       "norm_label": "default rules"
     },
     {
@@ -98660,7 +98670,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "inspector_skill_inspector_quality_checklist",
-      "community": 349,
+      "community": 388,
       "norm_label": "inspector quality checklist"
     },
     {
@@ -98670,7 +98680,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "inspector_skill_output_format",
-      "community": 349,
+      "community": 388,
       "norm_label": "output format"
     },
     {
@@ -100010,7 +100020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_rpc",
-      "community": 405,
+      "community": 222,
       "norm_label": "rpc.md"
     },
     {
@@ -101560,7 +101570,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "patterns_skill",
-      "community": 367,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -101870,7 +101880,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "performance_skill_unity_performance_red_flags",
-      "community": 349,
+      "community": 368,
       "norm_label": "unity performance red flags"
     },
     {
@@ -101880,7 +101890,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "performance_skill_check_for",
-      "community": 349,
+      "community": 368,
       "norm_label": "check for"
     },
     {
@@ -101890,7 +101900,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "performance_skill_hidden_costs_possibility_actuality",
-      "community": 349,
+      "community": 368,
       "norm_label": "hidden costs: possibility = actuality"
     },
     {
@@ -101900,7 +101910,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "performance_skill_write_permission_costs_even_without_writing",
-      "community": 349,
+      "community": 368,
       "norm_label": "write permission costs, even without writing"
     },
     {
@@ -101910,7 +101920,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "performance_skill_sequential_seeds_produce_correlated_random_streams",
-      "community": 349,
+      "community": 368,
       "norm_label": "sequential seeds produce correlated random streams"
     },
     {
@@ -101920,7 +101930,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "performance_skill_logging_fires_in_release_builds_by_default",
-      "community": 349,
+      "community": 368,
       "norm_label": "logging fires in release builds by default"
     },
     {
@@ -101930,7 +101940,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "performance_skill_output_format",
-      "community": 349,
+      "community": 368,
       "norm_label": "output format"
     },
     {
@@ -101940,7 +101950,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "performance_skill_guardrails",
-      "community": 349,
+      "community": 368,
       "norm_label": "guardrails"
     },
     {
@@ -103270,7 +103280,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 64,
+      "community": 389,
       "norm_label": "skill.md"
     },
     {
@@ -103280,7 +103290,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 64,
+      "community": 389,
       "norm_label": "unity scene contracts"
     },
     {
@@ -103290,7 +103300,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 64,
+      "community": 389,
       "norm_label": "define"
     },
     {
@@ -103300,7 +103310,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 64,
+      "community": 389,
       "norm_label": "output format"
     },
     {
@@ -103310,7 +103320,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 64,
+      "community": 389,
       "norm_label": "guardrails"
     },
     {
@@ -103930,7 +103940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scriptdesign_skill",
-      "community": 171,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -104210,7 +104220,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_nodes",
-      "community": 64,
+      "community": 339,
       "norm_label": "nodes.md"
     },
     {
@@ -104220,7 +104230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_supported_nodes",
-      "community": 64,
+      "community": 339,
       "norm_label": "supported nodes"
     },
     {
@@ -104230,7 +104240,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_editable_subset",
-      "community": 64,
+      "community": 339,
       "norm_label": "editable subset"
     },
     {
@@ -104240,7 +104250,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_whitelisted_settings",
-      "community": 64,
+      "community": 339,
       "norm_label": "whitelisted settings"
     },
     {
@@ -104250,7 +104260,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_design_reading_of_the_subset",
-      "community": 64,
+      "community": 339,
       "norm_label": "design reading of the subset"
     },
     {
@@ -104260,7 +104270,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_what_not_to_recommend_as_editable_today",
-      "community": 64,
+      "community": 339,
       "norm_label": "what not to recommend as editable today"
     },
     {
@@ -104390,7 +104400,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_recipes",
-      "community": 330,
+      "community": 339,
       "norm_label": "recipes.md"
     },
     {
@@ -104400,7 +104410,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_recipes",
-      "community": 330,
+      "community": 339,
       "norm_label": "recipes"
     },
     {
@@ -104410,7 +104420,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_1_basecolor_texture_sample_chain",
-      "community": 330,
+      "community": 339,
       "norm_label": "1. basecolor texture sample chain"
     },
     {
@@ -104420,7 +104430,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_2_normal_map_decode_chain",
-      "community": 330,
+      "community": 339,
       "norm_label": "2. normal map decode chain"
     },
     {
@@ -104430,7 +104440,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_3_masked_lerp_blend",
-      "community": 330,
+      "community": 339,
       "norm_label": "3. masked lerp blend"
     },
     {
@@ -104440,7 +104450,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_4_uv_tiling_offset_chain",
-      "community": 330,
+      "community": 339,
       "norm_label": "4. uv tiling/offset chain"
     },
     {
@@ -104450,7 +104460,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_5_constant_driven_color_intensity",
-      "community": 330,
+      "community": 339,
       "norm_label": "5. constant-driven color/intensity"
     },
     {
@@ -104460,7 +104470,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_6_viewdirection_edge_fresnel_style_base_chain",
-      "community": 330,
+      "community": 339,
       "norm_label": "6. viewdirection edge / fresnel-style base chain"
     },
     {
@@ -104470,7 +104480,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_7_branch_toggle_chain",
-      "community": 330,
+      "community": 339,
       "norm_label": "7. branch toggle chain"
     },
     {
@@ -104480,7 +104490,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review",
-      "community": 381,
+      "community": 339,
       "norm_label": "review.md"
     },
     {
@@ -104490,7 +104500,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review_review_checklist",
-      "community": 381,
+      "community": 339,
       "norm_label": "review checklist"
     },
     {
@@ -104500,7 +104510,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_review_topology",
-      "community": 381,
+      "community": 339,
       "norm_label": "topology"
     },
     {
@@ -104510,7 +104520,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "shadergraph_design_review_blackboard",
-      "community": 381,
+      "community": 339,
       "norm_label": "blackboard"
     },
     {
@@ -104520,7 +104530,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "shadergraph_design_review_dataflow",
-      "community": 381,
+      "community": 339,
       "norm_label": "dataflow"
     },
     {
@@ -104530,7 +104540,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "shadergraph_design_review_cost_maintainability",
-      "community": 381,
+      "community": 339,
       "norm_label": "cost / maintainability"
     },
     {
@@ -104540,7 +104550,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "shadergraph_design_review_version_safety",
-      "community": 381,
+      "community": 339,
       "norm_label": "version safety"
     },
     {
@@ -104550,7 +104560,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "shadergraph_design_review_reject_the_plan_if",
-      "community": 381,
+      "community": 339,
       "norm_label": "reject the plan if"
     },
     {
@@ -104560,7 +104570,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_skill",
-      "community": 64,
+      "community": 339,
       "norm_label": "skill.md"
     },
     {
@@ -104570,7 +104580,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "shadergraph_design_skill_shadergraph_design_rules",
-      "community": 390,
+      "community": 339,
       "norm_label": "shadergraph - design rules"
     },
     {
@@ -104580,7 +104590,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "shadergraph_design_skill_source_scope",
-      "community": 390,
+      "community": 339,
       "norm_label": "source scope"
     },
     {
@@ -104590,7 +104600,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "shadergraph_design_skill_when_to_load",
-      "community": 390,
+      "community": 339,
       "norm_label": "when to load"
     },
     {
@@ -104600,7 +104610,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "shadergraph_design_skill_what_this_module_assumes",
-      "community": 390,
+      "community": 339,
       "norm_label": "what this module assumes"
     },
     {
@@ -104610,7 +104620,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "shadergraph_design_skill_sub_doc_routing",
-      "community": 390,
+      "community": 339,
       "norm_label": "sub-doc routing"
     },
     {
@@ -104620,7 +104630,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "shadergraph_design_skill_hard_rules",
-      "community": 390,
+      "community": 339,
       "norm_label": "hard rules"
     },
     {
@@ -104710,7 +104720,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_skill",
-      "community": 64,
+      "community": 339,
       "norm_label": "skill.md"
     },
     {
@@ -105540,7 +105550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "testability_skill",
-      "community": 64,
+      "community": 400,
       "norm_label": "skill.md"
     },
     {
@@ -105550,7 +105560,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "testability_skill_unity_testability_advisor",
-      "community": 64,
+      "community": 400,
       "norm_label": "unity testability advisor"
     },
     {
@@ -105560,7 +105570,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "testability_skill_review_questions",
-      "community": 64,
+      "community": 400,
       "norm_label": "review questions"
     },
     {
@@ -105570,7 +105580,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "testability_skill_output_format",
-      "community": 64,
+      "community": 400,
       "norm_label": "output format"
     },
     {
@@ -105580,7 +105590,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "testability_skill_guardrails",
-      "community": 64,
+      "community": 400,
       "norm_label": "guardrails"
     },
     {
@@ -106540,7 +106550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable",
-      "community": 369,
+      "community": 349,
       "norm_label": "asyncenumerable.md"
     },
     {
@@ -106550,7 +106560,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_unitask_asyncenumerable_reactive",
-      "community": 134,
+      "community": 206,
       "norm_label": "unitask asyncenumerable & reactive"
     },
     {
@@ -106560,7 +106570,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_iunitaskasyncenumerable_t",
-      "community": 134,
+      "community": 206,
       "norm_label": "`iunitaskasyncenumerable<t>`"
     },
     {
@@ -106570,7 +106580,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_unitaskasyncenumerable_the_factory_linq_surface",
-      "community": 134,
+      "community": 206,
       "norm_label": "`unitaskasyncenumerable` \u2014 the factory / linq surface"
     },
     {
@@ -106580,7 +106590,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_common_factories",
-      "community": 134,
+      "community": 206,
       "norm_label": "common factories"
     },
     {
@@ -106590,7 +106600,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_everyvaluechanged_the_big_one",
-      "community": 134,
+      "community": 206,
       "norm_label": "`everyvaluechanged` \u2014 the big one"
     },
     {
@@ -106600,7 +106610,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_linq_operators_partial_list",
-      "community": 134,
+      "community": 206,
       "norm_label": "linq operators (partial list)"
     },
     {
@@ -106610,7 +106620,7 @@
       "source_location": "L96",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_consumption_patterns",
-      "community": 134,
+      "community": 206,
       "norm_label": "consumption patterns"
     },
     {
@@ -106620,7 +106630,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_channel_t_producer_consumer_queue",
-      "community": 134,
+      "community": 206,
       "norm_label": "`channel<t>` \u2014 producer/consumer queue"
     },
     {
@@ -106630,7 +106640,7 @@
       "source_location": "L177",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_asyncreactiveproperty_t_reactive_value",
-      "community": 134,
+      "community": 206,
       "norm_label": "`asyncreactiveproperty<t>` \u2014 reactive value"
     },
     {
@@ -106640,7 +106650,7 @@
       "source_location": "L230",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_lifecycle_gotchas",
-      "community": 134,
+      "community": 206,
       "norm_label": "lifecycle gotchas"
     },
     {
@@ -106650,7 +106660,7 @@
       "source_location": "L232",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_1_forgot_withcancellation",
-      "community": 134,
+      "community": 206,
       "norm_label": "1. forgot `withcancellation`"
     },
     {
@@ -106660,7 +106670,7 @@
       "source_location": "L248",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_2_forgot_to_dispose_asyncreactiveproperty",
-      "community": 134,
+      "community": 206,
       "norm_label": "2. forgot to dispose `asyncreactiveproperty`"
     },
     {
@@ -106670,7 +106680,7 @@
       "source_location": "L252",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_3_subscribe_without_tracking_the_returned_idisposable",
-      "community": 134,
+      "community": 206,
       "norm_label": "3. `subscribe` without tracking the returned `idisposable`"
     },
     {
@@ -106680,7 +106690,7 @@
       "source_location": "L261",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_4_everyupdate_leaks_playerloop_registration",
-      "community": 134,
+      "community": 206,
       "norm_label": "4. `everyupdate` leaks playerloop registration"
     },
     {
@@ -106690,7 +106700,7 @@
       "source_location": "L272",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable_asyncenumerable_checklist",
-      "community": 134,
+      "community": 206,
       "norm_label": "asyncenumerable checklist"
     },
     {
@@ -106700,7 +106710,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_basics",
-      "community": 369,
+      "community": 349,
       "norm_label": "basics.md"
     },
     {
@@ -106810,7 +106820,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_cancellation",
-      "community": 369,
+      "community": 349,
       "norm_label": "cancellation.md"
     },
     {
@@ -106960,7 +106970,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_composition",
-      "community": 369,
+      "community": 349,
       "norm_label": "composition.md"
     },
     {
@@ -107090,7 +107100,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_conversion",
-      "community": 369,
+      "community": 349,
       "norm_label": "conversion.md"
     },
     {
@@ -107220,7 +107230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_pitfalls",
-      "community": 369,
+      "community": 349,
       "norm_label": "pitfalls.md"
     },
     {
@@ -107550,7 +107560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_playerloop",
-      "community": 369,
+      "community": 349,
       "norm_label": "playerloop.md"
     },
     {
@@ -107670,7 +107680,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_skill",
-      "community": 369,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -107740,7 +107750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_triggers",
-      "community": 369,
+      "community": 349,
       "norm_label": "triggers.md"
     },
     {
@@ -116077,9 +116087,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder"
     },
     {
       "relation": "references",
@@ -116088,9 +116098,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "target": "assets_editor_grasspackdetailprefabbuilder_cs_string",
-      "confidence_score": 1.0
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_string"
     },
     {
       "relation": "method",
@@ -116098,9 +116108,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build"
     },
     {
       "relation": "method",
@@ -116108,9 +116118,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant"
     },
     {
       "relation": "method",
@@ -116118,9 +116128,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters"
     },
     {
       "relation": "method",
@@ -116128,9 +116138,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh"
     },
     {
       "relation": "method",
@@ -116138,8 +116148,18 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_movepivottogroundcenter",
       "confidence_score": 1.0
     },
     {
@@ -116149,9 +116169,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
-      "target": "assets_editor_grasspackdetailprefabbuilder_cs_menuitem",
-      "confidence_score": 1.0
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_menuitem"
     },
     {
       "relation": "calls",
@@ -116160,9 +116180,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant"
     },
     {
       "relation": "references",
@@ -116171,9 +116191,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
-      "target": "assets_editor_grasspackdetailprefabbuilder_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_vector3"
     },
     {
       "relation": "calls",
@@ -116182,9 +116202,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters"
     },
     {
       "relation": "calls",
@@ -116193,9 +116213,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh"
     },
     {
       "relation": "calls",
@@ -116204,9 +116224,9 @@
       "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
-      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
-      "confidence_score": 1.0
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial"
     },
     {
       "relation": "references",
@@ -116215,9 +116235,9 @@
       "source_location": "L117",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
-      "target": "assets_editor_grasspackdetailprefabbuilder_cs_vector3",
-      "confidence_score": 1.0
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_vector3"
     },
     {
       "relation": "references",
@@ -116226,9 +116246,9 @@
       "source_location": "L82",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
-      "target": "assets_editor_grasspackdetailprefabbuilder_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_material"
     },
     {
       "relation": "references",
@@ -116237,9 +116257,9 @@
       "source_location": "L117",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
-      "target": "assets_editor_grasspackdetailprefabbuilder_cs_gameobject",
-      "confidence_score": 1.0
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_gameobject"
     },
     {
       "relation": "references",
@@ -116248,7 +116268,29 @@
       "source_location": "L117",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_mesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_movepivottogroundcenter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L162",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_movepivottogroundcenter",
       "target": "assets_editor_grasspackdetailprefabbuilder_cs_mesh",
       "confidence_score": 1.0
     },
@@ -292312,5 +292354,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ecfeb7198de52e9fd7b4fdc517f9b64ab9a54ef7"
+  "built_at_commit": "e07e52adfa51d60387518831a541fbd49c78aeae"
 }
