@@ -37,7 +37,7 @@ public static class Grass07DetailPrefabBuilder
             source,
             LargeMeshPath,
             "Grass07_DetailMesh_Large",
-            new Vector3(2.15f, 1.85f, 2.15f));
+            new Vector3(4.2f, 3.4f, 4.2f));
 
         BuildPrefab("Grass07_Detail", combinedMesh, material, PrefabPath);
         BuildPrefab("Grass07_Detail_Large", largeMesh, material, LargePrefabPath);
