@@ -67,7 +67,7 @@ public static class SwampRiverGenerator
         var treeCenter = new Vector2(-13.13f, 219.0f);
         const float waterY = 82.735f;
         const float mudY = 82.695f;
-        const float ringCenterRadius = 16.0f;
+        const float ringCenterRadius = 22.0f;
         const float waterHalfWidth = 3.7f;
         const float mudHalfWidth = 5.6f;
 
