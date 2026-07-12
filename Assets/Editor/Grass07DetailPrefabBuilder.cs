@@ -9,7 +9,9 @@ public static class Grass07DetailPrefabBuilder
     private const string NormalPath = "Assets/Art/Models/SwampApproach/Grass07/normal.tga";
     private const string MaterialPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_Detail.mat";
     private const string CombinedMeshPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_DetailMesh.asset";
+    private const string LargeMeshPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_DetailMesh_Large.asset";
     private const string PrefabPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_Detail.prefab";
+    private const string LargePrefabPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_Detail_Large.prefab";
 
     [MenuItem("Dungeon Knight 3D/Swamp/Build Grass07 Detail Prefab")]
     public static void Build()
@@ -24,29 +26,41 @@ public static class Grass07DetailPrefabBuilder
             return;
         }
 
-        Mesh combinedMesh = CreateOrUpdateCombinedMesh(source);
+        Mesh combinedMesh = CreateOrUpdateCombinedMesh(source, CombinedMeshPath, "Grass07_DetailMesh", Vector3.one);
         if (combinedMesh == null)
         {
             Debug.LogError($"Grass07 source model has no mesh filters at {SourceModelPath}");
             return;
         }
 
-        GameObject instance = new GameObject("Grass07_Detail");
+        Mesh largeMesh = CreateOrUpdateCombinedMesh(
+            source,
+            LargeMeshPath,
+            "Grass07_DetailMesh_Large",
+            new Vector3(2.15f, 1.85f, 2.15f));
+
+        BuildPrefab("Grass07_Detail", combinedMesh, material, PrefabPath);
+        BuildPrefab("Grass07_Detail_Large", largeMesh, material, LargePrefabPath);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+        Debug.Log($"Built Grass07 terrain detail prefabs at {PrefabPath} and {LargePrefabPath}");
+    }
+
+    private static void BuildPrefab(string name, Mesh mesh, Material material, string prefabPath)
+    {
+        GameObject instance = new GameObject(name);
         MeshFilter meshFilter = instance.AddComponent<MeshFilter>();
         MeshRenderer meshRenderer = instance.AddComponent<MeshRenderer>();
 
-        meshFilter.sharedMesh = combinedMesh;
+        meshFilter.sharedMesh = mesh;
         meshRenderer.sharedMaterial = material;
         meshRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         meshRenderer.receiveShadows = true;
 
-        Directory.CreateDirectory(Path.GetDirectoryName(PrefabPath));
-        PrefabUtility.SaveAsPrefabAsset(instance, PrefabPath);
+        Directory.CreateDirectory(Path.GetDirectoryName(prefabPath));
+        PrefabUtility.SaveAsPrefabAsset(instance, prefabPath);
         Object.DestroyImmediate(instance);
-
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-        Debug.Log($"Built Grass07 terrain detail prefab at {PrefabPath}");
     }
 
     private static void ConfigureTextureImporters()
@@ -103,7 +117,7 @@ public static class Grass07DetailPrefabBuilder
         return material;
     }
 
-    private static Mesh CreateOrUpdateCombinedMesh(GameObject source)
+    private static Mesh CreateOrUpdateCombinedMesh(GameObject source, string meshPath, string meshName, Vector3 scale)
     {
         GameObject sourceInstance = Object.Instantiate(source);
         sourceInstance.transform.position = Vector3.zero;
@@ -123,13 +137,13 @@ public static class Grass07DetailPrefabBuilder
             combines[i] = new CombineInstance
             {
                 mesh = meshFilters[i].sharedMesh,
-                transform = meshFilters[i].transform.localToWorldMatrix
+                transform = Matrix4x4.Scale(scale) * meshFilters[i].transform.localToWorldMatrix
             };
         }
 
         Mesh combined = new Mesh
         {
-            name = "Grass07_DetailMesh"
+            name = meshName
         };
         combined.CombineMeshes(combines, true, true, false);
         combined.RecalculateBounds();
@@ -137,10 +151,10 @@ public static class Grass07DetailPrefabBuilder
 
         Object.DestroyImmediate(sourceInstance);
 
-        Mesh existing = AssetDatabase.LoadAssetAtPath<Mesh>(CombinedMeshPath);
+        Mesh existing = AssetDatabase.LoadAssetAtPath<Mesh>(meshPath);
         if (existing == null)
         {
-            AssetDatabase.CreateAsset(combined, CombinedMeshPath);
+            AssetDatabase.CreateAsset(combined, meshPath);
             return combined;
         }
 
