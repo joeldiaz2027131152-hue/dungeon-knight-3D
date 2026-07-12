@@ -64,21 +64,21 @@ public static class SwampRiverGenerator
         var mudTriangles = new List<int>();
         var waterTriangles = new List<int>();
 
-        var loopBackJoin = new Vector2(-25.0f, 190.0f);
-        var loopFrontJoin = new Vector2(12.0f, 254.0f);
+        var loopBackJoin = new Vector2(-23.0f, 202.0f);
+        var loopFrontJoin = new Vector2(0.0f, 241.0f);
         var markedLoop = BuildClosedCatmullRom(new[]
         {
-            new Vector2(-35.0f, 204.0f),
+            new Vector2(-29.0f, 212.0f),
             loopBackJoin,
-            new Vector2(-8.0f, 184.0f),
-            new Vector2(15.0f, 187.0f),
-            new Vector2(28.0f, 202.0f),
-            new Vector2(31.0f, 221.0f),
-            new Vector2(22.0f, 241.0f),
+            new Vector2(-13.0f, 197.0f),
+            new Vector2(0.0f, 201.0f),
+            new Vector2(8.0f, 212.0f),
+            new Vector2(8.0f, 224.0f),
+            new Vector2(3.0f, 235.0f),
             loopFrontJoin,
-            new Vector2(-10.0f, 258.0f),
-            new Vector2(-29.0f, 248.0f),
-            new Vector2(-38.0f, 226.0f)
+            new Vector2(-12.0f, 245.0f),
+            new Vector2(-25.0f, 238.0f),
+            new Vector2(-31.0f, 225.0f)
         }, 8);
         const float waterY = 82.735f;
         const float mudY = 82.695f;
@@ -86,22 +86,22 @@ public static class SwampRiverGenerator
         const float loopMudY = 82.72f;
         const float waterHalfWidth = 3.7f;
         const float mudHalfWidth = 5.6f;
-        const float loopWaterHalfWidth = 4.4f;
-        const float loopMudHalfWidth = 6.3f;
+        const float loopWaterHalfWidth = 3.2f;
+        const float loopMudHalfWidth = 4.8f;
 
         AddRibbon(
-            BuildBezier(new Vector2(5.0f, 122.0f), new Vector2(6.0f, 145.0f), new Vector2(-18.0f, 170.0f), loopBackJoin, 22),
+            BuildBezier(new Vector2(5.0f, 122.0f), new Vector2(5.0f, 153.0f), new Vector2(-18.0f, 181.0f), loopBackJoin, 22),
             mudHalfWidth, mudY, vertices, uvs, mudTriangles);
         AddRibbon(
-            BuildBezier(loopFrontJoin, new Vector2(12.0f, 276.0f), new Vector2(8.0f, 303.0f), new Vector2(3.0f, 328.0f), 28),
+            BuildBezier(loopFrontJoin, new Vector2(6.0f, 267.0f), new Vector2(7.0f, 298.0f), new Vector2(3.0f, 328.0f), 28),
             mudHalfWidth, mudY, vertices, uvs, mudTriangles);
         AddRibbon(markedLoop, loopMudHalfWidth, loopMudY, vertices, uvs, mudTriangles);
 
         AddRibbon(
-            BuildBezier(new Vector2(5.0f, 122.0f), new Vector2(6.0f, 145.0f), new Vector2(-18.0f, 170.0f), loopBackJoin, 22),
+            BuildBezier(new Vector2(5.0f, 122.0f), new Vector2(5.0f, 153.0f), new Vector2(-18.0f, 181.0f), loopBackJoin, 22),
             waterHalfWidth, waterY, vertices, uvs, waterTriangles);
         AddRibbon(
-            BuildBezier(loopFrontJoin, new Vector2(12.0f, 276.0f), new Vector2(8.0f, 303.0f), new Vector2(3.0f, 328.0f), 28),
+            BuildBezier(loopFrontJoin, new Vector2(6.0f, 267.0f), new Vector2(7.0f, 298.0f), new Vector2(3.0f, 328.0f), 28),
             waterHalfWidth, waterY, vertices, uvs, waterTriangles);
         AddRibbon(markedLoop, loopWaterHalfWidth, loopWaterY, vertices, uvs, waterTriangles);
 
