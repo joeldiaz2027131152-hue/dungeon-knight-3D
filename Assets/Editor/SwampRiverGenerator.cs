@@ -64,32 +64,46 @@ public static class SwampRiverGenerator
         var mudTriangles = new List<int>();
         var waterTriangles = new List<int>();
 
-        var treeCenter = new Vector2(-13.13f, 219.0f);
+        var loopBackJoin = new Vector2(-43.0f, 188.0f);
+        var loopFrontJoin = new Vector2(18.0f, 263.0f);
+        var markedLoop = BuildClosedCatmullRom(new[]
+        {
+            new Vector2(-67.0f, 201.0f),
+            loopBackJoin,
+            new Vector2(-10.0f, 180.0f),
+            new Vector2(24.0f, 181.0f),
+            new Vector2(50.0f, 196.0f),
+            new Vector2(59.0f, 221.0f),
+            new Vector2(48.0f, 246.0f),
+            loopFrontJoin,
+            new Vector2(-20.0f, 264.0f),
+            new Vector2(-53.0f, 250.0f),
+            new Vector2(-75.0f, 225.0f)
+        }, 8);
         const float waterY = 82.735f;
         const float mudY = 82.695f;
-        const float ringWaterY = 83.05f;
-        const float ringMudY = 82.98f;
-        const float ringCenterRadius = 29.0f;
+        const float loopWaterY = 83.07f;
+        const float loopMudY = 83.0f;
         const float waterHalfWidth = 3.7f;
         const float mudHalfWidth = 5.6f;
-        const float ringWaterHalfWidth = 8.0f;
-        const float ringMudHalfWidth = 10.5f;
+        const float loopWaterHalfWidth = 6.2f;
+        const float loopMudHalfWidth = 8.7f;
 
         AddRibbon(
-            BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(10.0f, 142.0f), new Vector2(-21.0f, 170.0f), treeCenter + new Vector2(0.0f, -ringCenterRadius), 22),
+            BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(6.0f, 139.0f), new Vector2(-22.0f, 168.0f), loopBackJoin, 22),
             mudHalfWidth, mudY, vertices, uvs, mudTriangles);
         AddRibbon(
-            BuildBezier(treeCenter + new Vector2(0.0f, ringCenterRadius), new Vector2(-20.0f, 266.0f), new Vector2(8.0f, 344.0f), new Vector2(3.0f, 430.0f), 34),
+            BuildBezier(loopFrontJoin, new Vector2(12.0f, 285.0f), new Vector2(8.0f, 344.0f), new Vector2(3.0f, 430.0f), 34),
             mudHalfWidth, mudY, vertices, uvs, mudTriangles);
-        AddRing(treeCenter, ringCenterRadius, ringMudHalfWidth, ringMudY, 112, vertices, uvs, mudTriangles);
+        AddRibbon(markedLoop, loopMudHalfWidth, loopMudY, vertices, uvs, mudTriangles);
 
         AddRibbon(
-            BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(10.0f, 142.0f), new Vector2(-21.0f, 170.0f), treeCenter + new Vector2(0.0f, -ringCenterRadius), 22),
+            BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(6.0f, 139.0f), new Vector2(-22.0f, 168.0f), loopBackJoin, 22),
             waterHalfWidth, waterY, vertices, uvs, waterTriangles);
         AddRibbon(
-            BuildBezier(treeCenter + new Vector2(0.0f, ringCenterRadius), new Vector2(-20.0f, 266.0f), new Vector2(8.0f, 344.0f), new Vector2(3.0f, 430.0f), 34),
+            BuildBezier(loopFrontJoin, new Vector2(12.0f, 285.0f), new Vector2(8.0f, 344.0f), new Vector2(3.0f, 430.0f), 34),
             waterHalfWidth, waterY, vertices, uvs, waterTriangles);
-        AddRing(treeCenter, ringCenterRadius, ringWaterHalfWidth, ringWaterY, 112, vertices, uvs, waterTriangles);
+        AddRibbon(markedLoop, loopWaterHalfWidth, loopWaterY, vertices, uvs, waterTriangles);
 
         var mesh = new Mesh
         {
@@ -121,6 +135,33 @@ public static class SwampRiverGenerator
         return points;
     }
 
+    private static List<Vector2> BuildClosedCatmullRom(Vector2[] controlPoints, int stepsPerSegment)
+    {
+        var points = new List<Vector2>(controlPoints.Length * stepsPerSegment + 1);
+        for (var i = 0; i < controlPoints.Length; i++)
+        {
+            var p0 = controlPoints[(i - 1 + controlPoints.Length) % controlPoints.Length];
+            var p1 = controlPoints[i];
+            var p2 = controlPoints[(i + 1) % controlPoints.Length];
+            var p3 = controlPoints[(i + 2) % controlPoints.Length];
+
+            for (var step = 0; step < stepsPerSegment; step++)
+            {
+                var t = step / (float)stepsPerSegment;
+                var t2 = t * t;
+                var t3 = t2 * t;
+                points.Add(0.5f * (
+                    2.0f * p1 +
+                    (-p0 + p2) * t +
+                    (2.0f * p0 - 5.0f * p1 + 4.0f * p2 - p3) * t2 +
+                    (-p0 + 3.0f * p1 - 3.0f * p2 + p3) * t3));
+            }
+        }
+
+        points.Add(points[0]);
+        return points;
+    }
+
     private static void AddRibbon(List<Vector2> points, float halfWidth, float y, List<Vector3> vertices, List<Vector2> uvs, List<int> triangles)
     {
         var start = vertices.Count;
@@ -143,38 +184,6 @@ public static class SwampRiverGenerator
         }
 
         for (var i = 0; i < points.Count - 1; i++)
-        {
-            var a = start + i * 2;
-            var b = a + 1;
-            var c = a + 2;
-            var d = a + 3;
-            triangles.Add(a);
-            triangles.Add(c);
-            triangles.Add(b);
-            triangles.Add(c);
-            triangles.Add(d);
-            triangles.Add(b);
-        }
-    }
-
-    private static void AddRing(Vector2 center, float radius, float halfWidth, float y, int segments, List<Vector3> vertices, List<Vector2> uvs, List<int> triangles)
-    {
-        var start = vertices.Count;
-        var inner = radius - halfWidth;
-        var outer = radius + halfWidth;
-        for (var i = 0; i <= segments; i++)
-        {
-            var angle = Mathf.PI * 2.0f * i / segments;
-            var dir = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
-            var outerPoint = center + dir * outer;
-            var innerPoint = center + dir * inner;
-            vertices.Add(new Vector3(outerPoint.x, y, outerPoint.y));
-            vertices.Add(new Vector3(innerPoint.x, y, innerPoint.y));
-            uvs.Add(new Vector2(0.0f, i / 8.0f));
-            uvs.Add(new Vector2(1.0f, i / 8.0f));
-        }
-
-        for (var i = 0; i < segments; i++)
         {
             var a = start + i * 2;
             var b = a + 1;

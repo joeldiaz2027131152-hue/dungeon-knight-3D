@@ -1727,7 +1727,7 @@
       "label": ".BuildBezier()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L108",
+      "source_location": "L122",
       "_origin": "ast",
       "id": "editor_swamprivergenerator_swamprivergenerator_buildbezier",
       "community": 338,
@@ -1737,7 +1737,7 @@
       "label": "Vector2",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L108",
+      "source_location": "L122",
       "_origin": "ast",
       "id": "assets_editor_swamprivergenerator_cs_vector2",
       "community": 338,
@@ -1747,17 +1747,27 @@
       "label": "List",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L108",
+      "source_location": "L122",
       "_origin": "ast",
       "id": "assets_editor_swamprivergenerator_cs_list",
       "community": 338,
       "norm_label": "list"
     },
     {
+      "label": ".BuildClosedCatmullRom()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/SwampRiverGenerator.cs",
+      "source_location": "L138",
+      "_origin": "ast",
+      "id": "editor_swamprivergenerator_swamprivergenerator_buildclosedcatmullrom",
+      "community": 338,
+      "norm_label": ".buildclosedcatmullrom()"
+    },
+    {
       "label": ".AddRibbon()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L124",
+      "source_location": "L165",
       "_origin": "ast",
       "id": "editor_swamprivergenerator_swamprivergenerator_addribbon",
       "community": 338,
@@ -1767,27 +1777,17 @@
       "label": "Vector3",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L124",
+      "source_location": "L165",
       "_origin": "ast",
       "id": "assets_editor_swamprivergenerator_cs_vector3",
       "community": 338,
       "norm_label": "vector3"
     },
     {
-      "label": ".AddRing()",
-      "file_type": "code",
-      "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L160",
-      "_origin": "ast",
-      "id": "editor_swamprivergenerator_swamprivergenerator_addring",
-      "community": 338,
-      "norm_label": ".addring()"
-    },
-    {
       "label": ".GetTangent()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L192",
+      "source_location": "L201",
       "_origin": "ast",
       "id": "editor_swamprivergenerator_swamprivergenerator_gettangent",
       "community": 338,
@@ -1797,7 +1797,7 @@
       "label": ".DeleteIfFound()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L207",
+      "source_location": "L216",
       "_origin": "ast",
       "id": "editor_swamprivergenerator_swamprivergenerator_deleteiffound",
       "community": 338,
@@ -1807,7 +1807,7 @@
       "label": ".EnsureFolder()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L218",
+      "source_location": "L227",
       "_origin": "ast",
       "id": "editor_swamprivergenerator_swamprivergenerator_ensurefolder",
       "community": 338,
@@ -12150,7 +12150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "level_flickersprite",
-      "community": 44,
+      "community": 61,
       "norm_label": "flickersprite.cs"
     },
     {
@@ -12160,7 +12160,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "level_flickersprite_dungeonknight_level",
-      "community": 44,
+      "community": 61,
       "norm_label": "dungeonknight.level"
     },
     {
@@ -12170,7 +12170,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "level_flickersprite_flickersprite",
-      "community": 44,
+      "community": 61,
       "norm_label": "flickersprite"
     },
     {
@@ -12180,7 +12180,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_float",
-      "community": 44,
+      "community": 61,
       "norm_label": "float"
     },
     {
@@ -12190,7 +12190,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_spriterenderer",
-      "community": 44,
+      "community": 61,
       "norm_label": "spriterenderer"
     },
     {
@@ -12200,7 +12200,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_color",
-      "community": 44,
+      "community": 61,
       "norm_label": "color"
     },
     {
@@ -12210,7 +12210,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "assets_scripts_level_flickersprite_cs_vector3",
-      "community": 44,
+      "community": 61,
       "norm_label": "vector3"
     },
     {
@@ -12220,7 +12220,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "level_flickersprite_flickersprite_awake",
-      "community": 44,
+      "community": 61,
       "norm_label": ".awake()"
     },
     {
@@ -12230,7 +12230,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "level_flickersprite_flickersprite_update",
-      "community": 44,
+      "community": 61,
       "norm_label": ".update()"
     },
     {
@@ -15230,7 +15230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_coindropper",
-      "community": 364,
+      "community": 44,
       "norm_label": "coindropper.cs"
     },
     {
@@ -15240,7 +15240,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_coindropper_dungeonknight_loot",
-      "community": 364,
+      "community": 44,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15250,7 +15250,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper",
-      "community": 364,
+      "community": 44,
       "norm_label": "coindropper"
     },
     {
@@ -15260,7 +15260,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_int",
-      "community": 364,
+      "community": 44,
       "norm_label": "int"
     },
     {
@@ -15270,7 +15270,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_configure",
-      "community": 364,
+      "community": 44,
       "norm_label": ".configure()"
     },
     {
@@ -15280,7 +15280,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_awake",
-      "community": 364,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -15290,7 +15290,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_ondied",
-      "community": 364,
+      "community": 44,
       "norm_label": ".ondied()"
     },
     {
@@ -15300,7 +15300,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_health",
-      "community": 364,
+      "community": 44,
       "norm_label": "health"
     },
     {
@@ -18890,7 +18890,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "equipmentlistmode",
-      "community": 61,
+      "community": 52,
       "norm_label": "equipmentlistmode"
     },
     {
@@ -18940,7 +18940,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "image",
-      "community": 58,
+      "community": 52,
       "norm_label": "image"
     },
     {
@@ -18950,7 +18950,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_transform",
-      "community": 58,
+      "community": 52,
       "norm_label": "transform"
     },
     {
@@ -18990,7 +18990,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_awake",
-      "community": 58,
+      "community": 52,
       "norm_label": ".awake()"
     },
     {
@@ -19010,7 +19010,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ongui",
-      "community": 61,
+      "community": 52,
       "norm_label": ".ongui()"
     },
     {
@@ -19040,7 +19040,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureoverlaycanvas",
-      "community": 58,
+      "community": 52,
       "norm_label": ".ensureoverlaycanvas()"
     },
     {
@@ -19080,7 +19080,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 58,
+      "community": 52,
       "norm_label": "textanchor"
     },
     {
@@ -19090,7 +19090,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 58,
+      "community": 52,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -19100,7 +19100,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 58,
+      "community": 52,
       "norm_label": "meshrenderer"
     },
     {
@@ -19120,7 +19120,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_color",
-      "community": 58,
+      "community": 52,
       "norm_label": "color"
     },
     {
@@ -19200,7 +19200,7 @@
       "source_location": "L405",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateoverlaycanvas",
-      "community": 58,
+      "community": 52,
       "norm_label": ".updateoverlaycanvas()"
     },
     {
@@ -19210,7 +19210,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createbar",
-      "community": 58,
+      "community": 52,
       "norm_label": ".createbar()"
     },
     {
@@ -19220,7 +19220,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector2",
-      "community": 58,
+      "community": 52,
       "norm_label": "vector2"
     },
     {
@@ -19230,7 +19230,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createtext",
-      "community": 58,
+      "community": 52,
       "norm_label": ".createtext()"
     },
     {
@@ -19240,7 +19240,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "font",
-      "community": 58,
+      "community": 52,
       "norm_label": "font"
     },
     {
@@ -19250,7 +19250,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "fontstyle",
-      "community": 58,
+      "community": 52,
       "norm_label": "fontstyle"
     },
     {
@@ -19260,7 +19260,7 @@
       "source_location": "L474",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createpanel",
-      "community": 58,
+      "community": 52,
       "norm_label": ".createpanel()"
     },
     {
@@ -19270,7 +19270,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_setrect",
-      "community": 58,
+      "community": 52,
       "norm_label": ".setrect()"
     },
     {
@@ -19280,7 +19280,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_recttransform",
-      "community": 58,
+      "community": 52,
       "norm_label": "recttransform"
     },
     {
@@ -19290,7 +19290,7 @@
       "source_location": "L493",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawequipmentquickview",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawequipmentquickview()"
     },
     {
@@ -19300,7 +19300,7 @@
       "source_location": "L503",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawinventorypanel",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawinventorypanel()"
     },
     {
@@ -19310,7 +19310,7 @@
       "source_location": "L553",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawequippedcard",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawequippedcard()"
     },
     {
@@ -19320,7 +19320,7 @@
       "source_location": "L553",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_rect",
-      "community": 61,
+      "community": 52,
       "norm_label": "rect"
     },
     {
@@ -19330,7 +19330,7 @@
       "source_location": "L553",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_equipmentitem",
-      "community": 61,
+      "community": 52,
       "norm_label": "equipmentitem"
     },
     {
@@ -19340,7 +19340,7 @@
       "source_location": "L563",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawinventoryslot",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawinventoryslot()"
     },
     {
@@ -19350,7 +19350,7 @@
       "source_location": "L588",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawequipmenticon",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawequipmenticon()"
     },
     {
@@ -19360,7 +19360,7 @@
       "source_location": "L608",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawitemdetails",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawitemdetails()"
     },
     {
@@ -19370,7 +19370,7 @@
       "source_location": "L625",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_itemstats",
-      "community": 61,
+      "community": 52,
       "norm_label": ".itemstats()"
     },
     {
@@ -19380,7 +19380,7 @@
       "source_location": "L632",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_itemtypelabel",
-      "community": 61,
+      "community": 52,
       "norm_label": ".itemtypelabel()"
     },
     {
@@ -19390,7 +19390,7 @@
       "source_location": "L639",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_shortname",
-      "community": 61,
+      "community": 52,
       "norm_label": ".shortname()"
     },
     {
@@ -19400,7 +19400,7 @@
       "source_location": "L646",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawmessageicon",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawmessageicon()"
     },
     {
@@ -19410,7 +19410,7 @@
       "source_location": "L646",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_hudmessageicon",
-      "community": 61,
+      "community": 52,
       "norm_label": "hudmessageicon"
     },
     {
@@ -19420,7 +19420,7 @@
       "source_location": "L676",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawbar",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawbar()"
     },
     {
@@ -19430,7 +19430,7 @@
       "source_location": "L689",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_drawbox",
-      "community": 61,
+      "community": 52,
       "norm_label": ".drawbox()"
     },
     {
@@ -39400,7 +39400,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsauditlog",
-      "community": 202,
+      "community": 201,
       "norm_label": "skillsauditlog.cs"
     },
     {
@@ -39410,7 +39410,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsauditlog_unityskills",
-      "community": 202,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -50880,7 +50880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "core_skilldocumentationconsistencytests",
-      "community": 175,
+      "community": 58,
       "norm_label": "skilldocumentationconsistencytests.cs"
     },
     {
@@ -50890,7 +50890,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "core_skilldocumentationconsistencytests_unityskills_tests_core",
-      "community": 175,
+      "community": 58,
       "norm_label": "unityskills.tests.core"
     },
     {
@@ -51220,7 +51220,7 @@
       "source_location": "L636",
       "_origin": "ast",
       "id": "core_skilldocumentationconsistencytests_codeskill",
-      "community": 175,
+      "community": 58,
       "norm_label": "codeskill"
     },
     {
@@ -51230,7 +51230,7 @@
       "source_location": "L638",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_tests_editor_core_skilldocumentationconsistencytests_cs_string",
-      "community": 175,
+      "community": 58,
       "norm_label": "string"
     },
     {
@@ -51240,7 +51240,7 @@
       "source_location": "L639",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_tests_editor_core_skilldocumentationconsistencytests_cs_methodinfo",
-      "community": 175,
+      "community": 58,
       "norm_label": "methodinfo"
     },
     {
@@ -51250,7 +51250,7 @@
       "source_location": "L640",
       "_origin": "ast",
       "id": "unityskillattribute",
-      "community": 175,
+      "community": 58,
       "norm_label": "unityskillattribute"
     },
     {
@@ -51260,7 +51260,7 @@
       "source_location": "L644",
       "_origin": "ast",
       "id": "core_skilldocumentationconsistencytests_docskill",
-      "community": 175,
+      "community": 58,
       "norm_label": "docskill"
     },
     {
@@ -51270,7 +51270,7 @@
       "source_location": "L652",
       "_origin": "ast",
       "id": "core_skilldocumentationconsistencytests_codeparameter",
-      "community": 175,
+      "community": 58,
       "norm_label": "codeparameter"
     },
     {
@@ -51280,7 +51280,7 @@
       "source_location": "L656",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_tests_editor_core_skilldocumentationconsistencytests_cs_bool",
-      "community": 175,
+      "community": 58,
       "norm_label": "bool"
     },
     {
@@ -51290,7 +51290,7 @@
       "source_location": "L659",
       "_origin": "ast",
       "id": "core_skilldocumentationconsistencytests_docparameter",
-      "community": 175,
+      "community": 58,
       "norm_label": "docparameter"
     },
     {
@@ -92070,7 +92070,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "asmdef_skill_unity_asmdef_advisor",
-      "community": 357,
+      "community": 349,
       "norm_label": "unity asmdef advisor"
     },
     {
@@ -92080,7 +92080,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "asmdef_skill_recommend_only_when_worth_it",
-      "community": 357,
+      "community": 349,
       "norm_label": "recommend only when worth it"
     },
     {
@@ -92090,7 +92090,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "asmdef_skill_output_format",
-      "community": 357,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -92100,7 +92100,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "asmdef_skill_default_guidance",
-      "community": 357,
+      "community": 349,
       "norm_label": "default guidance"
     },
     {
@@ -92110,7 +92110,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "asmdef_skill_guardrails",
-      "community": 357,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -92680,7 +92680,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blueprints_skill",
-      "community": 357,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -92690,7 +92690,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "blueprints_skill_unity_gameplay_blueprints",
-      "community": 357,
+      "community": 349,
       "norm_label": "unity gameplay blueprints"
     },
     {
@@ -92700,7 +92700,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blueprints_skill_supported_blueprint_styles",
-      "community": 357,
+      "community": 349,
       "norm_label": "supported blueprint styles"
     },
     {
@@ -92710,7 +92710,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "blueprints_skill_output_format",
-      "community": 357,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -92720,7 +92720,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "blueprints_skill_guardrails",
-      "community": 357,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -99180,7 +99180,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_transport",
-      "community": 306,
+      "community": 234,
       "norm_label": "transport.md"
     },
     {
@@ -101430,7 +101430,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "project_scout_skill",
-      "community": 349,
+      "community": 364,
       "norm_label": "skill.md"
     },
     {
@@ -101440,7 +101440,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "project_scout_skill_unity_project_scout",
-      "community": 349,
+      "community": 364,
       "norm_label": "unity project scout"
     },
     {
@@ -101450,7 +101450,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "project_scout_skill_inspect_first",
-      "community": 349,
+      "community": 364,
       "norm_label": "inspect first"
     },
     {
@@ -101460,7 +101460,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "project_scout_skill_suggested_tools_inputs",
-      "community": 349,
+      "community": 364,
       "norm_label": "suggested tools / inputs"
     },
     {
@@ -101470,7 +101470,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "project_scout_skill_output_format",
-      "community": 349,
+      "community": 364,
       "norm_label": "output format"
     },
     {
@@ -101480,7 +101480,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "project_scout_skill_guardrails",
-      "community": 349,
+      "community": 364,
       "norm_label": "guardrails"
     },
     {
@@ -114404,21 +114404,21 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L156",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "editor_swamprivergenerator_swamprivergenerator",
-      "target": "editor_swamprivergenerator_swamprivergenerator_addring"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampRiverGenerator.cs",
       "source_location": "L104",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "editor_swamprivergenerator_swamprivergenerator",
       "target": "editor_swamprivergenerator_swamprivergenerator_buildbezier"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampRiverGenerator.cs",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "editor_swamprivergenerator_swamprivergenerator",
+      "target": "editor_swamprivergenerator_swamprivergenerator_buildclosedcatmullrom",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -114541,22 +114541,22 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L80",
+      "source_location": "L75",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "editor_swamprivergenerator_swamprivergenerator_buildrivermesh",
-      "target": "editor_swamprivergenerator_swamprivergenerator_addring"
+      "target": "editor_swamprivergenerator_swamprivergenerator_buildbezier"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L75",
+      "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "editor_swamprivergenerator_swamprivergenerator_buildrivermesh",
-      "target": "editor_swamprivergenerator_swamprivergenerator_buildbezier"
+      "target": "editor_swamprivergenerator_swamprivergenerator_buildclosedcatmullrom",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -114595,12 +114595,12 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L156",
+      "source_location": "L138",
       "weight": 1.0,
       "context": "generic_arg",
-      "confidence_score": 1.0,
-      "source": "editor_swamprivergenerator_swamprivergenerator_addring",
-      "target": "assets_editor_swamprivergenerator_cs_vector2"
+      "source": "editor_swamprivergenerator_swamprivergenerator_buildclosedcatmullrom",
+      "target": "assets_editor_swamprivergenerator_cs_vector2",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -114628,12 +114628,12 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L156",
+      "source_location": "L138",
       "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "editor_swamprivergenerator_swamprivergenerator_addring",
-      "target": "assets_editor_swamprivergenerator_cs_list"
+      "context": "return_type",
+      "source": "editor_swamprivergenerator_swamprivergenerator_buildclosedcatmullrom",
+      "target": "assets_editor_swamprivergenerator_cs_list",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -114667,17 +114667,6 @@
       "confidence_score": 1.0,
       "source": "editor_swamprivergenerator_swamprivergenerator_addribbon",
       "target": "editor_swamprivergenerator_swamprivergenerator_gettangent"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampRiverGenerator.cs",
-      "source_location": "L156",
-      "weight": 1.0,
-      "context": "generic_arg",
-      "confidence_score": 1.0,
-      "source": "editor_swamprivergenerator_swamprivergenerator_addring",
-      "target": "assets_editor_swamprivergenerator_cs_vector3"
     },
     {
       "relation": "contains",
@@ -287572,5 +287561,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f31aea74d367ea9b7d25851c81f3ba774ed3dc86"
+  "built_at_commit": "ff0eed485e1d0ce02dd9b6ac89704dfa3cba2337"
 }
