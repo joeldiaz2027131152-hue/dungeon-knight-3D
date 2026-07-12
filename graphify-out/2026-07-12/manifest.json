@@ -4858,5 +4858,15 @@
     "mtime": 1783868307.7637997,
     "ast_hash": "9b052df1e8aa27fbf84ad6bf44ee7def",
     "semantic_hash": ""
+  },
+  "Assets/Editor/SwampProfessionalVisualPass.cs": {
+    "mtime": 1783876564.083557,
+    "ast_hash": "26952bf64502e63a686091fe6d75ac3b",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/CenterTree/material_0.png": {
+    "mtime": 1783874616.9247167,
+    "ast_hash": "91154c6f81683d622ff730f72402f2c6",
+    "semantic_hash": ""
   }
 }

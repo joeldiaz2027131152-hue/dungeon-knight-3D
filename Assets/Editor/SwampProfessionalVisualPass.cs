@@ -36,6 +36,10 @@ public static class SwampProfessionalVisualPass
         CreateSwampMotes(pass.transform, mats.soulFlame, mats.warmEmber);
         CreateStoryRemnants(pass.transform, mats.rustedMetal, mats.bone, mats.deadLeaves);
         CreateRiverScum(pass.transform, mats.algae);
+        CreateTerrainBiomeStructure(pass.transform, mats.bankMud, mats.dryPath, mats.algae, mats.waterSheen);
+        CreateReedBeds(pass.transform, mats.reed, mats.reedDark, mats.algae);
+        CreateBrokenWalkways(pass.transform, mats.rottingPlank, mats.rustedMetal);
+        CreateBackgroundCanopy(pass.transform, mats.root, mats.fog);
 
         EditorUtility.SetDirty(pass);
         var scene = pass.scene;
@@ -63,6 +67,11 @@ public static class SwampProfessionalVisualPass
             rustedMetal = CreateStandardMaterial("SwampRustedIron", new Color(0.25f, 0.095f, 0.045f, 1f), 0.28f),
             bone = CreateStandardMaterial("SwampOldBone", new Color(0.42f, 0.39f, 0.31f, 1f), 0.18f),
             deadLeaves = CreateStandardMaterial("SwampDeadLeafMat", new Color(0.11f, 0.075f, 0.035f, 1f), 0.12f),
+            bankMud = CreateStandardMaterial("SwampRaisedBankMud", new Color(0.062f, 0.07f, 0.047f, 1f), 0.16f),
+            dryPath = CreateStandardMaterial("SwampDryCausewaySilt", new Color(0.13f, 0.11f, 0.067f, 1f), 0.11f),
+            reed = CreateStandardMaterial("SwampReedBlade", new Color(0.18f, 0.22f, 0.105f, 1f), 0.09f),
+            reedDark = CreateStandardMaterial("SwampDarkReedBlade", new Color(0.07f, 0.095f, 0.05f, 1f), 0.08f),
+            rottingPlank = CreateStandardMaterial("SwampRottingWalkwayWood", new Color(0.12f, 0.075f, 0.04f, 1f), 0.12f),
             soulFlame = CreateEmissiveMaterial("SwampSoulFlame", new Color(0.12f, 0.88f, 0.72f, 1f), 1.9f),
             warmEmber = CreateEmissiveMaterial("SwampDyingEmber", new Color(1f, 0.36f, 0.08f, 1f), 1.4f)
         };
@@ -262,6 +271,164 @@ public static class SwampProfessionalVisualPass
             obj.transform.rotation = Quaternion.Euler(0f, strip.yaw, 0f);
             EnsureIrregularDisc(obj, strip.width, strip.depth, 10);
             obj.GetComponent<MeshRenderer>().sharedMaterial = strip.material;
+        }
+    }
+
+    private static void CreateTerrainBiomeStructure(Transform root, Material bankMud, Material dryPath, Material algae, Material water)
+    {
+        var group = FindOrCreate("Terrain Biome Shape Pass", root);
+        var banks = new[]
+        {
+            new Patch("Raised Silt Bank Entry Left", -16f, 82.99f, 137f, 14f, 5f, -9f, bankMud),
+            new Patch("Raised Silt Bank Entry Right", 15f, 83.0f, 151f, 12f, 5.6f, 14f, bankMud),
+            new Patch("Raised Silt Bank Mid Left", -18f, 83.01f, 184f, 16f, 5f, 8f, bankMud),
+            new Patch("Raised Silt Bank Center Tree", -19f, 83.1f, 223f, 18f, 8f, -21f, bankMud),
+            new Patch("Raised Silt Bank Mid Right", 15f, 83.0f, 246f, 15f, 5.5f, 16f, bankMud),
+            new Patch("Raised Silt Bank Exit Left", -15f, 82.99f, 296f, 14f, 5.4f, -12f, bankMud),
+            new Patch("Raised Silt Bank Exit Right", 13f, 82.99f, 316f, 11f, 4.8f, 6f, bankMud)
+        };
+
+        foreach (var bank in banks)
+        {
+            var obj = FindOrCreate(bank.name, group.transform);
+            obj.transform.position = new Vector3(bank.x, bank.y, bank.z);
+            obj.transform.rotation = Quaternion.Euler(0f, bank.yaw, 0f);
+            EnsureIrregularDisc(obj, bank.width, bank.depth, 16);
+            obj.GetComponent<MeshRenderer>().sharedMaterial = bank.material;
+        }
+
+        var causeway = new[]
+        {
+            new Patch("Dry Causeway Island 01", 0f, 83.06f, 130f, 8f, 4.2f, 4f, dryPath),
+            new Patch("Dry Causeway Island 02", -2.5f, 83.07f, 153f, 9.5f, 4.6f, -8f, dryPath),
+            new Patch("Dry Causeway Island 03", 2f, 83.06f, 179f, 8.8f, 4.1f, 12f, dryPath),
+            new Patch("Dry Causeway Island 04", -1.5f, 83.08f, 206f, 10.5f, 4.8f, -15f, dryPath),
+            new Patch("Dry Causeway Island 05", 2.5f, 83.07f, 236f, 9.2f, 4.5f, 8f, dryPath),
+            new Patch("Dry Causeway Island 06", -2f, 83.06f, 267f, 9.8f, 4.4f, -9f, dryPath),
+            new Patch("Dry Causeway Island 07", 1f, 83.06f, 298f, 8.6f, 4.2f, 13f, dryPath),
+            new Patch("Dry Causeway Island 08", 0f, 83.06f, 324f, 7.6f, 3.8f, 0f, dryPath)
+        };
+
+        foreach (var island in causeway)
+        {
+            var obj = FindOrCreate(island.name, group.transform);
+            obj.transform.position = new Vector3(island.x, island.y, island.z);
+            obj.transform.rotation = Quaternion.Euler(0f, island.yaw, 0f);
+            EnsureIrregularDisc(obj, island.width, island.depth, 14);
+            obj.GetComponent<MeshRenderer>().sharedMaterial = island.material;
+        }
+
+        var shorelineGloss = new[]
+        {
+            new Patch("Shoreline Wet Blend 01", -6f, 83.025f, 145f, 11f, 1.15f, -4f, water),
+            new Patch("Shoreline Wet Blend 02", 5f, 83.025f, 174f, 12f, 1.15f, 9f, water),
+            new Patch("Shoreline Moss Blend 03", -8f, 83.03f, 213f, 13f, 1.25f, -18f, algae),
+            new Patch("Shoreline Wet Blend 04", 7f, 83.025f, 254f, 12f, 1.15f, 15f, water),
+            new Patch("Shoreline Moss Blend 05", -5f, 83.03f, 289f, 11f, 1.15f, -7f, algae)
+        };
+
+        foreach (var strip in shorelineGloss)
+        {
+            var obj = FindOrCreate(strip.name, group.transform);
+            obj.transform.position = new Vector3(strip.x, strip.y, strip.z);
+            obj.transform.rotation = Quaternion.Euler(0f, strip.yaw, 0f);
+            EnsureIrregularDisc(obj, strip.width, strip.depth, 10);
+            obj.GetComponent<MeshRenderer>().sharedMaterial = strip.material;
+        }
+    }
+
+    private static void CreateReedBeds(Transform root, Material reed, Material reedDark, Material algae)
+    {
+        var group = FindOrCreate("Layered Reed Beds", root);
+        var beds = new[]
+        {
+            new Vector3(-18f, 83.1f, 145f),
+            new Vector3(16f, 83.1f, 165f),
+            new Vector3(-17f, 83.1f, 191f),
+            new Vector3(14f, 83.1f, 218f),
+            new Vector3(-21f, 83.1f, 238f),
+            new Vector3(17f, 83.1f, 265f),
+            new Vector3(-16f, 83.1f, 294f),
+            new Vector3(14f, 83.1f, 315f)
+        };
+
+        for (var bed = 0; bed < beds.Length; bed++)
+        {
+            var bedRoot = FindOrCreate($"Reed Bed {bed + 1:00}", group.transform);
+            bedRoot.transform.position = beds[bed];
+
+            var mat = bed % 2 == 0 ? reed : reedDark;
+            for (var i = 0; i < 14; i++)
+            {
+                var angle = (i * 137.5f + bed * 19f) * Mathf.Deg2Rad;
+                var radius = 0.35f + (i % 5) * 0.31f;
+                var basePos = beds[bed] + new Vector3(Mathf.Cos(angle) * radius, 0f, Mathf.Sin(angle) * radius * 0.72f);
+                var height = 1.1f + (i % 4) * 0.28f + Mathf.Sin(i * 0.7f) * 0.12f;
+                var blade = CreateBox($"Reed Bed {bed + 1:00} Blade {i + 1:00}", bedRoot.transform, basePos + Vector3.up * (height * 0.5f), new Vector3(0.035f, height, 0.11f), mat);
+                blade.transform.rotation = Quaternion.Euler((i % 3 - 1) * 7f, i * 31f + bed * 11f, (i % 5 - 2) * 4f);
+
+                if (i % 4 == 0)
+                {
+                    CreateCylinder($"Reed Bed {bed + 1:00} Seed Head {i + 1:00}", bedRoot.transform, basePos + Vector3.up * (height + 0.08f), 0.045f, 0.28f, reedDark);
+                }
+            }
+
+            var scum = FindOrCreate($"Reed Bed {bed + 1:00} Algae Foot", bedRoot.transform);
+            scum.transform.position = beds[bed] + Vector3.up * -0.04f;
+            scum.transform.rotation = Quaternion.Euler(0f, bed * 23f, 0f);
+            EnsureIrregularDisc(scum, 4.4f, 2.1f, 10);
+            scum.GetComponent<MeshRenderer>().sharedMaterial = algae;
+        }
+    }
+
+    private static void CreateBrokenWalkways(Transform root, Material plank, Material rust)
+    {
+        var group = FindOrCreate("Broken Walkway Readability", root);
+        CreateWalkwayCluster(group.transform, "Entry Sunken Walkway", new Vector3(-4f, 83.15f, 160f), 5, 8f);
+        CreateWalkwayCluster(group.transform, "Center Root Walkway", new Vector3(2.5f, 83.18f, 219f), 6, -18f);
+        CreateWalkwayCluster(group.transform, "Exit Sinking Walkway", new Vector3(-3f, 83.13f, 287f), 5, 12f);
+
+        void CreateWalkwayCluster(Transform parent, string prefix, Vector3 origin, int count, float yaw)
+        {
+            var cluster = FindOrCreate(prefix, parent);
+            cluster.transform.position = origin;
+            cluster.transform.rotation = Quaternion.Euler(0f, yaw, 0f);
+
+            for (var i = 0; i < count; i++)
+            {
+                var local = new Vector3((i - count * 0.5f) * 1.15f, 0f, Mathf.Sin(i * 1.2f) * 0.18f);
+                var board = CreateBox($"{prefix} Plank {i + 1:00}", cluster.transform, origin + cluster.transform.rotation * local, new Vector3(0.92f + (i % 2) * 0.22f, 0.08f, 0.26f), plank);
+                board.transform.rotation = Quaternion.Euler(0f, yaw + i * 5f - 8f, (i % 3 - 1) * 3.5f);
+            }
+
+            CreateCylinderBetween($"{prefix} Rusted Pin Left", cluster.transform, origin + cluster.transform.rotation * new Vector3(-2.4f, 0.12f, -0.28f), origin + cluster.transform.rotation * new Vector3(2.4f, 0.12f, -0.28f), 0.035f, rust);
+            CreateCylinderBetween($"{prefix} Rusted Pin Right", cluster.transform, origin + cluster.transform.rotation * new Vector3(-2.1f, 0.13f, 0.31f), origin + cluster.transform.rotation * new Vector3(2.2f, 0.13f, 0.31f), 0.032f, rust);
+        }
+    }
+
+    private static void CreateBackgroundCanopy(Transform root, Material branch, Material fog)
+    {
+        var group = FindOrCreate("Background Canopy Silhouette", root);
+        for (var i = 0; i < 9; i++)
+        {
+            var z = 142f + i * 22f;
+            var leftX = -24f - (i % 3) * 1.5f;
+            var rightX = 24f + (i % 2) * 1.3f;
+            CreateCylinderBetween($"Left Canopy Hook {i + 1:00}", group.transform, new Vector3(leftX, 88f, z), new Vector3(leftX + 7f, 86.2f, z + 5f), 0.11f, branch);
+            CreateCylinderBetween($"Right Canopy Hook {i + 1:00}", group.transform, new Vector3(rightX, 88.4f, z + 7f), new Vector3(rightX - 7.5f, 86.1f, z + 2f), 0.1f, branch);
+        }
+
+        var haze = new[]
+        {
+            new FogBand("Canopy Background Haze 01", -23f, 85.5f, 172f, 0.08f, 7.5f, 42f, 0f),
+            new FogBand("Canopy Background Haze 02", 23f, 85.5f, 224f, 0.08f, 7.5f, 46f, 0f),
+            new FogBand("Canopy Background Haze 03", -23f, 85.5f, 282f, 0.08f, 7.5f, 42f, 0f)
+        };
+
+        foreach (var band in haze)
+        {
+            var obj = CreateBox(band.name, group.transform, new Vector3(band.x, band.y, band.z), new Vector3(band.width, band.height, band.depth), fog);
+            obj.transform.rotation = Quaternion.Euler(0f, band.yaw, 0f);
         }
     }
 
@@ -543,5 +710,10 @@ public static class SwampProfessionalVisualPass
         public Material rustedMetal;
         public Material bone;
         public Material deadLeaves;
+        public Material bankMud;
+        public Material dryPath;
+        public Material reed;
+        public Material reedDark;
+        public Material rottingPlank;
     }
 }
