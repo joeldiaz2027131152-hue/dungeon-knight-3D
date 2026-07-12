@@ -67,13 +67,13 @@ public static class SwampRiverGenerator
         var treeCenter = new Vector2(-13.13f, 219.0f);
         const float waterY = 82.735f;
         const float mudY = 82.695f;
-        const float ringWaterY = 82.92f;
-        const float ringMudY = 82.865f;
-        const float ringCenterRadius = 18.0f;
+        const float ringWaterY = 83.05f;
+        const float ringMudY = 82.98f;
+        const float ringCenterRadius = 29.0f;
         const float waterHalfWidth = 3.7f;
         const float mudHalfWidth = 5.6f;
-        const float ringWaterHalfWidth = 6.4f;
-        const float ringMudHalfWidth = 8.6f;
+        const float ringWaterHalfWidth = 8.0f;
+        const float ringMudHalfWidth = 10.5f;
 
         AddRibbon(
             BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(10.0f, 142.0f), new Vector2(-21.0f, 170.0f), treeCenter + new Vector2(0.0f, -ringCenterRadius), 22),
