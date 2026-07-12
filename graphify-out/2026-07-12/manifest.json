@@ -4853,5 +4853,10 @@
     "mtime": 1783802363.4859445,
     "ast_hash": "807fb08cd8a3f24c60e87a32e21c583a",
     "semantic_hash": ""
+  },
+  "Assets/Editor/SwampRiverGenerator.cs": {
+    "mtime": 1783865995.9202063,
+    "ast_hash": "64e176b9822bb0c668f8248e05113a92",
+    "semantic_hash": ""
   }
 }

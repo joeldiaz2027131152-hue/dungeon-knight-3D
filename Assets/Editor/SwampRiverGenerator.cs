@@ -67,9 +67,13 @@ public static class SwampRiverGenerator
         var treeCenter = new Vector2(-13.13f, 219.0f);
         const float waterY = 82.735f;
         const float mudY = 82.695f;
-        const float ringCenterRadius = 22.0f;
+        const float ringWaterY = 82.92f;
+        const float ringMudY = 82.865f;
+        const float ringCenterRadius = 18.0f;
         const float waterHalfWidth = 3.7f;
         const float mudHalfWidth = 5.6f;
+        const float ringWaterHalfWidth = 6.4f;
+        const float ringMudHalfWidth = 8.6f;
 
         AddRibbon(
             BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(10.0f, 142.0f), new Vector2(-21.0f, 170.0f), treeCenter + new Vector2(0.0f, -ringCenterRadius), 22),
@@ -77,7 +81,7 @@ public static class SwampRiverGenerator
         AddRibbon(
             BuildBezier(treeCenter + new Vector2(0.0f, ringCenterRadius), new Vector2(-20.0f, 266.0f), new Vector2(8.0f, 344.0f), new Vector2(3.0f, 430.0f), 34),
             mudHalfWidth, mudY, vertices, uvs, mudTriangles);
-        AddRing(treeCenter, ringCenterRadius, mudHalfWidth, mudY, 96, vertices, uvs, mudTriangles);
+        AddRing(treeCenter, ringCenterRadius, ringMudHalfWidth, ringMudY, 112, vertices, uvs, mudTriangles);
 
         AddRibbon(
             BuildBezier(new Vector2(5.0f, 108.0f), new Vector2(10.0f, 142.0f), new Vector2(-21.0f, 170.0f), treeCenter + new Vector2(0.0f, -ringCenterRadius), 22),
@@ -85,7 +89,7 @@ public static class SwampRiverGenerator
         AddRibbon(
             BuildBezier(treeCenter + new Vector2(0.0f, ringCenterRadius), new Vector2(-20.0f, 266.0f), new Vector2(8.0f, 344.0f), new Vector2(3.0f, 430.0f), 34),
             waterHalfWidth, waterY, vertices, uvs, waterTriangles);
-        AddRing(treeCenter, ringCenterRadius, waterHalfWidth, waterY, 96, vertices, uvs, waterTriangles);
+        AddRing(treeCenter, ringCenterRadius, ringWaterHalfWidth, ringWaterY, 112, vertices, uvs, waterTriangles);
 
         var mesh = new Mesh
         {
