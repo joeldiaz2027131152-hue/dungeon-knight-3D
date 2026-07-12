@@ -8,6 +8,7 @@ public static class Grass07DetailPrefabBuilder
     private const string DiffusePath = "Assets/Art/Models/SwampApproach/Grass07/diffus.tga";
     private const string NormalPath = "Assets/Art/Models/SwampApproach/Grass07/normal.tga";
     private const string MaterialPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_Detail.mat";
+    private const string CombinedMeshPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_DetailMesh.asset";
     private const string PrefabPath = "Assets/Art/Models/SwampApproach/Grass07/Grass07_Detail.prefab";
 
     [MenuItem("Dungeon Knight 3D/Swamp/Build Grass07 Detail Prefab")]
@@ -23,18 +24,21 @@ public static class Grass07DetailPrefabBuilder
             return;
         }
 
-        GameObject instance = Object.Instantiate(source);
-        instance.name = "Grass07_Detail";
-        instance.transform.position = Vector3.zero;
-        instance.transform.rotation = Quaternion.identity;
-        instance.transform.localScale = Vector3.one;
-
-        foreach (Renderer renderer in instance.GetComponentsInChildren<Renderer>(true))
+        Mesh combinedMesh = CreateOrUpdateCombinedMesh(source);
+        if (combinedMesh == null)
         {
-            renderer.sharedMaterial = material;
-            renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-            renderer.receiveShadows = true;
+            Debug.LogError($"Grass07 source model has no mesh filters at {SourceModelPath}");
+            return;
         }
+
+        GameObject instance = new GameObject("Grass07_Detail");
+        MeshFilter meshFilter = instance.AddComponent<MeshFilter>();
+        MeshRenderer meshRenderer = instance.AddComponent<MeshRenderer>();
+
+        meshFilter.sharedMesh = combinedMesh;
+        meshRenderer.sharedMaterial = material;
+        meshRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+        meshRenderer.receiveShadows = true;
 
         Directory.CreateDirectory(Path.GetDirectoryName(PrefabPath));
         PrefabUtility.SaveAsPrefabAsset(instance, PrefabPath);
@@ -97,5 +101,52 @@ public static class Grass07DetailPrefabBuilder
 
         EditorUtility.SetDirty(material);
         return material;
+    }
+
+    private static Mesh CreateOrUpdateCombinedMesh(GameObject source)
+    {
+        GameObject sourceInstance = Object.Instantiate(source);
+        sourceInstance.transform.position = Vector3.zero;
+        sourceInstance.transform.rotation = Quaternion.identity;
+        sourceInstance.transform.localScale = Vector3.one;
+
+        MeshFilter[] meshFilters = sourceInstance.GetComponentsInChildren<MeshFilter>(true);
+        if (meshFilters.Length == 0)
+        {
+            Object.DestroyImmediate(sourceInstance);
+            return null;
+        }
+
+        CombineInstance[] combines = new CombineInstance[meshFilters.Length];
+        for (int i = 0; i < meshFilters.Length; i++)
+        {
+            combines[i] = new CombineInstance
+            {
+                mesh = meshFilters[i].sharedMesh,
+                transform = meshFilters[i].transform.localToWorldMatrix
+            };
+        }
+
+        Mesh combined = new Mesh
+        {
+            name = "Grass07_DetailMesh"
+        };
+        combined.CombineMeshes(combines, true, true, false);
+        combined.RecalculateBounds();
+        combined.RecalculateNormals();
+
+        Object.DestroyImmediate(sourceInstance);
+
+        Mesh existing = AssetDatabase.LoadAssetAtPath<Mesh>(CombinedMeshPath);
+        if (existing == null)
+        {
+            AssetDatabase.CreateAsset(combined, CombinedMeshPath);
+            return combined;
+        }
+
+        EditorUtility.CopySerialized(combined, existing);
+        Object.DestroyImmediate(combined);
+        EditorUtility.SetDirty(existing);
+        return existing;
     }
 }
