@@ -60,7 +60,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder",
-      "community": 17,
+      "community": 230,
       "norm_label": "dk3dropeladdervisualbuilder.cs"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_string",
-      "community": 17,
+      "community": 230,
       "norm_label": "string"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_int",
-      "community": 17,
+      "community": 230,
       "norm_label": "int"
     },
     {
@@ -100,7 +100,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_float",
-      "community": 17,
+      "community": 230,
       "norm_label": "float"
     },
     {
@@ -120,7 +120,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_menuitem",
-      "community": 17,
+      "community": 230,
       "norm_label": "menuitem"
     },
     {
@@ -130,7 +130,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_opentool",
-      "community": 17,
+      "community": 230,
       "norm_label": ".opentool()"
     },
     {
@@ -300,7 +300,7 @@
       "source_location": "L208",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "community": 17,
+      "community": 230,
       "norm_label": "ropeladdertoolwindow"
     },
     {
@@ -310,7 +310,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "editorwindow",
-      "community": 191,
+      "community": 230,
       "norm_label": "editorwindow"
     },
     {
@@ -320,7 +320,7 @@
       "source_location": "L216",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_bool",
-      "community": 17,
+      "community": 230,
       "norm_label": "bool"
     },
     {
@@ -330,7 +330,7 @@
       "source_location": "L218",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_showwindow",
-      "community": 17,
+      "community": 230,
       "norm_label": ".showwindow()"
     },
     {
@@ -340,7 +340,7 @@
       "source_location": "L224",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_ongui",
-      "community": 17,
+      "community": 230,
       "norm_label": ".ongui()"
     },
     {
@@ -350,7 +350,7 @@
       "source_location": "L277",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_islikelygeneratedladder",
-      "community": 17,
+      "community": 230,
       "norm_label": ".islikelygeneratedladder()"
     },
     {
@@ -360,7 +360,7 @@
       "source_location": "L290",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "community": 17,
+      "community": 230,
       "norm_label": ".sceneviewspawnposition()"
     },
     {
@@ -370,7 +370,7 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename",
-      "community": 17,
+      "community": 230,
       "norm_label": ".uniquescenename()"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool",
-      "community": 302,
+      "community": 133,
       "norm_label": "dungeonknight3dwallstretchtool.cs"
     },
     {
@@ -1090,7 +1090,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight_editor",
-      "community": 302,
+      "community": 133,
       "norm_label": "dungeonknight.editor"
     },
     {
@@ -1100,7 +1100,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles",
-      "community": 302,
+      "community": 133,
       "norm_label": "dungeonknight3dwallcornerhandles"
     },
     {
@@ -1110,7 +1110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_string",
-      "community": 302,
+      "community": 133,
       "norm_label": "string"
     },
     {
@@ -1120,7 +1120,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_float",
-      "community": 302,
+      "community": 133,
       "norm_label": "float"
     },
     {
@@ -1130,7 +1130,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_bool",
-      "community": 302,
+      "community": 133,
       "norm_label": "bool"
     },
     {
@@ -1140,7 +1140,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_toggle",
-      "community": 302,
+      "community": 133,
       "norm_label": ".toggle()"
     },
     {
@@ -1150,7 +1150,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_menuitem",
-      "community": 302,
+      "community": 133,
       "norm_label": "menuitem"
     },
     {
@@ -1160,7 +1160,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_togglevalidate",
-      "community": 302,
+      "community": 133,
       "norm_label": ".togglevalidate()"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawscenehandles",
-      "community": 302,
+      "community": 133,
       "norm_label": ".drawscenehandles()"
     },
     {
@@ -1180,7 +1180,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "sceneview",
-      "community": 302,
+      "community": 133,
       "norm_label": "sceneview"
     },
     {
@@ -1190,7 +1190,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawcornerhandle",
-      "community": 302,
+      "community": 133,
       "norm_label": ".drawcornerhandle()"
     },
     {
@@ -1220,7 +1220,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool",
-      "community": 383,
+      "community": 133,
       "norm_label": "dungeonknight3dwallstretchtool"
     },
     {
@@ -1230,7 +1230,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "stretchaxis",
-      "community": 383,
+      "community": 133,
       "norm_label": "stretchaxis"
     },
     {
@@ -1240,7 +1240,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "stretchanchor",
-      "community": 383,
+      "community": 133,
       "norm_label": "stretchanchor"
     },
     {
@@ -1250,7 +1250,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_open",
-      "community": 302,
+      "community": 133,
       "norm_label": ".open()"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_onselectionchange",
-      "community": 383,
+      "community": 133,
       "norm_label": ".onselectionchange()"
     },
     {
@@ -1270,7 +1270,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_ongui",
-      "community": 383,
+      "community": 133,
       "norm_label": ".ongui()"
     },
     {
@@ -1280,7 +1280,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_apply",
-      "community": 383,
+      "community": 133,
       "norm_label": ".apply()"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getanchoroffset",
-      "community": 383,
+      "community": 133,
       "norm_label": ".getanchoroffset()"
     },
     {
@@ -1300,7 +1300,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getaxisvalue",
-      "community": 383,
+      "community": 133,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_setaxisvalue",
-      "community": 383,
+      "community": 133,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "editaxis",
-      "community": 383,
+      "community": 133,
       "norm_label": "editaxis"
     },
     {
@@ -1380,7 +1380,7 @@
       "source_location": "L250",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_open",
-      "community": 302,
+      "community": 133,
       "norm_label": ".open()"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_location": "L726",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getaxisvalue",
-      "community": 383,
+      "community": 133,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1630,7 +1630,7 @@
       "source_location": "L739",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_setaxisvalue",
-      "community": 383,
+      "community": 133,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1652,6 +1652,86 @@
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_repaintscene",
       "community": 133,
       "norm_label": ".repaintscene()"
+    },
+    {
+      "label": "Grass07DetailPrefabBuilder.cs",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_grass07detailprefabbuilder",
+      "community": 321,
+      "norm_label": "grass07detailprefabbuilder.cs"
+    },
+    {
+      "label": "Grass07DetailPrefabBuilder",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
+      "community": 321,
+      "norm_label": "grass07detailprefabbuilder"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "assets_editor_grass07detailprefabbuilder_cs_string",
+      "community": 321,
+      "norm_label": "string"
+    },
+    {
+      "label": ".Build()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_build",
+      "community": 321,
+      "norm_label": ".build()"
+    },
+    {
+      "label": "MenuItem",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "assets_editor_grass07detailprefabbuilder_cs_menuitem",
+      "community": 321,
+      "norm_label": "menuitem"
+    },
+    {
+      "label": ".ConfigureTextureImporters()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_configuretextureimporters",
+      "community": 321,
+      "norm_label": ".configuretextureimporters()"
+    },
+    {
+      "label": ".CreateOrUpdateMaterial()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_createorupdatematerial",
+      "community": 321,
+      "norm_label": ".createorupdatematerial()"
+    },
+    {
+      "label": "Material",
+      "file_type": "code",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "assets_editor_grass07detailprefabbuilder_cs_material",
+      "community": 321,
+      "norm_label": "material"
     },
     {
       "label": "SwampProfessionalVisualPass.cs",
@@ -3850,7 +3930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "enemies_deathshard",
-      "community": 321,
+      "community": 44,
       "norm_label": "deathshard.cs"
     },
     {
@@ -3860,7 +3940,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "enemies_deathshard_dungeonknight_enemies",
-      "community": 321,
+      "community": 44,
       "norm_label": "dungeonknight.enemies"
     },
     {
@@ -3870,7 +3950,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard",
-      "community": 321,
+      "community": 44,
       "norm_label": "deathshard"
     },
     {
@@ -3880,7 +3960,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_enemies_deathshard_cs_spriterenderer",
-      "community": 321,
+      "community": 44,
       "norm_label": "spriterenderer"
     },
     {
@@ -3890,7 +3970,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_enemies_deathshard_cs_float",
-      "community": 321,
+      "community": 44,
       "norm_label": "float"
     },
     {
@@ -3900,7 +3980,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_configure",
-      "community": 321,
+      "community": 44,
       "norm_label": ".configure()"
     },
     {
@@ -3910,7 +3990,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_awake",
-      "community": 321,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -3920,7 +4000,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_update",
-      "community": 321,
+      "community": 44,
       "norm_label": ".update()"
     },
     {
@@ -7230,7 +7310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "level_driftsprite",
-      "community": 230,
+      "community": 44,
       "norm_label": "driftsprite.cs"
     },
     {
@@ -7240,7 +7320,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "level_driftsprite_dungeonknight_level",
-      "community": 230,
+      "community": 44,
       "norm_label": "dungeonknight.level"
     },
     {
@@ -7250,7 +7330,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "level_driftsprite_driftsprite",
-      "community": 230,
+      "community": 44,
       "norm_label": "driftsprite"
     },
     {
@@ -7260,7 +7340,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_level_driftsprite_cs_vector2",
-      "community": 230,
+      "community": 44,
       "norm_label": "vector2"
     },
     {
@@ -7270,7 +7350,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_level_driftsprite_cs_float",
-      "community": 230,
+      "community": 44,
       "norm_label": "float"
     },
     {
@@ -7280,7 +7360,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_level_driftsprite_cs_vector3",
-      "community": 230,
+      "community": 44,
       "norm_label": "vector3"
     },
     {
@@ -7290,7 +7370,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "level_driftsprite_driftsprite_configure",
-      "community": 230,
+      "community": 44,
       "norm_label": ".configure()"
     },
     {
@@ -7300,7 +7380,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "level_driftsprite_driftsprite_awake",
-      "community": 230,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -7310,7 +7390,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "level_driftsprite_driftsprite_update",
-      "community": 230,
+      "community": 44,
       "norm_label": ".update()"
     },
     {
@@ -15670,7 +15750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_coindropper",
-      "community": 44,
+      "community": 357,
       "norm_label": "coindropper.cs"
     },
     {
@@ -15680,7 +15760,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_coindropper_dungeonknight_loot",
-      "community": 44,
+      "community": 357,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15690,7 +15770,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper",
-      "community": 44,
+      "community": 357,
       "norm_label": "coindropper"
     },
     {
@@ -15700,7 +15780,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_int",
-      "community": 44,
+      "community": 357,
       "norm_label": "int"
     },
     {
@@ -15710,7 +15790,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_configure",
-      "community": 44,
+      "community": 357,
       "norm_label": ".configure()"
     },
     {
@@ -15720,7 +15800,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_awake",
-      "community": 44,
+      "community": 357,
       "norm_label": ".awake()"
     },
     {
@@ -15730,7 +15810,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_ondied",
-      "community": 44,
+      "community": 357,
       "norm_label": ".ondied()"
     },
     {
@@ -15740,7 +15820,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_health",
-      "community": 44,
+      "community": 357,
       "norm_label": "health"
     },
     {
@@ -49260,7 +49340,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_methodinfo",
-      "community": 191,
+      "community": 324,
       "norm_label": "methodinfo"
     },
     {
@@ -49520,7 +49600,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_builddefaultparams",
-      "community": 191,
+      "community": 324,
       "norm_label": ".builddefaultparams()"
     },
     {
@@ -49530,7 +49610,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_getdefaultfortype",
-      "community": 191,
+      "community": 324,
       "norm_label": ".getdefaultfortype()"
     },
     {
@@ -49540,7 +49620,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_type",
-      "community": 191,
+      "community": 324,
       "norm_label": "type"
     },
     {
@@ -54910,7 +54990,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "community": 400,
+      "community": 78,
       "norm_label": "com.unity.nuget.mono-cecil"
     },
     {
@@ -55340,7 +55420,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_version",
-      "community": 400,
+      "community": 78,
       "norm_label": "version"
     },
     {
@@ -55350,7 +55430,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_depth",
-      "community": 400,
+      "community": 78,
       "norm_label": "depth"
     },
     {
@@ -55360,7 +55440,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_source",
-      "community": 400,
+      "community": 78,
       "norm_label": "source"
     },
     {
@@ -55370,7 +55450,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_dependencies",
-      "community": 400,
+      "community": 78,
       "norm_label": "dependencies"
     },
     {
@@ -55380,7 +55460,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_url",
-      "community": 400,
+      "community": 78,
       "norm_label": "url"
     },
     {
@@ -92970,7 +93050,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "adr_skill",
-      "community": 393,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -92980,7 +93060,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "adr_skill_unity_adr",
-      "community": 393,
+      "community": 349,
       "norm_label": "unity adr"
     },
     {
@@ -92990,7 +93070,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "adr_skill_output_format",
-      "community": 393,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -93000,7 +93080,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "adr_skill_example_use_cases",
-      "community": 393,
+      "community": 349,
       "norm_label": "example use cases"
     },
     {
@@ -93010,7 +93090,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "adr_skill_guardrails",
-      "community": 393,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -93320,7 +93400,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "asmdef_skill_unity_asmdef_advisor",
-      "community": 357,
+      "community": 356,
       "norm_label": "unity asmdef advisor"
     },
     {
@@ -93330,7 +93410,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "asmdef_skill_recommend_only_when_worth_it",
-      "community": 357,
+      "community": 356,
       "norm_label": "recommend only when worth it"
     },
     {
@@ -93340,7 +93420,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "asmdef_skill_output_format",
-      "community": 357,
+      "community": 356,
       "norm_label": "output format"
     },
     {
@@ -93350,7 +93430,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "asmdef_skill_default_guidance",
-      "community": 357,
+      "community": 356,
       "norm_label": "default guidance"
     },
     {
@@ -93360,7 +93440,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "asmdef_skill_guardrails",
-      "community": 357,
+      "community": 356,
       "norm_label": "guardrails"
     },
     {
@@ -98370,7 +98450,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "inspector_skill_unity_inspector_design",
-      "community": 349,
+      "community": 356,
       "norm_label": "unity inspector design"
     },
     {
@@ -98380,7 +98460,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "inspector_skill_guardrails",
-      "community": 349,
+      "community": 356,
       "norm_label": "guardrails"
     },
     {
@@ -98390,7 +98470,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "inspector_skill_default_rules",
-      "community": 349,
+      "community": 356,
       "norm_label": "default rules"
     },
     {
@@ -98400,7 +98480,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "inspector_skill_inspector_quality_checklist",
-      "community": 349,
+      "community": 356,
       "norm_label": "inspector quality checklist"
     },
     {
@@ -98410,7 +98490,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "inspector_skill_output_format",
-      "community": 349,
+      "community": 356,
       "norm_label": "output format"
     },
     {
@@ -99960,7 +100040,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_scene",
-      "community": 349,
+      "community": 58,
       "norm_label": "scene.md"
     },
     {
@@ -100130,7 +100210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_skill",
-      "community": 349,
+      "community": 58,
       "norm_label": "skill.md"
     },
     {
@@ -100140,7 +100220,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "netcode_design_skill_netcode_for_gameobjects_design_rules",
-      "community": 389,
+      "community": 58,
       "norm_label": "netcode for gameobjects - design rules"
     },
     {
@@ -100150,7 +100230,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "netcode_design_skill_when_to_load_this_module",
-      "community": 389,
+      "community": 58,
       "norm_label": "when to load this module"
     },
     {
@@ -100160,7 +100240,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "netcode_design_skill_critical_rule_summary_memorize_even_if_you_skip_the_sub_docs",
-      "community": 389,
+      "community": 58,
       "norm_label": "critical rule summary (memorize even if you skip the sub-docs)"
     },
     {
@@ -100170,7 +100250,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "netcode_design_skill_sub_doc_routing",
-      "community": 389,
+      "community": 58,
       "norm_label": "sub-doc routing"
     },
     {
@@ -100180,7 +100260,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "netcode_design_skill_routing_to_other_modules",
-      "community": 389,
+      "community": 58,
       "norm_label": "routing to other modules"
     },
     {
@@ -100190,7 +100270,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "netcode_design_skill_version_scope",
-      "community": 389,
+      "community": 58,
       "norm_label": "version scope"
     },
     {
@@ -100200,7 +100280,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_spawning",
-      "community": 349,
+      "community": 58,
       "norm_label": "spawning.md"
     },
     {
@@ -100830,7 +100910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_skill",
-      "community": 349,
+      "community": 58,
       "norm_label": "skill.md"
     },
     {
@@ -103010,7 +103090,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 349,
+      "community": 370,
       "norm_label": "skill.md"
     },
     {
@@ -103020,7 +103100,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 349,
+      "community": 370,
       "norm_label": "unity scene contracts"
     },
     {
@@ -103030,7 +103110,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 349,
+      "community": 370,
       "norm_label": "define"
     },
     {
@@ -103040,7 +103120,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 349,
+      "community": 370,
       "norm_label": "output format"
     },
     {
@@ -103050,7 +103130,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 349,
+      "community": 370,
       "norm_label": "guardrails"
     },
     {
@@ -104220,7 +104300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review",
-      "community": 64,
+      "community": 381,
       "norm_label": "review.md"
     },
     {
@@ -104450,7 +104530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_skill",
-      "community": 388,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -105280,7 +105360,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "testability_skill",
-      "community": 370,
+      "community": 356,
       "norm_label": "skill.md"
     },
     {
@@ -105290,7 +105370,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "testability_skill_unity_testability_advisor",
-      "community": 370,
+      "community": 356,
       "norm_label": "unity testability advisor"
     },
     {
@@ -105300,7 +105380,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "testability_skill_review_questions",
-      "community": 370,
+      "community": 356,
       "norm_label": "review questions"
     },
     {
@@ -105310,7 +105390,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "testability_skill_output_format",
-      "community": 370,
+      "community": 356,
       "norm_label": "output format"
     },
     {
@@ -105320,7 +105400,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "testability_skill_guardrails",
-      "community": 370,
+      "community": 356,
       "norm_label": "guardrails"
     },
     {
@@ -106280,7 +106360,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable",
-      "community": 59,
+      "community": 349,
       "norm_label": "asyncenumerable.md"
     },
     {
@@ -106440,7 +106520,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_basics",
-      "community": 59,
+      "community": 349,
       "norm_label": "basics.md"
     },
     {
@@ -106450,7 +106530,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_basics_unitask_basics",
-      "community": 59,
+      "community": 302,
       "norm_label": "unitask basics"
     },
     {
@@ -106460,7 +106540,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_basics_why_unitask_exists",
-      "community": 59,
+      "community": 302,
       "norm_label": "why unitask exists"
     },
     {
@@ -106470,7 +106550,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "unitask_design_basics_core_types_at_a_glance",
-      "community": 59,
+      "community": 302,
       "norm_label": "core types at a glance"
     },
     {
@@ -106480,7 +106560,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "unitask_design_basics_unitask_vs_task",
-      "community": 59,
+      "community": 302,
       "norm_label": "`unitask` vs `task`"
     },
     {
@@ -106490,7 +106570,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "unitask_design_basics_struct_trap_single_await_semantics",
-      "community": 59,
+      "community": 302,
       "norm_label": "struct trap: single-await semantics"
     },
     {
@@ -106500,7 +106580,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "unitask_design_basics_unitaskvoid_fire_and_forget_that_can_await",
-      "community": 59,
+      "community": 302,
       "norm_label": "`unitaskvoid`: fire-and-forget that can `await`"
     },
     {
@@ -106510,7 +106590,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "unitask_design_basics_forget_attachexternalcancellation_suppresscancellationthrow",
-      "community": 59,
+      "community": 302,
       "norm_label": "`forget()`, `attachexternalcancellation`, `suppresscancellationthrow`"
     },
     {
@@ -106520,7 +106600,7 @@
       "source_location": "L117",
       "_origin": "ast",
       "id": "unitask_design_basics_unitaskcompletionsource_manual_completion",
-      "community": 59,
+      "community": 302,
       "norm_label": "`unitaskcompletionsource` \u2014 manual completion"
     },
     {
@@ -106530,7 +106610,7 @@
       "source_location": "L135",
       "_origin": "ast",
       "id": "unitask_design_basics_unitaskstatus",
-      "community": 59,
+      "community": 302,
       "norm_label": "`unitaskstatus`"
     },
     {
@@ -106540,7 +106620,7 @@
       "source_location": "L143",
       "_origin": "ast",
       "id": "unitask_design_basics_checklist_when_writing_a_new_async_unitask_method",
-      "community": 59,
+      "community": 302,
       "norm_label": "checklist when writing a new `async unitask*` method"
     },
     {
@@ -106550,7 +106630,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_cancellation",
-      "community": 59,
+      "community": 349,
       "norm_label": "cancellation.md"
     },
     {
@@ -106700,7 +106780,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_composition",
-      "community": 59,
+      "community": 349,
       "norm_label": "composition.md"
     },
     {
@@ -106830,7 +106910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_conversion",
-      "community": 59,
+      "community": 349,
       "norm_label": "conversion.md"
     },
     {
@@ -106960,7 +107040,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_pitfalls",
-      "community": 59,
+      "community": 349,
       "norm_label": "pitfalls.md"
     },
     {
@@ -107290,7 +107370,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_playerloop",
-      "community": 59,
+      "community": 349,
       "norm_label": "playerloop.md"
     },
     {
@@ -107410,7 +107490,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_skill",
-      "community": 59,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -107480,7 +107560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_triggers",
-      "community": 59,
+      "community": 349,
       "norm_label": "triggers.md"
     },
     {
@@ -115622,6 +115702,101 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "editor_grass07detailprefabbuilder",
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "field",
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
+      "target": "assets_editor_grass07detailprefabbuilder_cs_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_configuretextureimporters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_createorupdatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_build",
+      "target": "assets_editor_grass07detailprefabbuilder_cs_menuitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_build",
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_configuretextureimporters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_build",
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_createorupdatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
+      "source_location": "L68",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_createorupdatematerial",
+      "target": "assets_editor_grass07detailprefabbuilder_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L533",
       "weight": 1.0,
@@ -118640,9 +118815,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "monobehaviour",
-      "confidence_score": 1.0
+      "target": "monobehaviour"
     },
     {
       "relation": "calls",
@@ -157185,9 +157360,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow",
-      "target": "visuals_swampwaterflow_dungeonknight_visuals",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_dungeonknight_visuals"
     },
     {
       "relation": "contains",
@@ -157195,9 +157370,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow",
-      "target": "visuals_swampwaterflow_swampwaterflow",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow"
     },
     {
       "relation": "references",
@@ -157206,9 +157381,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "assets_scripts_visuals_swampwaterflow_cs_float",
-      "confidence_score": 1.0
+      "target": "assets_scripts_visuals_swampwaterflow_cs_float"
     },
     {
       "relation": "references",
@@ -157217,9 +157392,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "assets_scripts_visuals_swampwaterflow_cs_int",
-      "confidence_score": 1.0
+      "target": "assets_scripts_visuals_swampwaterflow_cs_int"
     },
     {
       "relation": "references",
@@ -157228,9 +157403,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "assets_scripts_visuals_swampwaterflow_cs_renderer",
-      "confidence_score": 1.0
+      "target": "assets_scripts_visuals_swampwaterflow_cs_renderer"
     },
     {
       "relation": "references",
@@ -157239,9 +157414,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "assets_scripts_visuals_swampwaterflow_cs_vector2",
-      "confidence_score": 1.0
+      "target": "assets_scripts_visuals_swampwaterflow_cs_vector2"
     },
     {
       "relation": "references",
@@ -157250,9 +157425,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "materialpropertyblock",
-      "confidence_score": 1.0
+      "target": "materialpropertyblock"
     },
     {
       "relation": "method",
@@ -157260,9 +157435,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset"
     },
     {
       "relation": "method",
@@ -157270,9 +157445,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "visuals_swampwaterflow_swampwaterflow_onenable",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow_onenable"
     },
     {
       "relation": "method",
@@ -157280,9 +157455,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "visuals_swampwaterflow_swampwaterflow_onvalidate",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow_onvalidate"
     },
     {
       "relation": "method",
@@ -157290,9 +157465,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow",
-      "target": "visuals_swampwaterflow_swampwaterflow_update",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow_update"
     },
     {
       "relation": "calls",
@@ -157301,9 +157476,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow_onenable",
-      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset"
     },
     {
       "relation": "calls",
@@ -157312,9 +157487,9 @@
       "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "visuals_swampwaterflow_swampwaterflow_update",
-      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset",
-      "confidence_score": 1.0
+      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset"
     },
     {
       "relation": "contains",
@@ -234433,9 +234608,9 @@
       "source_file": "Packages/manifest.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_manifest_dependencies",
-      "target": "packages_manifest_dependencies_com_unity_ai_assistant",
-      "confidence_score": 1.0
+      "target": "packages_manifest_dependencies_com_unity_ai_assistant"
     },
     {
       "relation": "contains",
@@ -234443,9 +234618,9 @@
       "source_file": "Packages/manifest.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_manifest_dependencies",
-      "target": "packages_manifest_dependencies_com_unity_ai_inference",
-      "confidence_score": 1.0
+      "target": "packages_manifest_dependencies_com_unity_ai_inference"
     },
     {
       "relation": "contains",
@@ -234553,9 +234728,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_ai_assistant",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_ai_assistant"
     },
     {
       "relation": "contains",
@@ -234563,9 +234738,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_ai_inference",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_ai_inference"
     },
     {
       "relation": "contains",
@@ -234573,9 +234748,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_burst",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_burst"
     },
     {
       "relation": "contains",
@@ -234583,9 +234758,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_collections",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_collections"
     },
     {
       "relation": "contains",
@@ -234593,9 +234768,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_dt_app_ui"
     },
     {
       "relation": "contains",
@@ -234613,9 +234788,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics"
     },
     {
       "relation": "contains",
@@ -234623,9 +234798,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_androidjni"
     },
     {
       "relation": "contains",
@@ -234673,9 +234848,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L214",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion"
     },
     {
       "relation": "contains",
@@ -234733,9 +234908,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L250",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_screencapture"
     },
     {
       "relation": "contains",
@@ -234773,9 +234948,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L284",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest"
     },
     {
       "relation": "contains",
@@ -234783,9 +234958,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil"
     },
     {
       "relation": "contains",
@@ -234833,9 +235008,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework_performance"
     },
     {
       "relation": "contains",
@@ -234933,9 +235108,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_nuget_newtonsoft_json",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_newtonsoft_json"
     },
     {
       "relation": "contains",
@@ -234943,9 +235118,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_nuget_newtonsoft_json",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_newtonsoft_json"
     },
     {
       "relation": "contains",
@@ -235053,9 +235228,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_2d_sprite",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_2d_sprite"
     },
     {
       "relation": "contains",
@@ -235203,9 +235378,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_uielements",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_uielements"
     },
     {
       "relation": "contains",
@@ -235213,9 +235388,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_uielements",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_uielements"
     },
     {
       "relation": "contains",
@@ -235263,9 +235438,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
-      "target": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_assistant_dependencies"
     },
     {
       "relation": "contains",
@@ -235273,9 +235448,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
-      "target": "packages_packages_lock_com_unity_ai_assistant_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_assistant_depth"
     },
     {
       "relation": "contains",
@@ -235283,9 +235458,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
-      "target": "packages_packages_lock_com_unity_ai_assistant_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_assistant_source"
     },
     {
       "relation": "contains",
@@ -235293,9 +235468,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
-      "target": "packages_packages_lock_com_unity_ai_assistant_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_assistant_url"
     },
     {
       "relation": "contains",
@@ -235303,9 +235478,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
-      "target": "packages_packages_lock_com_unity_ai_assistant_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_assistant_version"
     },
     {
       "relation": "contains",
@@ -235313,9 +235488,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics"
     },
     {
       "relation": "contains",
@@ -235323,9 +235498,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest"
     },
     {
       "relation": "contains",
@@ -235333,9 +235508,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil"
     },
     {
       "relation": "contains",
@@ -235343,9 +235518,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_burst_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics"
     },
     {
       "relation": "contains",
@@ -235353,9 +235528,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_collections_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics"
     },
     {
       "relation": "contains",
@@ -235363,9 +235538,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "target": "packages_packages_lock_com_unity_mathematics_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_mathematics_dependencies"
     },
     {
       "relation": "contains",
@@ -235373,9 +235548,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "target": "packages_packages_lock_com_unity_mathematics_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_mathematics_depth"
     },
     {
       "relation": "contains",
@@ -235383,9 +235558,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "target": "packages_packages_lock_com_unity_mathematics_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_mathematics_source"
     },
     {
       "relation": "contains",
@@ -235393,9 +235568,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "target": "packages_packages_lock_com_unity_mathematics_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_mathematics_url"
     },
     {
       "relation": "contains",
@@ -235403,9 +235578,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_mathematics",
-      "target": "packages_packages_lock_com_unity_mathematics_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_mathematics_version"
     },
     {
       "relation": "contains",
@@ -235413,9 +235588,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_collections_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil"
     },
     {
       "relation": "contains",
@@ -235423,9 +235598,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_dependencies"
     },
     {
       "relation": "contains",
@@ -235433,9 +235608,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_depth"
     },
     {
       "relation": "contains",
@@ -235443,9 +235618,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_source"
     },
     {
       "relation": "contains",
@@ -235453,9 +235628,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_url"
     },
     {
       "relation": "contains",
@@ -235463,9 +235638,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_version"
     },
     {
       "relation": "contains",
@@ -235473,9 +235648,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L288",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
-      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_dependencies"
     },
     {
       "relation": "contains",
@@ -235483,9 +235658,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L286",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
-      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_depth"
     },
     {
       "relation": "contains",
@@ -235493,9 +235668,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L287",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
-      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_source"
     },
     {
       "relation": "contains",
@@ -235503,9 +235678,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L285",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
-      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_version"
     },
     {
       "relation": "contains",
@@ -235513,9 +235688,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
-      "target": "packages_packages_lock_com_unity_ai_inference_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_inference_dependencies"
     },
     {
       "relation": "contains",
@@ -235523,9 +235698,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
-      "target": "packages_packages_lock_com_unity_ai_inference_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_inference_depth"
     },
     {
       "relation": "contains",
@@ -235533,9 +235708,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
-      "target": "packages_packages_lock_com_unity_ai_inference_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_inference_source"
     },
     {
       "relation": "contains",
@@ -235543,9 +235718,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
-      "target": "packages_packages_lock_com_unity_ai_inference_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_inference_url"
     },
     {
       "relation": "contains",
@@ -235553,9 +235728,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
-      "target": "packages_packages_lock_com_unity_ai_inference_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_ai_inference_version"
     },
     {
       "relation": "contains",
@@ -235563,9 +235738,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_burst",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_burst"
     },
     {
       "relation": "contains",
@@ -235573,9 +235748,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_collections",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_collections"
     },
     {
       "relation": "contains",
@@ -235583,9 +235758,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_dt_app_ui"
     },
     {
       "relation": "contains",
@@ -235593,9 +235768,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion"
     },
     {
       "relation": "contains",
@@ -235603,9 +235778,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_collections_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_burst",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_burst"
     },
     {
       "relation": "contains",
@@ -235613,9 +235788,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_burst",
-      "target": "packages_packages_lock_com_unity_burst_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_burst_dependencies"
     },
     {
       "relation": "contains",
@@ -235623,9 +235798,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_burst",
-      "target": "packages_packages_lock_com_unity_burst_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_burst_depth"
     },
     {
       "relation": "contains",
@@ -235633,9 +235808,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_burst",
-      "target": "packages_packages_lock_com_unity_burst_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_burst_source"
     },
     {
       "relation": "contains",
@@ -235643,9 +235818,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_burst",
-      "target": "packages_packages_lock_com_unity_burst_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_burst_url"
     },
     {
       "relation": "contains",
@@ -235653,9 +235828,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_burst",
-      "target": "packages_packages_lock_com_unity_burst_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_burst_version"
     },
     {
       "relation": "contains",
@@ -235663,9 +235838,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "target": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_dt_app_ui_dependencies"
     },
     {
       "relation": "contains",
@@ -235673,9 +235848,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "target": "packages_packages_lock_com_unity_dt_app_ui_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_dt_app_ui_depth"
     },
     {
       "relation": "contains",
@@ -235683,9 +235858,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "target": "packages_packages_lock_com_unity_dt_app_ui_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_dt_app_ui_source"
     },
     {
       "relation": "contains",
@@ -235693,9 +235868,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "target": "packages_packages_lock_com_unity_dt_app_ui_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_dt_app_ui_url"
     },
     {
       "relation": "contains",
@@ -235703,9 +235878,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
-      "target": "packages_packages_lock_com_unity_dt_app_ui_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_dt_app_ui_version"
     },
     {
       "relation": "contains",
@@ -235713,9 +235888,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_collections",
-      "target": "packages_packages_lock_com_unity_collections_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_collections_dependencies"
     },
     {
       "relation": "contains",
@@ -235723,9 +235898,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_collections",
-      "target": "packages_packages_lock_com_unity_collections_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_collections_depth"
     },
     {
       "relation": "contains",
@@ -235733,9 +235908,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_collections",
-      "target": "packages_packages_lock_com_unity_collections_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_collections_source"
     },
     {
       "relation": "contains",
@@ -235743,9 +235918,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_collections",
-      "target": "packages_packages_lock_com_unity_collections_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_collections_version"
     },
     {
       "relation": "contains",
@@ -235753,9 +235928,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L255",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_modules_screencapture_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion"
     },
     {
       "relation": "contains",
@@ -235763,9 +235938,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "target": "packages_packages_lock_com_unity_modules_imageconversion_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_dependencies"
     },
     {
       "relation": "contains",
@@ -235773,9 +235948,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L216",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "target": "packages_packages_lock_com_unity_modules_imageconversion_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_depth"
     },
     {
       "relation": "contains",
@@ -235783,9 +235958,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L217",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "target": "packages_packages_lock_com_unity_modules_imageconversion_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_source"
     },
     {
       "relation": "contains",
@@ -235793,9 +235968,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
-      "target": "packages_packages_lock_com_unity_modules_imageconversion_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_version"
     },
     {
       "relation": "contains",
@@ -235803,9 +235978,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_burst_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize"
     },
     {
       "relation": "contains",
@@ -235833,9 +236008,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize"
     },
     {
       "relation": "contains",
@@ -235883,9 +236058,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_collections_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework"
     },
     {
       "relation": "contains",
@@ -235893,9 +236068,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_collections_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework_performance"
     },
     {
       "relation": "contains",
@@ -235903,9 +236078,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework"
     },
     {
       "relation": "contains",
@@ -235953,9 +236128,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "target": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_test_framework_performance_dependencies"
     },
     {
       "relation": "contains",
@@ -235963,9 +236138,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "target": "packages_packages_lock_com_unity_test_framework_performance_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_test_framework_performance_depth"
     },
     {
       "relation": "contains",
@@ -235973,9 +236148,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "target": "packages_packages_lock_com_unity_test_framework_performance_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_test_framework_performance_source"
     },
     {
       "relation": "contains",
@@ -235983,9 +236158,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L149",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "target": "packages_packages_lock_com_unity_test_framework_performance_url",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_test_framework_performance_url"
     },
     {
       "relation": "contains",
@@ -235993,9 +236168,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
-      "target": "packages_packages_lock_com_unity_test_framework_performance_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_test_framework_performance_version"
     },
     {
       "relation": "contains",
@@ -236003,9 +236178,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_androidjni"
     },
     {
       "relation": "contains",
@@ -236013,9 +236188,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_physics",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_physics"
     },
     {
       "relation": "contains",
@@ -236023,9 +236198,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_dependencies_com_unity_modules_screencapture"
     },
     {
       "relation": "contains",
@@ -236083,9 +236258,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
-      "target": "packages_packages_lock_com_unity_modules_androidjni_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_androidjni_dependencies"
     },
     {
       "relation": "contains",
@@ -236093,9 +236268,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L183",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
-      "target": "packages_packages_lock_com_unity_modules_androidjni_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_androidjni_depth"
     },
     {
       "relation": "contains",
@@ -236103,9 +236278,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L184",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
-      "target": "packages_packages_lock_com_unity_modules_androidjni_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_androidjni_source"
     },
     {
       "relation": "contains",
@@ -236113,9 +236288,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
-      "target": "packages_packages_lock_com_unity_modules_androidjni_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_androidjni_version"
     },
     {
       "relation": "contains",
@@ -236123,9 +236298,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L254",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
-      "target": "packages_packages_lock_com_unity_modules_screencapture_dependencies",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_screencapture_dependencies"
     },
     {
       "relation": "contains",
@@ -236133,9 +236308,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L252",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
-      "target": "packages_packages_lock_com_unity_modules_screencapture_depth",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_screencapture_depth"
     },
     {
       "relation": "contains",
@@ -236143,9 +236318,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L253",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
-      "target": "packages_packages_lock_com_unity_modules_screencapture_source",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_screencapture_source"
     },
     {
       "relation": "contains",
@@ -236153,9 +236328,9 @@
       "source_file": "Packages/packages-lock.json",
       "source_location": "L251",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
-      "target": "packages_packages_lock_com_unity_modules_screencapture_version",
-      "confidence_score": 1.0
+      "target": "packages_packages_lock_com_unity_modules_screencapture_version"
     },
     {
       "relation": "contains",
@@ -291679,5 +291854,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "43b778b276dff301404a9951cb6a572b75206709"
+  "built_at_commit": "1d09a2b6e2c75b31e8ded036bc0807c462eccdb0"
 }

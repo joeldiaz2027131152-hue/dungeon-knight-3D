@@ -4873,5 +4873,60 @@
     "mtime": 1783883164.9083402,
     "ast_hash": "f377b1155d0de57bb0312f69a410b527",
     "semantic_hash": ""
+  },
+  "Assets/Editor/Grass07DetailPrefabBuilder.cs": {
+    "mtime": 1783892596.2227051,
+    "ast_hash": "b914b1e9dc3f3913c680c4434cf3525c",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/Grass07/readme.txt": {
+    "mtime": 1311089442.0,
+    "ast_hash": "f31c74f20db3e70a6b619cc6ce1f0f97",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Models/SwampApproach/Grass07/preview.jpg": {
+    "mtime": 1304261384.589197,
+    "ast_hash": "670c2d92aa02235f5119c3b20bc4bf33",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_01.png": {
+    "mtime": 1783891140.8363888,
+    "ast_hash": "76a878a5a7bab16e9d1746070dcfddbc",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_02.png": {
+    "mtime": 1783891140.9743905,
+    "ast_hash": "65a6f0603da23c6bced54f742c0c0506",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_03.png": {
+    "mtime": 1783891141.1093924,
+    "ast_hash": "d8ab3ea8f80c7b8433404f831c4c342c",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_04.png": {
+    "mtime": 1783891141.2593942,
+    "ast_hash": "3c1cd1ea230e9ce5ecf7a3ff1d2d9f57",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_05.png": {
+    "mtime": 1783891141.4093962,
+    "ast_hash": "2002570bc0902b60dd5922ab068eeb88",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_06.png": {
+    "mtime": 1783891141.5657501,
+    "ast_hash": "67054d0f72f9c983efd5b61382af701f",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/GrassDetails/swamp_reed_brown_sheet_preview.png": {
+    "mtime": 1783891141.6263988,
+    "ast_hash": "debb8e57b58119c1d977162d1705eac5",
+    "semantic_hash": ""
+  },
+  "Assets/Art/Textures/SwampApproach/swamp_grass_detail.png": {
+    "mtime": 1783890905.695412,
+    "ast_hash": "c165c85fcccd30fdf6c7faf37cc15aaf",
+    "semantic_hash": ""
   }
 }

@@ -60,7 +60,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder",
-      "community": 62,
+      "community": 17,
       "norm_label": "dk3dropeladdervisualbuilder.cs"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_string",
-      "community": 62,
+      "community": 17,
       "norm_label": "string"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_int",
-      "community": 62,
+      "community": 17,
       "norm_label": "int"
     },
     {
@@ -100,7 +100,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_float",
-      "community": 62,
+      "community": 17,
       "norm_label": "float"
     },
     {
@@ -120,7 +120,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_menuitem",
-      "community": 62,
+      "community": 17,
       "norm_label": "menuitem"
     },
     {
@@ -130,7 +130,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_dk3dropeladdervisualbuilder_opentool",
-      "community": 62,
+      "community": 17,
       "norm_label": ".opentool()"
     },
     {
@@ -300,7 +300,7 @@
       "source_location": "L208",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow",
-      "community": 62,
+      "community": 17,
       "norm_label": "ropeladdertoolwindow"
     },
     {
@@ -310,7 +310,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "editorwindow",
-      "community": 62,
+      "community": 191,
       "norm_label": "editorwindow"
     },
     {
@@ -320,7 +320,7 @@
       "source_location": "L216",
       "_origin": "ast",
       "id": "assets_editor_dk3dropeladdervisualbuilder_cs_bool",
-      "community": 62,
+      "community": 17,
       "norm_label": "bool"
     },
     {
@@ -330,7 +330,7 @@
       "source_location": "L218",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_showwindow",
-      "community": 62,
+      "community": 17,
       "norm_label": ".showwindow()"
     },
     {
@@ -340,7 +340,7 @@
       "source_location": "L224",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_ongui",
-      "community": 62,
+      "community": 17,
       "norm_label": ".ongui()"
     },
     {
@@ -350,7 +350,7 @@
       "source_location": "L277",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_islikelygeneratedladder",
-      "community": 62,
+      "community": 17,
       "norm_label": ".islikelygeneratedladder()"
     },
     {
@@ -360,7 +360,7 @@
       "source_location": "L290",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_sceneviewspawnposition",
-      "community": 62,
+      "community": 17,
       "norm_label": ".sceneviewspawnposition()"
     },
     {
@@ -370,7 +370,7 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "editor_dk3dropeladdervisualbuilder_ropeladdertoolwindow_uniquescenename",
-      "community": 62,
+      "community": 17,
       "norm_label": ".uniquescenename()"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool",
-      "community": 133,
+      "community": 302,
       "norm_label": "dungeonknight3dwallstretchtool.cs"
     },
     {
@@ -1090,7 +1090,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight_editor",
-      "community": 133,
+      "community": 302,
       "norm_label": "dungeonknight.editor"
     },
     {
@@ -1100,7 +1100,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles",
-      "community": 133,
+      "community": 302,
       "norm_label": "dungeonknight3dwallcornerhandles"
     },
     {
@@ -1110,7 +1110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_string",
-      "community": 133,
+      "community": 302,
       "norm_label": "string"
     },
     {
@@ -1120,7 +1120,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_float",
-      "community": 133,
+      "community": 302,
       "norm_label": "float"
     },
     {
@@ -1130,7 +1130,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_bool",
-      "community": 133,
+      "community": 302,
       "norm_label": "bool"
     },
     {
@@ -1140,7 +1140,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_toggle",
-      "community": 133,
+      "community": 302,
       "norm_label": ".toggle()"
     },
     {
@@ -1150,7 +1150,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_menuitem",
-      "community": 133,
+      "community": 302,
       "norm_label": "menuitem"
     },
     {
@@ -1160,7 +1160,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_togglevalidate",
-      "community": 133,
+      "community": 302,
       "norm_label": ".togglevalidate()"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawscenehandles",
-      "community": 133,
+      "community": 302,
       "norm_label": ".drawscenehandles()"
     },
     {
@@ -1180,7 +1180,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "sceneview",
-      "community": 133,
+      "community": 302,
       "norm_label": "sceneview"
     },
     {
@@ -1190,7 +1190,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawcornerhandle",
-      "community": 133,
+      "community": 302,
       "norm_label": ".drawcornerhandle()"
     },
     {
@@ -1220,7 +1220,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool",
-      "community": 133,
+      "community": 383,
       "norm_label": "dungeonknight3dwallstretchtool"
     },
     {
@@ -1230,7 +1230,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "stretchaxis",
-      "community": 133,
+      "community": 383,
       "norm_label": "stretchaxis"
     },
     {
@@ -1240,7 +1240,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "stretchanchor",
-      "community": 133,
+      "community": 383,
       "norm_label": "stretchanchor"
     },
     {
@@ -1250,7 +1250,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_open",
-      "community": 133,
+      "community": 302,
       "norm_label": ".open()"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_onselectionchange",
-      "community": 133,
+      "community": 383,
       "norm_label": ".onselectionchange()"
     },
     {
@@ -1270,7 +1270,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_ongui",
-      "community": 133,
+      "community": 383,
       "norm_label": ".ongui()"
     },
     {
@@ -1280,7 +1280,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_apply",
-      "community": 133,
+      "community": 383,
       "norm_label": ".apply()"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getanchoroffset",
-      "community": 133,
+      "community": 383,
       "norm_label": ".getanchoroffset()"
     },
     {
@@ -1300,7 +1300,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getaxisvalue",
-      "community": 133,
+      "community": 383,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_setaxisvalue",
-      "community": 133,
+      "community": 383,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "editaxis",
-      "community": 133,
+      "community": 383,
       "norm_label": "editaxis"
     },
     {
@@ -1380,7 +1380,7 @@
       "source_location": "L250",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_open",
-      "community": 133,
+      "community": 302,
       "norm_label": ".open()"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_location": "L726",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getaxisvalue",
-      "community": 133,
+      "community": 383,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1630,7 +1630,7 @@
       "source_location": "L739",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_setaxisvalue",
-      "community": 133,
+      "community": 383,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -19380,7 +19380,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "image",
-      "community": 52,
+      "community": 374,
       "norm_label": "image"
     },
     {
@@ -19390,7 +19390,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_transform",
-      "community": 52,
+      "community": 374,
       "norm_label": "transform"
     },
     {
@@ -19400,7 +19400,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textmesh",
-      "community": 52,
+      "community": 365,
       "norm_label": "textmesh"
     },
     {
@@ -19430,7 +19430,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_awake",
-      "community": 52,
+      "community": 374,
       "norm_label": ".awake()"
     },
     {
@@ -19480,7 +19480,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureoverlaycanvas",
-      "community": 52,
+      "community": 374,
       "norm_label": ".ensureoverlaycanvas()"
     },
     {
@@ -19490,7 +19490,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureworldhud",
-      "community": 52,
+      "community": 365,
       "norm_label": ".ensureworldhud()"
     },
     {
@@ -19500,7 +19500,7 @@
       "source_location": "L267",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateworldhud",
-      "community": 52,
+      "community": 365,
       "norm_label": ".updateworldhud()"
     },
     {
@@ -19510,7 +19510,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldtext",
-      "community": 52,
+      "community": 365,
       "norm_label": ".createworldtext()"
     },
     {
@@ -19520,7 +19520,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 52,
+      "community": 365,
       "norm_label": "textanchor"
     },
     {
@@ -19530,7 +19530,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 52,
+      "community": 365,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -19540,7 +19540,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 52,
+      "community": 365,
       "norm_label": "meshrenderer"
     },
     {
@@ -19570,7 +19570,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldtext",
-      "community": 52,
+      "community": 365,
       "norm_label": ".positionworldtext()"
     },
     {
@@ -19580,7 +19580,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector3",
-      "community": 52,
+      "community": 365,
       "norm_label": "vector3"
     },
     {
@@ -19590,7 +19590,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameralocalfromviewport",
-      "community": 52,
+      "community": 365,
       "norm_label": ".cameralocalfromviewport()"
     },
     {
@@ -19600,7 +19600,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_camera",
-      "community": 52,
+      "community": 365,
       "norm_label": "camera"
     },
     {
@@ -19610,7 +19610,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportheight",
-      "community": 52,
+      "community": 365,
       "norm_label": ".cameraviewportheight()"
     },
     {
@@ -19620,7 +19620,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportwidth",
-      "community": 52,
+      "community": 365,
       "norm_label": ".cameraviewportwidth()"
     },
     {
@@ -19630,7 +19630,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldbar",
-      "community": 52,
+      "community": 365,
       "norm_label": ".positionworldbar()"
     },
     {
@@ -19640,7 +19640,7 @@
       "source_location": "L405",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateoverlaycanvas",
-      "community": 52,
+      "community": 374,
       "norm_label": ".updateoverlaycanvas()"
     },
     {
@@ -19650,7 +19650,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createbar",
-      "community": 52,
+      "community": 374,
       "norm_label": ".createbar()"
     },
     {
@@ -19660,7 +19660,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector2",
-      "community": 52,
+      "community": 374,
       "norm_label": "vector2"
     },
     {
@@ -19670,7 +19670,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createtext",
-      "community": 52,
+      "community": 374,
       "norm_label": ".createtext()"
     },
     {
@@ -19680,7 +19680,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "font",
-      "community": 52,
+      "community": 374,
       "norm_label": "font"
     },
     {
@@ -19690,7 +19690,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "fontstyle",
-      "community": 52,
+      "community": 374,
       "norm_label": "fontstyle"
     },
     {
@@ -19700,7 +19700,7 @@
       "source_location": "L474",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createpanel",
-      "community": 52,
+      "community": 374,
       "norm_label": ".createpanel()"
     },
     {
@@ -19710,7 +19710,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_setrect",
-      "community": 52,
+      "community": 374,
       "norm_label": ".setrect()"
     },
     {
@@ -19720,7 +19720,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_recttransform",
-      "community": 52,
+      "community": 374,
       "norm_label": "recttransform"
     },
     {
@@ -20522,6 +20522,126 @@
       "id": "visuals_squashstretchanimator_squashstretchanimator_lateupdate",
       "community": 378,
       "norm_label": ".lateupdate()"
+    },
+    {
+      "label": "SwampWaterFlow.cs",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow",
+      "community": 379,
+      "norm_label": "swampwaterflow.cs"
+    },
+    {
+      "label": "DungeonKnight.Visuals",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow_dungeonknight_visuals",
+      "community": 379,
+      "norm_label": "dungeonknight.visuals"
+    },
+    {
+      "label": "SwampWaterFlow",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow_swampwaterflow",
+      "community": 379,
+      "norm_label": "swampwaterflow"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "assets_scripts_visuals_swampwaterflow_cs_int",
+      "community": 379,
+      "norm_label": "int"
+    },
+    {
+      "label": "Vector2",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "assets_scripts_visuals_swampwaterflow_cs_vector2",
+      "community": 379,
+      "norm_label": "vector2"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "assets_scripts_visuals_swampwaterflow_cs_float",
+      "community": 379,
+      "norm_label": "float"
+    },
+    {
+      "label": "Renderer",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "assets_scripts_visuals_swampwaterflow_cs_renderer",
+      "community": 379,
+      "norm_label": "renderer"
+    },
+    {
+      "label": "MaterialPropertyBlock",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "materialpropertyblock",
+      "community": 379,
+      "norm_label": "materialpropertyblock"
+    },
+    {
+      "label": ".OnEnable()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow_swampwaterflow_onenable",
+      "community": 379,
+      "norm_label": ".onenable()"
+    },
+    {
+      "label": ".Update()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow_swampwaterflow_update",
+      "community": 379,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".OnValidate()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow_swampwaterflow_onvalidate",
+      "community": 379,
+      "norm_label": ".onvalidate()"
+    },
+    {
+      "label": ".ApplyOffset()",
+      "file_type": "code",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "visuals_swampwaterflow_swampwaterflow_applyoffset",
+      "community": 379,
+      "norm_label": ".applyoffset()"
     },
     {
       "label": "AssemblyInfo.cs",
@@ -35080,7 +35200,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_scriptskills",
-      "community": 201,
+      "community": 180,
       "norm_label": "scriptskills.cs"
     },
     {
@@ -35090,7 +35210,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "skills_scriptskills_unityskills",
-      "community": 201,
+      "community": 180,
       "norm_label": "unityskills"
     },
     {
@@ -35150,7 +35270,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "skills_scriptskills_batchscriptitem",
-      "community": 201,
+      "community": 180,
       "norm_label": "batchscriptitem"
     },
     {
@@ -37900,7 +38020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillinstaller",
-      "community": 201,
+      "community": 221,
       "norm_label": "skillinstaller.cs"
     },
     {
@@ -37910,7 +38030,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "skills_skillinstaller_unityskills",
-      "community": 201,
+      "community": 221,
       "norm_label": "unityskills"
     },
     {
@@ -49140,7 +49260,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_methodinfo",
-      "community": 324,
+      "community": 191,
       "norm_label": "methodinfo"
     },
     {
@@ -49400,7 +49520,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_builddefaultparams",
-      "community": 324,
+      "community": 191,
       "norm_label": ".builddefaultparams()"
     },
     {
@@ -49410,7 +49530,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "ui_unityskillswindow_unityskillswindow_getdefaultfortype",
-      "community": 324,
+      "community": 191,
       "norm_label": ".getdefaultfortype()"
     },
     {
@@ -49420,7 +49540,7 @@
       "source_location": "L246",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_type",
-      "community": 324,
+      "community": 191,
       "norm_label": "type"
     },
     {
@@ -54424,20 +54544,60 @@
       "norm_label": "com.unity.2d.tilemap"
     },
     {
-      "label": "com.unity.test-framework",
+      "label": "com.unity.ai.assistant",
       "file_type": "code",
       "source_file": "Packages/manifest.json",
       "source_location": "L6",
+      "_origin": "ast",
+      "id": "packages_manifest_dependencies_com_unity_ai_assistant",
+      "community": 81,
+      "norm_label": "com.unity.ai.assistant"
+    },
+    {
+      "label": "com.unity.ai.inference",
+      "file_type": "code",
+      "source_file": "Packages/manifest.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "packages_manifest_dependencies_com_unity_ai_inference",
+      "community": 81,
+      "norm_label": "com.unity.ai.inference"
+    },
+    {
+      "label": "com.unity.sdk.linux-x86_64",
+      "file_type": "code",
+      "source_file": "Packages/manifest.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "packages_manifest_dependencies_com_unity_sdk_linux_x86_64",
+      "community": 81,
+      "norm_label": "com.unity.sdk.linux-x86_64"
+    },
+    {
+      "label": "com.unity.test-framework",
+      "file_type": "code",
+      "source_file": "Packages/manifest.json",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "packages_manifest_dependencies_com_unity_test_framework",
       "community": 81,
       "norm_label": "com.unity.test-framework"
     },
     {
+      "label": "com.unity.toolchain.linux-x86_64-linux",
+      "file_type": "code",
+      "source_file": "Packages/manifest.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "packages_manifest_dependencies_com_unity_toolchain_linux_x86_64_linux",
+      "community": 81,
+      "norm_label": "com.unity.toolchain.linux-x86_64-linux"
+    },
+    {
       "label": "com.unity.ugui",
       "file_type": "code",
       "source_file": "Packages/manifest.json",
-      "source_location": "L7",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "packages_manifest_dependencies_com_unity_ugui",
       "community": 81,
@@ -54447,7 +54607,7 @@
       "label": "com.unity.modules.animation",
       "file_type": "code",
       "source_file": "Packages/manifest.json",
-      "source_location": "L8",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "packages_manifest_dependencies_com_unity_modules_animation",
       "community": 81,
@@ -54457,37 +54617,17 @@
       "label": "com.unity.modules.audio",
       "file_type": "code",
       "source_file": "Packages/manifest.json",
-      "source_location": "L9",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "packages_manifest_dependencies_com_unity_modules_audio",
       "community": 81,
       "norm_label": "com.unity.modules.audio"
     },
     {
-      "label": "com.unity.sdk.linux-x86_64",
-      "file_type": "code",
-      "source_file": "Packages/manifest.json",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "packages_manifest_dependencies_com_unity_sdk_linux_x86_64",
-      "community": 81,
-      "norm_label": "com.unity.sdk.linux-x86_64"
-    },
-    {
-      "label": "com.unity.toolchain.linux-x86_64-linux",
-      "file_type": "code",
-      "source_file": "Packages/manifest.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "packages_manifest_dependencies_com_unity_toolchain_linux_x86_64_linux",
-      "community": 81,
-      "norm_label": "com.unity.toolchain.linux-x86_64-linux"
-    },
-    {
       "label": "testables",
       "file_type": "code",
       "source_file": "Packages/manifest.json",
-      "source_location": "L13",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "packages_manifest_testables",
       "community": 81,
@@ -54700,14 +54840,404 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_uielements",
-      "community": 302,
+      "community": 74,
       "norm_label": "com.unity.modules.uielements"
+    },
+    {
+      "label": "com.unity.ai.assistant",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "community": 78,
+      "norm_label": "com.unity.ai.assistant"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_assistant_version",
+      "community": 78,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_assistant_depth",
+      "community": 78,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_assistant_source",
+      "community": 78,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "community": 78,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "com.unity.mathematics",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "community": 396,
+      "norm_label": "com.unity.mathematics"
+    },
+    {
+      "label": "com.unity.nuget.mono-cecil",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "community": 400,
+      "norm_label": "com.unity.nuget.mono-cecil"
+    },
+    {
+      "label": "com.unity.modules.unitywebrequest",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "community": 78,
+      "norm_label": "com.unity.modules.unitywebrequest"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_assistant_url",
+      "community": 78,
+      "norm_label": "url"
+    },
+    {
+      "label": "com.unity.ai.inference",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "community": 397,
+      "norm_label": "com.unity.ai.inference"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_inference_version",
+      "community": 397,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_inference_depth",
+      "community": 397,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_inference_source",
+      "community": 397,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "community": 397,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "com.unity.burst",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_burst",
+      "community": 396,
+      "norm_label": "com.unity.burst"
+    },
+    {
+      "label": "com.unity.dt.app-ui",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "community": 397,
+      "norm_label": "com.unity.dt.app-ui"
+    },
+    {
+      "label": "com.unity.collections",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_collections",
+      "community": 62,
+      "norm_label": "com.unity.collections"
+    },
+    {
+      "label": "com.unity.modules.imageconversion",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "community": 398,
+      "norm_label": "com.unity.modules.imageconversion"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_ai_inference_url",
+      "community": 397,
+      "norm_label": "url"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_burst_version",
+      "community": 396,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_burst_depth",
+      "community": 396,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_burst_source",
+      "community": 396,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_burst_dependencies",
+      "community": 396,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "com.unity.modules.jsonserialize",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "community": 85,
+      "norm_label": "com.unity.modules.jsonserialize"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_burst_url",
+      "community": 396,
+      "norm_label": "url"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_collections_version",
+      "community": 62,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_collections_depth",
+      "community": 62,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_collections_source",
+      "community": 62,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_collections_dependencies",
+      "community": 62,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "com.unity.test-framework",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "community": 62,
+      "norm_label": "com.unity.test-framework"
+    },
+    {
+      "label": "com.unity.test-framework.performance",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "community": 62,
+      "norm_label": "com.unity.test-framework.performance"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_dt_app_ui_version",
+      "community": 397,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_dt_app_ui_depth",
+      "community": 397,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_dt_app_ui_source",
+      "community": 397,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
+      "community": 79,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "com.unity.modules.physics",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_modules_physics",
+      "community": 79,
+      "norm_label": "com.unity.modules.physics"
+    },
+    {
+      "label": "com.unity.modules.androidjni",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "community": 79,
+      "norm_label": "com.unity.modules.androidjni"
+    },
+    {
+      "label": "com.unity.modules.screencapture",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "community": 398,
+      "norm_label": "com.unity.modules.screencapture"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_dt_app_ui_url",
+      "community": 397,
+      "norm_label": "url"
     },
     {
       "label": "com.unity.ext.nunit",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L27",
+      "source_location": "L88",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_ext_nunit",
       "community": 85,
@@ -54717,7 +55247,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L28",
+      "source_location": "L89",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_version",
       "community": 85,
@@ -54727,7 +55257,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L29",
+      "source_location": "L90",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_depth",
       "community": 85,
@@ -54737,7 +55267,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L30",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_source",
       "community": 85,
@@ -54747,7 +55277,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L31",
+      "source_location": "L92",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_dependencies",
       "community": 85,
@@ -54757,7 +55287,107 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L34",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_mathematics_version",
+      "community": 396,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_mathematics_depth",
+      "community": 396,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_mathematics_source",
+      "community": 396,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_mathematics_dependencies",
+      "community": 396,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_mathematics_url",
+      "community": 396,
+      "norm_label": "url"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_nuget_mono_cecil_version",
+      "community": 400,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_nuget_mono_cecil_depth",
+      "community": 400,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_nuget_mono_cecil_source",
+      "community": 400,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_nuget_mono_cecil_dependencies",
+      "community": 400,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_nuget_mono_cecil_url",
+      "community": 400,
+      "norm_label": "url"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L109",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_newtonsoft_json_version",
       "community": 84,
@@ -54767,7 +55397,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L35",
+      "source_location": "L110",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_newtonsoft_json_depth",
       "community": 84,
@@ -54777,7 +55407,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L36",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_newtonsoft_json_source",
       "community": 84,
@@ -54787,7 +55417,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L37",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_newtonsoft_json_dependencies",
       "community": 84,
@@ -54797,7 +55427,7 @@
       "label": "url",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L38",
+      "source_location": "L113",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_newtonsoft_json_url",
       "community": 84,
@@ -54807,7 +55437,7 @@
       "label": "com.unity.sdk.linux-x86_64",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L40",
+      "source_location": "L115",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_sdk_linux_x86_64",
       "community": 77,
@@ -54817,7 +55447,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L41",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sdk_linux_x86_64_version",
       "community": 77,
@@ -54827,7 +55457,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L42",
+      "source_location": "L117",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sdk_linux_x86_64_depth",
       "community": 77,
@@ -54837,7 +55467,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L43",
+      "source_location": "L118",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sdk_linux_x86_64_source",
       "community": 77,
@@ -54847,7 +55477,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L44",
+      "source_location": "L119",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sdk_linux_x86_64_dependencies",
       "community": 77,
@@ -54857,7 +55487,7 @@
       "label": "com.unity.sysroot.base",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L45",
+      "source_location": "L120",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_sysroot_base",
       "community": 77,
@@ -54867,7 +55497,7 @@
       "label": "url",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L47",
+      "source_location": "L122",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sdk_linux_x86_64_url",
       "community": 77,
@@ -54877,7 +55507,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L50",
+      "source_location": "L125",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sysroot_base_version",
       "community": 77,
@@ -54887,7 +55517,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L51",
+      "source_location": "L126",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sysroot_base_depth",
       "community": 77,
@@ -54897,7 +55527,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L52",
+      "source_location": "L127",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sysroot_base_source",
       "community": 77,
@@ -54907,7 +55537,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L53",
+      "source_location": "L128",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sysroot_base_dependencies",
       "community": 77,
@@ -54917,57 +55547,47 @@
       "label": "url",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L54",
+      "source_location": "L129",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_sysroot_base_url",
       "community": 77,
       "norm_label": "url"
     },
     {
-      "label": "com.unity.test-framework",
-      "file_type": "code",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L56",
-      "_origin": "ast",
-      "id": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "community": 85,
-      "norm_label": "com.unity.test-framework"
-    },
-    {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L57",
+      "source_location": "L132",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_test_framework_version",
-      "community": 85,
+      "community": 62,
       "norm_label": "version"
     },
     {
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L58",
+      "source_location": "L133",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_test_framework_depth",
-      "community": 85,
+      "community": 62,
       "norm_label": "depth"
     },
     {
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L59",
+      "source_location": "L134",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_test_framework_source",
-      "community": 85,
+      "community": 62,
       "norm_label": "source"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L60",
+      "source_location": "L135",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_test_framework_dependencies",
       "community": 85,
@@ -54977,27 +55597,67 @@
       "label": "com.unity.modules.imgui",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L62",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_imgui",
-      "community": 85,
+      "community": 76,
       "norm_label": "com.unity.modules.imgui"
-    },
-    {
-      "label": "com.unity.modules.jsonserialize",
-      "file_type": "code",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L63",
-      "_origin": "ast",
-      "id": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "community": 302,
-      "norm_label": "com.unity.modules.jsonserialize"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L67",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_test_framework_performance_version",
+      "community": 62,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_test_framework_performance_depth",
+      "community": 62,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_test_framework_performance_source",
+      "community": 62,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
+      "community": 62,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L149",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_test_framework_performance_url",
+      "community": 62,
+      "norm_label": "url"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L152",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_timeline_version",
       "community": 84,
@@ -55007,7 +55667,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L68",
+      "source_location": "L153",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_timeline_depth",
       "community": 84,
@@ -55017,7 +55677,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L69",
+      "source_location": "L154",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_timeline_source",
       "community": 84,
@@ -55027,7 +55687,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L70",
+      "source_location": "L155",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_timeline_dependencies",
       "community": 75,
@@ -55037,7 +55697,7 @@
       "label": "com.unity.modules.audio",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L71",
+      "source_location": "L156",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_audio",
       "community": 75,
@@ -55047,7 +55707,7 @@
       "label": "com.unity.modules.director",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L72",
+      "source_location": "L157",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_director",
       "community": 75,
@@ -55057,7 +55717,7 @@
       "label": "com.unity.modules.animation",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L73",
+      "source_location": "L158",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_animation",
       "community": 75,
@@ -55067,7 +55727,7 @@
       "label": "com.unity.modules.particlesystem",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L74",
+      "source_location": "L159",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_particlesystem",
       "community": 75,
@@ -55077,7 +55737,7 @@
       "label": "url",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L76",
+      "source_location": "L161",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_timeline_url",
       "community": 84,
@@ -55087,67 +55747,67 @@
       "label": "com.unity.toolchain.linux-x86_64-linux",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L78",
+      "source_location": "L163",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_toolchain_linux_x86_64_linux",
-      "community": 374,
+      "community": 77,
       "norm_label": "com.unity.toolchain.linux-x86_64-linux"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L79",
+      "source_location": "L164",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_toolchain_linux_x86_64_linux_version",
-      "community": 374,
+      "community": 77,
       "norm_label": "version"
     },
     {
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L80",
+      "source_location": "L165",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_toolchain_linux_x86_64_linux_depth",
-      "community": 374,
+      "community": 77,
       "norm_label": "depth"
     },
     {
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L81",
+      "source_location": "L166",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_toolchain_linux_x86_64_linux_source",
-      "community": 374,
+      "community": 77,
       "norm_label": "source"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L82",
+      "source_location": "L167",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_toolchain_linux_x86_64_linux_dependencies",
-      "community": 374,
+      "community": 77,
       "norm_label": "dependencies"
     },
     {
       "label": "url",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L85",
+      "source_location": "L170",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_toolchain_linux_x86_64_linux_url",
-      "community": 374,
+      "community": 77,
       "norm_label": "url"
     },
     {
       "label": "com.unity.ugui",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L87",
+      "source_location": "L172",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_ugui",
       "community": 76,
@@ -55157,7 +55817,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L88",
+      "source_location": "L173",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_version",
       "community": 76,
@@ -55167,7 +55827,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L89",
+      "source_location": "L174",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_depth",
       "community": 76,
@@ -55177,7 +55837,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L90",
+      "source_location": "L175",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_source",
       "community": 76,
@@ -55187,7 +55847,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L91",
+      "source_location": "L176",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_dependencies",
       "community": 76,
@@ -55197,7 +55857,7 @@
       "label": "com.unity.modules.ui",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L92",
+      "source_location": "L177",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_ui",
       "community": 76,
@@ -55207,7 +55867,47 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L97",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_androidjni_version",
+      "community": 79,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_androidjni_depth",
+      "community": 79,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_androidjni_source",
+      "community": 79,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L185",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_androidjni_dependencies",
+      "community": 79,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L188",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_animation_version",
       "community": 75,
@@ -55217,7 +55917,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L98",
+      "source_location": "L189",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_animation_depth",
       "community": 75,
@@ -55227,7 +55927,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L99",
+      "source_location": "L190",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_animation_source",
       "community": 75,
@@ -55237,7 +55937,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L100",
+      "source_location": "L191",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_animation_dependencies",
       "community": 75,
@@ -55247,7 +55947,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L103",
+      "source_location": "L194",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_audio_version",
       "community": 75,
@@ -55257,7 +55957,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L104",
+      "source_location": "L195",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_audio_depth",
       "community": 75,
@@ -55267,7 +55967,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L105",
+      "source_location": "L196",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_audio_source",
       "community": 75,
@@ -55277,7 +55977,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L106",
+      "source_location": "L197",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_audio_dependencies",
       "community": 75,
@@ -55287,7 +55987,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L109",
+      "source_location": "L200",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_director_version",
       "community": 75,
@@ -55297,7 +55997,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L110",
+      "source_location": "L201",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_director_depth",
       "community": 75,
@@ -55307,7 +56007,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L111",
+      "source_location": "L202",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_director_source",
       "community": 75,
@@ -55317,7 +56017,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L112",
+      "source_location": "L203",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_director_dependencies",
       "community": 75,
@@ -55327,137 +56027,177 @@
       "label": "com.unity.modules.hierarchycore",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L117",
+      "source_location": "L208",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_hierarchycore",
-      "community": 302,
+      "community": 76,
       "norm_label": "com.unity.modules.hierarchycore"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L118",
+      "source_location": "L209",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_hierarchycore_version",
-      "community": 302,
+      "community": 76,
       "norm_label": "version"
     },
     {
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L119",
+      "source_location": "L210",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_hierarchycore_depth",
-      "community": 302,
+      "community": 76,
       "norm_label": "depth"
     },
     {
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L120",
+      "source_location": "L211",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_hierarchycore_source",
-      "community": 302,
+      "community": 76,
       "norm_label": "source"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L121",
+      "source_location": "L212",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_hierarchycore_dependencies",
-      "community": 302,
+      "community": 76,
       "norm_label": "dependencies"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L124",
+      "source_location": "L215",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_imageconversion_version",
+      "community": 398,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L216",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_imageconversion_depth",
+      "community": 398,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L217",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_imageconversion_source",
+      "community": 398,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_imageconversion_dependencies",
+      "community": 398,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L221",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_imgui_version",
-      "community": 85,
+      "community": 76,
       "norm_label": "version"
     },
     {
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L125",
+      "source_location": "L222",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_imgui_depth",
-      "community": 85,
+      "community": 76,
       "norm_label": "depth"
     },
     {
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L126",
+      "source_location": "L223",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_imgui_source",
-      "community": 85,
+      "community": 76,
       "norm_label": "source"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L127",
+      "source_location": "L224",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_imgui_dependencies",
-      "community": 85,
+      "community": 76,
       "norm_label": "dependencies"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L130",
+      "source_location": "L227",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_version",
-      "community": 302,
+      "community": 85,
       "norm_label": "version"
     },
     {
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L131",
+      "source_location": "L228",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_depth",
-      "community": 302,
+      "community": 85,
       "norm_label": "depth"
     },
     {
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L132",
+      "source_location": "L229",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_source",
-      "community": 302,
+      "community": 85,
       "norm_label": "source"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L133",
+      "source_location": "L230",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_dependencies",
-      "community": 302,
+      "community": 85,
       "norm_label": "dependencies"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L136",
+      "source_location": "L233",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_version",
       "community": 75,
@@ -55467,7 +56207,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L137",
+      "source_location": "L234",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_depth",
       "community": 75,
@@ -55477,7 +56217,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L138",
+      "source_location": "L235",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_source",
       "community": 75,
@@ -55487,27 +56227,17 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L139",
+      "source_location": "L236",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_particlesystem_dependencies",
       "community": 75,
       "norm_label": "dependencies"
     },
     {
-      "label": "com.unity.modules.physics",
-      "file_type": "code",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L141",
-      "_origin": "ast",
-      "id": "packages_packages_lock_dependencies_com_unity_modules_physics",
-      "community": 79,
-      "norm_label": "com.unity.modules.physics"
-    },
-    {
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L142",
+      "source_location": "L239",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics_version",
       "community": 79,
@@ -55517,7 +56247,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L143",
+      "source_location": "L240",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics_depth",
       "community": 79,
@@ -55527,7 +56257,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L144",
+      "source_location": "L241",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics_source",
       "community": 79,
@@ -55537,7 +56267,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L145",
+      "source_location": "L242",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics_dependencies",
       "community": 79,
@@ -55547,7 +56277,7 @@
       "label": "com.unity.modules.physics2d",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L147",
+      "source_location": "L244",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_physics2d",
       "community": 74,
@@ -55557,7 +56287,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L148",
+      "source_location": "L245",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics2d_version",
       "community": 74,
@@ -55567,7 +56297,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L149",
+      "source_location": "L246",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics2d_depth",
       "community": 74,
@@ -55577,7 +56307,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L150",
+      "source_location": "L247",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics2d_source",
       "community": 74,
@@ -55587,7 +56317,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L151",
+      "source_location": "L248",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_physics2d_dependencies",
       "community": 74,
@@ -55597,7 +56327,47 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L154",
+      "source_location": "L251",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_screencapture_version",
+      "community": 398,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L252",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_screencapture_depth",
+      "community": 398,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L253",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_screencapture_source",
+      "community": 398,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L254",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_screencapture_dependencies",
+      "community": 398,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L259",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_tilemap_version",
       "community": 74,
@@ -55607,7 +56377,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L155",
+      "source_location": "L260",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_tilemap_depth",
       "community": 74,
@@ -55617,7 +56387,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L156",
+      "source_location": "L261",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_tilemap_source",
       "community": 74,
@@ -55627,7 +56397,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L157",
+      "source_location": "L262",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_tilemap_dependencies",
       "community": 74,
@@ -55637,7 +56407,7 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L162",
+      "source_location": "L267",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_version",
       "community": 76,
@@ -55647,7 +56417,7 @@
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L163",
+      "source_location": "L268",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_depth",
       "community": 76,
@@ -55657,7 +56427,7 @@
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L164",
+      "source_location": "L269",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_source",
       "community": 76,
@@ -55667,7 +56437,7 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L165",
+      "source_location": "L270",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_dependencies",
       "community": 76,
@@ -55677,40 +56447,80 @@
       "label": "version",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L168",
+      "source_location": "L273",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_uielements_version",
-      "community": 302,
+      "community": 74,
       "norm_label": "version"
     },
     {
       "label": "depth",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L169",
+      "source_location": "L274",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_uielements_depth",
-      "community": 302,
+      "community": 74,
       "norm_label": "depth"
     },
     {
       "label": "source",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L170",
+      "source_location": "L275",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_uielements_source",
-      "community": 302,
+      "community": 74,
       "norm_label": "source"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L171",
+      "source_location": "L276",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_uielements_dependencies",
-      "community": 302,
+      "community": 76,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L285",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_unitywebrequest_version",
+      "community": 78,
+      "norm_label": "version"
+    },
+    {
+      "label": "depth",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L286",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_unitywebrequest_depth",
+      "community": 78,
+      "norm_label": "depth"
+    },
+    {
+      "label": "source",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L287",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_unitywebrequest_source",
+      "community": 78,
+      "norm_label": "source"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L288",
+      "_origin": "ast",
+      "id": "packages_packages_lock_com_unity_modules_unitywebrequest_dependencies",
+      "community": 78,
       "norm_label": "dependencies"
     },
     {
@@ -96010,7 +96820,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "dotween_design_skill_dotween_design_rules",
-      "community": 379,
+      "community": 331,
       "norm_label": "dotween - design rules"
     },
     {
@@ -96020,7 +96830,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "dotween_design_skill_when_to_load_this_module",
-      "community": 379,
+      "community": 331,
       "norm_label": "when to load this module"
     },
     {
@@ -96030,7 +96840,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "dotween_design_skill_critical_rule_summary",
-      "community": 379,
+      "community": 331,
       "norm_label": "critical rule summary"
     },
     {
@@ -96040,7 +96850,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "dotween_design_skill_sub_doc_routing",
-      "community": 379,
+      "community": 331,
       "norm_label": "sub-doc routing"
     },
     {
@@ -96050,7 +96860,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "dotween_design_skill_routing_to_other_modules",
-      "community": 379,
+      "community": 331,
       "norm_label": "routing to other modules"
     },
     {
@@ -96060,7 +96870,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "dotween_design_skill_version_scope",
-      "community": 379,
+      "community": 331,
       "norm_label": "version scope"
     },
     {
@@ -97560,7 +98370,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "inspector_skill_unity_inspector_design",
-      "community": 383,
+      "community": 349,
       "norm_label": "unity inspector design"
     },
     {
@@ -97570,7 +98380,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "inspector_skill_guardrails",
-      "community": 383,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -97580,7 +98390,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "inspector_skill_default_rules",
-      "community": 383,
+      "community": 349,
       "norm_label": "default rules"
     },
     {
@@ -97590,7 +98400,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "inspector_skill_inspector_quality_checklist",
-      "community": 383,
+      "community": 349,
       "norm_label": "inspector quality checklist"
     },
     {
@@ -97600,7 +98410,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "inspector_skill_output_format",
-      "community": 383,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -102200,7 +103010,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 365,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -102210,7 +103020,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 365,
+      "community": 349,
       "norm_label": "unity scene contracts"
     },
     {
@@ -102220,7 +103030,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 365,
+      "community": 349,
       "norm_label": "define"
     },
     {
@@ -102230,7 +103040,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 365,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -102240,7 +103050,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 365,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -110030,7 +110840,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "yooasset_design_skill_yooasset_design_rules",
-      "community": 349,
+      "community": 399,
       "norm_label": "yooasset - design rules"
     },
     {
@@ -110040,7 +110850,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "yooasset_design_skill_when_to_load_this_module",
-      "community": 349,
+      "community": 399,
       "norm_label": "when to load this module"
     },
     {
@@ -110050,7 +110860,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "yooasset_design_skill_critical_rule_summary_memorize_even_if_you_skip_the_sub_docs",
-      "community": 349,
+      "community": 399,
       "norm_label": "critical rule summary (memorize even if you skip the sub-docs)"
     },
     {
@@ -110060,7 +110870,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "yooasset_design_skill_sub_doc_routing",
-      "community": 349,
+      "community": 399,
       "norm_label": "sub-doc routing"
     },
     {
@@ -110070,7 +110880,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "yooasset_design_skill_routing_to_other_modules",
-      "community": 349,
+      "community": 399,
       "norm_label": "routing to other modules"
     },
     {
@@ -110080,7 +110890,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "yooasset_design_skill_version_scope",
-      "community": 349,
+      "community": 399,
       "norm_label": "version scope"
     },
     {
@@ -110090,7 +110900,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "yooasset_design_skill_migration_notes_hallucination_shield",
-      "community": 349,
+      "community": 399,
       "norm_label": "migration notes (hallucination shield)"
     },
     {
@@ -114876,9 +115686,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L409",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy"
     },
     {
       "relation": "method",
@@ -114896,9 +115706,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L384",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways"
     },
     {
       "relation": "method",
@@ -114976,9 +115786,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L340",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds"
     },
     {
       "relation": "method",
@@ -115046,9 +115856,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L277",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure"
     },
     {
       "relation": "method",
@@ -115178,9 +115988,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy"
     },
     {
       "relation": "calls",
@@ -115189,9 +115999,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways"
     },
     {
       "relation": "calls",
@@ -115244,9 +116054,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds"
     },
     {
       "relation": "calls",
@@ -115299,9 +116109,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure"
     },
     {
       "relation": "calls",
@@ -115442,9 +116252,9 @@
       "source_location": "L409",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115464,9 +116274,9 @@
       "source_location": "L384",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115519,9 +116329,9 @@
       "source_location": "L340",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115585,9 +116395,9 @@
       "source_location": "L277",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115640,9 +116450,9 @@
       "source_location": "L409",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115662,9 +116472,9 @@
       "source_location": "L384",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115728,9 +116538,9 @@
       "source_location": "L340",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115805,9 +116615,9 @@
       "source_location": "L277",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -116047,9 +116857,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L296",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc"
     },
     {
       "relation": "calls",
@@ -116058,9 +116868,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -116069,9 +116879,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L367",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox"
     },
     {
       "relation": "calls",
@@ -116080,9 +116890,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L372",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder"
     },
     {
       "relation": "calls",
@@ -116091,9 +116901,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L379",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc"
     },
     {
       "relation": "calls",
@@ -116102,9 +116912,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L342",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -116113,9 +116923,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L400",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox"
     },
     {
       "relation": "calls",
@@ -116124,9 +116934,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L404",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween"
     },
     {
       "relation": "calls",
@@ -116135,9 +116945,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L386",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -116146,9 +116956,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L430",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox"
     },
     {
       "relation": "calls",
@@ -116157,9 +116967,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L417",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween"
     },
     {
       "relation": "calls",
@@ -116168,9 +116978,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L411",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "references",
@@ -117823,6 +118633,16 @@
       "confidence_score": 1.0,
       "source": "visuals_squashstretchanimator_squashstretchanimator",
       "target": "monobehaviour"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "monobehaviour",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -156358,6 +157178,143 @@
       "confidence_score": 1.0,
       "source": "visuals_squashstretchanimator_squashstretchanimator",
       "target": "visuals_squashstretchanimator_squashstretchanimator_lateupdate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow",
+      "target": "visuals_swampwaterflow_dungeonknight_visuals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow",
+      "target": "visuals_swampwaterflow_swampwaterflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "field",
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "assets_scripts_visuals_swampwaterflow_cs_float",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "assets_scripts_visuals_swampwaterflow_cs_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "assets_scripts_visuals_swampwaterflow_cs_renderer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "assets_scripts_visuals_swampwaterflow_cs_vector2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "field",
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "materialpropertyblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "visuals_swampwaterflow_swampwaterflow_onenable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "visuals_swampwaterflow_swampwaterflow_onvalidate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow",
+      "target": "visuals_swampwaterflow_swampwaterflow_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow_onenable",
+      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Scripts/Visuals/SwampWaterFlow.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "visuals_swampwaterflow_swampwaterflow_update",
+      "target": "visuals_swampwaterflow_swampwaterflow_applyoffset",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -233474,6 +234431,26 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Packages/manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "packages_manifest_dependencies",
+      "target": "packages_manifest_dependencies_com_unity_ai_assistant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/manifest.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "packages_manifest_dependencies",
+      "target": "packages_manifest_dependencies_com_unity_ai_inference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/manifest.json",
       "source_location": "L8",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -233574,11 +234551,81 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Packages/packages-lock.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_burst",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_collections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
       "source_location": "L89",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
       "target": "packages_packages_lock_dependencies_com_unity_ext_nunit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -233619,6 +234666,16 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
       "target": "packages_packages_lock_dependencies_com_unity_modules_hierarchycore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -233674,6 +234731,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Packages/packages-lock.json",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
       "source_location": "L259",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -233699,6 +234766,26 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
       "target": "packages_packages_lock_dependencies_com_unity_modules_uielements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L284",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -233739,6 +234826,16 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies",
       "target": "packages_packages_lock_dependencies_com_unity_test_framework"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -233829,6 +234926,26 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_com_besty_unity_skills_dependencies",
       "target": "packages_packages_lock_dependencies_com_unity_timeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_newtonsoft_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_newtonsoft_json",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -233929,6 +235046,16 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_timeline",
       "target": "packages_packages_lock_com_unity_timeline_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_2d_sprite",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -234074,6 +235201,26 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Packages/packages-lock.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_uielements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_uielements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
       "source_location": "L277",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -234109,6 +235256,906 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_uielements",
       "target": "packages_packages_lock_com_unity_modules_uielements_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "target": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "target": "packages_packages_lock_com_unity_ai_assistant_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "target": "packages_packages_lock_com_unity_ai_assistant_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "target": "packages_packages_lock_com_unity_ai_assistant_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_assistant",
+      "target": "packages_packages_lock_com_unity_ai_assistant_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_assistant_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_burst_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_collections_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "target": "packages_packages_lock_com_unity_mathematics_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "target": "packages_packages_lock_com_unity_mathematics_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "target": "packages_packages_lock_com_unity_mathematics_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "target": "packages_packages_lock_com_unity_mathematics_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_mathematics",
+      "target": "packages_packages_lock_com_unity_mathematics_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_collections_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
+      "target": "packages_packages_lock_com_unity_nuget_mono_cecil_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L288",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L287",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L285",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_unitywebrequest",
+      "target": "packages_packages_lock_com_unity_modules_unitywebrequest_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "target": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "target": "packages_packages_lock_com_unity_ai_inference_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "target": "packages_packages_lock_com_unity_ai_inference_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "target": "packages_packages_lock_com_unity_ai_inference_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_ai_inference",
+      "target": "packages_packages_lock_com_unity_ai_inference_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_burst",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_collections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_ai_inference_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_collections_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_burst",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_burst",
+      "target": "packages_packages_lock_com_unity_burst_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_burst",
+      "target": "packages_packages_lock_com_unity_burst_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_burst",
+      "target": "packages_packages_lock_com_unity_burst_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_burst",
+      "target": "packages_packages_lock_com_unity_burst_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_burst",
+      "target": "packages_packages_lock_com_unity_burst_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "target": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "target": "packages_packages_lock_com_unity_dt_app_ui_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "target": "packages_packages_lock_com_unity_dt_app_ui_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "target": "packages_packages_lock_com_unity_dt_app_ui_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_dt_app_ui",
+      "target": "packages_packages_lock_com_unity_dt_app_ui_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_collections",
+      "target": "packages_packages_lock_com_unity_collections_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_collections",
+      "target": "packages_packages_lock_com_unity_collections_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_collections",
+      "target": "packages_packages_lock_com_unity_collections_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_collections",
+      "target": "packages_packages_lock_com_unity_collections_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L255",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_modules_screencapture_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_imageconversion",
+      "target": "packages_packages_lock_com_unity_modules_imageconversion_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_burst_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L280",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_com_unity_modules_uielements_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_com_unity_test_framework_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L231",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "target": "packages_packages_lock_com_unity_modules_jsonserialize_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "target": "packages_packages_lock_com_unity_modules_jsonserialize_depth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L230",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "target": "packages_packages_lock_com_unity_modules_jsonserialize_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L228",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
+      "target": "packages_packages_lock_com_unity_modules_jsonserialize_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_collections_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_collections_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "target": "packages_packages_lock_com_unity_test_framework_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "target": "packages_packages_lock_com_unity_test_framework_depth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "target": "packages_packages_lock_com_unity_test_framework_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
+      "target": "packages_packages_lock_com_unity_test_framework_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "target": "packages_packages_lock_com_unity_test_framework_performance_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "target": "packages_packages_lock_com_unity_test_framework_performance_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "target": "packages_packages_lock_com_unity_test_framework_performance_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "target": "packages_packages_lock_com_unity_test_framework_performance_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_test_framework_performance",
+      "target": "packages_packages_lock_com_unity_test_framework_performance_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_physics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "packages_packages_lock_com_unity_dt_app_ui_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L282",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_com_unity_modules_uielements_dependencies",
+      "target": "packages_packages_lock_dependencies_com_unity_modules_physics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L243",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
+      "target": "packages_packages_lock_com_unity_modules_physics_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L241",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
+      "target": "packages_packages_lock_com_unity_modules_physics_depth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L242",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
+      "target": "packages_packages_lock_com_unity_modules_physics_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L240",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
+      "target": "packages_packages_lock_com_unity_modules_physics_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "target": "packages_packages_lock_com_unity_modules_androidjni_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "target": "packages_packages_lock_com_unity_modules_androidjni_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "target": "packages_packages_lock_com_unity_modules_androidjni_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_androidjni",
+      "target": "packages_packages_lock_com_unity_modules_androidjni_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L254",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "target": "packages_packages_lock_com_unity_modules_screencapture_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L252",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "target": "packages_packages_lock_com_unity_modules_screencapture_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "target": "packages_packages_lock_com_unity_modules_screencapture_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Packages/packages-lock.json",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "packages_packages_lock_dependencies_com_unity_modules_screencapture",
+      "target": "packages_packages_lock_com_unity_modules_screencapture_version",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -234284,61 +236331,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Packages/packages-lock.json",
-      "source_location": "L136",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "target": "packages_packages_lock_com_unity_test_framework_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L134",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "target": "packages_packages_lock_com_unity_test_framework_depth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L135",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "target": "packages_packages_lock_com_unity_test_framework_source"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L133",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_test_framework",
-      "target": "packages_packages_lock_com_unity_test_framework_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
       "source_location": "L138",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "packages_packages_lock_com_unity_test_framework_dependencies",
       "target": "packages_packages_lock_dependencies_com_unity_modules_imgui"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L139",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_com_unity_test_framework_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize"
     },
     {
       "relation": "contains",
@@ -234399,56 +236396,6 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_imgui",
       "target": "packages_packages_lock_com_unity_modules_imgui_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L280",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_com_unity_modules_uielements_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L231",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "target": "packages_packages_lock_com_unity_modules_jsonserialize_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L229",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "target": "packages_packages_lock_com_unity_modules_jsonserialize_depth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L230",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "target": "packages_packages_lock_com_unity_modules_jsonserialize_source"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L228",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "target": "packages_packages_lock_com_unity_modules_jsonserialize_version"
     },
     {
       "relation": "contains",
@@ -234869,56 +236816,6 @@
       "confidence_score": 1.0,
       "source": "packages_packages_lock_dependencies_com_unity_modules_hierarchycore",
       "target": "packages_packages_lock_com_unity_modules_hierarchycore_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L282",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_com_unity_modules_uielements_dependencies",
-      "target": "packages_packages_lock_dependencies_com_unity_modules_physics"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L243",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
-      "target": "packages_packages_lock_com_unity_modules_physics_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L241",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
-      "target": "packages_packages_lock_com_unity_modules_physics_depth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L242",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
-      "target": "packages_packages_lock_com_unity_modules_physics_source"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Packages/packages-lock.json",
-      "source_location": "L240",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "packages_packages_lock_dependencies_com_unity_modules_physics",
-      "target": "packages_packages_lock_com_unity_modules_physics_version"
     },
     {
       "relation": "contains",
@@ -289782,5 +291679,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f593b7d627fc15a9c4f61a1c065fb3480a9f850f"
+  "built_at_commit": "43b778b276dff301404a9951cb6a572b75206709"
 }
