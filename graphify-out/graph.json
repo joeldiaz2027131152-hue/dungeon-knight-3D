@@ -310,7 +310,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "editorwindow",
-      "community": 191,
+      "community": 230,
       "norm_label": "editorwindow"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool",
-      "community": 230,
+      "community": 133,
       "norm_label": "dungeonknight3dwallstretchtool.cs"
     },
     {
@@ -1090,7 +1090,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight_editor",
-      "community": 230,
+      "community": 133,
       "norm_label": "dungeonknight.editor"
     },
     {
@@ -1100,7 +1100,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles",
-      "community": 230,
+      "community": 133,
       "norm_label": "dungeonknight3dwallcornerhandles"
     },
     {
@@ -1110,7 +1110,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_string",
-      "community": 230,
+      "community": 133,
       "norm_label": "string"
     },
     {
@@ -1120,7 +1120,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_float",
-      "community": 230,
+      "community": 133,
       "norm_label": "float"
     },
     {
@@ -1130,7 +1130,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_bool",
-      "community": 230,
+      "community": 133,
       "norm_label": "bool"
     },
     {
@@ -1140,7 +1140,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_toggle",
-      "community": 230,
+      "community": 133,
       "norm_label": ".toggle()"
     },
     {
@@ -1150,7 +1150,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "assets_editor_dungeonknight3dwallstretchtool_cs_menuitem",
-      "community": 230,
+      "community": 133,
       "norm_label": "menuitem"
     },
     {
@@ -1160,7 +1160,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_togglevalidate",
-      "community": 230,
+      "community": 133,
       "norm_label": ".togglevalidate()"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawscenehandles",
-      "community": 230,
+      "community": 133,
       "norm_label": ".drawscenehandles()"
     },
     {
@@ -1180,7 +1180,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "sceneview",
-      "community": 230,
+      "community": 133,
       "norm_label": "sceneview"
     },
     {
@@ -1190,7 +1190,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallcornerhandles_drawcornerhandle",
-      "community": 230,
+      "community": 133,
       "norm_label": ".drawcornerhandle()"
     },
     {
@@ -1220,7 +1220,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool",
-      "community": 374,
+      "community": 133,
       "norm_label": "dungeonknight3dwallstretchtool"
     },
     {
@@ -1230,7 +1230,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "stretchaxis",
-      "community": 374,
+      "community": 133,
       "norm_label": "stretchaxis"
     },
     {
@@ -1240,7 +1240,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "stretchanchor",
-      "community": 374,
+      "community": 133,
       "norm_label": "stretchanchor"
     },
     {
@@ -1250,7 +1250,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_open",
-      "community": 230,
+      "community": 133,
       "norm_label": ".open()"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_onselectionchange",
-      "community": 374,
+      "community": 133,
       "norm_label": ".onselectionchange()"
     },
     {
@@ -1270,7 +1270,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_ongui",
-      "community": 374,
+      "community": 133,
       "norm_label": ".ongui()"
     },
     {
@@ -1280,7 +1280,7 @@
       "source_location": "L160",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_apply",
-      "community": 374,
+      "community": 133,
       "norm_label": ".apply()"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getanchoroffset",
-      "community": 374,
+      "community": 133,
       "norm_label": ".getanchoroffset()"
     },
     {
@@ -1300,7 +1300,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_getaxisvalue",
-      "community": 374,
+      "community": 133,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dwallstretchtool_setaxisvalue",
-      "community": 374,
+      "community": 133,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "editaxis",
-      "community": 374,
+      "community": 133,
       "norm_label": "editaxis"
     },
     {
@@ -1380,7 +1380,7 @@
       "source_location": "L250",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_open",
-      "community": 230,
+      "community": 133,
       "norm_label": ".open()"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_location": "L726",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_getaxisvalue",
-      "community": 374,
+      "community": 133,
       "norm_label": ".getaxisvalue()"
     },
     {
@@ -1630,7 +1630,7 @@
       "source_location": "L739",
       "_origin": "ast",
       "id": "editor_dungeonknight3dwallstretchtool_dungeonknight3dmapattachtool_setaxisvalue",
-      "community": 374,
+      "community": 133,
       "norm_label": ".setaxisvalue()"
     },
     {
@@ -1782,6 +1782,136 @@
       "id": "assets_editor_grass07detailprefabbuilder_cs_vector3",
       "community": 321,
       "norm_label": "vector3"
+    },
+    {
+      "label": "GrassPackDetailPrefabBuilder.cs",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder",
+      "community": 357,
+      "norm_label": "grasspackdetailprefabbuilder.cs"
+    },
+    {
+      "label": "GrassPackDetailPrefabBuilder",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "community": 357,
+      "norm_label": "grasspackdetailprefabbuilder"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "assets_editor_grasspackdetailprefabbuilder_cs_string",
+      "community": 357,
+      "norm_label": "string"
+    },
+    {
+      "label": ".Build()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
+      "community": 357,
+      "norm_label": ".build()"
+    },
+    {
+      "label": "MenuItem",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "assets_editor_grasspackdetailprefabbuilder_cs_menuitem",
+      "community": 357,
+      "norm_label": "menuitem"
+    },
+    {
+      "label": ".BuildVariant()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "community": 357,
+      "norm_label": ".buildvariant()"
+    },
+    {
+      "label": "Vector3",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "assets_editor_grasspackdetailprefabbuilder_cs_vector3",
+      "community": 357,
+      "norm_label": "vector3"
+    },
+    {
+      "label": ".ConfigureTextureImporters()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters",
+      "community": 357,
+      "norm_label": ".configuretextureimporters()"
+    },
+    {
+      "label": ".CreateOrUpdateMaterial()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
+      "community": 357,
+      "norm_label": ".createorupdatematerial()"
+    },
+    {
+      "label": "Material",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "assets_editor_grasspackdetailprefabbuilder_cs_material",
+      "community": 357,
+      "norm_label": "material"
+    },
+    {
+      "label": ".CreateOrUpdateCombinedMesh()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "community": 357,
+      "norm_label": ".createorupdatecombinedmesh()"
+    },
+    {
+      "label": "GameObject",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "assets_editor_grasspackdetailprefabbuilder_cs_gameobject",
+      "community": 357,
+      "norm_label": "gameobject"
+    },
+    {
+      "label": "Mesh",
+      "file_type": "code",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "assets_editor_grasspackdetailprefabbuilder_cs_mesh",
+      "community": 357,
+      "norm_label": "mesh"
     },
     {
       "label": "SwampProfessionalVisualPass.cs",
@@ -15800,7 +15930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_coindropper",
-      "community": 357,
+      "community": 66,
       "norm_label": "coindropper.cs"
     },
     {
@@ -15810,7 +15940,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_coindropper_dungeonknight_loot",
-      "community": 357,
+      "community": 66,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15820,7 +15950,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper",
-      "community": 357,
+      "community": 66,
       "norm_label": "coindropper"
     },
     {
@@ -15830,7 +15960,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_int",
-      "community": 357,
+      "community": 66,
       "norm_label": "int"
     },
     {
@@ -15840,7 +15970,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_configure",
-      "community": 357,
+      "community": 66,
       "norm_label": ".configure()"
     },
     {
@@ -15850,7 +15980,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_awake",
-      "community": 357,
+      "community": 66,
       "norm_label": ".awake()"
     },
     {
@@ -15860,7 +15990,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_ondied",
-      "community": 357,
+      "community": 66,
       "norm_label": ".ondied()"
     },
     {
@@ -15870,7 +16000,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_health",
-      "community": 357,
+      "community": 66,
       "norm_label": "health"
     },
     {
@@ -16430,7 +16560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_shielddropper",
-      "community": 66,
+      "community": 370,
       "norm_label": "shielddropper.cs"
     },
     {
@@ -16440,7 +16570,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_shielddropper_dungeonknight_loot",
-      "community": 66,
+      "community": 370,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -16450,7 +16580,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper",
-      "community": 66,
+      "community": 370,
       "norm_label": "shielddropper"
     },
     {
@@ -16460,7 +16590,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_awake",
-      "community": 66,
+      "community": 370,
       "norm_label": ".awake()"
     },
     {
@@ -16470,7 +16600,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_ondied",
-      "community": 66,
+      "community": 370,
       "norm_label": ".ondied()"
     },
     {
@@ -16480,7 +16610,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_health",
-      "community": 66,
+      "community": 370,
       "norm_label": "health"
     },
     {
@@ -16490,7 +16620,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "loot_shielddropper_shielddropper_spawnshield",
-      "community": 66,
+      "community": 370,
       "norm_label": ".spawnshield()"
     },
     {
@@ -16500,7 +16630,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "assets_scripts_loot_shielddropper_cs_vector3",
-      "community": 66,
+      "community": 370,
       "norm_label": "vector3"
     },
     {
@@ -19540,7 +19670,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_material",
-      "community": 85,
+      "community": 52,
       "norm_label": "material"
     },
     {
@@ -19620,7 +19750,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureworldhud",
-      "community": 85,
+      "community": 404,
       "norm_label": ".ensureworldhud()"
     },
     {
@@ -19640,7 +19770,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldtext",
-      "community": 85,
+      "community": 404,
       "norm_label": ".createworldtext()"
     },
     {
@@ -19650,7 +19780,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 85,
+      "community": 404,
       "norm_label": "textanchor"
     },
     {
@@ -19660,7 +19790,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 85,
+      "community": 404,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -19670,7 +19800,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 85,
+      "community": 404,
       "norm_label": "meshrenderer"
     },
     {
@@ -19680,7 +19810,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_newhudmaterial",
-      "community": 85,
+      "community": 52,
       "norm_label": ".newhudmaterial()"
     },
     {
@@ -19690,7 +19820,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_color",
-      "community": 85,
+      "community": 52,
       "norm_label": "color"
     },
     {
@@ -40090,7 +40220,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsauditlog",
-      "community": 202,
+      "community": 201,
       "norm_label": "skillsauditlog.cs"
     },
     {
@@ -40100,7 +40230,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsauditlog_unityskills",
-      "community": 202,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -47400,7 +47530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow",
-      "community": 148,
+      "community": 230,
       "norm_label": "allowlistpickerwindow.cs"
     },
     {
@@ -47410,7 +47540,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_unityskills",
-      "community": 148,
+      "community": 230,
       "norm_label": "unityskills"
     },
     {
@@ -47420,7 +47550,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow",
-      "community": 148,
+      "community": 230,
       "norm_label": "allowlistpickerwindow"
     },
     {
@@ -47430,7 +47560,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_string",
-      "community": 148,
+      "community": 230,
       "norm_label": "string"
     },
     {
@@ -47440,7 +47570,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_hashset",
-      "community": 148,
+      "community": 230,
       "norm_label": "hashset"
     },
     {
@@ -47450,7 +47580,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_list",
-      "community": 148,
+      "community": 230,
       "norm_label": "list"
     },
     {
@@ -47460,7 +47590,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "toolbarsearchfield",
-      "community": 148,
+      "community": 230,
       "norm_label": "toolbarsearchfield"
     },
     {
@@ -47470,7 +47600,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scrollview",
-      "community": 148,
+      "community": 230,
       "norm_label": "scrollview"
     },
     {
@@ -47480,7 +47610,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_label",
-      "community": 148,
+      "community": 230,
       "norm_label": "label"
     },
     {
@@ -47490,7 +47620,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_button",
-      "community": 148,
+      "community": 230,
       "norm_label": "button"
     },
     {
@@ -47500,7 +47630,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_open",
-      "community": 148,
+      "community": 230,
       "norm_label": ".open()"
     },
     {
@@ -47510,7 +47640,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_creategui",
-      "community": 148,
+      "community": 230,
       "norm_label": ".creategui()"
     },
     {
@@ -47520,7 +47650,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_buildpresetbar",
-      "community": 148,
+      "community": 230,
       "norm_label": ".buildpresetbar()"
     },
     {
@@ -47530,7 +47660,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_selectcodingassistpreset",
-      "community": 148,
+      "community": 230,
       "norm_label": ".selectcodingassistpreset()"
     },
     {
@@ -47540,7 +47670,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_loadcandidates",
-      "community": 148,
+      "community": 230,
       "norm_label": ".loadcandidates()"
     },
     {
@@ -47550,7 +47680,7 @@
       "source_location": "L162",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_rebuildlist",
-      "community": 148,
+      "community": 230,
       "norm_label": ".rebuildlist()"
     },
     {
@@ -47560,7 +47690,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_appendemptylabel",
-      "community": 148,
+      "community": 230,
       "norm_label": ".appendemptylabel()"
     },
     {
@@ -47570,7 +47700,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_buildskillrow",
-      "community": 148,
+      "community": 230,
       "norm_label": ".buildskillrow()"
     },
     {
@@ -47580,7 +47710,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_skillinfo",
-      "community": 148,
+      "community": 230,
       "norm_label": "skillinfo"
     },
     {
@@ -47590,7 +47720,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_allowlistpickerwindow_cs_visualelement",
-      "community": 148,
+      "community": 230,
       "norm_label": "visualelement"
     },
     {
@@ -47600,7 +47730,7 @@
       "source_location": "L264",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_togglegroup",
-      "community": 148,
+      "community": 230,
       "norm_label": ".togglegroup()"
     },
     {
@@ -47610,7 +47740,7 @@
       "source_location": "L275",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_updatefooter",
-      "community": 148,
+      "community": 230,
       "norm_label": ".updatefooter()"
     },
     {
@@ -47620,7 +47750,7 @@
       "source_location": "L288",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_onconfirmadd",
-      "community": 148,
+      "community": 230,
       "norm_label": ".onconfirmadd()"
     },
     {
@@ -47630,7 +47760,7 @@
       "source_location": "L322",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_ishighrisk",
-      "community": 148,
+      "community": 230,
       "norm_label": ".ishighrisk()"
     },
     {
@@ -47640,7 +47770,7 @@
       "source_location": "L331",
       "_origin": "ast",
       "id": "ui_allowlistpickerwindow_allowlistpickerwindow_l",
-      "community": 148,
+      "community": 230,
       "norm_label": ".l()"
     },
     {
@@ -48570,7 +48700,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "controllers_settingsdrawercontroller_settingsdrawercontroller_close",
-      "community": 148,
+      "community": 230,
       "norm_label": ".close()"
     },
     {
@@ -49360,7 +49490,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_string",
-      "community": 324,
+      "community": 233,
       "norm_label": "string"
     },
     {
@@ -49390,7 +49520,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_com_besty_unity_skills_editor_ui_unityskillswindow_cs_methodinfo",
-      "community": 191,
+      "community": 324,
       "norm_label": "methodinfo"
     },
     {
@@ -55040,7 +55170,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_nuget_mono_cecil",
-      "community": 62,
+      "community": 374,
       "norm_label": "com.unity.nuget.mono-cecil"
     },
     {
@@ -55140,7 +55270,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_collections",
-      "community": 397,
+      "community": 62,
       "norm_label": "com.unity.collections"
     },
     {
@@ -55210,7 +55340,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_jsonserialize",
-      "community": 76,
+      "community": 361,
       "norm_label": "com.unity.modules.jsonserialize"
     },
     {
@@ -55230,7 +55360,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_collections_version",
-      "community": 397,
+      "community": 62,
       "norm_label": "version"
     },
     {
@@ -55240,7 +55370,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_collections_depth",
-      "community": 397,
+      "community": 62,
       "norm_label": "depth"
     },
     {
@@ -55250,7 +55380,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_collections_source",
-      "community": 397,
+      "community": 62,
       "norm_label": "source"
     },
     {
@@ -55370,7 +55500,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_ext_nunit",
-      "community": 76,
+      "community": 361,
       "norm_label": "com.unity.ext.nunit"
     },
     {
@@ -55380,7 +55510,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_version",
-      "community": 76,
+      "community": 361,
       "norm_label": "version"
     },
     {
@@ -55390,7 +55520,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_depth",
-      "community": 76,
+      "community": 361,
       "norm_label": "depth"
     },
     {
@@ -55400,7 +55530,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_source",
-      "community": 76,
+      "community": 361,
       "norm_label": "source"
     },
     {
@@ -55410,7 +55540,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ext_nunit_dependencies",
-      "community": 76,
+      "community": 361,
       "norm_label": "dependencies"
     },
     {
@@ -55470,7 +55600,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_version",
-      "community": 62,
+      "community": 374,
       "norm_label": "version"
     },
     {
@@ -55480,7 +55610,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_depth",
-      "community": 62,
+      "community": 374,
       "norm_label": "depth"
     },
     {
@@ -55490,7 +55620,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_source",
-      "community": 62,
+      "community": 374,
       "norm_label": "source"
     },
     {
@@ -55500,7 +55630,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_dependencies",
-      "community": 62,
+      "community": 374,
       "norm_label": "dependencies"
     },
     {
@@ -55510,7 +55640,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_nuget_mono_cecil_url",
-      "community": 62,
+      "community": 374,
       "norm_label": "url"
     },
     {
@@ -55720,7 +55850,7 @@
       "source_location": "L135",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_test_framework_dependencies",
-      "community": 76,
+      "community": 361,
       "norm_label": "dependencies"
     },
     {
@@ -55940,7 +56070,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_ugui",
-      "community": 389,
+      "community": 76,
       "norm_label": "com.unity.ugui"
     },
     {
@@ -55950,7 +56080,7 @@
       "source_location": "L173",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_version",
-      "community": 389,
+      "community": 76,
       "norm_label": "version"
     },
     {
@@ -55960,7 +56090,7 @@
       "source_location": "L174",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_depth",
-      "community": 389,
+      "community": 76,
       "norm_label": "depth"
     },
     {
@@ -55970,7 +56100,7 @@
       "source_location": "L175",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_source",
-      "community": 389,
+      "community": 76,
       "norm_label": "source"
     },
     {
@@ -55980,7 +56110,7 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_ugui_dependencies",
-      "community": 389,
+      "community": 76,
       "norm_label": "dependencies"
     },
     {
@@ -55990,7 +56120,7 @@
       "source_location": "L177",
       "_origin": "ast",
       "id": "packages_packages_lock_dependencies_com_unity_modules_ui",
-      "community": 389,
+      "community": 76,
       "norm_label": "com.unity.modules.ui"
     },
     {
@@ -56290,7 +56420,7 @@
       "source_location": "L227",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_version",
-      "community": 76,
+      "community": 361,
       "norm_label": "version"
     },
     {
@@ -56300,7 +56430,7 @@
       "source_location": "L228",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_depth",
-      "community": 76,
+      "community": 361,
       "norm_label": "depth"
     },
     {
@@ -56310,7 +56440,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_source",
-      "community": 76,
+      "community": 361,
       "norm_label": "source"
     },
     {
@@ -56320,7 +56450,7 @@
       "source_location": "L230",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_jsonserialize_dependencies",
-      "community": 76,
+      "community": 361,
       "norm_label": "dependencies"
     },
     {
@@ -56540,7 +56670,7 @@
       "source_location": "L267",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_version",
-      "community": 389,
+      "community": 76,
       "norm_label": "version"
     },
     {
@@ -56550,7 +56680,7 @@
       "source_location": "L268",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_depth",
-      "community": 389,
+      "community": 76,
       "norm_label": "depth"
     },
     {
@@ -56560,7 +56690,7 @@
       "source_location": "L269",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_source",
-      "community": 389,
+      "community": 76,
       "norm_label": "source"
     },
     {
@@ -56570,7 +56700,7 @@
       "source_location": "L270",
       "_origin": "ast",
       "id": "packages_packages_lock_com_unity_modules_ui_dependencies",
-      "community": 389,
+      "community": 76,
       "norm_label": "dependencies"
     },
     {
@@ -91310,7 +91440,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skill",
-      "community": 349,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -91320,7 +91450,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "skills_skill_unity_skills_module_index",
-      "community": 372,
+      "community": 64,
       "norm_label": "unity skills - module index"
     },
     {
@@ -91330,7 +91460,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_skill_modules",
-      "community": 372,
+      "community": 64,
       "norm_label": "modules"
     },
     {
@@ -91340,7 +91470,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "skills_skill_advisory_design_modules",
-      "community": 372,
+      "community": 64,
       "norm_label": "advisory design modules"
     },
     {
@@ -91350,7 +91480,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "skills_skill_batch_first_rule",
-      "community": 372,
+      "community": 64,
       "norm_label": "batch-first rule"
     },
     {
@@ -91360,7 +91490,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "skills_skill_skill_naming_convention",
-      "community": 372,
+      "community": 64,
       "norm_label": "skill naming convention"
     },
     {
@@ -92850,7 +92980,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "addressables_design_skill_addressables_design_rules",
-      "community": 361,
+      "community": 349,
       "norm_label": "addressables - design rules"
     },
     {
@@ -92860,7 +92990,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "addressables_design_skill_when_to_load_this_module",
-      "community": 361,
+      "community": 349,
       "norm_label": "when to load this module"
     },
     {
@@ -92870,7 +93000,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "addressables_design_skill_version_difference_matrix",
-      "community": 361,
+      "community": 349,
       "norm_label": "version difference matrix"
     },
     {
@@ -92880,7 +93010,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "addressables_design_skill_critical_rule_summary",
-      "community": 361,
+      "community": 349,
       "norm_label": "critical rule summary"
     },
     {
@@ -92890,7 +93020,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "addressables_design_skill_sub_doc_routing",
-      "community": 361,
+      "community": 349,
       "norm_label": "sub-doc routing"
     },
     {
@@ -92900,7 +93030,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "addressables_design_skill_routing_to_other_modules",
-      "community": 361,
+      "community": 349,
       "norm_label": "routing to other modules"
     },
     {
@@ -92910,7 +93040,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "addressables_design_skill_version_scope",
-      "community": 361,
+      "community": 349,
       "norm_label": "version scope"
     },
     {
@@ -92920,7 +93050,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "addressables_design_skill_migration_notes_hallucination_shield",
-      "community": 361,
+      "community": 349,
       "norm_label": "migration notes (hallucination shield)"
     },
     {
@@ -93100,7 +93230,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "adr_skill",
-      "community": 400,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -93110,7 +93240,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "adr_skill_unity_adr",
-      "community": 400,
+      "community": 64,
       "norm_label": "unity adr"
     },
     {
@@ -93120,7 +93250,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "adr_skill_output_format",
-      "community": 400,
+      "community": 64,
       "norm_label": "output format"
     },
     {
@@ -93130,7 +93260,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "adr_skill_example_use_cases",
-      "community": 400,
+      "community": 64,
       "norm_label": "example use cases"
     },
     {
@@ -93140,7 +93270,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "adr_skill_guardrails",
-      "community": 400,
+      "community": 64,
       "norm_label": "guardrails"
     },
     {
@@ -93450,7 +93580,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "asmdef_skill_unity_asmdef_advisor",
-      "community": 401,
+      "community": 349,
       "norm_label": "unity asmdef advisor"
     },
     {
@@ -93460,7 +93590,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "asmdef_skill_recommend_only_when_worth_it",
-      "community": 401,
+      "community": 349,
       "norm_label": "recommend only when worth it"
     },
     {
@@ -93470,7 +93600,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "asmdef_skill_output_format",
-      "community": 401,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -93480,7 +93610,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "asmdef_skill_default_guidance",
-      "community": 401,
+      "community": 349,
       "norm_label": "default guidance"
     },
     {
@@ -93490,7 +93620,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "asmdef_skill_guardrails",
-      "community": 401,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -93740,7 +93870,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "async_skill_unity_async_strategy",
-      "community": 382,
+      "community": 349,
       "norm_label": "unity async strategy"
     },
     {
@@ -93750,7 +93880,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "async_skill_guardrails",
-      "community": 382,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -93760,7 +93890,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "async_skill_decision_ladder",
-      "community": 382,
+      "community": 349,
       "norm_label": "decision ladder"
     },
     {
@@ -93770,7 +93900,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "async_skill_specific_guidance",
-      "community": 382,
+      "community": 349,
       "norm_label": "specific guidance"
     },
     {
@@ -93780,7 +93910,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "async_skill_output_format",
-      "community": 382,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -94060,7 +94190,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blueprints_skill",
-      "community": 362,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -94070,7 +94200,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "blueprints_skill_unity_gameplay_blueprints",
-      "community": 362,
+      "community": 64,
       "norm_label": "unity gameplay blueprints"
     },
     {
@@ -94080,7 +94210,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blueprints_skill_supported_blueprint_styles",
-      "community": 362,
+      "community": 64,
       "norm_label": "supported blueprint styles"
     },
     {
@@ -94090,7 +94220,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "blueprints_skill_output_format",
-      "community": 362,
+      "community": 64,
       "norm_label": "output format"
     },
     {
@@ -94100,7 +94230,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "blueprints_skill_guardrails",
-      "community": 362,
+      "community": 64,
       "norm_label": "guardrails"
     },
     {
@@ -95710,7 +95840,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_basics",
-      "community": 349,
+      "community": 362,
       "norm_label": "basics.md"
     },
     {
@@ -95850,7 +95980,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_ease",
-      "community": 349,
+      "community": 362,
       "norm_label": "ease.md"
     },
     {
@@ -95990,7 +96120,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_integration",
-      "community": 349,
+      "community": 362,
       "norm_label": "integration.md"
     },
     {
@@ -96140,7 +96270,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_lifetime",
-      "community": 349,
+      "community": 362,
       "norm_label": "lifetime.md"
     },
     {
@@ -96270,7 +96400,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_pitfalls",
-      "community": 349,
+      "community": 362,
       "norm_label": "pitfalls.md"
     },
     {
@@ -96600,7 +96730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_sequence",
-      "community": 349,
+      "community": 362,
       "norm_label": "sequence.md"
     },
     {
@@ -96740,7 +96870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_shortcuts",
-      "community": 349,
+      "community": 362,
       "norm_label": "shortcuts.md"
     },
     {
@@ -96940,7 +97070,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_skill",
-      "community": 349,
+      "community": 362,
       "norm_label": "skill.md"
     },
     {
@@ -97010,7 +97140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_design_tween",
-      "community": 349,
+      "community": 362,
       "norm_label": "tween.md"
     },
     {
@@ -97130,7 +97260,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dotween_skill",
-      "community": 218,
+      "community": 364,
       "norm_label": "skill.md"
     },
     {
@@ -97140,7 +97270,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "dotween_skill_dotween_skills",
-      "community": 218,
+      "community": 364,
       "norm_label": "dotween skills"
     },
     {
@@ -97150,7 +97280,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "dotween_skill_guardrails",
-      "community": 218,
+      "community": 364,
       "norm_label": "guardrails"
     },
     {
@@ -97160,7 +97290,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "dotween_skill_free_skills",
-      "community": 218,
+      "community": 364,
       "norm_label": "free skills"
     },
     {
@@ -97170,7 +97300,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "dotween_skill_diagnostics_and_settings",
-      "community": 218,
+      "community": 364,
       "norm_label": "diagnostics and settings"
     },
     {
@@ -97180,7 +97310,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "dotween_skill_api_discovery",
-      "community": 218,
+      "community": 364,
       "norm_label": "api discovery"
     },
     {
@@ -97190,7 +97320,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "dotween_skill_runtime_script_generation",
-      "community": 218,
+      "community": 364,
       "norm_label": "runtime script generation"
     },
     {
@@ -97320,7 +97450,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "dotween_skill_animationtype_endvalue_mapping",
-      "community": 218,
+      "community": 364,
       "norm_label": "animationtype \u2192 endvalue mapping"
     },
     {
@@ -97330,7 +97460,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "dotween_skill_exact_signatures",
-      "community": 218,
+      "community": 364,
       "norm_label": "exact signatures"
     },
     {
@@ -98500,7 +98630,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "inspector_skill_unity_inspector_design",
-      "community": 402,
+      "community": 349,
       "norm_label": "unity inspector design"
     },
     {
@@ -98510,7 +98640,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "inspector_skill_guardrails",
-      "community": 402,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -98520,7 +98650,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "inspector_skill_default_rules",
-      "community": 402,
+      "community": 349,
       "norm_label": "default rules"
     },
     {
@@ -98530,7 +98660,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "inspector_skill_inspector_quality_checklist",
-      "community": 402,
+      "community": 349,
       "norm_label": "inspector quality checklist"
     },
     {
@@ -98540,7 +98670,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "inspector_skill_output_format",
-      "community": 402,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -99690,7 +99820,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_spawn_prefab",
-      "community": 164,
+      "community": 372,
       "norm_label": "spawn / prefab"
     },
     {
@@ -99700,7 +99830,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p16_prefab_without_a_networkobject_component",
-      "community": 164,
+      "community": 372,
       "norm_label": "\u274c p16. prefab without a `networkobject` component"
     },
     {
@@ -99710,7 +99840,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p17_playerprefab_missing_from_networkprefabslist_networkconfig_prefabs",
-      "community": 164,
+      "community": 372,
       "norm_label": "\u274c p17. `playerprefab` missing from networkprefabslist / networkconfig.prefabs"
     },
     {
@@ -99720,7 +99850,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p18_nesting_a_networkobject_inside_another_prefab",
-      "community": 164,
+      "community": 372,
       "norm_label": "\u274c p18. nesting a networkobject inside another prefab"
     },
     {
@@ -99730,7 +99860,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p19_transform_parent_x_after_spawn_instead_of_trysetparent",
-      "community": 164,
+      "community": 372,
       "norm_label": "\u274c p19. `transform.parent = x` after spawn, instead of trysetparent"
     },
     {
@@ -99740,7 +99870,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p20_destroy_go_on_a_spawned_networkobject",
-      "community": 164,
+      "community": 372,
       "norm_label": "\u274c p20. `destroy(go)` on a spawned networkobject"
     },
     {
@@ -99830,7 +99960,7 @@
       "source_location": "L133",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_miscellaneous",
-      "community": 164,
+      "community": 382,
       "norm_label": "miscellaneous"
     },
     {
@@ -99840,7 +99970,7 @@
       "source_location": "L135",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p27_inventing_attributes_methods_that_do_not_exist",
-      "community": 164,
+      "community": 382,
       "norm_label": "\u274c p27. inventing attributes / methods that do not exist"
     },
     {
@@ -99850,7 +99980,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p28_ignoring_the_return_value_of_starthost_startserver_startclient",
-      "community": 164,
+      "community": 382,
       "norm_label": "\u274c p28. ignoring the return value of starthost / startserver / startclient"
     },
     {
@@ -99860,7 +99990,7 @@
       "source_location": "L143",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p29_unsubscribing_networkvariable_handlers_in_ondestroy",
-      "community": 164,
+      "community": 382,
       "norm_label": "\u274c p29. unsubscribing networkvariable handlers in `ondestroy`"
     },
     {
@@ -99870,7 +100000,7 @@
       "source_location": "L147",
       "_origin": "ast",
       "id": "netcode_design_pitfalls_p30_blocking_in_a_serverrpc_long_synchronous_wait",
-      "community": 164,
+      "community": 382,
       "norm_label": "\u274c p30. blocking in a serverrpc (long synchronous wait)"
     },
     {
@@ -99880,7 +100010,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_rpc",
-      "community": 222,
+      "community": 405,
       "norm_label": "rpc.md"
     },
     {
@@ -100090,7 +100220,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_scene",
-      "community": 349,
+      "community": 405,
       "norm_label": "scene.md"
     },
     {
@@ -100260,7 +100390,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_skill",
-      "community": 349,
+      "community": 405,
       "norm_label": "skill.md"
     },
     {
@@ -100330,7 +100460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_spawning",
-      "community": 349,
+      "community": 405,
       "norm_label": "spawning.md"
     },
     {
@@ -100560,7 +100690,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_transport",
-      "community": 234,
+      "community": 405,
       "norm_label": "transport.md"
     },
     {
@@ -100960,7 +101090,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_skill",
-      "community": 349,
+      "community": 405,
       "norm_label": "skill.md"
     },
     {
@@ -101430,7 +101560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "patterns_skill",
-      "community": 349,
+      "community": 367,
       "norm_label": "skill.md"
     },
     {
@@ -101740,7 +101870,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "performance_skill_unity_performance_red_flags",
-      "community": 369,
+      "community": 349,
       "norm_label": "unity performance red flags"
     },
     {
@@ -101750,7 +101880,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "performance_skill_check_for",
-      "community": 369,
+      "community": 349,
       "norm_label": "check for"
     },
     {
@@ -101760,7 +101890,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "performance_skill_hidden_costs_possibility_actuality",
-      "community": 369,
+      "community": 349,
       "norm_label": "hidden costs: possibility = actuality"
     },
     {
@@ -101770,7 +101900,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "performance_skill_write_permission_costs_even_without_writing",
-      "community": 369,
+      "community": 349,
       "norm_label": "write permission costs, even without writing"
     },
     {
@@ -101780,7 +101910,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "performance_skill_sequential_seeds_produce_correlated_random_streams",
-      "community": 369,
+      "community": 349,
       "norm_label": "sequential seeds produce correlated random streams"
     },
     {
@@ -101790,7 +101920,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "performance_skill_logging_fires_in_release_builds_by_default",
-      "community": 369,
+      "community": 349,
       "norm_label": "logging fires in release builds by default"
     },
     {
@@ -101800,7 +101930,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "performance_skill_output_format",
-      "community": 369,
+      "community": 349,
       "norm_label": "output format"
     },
     {
@@ -101810,7 +101940,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "performance_skill_guardrails",
-      "community": 369,
+      "community": 349,
       "norm_label": "guardrails"
     },
     {
@@ -102810,7 +102940,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "project_scout_skill",
-      "community": 364,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -102820,7 +102950,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "project_scout_skill_unity_project_scout",
-      "community": 364,
+      "community": 64,
       "norm_label": "unity project scout"
     },
     {
@@ -102830,7 +102960,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "project_scout_skill_inspect_first",
-      "community": 364,
+      "community": 64,
       "norm_label": "inspect first"
     },
     {
@@ -102840,7 +102970,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "project_scout_skill_suggested_tools_inputs",
-      "community": 364,
+      "community": 64,
       "norm_label": "suggested tools / inputs"
     },
     {
@@ -102850,7 +102980,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "project_scout_skill_output_format",
-      "community": 364,
+      "community": 64,
       "norm_label": "output format"
     },
     {
@@ -102860,7 +102990,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "project_scout_skill_guardrails",
-      "community": 364,
+      "community": 64,
       "norm_label": "guardrails"
     },
     {
@@ -103140,7 +103270,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scene_contracts_skill",
-      "community": 370,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -103150,7 +103280,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "scene_contracts_skill_unity_scene_contracts",
-      "community": 370,
+      "community": 64,
       "norm_label": "unity scene contracts"
     },
     {
@@ -103160,7 +103290,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "scene_contracts_skill_define",
-      "community": 370,
+      "community": 64,
       "norm_label": "define"
     },
     {
@@ -103170,7 +103300,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "scene_contracts_skill_output_format",
-      "community": 370,
+      "community": 64,
       "norm_label": "output format"
     },
     {
@@ -103180,7 +103310,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "scene_contracts_skill_guardrails",
-      "community": 370,
+      "community": 64,
       "norm_label": "guardrails"
     },
     {
@@ -103800,7 +103930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scriptdesign_skill",
-      "community": 349,
+      "community": 171,
       "norm_label": "skill.md"
     },
     {
@@ -104140,7 +104270,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_pitfalls",
-      "community": 64,
+      "community": 339,
       "norm_label": "pitfalls.md"
     },
     {
@@ -104260,7 +104390,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_recipes",
-      "community": 64,
+      "community": 330,
       "norm_label": "recipes.md"
     },
     {
@@ -104350,7 +104480,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review",
-      "community": 64,
+      "community": 381,
       "norm_label": "review.md"
     },
     {
@@ -104580,7 +104710,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_skill",
-      "community": 388,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -104590,7 +104720,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "shadergraph_skill_shadergraph_skills",
-      "community": 388,
+      "community": 204,
       "norm_label": "shadergraph skills"
     },
     {
@@ -104600,7 +104730,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "shadergraph_skill_operating_mode",
-      "community": 388,
+      "community": 204,
       "norm_label": "operating mode"
     },
     {
@@ -104610,7 +104740,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "shadergraph_skill_reflection_fragility",
-      "community": 388,
+      "community": 204,
       "norm_label": "reflection fragility"
     },
     {
@@ -104620,7 +104750,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "shadergraph_skill_guardrails",
-      "community": 388,
+      "community": 204,
       "norm_label": "guardrails"
     },
     {
@@ -104870,7 +105000,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "shadergraph_skill_workflow",
-      "community": 388,
+      "community": 204,
       "norm_label": "workflow"
     },
     {
@@ -104880,7 +105010,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "shadergraph_skill_exact_signatures",
-      "community": 388,
+      "community": 204,
       "norm_label": "exact signatures"
     },
     {
@@ -105410,7 +105540,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "testability_skill",
-      "community": 403,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -105420,7 +105550,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "testability_skill_unity_testability_advisor",
-      "community": 403,
+      "community": 64,
       "norm_label": "unity testability advisor"
     },
     {
@@ -105430,7 +105560,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "testability_skill_review_questions",
-      "community": 403,
+      "community": 64,
       "norm_label": "review questions"
     },
     {
@@ -105440,7 +105570,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "testability_skill_output_format",
-      "community": 403,
+      "community": 64,
       "norm_label": "output format"
     },
     {
@@ -105450,7 +105580,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "testability_skill_guardrails",
-      "community": 403,
+      "community": 64,
       "norm_label": "guardrails"
     },
     {
@@ -106410,7 +106540,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable",
-      "community": 349,
+      "community": 369,
       "norm_label": "asyncenumerable.md"
     },
     {
@@ -106570,7 +106700,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_basics",
-      "community": 349,
+      "community": 369,
       "norm_label": "basics.md"
     },
     {
@@ -106680,7 +106810,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_cancellation",
-      "community": 349,
+      "community": 369,
       "norm_label": "cancellation.md"
     },
     {
@@ -106830,7 +106960,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_composition",
-      "community": 349,
+      "community": 369,
       "norm_label": "composition.md"
     },
     {
@@ -106960,7 +107090,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_conversion",
-      "community": 349,
+      "community": 369,
       "norm_label": "conversion.md"
     },
     {
@@ -107090,7 +107220,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_pitfalls",
-      "community": 349,
+      "community": 369,
       "norm_label": "pitfalls.md"
     },
     {
@@ -107420,7 +107550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_playerloop",
-      "community": 349,
+      "community": 369,
       "norm_label": "playerloop.md"
     },
     {
@@ -107540,7 +107670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_skill",
-      "community": 349,
+      "community": 369,
       "norm_label": "skill.md"
     },
     {
@@ -107610,7 +107740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_triggers",
-      "community": 349,
+      "community": 369,
       "norm_label": "triggers.md"
     },
     {
@@ -115786,9 +115916,9 @@
       "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder",
-      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_buildprefab",
-      "confidence_score": 1.0
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_buildprefab"
     },
     {
       "relation": "method",
@@ -115838,9 +115968,9 @@
       "source_file": "Assets/Editor/Grass07DetailPrefabBuilder.cs",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_build",
-      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_buildprefab",
-      "confidence_score": 1.0
+      "target": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_buildprefab"
     },
     {
       "relation": "calls",
@@ -115882,9 +116012,9 @@
       "source_location": "L50",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_buildprefab",
-      "target": "assets_editor_grass07detailprefabbuilder_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_grass07detailprefabbuilder_cs_material"
     },
     {
       "relation": "references",
@@ -115893,9 +116023,9 @@
       "source_location": "L50",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_buildprefab",
-      "target": "assets_editor_grass07detailprefabbuilder_cs_mesh",
-      "confidence_score": 1.0
+      "target": "assets_editor_grass07detailprefabbuilder_cs_mesh"
     },
     {
       "relation": "references",
@@ -115937,8 +116067,189 @@
       "source_location": "L120",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_grass07detailprefabbuilder_grass07detailprefabbuilder_createorupdatecombinedmesh",
-      "target": "assets_editor_grass07detailprefabbuilder_cs_vector3",
+      "target": "assets_editor_grass07detailprefabbuilder_cs_vector3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "field",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_menuitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_build",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_configuretextureimporters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_buildvariant",
+      "target": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_vector3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatematerial",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_material",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_gameobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/GrassPackDetailPrefabBuilder.cs",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "editor_grasspackdetailprefabbuilder_grasspackdetailprefabbuilder_createorupdatecombinedmesh",
+      "target": "assets_editor_grasspackdetailprefabbuilder_cs_mesh",
       "confidence_score": 1.0
     },
     {
@@ -292001,5 +292312,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f19ae3c21e73388587dccb76c7f42f080d8da985"
+  "built_at_commit": "ecfeb7198de52e9fd7b4fdc517f9b64ab9a54ef7"
 }
