@@ -1707,7 +1707,7 @@
       "label": ".CreateMaterials()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L53",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
       "community": 56,
@@ -1717,7 +1717,7 @@
       "label": "SwampMaterials",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L53",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "swampmaterials",
       "community": 56,
@@ -1727,7 +1727,7 @@
       "label": ".ImproveExistingSwampMaterials()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L71",
+      "source_location": "L80",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_improveexistingswampmaterials",
       "community": 56,
@@ -1737,7 +1737,7 @@
       "label": ".ConfigureTexturedMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L80",
+      "source_location": "L89",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configuretexturedmaterial",
       "community": 56,
@@ -1747,7 +1747,7 @@
       "label": ".CreateLowFog()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L103",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
       "community": 56,
@@ -1757,7 +1757,7 @@
       "label": "Transform",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L103",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "assets_editor_swampprofessionalvisualpass_cs_transform",
       "community": 56,
@@ -1767,7 +1767,7 @@
       "label": "Material",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L103",
+      "source_location": "L112",
       "_origin": "ast",
       "id": "assets_editor_swampprofessionalvisualpass_cs_material",
       "community": 56,
@@ -1777,7 +1777,7 @@
       "label": ".CreateMirePatches()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L124",
+      "source_location": "L133",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
       "community": 56,
@@ -1787,7 +1787,7 @@
       "label": ".CreateRootSilhouettes()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L152",
+      "source_location": "L161",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
       "community": 56,
@@ -1797,7 +1797,7 @@
       "label": ".CreateColdCandleShrines()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L170",
+      "source_location": "L179",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
       "community": 56,
@@ -1807,7 +1807,7 @@
       "label": ".CreateSwampMotes()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L202",
+      "source_location": "L211",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
       "community": 56,
@@ -1817,7 +1817,7 @@
       "label": ".CreateStoryRemnants()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L217",
+      "source_location": "L226",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
       "community": 56,
@@ -1827,17 +1827,57 @@
       "label": ".CreateRiverScum()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L245",
+      "source_location": "L254",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
       "community": 56,
       "norm_label": ".createriverscum()"
     },
     {
+      "label": ".CreateTerrainBiomeStructure()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L277",
+      "_origin": "ast",
+      "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
+      "community": 56,
+      "norm_label": ".createterrainbiomestructure()"
+    },
+    {
+      "label": ".CreateReedBeds()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L340",
+      "_origin": "ast",
+      "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
+      "community": 56,
+      "norm_label": ".createreedbeds()"
+    },
+    {
+      "label": ".CreateBrokenWalkways()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L384",
+      "_origin": "ast",
+      "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
+      "community": 56,
+      "norm_label": ".createbrokenwalkways()"
+    },
+    {
+      "label": ".CreateBackgroundCanopy()",
+      "file_type": "code",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L409",
+      "_origin": "ast",
+      "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
+      "community": 56,
+      "norm_label": ".createbackgroundcanopy()"
+    },
+    {
       "label": ".CreateBox()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L268",
+      "source_location": "L435",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
       "community": 56,
@@ -1847,7 +1887,7 @@
       "label": "Vector3",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L268",
+      "source_location": "L435",
       "_origin": "ast",
       "id": "assets_editor_swampprofessionalvisualpass_cs_vector3",
       "community": 56,
@@ -1857,7 +1897,7 @@
       "label": "GameObject",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L268",
+      "source_location": "L435",
       "_origin": "ast",
       "id": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
       "community": 56,
@@ -1867,7 +1907,7 @@
       "label": ".CreateSphere()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L278",
+      "source_location": "L445",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
       "community": 56,
@@ -1877,7 +1917,7 @@
       "label": ".CreateCylinder()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L288",
+      "source_location": "L455",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
       "community": 56,
@@ -1887,7 +1927,7 @@
       "label": ".CreateCylinderBetween()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L298",
+      "source_location": "L465",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
       "community": 56,
@@ -1897,7 +1937,7 @@
       "label": ".FindOrCreatePrimitive()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L311",
+      "source_location": "L478",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
       "community": 56,
@@ -1907,7 +1947,7 @@
       "label": "PrimitiveType",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L311",
+      "source_location": "L478",
       "_origin": "ast",
       "id": "assets_editor_swampprofessionalvisualpass_cs_primitivetype",
       "community": 56,
@@ -1917,7 +1957,7 @@
       "label": ".FindOrCreate()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L323",
+      "source_location": "L490",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
       "community": 56,
@@ -1927,7 +1967,7 @@
       "label": ".EnsureIrregularDisc()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L334",
+      "source_location": "L501",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
       "community": 56,
@@ -1937,7 +1977,7 @@
       "label": ".AssignMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L375",
+      "source_location": "L542",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
       "community": 56,
@@ -1947,7 +1987,7 @@
       "label": ".ConfigureOptionalLight()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L381",
+      "source_location": "L548",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
       "community": 56,
@@ -1957,7 +1997,7 @@
       "label": "Color",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L381",
+      "source_location": "L548",
       "_origin": "ast",
       "id": "assets_editor_swampprofessionalvisualpass_cs_color",
       "community": 56,
@@ -1967,7 +2007,7 @@
       "label": ".RemoveCollider()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L393",
+      "source_location": "L560",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
       "community": 56,
@@ -1977,7 +2017,7 @@
       "label": ".CreateStandardMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L399",
+      "source_location": "L566",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
       "community": 56,
@@ -1987,7 +2027,7 @@
       "label": ".CreateTransparentMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L410",
+      "source_location": "L577",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
       "community": 56,
@@ -1997,7 +2037,7 @@
       "label": ".CreateEmissiveMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L421",
+      "source_location": "L588",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
       "community": 56,
@@ -2007,7 +2047,7 @@
       "label": ".LoadOrCreateMaterial()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L435",
+      "source_location": "L602",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial",
       "community": 56,
@@ -2017,7 +2057,7 @@
       "label": ".SetOpaque()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L449",
+      "source_location": "L616",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque",
       "community": 56,
@@ -2027,7 +2067,7 @@
       "label": ".SetTransparent()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L461",
+      "source_location": "L628",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_settransparent",
       "community": 56,
@@ -2037,7 +2077,7 @@
       "label": ".EnsureFolder()",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L473",
+      "source_location": "L640",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensurefolder",
       "community": 56,
@@ -2047,7 +2087,7 @@
       "label": "SwampMaterials",
       "file_type": "code",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L533",
+      "source_location": "L700",
       "_origin": "ast",
       "id": "editor_swampprofessionalvisualpass_swampmaterials",
       "community": 56,
@@ -3810,7 +3850,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "enemies_deathshard",
-      "community": 44,
+      "community": 321,
       "norm_label": "deathshard.cs"
     },
     {
@@ -3820,7 +3860,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "enemies_deathshard_dungeonknight_enemies",
-      "community": 44,
+      "community": 321,
       "norm_label": "dungeonknight.enemies"
     },
     {
@@ -3830,7 +3870,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard",
-      "community": 44,
+      "community": 321,
       "norm_label": "deathshard"
     },
     {
@@ -3840,7 +3880,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "assets_scripts_enemies_deathshard_cs_spriterenderer",
-      "community": 44,
+      "community": 321,
       "norm_label": "spriterenderer"
     },
     {
@@ -3850,7 +3890,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "assets_scripts_enemies_deathshard_cs_float",
-      "community": 44,
+      "community": 321,
       "norm_label": "float"
     },
     {
@@ -3860,7 +3900,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_configure",
-      "community": 44,
+      "community": 321,
       "norm_label": ".configure()"
     },
     {
@@ -3870,7 +3910,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_awake",
-      "community": 44,
+      "community": 321,
       "norm_label": ".awake()"
     },
     {
@@ -3880,7 +3920,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "enemies_deathshard_deathshard_update",
-      "community": 44,
+      "community": 321,
       "norm_label": ".update()"
     },
     {
@@ -7110,7 +7150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "level_damagehazard",
-      "community": 44,
+      "community": 322,
       "norm_label": "damagehazard.cs"
     },
     {
@@ -7120,7 +7160,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "level_damagehazard_dungeonknight_level",
-      "community": 44,
+      "community": 322,
       "norm_label": "dungeonknight.level"
     },
     {
@@ -7130,7 +7170,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "level_damagehazard_damagehazard",
-      "community": 44,
+      "community": 322,
       "norm_label": "damagehazard"
     },
     {
@@ -7140,7 +7180,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_level_damagehazard_cs_int",
-      "community": 44,
+      "community": 322,
       "norm_label": "int"
     },
     {
@@ -7150,7 +7190,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "assets_scripts_level_damagehazard_cs_float",
-      "community": 44,
+      "community": 322,
       "norm_label": "float"
     },
     {
@@ -7160,7 +7200,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "level_damagehazard_damagehazard_configure",
-      "community": 44,
+      "community": 322,
       "norm_label": ".configure()"
     },
     {
@@ -7170,7 +7210,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "level_damagehazard_damagehazard_ontriggerstay2d",
-      "community": 44,
+      "community": 322,
       "norm_label": ".ontriggerstay2d()"
     },
     {
@@ -7180,7 +7220,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "assets_scripts_level_damagehazard_cs_collider2d",
-      "community": 44,
+      "community": 322,
       "norm_label": "collider2d"
     },
     {
@@ -15630,7 +15670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "loot_coindropper",
-      "community": 322,
+      "community": 44,
       "norm_label": "coindropper.cs"
     },
     {
@@ -15640,7 +15680,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "loot_coindropper_dungeonknight_loot",
-      "community": 322,
+      "community": 44,
       "norm_label": "dungeonknight.loot"
     },
     {
@@ -15650,7 +15690,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper",
-      "community": 322,
+      "community": 44,
       "norm_label": "coindropper"
     },
     {
@@ -15660,7 +15700,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_int",
-      "community": 322,
+      "community": 44,
       "norm_label": "int"
     },
     {
@@ -15670,7 +15710,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_configure",
-      "community": 322,
+      "community": 44,
       "norm_label": ".configure()"
     },
     {
@@ -15680,7 +15720,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_awake",
-      "community": 322,
+      "community": 44,
       "norm_label": ".awake()"
     },
     {
@@ -15690,7 +15730,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "loot_coindropper_coindropper_ondied",
-      "community": 322,
+      "community": 44,
       "norm_label": ".ondied()"
     },
     {
@@ -15700,7 +15740,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "assets_scripts_loot_coindropper_cs_health",
-      "community": 322,
+      "community": 44,
       "norm_label": "health"
     },
     {
@@ -19340,7 +19380,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "image",
-      "community": 64,
+      "community": 52,
       "norm_label": "image"
     },
     {
@@ -19350,7 +19390,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_transform",
-      "community": 64,
+      "community": 52,
       "norm_label": "transform"
     },
     {
@@ -19360,7 +19400,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textmesh",
-      "community": 58,
+      "community": 52,
       "norm_label": "textmesh"
     },
     {
@@ -19370,7 +19410,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_material",
-      "community": 58,
+      "community": 52,
       "norm_label": "material"
     },
     {
@@ -19390,7 +19430,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_awake",
-      "community": 64,
+      "community": 52,
       "norm_label": ".awake()"
     },
     {
@@ -19440,7 +19480,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureoverlaycanvas",
-      "community": 64,
+      "community": 52,
       "norm_label": ".ensureoverlaycanvas()"
     },
     {
@@ -19450,7 +19490,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_ensureworldhud",
-      "community": 58,
+      "community": 52,
       "norm_label": ".ensureworldhud()"
     },
     {
@@ -19460,7 +19500,7 @@
       "source_location": "L267",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_updateworldhud",
-      "community": 58,
+      "community": 52,
       "norm_label": ".updateworldhud()"
     },
     {
@@ -19470,7 +19510,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldtext",
-      "community": 58,
+      "community": 52,
       "norm_label": ".createworldtext()"
     },
     {
@@ -19480,7 +19520,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_textanchor",
-      "community": 58,
+      "community": 52,
       "norm_label": "textanchor"
     },
     {
@@ -19490,7 +19530,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createworldpanel",
-      "community": 58,
+      "community": 52,
       "norm_label": ".createworldpanel()"
     },
     {
@@ -19500,7 +19540,7 @@
       "source_location": "L340",
       "_origin": "ast",
       "id": "meshrenderer",
-      "community": 58,
+      "community": 52,
       "norm_label": "meshrenderer"
     },
     {
@@ -19510,7 +19550,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_newhudmaterial",
-      "community": 58,
+      "community": 52,
       "norm_label": ".newhudmaterial()"
     },
     {
@@ -19520,7 +19560,7 @@
       "source_location": "L353",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_color",
-      "community": 64,
+      "community": 52,
       "norm_label": "color"
     },
     {
@@ -19530,7 +19570,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldtext",
-      "community": 58,
+      "community": 52,
       "norm_label": ".positionworldtext()"
     },
     {
@@ -19540,7 +19580,7 @@
       "source_location": "L365",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector3",
-      "community": 58,
+      "community": 52,
       "norm_label": "vector3"
     },
     {
@@ -19550,7 +19590,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameralocalfromviewport",
-      "community": 58,
+      "community": 52,
       "norm_label": ".cameralocalfromviewport()"
     },
     {
@@ -19560,7 +19600,7 @@
       "source_location": "L373",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_camera",
-      "community": 58,
+      "community": 52,
       "norm_label": "camera"
     },
     {
@@ -19570,7 +19610,7 @@
       "source_location": "L380",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportheight",
-      "community": 58,
+      "community": 52,
       "norm_label": ".cameraviewportheight()"
     },
     {
@@ -19580,7 +19620,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_cameraviewportwidth",
-      "community": 58,
+      "community": 52,
       "norm_label": ".cameraviewportwidth()"
     },
     {
@@ -19590,7 +19630,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_positionworldbar",
-      "community": 58,
+      "community": 52,
       "norm_label": ".positionworldbar()"
     },
     {
@@ -19610,7 +19650,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createbar",
-      "community": 64,
+      "community": 52,
       "norm_label": ".createbar()"
     },
     {
@@ -19620,7 +19660,7 @@
       "source_location": "L450",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_vector2",
-      "community": 64,
+      "community": 52,
       "norm_label": "vector2"
     },
     {
@@ -19630,7 +19670,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createtext",
-      "community": 64,
+      "community": 52,
       "norm_label": ".createtext()"
     },
     {
@@ -19640,7 +19680,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "font",
-      "community": 64,
+      "community": 52,
       "norm_label": "font"
     },
     {
@@ -19650,7 +19690,7 @@
       "source_location": "L460",
       "_origin": "ast",
       "id": "fontstyle",
-      "community": 64,
+      "community": 52,
       "norm_label": "fontstyle"
     },
     {
@@ -19660,7 +19700,7 @@
       "source_location": "L474",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_createpanel",
-      "community": 64,
+      "community": 52,
       "norm_label": ".createpanel()"
     },
     {
@@ -19670,7 +19710,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "ui_gamehud3d_gamehud3d_setrect",
-      "community": 64,
+      "community": 52,
       "norm_label": ".setrect()"
     },
     {
@@ -19680,7 +19720,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "id": "assets_scripts_ui_gamehud3d_cs_recttransform",
-      "community": 64,
+      "community": 52,
       "norm_label": "recttransform"
     },
     {
@@ -35040,7 +35080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_scriptskills",
-      "community": 180,
+      "community": 201,
       "norm_label": "scriptskills.cs"
     },
     {
@@ -35050,7 +35090,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "skills_scriptskills_unityskills",
-      "community": 180,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -35110,7 +35150,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "skills_scriptskills_batchscriptitem",
-      "community": 180,
+      "community": 201,
       "norm_label": "batchscriptitem"
     },
     {
@@ -39800,7 +39840,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_skillsauditlog",
-      "community": 202,
+      "community": 201,
       "norm_label": "skillsauditlog.cs"
     },
     {
@@ -39810,7 +39850,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_skillsauditlog_unityskills",
-      "community": 202,
+      "community": 201,
       "norm_label": "unityskills"
     },
     {
@@ -92120,7 +92160,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "adr_skill",
-      "community": 349,
+      "community": 393,
       "norm_label": "skill.md"
     },
     {
@@ -92130,7 +92170,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "adr_skill_unity_adr",
-      "community": 349,
+      "community": 393,
       "norm_label": "unity adr"
     },
     {
@@ -92140,7 +92180,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "adr_skill_output_format",
-      "community": 349,
+      "community": 393,
       "norm_label": "output format"
     },
     {
@@ -92150,7 +92190,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "adr_skill_example_use_cases",
-      "community": 349,
+      "community": 393,
       "norm_label": "example use cases"
     },
     {
@@ -92160,7 +92200,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "adr_skill_guardrails",
-      "community": 349,
+      "community": 393,
       "norm_label": "guardrails"
     },
     {
@@ -98370,7 +98410,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_ownership",
-      "community": 306,
+      "community": 58,
       "norm_label": "ownership.md"
     },
     {
@@ -98380,7 +98420,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_ownership_netcode_ownership_authority",
-      "community": 306,
+      "community": 58,
       "norm_label": "netcode - ownership & authority"
     },
     {
@@ -98390,7 +98430,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "netcode_design_ownership_role_properties",
-      "community": 306,
+      "community": 58,
       "norm_label": "role properties"
     },
     {
@@ -98400,7 +98440,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "netcode_design_ownership_permission_matrix",
-      "community": 306,
+      "community": 58,
       "norm_label": "permission matrix"
     },
     {
@@ -98410,7 +98450,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "netcode_design_ownership_distributed_authority_mode",
-      "community": 306,
+      "community": 58,
       "norm_label": "distributed authority mode"
     },
     {
@@ -98420,7 +98460,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "netcode_design_ownership_ownership_status_and_locks",
-      "community": 306,
+      "community": 58,
       "norm_label": "ownership status and locks"
     },
     {
@@ -98430,7 +98470,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "netcode_design_ownership_transferring_releasing_ownership",
-      "community": 306,
+      "community": 58,
       "norm_label": "transferring / releasing ownership"
     },
     {
@@ -98440,7 +98480,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "netcode_design_ownership_anti_patterns_vs_correct_patterns",
-      "community": 306,
+      "community": 58,
       "norm_label": "\u274c anti-patterns vs \u2705 correct patterns"
     },
     {
@@ -98450,7 +98490,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "netcode_design_ownership_1_spawning_from_the_client",
-      "community": 306,
+      "community": 58,
       "norm_label": "1. spawning from the client"
     },
     {
@@ -98460,7 +98500,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "netcode_design_ownership_2_using_isowner_inside_a_serverrpc_to_identify_the_sender",
-      "community": 306,
+      "community": 58,
       "norm_label": "2. using `isowner` inside a serverrpc to identify the sender"
     },
     {
@@ -98470,7 +98510,7 @@
       "source_location": "L107",
       "_origin": "ast",
       "id": "netcode_design_ownership_3_client_writing_a_networkvariable_directly",
-      "community": 306,
+      "community": 58,
       "norm_label": "3. client writing a networkvariable directly"
     },
     {
@@ -98480,7 +98520,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "netcode_design_ownership_4_expecting_plain_transform_position_to_sync",
-      "community": 306,
+      "community": 58,
       "norm_label": "4. expecting plain `transform.position = ...` to sync"
     },
     {
@@ -98490,7 +98530,7 @@
       "source_location": "L146",
       "_origin": "ast",
       "id": "netcode_design_ownership_5_believing_sendto_notserver_includes_the_host_s_client_half",
-      "community": 306,
+      "community": 58,
       "norm_label": "5. believing `sendto.notserver` includes the host's client half"
     },
     {
@@ -99110,7 +99150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_scene",
-      "community": 306,
+      "community": 349,
       "norm_label": "scene.md"
     },
     {
@@ -99280,7 +99320,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_skill",
-      "community": 306,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -99290,7 +99330,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "netcode_design_skill_netcode_for_gameobjects_design_rules",
-      "community": 306,
+      "community": 389,
       "norm_label": "netcode for gameobjects - design rules"
     },
     {
@@ -99300,7 +99340,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "netcode_design_skill_when_to_load_this_module",
-      "community": 306,
+      "community": 389,
       "norm_label": "when to load this module"
     },
     {
@@ -99310,7 +99350,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "netcode_design_skill_critical_rule_summary_memorize_even_if_you_skip_the_sub_docs",
-      "community": 306,
+      "community": 389,
       "norm_label": "critical rule summary (memorize even if you skip the sub-docs)"
     },
     {
@@ -99320,7 +99360,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "netcode_design_skill_sub_doc_routing",
-      "community": 306,
+      "community": 389,
       "norm_label": "sub-doc routing"
     },
     {
@@ -99330,7 +99370,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "netcode_design_skill_routing_to_other_modules",
-      "community": 306,
+      "community": 389,
       "norm_label": "routing to other modules"
     },
     {
@@ -99340,7 +99380,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "netcode_design_skill_version_scope",
-      "community": 306,
+      "community": 389,
       "norm_label": "version scope"
     },
     {
@@ -99350,7 +99390,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_design_spawning",
-      "community": 306,
+      "community": 349,
       "norm_label": "spawning.md"
     },
     {
@@ -99980,7 +100020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netcode_skill",
-      "community": 306,
+      "community": 349,
       "norm_label": "skill.md"
     },
     {
@@ -103100,7 +103140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_nodes",
-      "community": 339,
+      "community": 64,
       "norm_label": "nodes.md"
     },
     {
@@ -103110,7 +103150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_supported_nodes",
-      "community": 339,
+      "community": 64,
       "norm_label": "supported nodes"
     },
     {
@@ -103120,7 +103160,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_editable_subset",
-      "community": 339,
+      "community": 64,
       "norm_label": "editable subset"
     },
     {
@@ -103130,7 +103170,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_whitelisted_settings",
-      "community": 339,
+      "community": 64,
       "norm_label": "whitelisted settings"
     },
     {
@@ -103140,7 +103180,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_design_reading_of_the_subset",
-      "community": 339,
+      "community": 64,
       "norm_label": "design reading of the subset"
     },
     {
@@ -103150,7 +103190,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "shadergraph_design_nodes_what_not_to_recommend_as_editable_today",
-      "community": 339,
+      "community": 64,
       "norm_label": "what not to recommend as editable today"
     },
     {
@@ -103160,7 +103200,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_pitfalls",
-      "community": 339,
+      "community": 64,
       "norm_label": "pitfalls.md"
     },
     {
@@ -103280,7 +103320,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_recipes",
-      "community": 339,
+      "community": 64,
       "norm_label": "recipes.md"
     },
     {
@@ -103290,7 +103330,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_recipes",
-      "community": 339,
+      "community": 330,
       "norm_label": "recipes"
     },
     {
@@ -103300,7 +103340,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_1_basecolor_texture_sample_chain",
-      "community": 339,
+      "community": 330,
       "norm_label": "1. basecolor texture sample chain"
     },
     {
@@ -103310,7 +103350,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_2_normal_map_decode_chain",
-      "community": 339,
+      "community": 330,
       "norm_label": "2. normal map decode chain"
     },
     {
@@ -103320,7 +103360,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_3_masked_lerp_blend",
-      "community": 339,
+      "community": 330,
       "norm_label": "3. masked lerp blend"
     },
     {
@@ -103330,7 +103370,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_4_uv_tiling_offset_chain",
-      "community": 339,
+      "community": 330,
       "norm_label": "4. uv tiling/offset chain"
     },
     {
@@ -103340,7 +103380,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_5_constant_driven_color_intensity",
-      "community": 339,
+      "community": 330,
       "norm_label": "5. constant-driven color/intensity"
     },
     {
@@ -103350,7 +103390,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_6_viewdirection_edge_fresnel_style_base_chain",
-      "community": 339,
+      "community": 330,
       "norm_label": "6. viewdirection edge / fresnel-style base chain"
     },
     {
@@ -103360,7 +103400,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "shadergraph_design_recipes_7_branch_toggle_chain",
-      "community": 339,
+      "community": 330,
       "norm_label": "7. branch toggle chain"
     },
     {
@@ -103370,7 +103410,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review",
-      "community": 339,
+      "community": 64,
       "norm_label": "review.md"
     },
     {
@@ -103380,7 +103420,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_review_review_checklist",
-      "community": 339,
+      "community": 381,
       "norm_label": "review checklist"
     },
     {
@@ -103390,7 +103430,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_review_topology",
-      "community": 339,
+      "community": 381,
       "norm_label": "topology"
     },
     {
@@ -103400,7 +103440,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "shadergraph_design_review_blackboard",
-      "community": 339,
+      "community": 381,
       "norm_label": "blackboard"
     },
     {
@@ -103410,7 +103450,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "shadergraph_design_review_dataflow",
-      "community": 339,
+      "community": 381,
       "norm_label": "dataflow"
     },
     {
@@ -103420,7 +103460,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "shadergraph_design_review_cost_maintainability",
-      "community": 339,
+      "community": 381,
       "norm_label": "cost / maintainability"
     },
     {
@@ -103430,7 +103470,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "shadergraph_design_review_version_safety",
-      "community": 339,
+      "community": 381,
       "norm_label": "version safety"
     },
     {
@@ -103440,7 +103480,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "shadergraph_design_review_reject_the_plan_if",
-      "community": 339,
+      "community": 381,
       "norm_label": "reject the plan if"
     },
     {
@@ -103450,7 +103490,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_skill",
-      "community": 339,
+      "community": 64,
       "norm_label": "skill.md"
     },
     {
@@ -103460,7 +103500,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "shadergraph_design_skill_shadergraph_design_rules",
-      "community": 339,
+      "community": 390,
       "norm_label": "shadergraph - design rules"
     },
     {
@@ -103470,7 +103510,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "shadergraph_design_skill_source_scope",
-      "community": 339,
+      "community": 390,
       "norm_label": "source scope"
     },
     {
@@ -103480,7 +103520,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "shadergraph_design_skill_when_to_load",
-      "community": 339,
+      "community": 390,
       "norm_label": "when to load"
     },
     {
@@ -103490,7 +103530,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "shadergraph_design_skill_what_this_module_assumes",
-      "community": 339,
+      "community": 390,
       "norm_label": "what this module assumes"
     },
     {
@@ -103500,7 +103540,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "shadergraph_design_skill_sub_doc_routing",
-      "community": 339,
+      "community": 390,
       "norm_label": "sub-doc routing"
     },
     {
@@ -103510,7 +103550,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "shadergraph_design_skill_hard_rules",
-      "community": 339,
+      "community": 390,
       "norm_label": "hard rules"
     },
     {
@@ -103520,7 +103560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_versions",
-      "community": 339,
+      "community": 375,
       "norm_label": "versions.md"
     },
     {
@@ -103530,7 +103570,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_design_versions_version_matrix",
-      "community": 339,
+      "community": 375,
       "norm_label": "version matrix"
     },
     {
@@ -103540,7 +103580,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shadergraph_design_versions_validated_versions",
-      "community": 339,
+      "community": 375,
       "norm_label": "validated versions"
     },
     {
@@ -103550,7 +103590,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "shadergraph_design_versions_concrete_differences_that_matter",
-      "community": 339,
+      "community": 375,
       "norm_label": "concrete differences that matter"
     },
     {
@@ -103560,7 +103600,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "shadergraph_design_versions_1_template_availability_differs",
-      "community": 339,
+      "community": 375,
       "norm_label": "1. template availability differs"
     },
     {
@@ -103570,7 +103610,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "shadergraph_design_versions_2_editing_primitives_are_stable_enough_across_both_versions",
-      "community": 339,
+      "community": 375,
       "norm_label": "2. editing primitives are stable enough across both versions"
     },
     {
@@ -103580,7 +103620,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "shadergraph_design_versions_3_guidance_must_stay_inside_the_cross_version_overlap",
-      "community": 339,
+      "community": 375,
       "norm_label": "3. guidance must stay inside the cross-version overlap"
     },
     {
@@ -103590,7 +103630,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "shadergraph_design_versions_practical_portability_rules",
-      "community": 339,
+      "community": 375,
       "norm_label": "practical portability rules"
     },
     {
@@ -103600,7 +103640,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shadergraph_skill",
-      "community": 339,
+      "community": 388,
       "norm_label": "skill.md"
     },
     {
@@ -103610,7 +103650,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "shadergraph_skill_shadergraph_skills",
-      "community": 204,
+      "community": 388,
       "norm_label": "shadergraph skills"
     },
     {
@@ -103620,7 +103660,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "shadergraph_skill_operating_mode",
-      "community": 204,
+      "community": 388,
       "norm_label": "operating mode"
     },
     {
@@ -103630,7 +103670,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "shadergraph_skill_reflection_fragility",
-      "community": 204,
+      "community": 388,
       "norm_label": "reflection fragility"
     },
     {
@@ -103640,7 +103680,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "shadergraph_skill_guardrails",
-      "community": 204,
+      "community": 388,
       "norm_label": "guardrails"
     },
     {
@@ -103890,7 +103930,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "shadergraph_skill_workflow",
-      "community": 204,
+      "community": 388,
       "norm_label": "workflow"
     },
     {
@@ -103900,7 +103940,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "shadergraph_skill_exact_signatures",
-      "community": 204,
+      "community": 388,
       "norm_label": "exact signatures"
     },
     {
@@ -105430,7 +105470,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_asyncenumerable",
-      "community": 349,
+      "community": 59,
       "norm_label": "asyncenumerable.md"
     },
     {
@@ -105590,7 +105630,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_basics",
-      "community": 349,
+      "community": 59,
       "norm_label": "basics.md"
     },
     {
@@ -105700,7 +105740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_cancellation",
-      "community": 349,
+      "community": 59,
       "norm_label": "cancellation.md"
     },
     {
@@ -105850,7 +105890,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_composition",
-      "community": 349,
+      "community": 59,
       "norm_label": "composition.md"
     },
     {
@@ -105980,7 +106020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_conversion",
-      "community": 349,
+      "community": 59,
       "norm_label": "conversion.md"
     },
     {
@@ -106110,7 +106150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_pitfalls",
-      "community": 349,
+      "community": 59,
       "norm_label": "pitfalls.md"
     },
     {
@@ -106440,7 +106480,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_playerloop",
-      "community": 349,
+      "community": 59,
       "norm_label": "playerloop.md"
     },
     {
@@ -106560,7 +106600,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_skill",
-      "community": 349,
+      "community": 59,
       "norm_label": "skill.md"
     },
     {
@@ -106570,7 +106610,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "unitask_design_skill_unitask_design_rules",
-      "community": 330,
+      "community": 59,
       "norm_label": "unitask - design rules"
     },
     {
@@ -106580,7 +106620,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "unitask_design_skill_when_to_load_this_module",
-      "community": 330,
+      "community": 59,
       "norm_label": "when to load this module"
     },
     {
@@ -106590,7 +106630,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "unitask_design_skill_critical_rule_summary",
-      "community": 330,
+      "community": 59,
       "norm_label": "critical rule summary"
     },
     {
@@ -106600,7 +106640,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "unitask_design_skill_sub_doc_routing",
-      "community": 330,
+      "community": 59,
       "norm_label": "sub-doc routing"
     },
     {
@@ -106610,7 +106650,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "unitask_design_skill_routing_to_other_modules",
-      "community": 330,
+      "community": 59,
       "norm_label": "routing to other modules"
     },
     {
@@ -106620,7 +106660,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "unitask_design_skill_version_scope",
-      "community": 330,
+      "community": 59,
       "norm_label": "version scope"
     },
     {
@@ -106630,7 +106670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "unitask_design_triggers",
-      "community": 349,
+      "community": 59,
       "norm_label": "triggers.md"
     },
     {
@@ -106640,7 +106680,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "unitask_design_triggers_unitask_triggers",
-      "community": 321,
+      "community": 59,
       "norm_label": "unitask triggers"
     },
     {
@@ -106650,7 +106690,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "unitask_design_triggers_core_types",
-      "community": 321,
+      "community": 59,
       "norm_label": "core types"
     },
     {
@@ -106660,7 +106700,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_1_getcancellationtokenondestroy",
-      "community": 321,
+      "community": 59,
       "norm_label": "pattern 1 \u2014 `getcancellationtokenondestroy`"
     },
     {
@@ -106670,7 +106710,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_2_ondestroyasync_awaitable_lifecycle",
-      "community": 321,
+      "community": 59,
       "norm_label": "pattern 2 \u2014 `ondestroyasync` (awaitable lifecycle)"
     },
     {
@@ -106680,7 +106720,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_3_getasync_trigger_oncollisionenterasync_etc",
-      "community": 321,
+      "community": 59,
       "norm_label": "pattern 3 \u2014 `getasync*trigger()` + `oncollisionenterasync` etc."
     },
     {
@@ -106690,7 +106730,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "unitask_design_triggers_pattern_4_ui_events_ugui",
-      "community": 321,
+      "community": 59,
       "norm_label": "pattern 4 \u2014 ui events (ugui)"
     },
     {
@@ -106700,7 +106740,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "unitask_design_triggers_how_triggers_manage_lifetime",
-      "community": 321,
+      "community": 59,
       "norm_label": "how triggers manage lifetime"
     },
     {
@@ -106710,7 +106750,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "unitask_design_triggers_null_checks_and_fake_null",
-      "community": 321,
+      "community": 59,
       "norm_label": "null checks and fake-null"
     },
     {
@@ -106720,7 +106760,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "unitask_design_triggers_triggers_checklist",
-      "community": 321,
+      "community": 59,
       "norm_label": "triggers checklist"
     },
     {
@@ -109990,7 +110030,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "yooasset_design_skill_yooasset_design_rules",
-      "community": 375,
+      "community": 349,
       "norm_label": "yooasset - design rules"
     },
     {
@@ -110000,7 +110040,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "yooasset_design_skill_when_to_load_this_module",
-      "community": 375,
+      "community": 349,
       "norm_label": "when to load this module"
     },
     {
@@ -110010,7 +110050,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "yooasset_design_skill_critical_rule_summary_memorize_even_if_you_skip_the_sub_docs",
-      "community": 375,
+      "community": 349,
       "norm_label": "critical rule summary (memorize even if you skip the sub-docs)"
     },
     {
@@ -110020,7 +110060,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "yooasset_design_skill_sub_doc_routing",
-      "community": 375,
+      "community": 349,
       "norm_label": "sub-doc routing"
     },
     {
@@ -110030,7 +110070,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "yooasset_design_skill_routing_to_other_modules",
-      "community": 375,
+      "community": 349,
       "norm_label": "routing to other modules"
     },
     {
@@ -110040,7 +110080,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "yooasset_design_skill_version_scope",
-      "community": 375,
+      "community": 349,
       "norm_label": "version scope"
     },
     {
@@ -110050,7 +110090,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "yooasset_design_skill_migration_notes_hallucination_shield",
-      "community": 375,
+      "community": 349,
       "norm_label": "migration notes (hallucination shield)"
     },
     {
@@ -114775,9 +114815,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L533",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampmaterials",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampmaterials"
     },
     {
       "relation": "contains",
@@ -114785,9 +114825,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass"
     },
     {
       "relation": "references",
@@ -114796,9 +114836,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_string",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_string"
     },
     {
       "relation": "method",
@@ -114806,9 +114846,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L375",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial"
     },
     {
       "relation": "method",
@@ -114816,9 +114856,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L381",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight"
     },
     {
       "relation": "method",
@@ -114826,8 +114866,18 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configuretexturedmaterial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configuretexturedmaterial"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L409",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
       "confidence_score": 1.0
     },
     {
@@ -114836,8 +114886,18 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L268",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L384",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
       "confidence_score": 1.0
     },
     {
@@ -114846,9 +114906,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines"
     },
     {
       "relation": "method",
@@ -114856,9 +114916,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L288",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder"
     },
     {
       "relation": "method",
@@ -114866,9 +114926,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L298",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween"
     },
     {
       "relation": "method",
@@ -114876,9 +114936,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L421",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial"
     },
     {
       "relation": "method",
@@ -114886,9 +114946,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog"
     },
     {
       "relation": "method",
@@ -114896,9 +114956,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials"
     },
     {
       "relation": "method",
@@ -114906,8 +114966,18 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L340",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
       "confidence_score": 1.0
     },
     {
@@ -114916,9 +114986,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L245",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum"
     },
     {
       "relation": "method",
@@ -114926,9 +114996,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes"
     },
     {
       "relation": "method",
@@ -114936,9 +115006,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L278",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere"
     },
     {
       "relation": "method",
@@ -114946,9 +115016,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L399",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial"
     },
     {
       "relation": "method",
@@ -114956,9 +115026,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L217",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants"
     },
     {
       "relation": "method",
@@ -114966,8 +115036,18 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L277",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
       "confidence_score": 1.0
     },
     {
@@ -114976,9 +115056,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L410",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial"
     },
     {
       "relation": "method",
@@ -114986,9 +115066,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L473",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensurefolder",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensurefolder"
     },
     {
       "relation": "method",
@@ -114996,9 +115076,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L334",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc"
     },
     {
       "relation": "method",
@@ -115006,9 +115086,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L323",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "method",
@@ -115016,9 +115096,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L311",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive"
     },
     {
       "relation": "method",
@@ -115026,9 +115106,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate"
     },
     {
       "relation": "method",
@@ -115036,9 +115116,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_improveexistingswampmaterials",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_improveexistingswampmaterials"
     },
     {
       "relation": "method",
@@ -115046,9 +115126,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L435",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial"
     },
     {
       "relation": "method",
@@ -115056,9 +115136,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L393",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider"
     },
     {
       "relation": "method",
@@ -115066,9 +115146,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L449",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque"
     },
     {
       "relation": "method",
@@ -115076,9 +115156,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L461",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_settransparent",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_settransparent"
     },
     {
       "relation": "references",
@@ -115087,8 +115167,30 @@
       "source_location": "L13",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_menuitem",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_menuitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
       "confidence_score": 1.0
     },
     {
@@ -115098,9 +115200,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines"
     },
     {
       "relation": "calls",
@@ -115109,9 +115211,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog"
     },
     {
       "relation": "calls",
@@ -115120,9 +115222,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials"
     },
     {
       "relation": "calls",
@@ -115131,8 +115233,19 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
       "confidence_score": 1.0
     },
     {
@@ -115142,9 +115255,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum"
     },
     {
       "relation": "calls",
@@ -115153,9 +115266,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes"
     },
     {
       "relation": "calls",
@@ -115164,9 +115277,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants"
     },
     {
       "relation": "calls",
@@ -115175,8 +115288,19 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
       "confidence_score": 1.0
     },
     {
@@ -115186,9 +115310,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensurefolder",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensurefolder"
     },
     {
       "relation": "calls",
@@ -115197,9 +115321,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -115208,9 +115332,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_generate",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_improveexistingswampmaterials",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_improveexistingswampmaterials"
     },
     {
       "relation": "calls",
@@ -115219,9 +115343,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial"
     },
     {
       "relation": "calls",
@@ -115230,9 +115354,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial"
     },
     {
       "relation": "calls",
@@ -115241,9 +115365,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial"
     },
     {
       "relation": "references",
@@ -115252,9 +115376,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_creatematerials",
-      "target": "swampmaterials",
-      "confidence_score": 1.0
+      "target": "swampmaterials"
     },
     {
       "relation": "calls",
@@ -115263,9 +115387,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_improveexistingswampmaterials",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configuretexturedmaterial",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configuretexturedmaterial"
     },
     {
       "relation": "references",
@@ -115274,9 +115398,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115285,9 +115409,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "calls",
@@ -115296,9 +115420,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox"
     },
     {
       "relation": "calls",
@@ -115307,8 +115431,19 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createlowfog",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L409",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
       "confidence_score": 1.0
     },
     {
@@ -115318,7 +115453,18 @@
       "source_location": "L268",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L384",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
       "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
       "confidence_score": 1.0
     },
@@ -115329,9 +115475,9 @@
       "source_location": "L170",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115340,9 +115486,9 @@
       "source_location": "L288",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115351,9 +115497,9 @@
       "source_location": "L298",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115362,7 +115508,18 @@
       "source_location": "L124",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L340",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
       "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
       "confidence_score": 1.0
     },
@@ -115373,9 +115530,9 @@
       "source_location": "L245",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115384,9 +115541,9 @@
       "source_location": "L152",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115395,9 +115552,9 @@
       "source_location": "L278",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115406,9 +115563,9 @@
       "source_location": "L217",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115417,7 +115574,18 @@
       "source_location": "L202",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L277",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
       "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
       "confidence_score": 1.0
     },
@@ -115428,9 +115596,9 @@
       "source_location": "L323",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115439,9 +115607,9 @@
       "source_location": "L311",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_transform",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_transform"
     },
     {
       "relation": "references",
@@ -115450,9 +115618,9 @@
       "source_location": "L545",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampmaterials",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115461,7 +115629,18 @@
       "source_location": "L375",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L409",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
       "target": "assets_editor_swampprofessionalvisualpass_cs_material",
       "confidence_score": 1.0
     },
@@ -115472,7 +115651,18 @@
       "source_location": "L268",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L384",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
       "target": "assets_editor_swampprofessionalvisualpass_cs_material",
       "confidence_score": 1.0
     },
@@ -115483,9 +115673,9 @@
       "source_location": "L170",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115494,9 +115684,9 @@
       "source_location": "L288",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115505,9 +115695,9 @@
       "source_location": "L298",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115516,9 +115706,9 @@
       "source_location": "L421",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115527,7 +115717,18 @@
       "source_location": "L124",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L340",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
       "target": "assets_editor_swampprofessionalvisualpass_cs_material",
       "confidence_score": 1.0
     },
@@ -115538,9 +115739,9 @@
       "source_location": "L245",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115549,9 +115750,9 @@
       "source_location": "L152",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115560,9 +115761,9 @@
       "source_location": "L278",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115571,9 +115772,9 @@
       "source_location": "L399",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115582,9 +115783,9 @@
       "source_location": "L217",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115593,7 +115794,18 @@
       "source_location": "L202",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L277",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
       "target": "assets_editor_swampprofessionalvisualpass_cs_material",
       "confidence_score": 1.0
     },
@@ -115604,9 +115816,9 @@
       "source_location": "L410",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115615,9 +115827,9 @@
       "source_location": "L435",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115626,9 +115838,9 @@
       "source_location": "L449",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "references",
@@ -115637,9 +115849,9 @@
       "source_location": "L461",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_settransparent",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_material",
-      "confidence_score": 1.0
+      "target": "assets_editor_swampprofessionalvisualpass_cs_material"
     },
     {
       "relation": "calls",
@@ -115648,9 +115860,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc"
     },
     {
       "relation": "calls",
@@ -115659,9 +115871,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L126",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createmirepatches",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -115670,9 +115882,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween"
     },
     {
       "relation": "calls",
@@ -115681,9 +115893,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createrootsilhouettes",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -115692,9 +115904,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L194",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight"
     },
     {
       "relation": "calls",
@@ -115703,9 +115915,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder"
     },
     {
       "relation": "calls",
@@ -115714,9 +115926,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween"
     },
     {
       "relation": "calls",
@@ -115725,9 +115937,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere"
     },
     {
       "relation": "calls",
@@ -115736,9 +115948,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcoldcandleshrines",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -115747,9 +115959,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L213",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight"
     },
     {
       "relation": "calls",
@@ -115758,9 +115970,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L212",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere"
     },
     {
       "relation": "calls",
@@ -115769,9 +115981,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L204",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createswampmotes",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -115780,9 +115992,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox"
     },
     {
       "relation": "calls",
@@ -115791,9 +116003,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween"
     },
     {
       "relation": "calls",
@@ -115802,9 +116014,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstoryremnants",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
     },
     {
       "relation": "calls",
@@ -115813,9 +116025,9 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L263",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "confidence_score": 1.0
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc"
     },
     {
       "relation": "calls",
@@ -115824,305 +116036,41 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L247",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createriverscum",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L296",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L279",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createterrainbiomestructure",
       "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L268",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L268",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L273",
+      "source_location": "L367",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L270",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L274",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L288",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L298",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L278",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L375",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L381",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L288",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L298",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L278",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L334",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L323",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L311",
-      "weight": 1.0,
-      "context": "return_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L393",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L283",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L280",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L284",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L293",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L290",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L294",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L306",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L300",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L307",
-      "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L311",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_primitivetype",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
       "confidence_score": 1.0
     },
     {
@@ -116132,52 +116080,8 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L372",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L381",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_color",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L421",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_color",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L399",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_color",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L410",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
-      "target": "assets_editor_swampprofessionalvisualpass_cs_color",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
       "confidence_score": 1.0
     },
     {
@@ -116185,10 +116089,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L401",
+      "source_location": "L379",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
       "confidence_score": 1.0
     },
     {
@@ -116196,10 +116100,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L405",
+      "source_location": "L342",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createreedbeds",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
       "confidence_score": 1.0
     },
     {
@@ -116207,10 +116111,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L412",
+      "source_location": "L400",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
       "confidence_score": 1.0
     },
     {
@@ -116218,10 +116122,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L416",
+      "source_location": "L404",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_settransparent",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
       "confidence_score": 1.0
     },
     {
@@ -116229,10 +116133,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
-      "source_location": "L423",
+      "source_location": "L386",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbrokenwalkways",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
       "confidence_score": 1.0
     },
     {
@@ -116242,9 +116146,449 @@
       "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
       "source_location": "L430",
       "weight": 1.0,
-      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
-      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque",
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L417",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L411",
+      "weight": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbackgroundcanopy",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L268",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L268",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L270",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L274",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createbox",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L288",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L298",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L278",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_vector3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L375",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L381",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L288",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L298",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L278",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L334",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L323",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreate",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L311",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L393",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_gameobject"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L283",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L280",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L284",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createsphere",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L293",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L290",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L294",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinder",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L306",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_assignmaterial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L300",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L307",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createcylinderbetween",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L311",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_findorcreateprimitive",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_primitivetype"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L372",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_ensureirregulardisc",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_removecollider"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L381",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_configureoptionallight",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_color"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L421",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_color"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L399",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_color"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L410",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
+      "target": "assets_editor_swampprofessionalvisualpass_cs_color"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L401",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L405",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createstandardmaterial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L412",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L416",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createtransparentmaterial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_settransparent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L423",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_loadorcreatematerial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Assets/Editor/SwampProfessionalVisualPass.cs",
+      "source_location": "L430",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_createemissivematerial",
+      "target": "editor_swampprofessionalvisualpass_swampprofessionalvisualpass_setopaque"
     },
     {
       "relation": "contains",
@@ -289438,5 +289782,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "56921cb2e5435d0f474f9c4b9742720361b9b141"
+  "built_at_commit": "f593b7d627fc15a9c4f61a1c065fb3480a9f850f"
 }
